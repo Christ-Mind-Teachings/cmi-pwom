@@ -2,24 +2,28 @@
 title: "Rozdział ósmy"
 ---
 
+<div markdown="1" class="chHead">
 ## Rozdział ósmy
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
-> *Kiedy uwolnisz się od  swego Snu*<br>
-> *–  który jest całkowicie niepoczytalny –*<br>
-> *pozostanie jedynie*<br>
-> *Rzeczywistość tego, kim jesteś.*
+*Kiedy uwolnisz się od  swego Snu*<br>
+*–  który jest całkowicie niepoczytalny –*<br>
+*pozostanie jedynie*<br>
+*Rzeczywistość tego, kim jesteś.*
+{: .omit}
 
-
+</div>
 
 16 grudnia 1988  r.
+{: .omit}
 
 W  ciągu tych paru ostatnich miesięcy były takie momenty, kiedy odczuwałem dużą jasność, nie tylko w  kwestii książki, ale i  samego Jeszuy. W  takich chwilach nie można robić nic innego, jak tylko składać dziękczynienie. Zamiast dojeżdżać do  pracy zatłoczonymi autostradami, spędzam czas ciesząc się spokojem i  ciszą mego domu i  pozwalając, by  rękopis nabierał kształtu wokół przesłań Jeszuy.
 
 Ale są też inne chwile, chwile obaw, kwestionowania, wątpienia, gdy jestem przekonany – no, prawie przekonany – że to  wszystko musi być szaleństwem.
 
-Zawsze, kiedy ustępuje tyrada samokrytycyzmu, przychodzi i  mówi do  mnie cichy głos, słyszany jedynie, gdy wybieram wyciszenie w  sobie. Jest on ze  mną zawsze, zapewniając mnie, że wszystko jest tak, jak ma  być, przypominając mi, że moim zadaniem  jest ufać.
+Zawsze, kiedy ustępuje tyrada samokrytycyzmu, przychodzi i  mówi do  mnie cichy głos, słyszany jedynie, gdy wybieram wyciszenie w  sobie. Jest on ze  mną zawsze, zapewniając mnie, że wszystko jest tak, jak ma  być, przypominając mi, że moim zadaniem jest ufać.
 
 W  zeszłym tygodniu w  trakcie jednego z  tych napadów lęku spowodowanego takimi drobnostkami, jak opłata czynszu, czy zakupy żywności, wysłałem wszechświatowi myśl, że po  prostu nie potrafię tego robić w  ten sposób, że mimo wszystko nie jestem dobry w  rzucaniu się z  klifu. Czy gdzieś tam nie ma  dla mnie jakiejś miłej, wygodnej pracy? Następnego ranka zadzwonił telefon, a  ja  odebrałem go i  otrzymałem właśnie taką ofertę pracy! Moim pierwszym – być może nawykowym – odruchem w  tej sytuacji było uchwycenie się tego szybko, zanim lina ratunkowa zostanie wciągnięta. Coś mnie jednak skłoniło, bym się zatrzymał. Przeprosiłem, mówiąc, że potrzebuję czasu, żeby się nad tą ofertą zastanowić.
 
@@ -49,7 +53,8 @@ Spędziłem wieczór na  oglądaniu telewizji, tego wielkiego boga kultury, wiec
 
 Wydaje się to  tak jasne, tak proste! A  jednak ślad czegoś we  mnie ciągle się opiera. Oddzielenie i  wszystko, co  się z  nim wiąże – gdzie jest ten przycisk i  jak go wyłączyć? Jak zmienić kanał? Jak ostatecznie i  nieodwołalnie uwolnić się od  pakietu z  etykietą „Sen”? Czy jestem pewien, że tego chcę?
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 *Marc, proszę wstań i  pisz*.
 

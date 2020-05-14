@@ -2,15 +2,21 @@
 title: "Rozdział dwunasty"
 ---
 
+<div markdown="1" class="chHead">
 ## Rozdział dwunasty
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
-> *Zaufanie, powtórzmy, jest niezbędne.*<br>
-> *Jest ono również twą ostateczną lekcją*<br>
-> *w  polu czasu.*
+*Zaufanie, powtórzmy, jest niezbędne.*<br>
+*Jest ono również twą ostateczną lekcją*<br>
+*w  polu czasu.*
+{: .omit}
+
+</div>
 
 15 marca 1989  r.
+{: .omit}
 
 –  Co  u  ciebie? – pyta Kendra.
 
@@ -42,7 +48,8 @@ Kendra się śmieje, ale ja  nie.
 
 Na  tym kończymy rozmowę i  schodzę do  biura.
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 Gdy łagodnie zamykam za  sobą drzwi, biorę głęboki wdech. Zwykle uwielbiam przychodzić do  tego małego pokoju mieszczącego się w  domu, który znalazłem tak szybko po  swoim powrocie z  Maui. Mam tutaj spokój jak w  klasztornej celi. Lecz dzisiaj przytłacza mnie on, jak gdyby napierały na  mnie ściany.
 
@@ -135,7 +142,8 @@ Mój umysł, oddech i  całe ciało zostają wtłoczone w  bezruch ciszy.
 
 *Nie lękaj się.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 Jego energia zanika. Staję się świadomy stłumionych odgłosów nade mną. Głosów, śmiechów.
 
@@ -180,7 +188,8 @@ Wydaje się, że nie jestem jeszcze w  stanie wstać i  chodzić. Nogi mam jak z
 
 Biorę list i  patrzę, jak Kendra wychodzi. Cokolwiek się wydarzyło, wyraźnie to  nią wstrząsnęło.
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 Wszystko nadal wibruje. Jeśli bym nie wiedział, co  się stało, myślałbym, że właśnie wziąłem kilka działek LSD. Tyle że od  czasu, gdy tego próbowałem po  powrocie z  Wietnamu, minęło wiele lat.
 

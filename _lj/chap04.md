@@ -2,17 +2,23 @@
 title: "Rozdział czwarty"
 ---
 
+<div markdown="1" class="chHead">
 ## Rozdział czwarty
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
-> *Nie istnieje nic,<br>
->  absolutnie nic,<br>
->  co  mógłbyś stworzyć,<br>
->  a  co  nie byłoby wyrazem<br>
->  twej tęsknoty za  przebudzeniem.*
+*Nie istnieje nic,<br>
+ absolutnie nic,<br>
+ co  mógłbyś stworzyć,<br>
+ a  co  nie byłoby wyrazem<br>
+ twej tęsknoty za  przebudzeniem.*
+{: .omit}
+
+</div>
 
 9 grudnia 1987  r.
+{: .omit}
 
 A  więc jestem tutaj. Wprowadziłem się do  swojego mieszkania. Jest dokładnie takie, jak trzeba. I  nawet w  kuchni mogę spoglądać ponad dachami domów na  zatokę Commencement bez przerywania mycia naczyń! Przez ostatni tydzień czerpałem radość z  powrotów do  domu wieczorem i  siedzenia na  moim jedynym krześle przy wychodzącym na  przystań oknie jadalni. W  ten weekend odbiorę bardzo starą i  zużytą kanapę i  fotel, rodzaj antyków z  dużymi, bogato tapicerowanymi podłokietnikami, wysokimi, zaokrąglonymi oparciami i  drewnianymi, ręcznie rzeźbionymi nogami. Teraz, gdy już przywykłem do  prostoty tego miejsca, z  tym nowym nabytkiem będzie się ono wydawało zagracone.
 
@@ -184,9 +190,11 @@ jak zareagujesz na  to, co  stworzyłeś?*
 
 *Amen.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 17 grudnia 1987  r.
+{: .omit}
 
 To  jest jeden z  tych dni. Bardzo pracowity, zbyt pracowity! Dzień w  stylu: „Chyba zapomniałem zjeść obiad, a  zresztą kto ma  czas na  takie rzeczy?”. Przyspieszam, wyprzedzając samochody to  z  jednej, to  z  drugiej strony i  przejeżdżam na  światłach w  momencie, gdy te już zmieniają się na  czerwone. Wjeżdżam pędem pod okienko bankowe dla zmotoryzowanych w  chwili, gdy już jest zamykane. Uśmiecham się błagalnie do  kasjerki, która waha się przez moment, jednak odwzajemnia mój uśmiech i  otwiera okienko, by  mnie obsłużyć.
 
@@ -231,7 +239,8 @@ Obie strony, każde słowo każdego wersetu jest w  kolorze czerwonym. Następni
 
 [^3]:Angielskie słowo „beam” oznacza zarówno „belkę”, jak i „snop światła” – przyp.tłum.
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co  tkwi w  czyimś oku i  przeszkadza w  widzeniu. Lecz czuję, że nie jest to  właściwy obraz. Następnie obraz się zmienia i  widzę snop światła emitowany z  oczu jednej osoby w  stronę drugiej. Światło jest wielokolorowe. Czuję, że coś załapałem.
 
@@ -282,9 +291,11 @@ Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co
 
 *Amen.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 18 grudnia 1987  r.
+{: .omit}
 
 Skończyłem właśnie jeść późną kolację i  rozkoszuję się myślą, że za  chwilę po  prostu usiądę w  bujanym fotelu i  będę spoglądał na  zatokę i  statki, obserwując jak ostatnie ślady zmierzchu ustępują miejsca nocy, i popijając filiżankę gorącej czekolady, jak gdyby było to  jedyne doznanie, jakiego można doświadczać w  całym wszechświecie. Ale nie dzisiaj.
 
@@ -457,9 +468,11 @@ Otwieram niechętnie oczy, przez chwilę obawiając się, że utracę z  Nim ł�
 
 *Amen.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 20 grudnia 1987  r.
+{: .omit}
 
 *Teraz zaczynamy.*
 
@@ -585,9 +598,11 @@ Kto nie oddaje czci Synowi, nie oddaje czci Ojcu, który Go posłał”.
 
 *Amen.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 22 grudnia 1987  r.
+{: .omit}
 
 *Teraz zaczynamy.*
 
@@ -709,7 +724,8 @@ Kto nie oddaje czci Synowi, nie oddaje czci Ojcu, który Go posłał”.
 
 *Amen.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 Nie potrafię opisać tego, co  czuję. Może niczego nie czuję. Energia Jeszuy nigdy nie była tak potężna, tak bezpośrednia, tak bezceremonialna. Czuję się tak, jak gdybym nie mógł niczym poruszyć ani o  niczym pomyśleć. Jednak uświadamiam sobie, że część mnie jest tym przerażona.
 
@@ -750,9 +766,11 @@ Nagle znów czuję tę zmianę w  energii:
 
 *Amen.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 26 grudnia 1987  r.
+{: .omit}
 
 *Dobry wieczór, Marc.*
 
@@ -959,9 +977,11 @@ Nagle znów czuję tę zmianę w  energii:
 
 *Amen.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 28 grudnia 1987  r.
+{: .omit}
 
 *Teraz zaczynamy.*
 
@@ -1062,9 +1082,11 @@ pradawnej pamięci, kiedy człowiek chodził w  Bogu*<br>
 
 *Amen.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 29 grudnia 1987  r.
+{: .omit}
 
 Coś się dzieje głęboko we  mnie. Jakieś poruszenie, ruch zaczynający się w  miejscu tak głęboko wewnątrz mnie, że odczuwam to  tak, jakbym w  swym własnym domu odkrył całkiem nowe pomieszczenie. Jest to  jak wstrząs i  drganie, które czuję, że chce rosnąć.
 

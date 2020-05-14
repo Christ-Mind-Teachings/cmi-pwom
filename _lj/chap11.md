@@ -2,13 +2,18 @@
 title: "Rozdział jedenasty"
 ---
 
+<div markdown="1" class="chHead">
 ## Rozdział jedenasty
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
-> *Czekają tam starzy przyjaciele*<br>
-> *i  Ja  przychodzę z  tobą,*<br>
-> *by  ich ponownie do  Siebie przywołać.*
+*Czekają tam starzy przyjaciele*<br>
+*i  Ja  przychodzę z  tobą,*<br>
+*by  ich ponownie do  Siebie przywołać.*
+{: .omit}
+
+</div>
 
 Gdy opuszczam halę przylotów, uderzają mnie słodkie, wspaniałe zapachy Maui, wyspy o  kształcie serca. Przymykam oczy i  głęboko oddychając chłonę ten odurzający zapach. To  wystarczy, bym poczuł wzruszenie do  łez. Czy to  jest w  porządku, by  wyspę uznawać za  najcenniejszą ze  swych miłości?
 
@@ -26,7 +31,8 @@ Czy jest na  to  jakieś lekarstwo?
 
 Głód! Dzięki Bogu! Zawsze mogę liczyć na  to, że mój apetyt posłuży mi  jako rozproszenie, gdy takowego potrzebuję! Niedaleko lotniska w  Wailuku jest wspaniały niewielki sklep ze  zdrową żywnością, który nazywa się „Stąpając po  ziemi”. O  tak, przydałoby mi  się tego trochę!
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 Zapłaciwszy za  sałatę i  sok z  marchwi, odwracam się w  stronę drzwi wyjściowych, gdy nagle mój wzrok pada na  stos czasopism na  końcu lady. Wygląda to  na  jakieś lokalne czasopismo, więc wrzucam jedną gazetę do  torby i  kieruję się – gdzieżby indziej? – na  plażę.
 
@@ -48,7 +54,8 @@ W  tym momencie moją uwagę przyciąga małe ogłoszenie na  dole strony. Tak n
 
 Wykonanie do  niej telefonu z  budki telefonicznej i  umówienie się na  jutrzejsze spotkanie zajęło mi  mniej niż dziesięć minut. Po  prostu wiem, że Sara będzie osobą, która przekuje *Listy Jeszuy* w  formę. A  to  wszystko zanim jeszcze dotarłem do  swego mieszkania na  Maui!
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 Sara jest całkowicie skupiona, gdy czyta stronę za  stroną. Nie zauważam niczego, co  mogłoby mi  powiedzieć, czy podoba jej się to, czy nie. Odwraca strony trochę szybciej, co  być może oznacza, że traci zainteresowanie. Tak, jestem pewien, że to  musi być to. Wiedziałem. To  tylko mój fantazjujący umysł znów spłatał  mi  figla.
 
@@ -96,7 +103,8 @@ Wkrótce będę dzwonił do  kompletnie nieznanej mi  osoby, mówiąc coś w  ro
 
 O  Boże! Muszę opowiedzieć o  tym całkowicie obcemu człowiekowi. Jedną rzeczą było pozwolić Sarze przeczytać rękopis. Przynajmniej zyskałem do  niego trochę dystansu! Ale teraz muszę niczym akwizytor zadzwonić bez zapowiedzi do  nieznajomego i  przyznać się do  wszystkiego. Rany, ale potrzebuję teraz iść popływać. Zastanawiam się, jak daleko będzie stąd  do  Tacomy?
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 –  Aloha! Mówi Alan!
 
@@ -130,13 +138,14 @@ Alan się śmieje: – Ona już skradła twe serce, prawda?
 
 Powiedzieć „tak” radości? Naprawdę? W  pełni? To  jest w  porządku? To  rzeczywiście działa?
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 Moja rozmowa z  Alanem się kończy. Jakoś nie mogłem się zmusić, by  powiedzieć mu o  jednej drobnej rzeczy, o  tym, że Jeszua mówił, iż to  Alan napisze słowo wstępne do  książki. No, ale przecież to  była nasza pierwsza „randka”!
 
 Odkładam słuchawkę, wychodzę na  zewnątrz i  siadam na  trawie. Zbliża się czas zachodu słońca. Wiejący pasat słabnie i  przechodzi w  podmuchy delikatnej pieszczoty. Słońce pysznie, prawie erotycznie, subtelnie gładzi moją twarz i  ramiona. Kardynał[^4] sfruwa na  trawę obok, przyglądając się, czy nie mam czegoś do  jedzenia.
 
-[^4]:„Kardynał – ptak północno-amerykański, którego samiec ma jasnoczerwony kolor – przyp.tłum.”
+[^4]: „Kardynał – ptak północno-amerykański, którego samiec ma jasnoczerwony kolor – przyp.tłum.”
 
 Fragmenty z książki: Jayem. „Listy Jeszuy”. Apple Books. 
 
@@ -160,7 +169,8 @@ I  jak za  pstryknięciem palców jeden kluczowy moment mego życia eksploduje w
 
 Nie ma  odpowiedzi i  po  chwili znów jestem żołnierzem ze  wzmożoną czujnością wobec niebezpieczeństwa kryjącego się tam, w  dżungli. Komar przywraca mnie do  teraźniejszości. Uderzając w  niego dłonią, uświadamiam sobie, że to  właśnie był ostatni moment jego życia. Całkiem zapomniałem o  tamtym momencie w  Wietnamie. Został przykryty lawiną wydarzeń pozostałej części owego roku i  wszystkich lat, które minęły od  tamtego czasu.
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 Maui układa się na  spotkanie z  nadchodzącą nocą, lecz powietrze jest nadal tak łagodne i  słodkie. Ależ to  piękne! Podrywam się na  nogi.
 
@@ -242,7 +252,8 @@ Myślę, że zacząłem nową pracę, ale nie pamiętam, kiedy podpisałem umow�
 
 „I  to  by  było na  tyle, jeśli chodzi o  mieszkanie na  Maui…” – z  tą myślą obracam się i  zapadam w  bardzo, bardzo głęboki sen.
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 –  Co  zrobiłaś?!
 

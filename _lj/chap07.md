@@ -2,19 +2,23 @@
 title: "Rozdział siódmy"
 ---
 
+<div markdown="1" class="chHead">
 ## Rozdział siódmy
 
-![znaczek](../img/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
-> *Nie tak jak daje świat,*<br>
-> *Ja  wam daję.*<br>
-> *Jednak moje dawanie jest tylko*<br>
-> *twoim dawaniem sobie samemu.*<br>
-> *Kiedy dokonasz wyboru, by  to  zaakceptować?*
+*Nie tak jak daje świat,*<br>
+*Ja  wam daję.*<br>
+*Jednak moje dawanie jest tylko*<br>
+*twoim dawaniem sobie samemu.*<br>
+*Kiedy dokonasz wyboru, by  to  zaakceptować?*
+{: .omit}
 
-
+</div>
 
 17 sierpnia 1988  r.
+{: .omit}
 
 –  Właśnie dzwonił do  mnie Wayne.
 
@@ -65,7 +69,8 @@ Niczego nie straciłem. Nie straciłem żadnej pracy, żadnych tantiemów, żadn
 
 W  momencie, gdy przenika mnie pełna tego świadomość, dzwoni telefon.
 
-![znaczek](../img/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 –  Halo?
 
@@ -141,7 +146,8 @@ Tak, czy inaczej, zdobyłem jej nazwisko, numer telefonu i  zadzwoniłem do  nie
 
 Nasza rozmowa dobiega końca. Kendra wspiera mnie bezwarunkowo i  nalega, bym jej o  wszystkim opowiedział po  wizycie u  „tej mistycznej damy”.
 
-![znaczek](../img/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 Jestem piętnaście minut przed czasem, więc przejeżdżam wolno obok okazałej, starej posiadłości – zwanej obecnie Gethsemane –  która jest zarazem domem, jak i  centrum nauczania Elizabeth Burrows. Pudełko ze  spisanymi przesłaniami leży na  siedzeniu obok mnie, lecz pojawia mi  się myśl, żeby jej tego nie pokazywać. Nie tyle chcę jej opowiadać o  swoich doświadczeniach, co  usłyszeć jej historię. Ja  się na  razie nie będę ujawniał.
 
@@ -188,7 +194,8 @@ Potężny przepływ energii płynie w  górę kręgosłupa, eksplodując zalewem
 
 Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość „tego Wielkiego” – mojego nauczyciela, mojego przyjaciela, mojego guru: Jeszuy, zwanego Jezusem.
 
-![znaczek](../img/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 4 września 1988  r.
 
@@ -274,7 +281,8 @@ Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość �
 
 *Amen.*
 
-![znaczek](../img/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 7 września 1988  r.
 
@@ -395,7 +403,8 @@ Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość �
 
 *Amen.*
 
-![znaczek](../img/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 4 października 1988  r.
 

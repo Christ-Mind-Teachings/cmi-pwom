@@ -2,15 +2,20 @@
 title: "Rozdział piąty"
 ---
 
+<div markdown="1" class="chHead">
 ## Rozdział piąty
 
-> *Budzący się Syn<br>
-> jest jak ktoś, kto szuka Światła,<br>
-> a  następnie opłakuje zniknięcie cieni,<br>
-> gdy świt przebija się łagodnie<br>
-> przez ciemność nocy.*<br>
+*Budzący się Syn<br>
+jest jak ktoś, kto szuka Światła,<br>
+a  następnie opłakuje zniknięcie cieni,<br>
+gdy świt przebija się łagodnie<br>
+przez ciemność nocy.*
+{: .omit}
+
+</div>
 
 3 stycznia, 1988  r.
+{: .omit}
 
 *Teraz zaczynamy.*
 
@@ -84,9 +89,11 @@ i  wszystko, o  czym śnisz.*
 
 *Amen.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 22 stycznia 1988  r.
+{: .omit}
 
 *Witaj, Marc.*
 
@@ -146,7 +153,8 @@ Czy nie jest to  tylko ostateczny opór,<br>
 przy którym tak uparcie obstajesz?<br>
 Dobrze się nad tym zastanów.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 *Niech to  będzie znakiem dla ciebie:*<br>
 *to, co  płynie bez wysiłku w  twym doświadczeniu,*<br>
@@ -198,9 +206,11 @@ Nawet czas został wybrany.*
 
 *Amen.*
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 15 lutego 1988  r.
+{: .omit}
 
 *Teraz zaczynamy.*
 
@@ -278,9 +288,11 @@ Czy tym właśnie jest nasz świat? Czy ja, my  żyjemy w  jaskini wypełnionej 
 
 Czy jestem gotów zrezygnować z  mojego świata? To  jest jedyny świat, jaki znam, i  nawet tego świata nie znam zbyt dobrze. Czy też po  prostu boję się tego, co  leży poza zakazami władzy, poza granicami „prawdy” konsensusu?
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 20 lutego 1988  r.
+{: .omit}
 
 Może to  tylko uczucie intensywności, jakie niosą przesłania Jeszuy, albo też może jest to  wyzwanie, które Jego przekaz rzuca memu własnemu budowanemu przez ostatnie trzydzieści pięć lat światopoglądowi, ale czuję – nie, raczej: zmagam się – z  presją w  swym wnętrzu.
 
@@ -314,7 +326,8 @@ Kendra oczywiście nie może przepuścić takiej okazji: – Zatem to  oznacza, 
 
 Uśmiecham się, wiedząc, że teraz naprawdę nie mam innego wyboru niż przez to  przejść: – A  więc do  zobaczenia jutro wieczorem. Dzięki za  numer. Cześć!
 
-![znaczek](/public/img/wom/znaczek.jpg)
+![znaczek]({{page.separator}})
+{: .omit}
 
 Wymieniwszy uprzejmości z  Billie, przygotowujemy magnetofon i  sadowimy się wygodnie na  sofie. Relaksuję się jak najlepiej potrafię, czekając cierpliwie, aż zajdzie zmiana, czyli Billie odejdzie, a  pojawi się Jeremiasz. Czymkolwiek jest to  zjawisko, zawsze fascynuje mnie zauważalna fizyczna zmiana: twarz Billie zmienia subtelnie kształt, jej ciało zaczyna wydawać się jakby trochę większe.
 

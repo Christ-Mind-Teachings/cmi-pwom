@@ -2,13 +2,21 @@
 title: "Rozdział dziesiąty"
 ---
 
+<div markdown="1" class="chHead">
 ## Rozdział dziesiąty
 
-> *Kiedy dusza dokonuje wyboru, by  służyć Bogu,<br>
-> służy nieskalanej tajemnicy.<br>
-> Właśnie temu można całkowicie zaufać.*
+![znaczek]({{page.separator}})
+{: .omit}
+
+*Kiedy dusza dokonuje wyboru, by  służyć Bogu,<br>
+służy nieskalanej tajemnicy.<br>
+Właśnie temu można całkowicie zaufać.*
+{: .omit}
+
+</div>
 
 17 lutego 1989  r.
+{: .omit}
 
 Ogień płonie przede mną, a  Kendra siada na  kanapie, podając mi  kubek gorącego grzańca.
 
