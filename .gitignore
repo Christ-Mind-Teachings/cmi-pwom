@@ -1,0 +1,13 @@
+.DS_Store
+.sass-cache
+.jekyll-metadata
+.eslintrc.json
+.jekyll-cache/
+.netlify/
+.ruby-version
+_site
+node_modules/
+project/
+public/js/
+*.map
+*.old

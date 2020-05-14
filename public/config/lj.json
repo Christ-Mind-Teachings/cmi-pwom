@@ -1,0 +1,75 @@
+{
+  "bid": "lj",
+  "title": "Listy Jeszuy",
+  "image": "/public/img/wom/ljN-toc.jpg",
+  "contents": [
+    {
+      "title": "Podziękowania",
+      "url": "/lj/acknow/"
+    },
+    {
+      "title": "Do czytelnika",
+      "url": "/lj/reader/"
+    },
+    {
+      "title": "Przedmowa",
+      "url": "/lj/forwd/"
+    },
+    {
+      "title": "Wstęp",
+      "url": "/lj/intr/"
+    },
+    {
+      "title": "Rozdział pierwszy",
+      "url": "/lj/chap01/"
+    },
+    {
+      "title": "Rozdział drugi",
+      "url": "/lj/chap02/"
+    },
+    {
+      "title": "Rozdział trzeci",
+      "url": "/lj/chap03/"
+    },
+    {
+      "title": "Rozdział czwarty",
+      "url": "/lj/chap04/"
+    },
+    {
+      "title": "Rozdział piąty",
+      "url": "/lj/chap05/"
+    },
+    {
+      "title": "Rozdział szósty",
+      "url": "/lj/chap06/"
+    },
+    {
+      "title": "Rozdział siódmy",
+      "url": "/lj/chap07/"
+    },
+    {
+      "title": "Rozdział ósmy",
+      "url": "/lj/chap08/"
+    },
+    {
+      "title": "Rozdział dziewiąty",
+      "url": "/lj/chap09/"
+    },
+    {
+      "title": "Rozdział dziesiąty",
+      "url": "/lj/chap10/"
+    },
+    {
+      "title": "Rozdział jedenasty",
+      "url": "/lj/chap11/"
+    },
+    {
+      "title": "Rozdział dwunasty",
+      "url": "/lj/chap12/"
+    },
+    {
+      "title": "Epilog",
+      "url": "/lj/eplg/"
+    }
+  ]
+}

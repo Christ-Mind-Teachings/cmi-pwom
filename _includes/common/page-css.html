@@ -1,0 +1,15 @@
+{% if include.type == "sa" %}
+  <!-- CSS for Standalone development -->
+  <link rel="stylesheet" href="/public/css/sa/semantic.css">
+  <link rel="stylesheet" href="/public/css/sa/cmi.css">
+  <link rel="stylesheet" href="/public/css/sa/driver.min.css">
+  <link rel="stylesheet" href="/public/css/wom.css">
+{% else %}
+  <!-- CSS for production -->
+  <link rel="stylesheet" href="/public/css/semantic.css">
+  <link rel="stylesheet" href="/public/css/cmi.css">
+  <link rel="stylesheet" href="/public/css/driver.min.css">
+  <link rel="stylesheet" href="/t/pwom/public/css/wom.css">
+{% endif %}
+
+

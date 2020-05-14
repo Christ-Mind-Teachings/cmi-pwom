@@ -1,0 +1,20 @@
+{% if include.type == "sa" %}
+  <!-- JS for standalone development -->
+  <script src="/public/vendor/sa/jquery/jquery.min.js"></script>
+  <script src="/public/vendor/sa/semantic/semantic.min.js"></script>
+
+  <script src="/public/js/vendors~page~transcript.js"></script>
+  <script src="/public/js/page~transcript.js"></script>
+  <script src="/public/js/page.js"></script>
+{% else %}
+  <!-- JS for production -->
+  <script src="/public/vendor/jquery/jquery.min.js"></script>
+  <script src="/public/vendor/semantic/semantic.min.js"></script>
+
+  <script src="/t/wom/public/js/vendors~page~transcript.js"></script>
+  <script src="/t/wom/public/js/vendors~page.js"></script>
+  <script src="/t/wom/public/js/page~transcript.js"></script>
+  <script src="/t/wom/public/js/page.js"></script>
+{% endif %}
+
+
