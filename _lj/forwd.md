@@ -1,4 +1,6 @@
---- title: "Przedmowa Alana Cohena" ---
+---
+title: "Przedmowa Alana Cohena"
+---
 
 Czy wierzysz, że mógłby do ciebie przemówić Bóg? Zadziwia mnie, że
 wszystkie nasze religie opieramy na przekazach ludzi, z którymi
