@@ -2,6 +2,9 @@
 title: "Wstęp"
 ---
 
+<div markdown="1" align="center">
+## Wstęp
+
 Przed chwilą, gdy napisałem ostatnie zdanie tej książki, przemknęło mi
 nagle przed oczami wspomnienie. Pojawiło się z taką jasnością i mocą, że
 nie tylko widziałem obraz, ale również poczułem zapach i wręcz fizyczny
@@ -75,8 +78,8 @@ wiele czasu na unikaniu tego tematu, rozpraszając się konwencjonalnymi
 formami uników, jakie wszyscy dobrze znamy. Niemniej jednak moje
 zamiłowanie do duchowości Wschodu trwało i z biegiem lat oddaliłem się
 coraz bardziej od wszystkiego, co miało jakikolwiek związek z
-chrześcijaństwem. To właśnie sprawia, że otrzymanie przeze mnie Listów
-Jeszuy jest tak niezwykłe, albowiem postać, która je dała, przedstawia
+chrześcijaństwem. To właśnie sprawia, że otrzymanie przeze mnie *Listów*
+*Jeszuy* jest tak niezwykłe, albowiem postać, która je dała, przedstawia
 się wyraźnie jako Jezus, historycznie istniejąca osoba.
 
 Przesłanie zawarte w tych listach jest radykalne, a nawet zagrażające, w
@@ -106,6 +109,7 @@ w nowy sposób formułować fundamentalne pytania, wówczas wartość tego
 będzie o wiele większa niż sam czas włożony w napisanie tej książki.
 
 Niech Światło błogosławi twą podróż.
+</div>
 
-Jayem
+<div align="right">Jayem</div>
 

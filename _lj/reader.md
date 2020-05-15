@@ -2,6 +2,8 @@
 title: "Do czytelnika"
 ---
 
+## Do czytelnika
+
 Drogi czytelniku, zauważysz, że w tej książce nazywam siebie „Marc”.
 Przez parę ostatnich lat nazywałem się „Jon Marc”. Moi przyjaciele
 nazywają mnie „Jayem” i jest to imię, które wolę, ze względu na jego
@@ -43,5 +45,8 @@ wstrzymana na prośbę Jeszuy. To, co teraz zostało dodane, znalazło się
 tutaj również za Jego radą. Mogę tylko założyć, że przyszedł na to
 właściwy czas.
 
+<div align="right">
 Jayem
+</div>
+
 

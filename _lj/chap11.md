@@ -147,8 +147,6 @@ Odkładam słuchawkę, wychodzę na  zewnątrz i  siadam na  trawie. Zbliża si�
 
 [^4]: „Kardynał – ptak północno-amerykański, którego samiec ma jasnoczerwony kolor – przyp.tłum.”
 
-Fragmenty z książki: Jayem. „Listy Jeszuy”. Apple Books. 
-
 „Przykro mi, przyjacielu. Nie mam nic, co  mógłbym ci dać, chyba że przypadkiem zainteresowałbyś się jakimś czytadłem do  poduszki!”
 
 Pokazuję mu puste ręce. Parę razy przekrzywia główkę to  w  jedną, to  w  drugą stronę i  odlatuje. Światło zaczyna przechodzić w  złocisty kolor, niczym płynne złoto, tworzące strużki, gdy słońce usadawia się poza brzegiem wyspy Lanai daleko na  horyzoncie.
@@ -186,7 +184,7 @@ To  nie jest tylko zwyczajna myśl w  mojej głowie. Ona rozbrzmiewa we  mnie od
 
 Rozbieram się i  leżę na  łóżku – bez potrzeby zamykania okien, czy wchodzenia pod kołdrę – po  prostu odpoczywam, czując wdech i  wydech, ucząc się krok po  kroku być w  tym obecny, tak jak uczył mnie tego Jeszua, czując jak oddech wchodzi nie tylko do  płuc, ale sączy się każdym porem, a  później wychodzi wraz z  każdym napięciem, które rozpuszcza się w  Światło.
 
-*Pamiętaj mój bracie, aby pozwalać Bożej miłości oddychać tobą.*
+> *Pamiętaj mój bracie, aby pozwalać Bożej miłości oddychać tobą.*
 
 Być może pewnego dnia będę wiedział, co  to  naprawdę oznacza. Nie ufam już dłużej swemu poznaniu intelektualnemu, tej jedynej rzeczy, na  którą zawsze liczyłem! Być może On ma  rację. Być może na  drodze prawdziwej duchowości naprawdę nie ma  nic do  zdobycia; można na  niej tylko stracić wszystko to, co  błędnie w  nas zgromadzone, a  co  pozostawi przestrzeń dla samej Rzeczywistości Boga.
 
@@ -210,7 +208,9 @@ Wydobywa się ze  mnie łagodny szept: „Jeszuo, będę ufał tobie. Aż do  sk
 
 Zapadnia otwiera się, a  dziwne uczucie się pogłębia. Czuję się, jakbym spadał albo się otwierał, albo – no cóż, nie jestem pewien. Całe moje ciało czuję inaczej. Czymkolwiek jest to, na  co  otworzyła mnie zapadnia, czuję to  wszędzie, w  każdej komórce ciała. A  uczucie płynącej wody jest wręcz wspaniałe.
 
-Jego głos mnie zaskakuje. Dochodzi do  mnie z  tyłu i  przysiągłbym, że czuję Jego obecność, czuję jak stoi za  mną. Lecz nie obracam się, by  to  sprawdzić.	
+Jego głos mnie zaskakuje. Dochodzi do  mnie z  tyłu i  przysiągłbym, że czuję Jego obecność, czuję jak stoi za  mną. Lecz nie obracam się, by  to  sprawdzić.
+
+<div markdown="1" class="indent"
 
 *Bardzo dobrze, Mój bracie.*<br>
 *Czekałem na  to  cierpliwie dłużej*<br>
@@ -245,6 +245,8 @@ Jego głos mnie zaskakuje. Dochodzi do  mnie z  tyłu i  przysiągłbym, że czu
 *której pozwoliłeś się na  nowo rozpalić.*
 
 *Nic innego poza tym nie trzeba czynić.*
+
+</div>
 
 Niewidzialne pole energii wydaje się mnie uwalniać. Zakręcam wodę pod prysznicem i  wracam do  łóżka, gdzie leżę przez jakiś czas w  cichym osłupieniu.
 

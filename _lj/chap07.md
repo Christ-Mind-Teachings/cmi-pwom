@@ -80,7 +80,7 @@ Uderzony nieprawdopodobnym zgraniem się w  czasie jej telefonu, jak i  zadanego
 
 Uderza mnie jak naprawdę niewielu z  nas wystarczająco ufa swojej intuicji, by  zadziałać pod jej wpływem, tak jak zrobiła to  Kendra. Siedzę na  twardym krześle obok telefonu i  opowiadam jej o  wszystkim, co  się dziś wydarzyło.
 
-–  Boże, to  *jest* straszne. Nie wiem, co  ja  bym zrobiła. – mówi, a  następnie pyta, zniżając głos: – A  co  ty  zamierzasz zrobić?
+–  Boże, to  *jest* straszne. Nie wiem, co  ja  bym zrobiła. – mówi, a  następnie pyta, zniżając głos: – A  co  *ty*  zamierzasz zrobić?
 
 Przez chwile milczę, uświadamiając sobie, że jeszcze tak naprawdę o  tym nie myślałem, ale odpowiedź przychodzi szybko.
 
@@ -184,7 +184,7 @@ Trochę jestem zaskoczony jej odejściem i  po  jakiejś chwili spoglądam na  k
 
 Wiem, że już na  mnie czas. Wychodzę, przyciskając książki do  piersi, w  których czuję coraz większe ciepło. Przez całą drogę powrotną do  Tacomy odczuwam wyraźną radość. Czasami wyciągam rękę i  muskam dłonią leżące obok książki, uśmiechając się do  siebie.
 
-> WSZYSTKO JEST TAK, JAK BYĆ POWINNO. UFAJ.
+<div align="center">### WSZYSTKO JEST TAK, JAK BYĆ POWINNO. UFAJ.
 
 Gdy jestem z  powrotem w  mieszkaniu, siadam w  salonie skąpanym w  świetle sączącego się przez żaluzje spokojnego popołudniowego słońca. Książki trzymam na  kolanach. Ponownie muskam je  dłońmi i  czuję przyspieszone bicie serca. Miała rację. To  właśnie po  nie zostałem wysłany. Wiem to  nawet bez ich czytania!
 
@@ -198,6 +198,8 @@ Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość �
 {: .omit}
 
 4 września 1988  r.
+
+<div markdown="1" class="indent"
 
 *Teraz zaczynamy.*
 
@@ -281,10 +283,14 @@ Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość �
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
 7 września 1988  r.
+
+<div markdown="1" class="indent"
 
 *Teraz zaczynamy.*
 
@@ -403,10 +409,14 @@ Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość �
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
 4 października 1988  r.
+
+<div markdown="1" class="indent"
 
 *Teraz zaczynamy.*
 
@@ -538,6 +548,8 @@ Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość �
 
 *Amen.*
 
+</div>
+
 Udaje mi  się dotrzeć do  Kendry, gdy ta  właśnie wyjeżdża z  podjazdu na  ulicę, by  ruszyć w  swą rutynową godzinną jazdę do  pracy.
 
 –  Poczekaj chwilkę i  przeczytaj to, dobrze? – Wręczam jej notes z  przesłaniem i  przez chwilę Kendra patrzy na  mnie z  milczącym pytaniem w  oczach. Prawdopodobnie nie jest przyzwyczajona do  tego, by  ludzie zajeżdżali na  jej podjazd o  7:30 rano i  nalegali, by  się zatrzymała i  coś tam przeczytała.
@@ -565,3 +577,4 @@ Podnosząc głowę, spogląda przez przednią szybę, a  jej wzrok błądzi, nie
 Teraz odwraca wzrok i  patrzy na  mnie. – Myślę, że lepiej będzie, jak pojadę teraz do  pracy, albo raczej wrócę do  swego snu? A  co  ty  będziesz robił przez resztę dnia?
 
 Wcześniej zamierzałem spędzić ten dzień na  szukaniu pracy. Myślę, że moja racjonalna strona wygrywała wówczas tę bitwę. Wzruszam ramionami i  uśmiecham się. – Jadę w  góry.
+

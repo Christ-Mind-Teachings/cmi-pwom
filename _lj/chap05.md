@@ -17,6 +17,8 @@ przez ciemność nocy.*
 3 stycznia, 1988  r.
 {: .omit}
 
+<div markdown="1"class="indent"
+
 *Teraz zaczynamy.*
 
 *Jeszcze chwila, a  będziesz tam, gdzie JAM JEST.<br>
@@ -89,11 +91,15 @@ i  wszystko, o  czym śnisz.*
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
 22 stycznia 1988  r.
 {: .omit}
+
+<div markdown="1"class="indent"
 
 *Witaj, Marc.*
 
@@ -206,11 +212,15 @@ Nawet czas został wybrany.*
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
 15 lutego 1988  r.
 {: .omit}
+
+<div markdown="1"class="indent"
 
 *Teraz zaczynamy.*
 
@@ -270,7 +280,7 @@ Nawet czas został wybrany.*
 
 *Amen.*
 
-
+</div>
 
 On mówi. Ja  piszę. Wszystko wydaje się znikać. Nie zważam na  fizyczne otoczenie, a  przygasające światło odchodzącego dnia niczemu nie przeszkadza, gdy pióro mknie po  liniach kartki papieru. Przekaz się kończy. Jeszua łagodnie się wycofuje, a  ja  wracam do  tego, co  nazywamy rzeczywistością – siedzę w  cichym mieszkaniu, słysząc głosy przechodzącej właśnie pod moim oknem rozmawiającej pary.
 
@@ -357,13 +367,13 @@ Czuję, jak pochylam się, by  być bliżej, wsłuchując się w  każde słowo.
 
 –  Widzisz, serce moje, jesteś niczym książka, a  w  książce jest wiele stron, a  wszystkie te strony są przeźroczyste. Dlatego też kiedy spoglądasz na  książkę, widzisz całość. Lecz jeśli wyciągniesz tylko jedną stronę, widzisz tylko tę stronę. Im dalej jesteś od  książki, tym słabiej ją widzisz, więc mówisz o  „przeszłych życiach”. Lecz zaprawdę tak nie jest. To  ciągle jest twoje życie. Jesteś w  wielu miejscach naraz, żyjąc wieloma istnieniami, teraz. Jesteś tą istotą, o  którą pytasz.
 
-Jestem zszokowany. – Ja  jestem, hm, tą istotą, którą nazywam „Jeszua”?
+Jestem zszokowany. – Ja  *jestem*, hm, tą istotą, którą nazywam „Jeszua”?
 
 –  Jest tak. Rozumiesz?
 
 –  Hm, taaa&hellip; – Zgadza się. Mogę rozumieć słowa, które właśnie usłyszałem, ale ich znaczenie – no cóż, to  jest inna kwestia. Coś mi  mówi, że papież w  ogóle by  się z  tym nie zgodził.
 
-–  Jeremiaszu, dorastamy w  kulturze, która ma, cóż, raczej inny pogląd na  Jezusa. A  teraz ty  mi  mówisz, że jestem tym życiem?
+–  Jeremiaszu, dorastamy w  kulturze, która ma, cóż, raczej inny pogląd na  Jezusa. A  teraz ty  mi  mówisz, że *jestem* tym życiem?
 
 –  Jest tak.
 
@@ -375,11 +385,11 @@ Jedyną reakcją z  mej strony jest cisza, gdy mój umysł stara się przyswoić
 
 –  Serce moje, jest w  porządku. – Głos Jeremiasza łagodnieje. Koi on moje poddenerwowanie, widząc moją trudną sytuację, pomimo tego, że fizyczne oczy ma  zamknięte.
 
-–  To  znaczy, że nadal trwasz w  tym, co  zwie się „osądem”. To  znaczy, że stworzyłeś sposób myślenia, który mówi, że jesteś jedynie tą istotą zwaną „Marc”. A  ponieważ to  jest według ciebie wszystkim, czym jesteś, to  nie zawiera ona wartości istoty zwanej przez ciebie „Jeszuą”. Widzimy wzorzec w  strukturze twego jestestwa: utrzymujesz, że wszyscy są jednorodzonymi synami Boga, jednak nadal upierasz się, że Jeszua jest tym jedynym prawdziwym jednorodzonym Synem Boga. Dlatego też nie potrafisz dostrzec waszej równości. Lecz, serce moje, istnieje tylko równość, ponieważ istnieje tylko jeden Umysł. Będzie tak, póki nie będziesz gotowy, by  spoglądać na  brata swego jak na  siebie samego, bowiem, zaprawdę, wiedziesz życie każdej istoty&hellip;
+–  To  znaczy, że nadal trwasz w  tym, co  zwie się „osądem”. To  znaczy, że stworzyłeś sposób myślenia, który mówi, że jesteś jedynie tą istotą zwaną „Marc”. A  ponieważ to  jest według ciebie wszystkim, czym jesteś, to  nie zawiera ona wartości istoty zwanej przez ciebie „Jeszuą”. Widzimy wzorzec w  strukturze twego jestestwa: utrzymujesz, że wszyscy są jednorodzonymi synami Boga, jednak nadal upierasz się, że Jeszua jest tym jedynym prawdziwym jednorodzonym Synem Boga. Dlatego też nie potrafisz dostrzec waszej równości. Lecz, serce moje, istnieje *tylko* równość, ponieważ istnieje tylko jeden Umysł. Będzie tak, póki nie będziesz gotowy, by  spoglądać na  brata swego jak na  siebie samego, bowiem, zaprawdę, wiedziesz życie każdej istoty&hellip;
 
-Teraz moja kolej, by  się wtrącić: – Ja&hellip; ja  żyję życiem każdej istoty?
+Teraz moja kolej, by  się wtrącić: – Ja&hellip; ja  żyję życiem *każdej* istoty?
 
-–  Jest tak. Każde kiedykolwiek przeżywane życie jest jednym życiem. Nie ma  oddzielenia. Trzeba ci wiedzieć, serce moje, że jesteś świętym, zrodzonym Synem Boga, jednorodzonym Synem Boga. Rozumiesz?
+–  Jest tak. Każde kiedykolwiek przeżywane życie jest jednym życiem. Nie ma  oddzielenia. Trzeba ci wiedzieć, serce moje, że jesteś świętym, zrodzonym Synem Boga, *jednorodzonym* Synem Boga. Rozumiesz?
 
 Siedzę nieruchomo, patrząc niewidzącymi oczami. Nie wiem, ile czasu mija mi  na  tym siedzeniu i  gapieniu się w  przestrzeń. Co  zobaczyłby ktoś patrzący z  boku? Mężczyznę i  kobietę siedzących w  ciszy na  sofie. Nie zanurzonych w  panaceum zwanym telewizją, nie słuchających muzyki, pozornie się ze  sobą nie porozumiewających. Po  prostu dwa ciała siedzące na  sofie.
 
@@ -392,7 +402,7 @@ Jeremiasz uśmiecha się i  mówi z  łatwością, z  przekonaniem, jak nauczyci
 
 –  Kiedy ktoś osiąga *pełną* świadomość tego, kim jest, wówczas *wszyscy* przybliżają się do  tej Jedności. Największy dar, jaki możesz ofiarować światu, to  twe własne pełne uświadomienie sobie tego, kim *jesteś*. Kiedy będziesz kochał wszystko, czym jesteś, wówczas tę miłość, tę akceptację przekażesz ludzkości, albowiem budząc się do  tego, kim jesteś, rozpoznasz, że *jesteś* wszystkim.
 
-Nie przerywając ani na  moment, Jeremiasz ciągnie dalej: – A  ty  masz te swoje cieniutkie granice, te drobne zasady, które mówią, czym jest życie. I  ponieważ to, co  otrzymujesz, nie wpasowuje się w  te zasady, bardzo trudno ci sobie z  tym poradzić. Nie pasuje to  do  pudełka. Musisz poszerzyć granice umysłu. Oto dlaczego mówimy ci, abyś przyzwalał. Pozwól temu być, nawet jeśli nie wpasowuje się to  w  twe obecne postrzeganie. To  poszerzy granice twego umysłu.
+Nie przerywając ani na  moment, Jeremiasz ciągnie dalej: – A  ty  masz te swoje cieniutkie granice, te drobne zasady, które mówią, czym jest życie. I  ponieważ to, co  otrzymujesz, nie wpasowuje się w  te zasady, bardzo trudno ci sobie z  tym poradzić. Nie pasuje to  do  pudełka. Musisz poszerzyć granice umysłu. Oto dlaczego mówimy ci, abyś *przyzwalał*. Pozwól temu być, nawet jeśli nie wpasowuje się to  w  twe obecne postrzeganie. To  poszerzy granice twego umysłu.
 
 Przytakując powoli głową, nachylam się i  wyłączam magnetofon, mówiąc Jeremiaszowi cicho: „Dziękuję”, następnie siadam znów wygodnie na  sofie, czekając aż Jeremiasz odejdzie, a  Billie wróci.
 Billie proponuje mi  coś do  picia. – Często ludzie nie są gotowi, by  od  razu stąd wyjść. Z  początku czułam się z  tym nieswojo, bo  nie wiedziałam, czy coś powinnam powiedzieć czy zrobić. Tak więc przyzwyczaiłam się do  spędzania z  nimi trochę czasu.
@@ -415,7 +425,7 @@ Nic nie mówię i  przytulam ją mocno i  długo, następnie wręczam jej taśm�
 
 Gdy słuchamy, widzę, że Kendra bardzo się wciągnęła, słuchając bacznie każdego słowa. Gdy nagranie dochodzi do  momentu o  Jeszule, czekając na  jej reakcję, czuję mocniejsze bicie serca:
 
-„Nie tyle masz kontakt z  Jeszuą, co  nim jesteś. To  jest twoje życie”.
+„Nie tyle masz kontakt z  Jeszuą, co  nim *jesteś*. To  jest twoje życie”.
 
 Kendra zwraca się w  moją stronę, w  jej oczach widać zaskoczenie i  prośbę o  wyjaśnienie.
 

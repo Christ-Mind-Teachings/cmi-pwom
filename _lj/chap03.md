@@ -4,7 +4,6 @@ title: "Rozdział trzeci"
 
 <div markdown="1" class="chHead">
 ## Rozdział trzeci
-
 ![znaczek]({{page.separator}})
 {: .omit}
 
@@ -16,7 +15,10 @@ title: "Rozdział trzeci"
 2 listopada 1987 r.
 {: .omit}
 
-*Teraz zaczynamy.<br>Umiłowany bracie,<br>bo naprawdę tym właśnie jesteś,<br>przyszedłem, bo o to prosiłeś.<br>W trakcie naszego spotkania w tej chwili<br>będę się z tobą dzielił<br>tym, co ujawni ci<br>harmonię Królestwa.*
+<div markdown="1"class="indent"
+*Teraz zaczynamy.*
+
+*Umiłowany bracie,<br>bo naprawdę tym właśnie jesteś,<br>przyszedłem, bo o to prosiłeś.<br>W trakcie naszego spotkania w tej chwili<br>będę się z tobą dzielił<br>tym, co ujawni ci<br>harmonię Królestwa.*
 
 *Po pierwsze,<br>zauważysz, że upodobałem sobie<br>używanie terminologii<br>czysto chrześcijańskiej,<br>choć powinno się wiedzieć, że taką<br>terminologię lepiej postrzegać jako judeochrześcijańską.<br>Czynię tak, ponieważ te terminy łatwo się rozpoznaje,<br>odnosząc je do czasu, gdy kroczyłem między wami.<br>Z pewnością nie jest to jedyna forma,<br>jaką można było wybrać.*
 
@@ -303,7 +305,7 @@ Naszym zadaniem więc<br>
 jest jedynie łagodnie przyprowadzić poszukującego<br>
 do  doświadczenia **zwracania uwagi**<br>
 na  to, co  zawsze istniało:<br>
-Królestwo.
+Królestwo.*
 
 *Zakończymy tutaj.<br>
 Jestem bardzo zadowolony z  łatwości, do  jakiej doszedłeś<br>
@@ -314,13 +316,16 @@ pozornymi dylematami i  bólem,<br>
 nie jest tego warta?<br>
 Błogosław ją, błogosław ją całą.*
 
-Amen.
+*Amen.*
+</div>
 
 ![znaczek]({{page.separator}})
 {: .omit}
 
 13 listopada 1987  r.
 {: .omit}
+
+<div markdown="1"class="indent"
 
 *Witaj, Marc.*
 
@@ -568,7 +573,7 @@ i  jesteś miłowany nade wszystko.*
 
 *Amen.*
 
-
+</div>
 
 21 listopada 1987  r.
 {: .omit}
@@ -594,8 +599,8 @@ Kucam, a  mój wzrok pada na  pokryty śniegiem mały, delikatny kwiatek. Bardzo
 
 Nadchodzi uczucie. Wzbiera ono z  wewnętrznej głębi, by  następnie zostać przemienionym w  słowa wypowiadane nie do  ludzkiego ucha, które zbyt często nie słyszy, lecz do  Życia, które już zna prawdę tego, co  jest wypowiadane:
 
-> *Jesteśmy jedynie Jednym.
-> Pokój mój wam daję.
+> *Jesteśmy jedynie Jednym.<br>
+> Pokój mój wam daję.<br>
 > Nie tak, jak daje świat, Ja  wam daję.*
 
 Radość zaczyna promienieć niczym strumienie energii. Wylewa się czubkami palców i  płynie przez stopy do  ziemi. Wstaję, wznoszę wzrok ku  niebu i  krzyczę: „Ja  i  Mój Ojciec Jedno  *jesteśmy!*”.
@@ -604,11 +609,11 @@ Kręcę się i  wiruję, i  śmieję się głośno. Obejmuję drzewa i  mech, i 
 Po  jakimś czasie, choć nie mam pojęcia, ile czasu minęło, drzewa jakby przemówiły: „Już czas, żebyś wracał”. Nie spiesząc się, wychodzę z  lasu, wracam do  furgonetki i  zaczynam jechać w  dół.
 Słowa wypowiedziane zostają tak wyraźnie, dźwięcząc mi  w  uszach i  przeszywając całe ciało, że obracam się, oczekując, że zobaczę Go na  siedzeniu obok. Jednocześnie wciskam gwałtownie pedał hamulca i  zatrzymuję się.
 
-*Twoje mieszkanie czeka na  ciebie.*
+> *Twoje mieszkanie czeka na  ciebie.*
 
 Równie szybko dziwne uczucie opuszcza komórki mego ciała, płynne światło wycofuje się niczym fala uciekająca od  brzegu. I  jestem znów tylko ja, siedzę w  samochodzie na  tej leśnej drodze. Droga przede mną wije się w  dół, prowadząc mnie z  powrotem do  świata, który wydaje się tak realny, jednakże – jeśli rozważę to, czego naucza mnie Jeszua – czy cokolwiek jest realne?
 
-Konflikt przenika me jestestwo, gdy mój umysł chwilowo toczy ze  sobą walkę, lecz ustępuje, gdy wyłania się całkowicie nowa myśl: być może ta  droga nie prowadzi z  powrotem do  świata, lecz poprzez świat. Ale do  czego?
+Konflikt przenika me jestestwo, gdy mój umysł chwilowo toczy ze  sobą walkę, lecz ustępuje, gdy wyłania się całkowicie nowa myśl: być może ta  droga nie prowadzi *z  powrotem* do  świata, lecz *poprzez* świat. Ale do  czego?
 
 Powoli przesuwam stopę z  hamulca na  pedał gazu.
 
@@ -643,8 +648,8 @@ Godzinę później wracam, trochę przygnębiony. To  zdecydowanie nie było odp
 
 –  Podaj mi  tę gazetę jeszcze raz! – Praktycznie wyrywam gazetę z  jej rąk i  jeszcze raz otwieram na  ogłoszeniach. Spoglądam na  pierwszą stronę, następnie drugą, potem trzecią, ostatecznie czwartą. Nieruchomieję, przestaję oddychać. Widzę małe ogłoszenie wciśnięte pomiędzy dwa, które wcześniej zakreśliłem i  do  których dzwoniłem.
 
-*Do  wynajęcia. Jeden pokój – duża sypialnia.<br>
-Z  widokiem na  morze. Dostępne od  1 grudnia.*
+> *Do  wynajęcia. Jeden pokój – duża sypialnia.<br>
+> Z  widokiem na  morze. Dostępne od  1 grudnia.*
 
 Nie wierzę, że nie widziałem go wcześniej. Musiało tam być.
 
@@ -666,7 +671,7 @@ Przyjeżdżam, gdy kobieta oglądająca mieszkanie schodzi ze  schodów.
 
 –  Jeszcze się zastanowię i  zadzwonię do  pani jutro – krzyczy do  właścicielki. Widząc mnie, uśmiecha się i  mówi: – Proszę go jeszcze nie wynajmować, dobrze?
 
-Prawie w  ogóle nie oglądam mieszkania. Nawet nie wchodzę do  sypialni czy łazienki. Widzę widok z  okna, światła na  wodzie, tankowce cumujące w  spokojnej przystani. Ale najważniejsze – czuję, że to  jest to. No i  proszę! Czekało na  mnie!
+Prawie w  ogóle nie oglądam mieszkania. Nawet nie wchodzę do  sypialni czy łazienki. Widzę widok z  okna, światła na  wodzie, tankowce cumujące w  spokojnej przystani. Ale najważniejsze – *czuję*, że to  jest to. No i  proszę! Czekało na  mnie!
 
 ![znaczek]({{page.separator}})
 {: .omit}
@@ -676,17 +681,19 @@ Prawie w  ogóle nie oglądam mieszkania. Nawet nie wchodzę do  sypialni czy ł
 
 Jest trzecia nad ranem, a  dokładnie 3:22. Jestem, a  raczej byłem, pogrążony w  głębokim śnie. Gdy zaczynam przewracać się niespokojnie z  boku na  bok, ze  snu wybudza mnie łagodny głos, który tym razem niesie ze  sobą ślad uporczywości.
 
-*Marc, wstań i  pisz.*
+> *Marc, wstań i  pisz.*
 
 „Cholera” – to  teraz moja jedyna myśl. Jest 3:30 nad ranem. Nikt nie wstaje o  tej porze dlatego, że sugeruje mu to  jakiś głos.
 
-*Marc, wstań i  pisz.<br>
-To  najlepsza godzina na<br>
-łatwą i  płynną komunikację.*
+> *Marc, wstań i  pisz.<br>
+> To  najlepsza godzina na<br>
+> łatwą i  płynną komunikację.*
 
 Dobrze już, dobrze. Choć niechętnie, i  tak już się przebudziłem.
 
 „No cóż…” – myślę sobie, gdy siedzę z  długopisem w  dłoni. „Jeśli tak ma  to  dalej wyglądać, będę musiał pamiętać, żeby wykręcać się brakiem okularów. Następnym razem”.
+
+<div markdown="1"class="indent"
 
 *Teraz zaczynamy.*
 
@@ -849,3 +856,5 @@ na  objawienie się rozpoznania.*
 *Daję ci Moje błogosławieństwo.*
 
 *Amen.*
+
+</div>

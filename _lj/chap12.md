@@ -61,13 +61,13 @@ I  właśnie wtedy Go słyszę. Nie, najpierw Go czuję. Bardzo mocno.
 
 Mocniej niż kiedykolwiek wcześniej.
 
-*Witaj, mój bracie.*<br>*Tak więc przechodzimy do  następnego kroku*<br>*w  odwiecznym Dziele, jakie wcześniej współdzieliliśmy.*<br>
-*Znów Mi  zaufałeś.*<br>
-*Nie opuszczę cię, dopóki wszystko nie zostanie dokonane.*
+> *Witaj, mój bracie.*<br>*Tak więc przechodzimy do  następnego kroku*<br>*w  odwiecznym Dziele, jakie wcześniej współdzieliliśmy.*<br>
+> *Znów Mi  zaufałeś.*<br>
+> *Nie opuszczę cię, dopóki wszystko nie zostanie dokonane.*
 
-*Teraz*<br>
-*proszę cię, byś otworzył Biblię.*<br>
-*Zacznij proszę czytać księgę Jeremiasza.*
+> *Teraz*<br>
+> *proszę cię, byś otworzył Biblię.*<br>
+> *Zacznij proszę czytać księgę Jeremiasza.*
 
 Dobrze Go usłyszałem? Biblię? Nawet nie wiem, gdzie jest ta  cholerna książka. Jeremiasz? Z  jakiegoś dziwnego powodu jedyne, co  mi  przychodzi na  myśl, to  ta  stara melodia: „Jeremiasz był ropuchą…”.
 
@@ -75,28 +75,28 @@ Wstaję z  maty i  wzrokiem przeszukuję półki. Setki książek o  filozofii, 
 
 Muszę skorzystać ze  spisu treści, żeby odnaleźć stronę Księgi Jeremiasza. W  miarę, gdy wertuję Biblię, ucisk żołądka wzrasta o  jeden stopień. A  w  zasadzie o  kilka. Dokładnie w  tej chwili On mówi do  mnie, a  Jego głos jest tak wyraźny, że mogę się odwrócić i  wyjrzeć przez okno, nie tracąc z  Nim kontaktu, podobnie jak rozmawia się z  przyjacielem, który mówi do  ciebie, podczas gdy ty  zajmujesz się innymi rzeczami. Jedyna różnica jest taka,  że nie potrafię się od  tego przyjaciela odciąć i  nie zwracać na  niego uwagi!
 
-*Teraz zacznij czytać.*
+> *Teraz zacznij czytać.*
 
 Zaczynam i  gdy dochodzę do  piątego wersetu, Jeszua mnie zatrzymuje.
 
-*Proszę czytaj na  głos, powoli.*<br>
-*Tak, byś mógł naprawdę usłyszeć.*<br>
-*Albowiem to  są teraz moje słowa dla ciebie.*
+> *Proszę czytaj na  głos, powoli.*<br>
+> *Tak, byś mógł naprawdę usłyszeć.*<br>
+> *Albowiem to  są teraz moje słowa dla ciebie.*
 
 Na  głos. Powoli. W  porządku. Myślę, że to  jest jeden z  tych momentów, które z  pewnością miały nadejść, kiedy powiedziałem, że będę Mu ufał mimo wszystko.
 
-„Zanim ukształtowałem cię w  łonie matki, znałem cię,<br>
-nim przyszedłeś na  świat, uświęciłem cię,<br>
-prorokiem dla narodów ustanowiłem cię”.
+> „Zanim ukształtowałem cię w  łonie matki, znałem cię,<br>
+> nim przyszedłeś na  świat, uświęciłem cię,<br>
+> prorokiem dla narodów ustanowiłem cię”.
 
 Gdy zaczynam gwałtownie łapać powietrze i  czuję, że znajoma mi  nemezis uderza mnie mocno i  szybko w  brzuch, On znów mówi:
 
-*Teraz przeczytaj werset dziewiąty.*
+> *Teraz przeczytaj werset dziewiąty.*
 
-„I  wyciągnąwszy rękę, dotknął Pan moich ust i  rzekł mi: <br>
-«Oto kładę Moje słowa w  twoje usta».”
+> „I  wyciągnąwszy rękę, dotknął Pan moich ust i  rzekł mi: <br>
+> «Oto kładę Moje słowa w  twoje usta».”
 
-«Oto kładę Moje słowa w  twoje usta».”
+<div markdown="1" class="indent"
 
 Mój umysł, oddech i  całe ciało zostają wtłoczone w  bezruch ciszy.
 
@@ -142,6 +142,8 @@ Mój umysł, oddech i  całe ciało zostają wtłoczone w  bezruch ciszy.
 
 *Nie lękaj się.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
@@ -155,14 +157,14 @@ Palcem wskazującym dotykam czoła i  łagodnie pocieram nim w  dół aż do  na
 
 To  wszystko ustępuje i  jestem świadomy jedynie Jego, widząc nas w  nieskończonym polu purpurowo zabarwionego światła.
 
-*Wszystko jest przygotowane.*<br>
-*I  teraz zaczniemy.*
+> *Wszystko jest przygotowane.*<br>
+> *I  teraz zaczniemy.*
 
 Właśnie wtedy zauważam, że nie jesteśmy sami. Wydaje się, że jest z  nami cała grupa, duży krąg istot lśniących światłem. Wszystko to  zanurzone jest w  owym polu purpurowo zabarwionego światła. Mgliście widzę pokój oraz siedzących naprzeciw i  wpatrujących się we  mnie przyjaciół.
 
 Nie! Oni wpatrują się w  moje ciało i  ja  również! Tyle że ja  patrzę na  nie z  góry. Jeszua przemieszcza się do  miejsca tuż za  moim ciałem. Następnie wydaje się, że do  niego wnika. To  jest ostatnia rzecz, której jestem świadomy, dopóki to  wszystko się nie skończy.
 
-*Dziękuję, Mój bracie.*
+> *Dziękuję, Mój bracie.*
 
 Jego głos mnie zaskakuje. Nagle ponownie zaczynam być świadomy swego ciała. Jest to  dość niemiłe doświadczenie. Otwieram oczy, lecz potrzebuję kilku chwil zanim wszystko na  powrót przybierze kształty rzeczy, ludzi, doniczek, krzeseł, ścian. Ale coś stało się z  ludźmi. Twarze wpatrują się we  mnie, mają szeroko otwarte oczy. Niektórzy siedzą z  otwartymi ustami, wszyscy w  bezruchu. Wyglądają na  zszokowanych.
 
@@ -225,6 +227,8 @@ Nastanie świt, zanim to  ciało w  końcu zaśnie. I, co  dziwne, to, co  ze  s
 
 Oto wszystko zostało uczynione nowym.
 
+<div markdown="1" class="indent"
+
 *Teraz*<br>
 *wykonało się.*<br>
 *Wybór*<br>
@@ -263,3 +267,5 @@ Oto wszystko zostało uczynione nowym.
 *witaj w  domu.*
 
 *Amen.*
+
+</div>

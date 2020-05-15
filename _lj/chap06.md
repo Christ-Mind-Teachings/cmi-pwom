@@ -67,6 +67,8 @@ chłoną łagodne światło niezwykle przejrzystego wieczoru, gdy zaczyna się
 znane mi  już uczucie. W  zasadzie cieszę się na  to  spotkanie,
 niezależnie od  tego, co  z  niego wyniknie.
 
+<div markdown="1"class="indent"
+
 *Teraz zaczynamy.*
 
 *Cisza.*<br>
@@ -127,11 +129,15 @@ niezależnie od  tego, co  z  niego wyniknie.
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
 6 maja 1988  r.
 {: .omit}
+
+<div markdown="1"class="indent"
 
 *Teraz zaczynamy.*
 
@@ -189,11 +195,15 @@ niezależnie od  tego, co  z  niego wyniknie.
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
 25 maja 1988  r.
 {: .omit}
+
+<div markdown="1"class="indent"
 
 *Teraz zaczynamy.*
 
@@ -337,6 +347,8 @@ bardziej subtelnym podszeptem ego?”
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
@@ -354,7 +366,7 @@ uznania, że w  niezrozumiały jeszcze dla mnie sposób Jonasz wydawał się
 widzieć rzeczy z  o  wiele szerszej perspektywy niż ja.
 
 Nie waham się już dłużej. Chwytam notes, spisuję listę pytań, wsuwam do
-koperty i  pospiesznie adresuję do  Hossci Harrison, która służy jako
+koperty i  pospiesznie adresuję do  Hossci Harrison, który służy jako
 medium dla Jonasza. Żwawo wychodzę z  domu w  wietrzne wiosenne
 popołudnie i  biegnę do  najbliższej skrzynki pocztowej. Tuż przed
 wrzuceniem listu do  skrzynki cicho proszę Jonasza, aby był ze  mną
@@ -371,6 +383,8 @@ więc mam się nią dzielić?
 
 6 czerwca 1988  r.
 {: .omit}
+
+<div markdown="1"class="indent"
 
 *Teraz zaczynamy.*
 
@@ -428,6 +442,8 @@ udawałem się na  pustynię.*
 *Pomyśl o  tym.*
 
 *Amen.*
+
+</div>
 
 Później tego dnia, gdy zmywam naczynia i  odkładam je  na  suszarkę,
 nagle uświadamiam sobie, że Jeszua dał mi  coś bardzo konkretnego!
@@ -499,7 +515,7 @@ nawzajem, by  przywracały odwieczne wspomnienia, których się nie
 pamięta, ponieważ są tak bardzo przesłonięte zaprogramowaną
 świadomością”.
 
-Zaprawdę, jak waść dobrze wiesz, a  my  waści wielokrotnie mówiliśmy,
+„Zaprawdę, jak waść dobrze wiesz, a  my  waści wielokrotnie mówiliśmy,
 twoim celem – czyż nie tak? – jest wyjawić zrozumienie własnego
 wewnętrznego oświecenia, własnej wewnętrznej mocy, aby pomóc innym
 przejść przez traumę. Zaprawdę, twym celem jest uzdrowienie swojej
@@ -592,6 +608,8 @@ Dawca Prawdy, Dawca  Prawdy…”.
 19 lipca 1988  r.
 {: .omit}
 
+<div markdown="1"class="indent"
+
 *Teraz zaczynamy.*
 
 *Ukochani bracia,*<br>
@@ -627,7 +645,7 @@ Dawca Prawdy, Dawca  Prawdy…”.
 
 *Jednak chciałbym wam powiedzieć,*<br>
 *że nie ma  żadnych map drogowych;*<br>
-*wy  sami jesteście swą ścieżką do  domu.*
+***wy*** *sami jesteście swą ścieżką do  domu.*
 
 *Dlatego też przewodnictwo jest sztuką*<br>
 *wymagającą największej wytrwałości,*<br>
@@ -692,11 +710,15 @@ Dawca Prawdy, Dawca  Prawdy…”.
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
 21 lipca 1988  r.
 {: .omit}
+
+<div markdown="1"class="indent"
 
 *Teraz zaczynamy.*
 
@@ -748,6 +770,8 @@ Dawca Prawdy, Dawca  Prawdy…”.
 *albowiem zawsze jestem z  wami.*
 
 *Amen.*
+
+</div>
 
 „Znów przychodzę do  ciebie, albowiem znowu o  to  poprosiłeś”. Gdy
 ponownie czytam przekaz, moją uwagę przyciąga to  zdanie. Nie pamiętam,

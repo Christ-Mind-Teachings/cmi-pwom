@@ -4,7 +4,6 @@ title: "Rozdział drugi"
 
 <div markdown="1" class="chHead">
 ## Rozdział drugi
-
 ![znaczek]({{page.separator}})
 {: .omit}
 
@@ -29,6 +28,7 @@ Jest wystarczająco jasno, by otaczający mnie świat zamienić w delikatną gr�
 
 Przychodzi mi do głowy, by usiąść do medytacji. Otula mnie łagodna bryza, której dotyk z łatwością uspokaja me ciało, umysł i oddech, aż w końcu pozostaje tylko krystaliczna świadomość, wzniosłe dobre samopoczucie. Czuję teraz subtelne, narastające ciepło, gdy wschodzące słońce zaczyna pieścić me ciało. Otwierając powoli oczy, eksploduję radosnym śmiechem. Tutaj jest tak pięknie! Głaz, na którym siedzę, leży na szczycie pagórka na koń- cu małego wąwozu w kształcie końskiej podkowy. Jestem obrócony twarzą w stronę kanału i leżącej po jego drugiej stronie wy- spy Maui. Obserwuję wschodzące słońce, które niczym ognisty bóg wspina się po prawie bezchmurnym niebie. Najnaturalniejszą reakcją jest zwyczajne dziękczynienie. Choć mam otwarte oczy, pojawia się we mnie znajome już uczucie. Widzę złote Światło i słyszę znajomy Głos.
 
+<div markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Właśnie przez szukanie<br>
@@ -146,6 +146,8 @@ który przewyższa wszelki umysł.*
 
 *Amen.*
 
+</div>
+
 Światło przygasa. Siedzę w bezruchu przez bardzo długi czas. Mój świat całkowicie się zatrzymał. Podnoszę się powoli i schodzę na plażę, czując pod stopami ciepły piasek, obserwując jak promienie słońca tańczą niczym migoczące diamenty na powierzchni łagodnych fal. Rozbieram się i wchodzę do spienionego morza, którego tropikalne wody obejmują mnie i koją. Czuję napływające łzy. Nie opieram się niczemu i łzy swobodnie płyną, gdy tak stoję zanurzony do pasa w wodach oceanu.
 
 Nie potrafię ani nic powiedzieć, ani pomyśleć. Wydaje się, że jedyne, co czuję, to wrażenie dotyku fal obmywających mi brzuch i kaskada łez płynących po policzkach i spływających na piersi.
@@ -189,6 +191,8 @@ To zachwiało moimi poglądami. Zacząłem kwestionować najbardziej oczywiste �
 Dlaczego Jeszua nie mógłby przynajmniej powiedzieć czegoś, co ma sens? Dajmy na to, podpowiedzieć liczby w totolotka? To, co słyszę, rozbrzmiewa jasnością jakiejś prawdy – to znaczy wtedy, gdy go słyszę – jednak nic z tego, czego doświadczam w swej codzienności, z tym się nie zazębia. To nie jest tylko inny punkt widzenia rzeczywistości; to jest zupełnie nowa Rzeczywistość.
 
 Owa wewnętrzna polemika toczy się w mej głowie i nie znajduję w niej punktów dających się pogodzić, aż w końcu porażka mego intelektu, który nie potrafi tego pojąć, uchwycić w zgrabne formułki logicznych pojęć, które wielbi, każe mi się po prostu zamknąć. Wówczas to się znów zaczyna. Poczucie ciepła, które rośnie od wewnątrz, zmiana wibracji, aż w końcu Głos:
+
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -312,6 +316,8 @@ albowiem JAM JEST Miłością.*
 
 *Amen.*
 
+</div>
+
 Minęła godzina. Jak mam patrzeć na korek, w którym utknąłem, jak na „koniec mych złudzeń”? Myślę sobie: „Po prostu pozwól temu odejść. Pozwól, by odszedł osąd tej chwili”. Mój umysł nagle się uspokaja, niczym górskie jezioro w bezwietrzny dzień, gdy jego tafli nie marszczy ani jedna fala.
 
 Zaczynam się śmiać, widząc pojawiający się w umyśle obraz. Buddyjscy mnisi zen wstają przed świtem, udając się do zendo, czyli sali medytacji, aby „po prostu siedzieć” i doskonalić zdolność zwyczajnej obecności. Czymże więc jest korek drogowy? Utrudnieniem, które powstrzymuje nas przed dotarciem tam, gdzie myślimy, że powinniśmy być? A może to właśnie jest zendo?
@@ -323,6 +329,8 @@ Przez chwilę jestem buddyjskim mnichem zen, ale tylko przez jedną ulotną chwi
 
 9 września 1987 r.
 {: .omit}
+
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -359,6 +367,8 @@ Chrystusa.*
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
@@ -379,6 +389,8 @@ Do diabła z tym. W końcu jestem tu, gdzie jestem. Nie potrafię precyzyjnie od
 Wieczór. Wino nalane, ale jeszcze nietknięte. Z jakiegoś powodu waham się, czy włożyć kasetę do odtwarzacza. Opadam na kanapę i po prostu siedzę.
 
 „Cholera” – myślę. Czuję, że to się znów zaczyna. Uświadamiam sobie, że nadejście tego odczucia zauważyłem praktycznie na samym początku. W miarę jak owo uczucie narasta, zrywam się i biegnę po notatnik i długopis. Równie dobrze mogę to zaakceptować i przyjąć ten przekaz. Być może oszaleję, a być może już zwariowałem. W takim przypadku niczego nie pogorszy to, że się przygotuję&hellip;
+
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -669,6 +681,8 @@ jednak zawsze jesteśmy z tobą.*
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
@@ -688,9 +702,8 @@ Nie słyszę już jej odpowiedzi, gdy zamykam za sobą drzwi i biegnę na parkin
 „Wspaniale. Po prostu wspaniale!” – wydzieram się, zbliżając do dobrze znanego zakrętu i widząc korek stojących samochodów. Stąd jest jeszcze kawałek do skrzyżowania, na którym skręcam i teraz już wiem, że się spóźnię.
 
 I wówczas, trach! Wydarza się to tak po prostu, bez żadnego oczywistego powodu. Nie, nikt nie wjechał mi w tył samochodu, choć niemalże chciałbym, żeby tak się stało. Nagle robi się absolutnie cicho. Nie słyszę samochodów wokół mnie, ani nawet radia. Tracę z pola widzenia wszystko, chwilowo przesłonięte to jest dwoma słowami:
-
+<div align="center">
 #### LISTY JESZUY
-
 Całe moje ciało, od stóp do głów, elektryzuje energia. Następnie, równie nagle, wszystko ustępuje i wraca do normalnego stanu.
 
 „Skąd się to pojawiło?” – zastanawiam się. Czuję się, jakby ktoś zdzielił mnie w głowę. Wówczas uderza mnie myśl. Jestem proszony o upublicznienie tego materiału!
@@ -744,7 +757,7 @@ Kendra śmieje się, mówiąc: – Może to jest właśnie sens tego!
 
 – Co?
 
-– Może to ma cię powalić!
+– Może to *ma* cię powalić!
 
 Wzdychając, opowiadam jej, co się wydarzyło po drodze na zajęcia jogi. 
 
@@ -766,7 +779,7 @@ Kendra odwraca się do mnie i przez chwilę stoi, delikatnie potrząsając głow
 
 Teraz moja kolej na przyjacielskiego prztyczka: – A od kiedy to prosisz o pozwolenie?
 
-Kendra uśmiecha się: – Marc, po prostu mocno czuję tę sytuację, nawet jeśli ty teraz nie chcesz już nic więcej powiedzieć. Tak jak mówiłam przed twoim wyjazdem na wakacje, zachęcam cię, abyś przy tym wytrwał.
+Kendra uśmiecha się: – Marc, po prostu mocno *czuję* tę sytuację, nawet jeśli ty teraz nie chcesz już nic więcej powiedzieć. Tak jak mówiłam przed twoim wyjazdem na wakacje, zachęcam cię, abyś przy tym wytrwał.
 
 – Ale Kendra, ta dzisiejsza sugestia była aż nadto jasna. Nie wydaje się, że to ma być tylko dla mnie, a myśl o upublicznieniu tego przyprawia mnie o dreszcze!
 
@@ -805,3 +818,6 @@ Spoglądam na nią przez dłuższą chwilę. O rany, jak wyglądałoby życie be
 – A jak myślisz, wariacie? No dobra, napijmy się lampki wina zanim wyjdziesz, bo wygląda na to, że będę cię widywała jedynie wtedy, gdy odchodzisz od zmysłów!
 
 – No cóż, jeśli to nadal będzie się wydarzało, to będziesz mnie widywała częściej niż myślisz.
+
+
+

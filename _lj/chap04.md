@@ -26,6 +26,8 @@ Kołysząc się łagodnie w  bujanym fotelu i  pijąc w  ciszy herbatę, prawie 
 
 Tak, czuję jak zaczyna się wibracja. Już dłużej mnie to  nie zaskakuje, gdyż wiem, że będzie się ona utrzymywać tak długo, póki jej nie rozpoznam, niczym kogoś, kto puka do  drzwi, na  początku łagodnie, później coraz głośniej, dopóki mu nie otworzą. Wolę łagodność, więc wyciągam spokojnie pióro i  notatnik z  półki nieopodal i  wracam na  fotel.
 
+<div markdown="1"class="indent"
+
 *Teraz zaczynamy.<br>
 Witaj, Marc.*
 
@@ -98,7 +100,7 @@ jest prawdziwie odpowiedzieć na  czyjś początkowy twórczy akt –<br>
 oddzielenie się od  Świętego Ojca –<br>
 i  dokonać jego korekty.<br>
 Już wcześniej dzieliłem się z  tobą tym,<br>
-że dokonuje się tego poprzez przyzwolenie.*
+że dokonuje się tego poprzez **przyzwolenie**.*
 
 *Tak więc,<br>
 jeśli to  właśnie **przyzwolenie**<br>
@@ -190,6 +192,8 @@ jak zareagujesz na  to, co  stworzyłeś?*
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
@@ -202,7 +206,7 @@ Jadę dalej, nadal spiesząc się i  wyprzedzając z  dwóch stron i  dopiero w 
 
 Tym razem nic nie zapowiada Jego obecności, chyba że byłem zbyt podekscytowany, by  to  zauważyć.
 
-*Marc, weź Biblię i  znajdź ewangelię Mateusza 7,5-8.*
+> *Marc, weź Biblię i  znajdź ewangelię Mateusza 7,5-8.*
 
 Zaskakuje mnie to  i  reaguję na  to, rozglądając się, jakbym się obawiał, że ktoś mógł to  usłyszeć. Wraz ze  słowami pojawia się obraz otwartej Biblii leżącej na  stole. Wszystkie słowa na  otwartej tam stronie napisane są czerwoną czcionką, co  oznacza, że przypisywane są one Jezusowi[^2].
 
@@ -220,15 +224,17 @@ Skutecznie zapomniałem o  sugestii Jeszuy. Wówczas mój wzrok pada na  Biblię
 
 „Cholera. Znów to  samo”. Znajome uczucie znów się pojawia. Wyciągam Biblię z  jej grobu. Kiedy otworzyłem ją ostatnim razem? Niepewnie ją kartkuję, aż w  końcu znajduję ewangelię Mateusza, rozdział 7, wersety 5–8 i  zaczynam czytać:
 
-„Obłudniku, wyrzuć najpierw belkę ze  swego oka, a  wtedy przejrzysz, ażeby usunąć drzazgę z  oka twego brata.
+> „Obłudniku, wyrzuć najpierw belkę ze  swego oka, a  wtedy przejrzysz, ażeby usunąć drzazgę z  oka twego brata.
 
-Nie dawajcie psom tego, co  święte, i  nie rzucajcie swych pereł przed świnie, by  ich nie podeptały nogami, i  obróciwszy się, was nie poszarpały.
+> Nie dawajcie psom tego, co  święte, i  nie rzucajcie swych pereł przed świnie, by  ich nie podeptały nogami, i  obróciwszy się, was nie poszarpały.
 
-Proście, a  będzie wam dane; szukajcie, a  znajdziecie; kołaczcie, a  otworzą wam.
+> Proście, a  będzie wam dane; szukajcie, a  znajdziecie; kołaczcie, a  otworzą wam.
 
-Albowiem każdy, kto prosi, otrzymuje; kto szuka, znajduje; a  kołaczącemu otworzą”.
+> Albowiem każdy, kto prosi, otrzymuje; kto szuka, znajduje; a  kołaczącemu otworzą”.
 
 Obie strony, każde słowo każdego wersetu jest w  kolorze czerwonym. Następnie słyszę Jego znajomy głos.
+
+<div markdown="1"class="indent"
 
 *Teraz zaczynamy.*
 
@@ -236,6 +242,8 @@ Obie strony, każde słowo każdego wersetu jest w  kolorze czerwonym. Następni
 *są one niezmiernie ważne*<br>
 *dla budzącej się świadomości.*<br>
 *Czy wiesz, czym jest owa „belka”[^3]?* 
+
+</div>
 
 [^3]:Angielskie słowo „beam” oznacza zarówno „belkę”, jak i „snop światła” – przyp.tłum.
 
@@ -245,6 +253,8 @@ Obie strony, każde słowo każdego wersetu jest w  kolorze czerwonym. Następni
 Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co  tkwi w  czyimś oku i  przeszkadza w  widzeniu. Lecz czuję, że nie jest to  właściwy obraz. Następnie obraz się zmienia i  widzę snop światła emitowany z  oczu jednej osoby w  stronę drugiej. Światło jest wielokolorowe. Czuję, że coś załapałem.
 
 „To  jest widzenie drugiej osoby. To  jest, hmm&hellip;” – szukam słów.
+
+<div markdown="1"class="indent"
 
 *To  jest osąd, Marc.*<br>
 *Właśnie osąd musi być najpierw wyrzucony,*<br>
@@ -266,7 +276,7 @@ Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co
 *„Depczą nogami” mądrość z  powodu swej niewinnej ignorancji,*<br>
 *„szarpiąc” was tym wszystkim, co  wiedzą:*<br>
 *ego używa innych ego.*<br>
-*To  jest wszystko, co  wiedzą.*
+*To  **jest** wszystko, co  wiedzą.*
 
 *Twoją odpowiedzialnością nigdy nie jest*<br>
 *rzucanie twej mądrości przed śpiących,*<br>
@@ -291,6 +301,8 @@ Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
@@ -299,14 +311,16 @@ Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co
 
 Skończyłem właśnie jeść późną kolację i  rozkoszuję się myślą, że za  chwilę po  prostu usiądę w  bujanym fotelu i  będę spoglądał na  zatokę i  statki, obserwując jak ostatnie ślady zmierzchu ustępują miejsca nocy, i popijając filiżankę gorącej czekolady, jak gdyby było to  jedyne doznanie, jakiego można doświadczać w  całym wszechświecie. Ale nie dzisiaj.
 
-*Witaj, Marc.*
+> *Witaj, Marc.*
 
 Nieruchomieję i  delektuję się uczuciem, jakie przynosi Jego obecność. Wspaniały spokój.
 
-*Będzie ci trochę trudno pisać*<br>
-*z  zamkniętymi oczami.*
+> *Będzie ci trochę trudno pisać*<br>
+> *z  zamkniętymi oczami.*
 
 Otwieram niechętnie oczy, przez chwilę obawiając się, że utracę z  Nim łączność. Nie tracę jej.
+
+<div markdown="1"class="indent"
 
 *Teraz zaczynamy.*
 
@@ -468,43 +482,45 @@ Otwieram niechętnie oczy, przez chwilę obawiając się, że utracę z  Nim ł�
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
 20 grudnia 1987  r.
 {: .omit}
 
-*Teraz zaczynamy.*
+> *Teraz zaczynamy.*
 
-*Marc, chcę cię prosić, byś znów otworzył Biblię,*<br>
-*a  my  poprowadzimy cię do  tych słów,*<br>
-*które obecnie bardzo potrzebujesz usłyszeć.*
+> *Marc, chcę cię prosić, byś znów otworzył Biblię,*<br>
+> *a  my  poprowadzimy cię do  tych słów,*<br>
+> *które obecnie bardzo potrzebujesz usłyszeć.*
 
 Podchodzę do  półki, chwytam Biblię (Boże, to  już dwa razy w  ciągu paru dni, moja mama byłaby w  szoku!) i  siadam.
 
 „Dobrze” – myślę sobie – „Co  u  licha mam czytać tym razem?”. Nie, to  nie jest odpowiednia postawa, po  prostu porzuć swe oczekiwania. Wkrótce się wyciszam. Wówczas słyszę:
 
-*Zajrzyj do  Marka 4,9 i  zacznij czytać.*
+> *Zajrzyj do  Marka 4,9 i  zacznij czytać.*
 
 I  znowu cały tekst jest wyróżniony czerwonym kolorem. Czy te „zbiegi okoliczności” się kiedyś skończą? Czy gdzieś po  drodze nie mógłby się zdarzyć jakiś błąd? Zaczynam sobie uświadamiać, że coś się tu  dzieje i  jeśli nie potrafię tego wytłumaczyć, to  będę musiał coś z  tym zrobić. Dlaczego to  zawsze wywołuje we  mnie dreszcze lęku?
 
-„I  dodał: Kto ma uszy do słuchania, niechaj słucha!
-Wam dana jest tajemnica królestwa&hellip;”
+> „I  dodał: Kto ma uszy do słuchania, niechaj słucha!
+> Wam dana jest tajemnica królestwa&hellip;”
 
 Czuję nagłe poruszenie, niczym falę energii płynącą w  górę kręgosłupa.
 
-*Marc,*<br>
-*zawsze pamiętaj te słowa,*<br>
-*a  zwątpienie co  do  twej podróży cię nie przemoże.*<br>
-*Teraz zajrzyj do  Jana 5,10.*
+> *Marc,*<br>
+> *zawsze pamiętaj te słowa,*<br>
+> *a  zwątpienie co  do  twej podróży cię nie przemoże.*<br>
+> *Teraz zajrzyj do  Jana 5,10.*
 
 Zaczynam czytać przypowieść o  tym, jak Jezus uzdrowił człowieka w  szabat i  jak Żydzi chcieli Go zabić, ponieważ nie tylko złamał prawo, ale twierdził, że jest równy Bogu.
 
 Kontynuuję czytanie, aż dochodzę do  wersetu 23:
 
-„ &hellip;aby wszyscy oddawali cześć Synowi, tak jak oddają cześć Ojcu.
+> „ &hellip;aby wszyscy oddawali cześć Synowi, tak jak oddają cześć Ojcu.<br>Kto nie oddaje czci Synowi, nie oddaje czci Ojcu, który Go posłał”.
 
-Kto nie oddaje czci Synowi, nie oddaje czci Ojcu, który Go posłał”.
+<div markdown="1"class="indent"
 
 *Wielkiej uwagi wymaga*<br>
 *teraz to, co  powiem o  tym nauczaniu.*<br>
@@ -598,13 +614,17 @@ Kto nie oddaje czci Synowi, nie oddaje czci Ojcu, który Go posłał”.
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
 22 grudnia 1987  r.
 {: .omit}
 
-*Teraz zaczynamy.*
+<div markdown="1"class="indent"
+
+Teraz zaczynamy.*
 
 *Będę dziś rozmawiał z  tobą*<br>
 *o  chwale,*<br>
@@ -724,6 +744,8 @@ Kto nie oddaje czci Synowi, nie oddaje czci Ojcu, który Go posłał”.
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
@@ -732,6 +754,8 @@ Nie potrafię opisać tego, co  czuję. Może niczego nie czuję. Energia Jeszuy
 Proroctwo. Każda najdrobniejsza cząstka mego jestestwa się temu sprzeciwia. Mój rozum nie potrafi tego zaakceptować, jednak widzę jasno, że jest tak dlatego, że jest on „nierozumny”. Właśnie w  tej chwili nie potrafię w  ogóle rozumować.
 
 Nagle znów czuję tę zmianę w  energii:
+
+<div markdown="1"class="indent"
 
 *Bardzo dobrze, Marc.*<br>
 *To  przychodzi tak łatwo, kiedy wybierasz*<br>
@@ -766,19 +790,23 @@ Nagle znów czuję tę zmianę w  energii:
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
 26 grudnia 1987  r.
 {: .omit}
 
-*Dobry wieczór, Marc.*
+> *Dobry wieczór, Marc.*
 
 „Dobry wieczór, Jeszuo. Jak to  się dzieje, że ta  komunikacja może się wydarzać w  taki sposób, tak &hellip;”
 
-*Sugerowałbym, żebyś to  zapisał, proszę.*
+> *Sugerowałbym, żebyś to  zapisał, proszę.*
 
 „W  porządku”.
+
+<div markdown="1"class="indent"
 
 *Teraz zaczynamy.*
 
@@ -977,11 +1005,15 @@ Nagle znów czuję tę zmianę w  energii:
 
 *Amen.*
 
+</div>
+
 ![znaczek]({{page.separator}})
 {: .omit}
 
 28 grudnia 1987  r.
 {: .omit}
+
+<div markdown="1"class="indent"
 
 *Teraz zaczynamy.*
 
@@ -1081,6 +1113,8 @@ pradawnej pamięci, kiedy człowiek chodził w  Bogu*<br>
 *Bądź błogosławiony.*
 
 *Amen.*
+
+</div>
 
 ![znaczek]({{page.separator}})
 {: .omit}

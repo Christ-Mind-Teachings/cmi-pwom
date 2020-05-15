@@ -188,6 +188,8 @@ Wróciłem na kanapę i opadłem na nią. Kendra nadal nie zapaliła papierosa, 
 
 – Powiedział parę rzeczy, które odczułem niczym przechodzące przeze mnie fale doznań, doznań, które były pewnego rodzaju rozpoznaniem prawdy tego, co mówił. Część z tego, co powiedział, od czasu do czasu wraca, pojawiając się w mej świadomości, i przypominam sobie, że jakoś wiedziałem wówczas, iż jest to szczególnie ważne, choć nie miałem pojęcia, dlaczego tak to czułem. Powiedział:
 
+<div markdown="1" class="indent">
+
 *Mój przyjacielu, bywałeś waść wiele razy kimś, kogo<br>
 zowią filozofem.<br>
 Czyż nie jest tak znów?<br>
@@ -199,6 +201,8 @@ Wiedz jednak waść bez wątpienia, że nie byłeś<br>
 tym Jednym Wielkim,<br>
 jednakowoż byłeś z nim związany.*
 
+</div>
+
 Spoglądam na Kendrę i szybko uprzedzam jej pytanie: – Nie, w ogóle nie przyszło mi na myśl, by się zapytać, kim jest ten „Jeden Wielki”. Gdy Jonasz mówił, czułem mrowienie w całym kręgosłupie, nie potrafiłem myśleć, a co dopiero mówić. Właściwie to powiedział on wtedy, że dobrze by było, żebyśmy skończyli, ponieważ mam wiele do przemyślenia.
 
 Od tamtej pory miałem szereg doświadczeń, które można nazwać „mistycznymi”, nie wspominając o dziwnych zbiegach okoliczności, przeczuciach, przyciąganiu do pewnych ludzi i książek – jak gdyby jakiś niewidzialny magnes ciągnął mnie najpierw w jedną stronę, a później w drugą. Aż w końcu, pewnego niewinnego sobotniego poranka, usłyszałem jak Jonasz do mnie mówi. Wyskoczyłem z łóżka i bazgrząc zapisałem jego słowa, wraz z wszystkimi charakterystycznymi dla niego zwrotami, jak „na litość boską” czy „waść”. Zdajesz sobie sprawę, jak bardzo byłem wobec tego sceptyczny i nieufny?
@@ -207,7 +211,7 @@ Od tamtej pory miałem szereg doświadczeń, które można nazwać „mistycznym
 
 Takiego wspomnienia się nie zapomina, ale Kendra o tym wie.
 
-– Tak! Ale byłem i nadal jestem sceptyczny i nieufny!
+– Tak! Ale byłem i nadal *jestem* sceptyczny i nieufny!
 
 W końcu Kendra zapala papierosa i zamyślona zaciąga się głęboko.
 
@@ -227,7 +231,7 @@ Odwracam się nieco w jej stronę. Zginam nogę, wkładając stopę pod drugie u
 
 Kendra wygląda na zaskoczoną: – A co w tym złego?
 
-– Kendra, nie rozumiesz? Jeśli to się naprawdę dzieje, wówczas coś z tym będę musiał zrobić! A jeśli w jakiś sposób to wszystko zmyślam, dopiero wtedy będę miał problem. Problem taki zwykle wymaga pomocy psychiatry, który prawdopodobnie będzie musiał odwiedzać mnie codziennie w trakcie swoich obchodów po szpitalu Western State Hospital.
+– Kendra, nie rozumiesz? Jeśli to się naprawdę dzieje, wówczas coś z tym będę musiał zrobić! A jeśli w jakiś sposób to wszystko zmyślam, dopiero wtedy *będę* miał problem. Problem taki zwykle wymaga pomocy psychiatry, który prawdopodobnie będzie musiał odwiedzać mnie codziennie w trakcie swoich obchodów po szpitalu Western State Hospital.
 
 – To właśnie tego się boisz?
 
@@ -260,7 +264,7 @@ Idę z naszego obozowiska w stronę północnego krańca plaży. Mój wzrok tań
 
 Zaczyna we mnie wzbierać dziwne uczucie. To nie ból, z pewnością uczucie nie jest bolesne. Przypomina bardziej lekki szum, wibrację. Odczuwam je w centrum ciała, w pobliżu serca. Teraz porusza się ono, poszerza i wznosi, wypełniając mą głowę. Dziwne wydaje się równoczesne odczuwanie, jak i bierne obserwowanie tego dziwnego niewielkiego zjawiska.
 
-*Witaj, Marc.*
+> *Witaj, Marc.*
 
 Z tej wibracji wyłaniają się słowa, które są tak czyste i wyraźne, jak gdyby ktoś mówił mi je wprost do ucha. Wraz ze słowami wibracja wydaje się zmieniać i zaczynam czuć energię, ciepło, doznanie, jakiego do tej pory nie doświadczyłem. Jest wzniosłe i pełne spokoju nie do opisania.
 
@@ -328,6 +332,7 @@ Ostrość widzenia powoli się rozmywa. Oddycham spokojniej i rytmiczniej. Czuj�
 
 Teraz odbieram wrażenie ruchu i czuję, że ktoś prowadzi mnie w stronę czegoś, co jawi się jako drzwi. Otwierają się one i szybuję przez tunel wspaniałego, pulsującego światła. Gdy zbliżam się do jego końca, widzę tam jasne światło, które zaczyna przybierać formę mężczyzny w lśniących szatach. Jego twarz wydaje się teraz znajoma.
 
+<div markdown="1" class="indent">
 *Teraz zaczynamy.<br>
 Marc, powoli otwórz oczy.<br>
 Pozwól jednak, by twa świadomość spoczywała przy Mnie.*
@@ -417,6 +422,8 @@ przez całą wieczność.*
 
 *Amen.*
 
+ </div>
+
 Gdy jego energia powoli znika, stopniowo powracam do mej codziennej rzeczywistości. Powracam? A gdzie byłem? I kto tam się udał? Co to znaczy „przyjdź tutaj, gdzie JAM JEST”? Gdzie to jest? Skąd wyszedłem, nie używając siły mięśni? Z mego „snu”? Wzdrygam się, rozglądając się wkoło: zestaw stereo, kominek, poruszane wiatrem kwiaty na balkonie.
 
 Przypominam sobie, jak George Berkeley, osiemnastowieczny filozof, dowodził kiedyś, że to, czego doświadczamy, jest tylko snem. Mając już dość słuchania tych wywodów, jeden ze studentów wyszedł, krzycząc, że obali dziwną teorię poczciwego biskupa. Niewiele się namyślając, kopnął z całych sił kamień, łamiąc przy tym palec! Oczywiście student nie zrozumiał o co chodzi, lecz jakaś część mnie również bardzo chce kopnąć taki kamień.
@@ -428,6 +435,8 @@ Skrycie zaczynam podejrzewać, że rozglądając się wokół siebie, nie zrozum
 
 15 sierpnia 1987 r.
 {: .omit}
+
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.<br>
 O jakąż Miłością darzę<br>
@@ -467,6 +476,8 @@ Jaki będzie twój wybór?*
 
 *Amen.*
 
+</div>
+
 Kendra kładzie na stole spisane słowa Jeszuy, nie odrywając od nich oczu.
 
 – Przepraszam, że tak długo czytałam, ale bazgrzesz jak kura pazurem!
@@ -495,7 +506,7 @@ Drzewko bonsai chyba przeżyje, nawet przy braku opieki z mojej strony. Wracam d
 
 – Co więc zrobisz?
 
-– Na razie niewiele. Jeśli to się wydarzy, albo kiedy to się wydarzy, to się wydarzy. Ja na pewno zadbam o to, żeby mieć pod ręką notatnik, i u licha, jeśli będzie więcej tych spotkań, może zanotuję również parę innych rzeczy, no wiesz, gdzie jestem, co się dzieje wokół, coś w tym rodzaju.
+– Na razie niewiele. Jeśli to się wydarzy, albo kiedy to się wydarzy, to się wydarzy. Ja *na pewno* zadbam o to, żeby mieć pod ręką notatnik, i u licha, jeśli będzie więcej tych spotkań, może zanotuję również parę innych rzeczy, no wiesz, gdzie jestem, co się dzieje wokół, coś w tym rodzaju.
 
 Uśmiecham się szeroko i patrzę na Kendrę.
 
@@ -551,3 +562,4 @@ Milkniemy oboje.
 – Tak?
 
 – A co jeśli to „oni” się mylą?”
+
