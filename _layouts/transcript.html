@@ -15,7 +15,12 @@
   <title>Way of Mastery:{{page.title}}</title>
 
   {% include common/load-open-graph.html %}
-  {% include common/transcript-css.html type="sa" %}
+
+  {% if site.environment == "standalone" %}
+    {% include common/transcript-css.html type="standalone" %}
+  {% else %}
+    {% include common/transcript-css.html type="integration" %}
+  {% endif %}
   {% include favicon/cmi.html %}
 
 </head>
@@ -67,7 +72,11 @@
   {% endif %}
   <div class="fixed" id="netlify-modal"></div>
   {% include common/javascript.html %}
-  {% include common/transcript-js.html type="sa" %}
+  {% if site.environment == "standalone" %}
+    {% include common/transcript-js.html type="standalone" %}
+  {% else %}
+    {% include common/transcript-js.html type="integration" %}
+  {% endif %}
 </body>
 
 </html>

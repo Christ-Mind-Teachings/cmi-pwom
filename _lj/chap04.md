@@ -5,7 +5,7 @@ title: "Rozdział czwarty"
 <div markdown="1" class="chHead">
 ## Rozdział czwarty
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 *Nie istnieje nic,<br>
@@ -194,7 +194,7 @@ jak zareagujesz na  to, co  stworzyłeś?*
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 17 grudnia 1987  r.
@@ -247,7 +247,7 @@ Obie strony, każde słowo każdego wersetu jest w  kolorze czerwonym. Następni
 
 [^3]:Angielskie słowo „beam” oznacza zarówno „belkę”, jak i „snop światła” – przyp.tłum.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co  tkwi w  czyimś oku i  przeszkadza w  widzeniu. Lecz czuję, że nie jest to  właściwy obraz. Następnie obraz się zmienia i  widzę snop światła emitowany z  oczu jednej osoby w  stronę drugiej. Światło jest wielokolorowe. Czuję, że coś załapałem.
@@ -303,7 +303,7 @@ Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 18 grudnia 1987  r.
@@ -484,7 +484,7 @@ Otwieram niechętnie oczy, przez chwilę obawiając się, że utracę z  Nim ł�
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 20 grudnia 1987  r.
@@ -616,7 +616,7 @@ Kontynuuję czytanie, aż dochodzę do  wersetu 23:
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 22 grudnia 1987  r.
@@ -746,7 +746,7 @@ Teraz zaczynamy.*
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Nie potrafię opisać tego, co  czuję. Może niczego nie czuję. Energia Jeszuy nigdy nie była tak potężna, tak bezpośrednia, tak bezceremonialna. Czuję się tak, jak gdybym nie mógł niczym poruszyć ani o  niczym pomyśleć. Jednak uświadamiam sobie, że część mnie jest tym przerażona.
@@ -792,7 +792,7 @@ Nagle znów czuję tę zmianę w  energii:
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 26 grudnia 1987  r.
@@ -1007,7 +1007,7 @@ Nagle znów czuję tę zmianę w  energii:
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 28 grudnia 1987  r.
@@ -1116,7 +1116,7 @@ pradawnej pamięci, kiedy człowiek chodził w  Bogu*<br>
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 29 grudnia 1987  r.

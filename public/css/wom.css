@@ -33,6 +33,10 @@
   margin-left: 20px;
  }
 
+.transcript.lj div.indent { 
+  margin-bottom: 2em;
+}
+
 .transcript.lj blockquote,
 .transcript.lj p.indent,
 .transcript.lj div.indent p { 

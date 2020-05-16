@@ -10,9 +10,11 @@ let env = {
   SID: 0,
   BID: 0,
   UID: 1,
-  timingBase: "/public/timing", //location of audio timing files
-  configUrl: "/public/config",  //location of book config files
-  configStore: "config."        //location of configuration files
+  environment: "",
+  prefix: "",                       //prefix for non standalone url's
+  timingBase: "/public/timing",     //location of audio timing files
+  configUrl: "/standalone/config",  //location of book config files
+  configStore: "config."            //location of configuration files
 };
 
 //the current configuration, initially null, assigned by getConfig()
@@ -30,13 +32,8 @@ function refreshNeeded(cfg) {
   let saveDate = status[cfg.bid];
 
   if (!cfg.saveDate) {
+    //console.log("%s needs to be refreshed", cfg.bid);
     cfg.saveDate = saveDate;
-
-    //we don't use this anymore
-    if (cfg.lastFetchDate) {
-      delete cfg.lastFetchDate;
-    }
-    console.log("%s needs to be refreshed", cfg.bid);
     return true; //refresh needed
   }
 
@@ -46,8 +43,8 @@ function refreshNeeded(cfg) {
   }
   else {
     //config file has changed, refresh needed
+    //console.log("%s needs to be refreshed", cfg.bid);
     cfg.saveDate = saveDate;
-    console.log("%s needs to be refreshed", cfg.bid);
     return true;
   }
 }
@@ -93,6 +90,7 @@ export function getConfig(book, assign = true) {
         config = cfg;
       }
       resolve(cfg);
+      return;
     }
 
     //get config from server
@@ -130,6 +128,7 @@ export function loadConfig(book) {
     if (cfg && !refreshNeeded(cfg)) {
       config = cfg;
       resolve("config read from cache");
+      return;
     }
 
     //get config from server
@@ -187,21 +186,24 @@ export function getAudioInfo(url) {
   let lookup = ["ble", "c2s", "hoe", "ign", "com", "dbc", "dth", "fem", "gar", "hea", "hoa", "hsp", "joy1", "joy2", "lht", "moa", "mot", "wak", "wlk"];
   let wos = ["foreword", "preface", "chap01", "chap02", "chap03", "chap04", "afterwords", "epilog", "prayer"];
 
-  switch(idx[env.BID]) {
-    case "tjl":
-      break;
-    case "wos":
-      cIdx = indexOf(wos, idx[env.UID]);
-      audioInfo = _getAudioInfo(idx, cIdx);
-      break;
-    case "early":
-      cIdx = indexOf(lookup, idx[env.UID]);
-      audioInfo = _getAudioInfo(idx, cIdx);
-      break;
-    default:
-      cIdx = parseInt(idx[3].substr(1), 10) - 1;
-      audioInfo = _getAudioInfo(idx, cIdx);
-      break;
+  if (1 === 2) {
+    //skip this for now
+    switch(idx[env.BID]) {
+      case "tjl":
+        break;
+      case "wos":
+        cIdx = indexOf(wos, idx[env.UID]);
+        audioInfo = _getAudioInfo(idx, cIdx);
+        break;
+      case "early":
+        cIdx = indexOf(lookup, idx[env.UID]);
+        audioInfo = _getAudioInfo(idx, cIdx);
+        break;
+      default:
+        cIdx = parseInt(idx[3].substr(1), 10) - 1;
+        audioInfo = _getAudioInfo(idx, cIdx);
+        break;
+    }
   }
 
   audioInfo.audioBase = env.audioBase;
@@ -239,6 +241,15 @@ export function getPageInfo(pageKey, data = false) {
   }
 
   return new Promise((resolve, reject) => {
+
+    //invalid pageKey
+    if (pageKey === -1) {
+      info.bookTitle = "Book Title Unknown";
+      info.title = "Title Unknown";
+      info.url = "";
+      resolve(info);
+      return;
+    }
 
     //get configuration data specific to the bookId
     getConfig(decodedKey.bookId, false)
@@ -295,19 +306,22 @@ export function getPageInfo(pageKey, data = false) {
  * Set environment to standalone or integrated
  */
 export function setEnv(constants) {
-  env.configStore = `${env.configStore}${constants.sid}.`;
+  env.configStore = constants.configStore;
   env.title = constants.title;
   env.audioBase = constants.audioBase;
+  env.environment = constants.env;
 
-  if (constants.env === "sa") {
+  if (constants.env === "standalone") {
     return;
   }
 
   env.SID += 1;
   env.BID += 2;
   env.UID += 2;
+  env.prefix = constants.url_prefix;
   env.timingBase = `${constants.url_prefix}${env.timingBase}`;
-  env.configUrl = `${constants.url_prefix}${env.configUrl}`;
+  env.configUrl = env.configUrl.replace("/standalone", `${constants.url_prefix}/public`);
+  console.log("configUrl: %s", env.configUrl);
 }
 
 

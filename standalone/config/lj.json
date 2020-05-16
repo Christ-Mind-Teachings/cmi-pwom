@@ -1,75 +1,75 @@
 {
   "bid": "lj",
   "title": "Listy Jeszuy",
-  "image": "/t/pwom/public/img/wom/tjlN-toc.jpg",
+  "image": "/public/img/wom/tjlN-toc.jpg",
   "contents": [
     {
       "title": "Podziękowania",
-      "url": "/t/pwom/lj/acknow/"
+      "url": "/lj/acknow/"
     },
     {
       "title": "Do czytelnika",
-      "url": "/t/pwom/lj/reader/"
+      "url": "/lj/reader/"
     },
     {
       "title": "Przedmowa",
-      "url": "/t/pwom/lj/forwd/"
+      "url": "/lj/forwd/"
     },
     {
       "title": "Wstęp",
-      "url": "/t/pwom/lj/intr/"
+      "url": "/lj/intr/"
     },
     {
       "title": "Rozdział pierwszy",
-      "url": "/t/pwom/lj/chap01/"
+      "url": "/lj/chap01/"
     },
     {
       "title": "Rozdział drugi",
-      "url": "/t/pwom/lj/chap02/"
+      "url": "/lj/chap02/"
     },
     {
       "title": "Rozdział trzeci",
-      "url": "/t/pwom/lj/chap03/"
+      "url": "/lj/chap03/"
     },
     {
       "title": "Rozdział czwarty",
-      "url": "/t/pwom/lj/chap04/"
+      "url": "/lj/chap04/"
     },
     {
       "title": "Rozdział piąty",
-      "url": "/t/pwom/lj/chap05/"
+      "url": "/lj/chap05/"
     },
     {
       "title": "Rozdział szósty",
-      "url": "/t/pwom/lj/chap06/"
+      "url": "/lj/chap06/"
     },
     {
       "title": "Rozdział siódmy",
-      "url": "/t/pwom/lj/chap07/"
+      "url": "/lj/chap07/"
     },
     {
       "title": "Rozdział ósmy",
-      "url": "/t/pwom/lj/chap08/"
+      "url": "/lj/chap08/"
     },
     {
       "title": "Rozdział dziewiąty",
-      "url": "/t/pwom/lj/chap09/"
+      "url": "/lj/chap09/"
     },
     {
       "title": "Rozdział dziesiąty",
-      "url": "/t/pwom/lj/chap10/"
+      "url": "/lj/chap10/"
     },
     {
       "title": "Rozdział jedenasty",
-      "url": "/t/pwom/lj/chap11/"
+      "url": "/lj/chap11/"
     },
     {
       "title": "Rozdział dwunasty",
-      "url": "/t/pwom/lj/chap12/"
+      "url": "/lj/chap12/"
     },
     {
       "title": "Epilog",
-      "url": "/t/pwom/lj/eplg/"
+      "url": "/lj/eplg/"
     }
   ]
 }

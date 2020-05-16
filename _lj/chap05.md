@@ -5,6 +5,9 @@ title: "Rozdział piąty"
 <div markdown="1" class="chHead">
 ## Rozdział piąty
 
+![znaczek]({{page.big-separator}})
+{: .omit}
+
 *Budzący się Syn<br>
 jest jak ktoś, kto szuka Światła,<br>
 a  następnie opłakuje zniknięcie cieni,<br>
@@ -93,7 +96,7 @@ i  wszystko, o  czym śnisz.*
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 22 stycznia 1988  r.
@@ -159,7 +162,7 @@ Czy nie jest to  tylko ostateczny opór,<br>
 przy którym tak uparcie obstajesz?<br>
 Dobrze się nad tym zastanów.*
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 *Niech to  będzie znakiem dla ciebie:*<br>
@@ -214,7 +217,7 @@ Nawet czas został wybrany.*
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 15 lutego 1988  r.
@@ -298,7 +301,7 @@ Czy tym właśnie jest nasz świat? Czy ja, my  żyjemy w  jaskini wypełnionej 
 
 Czy jestem gotów zrezygnować z  mojego świata? To  jest jedyny świat, jaki znam, i  nawet tego świata nie znam zbyt dobrze. Czy też po  prostu boję się tego, co  leży poza zakazami władzy, poza granicami „prawdy” konsensusu?
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 20 lutego 1988  r.
@@ -336,7 +339,7 @@ Kendra oczywiście nie może przepuścić takiej okazji: – Zatem to  oznacza, 
 
 Uśmiecham się, wiedząc, że teraz naprawdę nie mam innego wyboru niż przez to  przejść: – A  więc do  zobaczenia jutro wieczorem. Dzięki za  numer. Cześć!
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Wymieniwszy uprzejmości z  Billie, przygotowujemy magnetofon i  sadowimy się wygodnie na  sofie. Relaksuję się jak najlepiej potrafię, czekając cierpliwie, aż zajdzie zmiana, czyli Billie odejdzie, a  pojawi się Jeremiasz. Czymkolwiek jest to  zjawisko, zawsze fascynuje mnie zauważalna fizyczna zmiana: twarz Billie zmienia subtelnie kształt, jej ciało zaczyna wydawać się jakby trochę większe.

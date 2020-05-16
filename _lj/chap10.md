@@ -5,7 +5,7 @@ title: "Rozdział dziesiąty"
 <div markdown="1" class="chHead">
 ## Rozdział dziesiąty
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 *Kiedy dusza dokonuje wyboru, by  służyć Bogu,<br>

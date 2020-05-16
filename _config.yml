@@ -1,11 +1,13 @@
 # CMI
 #destination: "../cmi-www/_site/t/pwom"
 
-sourceId: 10
+environment: standalone
+
+sourceId: 16
 cmiTitle: "Teachings of Christ Mind"
 
 # Setup
-title:        'Way of Mastery'
+title:        'Droga Mistrzostwa'
 tagline:      'Now, we begin...'
 description:  'A pathway of awakening from Jeshua through Jon Marc Hammer (Jayem)'
 url:          'https://www.christmind.info/t/pwom'
@@ -40,21 +42,20 @@ markdown: kramdown
 collections:
   lj:
     output: true
-    title: The Jeshua Letters
+    title: Listy Jeszuy
 
 defaults:
+
   - scope:
       path: ""
       type: lj
     values:
       layout: transcript
-      book: "The Jeshua Letters"
-      publisher: "Way of Mastery"
+      book: "Listy Jeszuy"
+      publisher: "Droga Mistrzostwa"
       image: "/public/img/wom/tjlN-big.jpg"
-      separator: "/public/img/wom/znaczek.jpg"
-      #      image: "/t/wom/public/img/wom/tjlN-big.jpg"
-      #      line2: "/t/wom/public/img/wom/line2.jpg"
-      #      line4: "/t/wom/public/img/wom/line4.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      little-separator: "/public/img/wom/little.jpg"
       image-width: 612
       image-height: 938
       bid: "LJ"

@@ -4,7 +4,7 @@ title: "Rozdział trzeci"
 
 <div markdown="1" class="chHead">
 ## Rozdział trzeci
-![znaczek]({{page.separator}})
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 *To zawsze lęk<br>przed własną śmiercią<br>blokuje rozpoznanie<br>Królestwa.*
@@ -319,7 +319,7 @@ Błogosław ją, błogosław ją całą.*
 *Amen.*
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 13 listopada 1987  r.
@@ -617,7 +617,7 @@ Konflikt przenika me jestestwo, gdy mój umysł chwilowo toczy ze  sobą walkę,
 
 Powoli przesuwam stopę z  hamulca na  pedał gazu.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Czując jeszcze świeżość ekstatycznego doświadczenia, które minęło, decyduję się zaufać stwierdzeniu na  temat mojego mieszkania i  zadziałać pod jego wpływem.
@@ -673,7 +673,7 @@ Przyjeżdżam, gdy kobieta oglądająca mieszkanie schodzi ze  schodów.
 
 Prawie w  ogóle nie oglądam mieszkania. Nawet nie wchodzę do  sypialni czy łazienki. Widzę widok z  okna, światła na  wodzie, tankowce cumujące w  spokojnej przystani. Ale najważniejsze – *czuję*, że to  jest to. No i  proszę! Czekało na  mnie!
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 22 listopada 1987  r.

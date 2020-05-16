@@ -17,8 +17,11 @@ footer:
   <div class="ui three cards">
     <div class="card">
       <a href="#" data-book="lj" class="toc-modal-open image">
-        <!-- <img src="/t/wom/public/img/wom/tjlN-big.jpg"> -->
+        {% if site.environment == "standalone" %}
         <img src="/public/img/wom/tjlN-big.jpg">
+      {% else %}
+        <img src="/t/wom/public/img/wom/tjlN-big.jpg">
+      {% endif %}
       </a>
       <div class="content">
         <div class="description">

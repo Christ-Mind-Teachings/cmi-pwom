@@ -15,7 +15,11 @@
   <title>{{page.title}}</title>
 
   {% include common/load-open-graph.html %}
-  {% include common/page-css.html type="sa" %}
+  {% if site.environment == "standalone" %}
+    {% include common/page-css.html type="standalone" %}
+  {% else %}
+    {% include common/page-css.html type="integration" %}
+  {% endif %}
   {% include favicon/cmi.html %}
 
 </head>
@@ -38,7 +42,11 @@
   {% include components/notes-modal.html %}
   <div class="fixed" id="netlify-modal"></div>
 
-  {% include common/page-js.html type="sa" %}
+  {% if site.environment == "standalone" %}
+    {% include common/page-js.html type="standalone" %}
+  {% else %}
+    {% include common/page-js.html type="integration" %}
+  {% endif %}
 </body>
 
 </html>

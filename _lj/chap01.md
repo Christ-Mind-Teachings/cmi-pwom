@@ -5,7 +5,7 @@ title: "Rozdział pierwszy"
 <div markdown="1" class="chHead">
 ## Rozdział pierwszy
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 *Każdy z was jest tutaj<br>tylko z jednego powodu:<br>by ponownie uświadomić sobie Prawdę<br> i wrócić do Domu.*
@@ -123,7 +123,7 @@ Ciągnę dalej, ściszając głos: – Jego imię, całe jego życie było i nad
 
 – Tak, *tego* Jeszuę.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Kendra bardzo się ożywia: – Co jeszcze powiedział? Co to za przesłanie? Och, Marc, to jest wspanialsze, niż myślałam, niż *jestem w stanie* pomyśleć. Co on zamierza&hellip; kiedy on&hellip;
@@ -251,7 +251,7 @@ Kendra siada prosto, kładąc rękę na moim ramieniu: – Nie pierwszy? A kiedy
 
 – Parę tygodni temu, gdy pojechaliśmy wszyscy na kemping nad morze.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Jest wcześnie rano. Świt zaczyna rozpraszać noc. Spaceruję wzdłuż piaszczystego brzegu tuż przy linii wody, spoglądając najpierw na prawo, w dal aż po bezchmurny horyzont, następnie przed siebie ku odległym stromym klifom, gdzie prawie niedostrzegalny wodospad toczy w ciszy swe wody, opadając na spotkanie z morzem i rozbijając się majestatycznie na olbrzymich skałach u podstawy klifu.
@@ -287,7 +287,7 @@ Przyjaciele krzątają się w obozie, zaczęło się śniadanie. Siedzę w ciszy
 
 – Chcesz jeszcze herbaty? – pytam Kendrę, opowiedziawszy moje przeżycie na plaży.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Kendra nie odpowiada. Siedzi w bezruchu, patrząc nie tyle na mnie, co na wskroś mnie.
@@ -323,7 +323,7 @@ Kendra bierze filiżankę, tuli ją w obu dłoniach, delektując się jej ciepł
 
 – To słowo pochodzi z greki, a właściwie to są dwa słowa: „fileo” zasadniczo znaczy „miłość”, a „sofia” – „mądrość”. Filozofia to umiłowanie mądrości. Filozof jest miłośnikiem mądrości.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Później tego dnia jestem sam. Siedzę na kanapie ze skrzyżowanymi nogami i rozluźniam się, spoglądając na ostatnie ślady łagodnego i krzepiącego zachodu słońca.
@@ -430,7 +430,7 @@ Przypominam sobie, jak George Berkeley, osiemnastowieczny filozof, dowodził kie
 
 Skrycie zaczynam podejrzewać, że rozglądając się wokół siebie, nie zrozumiem tego, co doświadczam. I jest to niepokojące.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 15 sierpnia 1987 r.

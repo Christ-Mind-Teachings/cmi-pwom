@@ -5,7 +5,7 @@ title: Rozdział szósty
 <div markdown="1" class="chHead">
 ## Rozdział szósty
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 *Gdy opierasz się służbie*<br>
@@ -59,7 +59,7 @@ Już się cieszę na  dzisiejszy wieczór. Z  dużym wyprzedzeniem
 realizujemy harmonogram i  czuję się bezpiecznie, nie musząc przynosić
 pracy do  domu. Czas się rozluźnić i  tym wszystkim delektować.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Bujam się łagodnie w  przód i  w  tył z  nogami na  parapecie. Oczy
@@ -131,7 +131,7 @@ niezależnie od  tego, co  z  niego wyniknie.
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 6 maja 1988  r.
@@ -197,7 +197,7 @@ niezależnie od  tego, co  z  niego wyniknie.
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 25 maja 1988  r.
@@ -349,7 +349,7 @@ bardziej subtelnym podszeptem ego?”
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 To  przeważyło szalę. Często w  trakcie mych spotkań z  Jeszuą pojawiała
@@ -378,7 +378,7 @@ za  mną. Lecz uderza mnie jej radykalność –  wymaga zmiany na
 fundamentalnych poziomach, w  niezrozumiały jeszcze dla mnie sposób. Jak
 więc mam się nią dzielić?
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 6 czerwca 1988  r.
@@ -452,7 +452,7 @@ ciągu dwóch tygodni nie dostanę odpowiedzi od  Jonasza, będę miał powód,
 by  to  wszystko zdyskredytować! A  teraz pojawia się pytanie: A  co,
 jeśli *dostanę* tę taśmę z  nagraniem?
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 18 czerwca 1988  r.
@@ -535,7 +535,7 @@ siłą przez pozostałą część sesji, gdy zadaję Jonaszowi pytania o  mój
 opór, o  mój lęk, który w  całości jest tylko narcystycznym zadufaniem,
 o  Jeszuę&hellip;
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 „Kiedy przygotowujemy się do  zmiany rzeczywistości, do  przejścia od
@@ -602,7 +602,7 @@ tym, co  czuję, czy czego doświadczam. Owe słowa rozbrzmiewają mi
 nieustannie w  umyśle, rezonując niczym niemilknące echo: „Dawca Prawdy,
 Dawca Prawdy, Dawca  Prawdy…”.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 19 lipca 1988  r.
@@ -712,7 +712,7 @@ Dawca Prawdy, Dawca  Prawdy…”.
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 21 lipca 1988  r.

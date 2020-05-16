@@ -4,7 +4,7 @@ title: "Rozdział drugi"
 
 <div markdown="1" class="chHead">
 ## Rozdział drugi
-![znaczek]({{page.separator}})
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 *Nigdy<br>myśli świata<br>nie były twoimi.<br>One są złudzeniem.<br>I dlatego<br>złudzeniem jest również twe nieszczęście.*
@@ -154,7 +154,7 @@ Nie potrafię ani nic powiedzieć, ani pomyśleć. Wydaje się, że jedyne, co c
 
 Gdy wychodzę z wody, czuję, że odeszła ze mnie cała energia. Upadam na piasek i zapadam w głęboki sen.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 „Kapitan właśnie wyłączył sygnalizację zapięcia pasów”.
@@ -176,7 +176,7 @@ Czy to może być tak proste? I w jaki sposób uwolnić tę jedną myśl, w któ
 
 Włożywszy notes z powrotem na jego miejsce, czyli wciskając go na dno torby gdzieś pomiędzy skarpetkami a bielizną, opieram głowę o oparcie fotela, naciskam na wbudowany weń przycisk, by odchylić go jak najdalej się da i z rozmysłem skupiam się na filmie, żałując, że nie zapłaciłem sześciu dolców za słuchawki.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 3 września 1987 r.
@@ -324,7 +324,7 @@ Zaczynam się śmiać, widząc pojawiający się w umyśle obraz. Buddyjscy mnis
 
 Przez chwilę jestem buddyjskim mnichem zen, ale tylko przez jedną ulotną chwilę.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 9 września 1987 r.
@@ -369,7 +369,7 @@ Chrystusa.*
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 25 września 1987 r.
@@ -383,7 +383,7 @@ Coś powinienem zrobić ze swoim życiem, ale nie wiem, co. A może właśnie to
 
 Do diabła z tym. W końcu jestem tu, gdzie jestem. Nie potrafię precyzyjnie odkryć źródła niezadowolenia, ale z pewnością je czuję. Zajmij się czymś. Wróć do pracy i nie myśl o tym. Dobry pomysł. Może dzisiaj wieczorem wypożyczę film, wypiję lampkę wina lub dwie.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Wieczór. Wino nalane, ale jeszcze nietknięte. Z jakiegoś powodu waham się, czy włożyć kasetę do odtwarzacza. Opadam na kanapę i po prostu siedzę.
@@ -683,7 +683,7 @@ jednak zawsze jesteśmy z tobą.*
 
 </div>
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 12 października 1987 r.
@@ -712,7 +712,7 @@ Całe moje ciało, od stóp do głów, elektryzuje energia. Następnie, równie 
 
 W końcu samochody zaczynają poruszać się żółwim tempem. Dojeżdżam do parkingu i gdy zaczynam iść w stronę sali lekcyjnej, widzę tylko parę samochodów uczestników zajęć. Może będzie ich dziś niewielu. W tym momencie zaczynają przyjeżdżać pozostali. Spoglądam na zegarek: 17:55. Tylko piętnaście minut zajęło mi, żeby się tu dostać? W tych korkach? To jest niemożliwe!
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Wracając z zajęć do domu, skręcam impulsywnie w inną stronę. „Jeszcze nie jest za późno, a poza tym – od czego są przyjaciele?” – racjonalizuję, kierując się w stronę domu Kendry.

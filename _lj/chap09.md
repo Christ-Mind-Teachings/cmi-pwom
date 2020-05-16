@@ -5,7 +5,7 @@ title: "Rozdział dziewiąty"
 <div markdown="1" class="chHead">
 ## Rozdział dziewiąty
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 *W  Królestwie nie ma  wysiłku.*
@@ -38,7 +38,7 @@ Ta  myśl wywołuje we  mnie nieskrywany wybuch śmiechu, ale ubaw! Któż inny 
 
 Jak mogę mieć jakąkolwiek nadzieję na  odkrycie tego, co  oznacza ta  tajemnica, o  ile w  pełni nie poddam się drodze miłości, którą ujawnia Jeszua i  do  której nas wezwał?
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Wstaję z  krzesła i  rozprostowuję zesztywniałe nogi, idąc wolno do  kuchni po  filiżankę herbaty. Gdy woda zaczyna się gotować, rozkruszam liście mięty i  wdycham ich zapach. Wrzucam liście do  imbryka i  obserwuję jak się zwijają i  obracają w  wodzie. Jakaś część mnie wyczuwa, że jestem podobny do  tych liści mięty, wrzucony w  wody, o  istnieniu których dotychczas nie wiedziałem, a  jednocześnie roszcząc sobie prawo do  wszelkiego rodzaju „wiedzy” na  temat tych właśnie wód.
@@ -75,7 +75,7 @@ Te ostatnie słowa eksplodują z  obszaru myśli, a  ciało drży i  trzęsie si
 
 Poddaję się, nie będę z  tym walczył, z  niczym nie będę walczył. Jeśli „przyzwolenie” jest kluczem do  Królestwa, to  równie dobrze mogę zacząć od  tych nagłych strumieni łez wypływających z  głębi mego serca i  brzucha. Siła opuszcza me nogi i  przewracam się na  ziemię. Łzy przeplatane litanią nienawiści do  samego siebie płyną coraz bardziej obficie. Jednak podłoga jakoś mnie koi. Poddaję się tej ciemności, zamiast z  nią walczyć. I  dotykam przez chwilę, nawet wśród płynących łez, odrobiny pokoju, rzeczywistego pokoju.
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 Budzi mnie poranny szczęk kubłów na  śmieci. Nie wiem, kiedy zasnąłem. Czy przestałem płakać zanim zasnąłem, czy z  powodu tego, że zasnąłem? Wstaję, wyglądam przez oszronione okna i  widzę, jak śmieciarze wykonują swą ważną – i  niedocenianą – pracę.

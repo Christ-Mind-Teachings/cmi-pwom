@@ -6,6 +6,7 @@ import auth from "www/modules/_user/netlify";
 import fb from "www/modules/_util/facebook";
 import {initTranscriptPage} from "www/modules/_page/startup";
 import {initialize as initNotes} from "www/modules/_page/notes";
+import {setRuntimeEnv} from "./setEnv";
 
 //teaching specific modules
 import {loadConfig} from "./modules/_config/config";
@@ -24,6 +25,7 @@ $(document).ready(() => {
   fb.initialize();
   about.initialize();
   initNotes(noteInfo);
+  setRuntimeEnv();
 
   loadConfig(getBookId())
     .then((result) => {

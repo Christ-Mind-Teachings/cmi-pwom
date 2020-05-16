@@ -202,32 +202,6 @@ $(document).ready(() => {
 
 /***/ }),
 
-/***/ "./src/js/setEnv.js":
-/*!**************************!*\
-  !*** ./src/js/setEnv.js ***!
-  \**************************/
-/*! exports provided: setRuntimeEnv */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setRuntimeEnv", function() { return setRuntimeEnv; });
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
-/* harmony import */ var _modules_config_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/_config/config */ "./src/js/modules/_config/config.js");
-/*
- * Set standalone or integrated environment.
- *
- * Standalone runs from the _site directory of a Jekyll
- * install and Integrated runs from ../cmi-www/_site/t/???
- */
-
-
-function setRuntimeEnv() {
-  Object(_modules_config_config__WEBPACK_IMPORTED_MODULE_1__["setEnv"])(_constants__WEBPACK_IMPORTED_MODULE_0__["default"]);
-}
-
-/***/ }),
-
 /***/ 1:
 /*!******************************!*\
   !*** multi ./src/js/page.js ***!

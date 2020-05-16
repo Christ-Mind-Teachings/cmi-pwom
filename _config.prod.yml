@@ -1,11 +1,13 @@
 # CMI
-# destination: "../cmi-www/t/pwom"
 
-sourceId: 10
+environment: integration
+destination: "../cmi-www/t/pwom"
+
+sourceId: 16
 cmiTitle: "Teachings of Christ Mind"
 
 # Setup
-title:        'Way of Mastery'
+title:        'Droga Mistrzostwa'
 tagline:      'Now, we begin...'
 description:  'A pathway of awakening from Jeshua through Jon Marc Hammer (Jayem)'
 url:          'https://www.christmind.info/t/pwom'
@@ -40,27 +42,25 @@ markdown: kramdown
 collections:
   lj:
     output: true
-    title: The Jeshua Letters
+    title: Listy Jeszuy
 
 defaults:
+
   - scope:
       path: ""
       type: lj
     values:
       layout: transcript
-      book: "The Jeshua Letters"
-      publisher: "Way of Mastery"
-      image: "/public/img/wom/tjlN-big.jpg"
-      separator: "/public/img/wom/znaczek.jpg"
-      #      image: "/t/pwom/public/img/wom/tjlN-big.jpg"
-      #      line2: "/t/pwom/public/img/wom/line2.jpg"
-      #      line4: "/t/pwom/public/img/wom/line4.jpg"
+      book: "Listy Jeszuy"
+      publisher: "Droga Mistrzostwa"
+      separator: "/t/pwom/public/img/wom/znaczek.jpg"
+      image: "/t/pwom/public/img/wom/tjlN-big.jpg"
       image-width: 612
       image-height: 938
       bid: "LJ"
       audio: false
 
 exclude: [
-  moved.html, deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
+  standalone, moved.html, deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
 ]
 

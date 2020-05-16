@@ -5,7 +5,7 @@ title: "Rozdział ósmy"
 <div markdown="1" class="chHead">
 ## Rozdział ósmy
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 *Kiedy uwolnisz się od  swego Snu*<br>
@@ -53,7 +53,7 @@ Spędziłem wieczór na  oglądaniu telewizji, tego wielkiego boga kultury, wiec
 
 Wydaje się to  tak jasne, tak proste! A  jednak ślad czegoś we  mnie ciągle się opiera. Oddzielenie i  wszystko, co  się z  nim wiąże – gdzie jest ten przycisk i  jak go wyłączyć? Jak zmienić kanał? Jak ostatecznie i  nieodwołalnie uwolnić się od  pakietu z  etykietą „Sen”? Czy jestem pewien, że tego chcę?
 
-![znaczek]({{page.separator}})
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 > *Marc, proszę wstań i  pisz*.

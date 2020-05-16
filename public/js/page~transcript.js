@@ -7510,9 +7510,9 @@ __webpack_require__.r(__webpack_exports__);
 const keyInfo = __webpack_require__(/*! ./modules/_config/key */ "./src/js/modules/_config/key.js");
 
 
-let env = "sa";
+let env = "standalone";
 let sid = "pwom";
-let title = "The Way of Mastery";
+let title = "Droga Mistrzostwa";
 let bucket = "assets.christmind.info";
 /* harmony default export */ __webpack_exports__["default"] = ({
   env: env,
@@ -7522,15 +7522,16 @@ let bucket = "assets.christmind.info";
   audioBase: `https://s3.amazonaws.com/${bucket}/${sid}/audio`,
   bm_modal_key: `bm.${sid}.modal`,
   //list
-  bm_creation_state: "bm.${sid}.creation",
+  bm_creation_state: `bm.${sid}.creation`,
   //bookmark
-  bm_list_store: "bm.${sid}.list",
+  bm_list_store: `bm.${sid}.list`,
   //bmnet
-  bm_topic_list: "bm.${sid}.topics",
+  bm_topic_list: `bm.${sid}.topics`,
   //bmnet
-  bm_modal_store: "bm.${sid}.modal",
+  bm_modal_store: `bm.${sid}.modal`,
   //navigator
-  url_prefix: "/t/${sid}",
+  configStore: `config.${sid}.`,
+  url_prefix: `/t/${sid}`,
   //navigator
   getPageInfo: _modules_config_config__WEBPACK_IMPORTED_MODULE_0__["getPageInfo"],
   //list
@@ -7710,9 +7711,12 @@ let env = {
   SID: 0,
   BID: 0,
   UID: 1,
+  environment: "",
+  prefix: "",
+  //prefix for non standalone url's
   timingBase: "/public/timing",
   //location of audio timing files
-  configUrl: "/public/config",
+  configUrl: "/standalone/config",
   //location of book config files
   configStore: "config." //location of configuration files
 
@@ -7732,13 +7736,8 @@ function refreshNeeded(cfg) {
   let saveDate = _status__WEBPACK_IMPORTED_MODULE_3__["status"][cfg.bid];
 
   if (!cfg.saveDate) {
-    cfg.saveDate = saveDate; //we don't use this anymore
-
-    if (cfg.lastFetchDate) {
-      delete cfg.lastFetchDate;
-    }
-
-    console.log("%s needs to be refreshed", cfg.bid);
+    //console.log("%s needs to be refreshed", cfg.bid);
+    cfg.saveDate = saveDate;
     return true; //refresh needed
   }
 
@@ -7747,8 +7746,8 @@ function refreshNeeded(cfg) {
     return false;
   } else {
     //config file has changed, refresh needed
+    //console.log("%s needs to be refreshed", cfg.bid);
     cfg.saveDate = saveDate;
-    console.log("%s needs to be refreshed", cfg.bid);
     return true;
   }
 }
@@ -7793,6 +7792,7 @@ function getConfig(book, assign = true) {
       }
 
       resolve(cfg);
+      return;
     } //get config from server
 
 
@@ -7829,6 +7829,7 @@ function loadConfig(book) {
     if (cfg && !refreshNeeded(cfg)) {
       config = cfg;
       resolve("config read from cache");
+      return;
     } //get config from server
 
 
@@ -7882,25 +7883,7 @@ function getAudioInfo(url) {
   let lookup = ["ble", "c2s", "hoe", "ign", "com", "dbc", "dth", "fem", "gar", "hea", "hoa", "hsp", "joy1", "joy2", "lht", "moa", "mot", "wak", "wlk"];
   let wos = ["foreword", "preface", "chap01", "chap02", "chap03", "chap04", "afterwords", "epilog", "prayer"];
 
-  switch (idx[env.BID]) {
-    case "tjl":
-      break;
-
-    case "wos":
-      cIdx = lodash_indexOf__WEBPACK_IMPORTED_MODULE_2___default()(wos, idx[env.UID]);
-      audioInfo = _getAudioInfo(idx, cIdx);
-      break;
-
-    case "early":
-      cIdx = lodash_indexOf__WEBPACK_IMPORTED_MODULE_2___default()(lookup, idx[env.UID]);
-      audioInfo = _getAudioInfo(idx, cIdx);
-      break;
-
-    default:
-      cIdx = parseInt(idx[3].substr(1), 10) - 1;
-      audioInfo = _getAudioInfo(idx, cIdx);
-      break;
-  }
+  if (false) {}
 
   audioInfo.audioBase = env.audioBase;
   return audioInfo;
@@ -7941,7 +7924,16 @@ function getPageInfo(pageKey, data = false) {
   }
 
   return new Promise((resolve, reject) => {
-    //get configuration data specific to the bookId
+    //invalid pageKey
+    if (pageKey === -1) {
+      info.bookTitle = "Book Title Unknown";
+      info.title = "Title Unknown";
+      info.url = "";
+      resolve(info);
+      return;
+    } //get configuration data specific to the bookId
+
+
     getConfig(decodedKey.bookId, false).then(data => {
       if (!data) {
         info.bookTitle = "Book Title Unknown";
@@ -7989,19 +7981,22 @@ function getPageInfo(pageKey, data = false) {
  */
 
 function setEnv(constants) {
-  env.configStore = `${env.configStore}${constants.sid}.`;
+  env.configStore = constants.configStore;
   env.title = constants.title;
   env.audioBase = constants.audioBase;
+  env.environment = constants.env;
 
-  if (constants.env === "sa") {
+  if (constants.env === "standalone") {
     return;
   }
 
   env.SID += 1;
   env.BID += 2;
   env.UID += 2;
+  env.prefix = constants.url_prefix;
   env.timingBase = `${constants.url_prefix}${env.timingBase}`;
-  env.configUrl = `${constants.url_prefix}${env.configUrl}`;
+  env.configUrl = env.configUrl.replace("/standalone", `${constants.url_prefix}/public`);
+  console.log("configUrl: %s", env.configUrl);
 }
 
 /***/ }),
@@ -9584,6 +9579,32 @@ const noteInfo = {
     title: "Study Suggestions"
   }
 };
+
+/***/ }),
+
+/***/ "./src/js/setEnv.js":
+/*!**************************!*\
+  !*** ./src/js/setEnv.js ***!
+  \**************************/
+/*! exports provided: setRuntimeEnv */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setRuntimeEnv", function() { return setRuntimeEnv; });
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
+/* harmony import */ var _modules_config_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/_config/config */ "./src/js/modules/_config/config.js");
+/*
+ * Set standalone or integrated environment.
+ *
+ * Standalone runs from the _site directory of a Jekyll
+ * install and Integrated runs from ../cmi-www/_site/t/???
+ */
+
+
+function setRuntimeEnv() {
+  Object(_modules_config_config__WEBPACK_IMPORTED_MODULE_1__["setEnv"])(_constants__WEBPACK_IMPORTED_MODULE_0__["default"]);
+}
 
 /***/ })
 
