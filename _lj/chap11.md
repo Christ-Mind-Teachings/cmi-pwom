@@ -210,7 +210,7 @@ Zapadnia otwiera się, a  dziwne uczucie się pogłębia. Czuję się, jakbym sp
 
 Jego głos mnie zaskakuje. Dochodzi do  mnie z  tyłu i  przysiągłbym, że czuję Jego obecność, czuję jak stoi za  mną. Lecz nie obracam się, by  to  sprawdzić.
 
-<div markdown="1" class="indent"
+<div markdown="1" class="indent">
 
 *Bardzo dobrze, Mój bracie.*<br>
 *Czekałem na  to  cierpliwie dłużej*<br>

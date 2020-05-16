@@ -15,7 +15,7 @@ title: "Rozdział trzeci"
 2 listopada 1987 r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Umiłowany bracie,<br>bo naprawdę tym właśnie jesteś,<br>przyszedłem, bo o to prosiłeś.<br>W trakcie naszego spotkania w tej chwili<br>będę się z tobą dzielił<br>tym, co ujawni ci<br>harmonię Królestwa.*
@@ -325,7 +325,7 @@ Błogosław ją, błogosław ją całą.*
 13 listopada 1987  r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Witaj, Marc.*
 
@@ -693,7 +693,7 @@ Dobrze już, dobrze. Choć niechętnie, i  tak już się przebudziłem.
 
 „No cóż…” – myślę sobie, gdy siedzę z  długopisem w  dłoni. „Jeśli tak ma  to  dalej wyglądać, będę musiał pamiętać, żeby wykręcać się brakiem okularów. Następnym razem”.
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -858,3 +858,4 @@ na  objawienie się rozpoznania.*
 *Amen.*
 
 </div>
+

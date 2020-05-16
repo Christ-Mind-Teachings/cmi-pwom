@@ -96,7 +96,7 @@ Gdy zaczynam gwałtownie łapać powietrze i  czuję, że znajoma mi  nemezis ud
 > „I  wyciągnąwszy rękę, dotknął Pan moich ust i  rzekł mi: <br>
 > «Oto kładę Moje słowa w  twoje usta».”
 
-<div markdown="1" class="indent"
+<div markdown="1" class="indent">
 
 Mój umysł, oddech i  całe ciało zostają wtłoczone w  bezruch ciszy.
 
@@ -203,7 +203,7 @@ Otwieram list.
 >
 > *Nie jestem w  stanie wyrazić, co  on dla mnie oznacza. Bez wątpienia moje modlitwy zostały wysłuchane.*
 >
-> **Piszę, aby cię zapytać, czy zechciałbyś pozwolić mi  zapłacić za  publikację tej cennej książki. Byłabym zaszczycona, gdybym mogła to  zrobić.*
+> *Piszę, aby cię zapytać, czy zechciałbyś pozwolić mi  zapłacić za  publikację tej cennej książki. Byłabym zaszczycona, gdybym mogła to  zrobić.*
 >
 > Z  poważaniem,
 >
@@ -217,9 +217,14 @@ Chyba jednak nie żartował. Po  raz pierwszy tego wieczoru patrzę na  zegarek.
 
 Wychodząc na  zewnątrz przez kuchnię, otwieram drzwi nocy. Jest cicho. Wychodzę na  trawę i  czuję ją. Naprawdę ją czuję. Jabłoń wydaje się być bardziej niczym płynne światło niż ciało stałe. Nawet cegły garażu odczuwam, jakby były silnie przepełnione tym płynnym, wibrującym światłem.
 
-Idę schodami w  dół na  ulicę i  spoglądam na  gwiazdy. W  pewien sposób czuję, jakby były bardziej we  mnie niż nade mną. Nawet nie zauważam zimna. Najwyraźniej coś się zaczęło. Wkroczyłem do  własnej wersji *Nowego Wspaniałego Świata*, by  posłużyć się tytułem książki. Mam nadzieję, że to  słowo „odważny” [^5]pozostanie ze  mną aż do  samego końca. To  znaczy, o  ile to  wszystko ma  jakiś koniec.
+Idę schodami w  dół na  ulicę i  spoglądam na  gwiazdy. W  pewien sposób
+czuję, jakby były bardziej we  mnie niż nade mną. Nawet nie zauważam
+zimna. Najwyraźniej coś się zaczęło. Wkroczyłem do  własnej wersji
+*Nowego Wspaniałego Świata*, by  posłużyć się tytułem książki. Mam
+nadzieję, że to  słowo „odważny”[^5] pozostanie ze  mną aż do  samego
+końca. To  znaczy, o  ile to  wszystko ma  jakiś koniec.
 
-[^5]:„Oryginalny tytuł książki Aldousa Huxleya brzmi „Brave New World”, gdzie brave znaczy odważny.” - przyp.tłum.
+[^5]: „Oryginalny tytuł książki Aldousa Huxleya brzmi „Brave New World”, gdzie brave znaczy odważny.” - przyp.tłum.
 
 Obracając się w  stronę domu, otwieram się na  Jego obecność z  nową lekkością, jakbym jakoś pojął, w  jaki sposób odbierać to  kosmiczne połączenie telefoniczne.
 
@@ -227,7 +232,7 @@ Nastanie świt, zanim to  ciało w  końcu zaśnie. I, co  dziwne, to, co  ze  s
 
 Oto wszystko zostało uczynione nowym.
 
-<div markdown="1" class="indent"
+<div markdown="1" class="indent">
 
 *Teraz*<br>
 *wykonało się.*<br>
@@ -269,3 +274,4 @@ Oto wszystko zostało uczynione nowym.
 *Amen.*
 
 </div>
+

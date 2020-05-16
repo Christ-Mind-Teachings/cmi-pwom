@@ -26,7 +26,7 @@ Kołysząc się łagodnie w  bujanym fotelu i  pijąc w  ciszy herbatę, prawie 
 
 Tak, czuję jak zaczyna się wibracja. Już dłużej mnie to  nie zaskakuje, gdyż wiem, że będzie się ona utrzymywać tak długo, póki jej nie rozpoznam, niczym kogoś, kto puka do  drzwi, na  początku łagodnie, później coraz głośniej, dopóki mu nie otworzą. Wolę łagodność, więc wyciągam spokojnie pióro i  notatnik z  półki nieopodal i  wracam na  fotel.
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.<br>
 Witaj, Marc.*
@@ -234,7 +234,7 @@ Skutecznie zapomniałem o  sugestii Jeszuy. Wówczas mój wzrok pada na  Biblię
 
 Obie strony, każde słowo każdego wersetu jest w  kolorze czerwonym. Następnie słyszę Jego znajomy głos.
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -245,7 +245,7 @@ Obie strony, każde słowo każdego wersetu jest w  kolorze czerwonym. Następni
 
 </div>
 
-[^3]:Angielskie słowo „beam” oznacza zarówno „belkę”, jak i „snop światła” – przyp.tłum.
+[^3]: Angielskie słowo „beam” oznacza zarówno „belkę”, jak i „snop światła” – przyp.tłum.
 
 ![znaczek]({{page.little-separator}})
 {: .omit}
@@ -254,7 +254,7 @@ Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co
 
 „To  jest widzenie drugiej osoby. To  jest, hmm&hellip;” – szukam słów.
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *To  jest osąd, Marc.*<br>
 *Właśnie osąd musi być najpierw wyrzucony,*<br>
@@ -320,7 +320,7 @@ Nieruchomieję i  delektuję się uczuciem, jakie przynosi Jego obecność. Wspa
 
 Otwieram niechętnie oczy, przez chwilę obawiając się, że utracę z  Nim łączność. Nie tracę jej.
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -520,7 +520,7 @@ Kontynuuję czytanie, aż dochodzę do  wersetu 23:
 
 > „ &hellip;aby wszyscy oddawali cześć Synowi, tak jak oddają cześć Ojcu.<br>Kto nie oddaje czci Synowi, nie oddaje czci Ojcu, który Go posłał”.
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Wielkiej uwagi wymaga*<br>
 *teraz to, co  powiem o  tym nauczaniu.*<br>
@@ -622,7 +622,7 @@ Kontynuuję czytanie, aż dochodzę do  wersetu 23:
 22 grudnia 1987  r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 Teraz zaczynamy.*
 
@@ -755,7 +755,7 @@ Proroctwo. Każda najdrobniejsza cząstka mego jestestwa się temu sprzeciwia. M
 
 Nagle znów czuję tę zmianę w  energii:
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Bardzo dobrze, Marc.*<br>
 *To  przychodzi tak łatwo, kiedy wybierasz*<br>
@@ -806,7 +806,7 @@ Nagle znów czuję tę zmianę w  energii:
 
 „W  porządku”.
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -1013,7 +1013,7 @@ Nagle znów czuję tę zmianę w  energii:
 28 grudnia 1987  r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 

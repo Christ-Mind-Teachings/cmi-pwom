@@ -182,24 +182,44 @@ Elizabeth przeszukuje przez chwilę półki, po  czym wyciąga dwie książki, j
 
 Trochę jestem zaskoczony jej odejściem i  po  jakiejś chwili spoglądam na  książki, których nigdy wcześniej nie widziałem, pomimo dwudziestu lat rozległych studiów. Mała książeczka nosi tytuł *Odkrycie esseńskiej Ewangelii Pokoju*. Większa jest tłumaczeniem *Ewangelii Pokoju* autorstwa Elizabeth. Prąd przebiega mi  przez palce i  w  górę aż do  ramion.
 
-Wiem, że już na  mnie czas. Wychodzę, przyciskając książki do  piersi, w  których czuję coraz większe ciepło. Przez całą drogę powrotną do  Tacomy odczuwam wyraźną radość. Czasami wyciągam rękę i  muskam dłonią leżące obok książki, uśmiechając się do  siebie.
+Wiem, że już na  mnie czas. Wychodzę, przyciskając książki do  piersi, w
+których czuję coraz większe ciepło. Przez całą drogę powrotną do  Tacomy
+odczuwam wyraźną radość. Czasami wyciągam rękę i  muskam dłonią leżące
+obok książki, uśmiechając się do  siebie.
 
-<div align="center">### WSZYSTKO JEST TAK, JAK BYĆ POWINNO. UFAJ.
+<div markdown="1" align="center">
+### WSZYSTKO JEST TAK, JAK BYĆ POWINNO. UFAJ.
 
-Gdy jestem z  powrotem w  mieszkaniu, siadam w  salonie skąpanym w  świetle sączącego się przez żaluzje spokojnego popołudniowego słońca. Książki trzymam na  kolanach. Ponownie muskam je  dłońmi i  czuję przyspieszone bicie serca. Miała rację. To  właśnie po  nie zostałem wysłany. Wiem to  nawet bez ich czytania!
+Gdy jestem z  powrotem w  mieszkaniu, siadam w  salonie skąpanym w
+świetle sączącego się przez żaluzje spokojnego popołudniowego słońca.
+Książki trzymam na  kolanach. Ponownie muskam je  dłońmi i  czuję
+przyspieszone bicie serca. Miała rację. To  właśnie po  nie zostałem
+wysłany. Wiem to  nawet bez ich czytania!
 
-Nie spiesząc się, delektując się tym doznaniem jasności, otwieram większą książkę i  gdy czytam, łzy napływają mi  do  oczu – łzy radości, łzy rozpoznania. Nie ma  we  mnie najmniejszego śladu wątpliwości, wiem, że czytam nauki Mistrza, Jezusa, Jeszuy.
+Nie spiesząc się, delektując się tym doznaniem jasności, otwieram
+większą książkę i  gdy czytam, łzy napływają mi  do  oczu – łzy radości,
+łzy rozpoznania. Nie ma  we  mnie najmniejszego śladu wątpliwości, wiem,
+że czytam nauki Mistrza, Jezusa, Jeszuy.
 
-Potężny przepływ energii płynie w  górę kręgosłupa, eksplodując zalewem obrazów, scen, wspomnień innego życia – życia, które z  pewnością jest moje. Gdy obrazy płyną przeze mnie, odczuwam je  każdą komórką ciała, łzy swobodnie płyną, uwalniając głębokie napięcie, jakie bezwiednie powstrzymywało wspomnienia. Jednocześnie łzy wydają się mnie całego obmywać, karmić i  kąpać w  niewysłowionej radości.
+Potężny przepływ energii płynie w  górę kręgosłupa, eksplodując zalewem
+obrazów, scen, wspomnień innego życia – życia, które z  pewnością jest
+moje. Gdy obrazy płyną przeze mnie, odczuwam je  każdą komórką ciała,
+łzy swobodnie płyną, uwalniając głębokie napięcie, jakie bezwiednie
+powstrzymywało wspomnienia. Jednocześnie łzy wydają się mnie całego
+obmywać, karmić i  kąpać w  niewysłowionej radości.
 
-Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość „tego Wielkiego” – mojego nauczyciela, mojego przyjaciela, mojego guru: Jeszuy, zwanego Jezusem.
+Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość
+„tego Wielkiego” – mojego nauczyciela, mojego przyjaciela, mojego guru:
+Jeszuy, zwanego Jezusem.
+
+</div>
 
 ![znaczek]({{page.little-separator}})
 {: .omit}
 
 4 września 1988  r.
 
-<div markdown="1" class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -255,7 +275,7 @@ Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość �
 *To  przyspieszy proces*<br>
 *ostatecznego uwolnienia.*
 
-***Listy Jeszuy*** *to początek*<br>
+**Listy Jeszuy** *to początek*<br>
 *naszej wspólnej pracy;*<br>
 *twym celem jest pozwolić,*<br>
 *by  ta  praca wniknęła w  tkankę złudzeń,*<br>
@@ -290,7 +310,7 @@ Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość �
 
 7 września 1988  r.
 
-<div markdown="1" class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -416,7 +436,7 @@ Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość �
 
 4 października 1988  r.
 
-<div markdown="1" class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 

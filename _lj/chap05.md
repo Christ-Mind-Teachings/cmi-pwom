@@ -20,7 +20,7 @@ przez ciemność nocy.*
 3 stycznia, 1988  r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -102,7 +102,7 @@ i  wszystko, o  czym śnisz.*
 22 stycznia 1988  r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Witaj, Marc.*
 
@@ -223,7 +223,7 @@ Nawet czas został wybrany.*
 15 lutego 1988  r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 

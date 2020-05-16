@@ -67,7 +67,7 @@ chłoną łagodne światło niezwykle przejrzystego wieczoru, gdy zaczyna się
 znane mi  już uczucie. W  zasadzie cieszę się na  to  spotkanie,
 niezależnie od  tego, co  z  niego wyniknie.
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -137,7 +137,7 @@ niezależnie od  tego, co  z  niego wyniknie.
 6 maja 1988  r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -203,7 +203,7 @@ niezależnie od  tego, co  z  niego wyniknie.
 25 maja 1988  r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -384,7 +384,7 @@ więc mam się nią dzielić?
 6 czerwca 1988  r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -608,7 +608,7 @@ Dawca Prawdy, Dawca  Prawdy…”.
 19 lipca 1988  r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -718,7 +718,7 @@ Dawca Prawdy, Dawca  Prawdy…”.
 21 lipca 1988  r.
 {: .omit}
 
-<div markdown="1"class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 

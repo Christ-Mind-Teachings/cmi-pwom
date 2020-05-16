@@ -78,7 +78,7 @@ Naglę otwieram szeroko oczy. Patrząc kątem oka widzę wyraźnie zegar. Jest 3
 
 Zdegustowany odrzucam kołdrę i  chwytam szlafrok. Idąc do  toalety, podnoszę wzrok do  góry i  mamroczę pod nosem: „Rany, chłopaki, nic was nie powstrzyma, co?”.
 
-<div markdown="1" class="indent"
+<div markdown="1" class="indent">
 
 *Teraz zaczynamy.*
 
@@ -278,7 +278,7 @@ Albowiem w  tym momencie wieczności Sen odszedł.
 
 Jutro zacznę pisać.
 
-<div markdown="1" class="indent"
+<div markdown="1" class="indent">
 
 *Teraz*<br>
 *wykonało się.*<br>
