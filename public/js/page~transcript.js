@@ -8367,7 +8367,8 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "status", function() { return status; });
 const status = {
-  lj: "Sat May 16 10:25:15 HST 2020"
+  lj: "Sat May 16 10:25:15 HST 2020",
+  wos: "Sun May 17 12:15:50 HST 2020"
 };
 
 /***/ }),
