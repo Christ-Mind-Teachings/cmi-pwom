@@ -2,8 +2,10 @@
 title: "Wstęp"
 ---
 
-<div markdown="1" align="center">
+<div markdown="1" class="chHead"> 
 ## Wstęp
+
+</div>
 
 Przed chwilą, gdy napisałem ostatnie zdanie tej książki, przemknęło mi
 nagle przed oczami wspomnienie. Pojawiło się z taką jasnością i mocą, że
@@ -109,7 +111,7 @@ w nowy sposób formułować fundamentalne pytania, wówczas wartość tego
 będzie o wiele większa niż sam czas włożony w napisanie tej książki.
 
 Niech Światło błogosławi twą podróż.
-</div>
+
 
 <div align="right">Jayem</div>
 

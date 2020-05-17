@@ -5,7 +5,7 @@ title: "Rozdział dwunasty"
 <div markdown="1" class="chHead">
 ## Rozdział dwunasty
 
-![znaczek]({{page.big-separator}})
+![znaczek]({{page.separator}})
 {: .omit}
 
 *Zaufanie, powtórzmy, jest niezbędne.*<br>
@@ -48,7 +48,7 @@ Kendra się śmieje, ale ja  nie.
 
 Na  tym kończymy rozmowę i  schodzę do  biura.
 
-![znaczek]({{page.little-separator}})
+![znaczek]({{page.separator}})
 {: .omit}
 
 Gdy łagodnie zamykam za  sobą drzwi, biorę głęboki wdech. Zwykle uwielbiam przychodzić do  tego małego pokoju mieszczącego się w  domu, który znalazłem tak szybko po  swoim powrocie z  Maui. Mam tutaj spokój jak w  klasztornej celi. Lecz dzisiaj przytłacza mnie on, jak gdyby napierały na  mnie ściany.
@@ -96,7 +96,7 @@ Gdy zaczynam gwałtownie łapać powietrze i  czuję, że znajoma mi  nemezis ud
 > „I  wyciągnąwszy rękę, dotknął Pan moich ust i  rzekł mi: <br>
 > «Oto kładę Moje słowa w  twoje usta».”
 
-<div markdown="1" class="indent">
+<div markdown="1" class="indent"
 
 Mój umysł, oddech i  całe ciało zostają wtłoczone w  bezruch ciszy.
 
@@ -144,7 +144,7 @@ Mój umysł, oddech i  całe ciało zostają wtłoczone w  bezruch ciszy.
 
 </div>
 
-![znaczek]({{page.little-separator}})
+![znaczek]({{page.separator}})
 {: .omit}
 
 Jego energia zanika. Staję się świadomy stłumionych odgłosów nade mną. Głosów, śmiechów.
@@ -190,7 +190,7 @@ Wydaje się, że nie jestem jeszcze w  stanie wstać i  chodzić. Nogi mam jak z
 
 Biorę list i  patrzę, jak Kendra wychodzi. Cokolwiek się wydarzyło, wyraźnie to  nią wstrząsnęło.
 
-![znaczek]({{page.little-separator}})
+![znaczek]({{page.separator}})
 {: .omit}
 
 Wszystko nadal wibruje. Jeśli bym nie wiedział, co  się stało, myślałbym, że właśnie wziąłem kilka działek LSD. Tyle że od  czasu, gdy tego próbowałem po  powrocie z  Wietnamu, minęło wiele lat.
@@ -203,7 +203,7 @@ Otwieram list.
 >
 > *Nie jestem w  stanie wyrazić, co  on dla mnie oznacza. Bez wątpienia moje modlitwy zostały wysłuchane.*
 >
-> *Piszę, aby cię zapytać, czy zechciałbyś pozwolić mi  zapłacić za  publikację tej cennej książki. Byłabym zaszczycona, gdybym mogła to  zrobić.*
+> **Piszę, aby cię zapytać, czy zechciałbyś pozwolić mi  zapłacić za  publikację tej cennej książki. Byłabym zaszczycona, gdybym mogła to  zrobić.*
 >
 > Z  poważaniem,
 >
@@ -217,14 +217,9 @@ Chyba jednak nie żartował. Po  raz pierwszy tego wieczoru patrzę na  zegarek.
 
 Wychodząc na  zewnątrz przez kuchnię, otwieram drzwi nocy. Jest cicho. Wychodzę na  trawę i  czuję ją. Naprawdę ją czuję. Jabłoń wydaje się być bardziej niczym płynne światło niż ciało stałe. Nawet cegły garażu odczuwam, jakby były silnie przepełnione tym płynnym, wibrującym światłem.
 
-Idę schodami w  dół na  ulicę i  spoglądam na  gwiazdy. W  pewien sposób
-czuję, jakby były bardziej we  mnie niż nade mną. Nawet nie zauważam
-zimna. Najwyraźniej coś się zaczęło. Wkroczyłem do  własnej wersji
-*Nowego Wspaniałego Świata*, by  posłużyć się tytułem książki. Mam
-nadzieję, że to  słowo „odważny”[^5] pozostanie ze  mną aż do  samego
-końca. To  znaczy, o  ile to  wszystko ma  jakiś koniec.
+Idę schodami w  dół na  ulicę i  spoglądam na  gwiazdy. W  pewien sposób czuję, jakby były bardziej we  mnie niż nade mną. Nawet nie zauważam zimna. Najwyraźniej coś się zaczęło. Wkroczyłem do  własnej wersji *Nowego Wspaniałego Świata*, by  posłużyć się tytułem książki. Mam nadzieję, że to  słowo „odważny” [^5]pozostanie ze  mną aż do  samego końca. To  znaczy, o  ile to  wszystko ma  jakiś koniec.
 
-[^5]: „Oryginalny tytuł książki Aldousa Huxleya brzmi „Brave New World”, gdzie brave znaczy odważny.” - przyp.tłum.
+[^5]:„Oryginalny tytuł książki Aldousa Huxleya brzmi „Brave New World”, gdzie brave znaczy odważny.” - przyp.tłum.
 
 Obracając się w  stronę domu, otwieram się na  Jego obecność z  nową lekkością, jakbym jakoś pojął, w  jaki sposób odbierać to  kosmiczne połączenie telefoniczne.
 
@@ -232,7 +227,7 @@ Nastanie świt, zanim to  ciało w  końcu zaśnie. I, co  dziwne, to, co  ze  s
 
 Oto wszystko zostało uczynione nowym.
 
-<div markdown="1" class="indent">
+<div markdown="1" class="indent"
 
 *Teraz*<br>
 *wykonało się.*<br>
@@ -274,4 +269,3 @@ Oto wszystko zostało uczynione nowym.
 *Amen.*
 
 </div>
-

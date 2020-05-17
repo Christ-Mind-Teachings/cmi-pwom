@@ -2,7 +2,10 @@
 title: "Do czytelnika"
 ---
 
+<div markdown="1" class="chHead"> 
 ## Do czytelnika
+
+</div>
 
 Drogi czytelniku, zauważysz, że w tej książce nazywam siebie „Marc”.
 Przez parę ostatnich lat nazywałem się „Jon Marc”. Moi przyjaciele

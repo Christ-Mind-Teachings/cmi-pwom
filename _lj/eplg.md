@@ -2,8 +2,10 @@
 title: Epilog
 ---
 
-<div markdown="1" align="center"> 
+<div markdown="1" class="chHead"> 
 ## Epilog
+
+</div>
 
 Gdy piszę teraz do  ciebie, siedząc przy biurku na  werandzie sali świątyni Alam Cinta Ashram w  Ubud na  Bali, uderza mnie myśl, że tak naprawdę zawsze dzieją się jedynie dwie rzeczy.
 
@@ -24,8 +26,8 @@ Kiedy po  raz pierwszy z  lękiem zgodziłem się napisać tę książkę, a  na
 Materiały Jeszuy są, szczerze mówiąc, zdumiewające w  swym bogactwie, w  swej głębi mądrości i  swej niepowtarzalnej mocy przemiany świadomości w  Pamięć Chrystusa, który sam jest Istnieniem naszego istnienia. Tysiące osób zostało dotkniętych, uzdrowionych i  przemienionych przez całość zgromadzonego materiału i  przez prawdziwą Ścieżkę Drogi, jaką wytyczył On dla nas wszystkich. Zapoznajcie się proszę z  naszą stroną internetową: www.wayofmastery.com [^6]i  zobaczcie jak bogata jest Ścieżka Drogi.
 
 [^6]: Zapraszamy też na polską stronę internetową Drogi Mistrzostwa:
-      [www.drogamistrzostwa.pl](www.drogamistrzostwa.pl) i do Wydawnictwa
-      Pokoju Chrystusa: [www.pokojchrystusa.pl](www.pokojchrystusa.pl) – przyp.tłum.
+      [www.drogamistrzostwa.pl](https://drogamistrzostwa.pl) i do Wydawnictwa
+      Pokoju Chrystusa: [www.pokojchrystusa.pl](https://pokojchrystusa.pl) – przyp.tłum.
 
 Jeszua poprowadził mnie do  odkrycia głębszej dynamiki tego, w  jaki sposób naprawdę wydarza się Sen i  co  jest konieczne, aby się z  niego całkowicie wyplątać. Poprowadził mnie do  zrozumienia mocy oddechu i  tego, jak dynamika narodzin podsumowuje wzorce duszy pochwyconej w  swym śnie jako syn marnotrawny. Poprowadził mnie również głęboko w  studia i  kontemplację nad Jego biblijnymi nauczaniami, w  Jego własnym ojczystym języku aramejskim. Zaprowadził mnie na  szczyty medytacji i  zaprowadził mą duszę w  głębię trwogi, usianą odwieczną winą i  przez lęk osłanianą.
 

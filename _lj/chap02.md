@@ -702,8 +702,12 @@ Nie słyszę już jej odpowiedzi, gdy zamykam za sobą drzwi i biegnę na parkin
 „Wspaniale. Po prostu wspaniale!” – wydzieram się, zbliżając do dobrze znanego zakrętu i widząc korek stojących samochodów. Stąd jest jeszcze kawałek do skrzyżowania, na którym skręcam i teraz już wiem, że się spóźnię.
 
 I wówczas, trach! Wydarza się to tak po prostu, bez żadnego oczywistego powodu. Nie, nikt nie wjechał mi w tył samochodu, choć niemalże chciałbym, żeby tak się stało. Nagle robi się absolutnie cicho. Nie słyszę samochodów wokół mnie, ani nawet radia. Tracę z pola widzenia wszystko, chwilowo przesłonięte to jest dwoma słowami:
-<div align="center">
+
+<div markdown="1" align="center">
 #### LISTY JESZUY
+
+</div>
+
 Całe moje ciało, od stóp do głów, elektryzuje energia. Następnie, równie nagle, wszystko ustępuje i wraca do normalnego stanu.
 
 „Skąd się to pojawiło?” – zastanawiam się. Czuję się, jakby ktoś zdzielił mnie w głowę. Wówczas uderza mnie myśl. Jestem proszony o upublicznienie tego materiału!
