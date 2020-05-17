@@ -1,0 +1,39 @@
+{
+  "bid": "wos",
+  "title": "Droga Sługi",
+  "image": "/t/pwom/public/img/wom/wosN-toc.jpg",
+  "contents": [
+    {
+      "title": "Wstęp",
+      "url": "/t/pwom/wos/intr/"
+    },
+    {
+      "title": "Księga pierwsza",
+      "url": "/t/pwom/wos/chap01/"
+    },
+    {
+      "title": "Księga druga",
+      "url": "/t/pwom/wos/chap02/"
+    },
+    {
+      "title": "Księga trzecia",
+      "url": "/t/pwom/wos/chap03/"
+    },
+    {
+      "title": "Księga czwarta",
+      "url": "/t/pwom/wos/chap04/"
+    },
+    {
+      "title": "Posłowie",
+      "url": "/t/pwom/wos/aftr/"
+    },
+    {
+      "title": "Epilog",
+      "url": "/t/pwom/wos/eplg"
+    },
+    {
+      "title": "Modlitwa Przypomnienia",
+      "url": "/t/pwom/wos/prayer"
+    }
+  ]
+}

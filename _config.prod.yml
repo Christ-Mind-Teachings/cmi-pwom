@@ -43,6 +43,9 @@ collections:
   lj:
     output: true
     title: Listy Jeszuy
+  wos:
+    output: true
+    title: Droga Sługi
 
 defaults:
 
@@ -53,11 +56,27 @@ defaults:
       layout: transcript
       book: "Listy Jeszuy"
       publisher: "Droga Mistrzostwa"
-      separator: "/t/pwom/public/img/wom/znaczek.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
+      little-separator: "/t/pwom/public/img/wom/little.jpg"
       image: "/t/pwom/public/img/wom/tjlN-big.jpg"
       image-width: 612
       image-height: 938
       bid: "LJ"
+      audio: false
+
+  - scope:
+      path: ""
+      type: wos
+    values:
+      layout: transcript
+      book: "Droga Sługi"
+      publisher: "Droga Mistrzostwa"
+      image: "/t/pwom/public/img/wom/wosN-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
+      little-separator: "/t/pwom/public/img/wom/little.jpg"
+      image-width: 612
+      image-height: 938
+      bid: "WOS"
       audio: false
 
 exclude: [

@@ -18,14 +18,28 @@ footer:
     <div class="card">
       <a href="#" data-book="lj" class="toc-modal-open image">
         {% if site.environment == "standalone" %}
-        <img src="/public/img/wom/tjlN-big.jpg">
-      {% else %}
-        <img src="/t/wom/public/img/wom/tjlN-big.jpg">
-      {% endif %}
+          <img src="/public/img/wom/tjlN-big.jpg">
+        {% else %}
+          <img src="/t/wom/public/img/wom/tjlN-big.jpg">
+        {% endif %}
       </a>
       <div class="content">
         <div class="description">
-          The <em>Jeshua Letters</em> is Jayem's account of his first meetings with Jeshua.
+          The <em>Listy Jeszuy</em> is cool.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="#" data-book="wos" class="toc-modal-open image">
+        {% if site.environment == "standalone" %}
+          <img src="/public/img/wom/wosN-big.jpg">
+        {% else %}
+          <img src="/t/wom/public/img/wom/wosN-big.jpg">
+        {% endif %}
+      </a>
+      <div class="content">
+        <div class="description">
+          The <em>Droga Sługik</em> cool too.
         </div>
       </div>
     </div>

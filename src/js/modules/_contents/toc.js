@@ -116,6 +116,9 @@ function highlightCurrentTranscript(bid) {
     case "lj":
       max = 17;
       break;
+    case "wos":
+      max = 8;
+      break;
   }
   nextPrev($el, max);
 }
