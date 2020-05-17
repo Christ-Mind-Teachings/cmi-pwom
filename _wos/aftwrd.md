@@ -5,18 +5,20 @@ title: "Posłowie"
 <div markdown="1" class="chHead">
 ## Posłowie 
 </div>
+---
 
-Teraz nadszedł koniec.<br>
+<p markdown="1" class="top"><span class="dropcaps">T</span>eraz nadszedł koniec.<br>
 Wróciliśmy <br>
-do pradawnego początku.
+do pradawnego początku.</p>
+---
 
 Tutaj, <br>
 gdzie Prawda została przywrócona,<br>
 spoglądamy łagodnie<br>
 na świat.
 
-Jesteś tutaj tylko po to, <br>
-aby być prawdziwe pomocny.
+<p markdown="1" class="top"><span class="dropcaps">J</span>esteś tutaj tylko po to, <br>
+aby być prawdziwe pomocny.</p>
 
 Jednak<br>
 nie wiesz,<br>
@@ -30,28 +32,32 @@ otwórz oczy swego Ja;<br>
 nie będzie ona<br>
 przed tobą ukryta.
 
-Gdzie idzie sługa<br>
-przebudzony dla wieczności?
+---
+
+<p markdown="1" class="top"><span class="dropcaps">G</span>dzie idzie sługa<br>
+przebudzony dla wieczności?</p>
 
 „Tutaj”,<br>
 pada cicha odpowiedź.
 
-Ponieważ jesteś <br>
+---
+
+<p markdown="1" class="top"><span class="dropcaps">P</span>onieważ jesteś <br>
 przebudzony *tutaj*<br>
 i twoja siostra jest <br>
 przebudzona *tutaj*,<br>
 choć ciała są <br>
 pozornie oddzielne,<br>
 nie ma dwóch,<br>
-jest tylko jedno.
+jest tylko jedno.</p>
+---
 
-
-Módl się, <br>
+<p markdown="1" class="top"><span class="dropcaps">M</span>ódl się, <br>
 pość,<br>
 medytuj.<br>
 Podróżuj do cichych miejsc<br>
 waszej drogiej Ziemi,<br>
-albowiem jedynie ona jest twą matką.
+albowiem jedynie ona jest twą matką.</p>
 
 Śpiewaj,<br>
 śmiej się, tańcz i baw.
@@ -67,20 +73,21 @@ na ciszę<br>
 i spożywaj tylko Światło<br>
 od swego Ojca.
 
-Uśmiechaj się często<br>
+---
+
+<p markdown="1" class="top"><span class="dropcaps">U</span>śmiechaj się często<br>
 i pamiętaj, <br>
 że ty sam postanowiłeś przyjść<br>
-*tutaj*.
-
+*tutaj*.</p>
 Spójrz wokół siebie<br>
 i błogosław miejsce, w którym jesteś.<br>
 Czyń te rzeczy często,<br>
 na moją pamiątkę.<br>
 
-JESTEM
+---
 
-zawsze
+<p class="iam">JESTEM</p>
+<p class="i1">zawsze</p>
+<p class="i2">z</p>
+<p class="i3">wami &hellip;</p>
 
-z
-
-wami…

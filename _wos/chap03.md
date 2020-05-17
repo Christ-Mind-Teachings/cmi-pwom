@@ -9,11 +9,11 @@ title: "Księga trzecia"
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-Ten, kto patrzy na mnie,<br>
+<p markdown="1" class="top"><span class="dropcaps">T</span>en, kto patrzy na mnie,<br>
 i naprawdę mnie *widzi*, <br>
 nauczył się już<br>
 patrzeć na siebie samego<br>
-*tak, jak zna go nasz Ojciec.*
+*tak, jak zna go nasz Ojciec.*</p>
 
 Ta, która mnie widzi,<br>
 widziała więc już <br>
@@ -418,12 +418,12 @@ i jednym *przemawiamy* głosem.
 ![znaczek]({{page.little-separator}})
 {: .omit}
 
-Wszystko, co postrzegamy,<br>
+<p markdown="1" class="top"><span class="dropcaps">W</span>szystko, co postrzegamy,<br>
 pojawia się tylko w umyśle.<br>
 Ponieważ wszystkie umysły są połączone,<br>
 cokolwiek postrzegamy, pojawiło się<br>
 w *jednym* umyśle,<br>
-wspólnym dla wszystkich.
+wspólnym dla wszystkich.</p>
 
 Powiedzieć „wszystkie umysły są połączone”,<br>
 to tyle, co powiedzieć, że jest jeden umysł,<br>

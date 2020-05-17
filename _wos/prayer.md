@@ -6,7 +6,7 @@ title: "Modlitwa Przypomnienia"
 </div>
 ## MODLITWA PRZYPOMNIENIA
 
-Ojcze-Matko Boże,<br>
+<span markdown="1" class="dropcaps">O</span>jcze-Matko Boże,<br>
 Źródło naszego Istnienia,<br>
 powróciliśmy.
 

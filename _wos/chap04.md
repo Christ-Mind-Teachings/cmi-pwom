@@ -9,10 +9,10 @@ title: "Księga czwarta"
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-Mistrzostwo i służba<br>
+<p markdown="1" class="top"><span class="dropcaps">M</span>istrzostwo i służba<br>
 są jednym.<br>
 Tam, gdzie jest jedno, <br>
-znajduje się i drugie.
+znajduje się i drugie.</p>
 
 A gdzie jest drugie,<br>
 pierwsze też jest znane.
@@ -214,10 +214,10 @@ jego prawowite miejsce.
 ![znaczek]({{page.little-separator}})
 {: .omit}
 
-Kiedykolwiek nie jesteś w pełni radosny,<br>
+<p markdown="1" class="top"><span class="dropcaps">K</span>iedykolwiek nie jesteś w pełni radosny,<br>
 dzieje się tak dlatego, że błędnie wybrałeś.<br>
 Albowiem z wyboru wypływa działanie,<br>
-a z działania zawsze płynie doznanie.
+a z działania zawsze płynie doznanie.</p>
 
 Niechaj słyszą ci,<br>
 którzy mają uszy do słuchania:<br>

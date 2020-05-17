@@ -4,17 +4,15 @@ title: "Księga druga"
 
 <div markdown="1" class="chHead">
 ## Księga druga
-
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-*Służba*.
-
+<p markdown="1" class="top"><span class="dropcaps">S</span>*łużba*<br/>
 Dziwnym wydaje się to słowo,<br>
 jednak w nim skrywa się znaczenie<br>
 poświęcenia, <br>
 Miłości,<br>
-prawdziwego Istnienia.
+prawdziwego Istnienia.</p>
 
 Cóż więc<br>
 możemy powiedzieć o poświęceniu?<br>
@@ -168,7 +166,7 @@ kurczowo trzymać?
 ![znaczek]({{page.little-separator}})
 {: .omit}
 
-￼Służbą<br>
+<p markdown="1" class="top"><span class="dropcaps">S</span>łużbą<br/>
 jest to, co pojawia się,<br>
 gdy nieodwołalnie pozwala się na przyjście <br>
 śmierci tego, <br>
@@ -178,7 +176,7 @@ szerzone od Ojca<br>
 do Syna<br>
 i w istocie swej jest ono tym samym,<br>
 co Tajemnica,<br>
-którą jest nasz Ojciec Niebieski.
+którą jest nasz Ojciec Niebieski.</p>
 
 Służba<br>
 wymaga tylko<br>
@@ -308,9 +306,9 @@ jednego błędnego postrzegania.
 ![znaczek]({{page.little-separator}})
 {: .omit}
 
-Kto więc<br>
+<p markdown="1" class="top"><span class="dropcaps">K</span>to więc<br/>
 jest sługą?<br>
-Do czego można przyrównać sługę?
+Do czego można przyrównać sługę?</p>
 
 Sługa jest *wolny*.<br>
 Już dłużej niespętany<br>
@@ -556,10 +554,10 @@ zawsze i na wieki wieków.
 
 ￼![znaczek]({{page.little-separator}})
 
-Do czego więc<br>
+<p markdown="1" class="top"><span class="dropcaps">D</span>o czego więc<br>
 można przyrównać<br>
 cechy <br>
-prawdziwej służby?
+prawdziwej służby?</p>
 
 Obserwuj wody, <br>
 które płyną z najwyższych gór,<br>
