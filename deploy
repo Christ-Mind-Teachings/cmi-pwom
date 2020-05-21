@@ -9,7 +9,7 @@
 # be updated with the new version of status.js created by this script.
 #
 
-configDir="public/config"
+configDir="standalone/config"
 
 # source location
 statusFileName="src/js/modules/_config/status.js"
@@ -17,7 +17,7 @@ statusFileName="src/js/modules/_config/status.js"
 # name of all book config files
 #
 # CHANGE THIS LIST TO REFLECT ALL CONFIG FILES IN PUBLIC/CONFIG
-configFiles="lj wos"
+configFiles="lj wos woh"
 
 ((cnt=0))
 status="export const status = {"

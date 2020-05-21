@@ -8367,8 +8367,9 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "status", function() { return status; });
 const status = {
-  lj: "Sat May 16 10:25:15 HST 2020",
-  wos: "Sun May 17 12:15:50 HST 2020"
+  lj: "Wed May 20 14:12:45 HST 2020",
+  wos: "Wed May 20 14:12:59 HST 2020",
+  woh: "Wed May 20 14:12:54 HST 2020"
 };
 
 /***/ }),
@@ -8394,25 +8395,32 @@ const uiTocModal = ".toc.ui.modal";
 const uiOpenTocModal = ".toc-modal-open";
 const uiModalOpacity = 0.5; //generate html for questions
 
-function renderQuestions(questions, c) {
+function renderSubcontents(contents, c) {
+  //<div class="list">
   return `
     <div class="list">
-      ${questions.map(q => `<a data-lid="${++c.counter}" class="item" href="${q.url}">${q.title}</a>`).join("")}
+      ${contents.map(q => `<a data-lid="${++c.counter}" class="item" href="${q.url}">${q.title}</a>`).join("")}
     </div>
   `;
 } //generate html for Contents
 
 
-function makeContents(contents) {
+function makeContents(contents, type) {
   var c = {
     counter: 0
   };
+  var klass = "ui list";
+
+  if (type) {
+    klass = `${klass} ${type}`;
+  }
+
   return `
-    <div class="ui ordered relaxed list">
+    <div class="${klass}">
       ${contents.map(unit => `
         <div class="item">
           <a data-lid="${++c.counter}" href="${unit.url}">${unit.title}</a>
-          ${unit.questions ? renderQuestions(unit.questions, c) : ""}
+          ${unit.contents ? renderSubcontents(unit.contents, c) : ""}
         </div>
       `).join("")}
     </div>
@@ -8426,8 +8434,8 @@ function loadTOC() {
   Object(_config_config__WEBPACK_IMPORTED_MODULE_1__["getConfig"])(book).then(contents => {
     $(".toc-image").attr("src", `${contents.image}`);
     $(".toc-title").html(`Table of Contents: <em>${contents.title}</em>`);
-    $(".toc-list").html(makeContents(contents.contents));
-    highlightCurrentTranscript(contents.bid);
+    $(".toc-list").html(makeContents(contents.contents, contents.toc || ""));
+    highlightCurrentTranscript(contents.bid, contents.totalPages);
   }).catch(error => {
     console.error(error);
     $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
@@ -8487,25 +8495,13 @@ function nextPrev($el, max) {
 */
 
 
-function highlightCurrentTranscript(bid) {
+function highlightCurrentTranscript(bid, max = 1) {
   let page = location.pathname;
   let $el = $(`.toc-list a[href='${page}']`); //remove href to deactivate link for current page and
   //scroll into middle of viewport
 
   $el.addClass("current-unit").removeAttr("href");
   scroll_into_view__WEBPACK_IMPORTED_MODULE_0___default()($el.get(0));
-  let max = 1;
-
-  switch (bid) {
-    case "lj":
-      max = 17;
-      break;
-
-    case "wos":
-      max = 8;
-      break;
-  }
-
   nextPrev($el, max);
 }
 /*
@@ -8551,13 +8547,13 @@ function getBookId() {
           let share_url = `${location.origin}${location.pathname}?tocbook=${book}`;
           $(".toc-image").attr("src", `${contents.image}`);
           $(".toc-title").html(`<i data-clipboard-text="${share_url}" title="Copy to Clipboard" class="tiny share alternate icon toc-share"></i>&nbsp;Table of Contents: <em>${contents.title}</em>`);
-          $(".toc-list").html(makeContents(contents.contents));
+          $(".toc-list").html(makeContents(contents.contents, contents.toc || ""));
           $(uiTocModal).modal("show");
           www_modules_bookmark_clipboard__WEBPACK_IMPORTED_MODULE_2__["default"].register(".share.icon.toc-share");
         }).catch(error => {
           $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
           $(".toc-title").html("Table of Contents: <em>Error</em>");
-          $(".toc-list").html(`<p>Error: ${error.message}</p><p>Failed to get ${url}`);
+          $(".toc-list").html(`<p>Failed to get configuration file ${book}.json`);
           $(uiTocModal).modal("show");
         });
       } else {

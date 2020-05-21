@@ -1,1 +1,1 @@
-export const status = {lj: "Sat May 16 10:25:15 HST 2020", wos: "Sun May 17 12:15:50 HST 2020"};
+export const status = {lj: "Wed May 20 14:12:45 HST 2020", wos: "Wed May 20 14:12:59 HST 2020", woh: "Wed May 20 14:12:54 HST 2020"};

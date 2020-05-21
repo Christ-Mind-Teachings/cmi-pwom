@@ -1,7 +1,9 @@
 {
   "bid": "wos",
   "title": "Droga Sługi",
-  "image": "/public/img/wom/wosN-toc.jpg",
+  "image": "/public/img/wom/wos-toc.jpg",
+  "toc": "relaxed ordered",
+  "totalPages": 8,
   "contents": [
     {
       "title": "Wstęp",

@@ -7,23 +7,29 @@ const uiOpenTocModal = ".toc-modal-open";
 const uiModalOpacity = 0.5;
 
 //generate html for questions
-function renderQuestions(questions, c) {
+function renderSubcontents(contents, c) {
+    //<div class="list">
   return `
     <div class="list">
-      ${questions.map(q => `<a data-lid="${++c.counter}" class="item" href="${q.url}">${q.title}</a>`).join("")}
+      ${contents.map(q => `<a data-lid="${++c.counter}" class="item" href="${q.url}">${q.title}</a>`).join("")}
     </div>
   `;
 }
 
 //generate html for Contents
-function makeContents(contents) {
+function makeContents(contents, type) {
   var c = {counter: 0};
+  var klass = "ui list";
+
+  if (type) {
+    klass = `${klass} ${type}`;
+  }
   return (`
-    <div class="ui ordered relaxed list">
+    <div class="${klass}">
       ${contents.map(unit => `
         <div class="item">
           <a data-lid="${++c.counter}" href="${unit.url}">${unit.title}</a>
-          ${unit.questions ? renderQuestions(unit.questions, c) : ""}
+          ${unit.contents ? renderSubcontents(unit.contents, c) : ""}
         </div>
       `).join("")}
     </div>
@@ -40,8 +46,8 @@ function loadTOC() {
       $(".toc-image").attr("src", `${contents.image}`);
       $(".toc-title").html(`Table of Contents: <em>${contents.title}</em>`);
 
-      $(".toc-list").html(makeContents(contents.contents));
-      highlightCurrentTranscript(contents.bid);
+      $(".toc-list").html(makeContents(contents.contents, contents.toc || ""));
+      highlightCurrentTranscript(contents.bid, contents.totalPages);
     })
     .catch((error) => {
       console.error(error);
@@ -102,7 +108,7 @@ function nextPrev($el, max) {
   If we're on a transcript page, highlight the
   current transcript in the list
 */
-function highlightCurrentTranscript(bid) {
+function highlightCurrentTranscript(bid, max = 1) {
   let page = location.pathname;
   let $el = $(`.toc-list a[href='${page}']`);
 
@@ -111,15 +117,6 @@ function highlightCurrentTranscript(bid) {
   $el.addClass("current-unit").removeAttr("href");
   scroll($el.get(0));
 
-  let max = 1;
-  switch(bid) {
-    case "lj":
-      max = 17;
-      break;
-    case "wos":
-      max = 8;
-      break;
-  }
   nextPrev($el, max);
 }
 
@@ -167,7 +164,7 @@ export default {
 
             $(".toc-image").attr("src", `${contents.image}`);
             $(".toc-title").html(`<i data-clipboard-text="${share_url}" title="Copy to Clipboard" class="tiny share alternate icon toc-share"></i>&nbsp;Table of Contents: <em>${contents.title}</em>`);
-            $(".toc-list").html(makeContents(contents.contents));
+            $(".toc-list").html(makeContents(contents.contents, contents.toc || ""));
             $(uiTocModal).modal("show");
 
             clipboard.register(".share.icon.toc-share");
@@ -175,7 +172,7 @@ export default {
           .catch((error) => {
             $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
             $(".toc-title").html("Table of Contents: <em>Error</em>");
-            $(".toc-list").html(`<p>Error: ${error.message}</p><p>Failed to get ${url}`);
+            $(".toc-list").html(`<p>Failed to get configuration file ${book}.json`);
             $(uiTocModal).modal("show");
           });
       }

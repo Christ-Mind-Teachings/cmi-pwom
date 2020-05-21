@@ -46,6 +46,9 @@ collections:
   wos:
     output: true
     title: Droga Sługi
+  woh:
+    output: true
+    title: Droga Serca
 
 defaults:
 
@@ -56,11 +59,11 @@ defaults:
       layout: transcript
       book: "Listy Jeszuy"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/tjlN-big.jpg"
+      image: "/public/img/wom/tjl-big.jpg"
       big-separator: "/public/img/wom/big.jpg"
       little-separator: "/public/img/wom/little.jpg"
       image-width: 612
-      image-height: 938
+      image-height: 877
       bid: "LJ"
       audio: false
 
@@ -71,12 +74,26 @@ defaults:
       layout: transcript
       book: "Droga Sługi"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wosN-big.jpg"
+      image: "/public/img/wom/wos-big.jpg"
       big-separator: "/public/img/wom/big.jpg"
       little-separator: "/public/img/wom/little.jpg"
       image-width: 612
-      image-height: 938
+      image-height: 877
       bid: "WOS"
+      audio: false
+
+  - scope:
+      path: ""
+      type: woh
+    values:
+      layout: transcript
+      book: "Droga Serca"
+      publisher: "Droga Mistrzostwa"
+      image: "/public/img/wom/wos-big.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      image-width: 612
+      image-height: 877
+      bid: "WOH"
       audio: false
 
 exclude: [
