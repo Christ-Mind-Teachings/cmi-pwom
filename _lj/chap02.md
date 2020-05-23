@@ -704,7 +704,8 @@ Nie słyszę już jej odpowiedzi, gdy zamykam za sobą drzwi i biegnę na parkin
 I wówczas, trach! Wydarza się to tak po prostu, bez żadnego oczywistego powodu. Nie, nikt nie wjechał mi w tył samochodu, choć niemalże chciałbym, żeby tak się stało. Nagle robi się absolutnie cicho. Nie słyszę samochodów wokół mnie, ani nawet radia. Tracę z pola widzenia wszystko, chwilowo przesłonięte to jest dwoma słowami:
 
 <div markdown="1" align="center">
-#### LISTY JESZUY
+### LISTY JESZUY
+
 
 </div>
 

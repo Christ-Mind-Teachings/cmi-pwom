@@ -1,6 +1,7 @@
 import store from "store";
 import axios from "axios";
 import indexOf from "lodash/indexOf";
+import notify from "toastr";
 import {status} from "./status";
 
 //import {decodeKey, parseKey, genKey} from "./key";
@@ -149,61 +150,32 @@ export function loadConfig(book) {
 }
 
 /*
-  get audio info from config file
-*/
-function _getAudioInfo(idx, cIdx) {
-  let audioInfo;
-
-  if (idx.length === 5) {
-    let qIdx = parseInt(idx[4].substr(1), 10) - 1;
-    audioInfo = config.contents[cIdx].questions[qIdx];
-  }
-  else {
-    audioInfo = config.contents[cIdx];
-  }
-  return audioInfo ? audioInfo: {};
-}
-
+ * Get audio info from config file based on url
+ */
 export function getAudioInfo(url) {
   //check that config has been initialized
   if (!config) {
     throw new Error("Configuration has not been initialized");
   }
 
-  //remove leading and trailing "/"
-  url = url.substr(1);
-  url = url.substr(0, url.length - 1);
+  let audioInfo = config.contents.find(p => {
+    return url.startsWith(p.url);
+  });
 
-  let idx = url.split("/");
-
-  //check the correct configuration file is loaded
-  if (config.bid !== idx[env.BID]) {
-    throw new Error(`Unexpected config file loaded; expecting ${env.BID} but ${config.bid} is loaded.`);
+  if (!audioInfo) {
+    notify.error("Configuration file error, didn't find url in file.");
+    return {};
   }
 
-  let audioInfo = {};
-  let cIdx;
-  let lookup = ["ble", "c2s", "hoe", "ign", "com", "dbc", "dth", "fem", "gar", "hea", "hoa", "hsp", "joy1", "joy2", "lht", "moa", "mot", "wak", "wlk"];
-  let wos = ["foreword", "preface", "chap01", "chap02", "chap03", "chap04", "afterwords", "epilog", "prayer"];
+  if (audioInfo.url !== url) {
+    audioInfo = audioInfo.contents.find(p => {
+      return p.url === url;
+    });
+  }
 
-  if (1 === 2) {
-    //skip this for now
-    switch(idx[env.BID]) {
-      case "tjl":
-        break;
-      case "wos":
-        cIdx = indexOf(wos, idx[env.UID]);
-        audioInfo = _getAudioInfo(idx, cIdx);
-        break;
-      case "early":
-        cIdx = indexOf(lookup, idx[env.UID]);
-        audioInfo = _getAudioInfo(idx, cIdx);
-        break;
-      default:
-        cIdx = parseInt(idx[3].substr(1), 10) - 1;
-        audioInfo = _getAudioInfo(idx, cIdx);
-        break;
-    }
+  if (!audioInfo) {
+    notify.error("Level 2 Configuration file error, didn't find url in file.");
+    return {};
   }
 
   audioInfo.audioBase = env.audioBase;

@@ -24,9 +24,9 @@
 const sprintf = require("sprintf-js").sprintf;
 
 //source id: each source has a unique id
-const sourceId = 10;
-const sid = "wom";
-const prefix = "/t/wom";
+const sourceId = 16;
+const sid = "pwom";
+const prefix = "/t/pwom";
 
 //length of pageKey excluding decimal portion
 const keyLength = 8;

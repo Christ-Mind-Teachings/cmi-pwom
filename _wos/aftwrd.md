@@ -10,12 +10,14 @@ title: "Posłowie"
 <p markdown="1" class="top"><span class="dropcaps">T</span>eraz nadszedł koniec.<br>
 Wróciliśmy <br>
 do pradawnego początku.</p>
----
 
 Tutaj, <br>
 gdzie Prawda została przywrócona,<br>
 spoglądamy łagodnie<br>
 na świat.
+
+---
+
 
 <p markdown="1" class="top"><span class="dropcaps">J</span>esteś tutaj tylko po to, <br>
 aby być prawdziwe pomocny.</p>

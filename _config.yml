@@ -49,6 +49,9 @@ collections:
   woh:
     output: true
     title: Droga Serca
+  wot:
+    output: true
+    title: Droga Przemiany,
 
 defaults:
 
@@ -96,7 +99,21 @@ defaults:
       bid: "WOH"
       audio: false
 
+  - scope:
+      path: ""
+      type: wot
+    values:
+      layout: transcript
+      book: "Droga Przemiany"
+      publisher: "Droga Mistrzostwa"
+      image: "/public/img/wom/wot-big.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      image-width: 612
+      image-height: 877
+      bid: "WOT"
+      audio: false
+
 exclude: [
-  moved.html, deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
+  bin, moved.html, deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
 ]
 

@@ -33,10 +33,7 @@ Zatem tom, który teraz trzymasz w dłoni oraz pozostałe wspomniane książki, 
 
 > *Naszym celem jest ustanowić kompletną Drogę, która poprowadzi duszę od jej pierwszych inklinacji do przebudzenia aż do dojrzałego przejawienia Chrystusowego Umysłu.*
 
-Zainteresowani czytelnicy mogą dowiedzieć się więcej na temat Drogi na
-stronie:<br> [Way of Mastery]( https://www.wayofmastery.com) lub [Droga
-Mistrzostwa](https://drogamistrzostwa.pl), jak również na stronie
-[Wydawnictwa Pokoju Chrustusa](https://pokojchrystusa.pl)
+Zainteresowani czytelnicy mogą dowiedzieć się więcej na temat Drogi na stronie:<br> [Way of Mastery]( https://www.wayofmastery.com) lub [Droga Mistrzostwa](https://drogamistrzostwa.pl), jak również na stronie [Wydawnictwa Pokoju Chrustusa](https://pokojchrystusa.pl)
 
 Jeszcze jedna uwaga: oto jedyna autoryzowana wersja tych Nauk, przekazana dokładnie tak, jak została oryginalnie podana, włączywszy w to dział pytań i odpowiedzi – niektóre z nich są bezcennymi Naukami przeznaczonymi dla nas wszystkich. Dołożono ogromnych starań, by upewnić się, że redaktorzy nie zmienią niczego przy spisywaniu tekstu z audio. Nie ma tu tytułów rozdziałów ani podrozdziałów, gdyż On takowych nie podawał. Słowa, na które położył On nacisk, zostały zaznaczone kursywą.
 
@@ -48,6 +45,5 @@ Teraz wszystko zależy od ciebie. Niech Bóg cię błogosławi, abyś poznał pr
 
 Niech płyną potoki radości!
 
-Jayem<br>
+Jayem
 Maj, 2011 r.
-

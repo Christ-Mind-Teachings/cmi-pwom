@@ -9,5 +9,6 @@ import {setEnv} from "./modules/_config/config";
 
 export function setRuntimeEnv() {
   setEnv(constants);
+  return constants.env;
 }
 

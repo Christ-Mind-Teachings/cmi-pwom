@@ -19,6 +19,9 @@
     "cmi",
     "wom"
   ],
+  "bin": {
+    "configure": "./bin/index.js"
+  },
   "author": "Rick Mercer",
   "homepage": "https://www.christmind.info/",
   "repository": "github:rmercer33/cmi-pwom",
