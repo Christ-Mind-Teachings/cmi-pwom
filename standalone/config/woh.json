@@ -3,7 +3,7 @@
   "title": "Droga Serca",
   "image": "/public/img/wom/woh-toc.jpg",
   "toc": "relaxed ordered",
-  "totalPages": 23,
+  "totalPages": 24,
   "contents": [
     {
       "title": "Sugestie do praktyki",
@@ -114,6 +114,10 @@
           "url": "/woh/l12/l12qa/"
         }
       ]
+    },
+    {
+      "title": "Ścieżka Drogi Mistrzostwa",
+      "url": "/woh/path/"
     }
   ]
 }

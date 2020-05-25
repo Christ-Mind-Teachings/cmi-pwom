@@ -3,7 +3,7 @@
   "title": "Droga Sługi",
   "image": "/public/img/wom/wos-toc.jpg",
   "toc": "relaxed ordered",
-  "totalPages": 8,
+  "totalPages": 9,
   "contents": [
     {
       "title": "Wstęp",
@@ -36,6 +36,10 @@
     {
       "title": "Modlitwa Przypomnienia",
       "url": "/wos/prayer/"
+    },
+    {
+      "title": "Ścieżka Drogi Mistrzostwa",
+      "url": "/wos/path/"
     }
   ]
 }

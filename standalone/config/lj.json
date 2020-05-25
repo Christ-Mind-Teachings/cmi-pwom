@@ -3,7 +3,7 @@
   "title": "Listy Jeszuy",
   "image": "/public/img/wom/lj-toc.jpg",
   "toc": "relaxed ordered",
-  "totalPages": 17,
+  "totalPages": 18,
   "contents": [
     {
       "title": "Podziękowania",
@@ -72,6 +72,10 @@
     {
       "title": "Epilog",
       "url": "/lj/eplg/"
+    },
+    {
+      "title": "Ścieżka Drogi Mistrzostwa",
+      "url": "/lj/path/"
     }
   ]
 }
