@@ -22,7 +22,7 @@ let env = {
 let config;
 
 /*
-  The status constains the save date for each config file. We compare that to the saveDate
+  The status contains the save date for each config file. We compare that to the saveDate
   in the locally stored config file. If it's different or doesn't exist we need to get
   a new version.
 

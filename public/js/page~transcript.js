@@ -5991,7 +5991,7 @@ let env = {
 
 let config;
 /*
-  The status constains the save date for each config file. We compare that to the saveDate
+  The status contains the save date for each config file. We compare that to the saveDate
   in the locally stored config file. If it's different or doesn't exist we need to get
   a new version.
 
@@ -6267,7 +6267,7 @@ function setEnv(constants) {
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
-  WOM: Transcript keys
+  CMI-PWOM: Transcript keys
   - first item starts with 1, not 0
   - a numeric value that represents a specific transcript and represents
     a specific logical ordering.
@@ -6276,41 +6276,62 @@ function setEnv(constants) {
     a paragraph within the transcript.
   - The paragraphId is increased by 1 and divided by 1000
 
-  key format: ssbuuIqq.ppp
+  key format: ssbuuuu.ppp
   where: ss: source Id
           b: book Id
-         uu: unit Id
-          I: quesiton indicator, 0:no questions 1:questions
-         qq: question Id
+       uuuu: unit Id
         ppp: paragraph number - not positional
 
-  NOTE: This module is used by code running in the browser and Node so the 
+  NOTE: This module is used by code running in the browser and Node so the
         common.js module system is used
 */
-//import indexOf from "lodash/indexOf";
-const sprintf = __webpack_require__(/*! sprintf-js */ "./node_modules/sprintf-js/src/sprintf.js").sprintf; //source id: each source has a unique id
+const si = __webpack_require__(/*! ./si */ "./src/js/modules/_config/si.js");
+
+const sprintf = __webpack_require__(/*! sprintf-js */ "./node_modules/sprintf-js/src/sprintf.js").sprintf; //length of pageKey excluding decimal portion
 
 
-const sourceId = 16;
-const sid = "pwom";
-const prefix = "/t/pwom"; //length of pageKey excluding decimal portion
+const keyLength = 7;
+/*
+ * The argument is the page url. Use the book id (bid)
+ * to find the position of the page in the contents array.
+ */
 
-const keyLength = 8;
-const books = ["tjl", "wos", "early", "woh", "wot", "wok", "acq"];
-const bookIds = ["xxx", ...books];
-const acq = ["xxx", "welcome", "wom", "web"];
-const tjl = ["xxx", "ack", "foreword", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "epilogue"];
-const wos = ["xxx", "foreword", "preface", "chap01", "chap02", "chap03", "chap04", "afterwords", "epilog", "prayer"];
-const early = ["xxx", "ble", "c2s", "hoe", "ign", "com", "dbc", "dth", "fem", "gar", "hea", "hoi", "hsp", "joy1", "joy2", "lht", "moa", "mot", "wak", "wlk"];
-const contents = {
-  acq: acq,
-  tjl: tjl,
-  wos: wos,
-  early: early
-};
+function getUnitId(...urlArray) {
+  let bid = urlArray[0];
+  let pageId = urlArray[urlArray.length - 1]; //check for integration mode
+
+  if (urlArray[0] === "t") {
+    bid = urlArray[2];
+  }
+
+  if (si.contents[bid]) {
+    return si.contents[bid].indexOf(pageId);
+  }
+
+  throw new Error(`unexpected bookId: ${bid}`);
+}
+/*
+  Return the number of chapters in the book (bid).
+  Subtract one from length because of 'xxx' (fake chapter)
+*/
+
+
+function getNumberOfUnits(bid) {
+  if (si.contents[bid]) {
+    return si.contents[bid].length - 1;
+  } else {
+    throw new Error(`getNumberOfUnits() unexpected bookId: ${bid}`);
+  }
+}
+/*
+ * Split url into an array. Strip leading and trailing
+ * '/' characters first so we don't get empty elements
+ * in the array.
+ */
+
 
 function splitUrl(url) {
-  let u = url; //remove leading "/"
+  let u = url; //remove leading
 
   u = url.substr(1); //remove trailing '/' if it exists
 
@@ -6320,46 +6341,14 @@ function splitUrl(url) {
 
   return u.split("/");
 }
-/*
-  return the position of unit in the bid array
-*/
-
-
-function getUnitId(bid, unit, fromKey = false) {
-  if (bid === "woh" || bid === "wot" || bid === "wok") {
-    return parseInt(unit.substr(1), 10);
-  }
-
-  if (contents[bid]) {
-    return contents[bid].indexOf(unit);
-  } else {
-    throw new Error(`unexpected bookId: ${bid}`);
-  }
-}
-/*
-  Return the unit name given keys bid, uid
-*/
-
-
-function getUnitFromKey(bid, uid) {
-  if (bid === "woh" || bid === "wot" || bid === "wok") {
-    return sprintf("l%02s", uid);
-  }
-
-  if (contents[bid]) {
-    return contents[bid][uid];
-  } else {
-    throw new Error(`unexpected bookId: ${bid}`);
-  }
-}
 
 function getSourceId() {
-  return sourceId;
+  return si.sourceId;
 }
 
 function getKeyInfo() {
   return {
-    sourceId: sourceId,
+    sourceId: si.sourceId,
     keyLength: keyLength
   };
 }
@@ -6403,52 +6392,62 @@ function parseKey(key) {
   };
 }
 /*
+ * Get bid (book id) from url.
+ *
+ * We could be running in standalone or integration mode. Integration
+ * mode is indicated by urlArray[0] == 't'
+ *
+ * The url is in this format: [t/sid]/bid/uid/suid, where [t/sid]
+ * are present only in integration mode
+ */
+
+
+function getBook(urlArray) {
+  if (urlArray[0] === "t") {
+    return urlArray[2];
+  }
+
+  return urlArray[0];
+}
+/*
   Convert url into key
   returns -1 for non-transcript url
 
-  key format: ssbuuIqq.ppp
+  key format: ssbuuuu.ppp
   where: ss: source Id
           b: book Id
-         uu: unit Id
-          I: question indicator, 0:no questions 1:questions
-         qq: question Id
+       uuuu: unit Id
         ppp: paragraph number - not positional
 */
 
 
 function genPageKey(url = location.pathname) {
   let key = {
-    sid: sourceId,
+    sid: si.sourceId,
     bid: 0,
-    uid: 0,
-    hasQuestions: 0,
-    qid: 0
+    uid: 0
   };
-  let parts = splitUrl(url); //key.bid = indexOf(bookIds, parts[0]);
+  let parts = splitUrl(url); //make sure we have a valid book
 
-  key.bid = bookIds.indexOf(parts[2]);
-
-  if (key.bid === -1) {
-    return -1;
-  }
-
-  key.uid = getUnitId(parts[2], parts[3]);
+  key.bid = si.bookIds.indexOf(getBook(parts));
 
   if (key.bid === -1) {
     return -1;
+  } //get the unitId of the page, return if invalid
+
+
+  key.uid = getUnitId(...parts);
+
+  if (key.uid === -1) {
+    return -1;
   }
 
-  if (parts.length === 5) {
-    key.hasQuestions = 1;
-    key.qid = parseInt(parts[4].substr(1), 10);
-  }
-
-  let compositeKey = sprintf("%02s%01s%02s%1s%02s", key.sid, key.bid, key.uid, key.hasQuestions, key.qid);
+  let compositeKey = sprintf("%02s%01s%04s", key.sid, key.bid, key.uid);
   let numericKey = parseInt(compositeKey, 10);
   return numericKey;
 }
-/* 
-  genParagraphKey(paragraphId, key: url || pageKey) 
+/*
+  genParagraphKey(paragraphId, key: url || pageKey)
 
   args:
     pid: a string representing a transcript paragraph, starts as "p0"..."pnnn"
@@ -6479,32 +6478,26 @@ function genParagraphKey(pid, key = location.pathname) {
   return paragraphKey;
 }
 /*
-  key format: ssbuuIqq.ppp
+  key format: ssbuuuu.ppp
   where: ss: source Id
           b: book Id
-         uu: unit Id
-          I: question indicator, 0:no questions 1:questions
-         qq: question Id
+       uuuu: unit Id
         ppp: paragraph number - not positional
-
-  Added arg 'subtract' to prevent subtraction of uid and qid.
 */
 
 
-function decodeKey(key, substract = true) {
+function decodeKey(key) {
   let {
     pid,
     pageKey
   } = parseKey(key);
   let pageKeyString = pageKey.toString(10);
   let decodedKey = {
-    error: 0,
+    error: false,
     message: "ok",
-    sid: sourceId,
+    sid: 0,
     bookId: "",
     uid: 0,
-    hasQuestions: false,
-    qid: 0,
     pid: pid - 1
   }; //error, invalid key length
 
@@ -6512,59 +6505,88 @@ function decodeKey(key, substract = true) {
     decodedKey.error = true;
     decodedKey.message = `Integer portion of key should have a length of ${keyLength}, key is: ${pageKeyString}`;
     return decodedKey;
+  } //check for valid sourceId
+
+
+  decodedKey.sid = parseInt(pageKeyString.substr(0, 2), 10);
+
+  if (decodedKey.sid !== si.sourceId) {
+    decodedKey.error = true;
+    decodedKey.message = `Invalid sourceId: ${decodedKey.sid}, expecting: ${si.sourceId}`;
+    return decodedKey;
   }
 
   let bid = parseInt(pageKeyString.substr(2, 1), 10);
-  decodedKey.bookId = bookIds[bid]; //substract 1 from key value to get index
-  // ** don't know why we subtract from uid and quid **
-  // ** genPageKey() doesn't add **
+  decodedKey.bookId = si.bookIds[bid]; //subtract 1 from key value to get index
 
-  if (substract) {
-    //subtract 1 from key value to get index
-    decodedKey.uid = parseInt(pageKeyString.substr(3, 2), 10) - 1;
-    decodedKey.qid = parseInt(pageKeyString.substr(6, 2), 10) - 1;
-  } else {
-    decodedKey.uid = parseInt(pageKeyString.substr(3, 2), 10);
-    decodedKey.qid = parseInt(pageKeyString.substr(6, 2), 10);
-  }
-
-  decodedKey.hasQuestions = pageKeyString.substr(5, 1) === "1";
+  decodedKey.uid = parseInt(pageKeyString.substr(3, 4), 10);
   return decodedKey;
 }
-
-function getBooks() {
-  return books;
-}
 /*
- * Convert page key to url, this is used to determine url of 
- *  note style bookmarks
+ * Convert page key to url
  */
 
 
 function getUrl(key, withPrefix = false) {
-  //decode key but don't subtract one from uid and qid
-  let decodedKey = decodeKey(key, false);
+  let decodedKey = decodeKey(key);
   let unit = "invalid";
-  let question;
-  let url = `/${decodedKey.bookId}`;
 
   if (decodedKey.error) {
     return "/invalid/key/";
   }
 
-  unit = getUnitFromKey(decodedKey.bookId, decodedKey.uid);
-  url = `${url}/${unit}/`;
+  if (si.contents[decodedKey.bookId]) {
+    unit = si.contents[decodedKey.bookId][decodedKey.uid];
 
-  if (decodedKey.hasQuestions) {
-    question = `q${decodedKey.qid}`;
-    url = `${url}${question}/`;
+    if (decodedKey.bookId === "text") {
+      let chapter = unit.substr(4, 2);
+      unit = `${chapter}/${unit}`;
+    }
   }
 
   if (withPrefix) {
-    return `${prefix}${url}`;
+    return `${si.prefix}/${decodedKey.bookId}/${unit}/`;
   }
 
-  return url;
+  return `/${decodedKey.bookId}/${unit}/`;
+}
+/*
+function getUrl(key) {
+  let decodedKey = decodeKey(key);
+  let unit = "invalid";
+  let chapter;
+
+  if (decodedKey.error) {
+    return "";
+  }
+
+  switch(decodedKey.bookId) {
+    case "text":
+      unit = text[decodedKey.uid];
+      chapter = unit.substr(4,2);
+      unit = `${chapter}/${unit}`;
+      break;
+    case "workbook":
+      unit = workbook[decodedKey.uid];
+      break;
+    case "manual":
+      unit = manual[decodedKey.uid];
+      break;
+    case "preface":
+      unit = preface[decodedKey.uid];
+      break;
+    case "acq":
+      unit = acq[decodedKey.uid];
+      break;
+  }
+
+  return `/${decodedKey.bookId}/${unit}/`;
+}
+*/
+
+
+function getBooks() {
+  return si.books;
 }
 /*
   Describe key in terms of source:book:unit:p
@@ -6578,20 +6600,16 @@ function describeKey(key) {
     return {
       key: key,
       error: true,
-      source: sid
+      source: si.sid
     };
   }
 
   let info = {
     key: key,
-    source: sid,
-    book: decodedKey.bookId
+    source: si.sid,
+    book: decodedKey.bookId,
+    unit: si.contents[decodedKey.bookId][decodedKey.uid]
   };
-  info.unit = getUnitFromKey(decodedKey.bookId, decodedKey.uid);
-
-  if (decodedKey.hasQuestions) {
-    info.question = `q${decodedKey.qid}`;
-  }
 
   if (decodedKey.pid > -1) {
     info.pid = `p${decodedKey.pid}`;
@@ -6601,15 +6619,41 @@ function describeKey(key) {
 }
 
 module.exports = {
+  getNumberOfUnits: getNumberOfUnits,
   getBooks: getBooks,
   getSourceId: getSourceId,
   getKeyInfo: getKeyInfo,
-  getUrl: getUrl,
   parseKey: parseKey,
+  getUnitId: getUnitId,
   genPageKey: genPageKey,
   genParagraphKey: genParagraphKey,
   decodeKey: decodeKey,
+  getUrl: getUrl,
   describeKey: describeKey
+};
+
+/***/ }),
+
+/***/ "./src/js/modules/_config/si.js":
+/*!**************************************!*\
+  !*** ./src/js/modules/_config/si.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+//export const si = {
+module.exports = {
+  sourceId: 16,
+  sid: "pwom",
+  prefix: "/t/pwom",
+  books: ["lj", "wos", "woh", "wot"],
+  bookIds: ["xxx", "lj", "wos", "woh", "wot"],
+  contents: {
+    lj: ["xxx", "acknow", "reader", "forwd", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "eplg"],
+    wos: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "aftwrd", "eplg", "prayer"],
+    woh: ["xxx", "advice", "preface", "l01", "l01qa", "l02", "l02qa", "l03", "l04", "l05", "l06", "l06qa", "l07", "l07qa", "l08", "l08qa", "l09", "l09qa", "l10", "l10qa", "l11", "l11qa", "l12", "l12qa"],
+    wot: ["xxx", "advice", "preface", "l01", "l01qa", "l02", "l03", "l04", "l05", "l06", "l06qa", "l07", "l07qa", "l08", "l09", "l09qa", "l10", "l11", "l11qa", "l12", "path"]
+  }
 };
 
 /***/ }),
