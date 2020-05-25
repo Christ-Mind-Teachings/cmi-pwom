@@ -1,3 +1,6 @@
+---
+---
+
 **Śmierć i zmiany na Ziemi**
 
 Teraz zaczynamy.

@@ -52,6 +52,9 @@ collections:
   wot:
     output: true
     title: Droga Przemiany,
+  early:
+    output: true
+    title: Early Years,
 
 defaults:
 
@@ -111,6 +114,20 @@ defaults:
       image-width: 612
       image-height: 877
       bid: "WOT"
+      audio: false
+
+  - scope:
+      path: ""
+      type: early
+    values:
+      layout: transcript
+      book: "The Early Years"
+      publisher: "Droga Mistrzostwa"
+      image: "/public/img/wom/early-big.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      image-width: 612
+      image-height: 877
+      bid: "EARLY"
       audio: false
 
 exclude: [

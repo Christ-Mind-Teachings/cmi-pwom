@@ -1,0 +1,82 @@
+{
+  "bid": "early",
+  "title": "The Early Years",
+  "image": "/public/img/wom/early-toc.jpg",
+  "toc": "relaxed ordered",
+  "totalPages": 16,
+  "contents": [
+    {
+      "title": "Przedmowa",
+      "url": "/early/intr/"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/early/chap01/"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/early/chap02/",
+      "contents": [
+        {
+          "title": "qa",
+          "url": "/early/chap02/chap02qa/"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/early/chap03/",
+      "contents": [
+        {
+          "title": "qa",
+          "url": "/early/chap03/chap03qa/"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/early/chap04/"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/early/chap05/"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/early/chap06/"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/early/chap07/"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/early/chap08/",
+      "contents": [
+        {
+          "title": "qa",
+          "url": "/early/chap08/chap08qa/"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/early/chap09/",
+      "contents": [
+        {
+          "title": "qa",
+          "url": "/early/chap09/chap09qa/"
+        }
+      ]
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/early/chap10/"
+    },
+    {
+      "title": "Ścieżka Drogi Mistrzostwa",
+      "url": "/early/path/"
+    }
+  ]
+}
+

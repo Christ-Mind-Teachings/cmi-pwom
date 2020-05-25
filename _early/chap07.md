@@ -1,3 +1,6 @@
+---
+---
+
 **Znaczenie Wniebowstąpienia**
 
 Teraz zaczynamy.

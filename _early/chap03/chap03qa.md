@@ -1,3 +1,6 @@
+---
+---
+
 **Pytania i odpowiedzi**
 
 **Pytanie 1:** Jeszuo, gdy teraz wchodzimy w ten ważny czas w roku [Boże Narodzenie -- przyp. tłum.], czy jest coś, co poleciłbyś nam rozważać w naszych sercach?

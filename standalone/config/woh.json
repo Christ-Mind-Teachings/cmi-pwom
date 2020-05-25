@@ -4,6 +4,7 @@
   "image": "/public/img/wom/woh-toc.jpg",
   "toc": "relaxed ordered",
   "totalPages": 24,
+  "note": "Make sure url's begin and end with '/'",
   "contents": [
     {
       "title": "Sugestie do praktyki",

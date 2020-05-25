@@ -6625,9 +6625,11 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "status", function() { return status; });
 const status = {
-  lj: "pon 25 maj 22:01:18 2020 CEST",
-  wos: "pon 25 maj 21:57:51 2020 CEST",
-  woh: "pon 25 maj 22:00:26 2020 CEST"
+  lj: "Mon May 25 10:36:23 HST 2020",
+  wos: "Mon May 25 10:36:23 HST 2020",
+  woh: "Mon May 25 10:36:23 HST 2020",
+  wot: "Sat May 23 10:16:42 HST 2020",
+  early: "Mon May 25 12:26:22 HST 2020"
 };
 
 /***/ }),

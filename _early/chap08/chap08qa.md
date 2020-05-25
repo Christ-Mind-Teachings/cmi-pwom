@@ -1,3 +1,6 @@
+---
+---
+
 Pytania i odpowiedzi
 
 **Pytanie 1:** To pierwszy raz, gdy zapraszasz nas do odczuwania zadziwienia. Zwykle doświadczam celów i pragnień jako czegoś, co jest ciężarem, a teraz po raz pierwszy czuję konkretny cel, który naprawdę mi się podoba jako coś, do czego mogę podejść w duchu zabawy. I nawet nie wiem, jakie jest moje pytanie, ale wiem, że o tym chcę z tobą rozmawiać.
