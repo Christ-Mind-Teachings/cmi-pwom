@@ -2,15 +2,15 @@
 title: "Pytania i odpowiedzi"
 ---
 
-<div markdown="1" class="chHead"> 
+# Mistrzostwo komunikacji
+
 ## Pytania i odpowiedzi
 
+## Pytanie 1
 
-</div>
+***Pytanie:*** Jeszuo, chciałbym byś odniósł się do dwóch zdań wziętych prosto z *Kursu Cudów*, które słyszę w swym umyśle, gdy poruszamy ten temat. Zdanie pierwsze: „Nigdy nie mów swemu bratu, że jest on taki, jakim ty nie chciałbyś być". A drugie zdanie to: „Słowa to jedynie symbole symboli, są przeto po dwakroć oddalone od rzeczywistości". Czy mógłbyś rozwinąć te dwie idee?
 
-**Pytanie:** Jeszuo, chciałbym byś odniósł się do dwóch zdań wziętych prosto z *Kursu Cudów*, które słyszę w swym umyśle, gdy poruszamy ten temat. Zdanie pierwsze: „Nigdy nie mów swemu bratu, że jest on taki, jakim ty nie chciałbyś być". A drugie zdanie to: „Słowa to jedynie symbole symboli, są przeto po dwakroć oddalone od rzeczywistości". Czy mógłbyś rozwinąć te dwie idee?
-
-**Odpowiedź:** To oczywiste, że nigdy tego nie powiedziałem!
+***Odpowiedź:*** To oczywiste, że nigdy tego nie powiedziałem!
 
 Słowa zaprawdę są symbolami symboli, ponieważ reprezentują one ideę, a kiedy wymawiane jest słowo, ponownie przekazuje ono przesłanie na temat tego, że jest to idea, którą cenisz.
 

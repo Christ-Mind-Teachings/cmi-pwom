@@ -2,16 +2,13 @@
 title: "Chodź ze mną"
 ---
 
-<div markdown="1" class="chHead">  
 
-## Chodź ze mną 
+# Chodź ze mną 
 
-![znaczek](/Users/Marek/project/cmi-pwom/_early/{{page.big-separator}})
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 
-
-</div>
 
 Ponownie pozdrawiam was, umiłowani i święci przyjaciele -- tych, którzy podróżują ze mną od chwili, zanim nastał czas oraz tych, którzy *pozostaną* ze mną, gdy cel czasu się dopełni, a wszystkie rzeczy przynależące do przestrzeni i czasu nie będą już dłużej potrzebne i rozpłyną się w Źródle, w którym wzięły początek, zaś Święte Dziecię Boże będzie trwało na wieki jako Jedno ze Swoim Stwórcą. Nie da się tego opisać w językach twego świata, a jednak -- dzięki wierze i wizji -- serce może ujrzeć, poczuć i poznać, że z pewnością Stworzenie ma swój cel i z pewnością doświadczy kresu&hellip; kresu rzeczy odzwierciedlających Stworzenie w czasie, ale nie kresu samego Stworzenia. Gdyż Stworzenie jest jedynie nieograniczonym szerzeniem Miłości Boga, w doskonałym zjednoczeniu z jedynym Stworzeniem Boga, Jego ukochanym Dzieckiem -- tobą, jedynym Sercem Chrystusa, podzielanym przez wszystkich, poza ciałem, poza osobowością, poza twoimi snami o historii, którą -- jak myślisz -- nadal ze sobą niesiesz, gdyż te rzeczy zostały ci już zabrane i pozostajesz taki, jakim zostałeś stworzony.
 

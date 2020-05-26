@@ -1,15 +1,15 @@
 ---
-title:"Boska Kobiecość"
+title: "Boska Kobiecość"
 ---
 
-<div markdown="1" class="chHead"
 
-## Boska Kobiecość
 
-![znaczek](/Users/Marek/project/cmi-pwom/_early/{{page.big-separator}})
+# Boska Kobiecość
+
+![znaczek]({{page.big-separator}})
 {: .omit}
 
-</div>
+
 
 Teraz możemy zacząć.
 

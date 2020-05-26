@@ -2,15 +2,14 @@
 title: "Błogość niewiedzy"
 ---
 
-<div markdown="1" class="chHead">
-## Błogość niewiedzy
 
-![znaczek](/Users/Marek/project/cmi-pwom/_early/{{page.big-separator}})
+# Błogość niewiedzy
+
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 
 
-</div>
 
 Teraz zaczynamy.
 

@@ -2,7 +2,7 @@
 title: "Pytania i odpowiedzi"
 ---
 
-<div markdown="1" class="chHead" 
+# Niebo na ziemi
 
 ## Pytania i odpowiedzi
 

@@ -3,7 +3,7 @@ title: "Mistrzostwo komunikacji"
 ---
 
 <div markdown="1" class="chHead">
-## Mistrzostwo komunikacji
+# Mistrzostwo komunikacji
   ![znaczek]({{page.big-separator}})
 {: .omit}
 

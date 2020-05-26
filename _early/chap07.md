@@ -2,14 +2,13 @@
 title: "Znaczenie Wniebowstąpienia"
 ---
 
-<div markdown="1" class="chHead">
 
-##  Znaczenie wniebowstąpienia
 
-![znaczek](/Users/Marek/project/cmi-pwom/_early/{{page.big-separator}})
+# Znaczenie wniebowstąpienia
+
+![znaczek]({{page.big-separator}})
 {: .omit}
 
-</div>
 
 Teraz zaczynamy.
 

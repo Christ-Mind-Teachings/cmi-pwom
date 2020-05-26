@@ -2,18 +2,15 @@
 title: "Pytania i odpowiedzi"
 ---
 
-<div markdown="1" class="chHead" 
+
+# Błogosławieństwo przebaczenia
+
 ## Pytania i odpowiedzi
-<div markdown="1" class="center" 
-## Pytania i odpowiedzi
 
-
-
-</div>
 
 ## Pytanie 1
 
-***Pytanie* **: Jeszuo, gdy teraz wchodzimy w ten ważny czas w roku [Boże Narodzenie -- przyp. tłum.], czy jest coś, co poleciłbyś nam rozważać w naszych sercach?
+***Pytanie***: Jeszuo, gdy teraz wchodzimy w ten ważny czas w roku [Boże Narodzenie -- przyp. tłum.], czy jest coś, co poleciłbyś nam rozważać w naszych sercach?
 
 ***Odpowiedź:*** Prośba o wygraną w totka byłaby niezłym pomysłem.
 

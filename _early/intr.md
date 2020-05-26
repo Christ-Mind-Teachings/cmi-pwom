@@ -3,12 +3,8 @@ title: "Wstęp"
 ---
 
 
+# WSTĘP
 
-<div mardown="1" class="center">
-
-## WSTĘP
-
-</div>
 
 Książka, którą trzymasz w dłoniach, jest zapisem przekazów danych przez Jeszuę podczas publicznych spotkań we wczesnych latach mojej pracy z Nim. Nauki te to obszerny zbiór mądrości Jeszuy, istotna część Ścieżki *Drogi Mistrzostwa,* i teraz są one po raz pierwszy dostępne w formie książki.
 

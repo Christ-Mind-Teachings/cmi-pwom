@@ -2,16 +2,13 @@
 title: "Śmierć i zmiany na Ziemi"
 ---
 
-<div markdown="1" class="chHead"> 
 
-## Śmierć i zmiany na Ziemi
+# Śmierć i zmiany na Ziemi
 
-![znaczek](/Users/Marek/project/cmi-pwom/_early/{{page.big-separator}})
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 
-
-</div>
 
 Teraz zaczynamy.
 

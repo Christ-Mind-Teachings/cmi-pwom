@@ -2,9 +2,9 @@
 title: "Błogosławieństwo przebaczenia"
 ---
 <div markdown="1" class="chHead">
-## Błogosławieństwo przebaczenia
+# Błogosławieństwo przebaczenia
 
-![znaczek](/Users/Marek/project/cmi-pwom/_early/{{page.big-separator}})
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 

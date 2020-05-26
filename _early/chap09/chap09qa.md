@@ -1,14 +1,13 @@
 ---
-title: "Pytania i odpowiedz"
+title: "Pytania i odpowiedzi"
 ---
 
-<div markdown="1" class="chHead"> 
 
-</div>
+
+# Śmierć i zmiany na Ziemi
 
 ## Pytania i odpowiedzi
 
-</div>
 
 ## Pytanie 1
 

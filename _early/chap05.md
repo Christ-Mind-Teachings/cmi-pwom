@@ -2,15 +2,13 @@
 title: "Święta chwila"
 ---
 
-<div markdown="1" class="chHead">
-## Święta chwila
 
-![znaczek](/Users/Marek/project/cmi-pwom/_early/{{page.big-separator}})
+# Święta chwila
+
+![znaczek]({{page.big-separator}})
 {: .omit}
 
 
-
-</div>
 
 Teraz zaczynamy.
 
