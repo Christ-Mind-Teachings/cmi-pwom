@@ -1,15 +1,20 @@
 ---
+title: "Pytania i odpowiedzi"
 ---
 
-Pytania i odpowiedzi
+<div markdown="1" class="chHead" 
 
-**Pytanie 1:** To pierwszy raz, gdy zapraszasz nas do odczuwania zadziwienia. Zwykle doświadczam celów i pragnień jako czegoś, co jest ciężarem, a teraz po raz pierwszy czuję konkretny cel, który naprawdę mi się podoba jako coś, do czego mogę podejść w duchu zabawy. I nawet nie wiem, jakie jest moje pytanie, ale wiem, że o tym chcę z tobą rozmawiać.
+## Pytania i odpowiedzi
 
-**Odpowiedź:** Posłuchaj uważnie tego, co właśnie wypowiedziałeś i rozważ, co zostało ci powiedziane chwilę wcześniej. Był ku temu powód.
+## Pytanie 1
+
+***Pytanie*:** To pierwszy raz, gdy zapraszasz nas do odczuwania zadziwienia. Zwykle doświadczam celów i pragnień jako czegoś, co jest ciężarem, a teraz po raz pierwszy czuję konkretny cel, który naprawdę mi się podoba jako coś, do czego mogę podejść w duchu zabawy. I nawet nie wiem, jakie jest moje pytanie, ale wiem, że o tym chcę z tobą rozmawiać.
+
+***Odpowiedź*:** Posłuchaj uważnie tego, co właśnie wypowiedziałeś i rozważ, co zostało ci powiedziane chwilę wcześniej. Był ku temu powód.
 
 Jeśli zaprawdę chciałbyś przyciągnąć do siebie jasność odpowiedzi na konkretne pytanie, upewnij się, że zadajesz jasne pytanie. Umiłowany przyjacielu, pozwól sobie zatem odprężyć się na chwilę. To nie przychodzi z umysłu, lecz z umysłu będącego w zrelaksowanym stanie istnienia, ze zrelaksowanego ciała emocjonalnego. Po prostu zacznij w swym wnętrzu pytać:
 
-*Jakie pytanie z pewnością przyciągnęłoby do mnie odpowiedź, którą pragnę odkryć?*
+> *Jakie pytanie z pewnością przyciągnęłoby do mnie odpowiedź, którą pragnę odkryć?*
 
 Zatrzymamy się tu na chwilę, byś pozwolił, by zrodziło się owo pytanie.
 
@@ -23,11 +28,11 @@ To tak naprawdę bardzo łatwe. Pytania z Miłości w dosłownym znaczeniu wytwa
 
 Gdy siedzisz w medytacji i pozwalasz, by pojawiły się pytania, to gdy zaczynasz być zdyscyplinowany w swej świadomości i zauważać, co dzieje się w umyśle z chwili na chwilę, i gdy pojawiają się pytania, zatrzymaj się, spójrz na nie i zapytaj siebie:
 
-*Czy to pytanie pochodzi z Miłości czy z lęku?*
+> *Czy to pytanie pochodzi z Miłości czy z lęku?*
 
 A następnie zapytaj:
 
-*Co takiego zauważam w swym istnieniu, co powiązane jest z powstaniem tego pytania? Czy jest to odczucie radości i zadziwienia, odrobina ekscytacji, poczucie szerzenia się? Czy też jest to zaciśnięcie, poczucie chłodu, złego przeczucia, dysonansu zamiast rezonansu?*
+> *Co takiego zauważam w swym istnieniu, co powiązane jest z powstaniem tego pytania? Czy jest to odczucie radości i zadziwienia, odrobina ekscytacji, poczucie szerzenia się? Czy też jest to zaciśnięcie, poczucie chłodu, złego przeczucia, dysonansu zamiast rezonansu?*
 
 Czy ma to dla ciebie sens?
 
@@ -49,13 +54,15 @@ Czy wiesz, dlaczego wykonujemy całą tę pracę? Ponieważ ja byłem chętny, b
 
 Tam, gdzie nie ma pytań, już masz swoją odpowiedź. A jak wielu w twoim świecie nigdy nie zadaje nowych pytań, a potem zastanawia się, czemu nic się nie zmienia?
 
-**Pytanie 2:** Pytanie brzmi: jak rozwinąć większą jasność i zdolność rozróżniania w kwestii „noszenia kostiumu" swego emocjonalnego ciała i energii, i pozostawania z nim w jasności, i -- jakby to ująć -- nie przyjmowania na siebie przebrania czy emocjonalnego ciała kogoś innego, „nienoszenia" czyichś emocjonalnych ciał?
+## Pytanie 2
 
-**Odpowiedź:** Umiłowany przyjacielu, wyobraź sobie, że siedzisz w wielkiej orkiestrze i jest tam wiele skrzypiec i fletów, wiele obojów i wiele klarnetów, i czegokolwiek, z czego składa się orkiestra. Przedstawienie jeszcze się nie zaczęło, więc wszyscy stroją swoje instrumenty. I kiedy tak tam siedzisz (a jesteś flecistą), umieszczasz ustnik na instrumencie i gdy podnosisz go do ust, trochę się denerwujesz, ponieważ w końcu jest to dla ciebie nowe przedstawienie, jesteś w tej drużynie -- jak by to ująć -- żółtodziobem. I wydaje się, że rozprasza cię dźwięk oboju, dźwięk klarnetu, uderzenia perkusji, niegłośne piszczenie strun skrzypiec. Przez chwilę jesteś rozproszony. Który z tych dźwięków jest moim? Jak mogę usłyszeć mój własny dźwięk, jeśli te wszystkie inne instrumenty wokół mnie wydają hałas?
+***Pytanie*:** Pytanie brzmi: jak rozwinąć większą jasność i zdolność rozróżniania w kwestii „noszenia kostiumu" swego emocjonalnego ciała i energii, i pozostawania z nim w jasności, i -- jakby to ująć -- nie przyjmowania na siebie przebrania czy emocjonalnego ciała kogoś innego, „nienoszenia" czyichś emocjonalnych ciał?
+
+***Odpowiedź*:** Umiłowany przyjacielu, wyobraź sobie, że siedzisz w wielkiej orkiestrze i jest tam wiele skrzypiec i fletów, wiele obojów i wiele klarnetów, i czegokolwiek, z czego składa się orkiestra. Przedstawienie jeszcze się nie zaczęło, więc wszyscy stroją swoje instrumenty. I kiedy tak tam siedzisz (a jesteś flecistą), umieszczasz ustnik na instrumencie i gdy podnosisz go do ust, trochę się denerwujesz, ponieważ w końcu jest to dla ciebie nowe przedstawienie, jesteś w tej drużynie -- jak by to ująć -- żółtodziobem. I wydaje się, że rozprasza cię dźwięk oboju, dźwięk klarnetu, uderzenia perkusji, niegłośne piszczenie strun skrzypiec. Przez chwilę jesteś rozproszony. Który z tych dźwięków jest moim? Jak mogę usłyszeć mój własny dźwięk, jeśli te wszystkie inne instrumenty wokół mnie wydają hałas?
 
 Wirtuoz lub mistrz instrumentu uczy się skupiać uwagę na tym, czego chce, zamiast na tym, co jego zdaniem nie pozwala mu osiągnąć tego, czego pragnie. A to, czego chcesz, to usłyszeć dźwięk swego własnego fletu. A więc podnosisz swój instrument do ust i zaczynasz w niego dmuchać, póki nie znajdziesz właściwego kąta, by wydać nutę.
 
-*O, to ta nuta, która mi się podoba. Oj, teraz znowu się rozproszyłem przez ten obój. Zamiast myśleć o tym, jak mogę oddzielić się od oboju, skupię się tylko na tym, co chcę usłyszeć. Na moim własnym flecie.*
+> *O, to ta nuta, która mi się podoba. Oj, teraz znowu się rozproszyłem przez ten obój. Zamiast myśleć o tym, jak mogę oddzielić się od oboju, skupię się tylko na tym, co chcę usłyszeć. Na moim własnym flecie.*
 
 Ćwicz ponownie zagranie tej nuty przez zwrócenie uwagi na to, czego chcesz, przez uwolnienie muzyków grających na obojach, skrzypków i całej reszty od winy za rozpraszanie ciebie. Skup się na tym, czego chcesz. Jaką częstotliwość chcesz poczuć w swym ciele, jakie myśli chcesz myśleć? Skup swą uwagę na wytworzeniu siły wydmuchu dźwięku, który chcesz w sobie usłyszeć. A gdy się na tym skupiasz, to zaczyna to brzmieć jak nuta dźwięcząca w krysztale: lśni promiennie, rozbrzmiewa promiennie w pustej przestrzeni, gdzie nic jej nie blokuje. Tak więc nawet gdy ten muzyk grający na oboju i skrzypek robią to, co do nich należy, ty jesteś tak zaabsorbowany, tak skupiony całą swą uwagą i całym swym pragnieniem na niemartwieniu się tym, co oni robią, lub na tym, jak ich dźwięk może wpływać na twój dźwięk -- a kiedy czujesz wpływ dźwięku oboju lub rozproszenie obojem, znowu zwracasz się ku wytworzeniu dźwięku, którego pragniesz. Może to oznaczać głębokie oddychanie; może to oznaczać uśmiechanie się z miłością; może to oznaczać pomyślenie sobie: „Dokonało się i uznaję to!". Uczysz się zwracać uwagę swego umysłu w kierunku tego, co chcesz poczuć i czego chcesz doświadczyć, co chcesz przywołać do swej rzeczywistości. To buduję tę siłę.
 
@@ -63,7 +70,7 @@ I widzisz, to daje  ci odpowiedź na twoje pytanie. Gdy zaczynasz się stabilizo
 
 I dokładnie w ten sam sposób, kiedykolwiek myślisz, że czujesz różne energie i nie jesteś pewien, czy to twoja energia, czy kogoś innego, odwróć uwagę umysłu od tej myśli -- to bezużyteczne pytanie. Z powrotem skup się na tym:
 
-*Kogóż obchodzi, co teraz czuję lub co myślę, że może się dziać? Czego chcę? Ach, chcę, by me ciało było rozluźnione. Chcę spoglądać z miłością na świat, który widzę. Chcę kroczyć jako Chrystusowa istota w kobiecej formie. Chcę być szczęśliwa. Jak bym to czuła w tej chwili?*
+> *Kogóż obchodzi, co teraz czuję lub co myślę, że może się dziać? Czego chcę? Ach, chcę, by me ciało było rozluźnione. Chcę spoglądać z miłością na świat, który widzę. Chcę kroczyć jako Chrystusowa istota w kobiecej formie. Chcę być szczęśliwa. Jak bym to czuła w tej chwili?*
 
 Zacznij używać mocy stwarzania, której i tak zawsze używasz, by stwarzać inaczej -- poprzez przeniesienie uwagi z martwienia się kimś grającym na oboju na skupienie na promieniejącym klejnocie, który możesz stworzyć, wydając własny dźwięk. Wzmocnij go. Stań się nim.
 
@@ -71,13 +78,13 @@ Jeśli poszedłbyś na siłownię, by wytrenować mięsień, i miałbyś podnosi
 
 Za każdym razem, gdy podejmujesz decyzję, by dać się rozproszyć czymś, co robią inni i oderwać swą uwagę od nuty, którą chcesz nauczyć się grać, możesz zadać sobie pytanie:
 
-*Jak by to było czuć w tej chwili doskonały pokój?*
+> *Jak by to było czuć w tej chwili doskonały pokój?*
 
-*Jak by to było być Chrystusem wcielonym?*
+> *Jak by to było być Chrystusem wcielonym?*
 
-*Jak by to było nie czuć lęku?*
+> *Jak by to było nie czuć lęku?*
 
-*Jak by to było być wolnym od mych przeszłych historii?*
+> *Jak by to było być wolnym od mych przeszłych historii?*
 
 Przez skupienie na tej nucie odkrywasz, że jedyny czas, w którym siebie zraniłeś, to ten, gdy swą uwagę skupiłeś na próbie wykombinowania, co należy do kogoś innego i jak oni to robią. Im bardziej skupiasz swą uwagę tutaj na wydaniu doskonałego dźwięku na flecie, wszystko dookoła ciebie zaczyna ucichać. To się chyba nazywa -- czujność i dyscyplina.
 
@@ -85,11 +92,11 @@ Przez skupienie na tej nucie odkrywasz, że jedyny czas, w którym siebie zrani�
 
 Podam ci przykład.
 
-Wyobraź sobie, że jesteś Żydem, synem żydowskich rodziców ze średniej klasy lub niższej średniej klasy -- jak w to określacie -- w kulturowym czasie wielkiego przewrotu: wielkiego lęku, zwątpienia, zmagania i konfliktu. Wyobraź sobie, że stoisz w kręgu, który mógłbyś nazwać -- jak mi się wydaje -- rynkiem, w starym mieście zwanym Jerozolimą. Wszędzie dookoła widzisz zamieszanie i nagle uświadamiasz sobie, że nic z tego nie ma znaczenia. Jedyne, co się liczy, to: czego chcę? Mogłem zdecydować, że chcę być odnoszącym sukcesy kupcem albo kimś, kto z powodzeniem wymienia pieniądze, jak wszyscy inni. Ale zamiast tego zdecydowałem, by z całym zapałem pomyśleć niemożliwą, nieprawdopodobną myśl, herezję, myśl heretycką: Jak by to było być wcielonym Chrystusem na środku tego placu? Skupiłem swą uwagę na prośbie o to, czego naprawdę chcę. I właśnie to wywołało zmianę.
+Wyobraź sobie, że jesteś Żydem, synem żydowskich rodziców ze średniej klasy lub niższej średniej klasy -- jak wy to określacie -- w kulturowym czasie wielkiego przewrotu: wielkiego lęku, zwątpienia, zmagania i konfliktu. Wyobraź sobie, że stoisz w kręgu, który mógłbyś nazwać -- jak mi się wydaje -- rynkiem, w starym mieście zwanym Jerozolimą. Wszędzie dookoła widzisz zamieszanie i nagle uświadamiasz sobie, że nic z tego nie ma znaczenia. Jedyne, co się liczy, to: czego chcę? Mogłem zdecydować, że chcę być odnoszącym sukcesy kupcem albo kimś, kto z powodzeniem wymienia pieniądze, jak wszyscy inni. Ale zamiast tego zdecydowałem, by z całym zapałem pomyśleć niemożliwą, nieprawdopodobną myśl, herezję, myśl heretycką: Jak by to było być wcielonym Chrystusem na środku tego placu? Skupiłem swą uwagę na prośbie o to, czego naprawdę chcę. I właśnie to wywołało zmianę.
 
 Czy zatem byłbyś chętny, by zacząć dyscyplinować umysł, by sprowadzić go ponownie do zadania sobie następującego pytania:
 
-*Czego naprawdę chcę? Jak by to było, gdybym teraz stał się tak oburzający w samym środku tego, o czym właśnie myślę jako o szalonej sytuacji, by wybrać bycie nieograniczonym i doskonałym pokojem?*
+> *Czego naprawdę chcę? Jak by to było, gdybym teraz stał się tak oburzający w samym środku tego, o czym właśnie myślę jako o szalonej sytuacji, by wybrać bycie nieograniczonym i doskonałym pokojem?*
 
 Każda tego typu myśl będzie odpowiednia, o ile będzie równie nieograniczona.
 
@@ -101,9 +108,11 @@ A więc zobaczymy, czy zdecydujesz się dobrze grać na flecie. Umiłowany przyj
 
 Nie zapomnij o perkusji!
 
-**Pytanie 3:** Jeszuo, jak to jest żyć w Chrystusowej wibracji w 3D?
+## Pytanie 3
 
-**Odpowiedź:** To dobra zabawa. Cud nad cudami! Jest to tak wzniosłe i wspaniałe, że nie ujmą tego żadne słowa. To jest bycie w świecie, ale nie ze świata. Oznacza to bycie przepełnionym mądrością, współczuciem, miłością, mocą i potencjałem, a równocześnie rozpoznanie tego, że jesteś dosłownie nikim. Sam z siebie nie czynię niczego. Wielu próbowało uczynić ze mnie swego boga. Ja jednak mówiłem im: nie patrzcie na mnie. Nie jestem sprawcą ani wykonawcą. Jestem świadkiem wielkiej tajemnicy, której pozwalam przeze mnie płynąć. I każdy tak zwany „cud" był cudem dla mnie. Niosło to w każdej chwili świeżość -- kroczyć stopą po ciepłej ziemi w południe i być w całkowitym zachwycie, że mogło pojawić się doświadczenie tego, że stawiając krok za krokiem, mogłem dotrzeć do studni, gdzie odbyłem z pewną kobietą rozmowę, która odmieniła jej życie; że Duch Święty mógł przeze mnie przemówić; że mogłem się zadziwić tym, jak w ogóle znalazłem się przy owej studni. Nie było to moim zamierzeniem. Moją intencją było jedynie być w stanie zachwytu, zadziwienia i przyzwolenia.
+***Pytanie*:** Jeszuo, jak to jest żyć w Chrystusowej wibracji w 3D?
+
+***Odpowiedź*:** To dobra zabawa. Cud nad cudami! Jest to tak wzniosłe i wspaniałe, że nie ujmą tego żadne słowa. To jest bycie w świecie, ale nie ze świata. Oznacza to bycie przepełnionym mądrością, współczuciem, miłością, mocą i potencjałem, a równocześnie rozpoznanie tego, że jesteś dosłownie nikim. Sam z siebie nie czynię niczego. Wielu próbowało uczynić ze mnie swego boga. Ja jednak mówiłem im: nie patrzcie na mnie. Nie jestem sprawcą ani wykonawcą. Jestem świadkiem wielkiej tajemnicy, której pozwalam przeze mnie płynąć. I każdy tak zwany „cud" był cudem dla mnie. Niosło to w każdej chwili świeżość -- kroczyć stopą po ciepłej ziemi w południe i być w całkowitym zachwycie, że mogło pojawić się doświadczenie tego, że stawiając krok za krokiem, mogłem dotrzeć do studni, gdzie odbyłem z pewną kobietą rozmowę, która odmieniła jej życie; że Duch Święty mógł przeze mnie przemówić; że mogłem się zadziwić tym, jak w ogóle znalazłem się przy owej studni. Nie było to moim zamierzeniem. Moją intencją było jedynie być w stanie zachwytu, zadziwienia i przyzwolenia.
 
 Bycie Chrystusem w trójwymiarze to wyjątkowe doświadczenie. Trwa ono jedynie przez mgnienie oka, czyli tyle, ile trwa ciało. Ale gdy ono trwa, mogę ci powiedzieć, że nic, co możesz sobie wyobrazić lub stworzyć, nic, nad czym jakikolwiek umysł kiedykolwiek się zastanawiał, nie może się równać wspaniałej pełni i spełnieniu, które biorą się z zadania pytania, które zadałeś. Na każde bowiem pytanie musi paść odpowiedź. I odpowiedź jest zawsze doświadczeniem dopełnienia się pytania. A więc nie przestawaj zadawać tego pytania.
 
@@ -125,13 +134,15 @@ To oznacza, że już przyjmujesz odpowiedź.
 
 Cud nad cudami!
 
-**Pytanie 4:** Pojawiło się pytanie na temat uczestnictwa w Shanti Christo i komentarz tyczył się tego, że nagrania mają być dostępne wyłącznie dla członków. I pytanie brzmi -- jak ono brzmi? Czy dla tych, którzy nie są w stanie przejawić środków, by obecnie ubiegać się o członkostwo, Shanti Christo zamierza odegrać tę rolę i dostarczyć im tych nagrań? Jak się na to zapatrujesz?
+## Pytanie 4
 
-**Odpowiedź:** Nie są w stanie przejawić środków?! Umiłowany przyjacielu, zadałeś to pytanie, ponieważ oddaje ono powszechne w ludzkiej świadomości zaprzeczanie prostej prawdzie wszystkiego, o czym mówiliśmy podczas tej godziny: nie ma takiego czasu, w którym jakakolwiek dusza byłaby ograniczona; wybiera ona do przejawiania i doświadczania dokładnie to, czego doświadcza.
+***Pytanie*:** Pojawiło się pytanie na temat uczestnictwa w Shanti Christo i komentarz tyczył się tego, że nagrania mają być dostępne wyłącznie dla członków. I pytanie brzmi -- jak ono brzmi? Czy dla tych, którzy nie są w stanie przejawić środków, by obecnie ubiegać się o członkostwo, Shanti Christo zamierza odegrać tę rolę i dostarczyć im tych nagrań? Jak się na to zapatrujesz?
+
+***Odpowiedź*:** Nie są w stanie przejawić środków?! Umiłowany przyjacielu, zadałeś to pytanie, ponieważ oddaje ono powszechne w ludzkiej świadomości zaprzeczanie prostej prawdzie wszystkiego, o czym mówiliśmy podczas tej godziny: nie ma takiego czasu, w którym jakakolwiek dusza byłaby ograniczona; wybiera ona do przejawiania i doświadczania dokładnie to, czego doświadcza.
 
 Nikt nie ma w portfelu dolarowego banknotu, jeśli nie zdecydował się na jego doświadczenie. Absolutnie nikt nie jest pozbawiony mocy przejawienia środków służących manifestacji, jeśli jest chętny, by wziąć odpowiedzialność za swe błędne wytwory. Uśmiechają się oni i mówią:
 
-*No cóż, stworzyłem to, a teraz mogę zacząć od nowa.*
+> *No cóż, stworzyłem to, a teraz mogę zacząć od nowa.*
 
 „Wyłączność" jest najbardziej interesującym słowem w waszym języku. Posłuchaj uważnie. Jeśli ktoś postrzega, że coś istnieje „na wyłączność", to dosłownie podejmuje decyzję, by umieścić siebie na zewnątrz tego, co postrzega jako coś będącego „na wyłączność". Nie chodzi tu o samą rzecz, czy to byłaby organizacja, grupa, związek. To nie one leżą u podstaw wyłączności. Postrzeganie wytwarza doświadczenie -- zawsze, zawsze, zawsze. I jeśli ktoś patrzyłby na cokolwiek i osądzał to jako coś będącego „na wyłączność", wtedy istnieje dla niego możliwość zatrzymania się i spojrzenia na to, jak w dosłownym znaczeniu stworzył on odczucie bycia wyłączonym. Czy ma to dla ciebie sens?
 

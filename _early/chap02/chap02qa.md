@@ -1,7 +1,12 @@
 ---
+title: "Pytania i odpowiedzi"
 ---
 
-Pytania i odpowiedzi
+<div markdown="1" class="chHead"> 
+## Pytania i odpowiedzi
+
+
+</div>
 
 **Pytanie:** Jeszuo, chciałbym byś odniósł się do dwóch zdań wziętych prosto z *Kursu Cudów*, które słyszę w swym umyśle, gdy poruszamy ten temat. Zdanie pierwsze: „Nigdy nie mów swemu bratu, że jest on taki, jakim ty nie chciałbyś być". A drugie zdanie to: „Słowa to jedynie symbole symboli, są przeto po dwakroć oddalone od rzeczywistości". Czy mógłbyś rozwinąć te dwie idee?
 
