@@ -1,76 +1,76 @@
 {
   "bid": "early",
-  "title": "The Early Years",
+  "title": "Miłość uzdrawia wszystko. Wczesne lata Drogi Mistrzostwa",
   "image": "/public/img/wom/early-toc.jpg",
   "toc": "relaxed ordered",
   "totalPages": 16,
   "contents": [
     {
-      "title": "Przedmowa",
+      "title": "Wstęp",
       "url": "/early/intr/"
     },
     {
-      "title": "Chapter 1",
+      "title": "Miłość uzdrawia wszystko",
       "url": "/early/chap01/"
     },
     {
-      "title": "Chapter 2",
+      "title": "Mistrzostwo komunikacji",
       "url": "/early/chap02/",
       "contents": [
         {
-          "title": "qa",
+          "title": "Pytania i odpowiedzi",
           "url": "/early/chap02/chap02qa/"
         }
       ]
     },
     {
-      "title": "Chapter 3",
+      "title": "Błogosławieństwo przebaczenia",
       "url": "/early/chap03/",
       "contents": [
         {
-          "title": "qa",
+          "title": "Pytania i odpowiedzi",
           "url": "/early/chap03/chap03qa/"
         }
       ]
     },
     {
-      "title": "Chapter 4",
+      "title": "Błogość niewiedzy",
       "url": "/early/chap04/"
     },
     {
-      "title": "Chapter 5",
+      "title": "Święta chwila",
       "url": "/early/chap05/"
     },
     {
-      "title": "Chapter 6",
+      "title": "Boska Kobiecość",
       "url": "/early/chap06/"
     },
     {
-      "title": "Chapter 7",
+      "title": "Znaczenie Wnieobwstąpienia",
       "url": "/early/chap07/"
     },
     {
-      "title": "Chapter 8",
+      "title": "Niebo na ziemi",
       "url": "/early/chap08/",
       "contents": [
         {
-          "title": "qa",
+          "title": "Pytania i odpowiedzi",
           "url": "/early/chap08/chap08qa/"
         }
       ]
     },
     {
-      "title": "Chapter 9",
+      "title": "Śmierć i zmiany na Ziemi",
       "url": "/early/chap09/",
       "contents": [
         {
-          "title": "qa",
+          "title": "Pytania i odpowiedzi",
           "url": "/early/chap09/chap09qa/"
         }
       ]
     },
     {
-      "title": "Chapter 10",
+      "title": "Chodź ze mną",
       "url": "/early/chap10/"
     },
     {
