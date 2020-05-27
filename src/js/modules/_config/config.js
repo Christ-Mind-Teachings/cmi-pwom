@@ -1,12 +1,13 @@
 import store from "store";
 import axios from "axios";
-import indexOf from "lodash/indexOf";
 import notify from "toastr";
 import {status} from "./status";
-
-//import {decodeKey, parseKey, genKey} from "./key";
 const transcript = require("./key");
 
+let config; //the current configuration, initially null, assigned by getConfig()
+
+// runtime environment; standalone or integration
+// set during initialization
 let env = {
   SID: 0,
   BID: 0,
@@ -18,38 +19,26 @@ let env = {
   configStore: "config."            //location of configuration files
 };
 
-//the current configuration, initially null, assigned by getConfig()
-let config;
-
 /*
-  The status constains the save date for each config file. We compare that to the saveDate
-  in the locally stored config file. If it's different or doesn't exist we need to get
-  a new version.
-
-  return: true - get a new version
-          false - use the one we've got
-*/
+ * The status contains the save date for each config file. We compare that to the saveDate
+ * in the locally stored config file. If it's different or doesn't exist we need to get
+ * a new version.
+ *
+ * return: true - get a new version
+ *         false - use the one we've got
+ */
 function refreshNeeded(cfg) {
   let saveDate = status[cfg.bid];
 
-  if (!cfg.saveDate) {
-    //console.log("%s needs to be refreshed", cfg.bid);
-    cfg.saveDate = saveDate;
-    return true; //refresh needed
-  }
-
-  if (cfg.saveDate === saveDate) {
-    //no refresh needed
+  if (cfg.saveDate && cfg.saveDate === saveDate) {
     return false;
   }
-  else {
-    //config file has changed, refresh needed
-    //console.log("%s needs to be refreshed", cfg.bid);
-    cfg.saveDate = saveDate;
-    return true;
-  }
+
+  cfg.saveDate = saveDate;
+  return true;
 }
 
+//get config file
 function requestConfiguration(url) {
   return axios.get(url);
 }
@@ -125,7 +114,7 @@ export function loadConfig(book) {
     let cfg = store.get(`${env.configStore}${book}`);
     let url;
 
-    //if config in local storage check if we need to get a freash copy
+    //if config in local storage check if we need to get a fresh copy
     if (cfg && !refreshNeeded(cfg)) {
       config = cfg;
       resolve("config read from cache");
