@@ -1,11 +1,18 @@
 ---
+title: "Pytania i odpowiedzi"
 ---
 
-**Pytania i odpowiedzi**
 
-**Pytanie 1:** Jeszuo, gdy teraz wchodzimy w ten ważny czas w roku [Boże Narodzenie -- przyp. tłum.], czy jest coś, co poleciłbyś nam rozważać w naszych sercach?
+# Błogosławieństwo przebaczenia
 
-**Odpowiedź:** Prośba o wygraną w totka byłaby niezłym pomysłem.
+## Pytania i odpowiedzi
+
+
+## Pytanie 1
+
+***Pytanie***: Jeszuo, gdy teraz wchodzimy w ten ważny czas w roku [Boże Narodzenie -- przyp. tłum.], czy jest coś, co poleciłbyś nam rozważać w naszych sercach?
+
+***Odpowiedź:*** Prośba o wygraną w totka byłaby niezłym pomysłem.
 
 Umiłowany przyjacielu, zadałeś pytanie przepełnione beztroską, tak więc odpowiedziałem na owo pytanie beztrosko.
 
@@ -39,9 +46,11 @@ Istnieją dwie formy, w jakich przejawia się ruchliwość. Jedna opiera się na
 
 Wydaje mi się, że dobrze poradziliśmy sobie z tym pytaniem. Czy są jeszcze jakieś pytania?
 
-**Pytanie 2:** W odniesieniu do ziemi, którą nazywamy Shanti Christo -- wielu przyjaciół przybywa do tego miejsca, by brać udział w tym, co się tam dzieje, i wielu z nas ma w swym sercu pragnienie, by żyć bliżej siebie, dzielić się naszym procesem wzrastania, miłością do siebie nawzajem, zrozumieniem twych nauk i tym podobne. Wydaje się, że w ludziach, którzy szybko pragnęliby zamieszkać bliżej siebie, tkwi wiele pytań bez odpowiedzi i pragnień. Czy mógłbyś się do tego odnieść?
+## Pytanie 2
 
-**Odpowiedź:** Umiłowany przyjacielu, pytania bez odpowiedzi zawsze są formą zwątpienia. Pytania bez odpowiedzi odzwierciedlają jakość umysłu zrodzoną nie w Bogu, ale w świecie. To próba żywienia nadziei, iż ktoś inny stworzy energie konieczne, by w trójwymiarze pozwolić ci (niekoniecznie odnoszę się tu do „ciebie", ale do was ogólnie) zyskać to, czego myślisz, że potrzebujesz, większą bliskość innych ciał w przestrzeni, podczas gdy nadal jest się w zaprzeczeniu potrzebie wzięcia na siebie odpowiedzialności, by do tego doprowadzić. Zatem zrozum dobrze, że jest wielu, którzy są wezwani, a niektórzy -- jak się wydaje -- odpowiedzieli na to wezwanie troszkę wcześniej niż inni.
+***Pytanie*:** W odniesieniu do ziemi, którą nazywamy Shanti Christo -- wielu przyjaciół przybywa do tego miejsca, by brać udział w tym, co się tam dzieje, i wielu z nas ma w swym sercu pragnienie, by żyć bliżej siebie, dzielić się naszym procesem wzrastania, miłością do siebie nawzajem, zrozumieniem twych nauk i tym podobne. Wydaje się, że w ludziach, którzy szybko pragnęliby zamieszkać bliżej siebie, tkwi wiele pytań bez odpowiedzi i pragnień. Czy mógłbyś się do tego odnieść?
+
+***Odpowiedź*:** Umiłowany przyjacielu, pytania bez odpowiedzi zawsze są formą zwątpienia. Pytania bez odpowiedzi odzwierciedlają jakość umysłu zrodzoną nie w Bogu, ale w świecie. To próba żywienia nadziei, iż ktoś inny stworzy energie konieczne, by w trójwymiarze pozwolić ci (niekoniecznie odnoszę się tu do „ciebie", ale do was ogólnie) zyskać to, czego myślisz, że potrzebujesz, większą bliskość innych ciał w przestrzeni, podczas gdy nadal jest się w zaprzeczeniu potrzebie wzięcia na siebie odpowiedzialności, by do tego doprowadzić. Zatem zrozum dobrze, że jest wielu, którzy są wezwani, a niektórzy -- jak się wydaje -- odpowiedzieli na to wezwanie troszkę wcześniej niż inni.
 
 Wezwanie do Shanti Christo jest wezwaniem do przebudzenia wpierw z każdej przeszkody na drodze obecności Mocy, Miłości i Światła wewnątrz danej istoty. To wezwanie, by już dłużej nie tolerować w swej świadomości niczego, co stwarza bariery dla przejawienia wizji, która wydaje się ciebie wzywać i chęci, by przyjąć całkowitą odpowiedzialność za bycie tym, kto to przejawia.
 
@@ -57,9 +66,11 @@ Zatem tam, gdzie przejawia się niecierpliwość lub pytania bez odpowiedzi, pom
 
 To było całkiem niezłe pytanie. I ponownie -- musimy zastanowić się nad jego źródłem.
 
-**Pytanie 3:** Jeszuo, przypomniano mi o naszej rozmowie sprzed kilku miesięcy na temat współtworzących Chrystusów i zastanawiam się, czy dzisiejszego wieczoru w jakiś sposób mógłbyś pogłębić ten temat?
+## Pytanie 3
 
-**Odpowiedź:** Tak, po prostu się tym zajmij.
+***Pytanie*:** Jeszuo, przypomniano mi o naszej rozmowie sprzed kilku miesięcy na temat współtworzących Chrystusów i zastanawiam się, czy dzisiejszego wieczoru w jakiś sposób mógłbyś pogłębić ten temat?
+
+***Odpowiedź*:** Tak, po prostu się tym zajmij.
 
 -- Mógłbyś to wyjaśnić szerzej?
 
@@ -69,15 +80,17 @@ Nie. Wszystko, czego potrzebujesz, jest ci dane dokładnie tu, dokładnie teraz.
 
 Jestem tylko tobą.
 
-**Pytanie 4:** Tak, ja mam pytanie. Nie jestem pewien... No dobrze, zadam je.
+## Pytanie 4
 
-**Odpowiedź:** Ten człowiek zwykł brać mnie na bok i zadawać pytania na osobności.
+***Pytanie*:** Tak, ja mam pytanie. Nie jestem pewien... No dobrze, zadam je.
+
+***Odpowiedź*:** Ten człowiek zwykł brać mnie na bok i zadawać pytania na osobności.
 
 -- No dobrze, chcę zadać pytanie o grudzień 2012 roku. No i wysłuchałem już wszystkich poprzednich pytań, a potem zdecydowałem, że po co w ogóle zadawać jakiekolwiek pytania? Odpowiedź już została dana.
 
 Jeszua:A więc jak brzmi odpowiedź?
 
--- Więc nadal ciekawi mnie to, że „nie ma niczego wyjątkowego". Rozumiem to, a jednak mój umysł myśli, że istnieje ten wymiar, w którym działamy i wiele innych wymiarów, a energia przepływa falami...
+-- Więc nadal ciekawi mnie to, że „nie ma niczego wyjątkowego". Rozumiem to, a jednak mój umysł myśli, że istnieje ten wymiar, w którym działamy i wiele innych wymiarów, a energia przepływa falami&hellip;
 
 Jeszua: Skąd?
 
@@ -97,7 +110,7 @@ A więc oto kolejne pytanie zadane w odpowiednim momencie. Jak się zatem wszysc
 
 Teraz rozpoczną się owe, jak je nazywacie, zgromadzenia rodziny -- i będą one rosły. I pamiętaj -- z cierpliwością, bez zwątpienia, w zaufaniu i przyzwoleniu, aby rozwinęło się to w doskonały sposób. A jeśli myślisz, że nie rozwija się to w doskonały sposób, nie szukaj na zewnątrz siebie -- powróć do pytania:
 
-*Czy dziś kochałem siebie? Ile razy wyraziłem przebaczenie światu? Czy -- przepraszam za moje słownictwo -- posprzątałem po swoim przedstawieniu?*
+> *Czy dziś kochałem siebie? Ile razy wyraziłem przebaczenie światu? Czy -- przepraszam za moje słownictwo -- posprzątałem po swoim przedstawieniu?*
 
 Ponieważ pamiętaj, że świat nie jest niczym więcej niż wielkim przedstawieniem.
 

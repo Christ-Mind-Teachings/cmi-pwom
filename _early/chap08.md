@@ -1,7 +1,12 @@
 ---
+title: "Niebo na Ziemi"
 ---
 
-**Niebo na Ziemi**
+# Niebo na ziemi
+
+![znaczek]({{page.big-separator}})
+{: .omit}
+
 
 Teraz zaczynamy.
 
@@ -9,7 +14,7 @@ I zaprawdę ponownie witam was, umiłowani i święci przyjaciele. Prawdę mówi
 
 Zatem zawsze mądrze jest spojrzeć w jasności i szczerości na naturę twego doświadczenia w każdej chwili. Czego tak naprawdę jesteś świadomy *teraz*? Jakim myślom pozwalasz przepływać przez swój umysł? Jakie uczucia wytwarzają owe myśli w ramach pola energii, które nazywasz ciałem?
 
-Czemu jest to ważne? Dotarcie do miejsca, w którym jestem ja, wymaga całkowitego przekroczenia fizycznego planu lub doświadczenia -- lecz *nie ucieczki*, gdyż przekroczenie owo nie opiera się na ucieczce. Przekroczenie czegokolwiek może opierać się *jedynie *na tego *objęciu*. Jak bowiem możesz przekroczyć coś, czego nie chcesz uznać jako części swego doświadczenia? Zatem owo serce i umysł, które są chętne, by w każdej pojedynczej chwili używać swego doświadczenia w którymkolwiek ze światów lub wymiarów, w których istnieją, zaprawdę dotrą tam, gdzie ja jestem: do końca tego, co zwiesz ewolucją -- tam, gdzie kończy się *wszelkie* poszukiwanie; tam, gdzie kończy się *potrzeba* doświadczenia; tam, gdzie nie ma ani jednego pytania, ani jednego zwątpienia.
+Czemu jest to ważne? Dotarcie do miejsca, w którym jestem ja, wymaga całkowitego przekroczenia fizycznego planu lub doświadczenia -- lecz *nie ucieczki*, gdyż przekroczenie owo nie opiera się na ucieczce. Przekroczenie czegokolwiek może opierać się *jedynie* na tego *objęciu*. Jak bowiem możesz przekroczyć coś, czego nie chcesz uznać jako części swego doświadczenia? Zatem owo serce i umysł, które są chętne, by w każdej pojedynczej chwili używać swego doświadczenia w którymkolwiek ze światów lub wymiarów, w których istnieją, zaprawdę dotrą tam, gdzie ja jestem: do końca tego, co zwiesz ewolucją -- tam, gdzie kończy się *wszelkie* poszukiwanie; tam, gdzie kończy się *potrzeba* doświadczenia; tam, gdzie nie ma ani jednego pytania, ani jednego zwątpienia.
 
 Wyobraź sobie stan przebywania w tak doskonałej czujności, że umysł nawet nie bierze pod uwagę *myśli* o pragnieniu fizycznej formy, przez którą miałby przejawiać ograniczoną sferę doświadczenia. Stan istnienia, w którym poprzez zwyczajne przekierowanie swej uwagi, swej świadomości możesz w mgnieniu oka, a nawet szybciej, znaleźć się, gdziekolwiek chcesz. Poprzez samo przekierowanie swej świadomości możesz znaleźć się w jakichkolwiek ramach czasowych fizycznego świata: możesz obserwować go, wchodzić z nim w interakcje, przynosić do niego swoją mądrość. Możesz zwracać swą świadomość ku wymiarowi i ramom czasowym pozornie oddalonym od miejsca, w którym jesteś na Ziemi, a wszystko to w mgnieniu oka.
 
@@ -17,17 +22,17 @@ To wszystko to twój potencjał. To wszystko zostało w tobie umieszczone w chwi
 
 Ja postanowiłem spoglądać na was ze świadomością, że jesteście mymi braćmi i siostrami. Postanowiłem nauczyć się patrzeć tak, by widzieć w was *jedynie* Światło Chrystusa. Owo Światło, które lśni i promienieje poza wszelkimi ograniczeniami, to to samo Światło, do którego mówię, to samo Światło, do którego przychodzę, to samo Światło, z którym się łączę -- nie tylko w komunikacji tego rodzaju, ale poprzez twe sny i w przestrzeni pomiędzy myślami, które postanawiasz myśleć.
 
-Jeśli tak jest, to musi to oznaczać, że to, czego szukasz, już jest w tobie. I że być może ścieżka transcendencji nie opiera się na *wysiłku *i *zmaganiu się*, ale na *zadziwianiu się*. Być może opiera się ona na spoglądaniu na wszystko, co widzisz, i przyjęciu faktu, że nie masz pojęcia, czym to jest, jak to powstało, skąd przybyło, cóż mogłoby oznaczać lub dokąd zmierza. Być może ścieżka przebudzenia wymaga -- po całym tym szukaniu i wszystkich próbach nauczenia się magicznych formuł przyciągnięcia do siebie oświecenia -- być może ona naprawdę opiera się na rozpoznaniu stanu pokory, kiedy to w końcu uznajesz, że donikąd się nie udałeś i nie dokonałeś żadnego postępu. O tak, przywołałeś do siebie wiele doświadczeń, wzniosłych i pospolitych, a jednak żadne z nich nie wystarczyło, by pomóc ci wznieść się ponad twój przeciętny czy też zwykły, czy też stały stan bycia. Bez względu na to, jak wspaniały jest seks, bez względu na to, jak smaczne jest jedzenie, bez względu na to, jak wyśmienite są stany świadomości w medytacji, zawsze powracasz do stanów istnienia aż do bólu znajomych.
+Jeśli tak jest, to musi to oznaczać, że to, czego szukasz, już jest w tobie. I że być może ścieżka transcendencji nie opiera się na *wysiłku* i *zmaganiu się*, ale na *zadziwianiu się*. Być może opiera się ona na spoglądaniu na wszystko, co widzisz, i przyjęciu faktu, że nie masz pojęcia, czym to jest, jak to powstało, skąd przybyło, cóż mogłoby oznaczać lub dokąd zmierza. Być może ścieżka przebudzenia wymaga -- po całym tym szukaniu i wszystkich próbach nauczenia się magicznych formuł przyciągnięcia do siebie oświecenia -- być może ona naprawdę opiera się na rozpoznaniu stanu pokory, kiedy to w końcu uznajesz, że donikąd się nie udałeś i nie dokonałeś żadnego postępu. O tak, przywołałeś do siebie wiele doświadczeń, wzniosłych i pospolitych, a jednak żadne z nich nie wystarczyło, by pomóc ci wznieść się ponad twój przeciętny czy też zwykły, czy też stały stan bycia. Bez względu na to, jak wspaniały jest seks, bez względu na to, jak smaczne jest jedzenie, bez względu na to, jak wyśmienite są stany świadomości w medytacji, zawsze powracasz do stanów istnienia aż do bólu znajomych.
 
 Co zatem jest tu kluczem? Ów klucz zawiera się jedynie w tym: zacząć na samym końcu. Wpierw uznać:
 
-*W rzeczywistości nigdy się nie zmieniłem. W rzeczywistości jestem taki, jakim stworzył mnie Bóg. W rzeczywistości już spróbowałem wszelkich doświadczeń i nie ma nic nowego pod Niebem mej świadomości. Teraz jestem doskonały i uzdrowiony.*
+> *W rzeczywistości nigdy się nie zmieniłem. W rzeczywistości jestem taki, jakim stworzył mnie Bóg. W rzeczywistości już spróbowałem wszelkich doświadczeń i nie ma nic nowego pod Niebem mej świadomości. Teraz jestem doskonały i uzdrowiony.*
 
 Począwszy od dokonania tego wyboru, możesz zacząć przyjmować, że bez względu na to, co myślisz, że *widzisz*, i czego myślisz, że *doświadczasz*, istnieje w tobie głębia mądrości, która może przynieść oświecenie z wyższej jaźni, z duszy, aż do poziomów osobowości i ku komórkowym strukturom ciała, jeśli takie jest twoje prawdziwe pragnienie.
 
 Zatem prawdziwa droga do domu, moi drodzy, drodzy przyjaciele, opiera się na gotowości, by wycofać wartość, którą nadaliście wszystkim postrzeżeniom, które *wy sami* stworzyliście; na gotowości, by stanąć z pustymi rękoma; na spojrzeniu na przedmiot, osobę, wydarzenie, uczucie i rozpoczęciu od myśli:
 
-*Jestem uzdrowiony i doskonały, i przynoszę światło mej nieskończonej świadomości, by oświetliło owo tajemnicze zjawisko, które wyłoniło się przede mną.*
+> *Jestem uzdrowiony i doskonały, i przynoszę światło mej nieskończonej świadomości, by oświetliło owo tajemnicze zjawisko, które wyłoniło się przede mną.*
 
 -- lub też „we mnie", jeśli ciało określasz jako coś, co jest w tobie: ono również w pewnym sensie jest na zewnątrz ciebie... I na uznaniu, że patrzysz na Tajemnicę i nie możesz opierać się na swych własnych ideach, by cokolwiek pojąć. *Właśnie to* jest początkiem mądrości.
 
@@ -51,7 +56,7 @@ Dla twojego świata zdaje się to szaleństwem, ponieważ twój świat jest szal
 
 I niektórzy z was -- nawet teraz, gdy słuchacie tych słów -- myślą sobie:
 
-*No cóż, to może być prawdą dla kogoś innego, kto jest trochę silniejszy, ale widzisz, moja sytuacja wygląda tak a tak... Ja mam w portfelu tylko dwadzieścia złotych!*
+> *No cóż, to może być prawdą dla kogoś innego, kto jest trochę silniejszy, ale widzisz, moja sytuacja wygląda tak a tak... Ja mam w portfelu tylko dwadzieścia złotych!*
 
 Spójrz na te dwadzieścia złotych z *zadziwieniem*. Skąd u licha one się wzięły? Pojawiły się w twym życiu i w twym portfelu, ponieważ zdecydowałeś, by je tam umieścić. I równie łatwo możesz umieścić tam milion złotych monet, jeśli to jest to, czego chcesz doświadczyć. Nie poszerza cię ani nie ogranicza nic prócz twych własnych myśli. Nikt nie może stwarzać *za ciebie*. Nikt nie może dać ci odpowiedzi, których szukasz -- ty sam jesteś odpowiedzią na swe poszukiwania. Po prostu wytrenowałeś się w wierze, że jesteś czymś mniejszym niż jesteś. Wytrenowałeś się, by wierzyć, że teraz, w tej chwili, gdy sięgasz palcem, by podrapać się po policzku, lub gdy słyszysz odgłos szczekającego za oknem psa, lub gdy widzisz przebłysk słońca znikającego za górami na zachodzie -- i przy okazji, dla niektórych z was: jeśli przydarzy się wam być uważnym i ujrzeć pasmo światła powstające na niebie na wschodzie, gdyż niektórzy z was będą tego słuchali wczesnym rankiem -- jeśli wierzysz, że jesteś jakąś normalną osobą, próbującą sobie to wszystko wykombinować, *zatrzymaj się tu, gdzie jesteś*. Spójrz na to, co widzisz, i naprawdę to zobacz. Nie wiesz, czym jest jakakolwiek rzecz. To Tajemnica, a jednak sprowadziłeś ją do formy, nawet jeśli to nic więcej niż stojący przed tobą stół.
 
@@ -71,7 +76,7 @@ A oto i paradoks: nie możesz czekać aż to się wydarzy, ponieważ wydarzy si�
 
 Czy ma to dla ciebie sens? Czy możesz stać się niewinnym dzieckiem, które wpierw śmie śnić niewyobrażalny sen, sen o Niebie na Ziemi? Dla ludzkości wydaje się to tak oburzające. Czy zdobędziesz się na odwagę, by pozwolić sobie wpuścić do swej świadomości światło przesączające się przez pęknięcie w ścianie, przez fortecę, którą zbudowałeś przeciw Królestwu Niebieskiemu, czy wpuścisz myśl:
 
-*Ja i mój Ojciec Jedno jesteśmy. Jestem wcielonym Chrystusem. Co wy na to?!*
+> *Ja i mój Ojciec Jedno jesteśmy. Jestem wcielonym Chrystusem. Co wy na to?!*
 
 Właśnie tutaj, mając na sobie buty Nike'a, dżinsy Levisa, a na głowie -- jak to nazywacie? -- czapkę bejsbolówkę, jesteś wcieleniem Chrystusa, próbującym udawać, że jesteś człowiekiem, by być w związku z wieloma śpiącymi umysłami. Czy odważysz się zatem pomyśleć o czymś oburzającym i nieprawdopodobnym? Czy odważysz się kontemplować i z zadziwieniem przyzwolić na to, że istnieje tajemnicze coś, które może wywołać twoje najwspanialsze kreatywne myśli, o ile są one w harmonii z tym, jak myśli Bóg? A Bóg myśli jedynie w kategoriach bezwysiłkowości, radości, nieograniczoności, szerzenia -- i Miłości. Miłości. Miłości!
 
@@ -79,11 +84,11 @@ Czy wiesz, co udaremniało twe wysiłki, by być twórcą twego świata? Lęk. A
 
 Miłość. Co by oznaczało dla ciebie szczere pytanie siebie przez cały czas w ciągu dnia:
 
-*Czy ta czynność, którą wykonuję; czy ta myśl, którą myślę, osadzona jest w mym pragnieniu, by szerzyć i nauczać jedynie Miłości?*
+> *Czy ta czynność, którą wykonuję; czy ta myśl, którą myślę, osadzona jest w mym pragnieniu, by szerzyć i nauczać jedynie Miłości?*
 
 Wielu z was przestraszy się, odkrywszy, że 98 procent tego, co robicie, nie jest w ogóle oparte na miłości, ale na lęku. Zatem -- jeśli tak jest i z tobą -- naucz się obejmować lęk sam w sobie. Spytaj się go:
 
-*Skąd się wziąłeś? Czego tak naprawdę się boję? Czy mogę odczuć to uczucie? Czy mogę objąć tę myśl? Czy mogę objąć całą tę ideę, to postrzeganie, które powoduje, że wybieram działania wynikające z pragnienia, by przetrwać, z pragnienia, by kontrolować drugiego, z pragnienia, by udowodnić sobie, że jestem niegodny nieograniczoności?*
+> *Skąd się wziąłeś? Czego tak naprawdę się boję? Czy mogę odczuć to uczucie? Czy mogę objąć tę myśl? Czy mogę objąć całą tę ideę, to postrzeganie, które powoduje, że wybieram działania wynikające z pragnienia, by przetrwać, z pragnienia, by kontrolować drugiego, z pragnienia, by udowodnić sobie, że jestem niegodny nieograniczoności?*
 
 Miłość. Myśleć jedynie w oparciu o Miłość to powrócić na swe prawowite miejsce, w którym Stworzenie płynie poprzez ciebie jako narzędzie przejawienia. A jednak to, co płynie poprzez ciebie, już dłużej nie jest twoje. Ty jedynie się tym cieszysz jako świadek wielkiej Tajemnicy. Jesteś wolny. Jesteś przebudzony. Jesteś w pokoju. Jesteś w domu. Jesteś Chrystusem.
 
@@ -91,7 +96,7 @@ Wyobraź sobie życie, w którym wszystkie twoje stworzenia byłyby całkowicie 
 
 Widzisz więc, nigdy nie było takiej rzeczy, która *powodowałaby* twój lęk. Lęk sam w sobie może powstać jedynie jako stworzenie, które wybrałeś w nieskończonym, wszechmocnym Umyśle, którym jesteś. Jeśli mógłbyś zajrzeć, co się dzieje w tyle twego umysłu za każdym razem, gdy jakieś wydarzenie lub cokolwiek wydaje się mieć miejsce, a ty zaczynasz czuć lęk, to jeśli mógłbyś cofnąć się o krok i spojrzeć za kurtynę owego przedstawienia, odkryłbyś jak sam mówisz:
 
-*Z głębi Chrystusa, którym jestem, decyduję się teraz stworzyć przerażający świat i doświadczenie lęku oraz wszystkiego, co się z nim wiąże -- i właśnie teraz wchodzę w to stworzenie!*
+> *Z głębi Chrystusa, którym jestem, decyduję się teraz stworzyć przerażający świat i doświadczenie lęku oraz wszystkiego, co się z nim wiąże -- i właśnie teraz wchodzę w to stworzenie!*
 
 I oto jest -- twoje doświadczenie, które wydaje się powodować twój konflikt. To pozbawia cię raczej wszystkich wymówek. I odbiera ci winę. Albowiem nawet twe najbardziej przepełnione lękiem stworzenia można objąć z doskonałą niewinnością. Dlaczego? Słuchaj uważnie: wszystko, co widzisz w świecie początków i końców, jest złudzeniem. Możesz to nazwać chwilową, tymczasową modyfikacją płynącej przez ciebie kreatywnej energii. Tak ją po prostu na chwilę wyrzeźbiłeś. Ale pomyśl o tym: czy kiedykolwiek usiłowałeś stwarzać bez miłości?
 
@@ -99,11 +104,11 @@ I tak oto dochodzimy do sedna dzisiejszego spotkania; stanie się ono cegiełką
 
 Do egotycznej świadomości wkradła się maleńka, szalona idea.
 
-*Jak by to było mieć Niebo na Ziemi? To szalone, nie mogę myśleć tej myśli!*
+> *Jak by to było mieć Niebo na Ziemi? To szalone, nie mogę myśleć tej myśli!*
 
 Kolejnego dnia zaś:
 
-*Jak by to było, gdyby wszystkie wody stały się czyste, a wszystkie dzieci były najedzone i kochane?*
+> *Jak by to było, gdyby wszystkie wody stały się czyste, a wszystkie dzieci były najedzone i kochane?*
 
 Wy wszyscy, każdy z was, kto teraz słucha tych słów -- każdy z was jest jakimś bytem, duszą, istotą -- nazwij to jakkolwiek chcesz -- skupieniem nieograniczonego kreatywnego potencjału, iskrą Boskiego Światła. To właśnie ty już pozwoliłeś, by takie myśli zaczęły przesączać się do twej świadomości. I wówczas pierwsza rzecz, która się tworzy, to polaryzacja, ponieważ gdy Światło zaczyna wnikać w umysł, a następnie w dół do osobowości i ciała, to jest całkiem tak, jakby włączyć światło -- pierwsze, co widzisz, to wszystkie te rzeczy w twej świadomości, które *niepodobne* są do myśli o Niebie na Ziemi; które niepodobne są do myśli o byciu obecnością Chrystusa; które niepodobne są do myśli „Ja i mój Ojciec Jedno jesteśmy".
 
@@ -111,7 +116,7 @@ I czasami wydaje się, że to nie jest za ładny widok. A jednak jest to koniecz
 
 Oto dlaczego kiedyś powiedziałem, że nie jest konieczne, by szukać Miłości. Konieczne jest jedynie, by szukać wszystkich sposobów, za pomocą których zablokowałeś Miłość przed byciem twą jedyną rzeczywistością. *Oto* twój cel, oto dar czasu -- zapytać:
 
-*Jak w tej chwili używam nieskończonej mocy mego istnienia, by stwarzać coś, co jest mniejsze od Miłości, coś mniejszego od tego, czego naprawdę pragnę?*
+> *Jak w tej chwili używam nieskończonej mocy mego istnienia, by stwarzać coś, co jest mniejsze od Miłości, coś mniejszego od tego, czego naprawdę pragnę?*
 
 To nagranie zatem jest pierwszym z serii tych, które przychodzi do was poprzez to narzędzie, za pośrednictwem tego połączenia, w którym wielu z nas -- tych, których nazwałbyś nauczycielami, przyjaciółmi, mistrzami -- przyjdzie, by nauczyć was jak działa świadomość i jak zacząć ponownie dyscyplinować i skupiać umysł do tego stopnia, żeby stał się on niczym laser, który nie widzi niczego poza Miłością.
 
@@ -123,18 +128,14 @@ Właśnie rozmawialiśmy o tym, że gdy w twym umyśle pojawia się pytanie, poj
 
 Pytanie -- gdy już się pojawi -- jest impulsem energii, który przychodzi do świadomości, a jego celem jest pomóc ci wyjść poza stan zaciśnięcia. Gdy ów impuls wkracza do świadomości, do umysłu, pytanie to nie zostawi cię, póki nie pozwolisz na uświadomienie sobie odpowiedzi i zintegrowanie jej w swym istnieniu. I w tej samej chwili umiera stare „ja", a ty już nigdy do niego nie wrócisz. Dlaczego więc nie zadawać pytań takich, jak:
 
-*Jak mogę być obecnością Chrystusa?*
+> *Jak mogę być obecnością Chrystusa?*<br>*Czy jest możliwe, bym przejawiał cuda?*<br>*Czy w każdych okolicznościach mogę wybrać pokój?*
 
-*Czy jest możliwe, bym przejawiał cuda?*
+Zapewniam cię, że poprzez zadawanie tego rodzaju pytań dosłownie zaczynasz zmieniać kierunek stwarzania swego doświadczenia, *dzięki czemu* możesz odkryć odpowiedź. Zatem jeśli pragniesz sprowadzić Niebo na Ziemię, to zamiast spoglądać na świat takim, jakim myślisz, że on jest, i mówić:
 
-*Czy w każdych okolicznościach mogę wybrać pokój?*
-
-Zapewniam cię, że poprzez zadawanie tego rodzaju pytań dosłownie zaczynasz zmieniać kierunek stwarzania swego doświadczenia, *dzięki czemu *możesz odkryć odpowiedź. Zatem jeśli pragniesz sprowadzić Niebo na Ziemię, to zamiast spoglądać na świat takim, jakim myślisz, że on jest, i mówić:
-
-*O mój Boże, jakie wielkie przede mną zadanie!*
+> *O mój Boże, jakie wielkie przede mną zadanie!*
 
 czemu by po prostu nie zapytać:
 
-*Jak w tej chwili Niebo może przyjść na Ziemię za moim pośrednictwem?*
+> *Jak w tej chwili Niebo może przyjść na Ziemię za moim pośrednictwem?*
 
 Odpowiedź nie pozostanie przed tobą ukryta.

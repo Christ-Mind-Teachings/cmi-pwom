@@ -1,13 +1,19 @@
 ---
+title: "Pytania i odpowiedzi"
 ---
 
-Pytania i odpowiedzi
 
-**Pytanie 1**
+
+# Śmierć i zmiany na Ziemi
+
+## Pytania i odpowiedzi
+
+
+## Pytanie 1
 
 Tego wieczoru chcemy odnieść się konkretnie do pewnych pytań, które powstały, gdyż ich celem jest pomóc w szerzeniu i rozjaśnieniu prostego przesłania na temat tych ram czasowych, na temat pewnych zmian, na temat pewnych rzeczy, które teraz dzieją się na tej planecie, w tym zmian zachodzących na poziomie waszych rządów, w miarę jak ów Armageddon gotuje się do osiągnięcia punktu kulminacyjnego, kiedy to wszystkim duszom zada się pytanie:
 
-*Czy masz zamiar przyłączyć się do tańca, czy też będziesz musiał opuścić to sąsiedztwo?*
+> *Czy masz zamiar przyłączyć się do tańca, czy też będziesz musiał opuścić to sąsiedztwo?*
 
 To nie jest osąd, a propozycja skierowana jest do każdej duszy. Używaj czasu konstruktywnie, możesz uzdrowić swoje serce, możesz praktykować przebaczenie, możesz przebudzić się jako Chrystus. Będziesz musiał to uczynić, ponieważ planeta czyni dokładnie to samo -- i jeśli za nią nie podążysz, nie będziesz w stanie poradzić sobie z jej światłem i częstotliwością, i będziesz musiał przenieść się do innego sąsiedztwa. To wszystko. Bez osądu, bez lęku, bez żadnego śmiertelnego ciosu od Boga -- to zwyczajna, prosta prośba. Możesz przebudzić się teraz, albo gdzieś indziej, później. Już dużo za wiele było tych „poźniej".
 
@@ -17,9 +23,9 @@ Tak więc wydaje nam się, że masz jakieś pytania.
 
 To tylko taki prosty błąd, który popełniamy od czasu do czasu.
 
-**Pytanie:** Wydaje się, że występuje teraz polaryzacja pomiędzy ludźmi, którzy odpowiadają na wezwanie i tymi, którzy pozostają w lęku. I to wygląda jak wojny, walka i tarcia na tle rasowym. Czy to jest częścią tego procesu?
+***Pytanie*:** Wydaje się, że występuje teraz polaryzacja pomiędzy ludźmi, którzy odpowiadają na wezwanie i tymi, którzy pozostają w lęku. I to wygląda jak wojny, walka i tarcia na tle rasowym. Czy to jest częścią tego procesu?
 
-**Odpowiedź: **Nie, te wszystkie rzeczy wywołane są czymś, co umieszczono w wodzie. [śmiech słuchaczy]
+***Odpowiedź*: **Nie, te wszystkie rzeczy wywołane są czymś, co umieszczono w wodzie. [śmiech słuchaczy]
 
 -- Cieszę się, że nie straciłeś poczucia humoru.
 
@@ -29,49 +35,57 @@ Umiłowany przyjacielu, słyszałeś, jak powiedziano, że gdy słyszysz o wojna
 
 Ta wibracja jest niczym wrzucony do stawu kamyk, który zaczyna wzbudzać fale. To dzieje się już od jakiegoś czasu i zaczyna przyspieszać, zaczyna wibrować ciut mocniej, jak woda, która zaczyna wrzeć. Czujesz, że to się dzieje, choć jeszcze nie widzisz unoszących się bąbelków. *Wiesz*, że w energii wody coś się zmienia. I gdy to się dzieje, to dosłownie faluje to we wnętrzu każdej duszy. Dlaczego? Ponieważ oddzielenie nie istnieje. I jeśli Bóg sobie myśli:
 
-*No dobra, czas dać dziecku małego szturchańca. Pozwoliłem, by spało zbyt długo. Zobaczmy, czy usłyszy mój głos przez sen...*
+> *No dobra, czas dać dziecku małego szturchańca. Pozwoliłem, by spało zbyt długo. Zobaczmy, czy usłyszy mój głos przez sen...*
 
 to ta fala musi przejść przez każdą stworzoną duszę. A gdy to się dzieje, porusza to wszystkie stare lęki, wszystkie stare wzorce, wszystkie stare nawyki i duszy zadaje się pytanie:
 
-*Czy jesteś gotowa na oczyszczenie?*
+> *Czy jesteś gotowa na oczyszczenie?*
 
 -- co oznacza po prostu dokonanie innego wyboru. Nie chodzi tu o... nie jest tu wymagane leżenie na łożu z gwoździ. To proste rozpoznanie, że pojawia się coś, co już dłużej nie jest odczuwane jako tak komfortowe, jakim było niegdyś. Czy jesteś chętny, by to puścić i przyzwolić na krótki okres dezorientacji, póki rzeczywistość się w tobie nie ugruntuje? Póki to, co myślałeś, że nigdy nie mogłoby się wydarzyć, nie stanie się twoją normą, a ty będziesz kroczył po świecie jako przebudzony.
 
-Lęki wielu ludzi ulegają nasileniu. Dlaczego? Ponieważ są oni oddani lękowi. Wierzą w lęk, to lęk zapewnia im poczucie bezpieczeństwa. Wiem, że brzmi to dziwnie, ale to bardzo prawdziwe. Tak długo, jak mogę spoglądać na bliźniego i widzieć go jako kogoś złego, wiem, kogo trzeba atakować. I wszystko, co mi pozostaje, to wykombinować, jak zaatakować ciebie zanim ty zaatakujesz mnie. To bardzo proste. I jeśli wygram, zabieram wszystkie kulki. Ale w ataku nikt *nie może *być wygranym. Gdy bowiem atakujący atakuje, *jest *on atakowany przez ciężar negatywności swego własnego lęku.
+Lęki wielu ludzi ulegają nasileniu. Dlaczego? Ponieważ są oni oddani lękowi. Wierzą w lęk, to lęk zapewnia im poczucie bezpieczeństwa. Wiem, że brzmi to dziwnie, ale to bardzo prawdziwe. Tak długo, jak mogę spoglądać na bliźniego i widzieć go jako kogoś złego, wiem, kogo trzeba atakować. I wszystko, co mi pozostaje, to wykombinować, jak zaatakować ciebie zanim ty zaatakujesz mnie. To bardzo proste. I jeśli wygram, zabieram wszystkie kulki. Ale w ataku nikt *nie może* być wygranym. Gdy bowiem atakujący atakuje, *jest* on atakowany przez ciężar negatywności swego własnego lęku.
 
-Tak więc tak -- to, co widzisz na planecie, *jest *polaryzacją, która wydarza się, ponieważ każda dusza staje przed decyzją, by uzdrawiać i przebaczać lub by trzymać się bożków swych zranień i osądzać.
+Tak więc tak -- to, co widzisz na planecie, *jest* polaryzacją, która wydarza się, ponieważ każda dusza staje przed decyzją, by uzdrawiać i przebaczać lub by trzymać się bożków swych zranień i osądzać.
 
 Kiedyś powiedziałem: „Bądź pewien, że takim samym osądem, jaki wydajesz, sam będziesz osądzony". Dlaczego? Ponieważ to ty tworzysz swoje doświadczenie. Tak więc powtórzmy: wielu nie będzie w stanie żyć na tej planecie. Dlatego też na tej płaszczyźnie tworzonych jest wiele dziwnych i nowych chorób. Dlatego też pewne rządy na twej planecie robią wiele dziwnych rzeczy, podczas gdy lęk rośnie, próbując pozostać w pozycji kontroli nad czymś, czego oni nawet nie rozumieją. A jednak *nic z tego *nie może wpłynąć na tego, kto jest czysty w sercu, na cichego, który posiądzie ziemię, na tych, którzy podejmują decyzję, by w swym istnieniu uzdrowić lukę pomiędzy sobą a umysłem Boga. Będą oni bowiem w każdej chwili prowadzeni. I nie stanie im się krzywda. Tak, może spotka ich po drodze kilka lekcji, ale jedynie jako droga oczyszczenia, głębszej mądrości, głębszego zrozumienia. Gdzie ku swemu Ojcu skierujesz odrobinkę chęci, koniec jest pewny, a ty możesz bezpiecznie ufać temu, co czujesz w głębi swego serca, które jest świątynią twej duszy i w której Ojciec i Dziecię -- Bóg i Chrystus -- spoczywają razem.
 
-**Pytanie 2:** Tak, dziękuję. Ale wszystko, co powiedziałeś tego wieczoru, można zrozumieć na poziomie fizycznym lub metaforycznym. Czy na planecie wydarzy się zmiana fizyczna, czy też zmiana będzie metaforyczna, a sama planeta pozostanie nietknięta?
+## Pytanie 2
 
-**Odpowiedź: **Umiłowany przyjacielu, bardzo się cieszę, że pytanie to postawiłeś w ten właśnie sposób. Obaj wiemy, że wyrażając cokolwiek w danym języku w formie pytania, jesteś zmuszony radzić sobie z dostępną dla ciebie strukturą tego języka. Wasza struktura językowa żyje w dualności. Rzeczy są właściwe lub niewłaściwe, białe lub czarne, metaforyczne lub fizyczne. Ale ja ci powiadam, że cały ten fizyczny wymiar jest metaforą. To symbol wibracji myśli. Czy to sprawia, że jest to mniej rzeczywiste? Ani trochę. Jak bowiem Święte Dziecię Boga może wytwarzać coś, co jest nierzeczywiste? Zatem ten *sen *zostanie odegrany i to włączy całość stworzonego świata. A jednak nadal pozostaje on metaforą, *częścią snu*. Ten dom bowiem, w którym siedzisz, miasto, w którym dom ten się znajduje i planeta, na której leży owa miejscowość -- to wszystko istnieje w przestrzeni, która nie jest większa niż główka od szpilki. A jednak tam, gdzie przebywasz *ty*, całość stworzenia jest zawarta w tobie, a ty jesteś dalece poza zasięgiem wszystkich systemów słonecznych. I gdy to poczujesz, zaprawdę będziesz się tym zachwycał.
+***Pytanie*:** Tak, dziękuję. Ale wszystko, co powiedziałeś tego wieczoru, można zrozumieć na poziomie fizycznym lub metaforycznym. Czy na planecie wydarzy się zmiana fizyczna, czy też zmiana będzie metaforyczna, a sama planeta pozostanie nietknięta?
+
+***Odpowiedź*:** Umiłowany przyjacielu, bardzo się cieszę, że pytanie to postawiłeś w ten właśnie sposób. Obaj wiemy, że wyrażając cokolwiek w danym języku w formie pytania, jesteś zmuszony radzić sobie z dostępną dla ciebie strukturą tego języka. Wasza struktura językowa żyje w dualności. Rzeczy są właściwe lub niewłaściwe, białe lub czarne, metaforyczne lub fizyczne. Ale ja ci powiadam, że cały ten fizyczny wymiar jest metaforą. To symbol wibracji myśli. Czy to sprawia, że jest to mniej rzeczywiste? Ani trochę. Jak bowiem Święte Dziecię Boga może wytwarzać coś, co jest nierzeczywiste? Zatem ten *sen *zostanie odegrany i to włączy całość stworzonego świata. A jednak nadal pozostaje on metaforą, *częścią snu*. Ten dom bowiem, w którym siedzisz, miasto, w którym dom ten się znajduje i planeta, na której leży owa miejscowość -- to wszystko istnieje w przestrzeni, która nie jest większa niż główka od szpilki. A jednak tam, gdzie przebywasz *ty*, całość stworzenia jest zawarta w tobie, a ty jesteś dalece poza zasięgiem wszystkich systemów słonecznych. I gdy to poczujesz, zaprawdę będziesz się tym zachwycał.
 
 Tak, to się wydarzy i niewłaściwe oraz nieprecyzyjne byłoby zakładanie, że owa zmiana to tylko obrazy czy symbole, ale tak naprawdę wydarzy się to tylko w tym, co zwane jest upchniętym gdzieś tam w ciele umysłem, który nie ma nic wspólnego z planetą, gwiazdami, kometami i fotonowymi pasami. To wszystko jest jednym: Umysłem stwarzającym. Dlatego też aby Umysł się przebudził, budzi się i zmienia całość Umysłu. Tak, będzie to dotyczyło również samej planety. Wydaje mi się, że to powinno pomóc to wyjaśnić.
 
-**Pytanie 3: **Zatem rola Shanti Christo musi być również jasna, gdy zachodzi ten proces. Czy Shanti Christo jest nadajnikiem przekazującym informacje?
+## Pytanie 3
 
-**Odpowiedź: **Umiłowany przyjacielu, tak naprawdę to wyprowadziliśmy cię w pole, gdyż Shanti Christo to mechanizm rozpraszający, stworzony przez diabła. [śmiech uczestników]
+***Pytanie*:** Zatem rola Shanti Christo musi być również jasna, gdy zachodzi ten proces. Czy Shanti Christo jest nadajnikiem przekazującym informacje?
+
+***Odpowiedź*:** Umiłowany przyjacielu, tak naprawdę to wyprowadziliśmy cię w pole, gdyż Shanti Christo to mechanizm rozpraszający, stworzony przez diabła. [śmiech uczestników]
 
 Umiłowany przyjacielu, tak, Shanti Christo jest wyrazem wibracji myśli, niczym kamyk wrzucony do stawu, stworzony, by przejawić konkretne wibracyjne wzorce czy też fale. Zostanie on przez nas użyty, by przyciągnąć wiele umysłów i wiele istot, by wkroczyły poprzez portal w przebudzoną świadomość. Tworzonych jest wiele portali. A dlaczego potrzeba wielu portali? Ponieważ istnieje wiele poziomów świadomości i wiele form doświadczenia, które stworzyliście wy wszyscy, każdy na tej planecie. Ja nie jestem nauczycielem dla wszystkich, mimo iż stoję na czele Pojednania. Tak więc wyobraź sobie, że po prostu siedzę sobie za małym, niedużym biurkiem gdzieś na łące i odbieram to, co nazywacie bezprzewodowym telefonem. W tym wypadku nie jest to nawet niefizyczny telefon. Dzwonię więc do innego nauczyciela, innej istoty i mówię:
 
-*Wiesz, ten gość miał z tobą bardzo dobre połączenie cztery tysiące lat temu w Egipcie. Może byś do niego wpadł i uciął z nim sobie krótką pogawędkę?*
+> *Wiesz, ten gość miał z tobą bardzo dobre połączenie cztery tysiące lat temu w Egipcie. Może byś do niego wpadł i uciął z nim sobie krótką pogawędkę?*
 
 Tak więc realizuje się tu pewien plan. Może się wydawać, że istnieje wiele form uniwersalnego programu nauczania, wielu nauczycieli, wiele metodologii. Jednak one wszystkie są jedynie portalami, poprzez które dusza decyduje się kroczyć, by przejść z lęku do miłości, z niepoczytalności do poczytalności, ze snów do rzeczywistości. Zatem Shanti Christo jest jednym z takich portali, poprzez które mogę konkretnie aktywować wezwanie i stworzyć miejsce zgromadzenia lub też -- jeśli wolisz -- częstotliwość zgromadzenia, poprzez które mogę wezwać do siebie tych, którzy -- biorąc pod uwagę to, z czym w przeszłości rezonowali, swe przeszłe doświadczenia -- doświadczyli miłości i zaufania do mnie jako kogoś, kto może przeprowadzić ich przez ów most.
 
 Tak, Shanti Christo ma do odegrania rolę, i bądź pewien, że w jego wibrację wbudowano mechanizm bezpieczeństwa. Wibracja ta nie może być zmanipulowana ani użyta dla osobistego zysku. Nie może ona zostać niewłaściwie ukierunkowana, gdyż umysł, który może zostać do niej przyciągnięty, a następnie odskoczyć na lewo lub prawo, uświadomi sobie po prostu, że owa wibracja wymaga, byś -- jak byś to ujął? -- stał się autentyczny. To wibracja i portal, który pomaga duszy wkroczyć w następną wibrację. Nic nie przeciśnie się poza „wykrywacz ego".
 
-**Pytanie 4: **Czy podczas owej zachodzącej na Ziemi zmiany doświadczymy okresu trzech dni ciemności?
+## Pytanie 4
 
-**Odpowiedź: **Zasugerowalibyśmy tutaj, że jest bardzo prawdopodobne, że to się wydarzy. Jednak potrwa to trochę dłużej niż trzy dni. Dojdzie do tego, jeśli zajdzie potrzeba zmiany wibracji i zajścia czegoś, co będzie zwane zmianą osi planety. Spowoduje to -- jak to sobie możesz wyobrazić -- nieco wyburzenia i zostanie stworzone zaciemnienie, podczas którego promienie słoneczne nie dotkną powierzchni Ziemi. Samo słońce donikąd się nie wybiera.
+***Pytanie*:** Czy podczas owej zachodzącej na Ziemi zmiany doświadczymy okresu trzech dni ciemności?
+
+***Odpowiedź*:** Zasugerowalibyśmy tutaj, że jest bardzo prawdopodobne, że to się wydarzy. Jednak potrwa to trochę dłużej niż trzy dni. Dojdzie do tego, jeśli zajdzie potrzeba zmiany wibracji i zajścia czegoś, co będzie zwane zmianą osi planety. Spowoduje to -- jak to sobie możesz wyobrazić -- nieco wyburzenia i zostanie stworzone zaciemnienie, podczas którego promienie słoneczne nie dotkną powierzchni Ziemi. Samo słońce donikąd się nie wybiera.
 
 Tak, lecz posłuchaj uważnie, co mam do powiedzenia, gdyż pojawia się obecnie wiele przepowiedni, a w miarę, gdy będziemy się coraz bardziej zbliżać do tej chwili, będzie ich o wiele więcej. Wiele osób otrzymuje obrazy, które są skutkiem wytworów ich własnych umysłów i tego, w jaki sposób potrzebują oni pojąć docierające do nich fale. Mówimy tu o prawdopodobieństwach, ponieważ nigdy nie ma pewności co do tego, co musi się stać, by zaszła zmiana wibracji. I możesz to porównać do swego życia: czasem by coś zwróciło twą uwagę, musisz się uderzyć kijem do szczotki. W innej chwili wystarczy do tego cichy szept.
 
 Sugerowalibyśmy -- ponieważ nie ma oddzielenia -- że im bardziej dusza decyduje się budzić i uzdrawiać, tym mniej potrzebuje szokujących okoliczności, by zwrócić jej uwagę. Im bardziej ludzkość się budzi, tym ten etap przejścia jest dla Ziemi łatwiejszy. Czy to ma dla was sens?
 
-**Pytanie 5: **Czy istnieje jakaś różnica między istotami, które przedstawiają się jako Germain, Jeszua, Michał i które przynoszą swoje przesłania przez daną osobę? Czy tak naprawdę istnieje jakakolwiek różnica między posłańcami?
+## Pytanie 5
 
-**Odpowiedź: **Odpowiedzią jest donośne: „tak!". Gdy mówisz o różnicy, nawiązujesz do tego, że owa istota jest unikalną sferą świadomości, rodzącą się z Jednego Umysłu. Bóg jest świadomy Boga z powodu Bożego stworzenia. Ty jesteś Bożym stworzeniem. Zatem Ojciec zna Siebie, ponieważ *ty *istniejesz, by być Jego świadomym. Indywidualizacja -- niczym fale powstające z oceanu -- nie zmienia substancji; to wszystko nadal zrobione jest z jednej rzeczy -- a jednak istnieje indywidualizacja, unikalność, tak jak istnieje kilka dusz powiązanych z ciałami, które zebrały się w tym pomieszczeniu i wy wszyscy macie swój własny, unikalny, kosmiczny numer ubezpieczenia społecznego.
+***Pytanie*:** Czy istnieje jakaś różnica między istotami, które przedstawiają się jako Germain, Jeszua, Michał i które przynoszą swoje przesłania przez daną osobę? Czy tak naprawdę istnieje jakakolwiek różnica między posłańcami?
+
+***Odpowiedź*:** Odpowiedzią jest donośne: „tak!". Gdy mówisz o różnicy, nawiązujesz do tego, że owa istota jest unikalną sferą świadomości, rodzącą się z Jednego Umysłu. Bóg jest świadomy Boga z powodu Bożego stworzenia. Ty jesteś Bożym stworzeniem. Zatem Ojciec zna Siebie, ponieważ *ty *istniejesz, by być Jego świadomym. Indywidualizacja -- niczym fale powstające z oceanu -- nie zmienia substancji; to wszystko nadal zrobione jest z jednej rzeczy -- a jednak istnieje indywidualizacja, unikalność, tak jak istnieje kilka dusz powiązanych z ciałami, które zebrały się w tym pomieszczeniu i wy wszyscy macie swój własny, unikalny, kosmiczny numer ubezpieczenia społecznego.
 
 Jeden z uczestników: -- Czy gdy już tam dotrzemy, nie ogłoszą upadłości?
 
@@ -85,7 +99,7 @@ Przy okazji, nalegam, byście nigdy nie słuchali tego gościa Germaina. A Micha
 
 Jeden z uczestników: -- A Maria robi zakupy w Biedronce!
 
-Nigdy nie byłem w stanie utrzymać jej w ryzach. Zapewniam was, my zachwycamy się sobą nawzajem, bawimy się ze sobą, *widzimy *Stwórcę, *widzimy *obecność Boga *jako każdego z nas *i szanujemy naszą indywidualność, tak jak wy szanujecie swoją. Widzieć jedność w różnorodności, doświadczać połączenia dwóch pełni -- oto wielka obietnica Królestwa. Być w świętym związku, w którym jest dwóch Chrystusów jako zindywidualizowane istoty, wyłaniające się jednak i operujące z tego samego umysłu, tych samych wartości, tej samej miłości, współczucia, mądrości, tej samej nieograniczonej mocy, by stwarzać to, co dobre, święte i piękne... Oto *taniec, do którego warto się przyłączyć*.
+Nigdy nie byłem w stanie utrzymać jej w ryzach. Zapewniam was, my zachwycamy się sobą nawzajem, bawimy się ze sobą, *widzimy* Stwórcę, *widzimy* obecność Boga *jako każdego z nas* i szanujemy naszą indywidualność, tak jak wy szanujecie swoją. Widzieć jedność w różnorodności, doświadczać połączenia dwóch pełni -- oto wielka obietnica Królestwa. Być w świętym związku, w którym jest dwóch Chrystusów jako zindywidualizowane istoty, wyłaniające się jednak i operujące z tego samego umysłu, tych samych wartości, tej samej miłości, współczucia, mądrości, tej samej nieograniczonej mocy, by stwarzać to, co dobre, święte i piękne&hellip; Oto *taniec, do którego warto się przyłączyć*.
 
 Zatem nie szukaj śmierci swego „ja", ale szukaj zmartwychwstałego Ja. To powinno pomóc.
 
@@ -93,7 +107,7 @@ Zatem nie szukaj śmierci swego „ja", ale szukaj zmartwychwstałego Ja. To pow
 
 Był on... wartościowy. Umiłowany przyjacielu, jak dobrze wiesz, ponieważ do umysłu wrzucono ową myśl, to zgromadzenie podczas tego wieczoru zostało zaprojektowane, by wywołać konkretne korekty, które popłyną do wielu umysłów -- do o wiele większej liczby umysłów niż jesteś tego świadomy. Dla tych z was, którzy to przyjmą, będzie to niczym uderzenie, uderzenie w strunę.
 
-*Ach tak, pewnie! Dzięki za szturchnięcie. Muszę się do tego zabrać. Muszę się za to zabrać. Zaczynałem już wierzyć, że mógłbym po prostu się rozpuścić i nie musieć rodzić Chrystusa.*
+> *Ach tak, pewnie! Dzięki za szturchnięcie. Muszę się do tego zabrać. Muszę się za to zabrać. Zaczynałem już wierzyć, że mógłbym po prostu się rozpuścić i nie musieć rodzić Chrystusa.*
 
 A potem dadzą to oni wielu innym.
 
@@ -105,19 +119,23 @@ Zatem zaprawdę, umiłowani przyjaciele, *przyzwólcie*, by to, co dobre, świę
 
 Zatem często przebywajcie ze sobą i pamiętajcie zawsze, że jesteście Światłem tego świata. Czemu by się tym wreszcie nie zająć? To powiedziawszy, pokój niech będzie z wami zawsze, płynąc z serca tego, kto was kocha i kto sięgnął poprzez przestrzeń i czas, by cię dotknąć i szepnąć do ciebie:
 
-*Umiłowany przyjacielu, przyjdź i weź moją dłoń. My już jesteśmy na moście. Po prostu krocz lekko. Chodź ze mną. Znam drogę.*
+> *Umiłowany przyjacielu, przyjdź i weź moją dłoń. My już jesteśmy na moście. Po prostu krocz lekko. Chodź ze mną. Znam drogę.*
 
 Od tego jednego -- kto jest mną i mówi w imieniu wielu, którzy gromadzą się ze mną za każdym razem, gdy jest do wykonania konkretne zadanie -- kocham cię i my cię kochamy. Niemożliwe jest, byś podróżował sam. A jeśli chodzi o to, o co jesteś proszony w głębi swej wizji i serca, bądź pewien, że nie byłbyś o to poproszony, gdyby nie dano ci mocy i wsparcia, by tego dokonać. Nigdy nie myśl, że musisz być sprawcą i wykonawcą. Musisz jedynie -- jak każdy z nas -- być sługą Umysłu Stwórcy, który jest jedynie Miłością i któremu służymy w doskonałej wolności, radości i spełnieniu.
 
-**Pytanie 6: **Chciałbym pomówić z tobą na temat zgodny z książką, nad którą pracujemy, pt.: *Droga przez śmierć*, na którą zwróciłeś naszą uwagę w grudniu. W eksplozji w Oklahomie zmarło wiele istot, które w tamtej chwili nie były świadome, że znalazły się w sytuacji śmierci. W pewien sposób, nie będąc w stanie wyzwolić się z walącego się budynku, jakby „zawisły" one w chwili eksplozji. Wszyscy słyszeliśmy opowieści o duchach nadal zamieszkujących miejsce swojej śmierci. Czemu tak jest, jeśli prawdą jest to, o czym mówi Emanuel, że „śmierć jest jak zdjęcie przyciasnego buta"?
+## Pytanie 6
 
-**Odpowiedź: **Śmierć *jest *jak zdjęcie przyciasnego buta, ale niekoniecznie przynosi ona oświecenie i wolność. Ten ciasny but to gęstość fizycznej formy. Tam jednak, gdzie umysł nie jest jeszcze przygotowany i gdzie niesie przywiązanie do tego, co nauczył się cenić -- innych ciał w przestrzeni i czasie -- tam energia tej duszy nie może -- używając tu starego biblijnego terminu -- wznieść się do Ojca. Nie może ona być wzniesienia do Ojca póki dusza nie pokona bardzo ważnego pagórka -- póki przynajmniej nie uwierzy, że istnieje coś poza tym światem. Czy ma to dla ciebie sens?
+***Pytanie*:** Chciałbym pomówić z tobą na temat zgodny z książką, nad którą pracujemy, pt.: *Droga przez śmierć*, na którą zwróciłeś naszą uwagę w grudniu. W eksplozji w Oklahomie zmarło wiele istot, które w tamtej chwili nie były świadome, że znalazły się w sytuacji śmierci. W pewien sposób, nie będąc w stanie wyzwolić się z walącego się budynku, jakby „zawisły" one w chwili eksplozji. Wszyscy słyszeliśmy opowieści o duchach nadal zamieszkujących miejsce swojej śmierci. Czemu tak jest, jeśli prawdą jest to, o czym mówi Emanuel, że „śmierć jest jak zdjęcie przyciasnego buta"?
+
+***Odpowiedź*:** Śmierć *jest* jak zdjęcie przyciasnego buta, ale niekoniecznie przynosi ona oświecenie i wolność. Ten ciasny but to gęstość fizycznej formy. Tam jednak, gdzie umysł nie jest jeszcze przygotowany i gdzie niesie przywiązanie do tego, co nauczył się cenić -- innych ciał w przestrzeni i czasie -- tam energia tej duszy nie może -- używając tu starego biblijnego terminu -- wznieść się do Ojca. Nie może ona być wzniesienia do Ojca póki dusza nie pokona bardzo ważnego pagórka -- póki przynajmniej nie uwierzy, że istnieje coś poza tym światem. Czy ma to dla ciebie sens?
 
 Tak więc w bardzo prawdziwym znaczeniu tych słów: ciężar spadł z serca. Nie ma zimna, nie ma gorąca, nie ma potrzeby zasilania ciała. Ale doświadczenie trwa dalej. Ciekawe jest to, że bez fizycznej gęstości ciała nie ma doświadczenia czasu -- takiego, jakim wy go znacie. Zatem dusza może pozostać w utknięciu w walącym się budynku przez to, co wy postrzegalibyście jako tysiące lat -- jeśli umysł ów pozostaje przywiązany do przekonania, że jest *jedynie *trójwymiarową fizycznością i że cenne są jedynie te rzeczy, które przynależą do trójwymiarowej fizyczności.
 
 Tak jak ty wiele razy szedłeś ulicą i nawet nie zauważałeś mijającego cię przyjaciela, ponieważ byłeś tak skupiony na miejscu, do którego zdążałeś, tak samo dusza w chwili śmierci może być tak zafiksowana na swych percepcyjnych wartościach, że nawet nie zauważa śpiewających jej do ucha anielskich chórów: „Przyjdź tu i wznieś się, umiłowany przyjacielu!". Ona ich nawet nie zauważa, póki nie zaistnieje komunikacja, póki w jakiś sposób nie odkryje się sposobu zwrócenia jej uwagi na to, by zaczęła cenić coś innego -- by uświadomiła sobie, że coś istotnego się zmieniło oraz że jej system przekonań był ograniczony.
 
-**Pytanie 7:** Z tego, co mówisz, nie ma ustanowionej sekwencji, która wydarza się w chwili zwanej śmiercią. Wielu ludzi opowiada o przechodzeniu przez tunel i o tym, że spotyka tam ciebie, i...
+## Pytanie 7
+
+***Pytanie*:** Z tego, co mówisz, nie ma ustanowionej sekwencji, która wydarza się w chwili zwanej śmiercią. Wielu ludzi opowiada o przechodzeniu przez tunel i o tym, że spotyka tam ciebie, i...
 
 **Odpowiedź:** Doświadczenie tunelu, które określa się w twojej kulturze jako doświadczenie z pogranicza śmierci, jest bardzo, bardzo podstawowym stadium procesu umierania. Przede wszystkim wiąże się ono z wycofaniem energii z rdzenia mózgu -- z rdzenia mózgu do łodygi ciała lub inaczej mówiąc ku kręgosłupowi. Wytwarza to *wrażenie* tunelu, w którym następuje wycofanie ze zmysłów ciała do tego, co jawi się jako tunel. A jest on portalem i bramą. I tak -- ja pojawiam się wielu osobom, tak jak i inni. Ale system przekonań nadal tu funkcjonuje. To jest jedynie jedno z pierwszych stadiów procesu śmierci.
 
@@ -135,23 +153,29 @@ I kiedy nastanie czas -- co musi się stać, gdyż ta tymczasowa struktura gęst
 
 A „w domu mego Ojca jest mieszkań wiele", co oznacza, że istnieje nieskończona liczba wymiarów, do których możesz przybyć, by wytworzyć dla siebie nowy dom, w oparciu o jakość wibracji, które do siebie przyciągnąłeś przez swoje zrozumienie i poprzez swoją świadomość, która nie jest niczym więcej niż twoją miłością. A jedyną rzeczą, której kiedykolwiek mógłbyś żałować, jest to, że być może opierałeś się temu, by rozdawać tę miłość, nawet aż do chwili śmierci. A zatem kochaj w wolności, miłuj w obfitości i kochaj bez ustanku. A nade wszystko kochaj Jaźń, która została zrodzona w Umyśle Boga, bez żadnego innego powodu, jak po to, *by żyć w świadomości Boga*.
 
-**Pytanie 8:** Czy Bóg jest świadomy siebie, czy też jest On po prostu dobroczynną metafizyczną siłą?
+## Pytanie 8
 
-**Odpowiedź:** Jest On dobroczynną metafizyczną siłą.
+***Pytanie*:** Czy Bóg jest świadomy siebie, czy też jest On po prostu dobroczynną metafizyczną siłą?
+
+***Odpowiedź*:** Jest On dobroczynną metafizyczną siłą.
 
 Nie ma niczego bardziej łagodnego niż Miłość. Nie ma niczego, co byłoby bardziej metafizyczne -- co oznacza bycie poza fizycznością i przenikanie fizyczności -- niż Bóg. Nie ma niczego bardziej przepełnionego mocą -- jeśli rozumiesz przez to nieskończoną moc, której nie można się przeciwstawić -- niż Bóg. A więc jeśli to masz na myśli, przytaknąłbym takiemu użyciu owych zwrotów. Czy Bóg jest świadomy siebie? A czy *ty* jesteś siebie świadomy?
 
 -- Acha, załapałem to!
 
-**Pytanie 9:** Czy istnieje moc poza Bogiem?
+## Pytanie 9
 
-**Odpowiedź:** Tylko ty; dobrze rozumiem, dokąd zmierza twe pytanie. Nie może istnieć nic na zewnątrz Boga, a to, co jest nierzeczywiste, nie istnieje i istnieć nie może. Jednak ty masz moc w ramach nieskończonej wolności Boga, by *wierzyć w postrzeganie*, że istnieje moc poza Bogiem lub inna od Niego. Tak jak uwierzyłeś w to, że jesteś oddzielony od Boga. To złudzenie optyczne świadomości. To sen dziecka śniącego na łące, którego tak naprawdę nic nie spotkało. Ten, którego zwie się Szatanem, nie może istnieć ani mieć jakiejkolwiek mocy, poza umysłem, który na to przyzwala i który *daje mu* ową moc. Albowiem czyż nie prosiłem cię, byś niego przemówił i zobaczył, czy diabeł oprze się Miłości? I czyż to go nie uciszyło? Innymi słowy, Miłość uzdrawia, ponieważ Miłość jest prawdziwa. A kiedy wstępujesz z lęku w Miłość, gdzież podział się potwór?
+***Pytanie*:** Czy istnieje moc poza Bogiem?
 
-**Pytanie 10:** Wracając do tematu Shanti Christo, czy mógłbyś w przybliżeniu podać, kiedy ono się zmaterializuje?
+***Odpowiedź*:** Tylko ty; dobrze rozumiem, dokąd zmierza twe pytanie. Nie może istnieć nic na zewnątrz Boga, a to, co jest nierzeczywiste, nie istnieje i istnieć nie może. Jednak ty masz moc w ramach nieskończonej wolności Boga, by *wierzyć w postrzeganie*, że istnieje moc poza Bogiem lub inna od Niego. Tak jak uwierzyłeś w to, że jesteś oddzielony od Boga. To złudzenie optyczne świadomości. To sen dziecka śniącego na łące, którego tak naprawdę nic nie spotkało. Ten, którego zwie się Szatanem, nie może istnieć ani mieć jakiejkolwiek mocy, poza umysłem, który na to przyzwala i który *daje mu* ową moc. Albowiem czyż nie prosiłem cię, byś niego przemówił i zobaczył, czy diabeł oprze się Miłości? I czyż to go nie uciszyło? Innymi słowy, Miłość uzdrawia, ponieważ Miłość jest prawdziwa. A kiedy wstępujesz z lęku w Miłość, gdzież podział się potwór?
 
-**Odpowiedź:** Umiłowany przyjacielu, ono już się zmaterializowało. I na twoim trójwymiarowym planie czasu jesteś świadkiem procesu, za pomocą którego ta materializacja się zadziewa. W rzeczywistości to już się dokonało, ponieważ Bóg nie myśli myśli, które objawiałyby się jako niespełnione. Ty po prostu podłączasz się do tego, co już się wydarzyło. Wiem, że to dość duży krok, ale to jest w porządku, pozwól sobie na to. Po prostu pozwalasz sobie uczestniczyć w tym, czego już dokonałeś. Usłysz bowiem: w rzeczywistości sen i proces budzenia nigdy się nie wydarzył. Albowiem to, co nie ma skutków, nigdy się nie wydarzyło. Sen, przebudzenie ze snu już się dokonało. Mógłbyś powiedzieć, że oglądasz film. Film puszczany o godzinie 11. Czy możesz wyobrazić sobie prezentera wiadomości, który mówi:
+## Pytanie 10
 
-*Całe stworzenie dziś się przebudziło i powróciło do Świętego Umysłu Boga. Oto zapowiedź filmu, który puścimy o 11.*
+***Pytanie*:** Wracając do tematu Shanti Christo, czy mógłbyś w przybliżeniu podać, kiedy ono się zmaterializuje?
+
+***Odpowiedź*:** Umiłowany przyjacielu, ono już się zmaterializowało. I na twoim trójwymiarowym planie czasu jesteś świadkiem procesu, za pomocą którego ta materializacja się zadziewa. W rzeczywistości to już się dokonało, ponieważ Bóg nie myśli myśli, które objawiałyby się jako niespełnione. Ty po prostu podłączasz się do tego, co już się wydarzyło. Wiem, że to dość duży krok, ale to jest w porządku, pozwól sobie na to. Po prostu pozwalasz sobie uczestniczyć w tym, czego już dokonałeś. Usłysz bowiem: w rzeczywistości sen i proces budzenia nigdy się nie wydarzył. Albowiem to, co nie ma skutków, nigdy się nie wydarzyło. Sen, przebudzenie ze snu już się dokonało. Mógłbyś powiedzieć, że oglądasz film. Film puszczany o godzinie 11. Czy możesz wyobrazić sobie prezentera wiadomości, który mówi:
+
+> *Całe stworzenie dziś się przebudziło i powróciło do Świętego Umysłu Boga. Oto zapowiedź filmu, który puścimy o 11.*
 
 A to, czego doświadczasz, to oglądanie tego filmu. To zupełnie, jakbyś był w hologramie. Tak, a kiedy przejawią się konkretne fragmenty, w których pojawisz się ty? Kiedy *chciałbyś*, by się one przejawiły?
 
@@ -159,18 +183,18 @@ A to, czego doświadczasz, to oglądanie tego filmu. To zupełnie, jakbyś był 
 
 Bardzo dobrze. Po prostu obudź się jutro i wiedz: to się już dokonało. Nie pozwól, by w twym umyśle pojawiły się wątpliwości i po prostu przyzwól, by Pocieszyciel, Duch Święty odsłonił dla ciebie to, co się dokonało. Wyobraź sobie... nadzorcę na budowie, budującego piękny budynek. Podchodzisz do niego i pytasz:
 
-*Jak do tego doszło?*
+> *Jak do tego doszło?*
 
 A on otacza cię ramieniem i mówi:
 
-*Najpierw pokażę ci fundamenty, następnie projekt architektoniczny...*
+> *Najpierw pokażę ci fundamenty, następnie projekt architektoniczny...*
 
 Jednak przez cały ten czas ty jesteś w owym budynku, podczas gdy twój umysł łączy się z dniem, w którym po raz pierwszy przywieziono beton, by wylać fundamenty, potem postawiono metalowe dźwigary, następnie zaś dekorator wnętrz dokonywał ostatnich poprawek. Widzisz to wszystko, gdy nadzorca opisuje ci proces tworzenia budynku, w którym mieszkasz. Budowle na tej Ziemi już tu są. Ty po prostu jeszcze ich nie widzisz. Ale one są tu osadzane i ujrzysz je. A kiedy je ujrzysz, będziesz wiedział, tak jak będą to wiedziały setki innych istot:
 
-*Widziałem je już wcześniej.*
+> *Widziałem je już wcześniej.*
 
 Nie w innym miejscu i czasie, ale dlatego, że już doświadczyłeś ich ukończenia. Czy to ma sens?
 
 -- Tak.
 
-Zaprawdę. A co może stanąć na drodze woli Boga? Dlatego też ci, którzy wezwani są, by dodać i stworzyć owe wibracje, muszą zawsze spoczywać w pewności, w rozpoznaniu: To się już dokonało. Cóż za zachwycający sposób na spędzenie ostatniego popołudnia snu oddzielenia. Oto coś do rozważenia...
+Zaprawdę. A co może stanąć na drodze woli Boga? Dlatego też ci, którzy wezwani są, by dodać i stworzyć owe wibracje, muszą zawsze spoczywać w pewności, w rozpoznaniu: To się już dokonało. Cóż za zachwycający sposób na spędzenie ostatniego popołudnia snu oddzielenia. Oto coś do rozważenia&hellip;

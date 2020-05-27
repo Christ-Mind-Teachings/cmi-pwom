@@ -1,7 +1,14 @@
 ---
+title: "Znaczenie Wniebowstąpienia"
 ---
 
-**Znaczenie Wniebowstąpienia**
+
+
+# Znaczenie wniebowstąpienia
+
+![znaczek]({{page.big-separator}})
+{: .omit}
+
 
 Teraz zaczynamy.
 
@@ -187,7 +194,7 @@ To jest proces, dzięki któremu twoje przerażające sny przetłumaczone zostaj
 
 Krocz zatem po tym świecie i zrozum, że dokądkolwiek idziesz, wszędzie, umysły ludzkości błagają o możliwość połączenia w tym świętym związku, w świętej chwili, która uzdrawia iluzję oddzielenia. W twoich rękach znajduje się drogocenna perła. Jest ona w twojej dłoni. Wszędzie, gdzie się udasz, możesz wyciągnąć swą dłoń do każdego, kogo zobaczysz. Bez względu na to, co oni robią, bez względu na to, co mówią o tobie -- nic z tego nie ma najmniejszego znaczenia. Cóż może znaczyć opinia niepoczytalnego umysłu?
 
-Powiedziałem już wielu, że nadszedł czas, aby żyć nieco skandalicznie... Nadszedł czas, by tańczyć, śpiewać, bawić się. Wszystko to robiłem codziennie, kiedy chodziłem po tej ziemi. Byłem poważny tylko na tyle, na ile drugi człowiek potrzebował powagi, dopóki nie nauczył się języka śmiechu, zabawy, prostoty i lekkości.
+Powiedziałem już wielu, że nadszedł czas, aby żyć nieco skandalicznie&hellip; Nadszedł czas, by tańczyć, śpiewać, bawić się. Wszystko to robiłem codziennie, kiedy chodziłem po tej ziemi. Byłem poważny tylko na tyle, na ile drugi człowiek potrzebował powagi, dopóki nie nauczył się języka śmiechu, zabawy, prostoty i lekkości.
 
 Albowiem moja droga jest prosta, a moje brzemię lekkie. Mój krzyż nie jest ciężki, on jest zrobiony ze światła. Zatem podnieś swój krzyż i podążaj za mną. Przyłącz się do tańca. Przyłącz się do tańca, w którym uświadomisz sobie: „Mój Boże! Jestem wniebowstąpionym mistrzem!". Dokładnie tutaj, po tym miasteczku zwanym „Berkeley", kroczy wniebowstąpiony mistrz. A nosi on twoje imię.
 
@@ -265,4 +272,4 @@ Dla niektórych z was, począwszy od tej chwili, nic już nie będzie takie samo
 
 Pokój Synowi Bożemu, który podejmuje decyzję, aby podjąć sprawy Nieba i połączyć je z rzeczami ziemskimi, tak by światło Królestwa ponownie mogło być szerzone ze wschodu na zachód. W tym zawiera się znaczenie krzyża. Krzyża światła, w którym dziecię Chrystusowe zamieszkuje z otwartym sercem i wyciągniętymi ramionami, stopami na ziemi, a umysłem w Niebie, by demonstrować odzwierciedlenie doskonałej miłości.
 
-Niech pokój będzie z tobą. A teraz... AMEN.
+Niech pokój będzie z tobą. A teraz&hellip;AMEN.

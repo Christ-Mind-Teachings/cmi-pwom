@@ -1,7 +1,10 @@
 ---
+title: "Wstęp"
 ---
 
-**WSTĘP**
+
+# WSTĘP
+
 
 Książka, którą trzymasz w dłoniach, jest zapisem przekazów danych przez Jeszuę podczas publicznych spotkań we wczesnych latach mojej pracy z Nim. Nauki te to obszerny zbiór mądrości Jeszuy, istotna część Ścieżki *Drogi Mistrzostwa,* i teraz są one po raz pierwszy dostępne w formie książki.
 
@@ -27,7 +30,7 @@ Pewnego dnia byłem bardzo chory, miałem gorączkę i zapalenie gardła, i był
 
 Zaprawdę, po powrocie doświadczyłem ciała promieniejącego jasnością i doskonałym zdrowiem, by potem stopniowo odczuwać, jak jego stan się pogarsza, gdy powraca zapalenie gardła. Gdy zapytałem Jeszuę, co się stało, odpowiedział:
 
-*Myślę, że jest to bardzo dobre pytanie, abyś je sam rozważył. Dlaczego powróciło to, co nazywasz „chorobą"?*
+>*Myślę, że jest to bardzo dobre pytanie, abyś je sam rozważył. Dlaczego powróciło to, co nazywasz „chorobą"?*
 
 To rodzaj pytania zadanego przez Niego z miłością, choć oczywiste jest, że kierował On tu mą uwagę ku kontrastowi: po cóż ktoś miałby używać ciała do czegoś takiego, jak choroba, której -- najwyraźniej -- On sam nie używał, korzystając z mego ciała!
 
@@ -46,6 +49,3 @@ Błogosławieństwa,
 Jayem
 
 styczeń 2019 r.
-
-*\
-*

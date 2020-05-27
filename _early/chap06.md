@@ -1,7 +1,15 @@
 ---
+title: "Boska Kobiecość"
 ---
 
-**Boska Kobiecość**
+
+
+# Boska Kobiecość
+
+![znaczek]({{page.big-separator}})
+{: .omit}
+
+
 
 Teraz możemy zacząć.
 
@@ -17,7 +25,7 @@ Dlaczego zatem jest to ważne? Nastał bowiem świt Nowej Ery, w którym pewne c
 
 A czyż nie przybyłaś tu, by odkryć, że moc Boskiej Matki, moc Abby, moc Chrystusa, moc Bogini -- to tylko różne nazwy określające tę samą rzecz -- że moc ta zaprawdę obecna jest w swej pełni w ramach trzymanego głęboko w duszy wątku, który wyraża się aż po komórki ciała w *postaci kobiety*?
 
-Umiłowane przyjaciółki, mówiłem wcześniej -- i powiem to znowu -- że aby Chrystus naprawdę narodził się w świecie, kobieta -- zbiorowość kobiet -- będzie musiała wystąpić i zadeklarować s*we oddanie* temu, by ponownie sprowadzić Boską Matkę, Chrystusa... By ucieleśnić tę częstotliwość i nie stać w tle w cieniu, ale wystąpić naprzód z odwagą i mocą, by *odzyskać* to, co wydaje się zagubione, by przejawić i zademonstrować to, co zaprawdę obecne jest we *wszystkich istotach*, bez względu na to, czy wyrażają się one w formie męskiej, czy kobiecej.
+Umiłowane przyjaciółki, mówiłem wcześniej -- i powiem to znowu -- że aby Chrystus naprawdę narodził się w świecie, kobieta -- zbiorowość kobiet -- będzie musiała wystąpić i zadeklarować s*we oddanie* temu, by ponownie sprowadzić Boską Matkę, Chrystusa&hellip;By ucieleśnić tę częstotliwość i nie stać w tle w cieniu, ale wystąpić naprzód z odwagą i mocą, by *odzyskać* to, co wydaje się zagubione, by przejawić i zademonstrować to, co zaprawdę obecne jest we *wszystkich istotach*, bez względu na to, czy wyrażają się one w formie męskiej, czy kobiecej.
 
 Ten czas jest bliski. Myśl, którą się z wami podzieliłem, została już posłana po -- że się tak wyrażę -- kosmicznych falach do tych wszystkich, którzy obecnie ucieleśniają kobiecą formę. To zaprawdę czas, by zacząć stwarzać bardziej widoczną ekspresję połączenia kobiet, które wyrażają, oddają się oraz podtrzymują świętość częstotliwości Boskiej Matki, częstotliwości współczucia, częstotliwości służby, która prawdziwie wpływa na planetę poprzez szerzenie miłości, poprzez zdolność, by *głęboko odczuwać*, poprzez chęć, by ufać mądrości serca, by bardziej ufać mądrości odczuwania niż dominacji *zwykłej* logiki lub racjonalności.
 
@@ -31,11 +39,11 @@ W prawdzie Boska Matka i Chrystusowa świadomość są jednym i tym samym, albow
 
 Umiłowane przyjaciółki, *nastał* czas, by *kobiety* zaczęły wyrażać przebudzoną świadomość poprzez stanięcie w pozycji *autorytetu* na tej planecie. Czy można to uczynić? O tak. Zapewniam was, że jeśli pięćdziesiąt milionów waszych kobiet udałoby się na Kapitol [siedziba Kongresu Stanów Zjednoczonych -- przyp.tłum.] i po prostu usiadło tam, mówiąc:
 
-*Przepraszamy, ale już dłużej nie pozwolimy na to, by przeszło jakiekolwiek prawo lub ustawa, która wspiera narzędzia wojny.*
+> *Przepraszamy, ale już dłużej nie pozwolimy na to, by przeszło jakiekolwiek prawo lub ustawa, która wspiera narzędzia wojny.*
 
 -- to szybko przyłączyłoby się do nich kolejnych pięćdziesiąt milionów. Wiele z tych osób *byłoby w formie mężczyznami*, którzy powiedzieliby:
 
-*Tak, już najwyższa pora na to.*
+> *Tak, już najwyższa pora na to.*
 
 Chcemy tu powiedzieć przede wszystkim, że w tym przejściu, które *musi* nastąpić na ziemskim planie, zmiana tego typu będzie musiała zajść za pośrednictwem formy kobiecości. Dlaczego? Po prostu dlatego, że patriarchat, który miał zdecydowaną przewagę przez tak długi czas, jest utożsamiany z formą męską. Zatem nawet ten mężczyzna, który przebudził to, co kobiece i który „oba aspekty uczynił w sobie jednością", nadal jest postrzegany przez świat jako wyraz patriarchatu, a żeńska świadomość Chrystusowego umysłu niekoniecznie jest zauważana i wysłuchiwana. Zapewniam was zatem, że jeśli jedna z was powstałaby i naprawdę podjęła się służby jako mój kanał, zyskałoby to znacznie więcej zainteresowania mediów, dużo więcej uwagi niż wiele kanałów, które przebywają w męskiej formie, służąc mi w ten sposób.
 
@@ -57,7 +65,7 @@ Umiłowane przyjaciółki, choć raz przybyłem w formie mężczyzny, zrozumcie 
 
 Zatem przybywam, by zapytać was, czy teraz *jesteście* chętne, by zacząć spoglądać nieco głębiej, by z radością zobaczyć, co możecie razem stworzyć, co możecie stworzyć w waszych społecznościach, by sprowadzić łagodność Chrystusowej świadomości poprzez żeńską formę, tak by świat, który nadal wierzy w to, że ciała są prawdziwe, mógł spojrzeć na was i przypomnieć sobie:
 
-*Oto jak wszystko powinno wyglądać na tej łagodnej i pięknej Ziemi.*
+> *Oto jak wszystko powinno wyglądać na tej łagodnej i pięknej Ziemi.*
 
 Czy jesteście chętne, by porzucić wartość, jaką nadałyście patriarchalnej świadomości? Czy *ty* jesteś chętna, by być wystarczająco zuchwałą, by zaprosić swe siostry do przyłączenia się do ciebie w najwyższej możliwej wizji we wszystkich królestwach stworzenia? Czy *ty* jesteś chętna, by czynić w *twoich* czasach to, co ja chętny byłem uczynić w *moich* -- spojrzeć w swą świadomość i nie pozwolić żadnej jej części, by kształtowana była przez idee, które przenikają powietrze patriarchalnej kultury, w której żyjesz?
 
@@ -69,11 +77,11 @@ I -- ponad wszystko inne -- radujcie się sobą, bawcie się ze sobą, *miłujci
 
 I to powiedziawszy, umiłowane przyjaciółki, choć to przesłanie jest krótkie, zapewniam was, że jak mogłybyście rzec, wiele zawiera się między jego początkiem a końcem. Wiedzcie zatem, że ja tańczę z wami. Wiedzcie, że pływam z wami. Wiedzcie, że będę z wami, gdy świętować będziecie ten krótki czas bycia razem. Gdziekolwiek bowiem serca zdecydowały się zebrać, by przypomnieć sobie prawdę, by świętować prawdę, by ucieleśniać prawdę i by uwolnić wszystko, co niepodobne jest prawdzie, gdzie kilkoro zbiera się w moje imię, ja jestem z nimi. A moje imię nie brzmi „Jeszua", tak jak waszymi nie są wasze nazwiska.
 
-*Na imię mi Miłość. I tobie również.*
+> *Na imię mi Miłość. I tobie również.*
 
 Pozostańcie zatem w pokoju, umiłowane i święte siostry serca Chrystusowego, umiłowane Boskiej Matki.
 
-Pozostańcie zatem w pokoju i bawcie się dobrze. Róbcie to, co zwiecie „pójściem na całość". I wiedzcie, że nigdy nie jesteście same i że *cała moc w niebie i na ziemi jest z wami teraz*.
+Pozostańcie zatem w pokoju i bawcie się dobrze. Róbcie to, co zwiecie „pójściem na całość". I wiedzcie, że nigdy nie jesteście same i że *cała moc w Niebie i na Ziemi jest z wami teraz*.
 
 Idźcie zatem w pokoju i dziękuję, że pozwoliłyście, by ten, kto kiedyś przybył w męskiej formie, uczestniczył w waszym kręgu. To zaprawdę jest zaszczyt.
 
