@@ -1,18 +1,31 @@
 /*
-  CMI-PWOM: Transcript keys
-  - first item starts with 1, not 0
+  Transcript keys
   - a numeric value that represents a specific transcript and represents
     a specific logical ordering.
+  - first item starts with 1
 
   - The integer part of the key represent a transcript and the decimal part
     a paragraph within the transcript.
   - The paragraphId is increased by 1 and divided by 1000
 
-  key format: ssbuuuu.ppp
+  key format: ssbbuuuxx.ppp
   where: ss: source Id
-          b: book Id
-       uuuu: unit Id
+         bb: book Id
+        uuu: unit Id
+         xx: subunit
         ppp: paragraph number - not positional
+
+  Limits:
+    The Library of Christ Mind Teachings is limited to
+       99 Sources
+       99 Books per source
+      999 Units (chapters) per book
+       99 Unique Subunits per book
+      999 Paragraphs per unit or subunit
+
+  Example: url's
+      [/t/sourceId]/bookId/unitId/subunitId/
+      - /t/sourceId is omitted in standalone mode
 
   NOTE: This module is used by code running in the browser and Node so the
         common.js module system is used
@@ -20,41 +33,75 @@
 
 const si = require("./si");
 const sprintf = require("sprintf-js").sprintf;
-
-//length of pageKey excluding decimal portion
-const keyLength = 7;
+const keyLength = 9; //length of pageKey excluding decimal portion
 
 /*
  * The argument is the page url. Use the book id (bid)
  * to find the position of the page in the contents array.
  */
 function getUnitId(...urlArray) {
-  let bid = urlArray[0];
-  let pageId = urlArray[urlArray.length - 1];
-
-  //check for integration mode
-  if (urlArray[0] === "t") {
-    bid = urlArray[2];
-  }
+  let bid = getBook(urlArray);
+  let {unit, subunit} = getUnitInfo(urlArray);
 
   if (si.contents[bid]) {
-    return si.contents[bid].indexOf(pageId);
+    return si.contents[bid].indexOf(unit);
   }
-
   throw new Error(`unexpected bookId: ${bid}`);
 }
 
 /*
-  Return the number of chapters in the book (bid).
-  Subtract one from length because of 'xxx' (fake chapter)
+ * Get the position of the subunit from the bid2 array.
+ * Return -1 if not found,
+ *         0 if there is no subunit
+ */
+function getSubunitId(...urlArray) {
+  let bid = getBook(urlArray);
+  let {unit, subunit} = getUnitInfo(urlArray);
+  let level2 = `${bid}2`;
+
+  if (!subunit) {
+    return 0;
+  }
+
+  if (si.contents[level2]) {
+    return si.contents[level2].indexOf(`/${subunit}`);
+  }
+  throw new Error(`unexpected bookId: ${level2}`);
+}
+
+/*
+ * The url will be either:
+ * Integration: /t/pid/bid/uid/[xid/] or
+ * Standalone:  /bid/uid/[xid/]
+ *
+ * Return object containing unit and subunit from url
+ */
+function getUnitInfo(urlArray) {
+  //set values for integration
+  let uidPos = 3;
+  let subunit;
+
+  if (urlArray[0] !== "t") {
+    uidPos = 1;
+  }
+
+  //check for subunit in url
+  if (urlArray.length === uidPos + 2) {
+    subunit = urlArray[uidPos + 1];
+  }
+
+  return {unit: urlArray[uidPos], subunit: subunit};
+}
+
+/*
+ * Return the number of chapters in the book (bid).
+ * Subtract one from length because of 'xxx' (fake chapter)
 */
 function getNumberOfUnits(bid) {
   if (si.contents[bid]) {
     return si.contents[bid].length - 1;
   }
-  else {
-    throw new Error(`getNumberOfUnits() unexpected bookId: ${bid}`);
-  }
+  throw new Error(`getNumberOfUnits() unexpected bookId: ${bid}`);
 }
 
 /*
@@ -88,13 +135,15 @@ function getKeyInfo() {
 }
 
 /*
-  parse bookmarkId into pageKey and paragraphId
-  - pid=0 indicates no paragraph id
-*/
+ * Parse key into page part and paragraph part. The two are
+ * still part of the key.
+ *
+ * - a paraKey = 0 represent no paraKey in argument.
+ */
 function parseKey(key) {
   const keyInfo = getKeyInfo();
   let keyString = key;
-  let pid = 0;
+  let paraKey = 0;
 
   if (typeof keyString === "number") {
     keyString = key.toString(10);
@@ -115,11 +164,12 @@ function parseKey(key) {
         decimalPart = `${decimalPart}0`;
         break;
     }
-    pid = parseInt(decimalPart, 10);
+    paraKey = parseInt(decimalPart, 10);
   }
   let pageKey = parseInt(keyString.substr(0, keyInfo.keyLength), 10);
 
-  return {pid, pageKey};
+  //console.log("parseKey: %o", {paraKey, pageKey});
+  return {paraKey, pageKey};
 }
 
 /*
@@ -142,17 +192,19 @@ function getBook(urlArray) {
   Convert url into key
   returns -1 for non-transcript url
 
-  key format: ssbuuuu.ppp
+  key format: ssbbuuuxx.ppp
   where: ss: source Id
-          b: book Id
-       uuuu: unit Id
+         bb: book Id
+        uuu: unit Id
+         xx: subunit Id
         ppp: paragraph number - not positional
 */
 function genPageKey(url = location.pathname) {
   let key = {
     sid: si.sourceId,
     bid: 0,
-    uid: 0
+    uid: 0,
+    xid: 0
   };
 
   let parts = splitUrl(url);
@@ -169,23 +221,29 @@ function genPageKey(url = location.pathname) {
     return -1;
   }
 
-  let compositeKey = sprintf("%02s%01s%04s", key.sid, key.bid, key.uid);
+  //get the subunitId
+  key.xid = getSubunitId(...parts);
+  if (key.xid === -1) {
+    return -1;
+  }
+
+  let compositeKey = sprintf("%02s%02s%03s%02s", key.sid, key.bid, key.uid, key.xid);
   let numericKey = parseInt(compositeKey, 10);
 
   return numericKey;
 }
 
 /*
-  genParagraphKey(paragraphId, key: url || pageKey)
-
-  args:
-    pid: a string representing a transcript paragraph, starts as "p0"..."pnnn"
-         - it's converted to number and incremented by 1 then divided by 1000
-        pid can also be a number so then we just increment it and divide by 1000
-
-    key: either a url or pageKey returned from genPageKey(), if key
-   is a string it is assumed to be a url
-*/
+ * genParagraphKey(paragraphId, key: url || pageKey)
+ *
+ * args:
+ *   pid: a string representing a transcript paragraph, starts as "p0"..."pnnn"
+ *        - it's converted to number and incremented by 1 then divided by 1000
+ *       pid can also be a number so then we just increment it and divide by 1000
+ *
+ *   key: either a url or pageKey returned from genPageKey(), if key
+ *   is a string it is assumed to be a url
+ */
 function genParagraphKey(pid, key = location.pathname) {
   let numericKey = key;
   let pKey;
@@ -208,10 +266,11 @@ function genParagraphKey(pid, key = location.pathname) {
 }
 
 /*
-  key format: ssbuuuu.ppp
+  key format: ssbbuuuxx.ppp
   where: ss: source Id
-          b: book Id
-       uuuu: unit Id
+         bb: book Id
+        uuu: unit Id
+         xx: subunit Id
         ppp: paragraph number - not positional
 */
 function decodeKey(key) {
@@ -223,6 +282,7 @@ function decodeKey(key) {
     sid: 0,
     bookId: "",
     uid: 0,
+    xid: 0,
     pid: pid - 1
   };
 
@@ -241,12 +301,13 @@ function decodeKey(key) {
     return decodedKey;
   }
 
-  let bid = parseInt(pageKeyString.substr(2,1), 10);
+  let bid = parseInt(pageKeyString.substr(2,2), 10);
   decodedKey.bookId = si.bookIds[bid];
 
-  //subtract 1 from key value to get index
-  decodedKey.uid = parseInt(pageKeyString.substr(3,4), 10);
+  decodedKey.uid = parseInt(pageKeyString.substr(4,3), 10);
+  decodedKey.xid = parseInt(pageKeyString.substr(7,2), 10);
 
+  //console.log("decodedKey: %o", decodedKey);
   return decodedKey;
 }
 
@@ -255,61 +316,32 @@ function decodeKey(key) {
  */
 function getUrl(key, withPrefix = false) {
   let decodedKey = decodeKey(key);
-  let unit = "invalid";
+  let unit;
+  let subunit;
+  let url = "/invalid/key/";
 
   if (decodedKey.error) {
-    return "/invalid/key/";
+    return url;
   }
 
   if (si.contents[decodedKey.bookId]) {
     unit = si.contents[decodedKey.bookId][decodedKey.uid];
 
-    if (decodedKey.bookId === "text") {
-      let chapter = unit.substr(4,2);
-      unit = `${chapter}/${unit}`;
+    if (decodedKey.xid > 0) {
+      subunit = si.contents[`${decodedKey.bookId}2`][decodedKey.xid];
+      url = `/${decodedKey.bookId}/${unit}${subunit}/`;
+    }
+    else {
+      url = `/${decodedKey.bookId}/${unit}/`;
+    }
+
+    if (withPrefix) {
+      return `${si.prefix}${url}`;
     }
   }
 
-  if (withPrefix) {
-    return `${si.prefix}/${decodedKey.bookId}/${unit}/`;
-  }
-
-  return `/${decodedKey.bookId}/${unit}/`;
+  return url;
 }
-
-/*
-function getUrl(key) {
-  let decodedKey = decodeKey(key);
-  let unit = "invalid";
-  let chapter;
-
-  if (decodedKey.error) {
-    return "";
-  }
-
-  switch(decodedKey.bookId) {
-    case "text":
-      unit = text[decodedKey.uid];
-      chapter = unit.substr(4,2);
-      unit = `${chapter}/${unit}`;
-      break;
-    case "workbook":
-      unit = workbook[decodedKey.uid];
-      break;
-    case "manual":
-      unit = manual[decodedKey.uid];
-      break;
-    case "preface":
-      unit = preface[decodedKey.uid];
-      break;
-    case "acq":
-      unit = acq[decodedKey.uid];
-      break;
-  }
-
-  return `/${decodedKey.bookId}/${unit}/`;
-}
-*/
 
 function getBooks() {
   return si.books;
@@ -329,13 +361,15 @@ function describeKey(key) {
     key: key,
     source: si.sid,
     book: decodedKey.bookId,
-    unit: si.contents[decodedKey.bookId][decodedKey.uid]
+    unit: si.contents[decodedKey.bookId][decodedKey.uid],
+    subunit: si.contents[`${decodedKey.bookId}2`][decodedKey.xid]
   };
 
   if (decodedKey.pid > -1) {
     info.pid = `p${decodedKey.pid}`;
   }
 
+  //console.log("describeKey: %o", info);
   return info;
 }
 

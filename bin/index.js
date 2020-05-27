@@ -47,17 +47,22 @@ function splitUrl(url) {
   return u.split("/");
 }
 
-function buildArray(cfg, array) {
+function buildArray(cfg, array, level2 = false) {
   if (array.length === 0) {
     array.push("xxx");
   }
   for (let i=0; i < cfg.contents.length; i++) {
     if (cfg.contents[i].url) {
       let parts = splitUrl(cfg.contents[i].url);
-      array.push(parts[parts.length -1]);
+      if (level2) {
+        array.push(`/${parts[parts.length -1]}`);
+      }
+      else {
+        array.push(parts[parts.length -1]);
+      }
     }
     if (cfg.contents[i].contents) {
-      buildArray(cfg.contents[i], array);
+      buildArray(cfg.contents[i], array, true);
     }
   }
 }
@@ -73,7 +78,8 @@ for (let i=0; i < projectInfo.books.length; i++) {
 //const output = fs.createWriteStream(`${outPath}/projectInfo.js`);
 const output = fs.createWriteStream(`${sourceInfo}`);
 
-output.write("export const si = {\n");
+//output.write("export const si = {\n");
+output.write("module.exports = {\n");
 
 output.write(`  sourceId: ${projectInfo.sourceId},\n`);
 output.write(`  sid: "${projectInfo.sid}",\n`);
@@ -88,11 +94,21 @@ output.write("\n  contents: {\n");
 for (let i=0; i < contents.length; i++) {
   let array = [];
   buildArray(contents[i], array);
-  output.write(`    ${contents[i].bid}: ${JSON.stringify(array)},\n`);
+  let unitArray = array.filter(el => {
+    return el[0] !== "/";
+  });
+  let subUnitArray = array.filter(el => {
+    return el[0] === "/";
+  });
+  output.write(`    ${contents[i].bid}: ${JSON.stringify(unitArray)},\n`);
+  if (subUnitArray.length > 0) {
+    subUnitArray.unshift("xxx");
+    //write unique values only
+    output.write(`    ${contents[i].bid}2: ${JSON.stringify([...new Set(subUnitArray)])},\n`);
+  }
 }
 output.write("  }\n");
 output.write("};\n");
 output.end();
-
 
 
