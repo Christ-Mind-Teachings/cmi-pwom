@@ -1,11 +1,18 @@
+---
+title: "Lekcja 10. Pytania i odpowiedzi"
+---
+
+<div markdown="1" align="center"> 
+## Lekcja 10<br>
+Pytania i odpowiedzi
+
+</div>
+
+
+
 Lekcja 10
 
 Pytania i odpowiedzi
-
-
-
-
-
 
 
 **Pytanie 1**

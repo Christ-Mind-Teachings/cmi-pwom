@@ -1,11 +1,17 @@
+---
+title: "Lekcja 6. Pytania i odpowiedzi"
+---
+
+<div markdown="1" align="center"> 
+## Lekcja 6<br>
+Pytania i odpowiedzi
+
+</div>
+
+
 Lekcja 6
 
 Pytania i odpowiedzi
-
-
-
-
-
 
 
 **Pytanie 1**

@@ -1,3 +1,13 @@
+---
+Title: "Lekcja 3. Pytania i odpowiedzi"
+---
+
+<div markdown="1" align="center"> 
+## Lekcja 3<br>
+Pytania i odpowiedzi
+
+</div>
+
 Lekcja 3
 
 Pytania i odpowiedzi
