@@ -1,27 +1,45 @@
 #!/usr/bin/env node
 
 /*
- * Reads project.json found in ../standalone/config/. 
+ * Reads project.json found in ../standalone/config/ or ../public/config.
  *
  * Outputs project specific info to src/js/modules/_config/si.js. This
  * is imported by key.js and used to generate a key for each page. Keys
  * are used in search and bookmarks.
  *
- * Run this when moving from standalone to integration environment.
+ * Run this when moving from standalone to integration environment or
+ * whenever pages are added or removed from configuration files.
+ *
+ * $ npm run updateConfiguration <standalone | integration>
  */
-var fs = require('fs');
+const fs = require('fs');
 
 const args = process.argv.slice(2);
-const sourceInfo = "../src/js/modules/_config/si.js";
+const outputFile = "src/js/modules/_config/si.js";
 
 if (args.length < 1) {
-  console.log("Enter path to config files.");
+  console.log("Enter 'standalone' or 'integration'");
   process.exit();
 }
 
-let inPath = args[0];
+let inPath;
+if (args[0] === "standalone") {
+  inPath = "standalone/config";
+}
+else if (args[0] === "integration") {
+  inPath = "public/config";
+}
+else {
+  console.log("Enter 'standalone' or 'integration'");
+  process.exit();
+}
+
+//This file specifies which config files to read
 let project = `${inPath}/project.json`;
 
+/*
+ * Read configuration json files
+ */
 function readFile(fn) {
   try {
     let config = fs.readFileSync(fn, 'utf8');
@@ -33,6 +51,9 @@ function readFile(fn) {
   }
 }
 
+/*
+ * divide url into array
+ */
 function splitUrl(url) {
   let u = url;
 
@@ -47,6 +68,10 @@ function splitUrl(url) {
   return u.split("/");
 }
 
+/*
+ * Extract url fields from json file and put in
+ * book specific array.
+ */
 function buildArray(cfg, array, level2 = false) {
   if (array.length === 0) {
     array.push("xxx");
@@ -67,18 +92,17 @@ function buildArray(cfg, array, level2 = false) {
   }
 }
 
-let projectInfo = readFile(project);
+//start program
+
 let contents = [];
+let projectInfo = readFile(project);
 
 //read json files
 for (let i=0; i < projectInfo.books.length; i++) {
   contents[i] = readFile(`${inPath}/${projectInfo.books[i]}.json`);
 }
 
-//const output = fs.createWriteStream(`${outPath}/projectInfo.js`);
-const output = fs.createWriteStream(`${sourceInfo}`);
-
-//output.write("export const si = {\n");
+const output = fs.createWriteStream(`${outputFile}`);
 output.write("module.exports = {\n");
 
 output.write(`  sourceId: ${projectInfo.sourceId},\n`);
@@ -110,5 +134,7 @@ for (let i=0; i < contents.length; i++) {
 output.write("  }\n");
 output.write("};\n");
 output.end();
+
+console.log("Done!");
 
 

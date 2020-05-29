@@ -5674,6 +5674,11 @@ function scrollIntoView(id, caller) {
   }, type => {
     scrollComplete(`scroll from url.js ${caller}(${id})`, type);
   });
+} //remove query string from url
+
+
+function resetUrl() {
+  history.replaceState({}, document.title, location.origin + location.pathname);
 } //called when query request is complete
 
 
@@ -5686,6 +5691,7 @@ function loadStart() {
 
   if (aInfo) {
     $("#transcript-page-loading").addClass("active");
+    resetUrl();
   }
 }
 /*
@@ -5700,6 +5706,7 @@ function showParagraph() {
 
   if (pId) {
     setTimeout(scrollIntoView, INTERVAL, pId, "showParagraph");
+    resetUrl();
   }
 }
 /*
@@ -5712,6 +5719,7 @@ function showTOC() {
 
   if (book) {
     $(`[data-book="${book}"]`).trigger("click");
+    resetUrl();
   }
 }
 function showBookmark() {
@@ -5719,6 +5727,7 @@ function showBookmark() {
 
   if (pId) {
     return pId;
+    resetUrl();
   }
 
   return null;
@@ -5727,8 +5736,8 @@ function showSearchMatch() {
   let pId = getQueryString("srch");
 
   if (pId) {
-    //setTimeout(scrollIntoView, INTERVAL, pId, "showSearchMatch");
     return pId;
+    resetUrl();
   }
 
   return null;
@@ -5738,6 +5747,7 @@ function showAnnotation() {
 
   if (aInfo) {
     return aInfo;
+    resetUrl();
   }
 
   return null;
@@ -5751,6 +5761,7 @@ function getUser() {
 
   if (user) {
     return user;
+    resetUrl();
   }
 
   return null;
@@ -6688,8 +6699,8 @@ module.exports = {
   sourceId: 16,
   sid: "pwom",
   prefix: "/t/pwom",
-  books: ["lj", "wos", "woh", "wot", "early"],
-  bookIds: ["xxx", "lj", "wos", "woh", "wot", "early"],
+  books: ["lj", "wos", "woh", "wot", "wok", "early"],
+  bookIds: ["xxx", "lj", "wos", "woh", "wot", "wok", "early"],
   contents: {
     lj: ["xxx", "acknow", "reader", "forwd", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "eplg", "path"],
     wos: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "aftwrd", "eplg", "prayer", "path"],
@@ -6697,6 +6708,8 @@ module.exports = {
     woh2: ["xxx", "/l01qa", "/l02qa", "/l06qa", "/l07qa", "/l08qa", "/l09qa", "/l10qa", "/l11qa", "/l12qa"],
     wot: ["xxx", "advice", "preface", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12", "path"],
     wot2: ["xxx", "/l01qa", "/l06qa", "/l07qa", "/l09qa", "/l11qa"],
+    wok: ["xxx", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11"],
+    wok2: ["xxx", "/l02qa", "/l03qa", "/l04qa", "/l06qa", "/l10qa"],
     early: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "path"],
     early2: ["xxx", "/chap02qa", "/chap03qa", "/chap08qa", "/chap09qa"]
   }
@@ -6715,11 +6728,12 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "status", function() { return status; });
 const status = {
-  lj: "pon 25 maj 22:01:18 2020 CEST",
-  wos: "pon 25 maj 21:57:51 2020 CEST",
-  woh: "wto 26 maj 10:24:08 2020 CEST",
-  wot: "pon 25 maj 21:23:40 2020 CEST",
-  early: "wto 26 maj 13:35:48 2020 CEST"
+  lj: "Wed May 27 23:01:04 HST 2020",
+  wos: "Tue May 26 22:53:45 HST 2020",
+  woh: "Tue May 26 22:53:45 HST 2020",
+  wot: "Sat May 23 10:16:42 HST 2020",
+  wok: "Wed May 27 14:45:27 HST 2020",
+  early: "Tue May 26 22:56:53 HST 2020"
 };
 
 /***/ }),

@@ -33,10 +33,6 @@ encoding: utf-8
 
 # Build settings
 markdown: kramdown
-#plugins:
-#  - jekyll-sitemap
-
-#  - jekyll-feed
 
 # Collections for transcripts
 collections:
@@ -52,6 +48,9 @@ collections:
   wot:
     output: true
     title: Droga Przemiany,
+  wot:
+    output: true
+    title: Droga Poznania,
   early:
     output: true
     title: Early Years,
@@ -114,6 +113,20 @@ defaults:
       image-width: 612
       image-height: 877
       bid: "WOT"
+      audio: false
+
+  - scope:
+      path: ""
+      type: wok
+    values:
+      layout: transcript
+      book: "Droga Poznania"
+      publisher: "Droga Mistrzostwa"
+      image: "/public/img/wom/wok-big.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      image-width: 612
+      image-height: 877
+      bid: "WOK"
       audio: false
 
   - scope:

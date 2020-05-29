@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "updateConfigStatus": "bin/updateConfigStatus",
+    "updateConfiguration": "bin/updateConfiguration",
     "watch": "webpack --mode development --watch",
     "jekyll": "bundle exec jekyll s",
     "start": "npm run jekyll & npm run watch",
@@ -19,9 +21,6 @@
     "cmi",
     "wom"
   ],
-  "bin": {
-    "configure": "./bin/index.js"
-  },
   "author": "Rick Mercer",
   "homepage": "https://www.christmind.info/",
   "repository": "github:rmercer33/cmi-pwom",
