@@ -2,12 +2,14 @@
 title: "Księga Pierwsza"
 ---
 
-<div markdown="1" class="chHead">
+<div markdown="1" align="center">
 ## Księga Pierwsza
 
 ![znaczek]({{page.big-separator}})
 
 {: .omit}
+
+</div>
 
 <p markdown="1" class="top"><span class="dropcaps">S</span>*łużba*<br/>
 Dziwnym wydaje się to słowo,<br>

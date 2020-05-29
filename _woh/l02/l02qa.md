@@ -2,9 +2,10 @@
 title: "Lekcja 2. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" class="chHead"> 
+<div markdown="1" align="center"> 
 ## Lekcja 2<br>
-Pytania i odpowiedzi
+**Pytania i odpowiedzi**
+
 </div>
 
 ## Pytanie 1

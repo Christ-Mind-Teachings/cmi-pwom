@@ -2,11 +2,12 @@
 title: "Księga druga"
 ---
 
-<div markdown="1" class="chHead">
+<div markdown="1" align="center">
 ## Księga druga
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
+</div>
 <p markdown="1" class="top"><span class="dropcaps">S</span>*łużba*<br/>
 Dziwnym wydaje się to słowo,<br>
 jednak w nim skrywa się znaczenie<br>
@@ -552,7 +553,7 @@ Jak było na początku, <br>
 tak jest teraz, <br>
 zawsze i na wieki wieków.
 
-￼![znaczek]({{page.little-separator}})
+![znaczek]({{page.little-separator}})
 
 <p markdown="1" class="top"><span class="dropcaps">D</span>o czego więc<br>
 można przyrównać<br>

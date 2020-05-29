@@ -5674,11 +5674,6 @@ function scrollIntoView(id, caller) {
   }, type => {
     scrollComplete(`scroll from url.js ${caller}(${id})`, type);
   });
-} //remove query string from url
-
-
-function resetUrl() {
-  history.replaceState({}, document.title, location.origin + location.pathname);
 } //called when query request is complete
 
 
@@ -5691,7 +5686,6 @@ function loadStart() {
 
   if (aInfo) {
     $("#transcript-page-loading").addClass("active");
-    resetUrl();
   }
 }
 /*
@@ -5706,7 +5700,6 @@ function showParagraph() {
 
   if (pId) {
     setTimeout(scrollIntoView, INTERVAL, pId, "showParagraph");
-    resetUrl();
   }
 }
 /*
@@ -5719,7 +5712,6 @@ function showTOC() {
 
   if (book) {
     $(`[data-book="${book}"]`).trigger("click");
-    resetUrl();
   }
 }
 function showBookmark() {
@@ -5727,7 +5719,6 @@ function showBookmark() {
 
   if (pId) {
     return pId;
-    resetUrl();
   }
 
   return null;
@@ -5736,8 +5727,8 @@ function showSearchMatch() {
   let pId = getQueryString("srch");
 
   if (pId) {
+    //setTimeout(scrollIntoView, INTERVAL, pId, "showSearchMatch");
     return pId;
-    resetUrl();
   }
 
   return null;
@@ -5747,7 +5738,6 @@ function showAnnotation() {
 
   if (aInfo) {
     return aInfo;
-    resetUrl();
   }
 
   return null;
@@ -5761,7 +5751,6 @@ function getUser() {
 
   if (user) {
     return user;
-    resetUrl();
   }
 
   return null;
@@ -6728,12 +6717,12 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "status", function() { return status; });
 const status = {
-  lj: "Wed May 27 23:01:04 HST 2020",
-  wos: "Tue May 26 22:53:45 HST 2020",
-  woh: "Tue May 26 22:53:45 HST 2020",
-  wot: "Sat May 23 10:16:42 HST 2020",
-  wok: "Wed May 27 14:45:27 HST 2020",
-  early: "Tue May 26 22:56:53 HST 2020"
+  lj: "pon 25 maj 22:01:18 2020 CEST",
+  wos: "pon 25 maj 21:57:51 2020 CEST",
+  woh: "wto 26 maj 10:24:08 2020 CEST",
+  wot: "pon 25 maj 21:23:40 2020 CEST",
+  wok: "ptk 29 maj 15:25:12 2020 CEST",
+  early: "wto 26 maj 13:35:48 2020 CEST"
 };
 
 /***/ }),

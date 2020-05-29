@@ -2,13 +2,12 @@
 title: "Lekcja 1. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" class="chHead"> 
+<div markdown="1" align="center"> 
 ## Lekcja 1<br>
-Pytania i odpowiedzi
-
+ **Pytania i odpowiedzi**
 </div>
 
-*Po skończeniu danej lekcji Jeszua często odpowiada na pytania czytane mu w imieniu uczniów.*
+### *Po skończeniu danej lekcji Jeszua często odpowiada na pytania czytane mu w imieniu uczniów.*
 
 ## Pytanie 1
 

@@ -3,12 +3,13 @@ title: "Księga trzecia"
 ---
 
 
-<div markdown="1" class="chHead">
+<div markdown="1" align="center">
 ## Księga trzecia
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
+</div>
 <p markdown="1" class="top"><span class="dropcaps">T</span>en, kto patrzy na mnie,<br>
 i naprawdę mnie *widzi*, <br>
 nauczył się już<br>

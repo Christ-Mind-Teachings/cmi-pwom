@@ -2,7 +2,7 @@
 title: "Wstęp"
 ---
 
-<div markdown="1" class="chHead">
+<div markdown="1" align="center">
 ## Wstęp
 </div>
 
@@ -22,14 +22,17 @@ Rozproszyłem się. Komary wygrały. Wzdychając, wstałem ze skały, ubrałem s
 
 ![znaczek]({{page.little-separator}})
 
-￼Jeden z powodów, dla których tak bardzo kocham Hawaje, jest właśnie ta chwila. Słońce już dawno zaszło i zastąpił je jasny księżyc w pełni. Oświetla on drzewa i skały, i fale oceanu, malując jednocześnie krawędzie chmur srebrno-białym kolorem. A noc nadal jest ciepła! Wystarczająco ciepła, bym mógł leżeć tutaj rozebrany, spijając energie tego miejsca głęboko każdą komórką ciała.
+Jeden z powodów, dla których tak bardzo kocham Hawaje, jest właśnie ta chwila. Słońce już dawno zaszło i zastąpił je jasny księżyc w pełni. Oświetla on drzewa i skały, i fale oceanu, malując jednocześnie krawędzie chmur srebrno-białym kolorem. A noc nadal jest ciepła! Wystarczająco ciepła, bym mógł leżeć tutaj rozebrany, spijając energie tego miejsca głęboko każdą komórką ciała.
 
 Gdy ponownie czuję w swym wnętrzu Jego obecność, w mym umyśle pojawia się myśl zadziwienia. Jeszua kontynuuje naszą rozmowę, jak gdyby nie było żadnej przerwy w komunikacji. Ten prosty fakt jest łagodnym przypomnieniem, że czas jakoś nie do końca jest tym, czym nauczyłem się, że jest. Gdy Jeszua mówi, widzę tytuł:
 
-> **Droga Sługi**
+<div markdown="1" align="center"
+> **Droga Sługi**<br>
 > *Życie Światłem Chrystusa*
 
 > „Tak ostatni będą pierwszymi, a pierwsi ostatnimi”. 
+
+</div>
 
 *Nauka ta nie miała być wykorzystywana w znaczeniu, jakie nadali jej ci, którzy znajdowali we mnie usprawiedliwienie dla osądu swych braci i sióstr. To, co nazywacie Pismem Świętym, czy też Biblią, faktycznie zawiera wiele ziaren mądrości. Jednakże były one często odrywane od pierwotnych kontekstów i wplatane w historie, które miały służyć nie Świętemu Ojcu, ale **koncepcji** Boga, za którą tęsknił oddzielony umysł.*
 
