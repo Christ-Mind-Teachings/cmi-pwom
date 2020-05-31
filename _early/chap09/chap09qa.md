@@ -2,12 +2,14 @@
 title: "Pytania i odpowiedzi"
 ---
 
+<div markdown="1" align="center">
 
 
 # Śmierć i zmiany na Ziemi
 
 ## Pytania i odpowiedzi
 
+</div>
 
 ## Pytanie 1
 

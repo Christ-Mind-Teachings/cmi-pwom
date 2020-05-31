@@ -4,15 +4,13 @@ title: "Lekcja 2. Pytania i odpowiedzi"
 
 <div markdown="1" align="center"> 
 ## Lekcja 2<br>
-Pytania i odpowiedzi
+**Pytania i odpowiedzi**
 
 </div>
 
-Lekcja 2
 
-Pytania i odpowiedzi
 
-**Pytanie 1 **
+**Pytanie 1**
 
 ***Pytanie***: Jeszuo, czy zechciałbyś pomóc nam w zdefiniowaniu pojęcia „Wiedza", czy też „Poznanie"?
 
@@ -20,15 +18,15 @@ Pytania i odpowiedzi
 
 Gdybyś miał opisać swoje objawienie, musiałbyś natychmiast przenieść je do poziomu idei i słów. Słowa są symbolami symboli i są podwójnie oddalone od Rzeczywistości. Słowa są symbolami idei. Nic nie jest pośrednikiem dla Rzeczywistości. Rzeczywistość jest dana bezpośrednio, poza ideami i symbolami. Ona jest natychmiastowa. Wszyscy z was mieli wiele, wiele objawień. W jednej chwili po prostu widzisz i wiesz:
 
-*Ach, no tak! No przecież! Wiem!*
+>*Ach, no tak! No przecież! Wiem!*
 
 A następnie pozwalasz temu minąć. Jeśli ktoś zapytałby cię:
 
-*No i co się tu właśnie zadziało?*
+>*No i co się tu właśnie zadziało?*
 
 Wówczas na scenę wchodzi *sztuka* próby komunikacji za pośrednictwem słów i idei, które w jakiś sposób oddałyby to objawienie.
 
-Dlatego nawet najwięksi spośród waszych mistyków, najwspanialsi z waszych nauczycieli, tylko próbowali wyrazić słowami istotę swoich rewolucji lub rewelacji, objawień przebudzenia (gdyż zaprawdę są one również rewolucyjne). Wszystko, co kiedykolwiek powiedziałem, gdy chodziłem po ziemi, wszystko, co kiedykolwiek wam mówiłem, to *zręczna próba*, by użyć symboli w celu wskazania ci kierunku jakiegoś *uczu**cia* objawienia, które zaistniało w mym własnym umyśle Chrystusa. Tak to właśnie się dzieje, nie za wiele możesz z tym zrobić. Próba, by się skomunikować, wymaga komunii, połączenia. A nauczyciel szuka umiejętnej, najdoskonalszej drogi wywołania stanu komunii pomiędzy swym umysłem a umysłem ucznia, po to by przekazać istotę objawienia.
+Dlatego nawet najwięksi spośród waszych mistyków, najwspanialsi z waszych nauczycieli, tylko próbowali wyrazić słowami istotę swoich rewolucji lub rewelacji, objawień przebudzenia (gdyż zaprawdę są one również rewolucyjne). Wszystko, co kiedykolwiek powiedziałem, gdy chodziłem po ziemi, wszystko, co kiedykolwiek wam mówiłem, to *zręczna próba*, by użyć symboli w celu wskazania ci kierunku jakiegoś *uczucia* objawienia, które zaistniało w mym własnym umyśle Chrystusa. Tak to właśnie się dzieje, nie za wiele możesz z tym zrobić. Próba, by się skomunikować, wymaga komunii, połączenia. A nauczyciel szuka umiejętnej, najdoskonalszej drogi wywołania stanu komunii pomiędzy swym umysłem a umysłem ucznia, po to by przekazać istotę objawienia.
 
 Poznanie zatem nie ma nic wspólnego z teologią, religią, ani żadnym tekstem, który kiedykolwiek został spisany. Poznanie lub też Wiedza, jest *natychmiastowa*. Jest to Poznanie przez *bycie* tym, co umysł stara się poznać. 
 
@@ -36,11 +34,11 @@ Gdy dotykasz Umysłu Chrystusa, *wiesz o tym*. Wiesz o tym, ponieważ całość 
 
 Zaprawdę zatem, umiłowani przyjaciele, zrozumcie, że *szukacie Poznania*. A jednak Poznanie wymaga, byś zaczął od uznania, że jesteś Chrystusem. Zawsze pamiętaj, że jest to pierwszy i najbardziej podstawowy akt oczyszczenia. Twój umysł powie ci:
 
-*Nie, jestem nędznym grzesznikiem. Nie, jeszcze tego nie osiągną**łem.*
+>*Nie, jestem nędznym grzesznikiem. Nie, jeszcze tego nie osiągnąłem.*
 
 Oto myślenie egotyczne. Musisz to zauważyć i powiedzieć:
 
-*Nie, to nie może być Prawda o mnie. Prawdą o mnie jest to, że jestem Świętym Synem Boga -- teraz.*
+>*Nie, to nie może być Prawda o mnie. Prawdą o mnie jest to, że jestem Świętym Synem Boga -- teraz.*
 
 Wrzuciłeś do stawu kamyk, który wytworzył fale, które rozpuszczą wzorce lęku wytworzone przez ciebie niegdyś w celu zastąpienia Prawdy.
 
@@ -58,7 +56,7 @@ Zawsze pamiętaj, że świat to usiłowanie umysłu, by wytworzyć *substytut* K
 
 Czemu jest to ważne? Jeśli lęk zamieszkał w umyśle, jeśli jakikolwiek umysł został wprowadzony w trans lęku -- wcale o tym nie wiedząc -- będzie on chwytał się fundamentalnej struktury przekonania, na którym się opiera:
 
-*Jestem winny. Jestem oddzielony od Boga. Muszę tobą manipulować, ponieważ nie mogę ufać Bogu. Nie odnajdę bezpieczeństwa, póki nie wykombinuję, w jaki sposób ukształtować świat, by dał mi to, czego myślę, że potrzebuję.*
+>*Jestem winny. Jestem oddzielony od Boga. Muszę tobą manipulować, ponieważ nie mogę ufać Bogu. Nie odnajdę bezpieczeństwa, póki nie wykombinuję, w jaki sposób ukształtować świat, by dał mi to, czego myślę, że potrzebuję.*
 
 Lęk ma wiele pasierbów i pasierbic. One wszystkie są nienawistne i złośliwe. I w świecie spotkasz się z nienawiścią i złośliwością. Napotkasz się z nią po tysiąc razy *każdego dnia* -- sprzedawca w sklepie, który wydaje się być nieprzytomny, nieobecny duchem, podczas gdy ty wykładasz na ladę swoje zakupy; kierowca, który trąbi na ciebie, ponieważ jedziesz pięć kilometrów na godzinę wolniej, niż on by sobie tego życzył. Wszystkie te przykłady to wyraz szaleństwa lęku. Tam bowiem, gdzie jest Miłość, jest chęć, by się ujawnić i być całkowicie obecnym w ciało-umyśle. Tam, gdzie jest Miłość, jest cierpliwość, zaufanie, przyzwolenie, łaskawość. Świat, w którym żyjesz, przeniknięty jest lękiem -- to on wytwarza ten świat. Nigdy temu nie zaprzeczaj.
 
@@ -70,33 +68,33 @@ Zatem wydarza się właśnie następująca rzecz. Gdy jakikolwiek umysł podejmu
 
 Wyobraź sobie, że jesteś obrońcą zamku. Dookoła zamku masz dwa hektary ziemi. Na peryferiach twych posiadłości, twego królestwa położonych jest kilka niewielkich osad. Gdy przybywa wróg, by zaatakować twój zamek, a ty słyszysz po raz pierwszy, że wróg gromadzi się przy granicach, pojawia się niewielki lęk:
 
-*No cóż, dobrze. To oddamy mu kilka wioseczek. Wielkie mi co! Oddamy Dżyngis-chanowi wioskę na najdalszym krańcu.*
+>*No cóż, dobrze. To oddamy mu kilka wioseczek. Wielkie mi co! Oddamy Dżyngis-chanowi wioskę na najdalszym krańcu.*
 
 Ale im szybciej Dżyngis-chan zbliża się do zamku, tym bardziej niebezpieczny wydaje się być, tym wyżej wznoszone są wały obronne, tym więcej żołnierzy podchodzi, by ustawić się przy twierdzy, tym mocniej przygotowujesz się ze swoimi armatami, pistoletami maszynowymi i co tam jeszcze masz. Zrobisz wszystko, by bronić serca zamku.
 
 Tak naprawdę nigdy nie było żadnego Dżyngis-chana. To jedynie anioły zbliżały się na białych koniach, by przynieść płatki Miłości i uzdrowienia. Przybyły, by nauczyć cię, że nie potrzebujesz wznosić żadnych fortec, że możesz zostawić zamek i żyć na łąkach Królestwa Ojca. Jednak anioły te, przemienione zostają w dzikie potwory, które wyglądają jak Dżyngis-chan i:
 
-*Na pewno przybyły tu, by mnie zniszczyć.*
+>*Na pewno przybyły tu, by mnie zniszczyć.*
 
 Nigdy nie bagatelizuj zajadłości ego. To stanie się raz za razem, raz za razem, i znowu. I z jednej strony egotyczny umysł, który mówi, że jest na duchowej ścieżce, wciągnie się w swoje praktyki, i -- o mój Boże! -- będzie on jedynie mówił, mówił, mówił i mówił, czytał i studiował, i podróżował, i brał udział w warsztatach. Zrobi on to wszystko, nigdy nie uświadomiwszy sobie, że tak naprawdę zajmuje się próbą bronienia swego wewnętrznego zamku -- miejsca, w którym ego nadal ma władzę.
 
 I gdy Miłość zaczyna penetrować i przejmować te wioseczki, podchodzi coraz bliżej. I czasami ta presja staje się nieznośna. Siła ego jest nadal zbyt mocna i odpycha Miłość. Otóż, w jaki sposób odpychasz Miłość? *Nazywając ją* czymś innym. Widząc ją jako Dżyngis-chana:
 
-*Jak śmiesz prosić mnie, bym zakwestionował moje poglądy na seksualność! Przecież ja znam prawdę! Tak musi być!*
+>*Jak śmiesz prosić mnie, bym zakwestionował moje poglądy na seksualność! Przecież ja znam prawdę! Tak musi być!*
 
 A potem ten sam umysł uda się na warsztaty i usłyszy o zaprzeczeniu, projekcji, ataku. Usłyszy o tych wszystkich pięknych teoriach i powie:
 
-*Tak, tak! Hahahaha! No tak, cóż, hm, hm...*
+>*Tak, tak! Hahahaha! No tak, cóż, hm, hm&hellip;*
 
 Ale, o rany! Niech no tylko zagrożony zostanie jego wewnętrzny zamek, a reaktywność podnosi swój łeb, i posyła swych żołnierzy pod mury, by powstrzymały Dżyngis-chana przed wejściem do środka...
 
-Potrzeba wielu, wielu doświadczeń na ścieżce oczyszczenia, by uświadomić sobie, że *tam, gdzie pojawia się reakcja, tam jest lęk*. *To, co nie jest Miłością, jest lękiem*, niczym innym. W każdej chwili, gdy doświadczasz wrogości wobec brata lub siostry, czyli gdy zaczynają działać ci na nerwy, gdy masz z czymś problem lub kłopot... Gdy nie udajesz się bezpośrednio do nich, ale raczej szukasz innych do rozmowy, będziesz szukał w ten sposób wspólników -- tych, których określasz mianem „towarzystwa wzajemnej adoracji":
+Potrzeba wielu, wielu doświadczeń na ścieżce oczyszczenia, by uświadomić sobie, że *tam, gdzie pojawia się reakcja, tam jest lęk*. *To, co nie jest Miłością, jest lękiem*, niczym innym. W każdej chwili, gdy doświadczasz wrogości wobec brata lub siostry, czyli gdy zaczynają działać ci na nerwy, gdy masz z czymś problem lub kłopot&hellip; Gdy nie udajesz się bezpośrednio do nich, ale raczej szukasz innych do rozmowy, będziesz szukał w ten sposób wspólników -- tych, których określasz mianem „towarzystwa wzajemnej adoracji":
 
-*Zbierzmy się tu razem i odśpiewajmy refren na temat tego, co jest nie tak z tamtą osobą. W ten sposób obaj będziemy mieć rację.*
+>*Zbierzmy się tu razem i odśpiewajmy refren na temat tego, co jest nie tak z tamtą osobą. W ten sposób obaj będziemy mieć rację.*
 
 Za każdym razem, gdy myślisz, że masz z kimś na pieńku, i nie idziesz prosto do niego, by omówić to w otwartości, omówić to,  mając na celu wzrost i naukę, bądź pewien, że pospieszyłeś do swego zamku i posłałeś swych żołnierzy pod mury. I *opóźniasz* czas swego uzdrowienia i przebudzenia. Za każdym razem, gdy szukasz wspólników, ty przegrywasz, a zwycięża ego. Dlaczego? Ponieważ zwycięża lęk!
 
-*Ojej, naprawdę mam z tym problem. Kurczę, to, co zrobiłeś, naprawdę działa mi na nerwy. Ale nie powiem ci tego. Pójdę sobie i znajdę kogoś innego, komu również działasz na nerwy. Umówi-\
+>*Ojej, naprawdę mam z tym problem. Kurczę, to, co zrobiłeś, naprawdę działa mi na nerwy. Ale nie powiem ci tego. Pójdę sobie i znajdę kogoś innego, komu również działasz na nerwy. Umówi-\
 my się, by podyskutować o tym, co jest z tobą nie tak, i w ten sposób będziemy bezpieczni.*
 
 Gdzie? W zamku złudzeń.
@@ -115,17 +113,17 @@ Zatem wielu wpierw będzie przyciągniętych do mego przesłania danego za pośr
 
 Dlatego właśnie kiedykolwiek czujesz się atakowany, to, co jest najpierw najważniejsze, to rozpoznać mechanizmy, które się tu rozgrywają.
 
-*Och! Jeśli ktoś mnie atakuje, musi być zalękniony, ponieważ istnieje tylko Miłość lub lęk. Jeśli jest mi wiadome o problemie, który oni mają, a nie przychodzą oni do mnie, by o tym pomówić, to pokazuje jedynie, jak mocno ich życiem rządzi lęk.*
+>*Och! Jeśli ktoś mnie atakuje, musi być zalękniony, ponieważ istnieje tylko Miłość lub lęk. Jeśli jest mi wiadome o problemie, który oni mają, a nie przychodzą oni do mnie, by o tym pomówić, to pokazuje jedynie, jak mocno ich życiem rządzi lęk.*
 
 Zatem pierwsza rzecz tutaj, to *współczucie* i *modlitwa*. Postrzeganie ich jako uzdrowionych, postrzeganie ich w ich pełni i prośba o przewodnictwo:
 
-*Czy powinienem teraz z nimi porozmawiać?*
+>*Czy powinienem teraz z nimi porozmawiać?*
 
 Tak. Nie. Duch Święty da ci znać.
 
 Po drugie, jeśli *czuję się* atakowany, przestanę się *nimi* zajmować, a skupię mą uwagę na sobie samym:
 
-*Cóż takiego we mnie czuje się atakowane?*
+>*Cóż takiego we mnie czuje się atakowane?*
 
 Ponieważ zaatakowana może zostać *tylko* egotyczna tożsamość. Chrystusa nie można zaatakować -- to niemożliwe. Chrystus po prostu się śmieje. Chrystus może podjąć decyzję, by zabrać ciało-umysł od tych, którzy są dla ciało-umysłu niebezpieczni, ale *Chrystus* nigdy nie czuje się atakowany. Tak więc to jest wspaniały podarunek i w tym sensie stali się oni twymi zbawicielami -- nie dlatego, że są oświeceni, ale ponieważ ty możesz użyć tej sytuacji, by głębiej ujrzeć to, czego być może jeszcze się bałeś.
 
@@ -137,15 +135,15 @@ Zatem pamiętaj, że kiedy jesteś atakowany, w swej dłoni trzymasz wspaniały,
 
 Powróćmy teraz do naszej analogii Dżyngis-chana atakującego królestwo; pomyśl o wszystkim jako o wibracji energii. Gdy dwoje ludzi łączy się w związku, lub gdy łączy się tysiąc ludzi, łączą się oni, ponieważ obecny jest pewien określony poziom zgodności lub też rezonansu. Teraz Dżyngis-chan może podejść blisko królestwa i wszyscy w królestwie i w zamku czują się względnie w porządku:
 
-*Tak, tak, no cóż -- wojna toczy się hen tam, na najdalszych rubieżach naszego królestwa. My zaś nadal możemy się bawić. Czy to nie wspaniałe? Jasne, że tak! Hahaha!*
+>*Tak, tak, no cóż -- wojna toczy się hen tam, na najdalszych rubieżach naszego królestwa. My zaś nadal możemy się bawić. Czy to nie wspaniałe? Jasne, że tak! Hahaha!*
 
 Dżyngis-chan się zbliża. I teraz każdy umysł musi podjąć decyzję:
 
-*Czemu jestem oddany?*
+>*Czemu jestem oddany?*
 
 Jeśli na przykład w związku pojawił się konflikt, jeśli jeden umysł w związku odmawia pójścia do drugiego i powiedzenia:
 
-*Kurczę, naprawdę mam problem z tym i z tym. Musimy się w to zagłębić, ponieważ widzę, że jeśli mam problem, to jest tu coś, czego potrzebuję się nauczyć.*
+>*Kurczę, naprawdę mam problem z tym i z tym. Musimy się w to zagłębić, ponieważ widzę, że jeśli mam problem, to jest tu coś, czego potrzebuję się nauczyć.*
 
 Jeśli nie są gotowi -- nie chcą, by to uczynić, dotarli do swego krańca, do tego, co określasz jako „sedno ich przeszkody". Zajrzeli do wnętrza, sytuacja ta wymiotła coś na powierzchnię i teraz oni dokonują wyboru, nie uświadomiwszy sobie nawet, że już go dokonali. Ich decyzją jest bronić swego zamku. Następnie pokręcą się dookoła i cię zostawią. Pokręcą się i stworzą „towarzystwa wzajemnej adoracji", będą bronić, będą atakować, czymkolwiek by to nie było. To wszystko to niegroźna niepoczytalność. Oznacza ona jedynie, że przepuścili szansę i będą musieli powrócić w innym czasie, poprzez boleśniejsze doświadczenia, by spojrzeć na tę właśnie sprawę, przez którą nie chcą teraz przejść. Dotarli do obrzeży swego kręgu lęku. I tego dnia to lęk zwyciężył.
 

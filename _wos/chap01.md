@@ -3,7 +3,7 @@ title: "Księga Pierwsza"
 ---
 
 <div markdown="1" align="center">
-## Księga Pierwsza
+## *Księga Pierwsza*
 
 ![znaczek]({{page.big-separator}})
 

@@ -1,7 +1,7 @@
 ---
 title: "Błogosławieństwo przebaczenia"
 ---
-<div markdown="1" class="chHead">
+<div markdown="1" align="center">
 # Błogosławieństwo przebaczenia
 
 ![znaczek]({{page.big-separator}})

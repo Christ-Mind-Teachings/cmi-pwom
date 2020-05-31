@@ -2,9 +2,10 @@
 title: "Przedmowa"
 ---
 
-<div markdown="1" class="chHead"> 
+<div markdown="1" align="center"> 
 ## Przedmowa
 </div>
+---
 
 Piszę do ciebie z nieco dziwnego miejsca. Z jednej strony byłem kanałem, przez który płynęły te głębokie, niezwykłe i transformujące nauki jako błogosławieństwo dla nas wszystkich. Jednocześnie ja sam nieustannie je przerabiam i jestem uczniem Istoty, która dała je nam wszystkim – uczniem Jeszuy, syna Józefa, który na Zachodzie bardziej znany jest jako „Jezus”, a które to imię jest transliteracją jego oryginalnego aramejskiego imienia.
 

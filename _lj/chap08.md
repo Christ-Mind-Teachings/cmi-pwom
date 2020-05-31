@@ -68,7 +68,7 @@ Jego głos mnie zaskakuje, otwieram nagle oczy.
 
 Boże, tak bardzo kocham to  uczucie Jego obecności i  myślę sobie, jak miło byłoby zwinąć się w  kłębek na  Jego „kolanach” i  spać wiecznie.
 
-> *Zostaniesz obudzony o  3:00 nad ranem i  będziemy kontynu owali.*
+> *Zostaniesz obudzony o  3:00 nad ranem i  będziemy kontynuowali.*
 
 O  trzeciej! Myślałem bardziej o  czasie gdzieś koło dziewiątej albo nawet później. Czuję, jak Jego energia się wycofuje i  szybko zapadam z  powrotem w  sen.
 

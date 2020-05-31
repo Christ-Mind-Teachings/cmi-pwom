@@ -2,13 +2,14 @@
 title: "Znaczenie Wniebowstąpienia"
 ---
 
-
+<div markdown="1" align="center">
 
 # Znaczenie wniebowstąpienia
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
+</div>
 
 Teraz zaczynamy.
 

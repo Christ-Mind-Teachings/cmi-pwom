@@ -14,7 +14,7 @@ Oto podane przez Jeszuę wskazówki odnoszące się do tego jak „słuchać" na
 6.  Później tego samego dnia lub na drugi dzień przepisz z notatnika fragmenty, które pobudziły w tobie te silne uczucia. Zapisz je kilka razy na oddzielnej kartce papieru, ale rób to w stanie niewinności i beztroskiej wesołości.
 7.  Kiedykolwiek zostanie zadane jakieś pytanie, dobrze jest zatrzymać się na chwilę i zastanowić nad nim, zanim będziesz słuchał dalej.
 
-Książka ta jest trzecią częścią trylogii składającej się z *Drogi Serca*, *Drogi Przemiany* i *Drogi Poznania*. Ważne jest, aby przerabiać lekcje w kolejności, w jakiej zostały przekazane. Jeśli nie czytałeś więc jeszcze *Drogi Serca*, gorąco zachęcamy, aby zacząć od tych pozycji, zanim przejdziesz do *Drogi Poznania*.
+Książka ta jest trzecią częścią trylogii składającej się z *Drogi Serca*, *Drogi Przemiany* i *Drogi Poznania*. Ważne jest, aby przerabiać lekcje w kolejności, w jakiej zostały przekazane. Jeśli nie czytałeś więc jeszcze *Drogi Serca* i *Drogi Przemiany*, gorąco zachęcamy, aby zacząć od tych pozycji, zanim przejdziesz do *Drogi Poznania*.
 
 Początkowo Lekcje dane zostały z intencją, by żyć podług każdej z nich i głęboko ją przyswajać przez okres przynajmniej trzydziestu dni. Sam odkryjesz, że każda Lekcja cały czas z tobą pracuje i zabiera cię coraz dalej w podróży twego duchowego przebudzenia.
 

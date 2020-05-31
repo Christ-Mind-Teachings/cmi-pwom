@@ -122,7 +122,7 @@ Jednocześnie bądźcie pewni, że jesteśmy w stanie zapewnić, aby czystość 
 
 Czy to, co powiedzieliśmy, jest pomocne w związku z twoim pytaniem?
 
-**-- **Tak, dziękuję.
+-- Tak, dziękuję.
 
 Zaprawdę tak. Czy masz zatem jeszcze jakieś pytania?
 

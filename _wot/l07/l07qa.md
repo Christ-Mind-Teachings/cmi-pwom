@@ -1,8 +1,8 @@
 ---
-Title: "Lekcja 7. Pytania i odpowiedzi"
+title: "Lekcja 7. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" class="chHead"> 
+<div markdown="1" align="center"> 
 ## Lekcja 7<br>
 Pytania i odpowiedzi
 

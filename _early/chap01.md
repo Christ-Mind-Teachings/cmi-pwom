@@ -2,7 +2,7 @@
 title: "Miłość uzdrawia wszystko"
 ---
 
-<div markdown="1" class="chHead">
+<div markdown="1" align="center">
 # Miłość uzdrawia wszystko
 
 ![znaczek]({{page.big-separator}})

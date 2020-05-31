@@ -1,7 +1,7 @@
 ---
 title: "Błogość niewiedzy"
 ---
-
+<div markdown="1" align="center">
 
 # Błogość niewiedzy
 
@@ -9,7 +9,7 @@ title: "Błogość niewiedzy"
 {: .omit}
 
 
-
+</div>
 
 Teraz zaczynamy.
 

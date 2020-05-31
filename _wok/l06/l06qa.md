@@ -4,23 +4,19 @@ title: "Lekcja 6. Pytania i odpowiedzi"
 
 <div markdown="1" align="center"> 
 ## Lekcja 6<br>
-Pytania i odpowiedzi
+**Pytania i odpowiedzi**
 
 </div>
 
-
-Lekcja 6
-
-Pytania i odpowiedzi
 
 
 **Pytanie 1**
 
 
 
-***Pytanie\*:** Jaka jest różnica pomiędzy *radością* a *przyjemnością*, i dlaczego wiele duchowych tradycji potępia przyjemność?
+***Pytanie*:** Jaka jest różnica pomiędzy *radością* a *przyjemnością*, i dlaczego wiele duchowych tradycji potępia przyjemność?
 
-***Odpowiedź\***: W swej gotowości na to, aby być twórcą, zostałaś zachęcona, by zadać bardzo mądre pytanie. Zaprawdę, istnieje różnica pomiędzy *radością* a *przyjemnością*. W waszym ludzkim wymiarze, wymiarze ciało-umysłu, radość i przyjemność są często bardzo mylone. I w ten sposób umysł daje się nabrać, by szukać *przyjemności*, wierząc, że znajdzie *radość*.
+***Odpowiedź***: W swej gotowości na to, aby być twórcą, zostałaś zachęcona, by zadać bardzo mądre pytanie. Zaprawdę, istnieje różnica pomiędzy *radością* a *przyjemnością*. W waszym ludzkim wymiarze, wymiarze ciało-umysłu, radość i przyjemność są często bardzo mylone. I w ten sposób umysł daje się nabrać, by szukać *przyjemności*, wierząc, że znajdzie *radość*.
 
 Jak więc je rozróżnić pomiędzy sobą?
 
@@ -42,7 +38,7 @@ Radość więc jest przymiotem Poznania. Przyjemność jest fizjologicznym stane
 
 
 
-*Bądź ostrożny. Nie szukaj przyjemności.*
+>*Bądź ostrożny. Nie szukaj przyjemności.*
 
 
 
@@ -54,7 +50,7 @@ Na przykład, w sferze seksualności wielu stara się *używać* ciała, aby *po
 
 
 
-*Widzę cię w twej doskonałej niewinności i chcę to świętować, łącząc się z tobą całym ciałem.* 
+>*Widzę cię w twej doskonałej niewinności i chcę to świętować, łącząc się z tobą całym ciałem.* 
 
 
 
@@ -62,7 +58,7 @@ A zatem Umysł angażuje się w dawanie, a przyjemne stany, które mogą się po
 
 
 
-*No, no! Światła nie rozbłysły, fanfary nie zabrzmiały. To zwyczajnie nie było tak, jak miało być.*
+>*No, no! Światła nie rozbłysły, fanfary nie zabrzmiały. To zwyczajnie nie było tak, jak miało być.*
 
 
 
@@ -72,7 +68,7 @@ Radość jest rozpoznaniem, że:
 
 
 
-*Ja i mój Ojciec Jedno jesteśmy. I we wszelkich kontekstach, mogę wybrać Miłość zamiast lęku.*
+>*Ja i mój Ojciec Jedno jesteśmy. I we wszelkich kontekstach, mogę wybrać Miłość zamiast lęku.*
 
 
 
@@ -100,9 +96,9 @@ Czy macie zatem jeszcze jakieś pytanie?
 
 
 
-***Pytanie\*:** Zarząd Shanti Christo odbył dzisiaj telekonferencję i zapytałam, czy ktoś miałby jakieś pytanie przy okazji tego nagrania. Zaproponowano, abyśmy po prostu zapytali cię, czy mógłbyś opowiedzieć nam – zarządowi oraz członkom Shanti Christo – o kierunku, w którym zmierzamy i o wszystkim, co chciałbyś przekazać na temat częstotliwości wibracji Shanti Christo i co możemy zrobić, by utrzymywać naszą częstotliwość w harmonii z wizją. 
+***Pytanie*:** Zarząd Shanti Christo odbył dzisiaj telekonferencję i zapytałam, czy ktoś miałby jakieś pytanie przy okazji tego nagrania. Zaproponowano, abyśmy po prostu zapytali cię, czy mógłbyś opowiedzieć nam – zarządowi oraz członkom Shanti Christo – o kierunku, w którym zmierzamy i o wszystkim, co chciałbyś przekazać na temat częstotliwości wibracji Shanti Christo i co możemy zrobić, by utrzymywać naszą częstotliwość w harmonii z wizją. 
 
-***Odpowiedź\***: Po pierwsze, częstotliwość wibracji Shanti Christo jest niezmienna, niezmieniająca się i na zawsze taka sama. Po prostu dlatego, że *jest* ona *Pokojem* *Chrystusa*. Lecz pamiętajcie, że pokój w ogóle nie jest biernym stanem. Jest on raczej fundamentem, samym fundamentem mocy, z poziomu którego akceptowany jest kamyk rzucony w toń Woli Boga i z którego poznaje się jego wieczną nieograniczoność – z całą konieczną mocą, aby wykonać *dowolną* rzecz, o jaką jest się poproszonym. Taki umysł jest bardzo potężny. Taki umysł może być niezmiernie aktywny w świecie. Taki umysł pozostaje w pokoju.
+***Odpowiedź***: Po pierwsze, częstotliwość wibracji Shanti Christo jest niezmienna, niezmieniająca się i na zawsze taka sama. Po prostu dlatego, że *jest* ona *Pokojem* *Chrystusa*. Lecz pamiętajcie, że pokój w ogóle nie jest biernym stanem. Jest on raczej fundamentem, samym fundamentem mocy, z poziomu którego akceptowany jest kamyk rzucony w toń Woli Boga i z którego poznaje się jego wieczną nieograniczoność – z całą konieczną mocą, aby wykonać *dowolną* rzecz, o jaką jest się poproszonym. Taki umysł jest bardzo potężny. Taki umysł może być niezmiernie aktywny w świecie. Taki umysł pozostaje w pokoju.
 
 Co więc możesz zrobić *dla* wibracji Shanti Christo? Absolutnie nic. To, co możesz zrobić dla siebie, to chcieć jej jeszcze więcej. W ten sposób wibracja czy częstotliwość Shanti Christo szerzona jest w świecie. Kiedyś powiedziałem, że Miłość zwyczajnie przyciąga poszukiwacza Rzeczywistości do Niej Samej.
 

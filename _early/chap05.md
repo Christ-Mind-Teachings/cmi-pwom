@@ -2,13 +2,14 @@
 title: "Święta chwila"
 ---
 
+<div markdown="1" align="center">
 
 # Święta chwila
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-
+</div>
 
 Teraz zaczynamy.
 

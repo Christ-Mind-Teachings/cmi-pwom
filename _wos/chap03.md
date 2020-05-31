@@ -4,7 +4,7 @@ title: "Księga trzecia"
 
 
 <div markdown="1" align="center">
-## Księga trzecia
+## *Księga trzecia*
 
 ![znaczek]({{page.big-separator}})
 {: .omit}

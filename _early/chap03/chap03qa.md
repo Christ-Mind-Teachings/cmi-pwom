@@ -2,11 +2,13 @@
 title: "Pytania i odpowiedzi"
 ---
 
+<div markdown="1" align="center">
 
 # Błogosławieństwo przebaczenia
 
 ## Pytania i odpowiedzi
 
+</div>
 
 ## Pytanie 1
 

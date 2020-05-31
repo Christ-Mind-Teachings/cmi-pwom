@@ -3,10 +3,11 @@ title: "Wstęp"
 ---
 
 <div markdown="1" align="center">
-## Wstęp
+## *Wstęp*
 </div>
-
-Jest 8 sierpnia 1990 roku. Niedaleko za niewielkim miasteczkiem na południowo-zachodnim wybrzeżu wyspy Hawaje wąska droga wije się od autostrady do niewielkiego, przepięknego miejsca zwanego Keokea. Linia brzegowa w tym miejscu jest nierówna i postrzępiona. Poszarpane klify czerwieni i brązów spadają w morze, odcinając się od linii lasu. Od najbardziej wysuniętych na północ klifów wychodzi w morze coś na kształt mola. Rzucony stos surowych głazów tworzy płytką lagunę w sam raz odpowiednią do pływania dla dzieci. Nie ma białych piaszczystych plaż i, dzięki Bogu, żadnych tłumów turystów piekących się na wspaniałym hawajskim słońcu.
+---
+Jest 8 sierpnia 1990 roku. Niedaleko za niewielkim miasteczkiem na południowo-zachodnim 
+wybrzeżu wyspy Hawaje wąska droga wije się od autostrady do niewielkiego, przepięknego miejsca zwanego Keokea. Linia brzegowa w tym miejscu jest nierówna i postrzępiona. Poszarpane klify czerwieni i brązów spadają w morze, odcinając się od linii lasu. Od najbardziej wysuniętych na północ klifów wychodzi w morze coś na kształt mola. Rzucony stos surowych głazów tworzy płytką lagunę w sam raz odpowiednią do pływania dla dzieci. Nie ma białych piaszczystych plaż i, dzięki Bogu, żadnych tłumów turystów piekących się na wspaniałym hawajskim słońcu.
 
 W pobliżu samego centrum parku przedzierając się przez gęste listowie zakolami wije się strumień. Kąpałem się tu wczoraj, po tym jak doszedłem na tyle daleko w górę strumienia, że znalazłem ustronne miejsce. Zanurzyłem ciało w chłodnej wodzie, a następnie usiadłem na skale, pozwalając, by ciepła pieszczota łagodnej bryzy suszyła moją skórę, gdy ja wdychałem głęboko słodki zapach kwitnących drzew.
 

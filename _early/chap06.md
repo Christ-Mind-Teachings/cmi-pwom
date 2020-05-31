@@ -2,14 +2,14 @@
 title: "Boska Kobiecość"
 ---
 
-
+<div markdown="1" align="center">
 
 # Boska Kobiecość
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-
+</div>
 
 Teraz możemy zacząć.
 

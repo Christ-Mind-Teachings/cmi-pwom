@@ -1,10 +1,13 @@
 ---
 title: "Pytania i odpowiedzi"
 ---
+<div markdown="1" align="center">
 
 # Mistrzostwo komunikacji
 
 ## Pytania i odpowiedzi
+
+</div>
 
 ## Pytanie 1
 

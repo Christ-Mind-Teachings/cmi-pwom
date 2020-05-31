@@ -4,26 +4,23 @@ title: "Lekcja 4. Pytania i odpowiedzi"
 
 <div markdown="1" align="center"> 
 ## Lekcja 4<br>
-Pytania i odpowiedzi
+**Pytania i odpowiedzi**
 
 </div>
 
 
-Lekcja 4
-
-Pytania i odpowiedzi
 
 **Pytanie 1**
 
-***Pytanie:* **Jeszuo, w Kursie Cudów mówisz coś o „Wielkich Promieniach Światła". O co w tym chodzi?
+***Pytanie:*** Jeszuo, w Kursie Cudów mówisz coś o „Wielkich Promieniach Światła". O co w tym chodzi?
 
-***Odpowiedź:* **Zaprawdę umiłowany przyjacielu, nie poświęciłem w *Kursie* wiele czasu, by postarać się to zdefiniować. Wielkie Promienie Światła po prostu odnoszą się do Prawdy o każdym z nas, bez wyjątku. W ten sposób, ujmując to jako metaforę, twój Stwórca jest niczym Centralne Słońce, a  Promienie Światła rzucane są z wezbranej i rozlewającej się obfitości Słońca. I te Promienie Światła są uczynione z tej samej substancji co Światło. A jednak zachodzi coś niepojętego. Każdy Promień Światła może być, w pewnym sensie, widziany jako samoistny w swej relacji z Centralnym Słońcem. Jest uczyniony z tej samej substancji, co każdy Wielki Promień Światła, a każdy Promień Światła ma swój własny czysty potencjał tworzenia doświadczenia. Wielkie Promienie Światła odnoszą się więc do istoty każdej duszy, bez wyjątku. Albowiem dusza jest nieskończonym Promieniem Światła -- wiecznym, nieograniczonym, niezrodzonym i nieśmiertelnym. 
+***Odpowiedź:*** Zaprawdę umiłowany przyjacielu, nie poświęciłem w *Kursie* wiele czasu, by postarać się to zdefiniować. Wielkie Promienie Światła po prostu odnoszą się do Prawdy o każdym z nas, bez wyjątku. W ten sposób, ujmując to jako metaforę, twój Stwórca jest niczym Centralne Słońce, a  Promienie Światła rzucane są z wezbranej i rozlewającej się obfitości Słońca. I te Promienie Światła są uczynione z tej samej substancji co Światło. A jednak zachodzi coś niepojętego. Każdy Promień Światła może być, w pewnym sensie, widziany jako samoistny w swej relacji z Centralnym Słońcem. Jest uczyniony z tej samej substancji, co każdy Wielki Promień Światła, a każdy Promień Światła ma swój własny czysty potencjał tworzenia doświadczenia. Wielkie Promienie Światła odnoszą się więc do istoty każdej duszy, bez wyjątku. Albowiem dusza jest nieskończonym Promieniem Światła -- wiecznym, nieograniczonym, niezrodzonym i nieśmiertelnym. 
 
 Lecz jest jeszcze jeden poziom. A to po prostu oznacza, że Wielkie Promienie Światła są niczym sfera idei. Idee, każda z nich, niosą ze sobą pewną wibrację czy jakość. Wielkie Promienie Światła są takimi wielkimi ideami, wielkimi wizjami. Na przykład, *przebaczenie* jest jednym z Wielkich Promieni Światła. Osąd jest wypaczeniem Światła. *Nieograniczoność* jest kolejnym Wielkim Promieniem Światła. Lęk, zaciśnięcie i ograniczenie są wypaczeniem tego Światła. Można pomyśleć i wymieniać wiele innych: *współczucie* zamiast kontroli, *ufność* zamiast lęku i tak dalej. 
 
 Zatem Wielkie Promienie Światła również odnoszą się do *tych idei, które uwalniają umysł*, idei, które są *wieczne* i znajdują się w każdej formie Uniwersalnego Programu Nauczania. Zaprawdę, każdy z was, bez wyjątku, który słucha tych słów *jest* Wielkim Promieniem. A Wielkie Promienie istnieją i istniały *wraz* *z* tym jednym Centralnym Słońcem poprzez całą wieczność. Oto Prawda o twoim istnieniu i jest to prawdopodobnie najbardziej fundamentalna Prawda, która musi się pojawić jako Poznanie w umyśle:
 
-*JESTEM WIELKIM PROMIENIEM ŚWIATŁA -- nieograniczonym, wiecznym, niezrodzonym i nieśmiertelnym! I choćbym nie wiem jak się starał, nie mogę uciec od faktu, że jestem twórcą i współtwórcą. A zatem może już czas, abym przestał udawać, że jestem czymś mniejszym od Wielkiego Promienia i zabrał się za odkrywanie, w jaki sposób mogę pozwolić temu Światłu jaśnieć -- nawet w tym świecie. *
+>*JESTEM WIELKIM PROMIENIEM ŚWIATŁA -- nieograniczonym, wiecznym, niezrodzonym i nieśmiertelnym! I choćbym nie wiem jak się starał, nie mogę uciec od faktu, że jestem twórcą i współtwórcą. A zatem może już czas, abym przestał udawać, że jestem czymś mniejszym od Wielkiego Promienia i zabrał się za odkrywanie, w jaki sposób mogę pozwolić temu Światłu jaśnieć -- nawet w tym świecie.*
 
 Czy to wyjaśnienie pomogło ci w kwestii tego pytania?
 
@@ -31,9 +28,9 @@ Czy to wyjaśnienie pomogło ci w kwestii tego pytania?
 
 **Pytanie 2**
 
-***Pytanie:* **Mówisz, że każdy jest Chrystusem, a jednak nawet pomiędzy najbardziej oświeconymi istotami są, jak się wydaje, pewne różnice. Czy każdy ma swą *niepowtarzalną istotę duszy*?
+***Pytanie:*** Mówisz, że każdy jest Chrystusem, a jednak nawet pomiędzy najbardziej oświeconymi istotami są, jak się wydaje, pewne różnice. Czy każdy ma swą *niepowtarzalną istotę duszy*?
 
-***Odpowiedź:* **Tak naprawdę jest to bardzo podchwytliwe pytanie. Albowiem różnice są skutkiem postrzegania. Oznacza to, że dziesięciu ludzi patrząc na dwie oświecone istoty, może widzieć dowolną liczbę różnic. Niektóre z tych różnic będą projekcją ich własnych upodobań i niechęci i dlatego też będą dochodzili do wniosku, że jedna oświecona istota jest bardziej oświecona od tej drugiej, co jest oczywiście wewnętrzną sprzecznością.
+***Odpowiedź:*** Tak naprawdę jest to bardzo podchwytliwe pytanie. Albowiem różnice są skutkiem postrzegania. Oznacza to, że dziesięciu ludzi patrząc na dwie oświecone istoty, może widzieć dowolną liczbę różnic. Niektóre z tych różnic będą projekcją ich własnych upodobań i niechęci i dlatego też będą dochodzili do wniosku, że jedna oświecona istota jest bardziej oświecona od tej drugiej, co jest oczywiście wewnętrzną sprzecznością.
 
 Jednakże wielkim paradoksem jest to, że choć Umysł jest jeden, Światło jest jedno, Świadomość jest jedna, Miłość jest jedna, to jednak Stworzenie wymaga zróżnicowania, innymi słowy, *stworzenie* wymaga *relacji*. Nie jest możliwym, by *poznać* jakąś rzecz, nawet być jej świadomym, o ile nie masz świadomości, że jest to ta rzecz a nie *inna*. Czy ma to dla ciebie sens? Jeśli byłaby tylko jedna rzecz, ta jedna rzecz nie byłaby świadoma samej siebie, ponieważ byłaby wszystkim, co jest. Zaczynasz być świadomy samego siebie, poznając, jak *różnisz* się od kwiatu. Czyż nie jest to prawda? Zaprawdę jest. Dlatego też, choć jesteś uczyniony z tej samej substancji co kwiat, istnieje *różnica* w wyrażaniu się formy.
 

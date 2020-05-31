@@ -2,13 +2,14 @@
 title: "Śmierć i zmiany na Ziemi"
 ---
 
+<div markdown="1" align="center">
 
 # Śmierć i zmiany na Ziemi
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-
+</div>
 
 Teraz zaczynamy.
 

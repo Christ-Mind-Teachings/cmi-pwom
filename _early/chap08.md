@@ -2,11 +2,14 @@
 title: "Niebo na Ziemi"
 ---
 
+<div markdown="1" align="center">
+
 # Niebo na ziemi
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
+</div>
 
 Teraz zaczynamy.
 

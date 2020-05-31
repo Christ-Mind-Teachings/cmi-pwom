@@ -48,7 +48,7 @@ collections:
   wot:
     output: true
     title: Droga Przemiany,
-  wot:
+  wok:
     output: true
     title: Droga Poznania,
   early:
