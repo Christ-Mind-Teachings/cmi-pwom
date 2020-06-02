@@ -5674,6 +5674,11 @@ function scrollIntoView(id, caller) {
   }, type => {
     scrollComplete(`scroll from url.js ${caller}(${id})`, type);
   });
+} //remove query string from url
+
+
+function resetUrl() {
+  history.replaceState({}, document.title, location.origin + location.pathname);
 } //called when query request is complete
 
 
@@ -5686,6 +5691,7 @@ function loadStart() {
 
   if (aInfo) {
     $("#transcript-page-loading").addClass("active");
+    resetUrl();
   }
 }
 /*
@@ -5700,6 +5706,7 @@ function showParagraph() {
 
   if (pId) {
     setTimeout(scrollIntoView, INTERVAL, pId, "showParagraph");
+    resetUrl();
   }
 }
 /*
@@ -5718,6 +5725,7 @@ function showBookmark() {
   let pId = getQueryString("bkmk");
 
   if (pId) {
+    resetUrl();
     return pId;
   }
 
@@ -5727,7 +5735,7 @@ function showSearchMatch() {
   let pId = getQueryString("srch");
 
   if (pId) {
-    //setTimeout(scrollIntoView, INTERVAL, pId, "showSearchMatch");
+    resetUrl();
     return pId;
   }
 
@@ -5737,6 +5745,7 @@ function showAnnotation() {
   let aInfo = getQueryString("as");
 
   if (aInfo) {
+    resetUrl();
     return aInfo;
   }
 
@@ -5750,6 +5759,7 @@ function getUser() {
   let user = getQueryString("user");
 
   if (user) {
+    resetUrl();
     return user;
   }
 
@@ -6697,7 +6707,7 @@ module.exports = {
     woh2: ["xxx", "/l01qa", "/l02qa", "/l06qa", "/l07qa", "/l08qa", "/l09qa", "/l10qa", "/l11qa", "/l12qa"],
     wot: ["xxx", "advice", "preface", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12", "path"],
     wot2: ["xxx", "/l01qa", "/l06qa", "/l07qa", "/l09qa", "/l11qa"],
-    wok: ["xxx", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11"],
+    wok: ["xxx", "advice", "preface", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "path"],
     wok2: ["xxx", "/l02qa", "/l03qa", "/l04qa", "/l06qa", "/l10qa"],
     early: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "path"],
     early2: ["xxx", "/chap02qa", "/chap03qa", "/chap08qa", "/chap09qa"]
@@ -6717,12 +6727,12 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "status", function() { return status; });
 const status = {
-  lj: "pon 25 maj 22:01:18 2020 CEST",
-  wos: "pon 25 maj 21:57:51 2020 CEST",
-  woh: "wto 26 maj 10:24:08 2020 CEST",
-  wot: "pon 25 maj 21:23:40 2020 CEST",
-  wok: "ptk 29 maj 15:25:12 2020 CEST",
-  early: "wto 26 maj 13:35:48 2020 CEST"
+  lj: "Wed May 27 23:01:04 HST 2020",
+  wos: "Tue May 26 22:53:45 HST 2020",
+  woh: "Mon Jun  1 22:27:34 HST 2020",
+  wot: "Sat May 23 10:16:42 HST 2020",
+  wok: "Sun May 31 12:19:09 HST 2020",
+  early: "Tue May 26 22:56:53 HST 2020"
 };
 
 /***/ }),
@@ -6746,13 +6756,33 @@ __webpack_require__.r(__webpack_exports__);
 
 const uiTocModal = ".toc.ui.modal";
 const uiOpenTocModal = ".toc-modal-open";
-const uiModalOpacity = 0.5; //generate html for questions
+const uiModalOpacity = 0.5;
+const tocString = "Spis treści";
+/*
+* If there is timing or a timer defined for a toc item
+* set the class accordingly. A clock icon is displayed
+* info.timing, a user icon when info.timer and no icon
+* otherwise.
+*/
+
+function getTimerClass(info) {
+  if (info.timing) {
+    return " __timing";
+  }
+
+  if (info.timer) {
+    return " __timer";
+  }
+
+  return "";
+} //generate html for questions
+
 
 function renderSubcontents(contents, c) {
   //<div class="list">
   return `
     <div class="list">
-      ${contents.map(q => `<a data-lid="${++c.counter}" class="item" href="${q.url}">${q.title}</a>`).join("")}
+      ${contents.map(q => `<a data-lid="${++c.counter}" class="item${getTimerClass(q)}" href="${q.url}">${q.title}</a>`).join("")}
     </div>
   `;
 } //generate html for Contents
@@ -6772,7 +6802,7 @@ function makeContents(contents, type) {
     <div class="${klass}">
       ${contents.map(unit => `
         <div class="item">
-          <a data-lid="${++c.counter}" href="${unit.url}">${unit.title}</a>
+          <a data-lid="${++c.counter}" class="item${getTimerClass(unit)}" href="${unit.url}">${unit.title}</a>
           ${unit.contents ? renderSubcontents(unit.contents, c) : ""}
         </div>
       `).join("")}
@@ -6786,13 +6816,13 @@ function loadTOC() {
   let book = $("#contents-modal-open").attr("data-book").toLowerCase();
   Object(_config_config__WEBPACK_IMPORTED_MODULE_1__["getConfig"])(book).then(contents => {
     $(".toc-image").attr("src", `${contents.image}`);
-    $(".toc-title").html(`Table of Contents: <em>${contents.title}</em>`);
+    $(".toc-title").html(`${tocString}: <em>${contents.title}</em>`);
     $(".toc-list").html(makeContents(contents.contents, contents.toc || ""));
     highlightCurrentTranscript(contents.bid, contents.totalPages);
   }).catch(error => {
     console.error(error);
     $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
-    $(".toc-title").html("Table of Contents: <em>Error</em>");
+    $(".toc-title").html("${tocString}: <em>Error</em>");
     $(".toc-list").html(`<p>Error: ${error.message}</p>`);
     $(uiTocModal).modal("show");
   });
@@ -6899,13 +6929,13 @@ function getBookId() {
         Object(_config_config__WEBPACK_IMPORTED_MODULE_1__["getConfig"])(book).then(contents => {
           let share_url = `${location.origin}${location.pathname}?tocbook=${book}`;
           $(".toc-image").attr("src", `${contents.image}`);
-          $(".toc-title").html(`<i data-clipboard-text="${share_url}" title="Copy to Clipboard" class="tiny share alternate icon toc-share"></i>&nbsp;Table of Contents: <em>${contents.title}</em>`);
+          $(".toc-title").html(`<i data-clipboard-text="${share_url}" title="Copy to Clipboard" class="tiny share alternate icon toc-share"></i>&nbsp;${tocString}: <em>${contents.title}</em>`);
           $(".toc-list").html(makeContents(contents.contents, contents.toc || ""));
           $(uiTocModal).modal("show");
           www_modules_bookmark_clipboard__WEBPACK_IMPORTED_MODULE_2__["default"].register(".share.icon.toc-share");
         }).catch(error => {
           $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
-          $(".toc-title").html("Table of Contents: <em>Error</em>");
+          $(".toc-title").html("${tocString}: <em>Error</em>");
           $(".toc-list").html(`<p>Failed to get configuration file ${book}.json`);
           $(uiTocModal).modal("show");
         });

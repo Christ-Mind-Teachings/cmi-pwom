@@ -6,12 +6,30 @@ const uiTocModal = ".toc.ui.modal";
 const uiOpenTocModal = ".toc-modal-open";
 const uiModalOpacity = 0.5;
 
+const tocString = "Spis treści";
+
+/*
+* If there is timing or a timer defined for a toc item
+* set the class accordingly. A clock icon is displayed
+* info.timing, a user icon when info.timer and no icon
+* otherwise.
+*/
+function getTimerClass(info) {
+  if (info.timing) {
+    return " __timing";
+  }
+  if (info.timer) {
+    return " __timer";
+  }
+  return "";
+}
+
 //generate html for questions
 function renderSubcontents(contents, c) {
     //<div class="list">
   return `
     <div class="list">
-      ${contents.map(q => `<a data-lid="${++c.counter}" class="item" href="${q.url}">${q.title}</a>`).join("")}
+      ${contents.map(q => `<a data-lid="${++c.counter}" class="item${getTimerClass(q)}" href="${q.url}">${q.title}</a>`).join("")}
     </div>
   `;
 }
@@ -28,7 +46,7 @@ function makeContents(contents, type) {
     <div class="${klass}">
       ${contents.map(unit => `
         <div class="item">
-          <a data-lid="${++c.counter}" href="${unit.url}">${unit.title}</a>
+          <a data-lid="${++c.counter}" class="item${getTimerClass(unit)}" href="${unit.url}">${unit.title}</a>
           ${unit.contents ? renderSubcontents(unit.contents, c) : ""}
         </div>
       `).join("")}
@@ -44,7 +62,7 @@ function loadTOC() {
   getConfig(book)
     .then((contents) => {
       $(".toc-image").attr("src", `${contents.image}`);
-      $(".toc-title").html(`Table of Contents: <em>${contents.title}</em>`);
+      $(".toc-title").html(`${tocString}: <em>${contents.title}</em>`);
 
       $(".toc-list").html(makeContents(contents.contents, contents.toc || ""));
       highlightCurrentTranscript(contents.bid, contents.totalPages);
@@ -52,7 +70,7 @@ function loadTOC() {
     .catch((error) => {
       console.error(error);
       $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
-      $(".toc-title").html("Table of Contents: <em>Error</em>");
+      $(".toc-title").html("${tocString}: <em>Error</em>");
       $(".toc-list").html(`<p>Error: ${error.message}</p>`);
       $(uiTocModal).modal("show");
     });
@@ -163,7 +181,7 @@ export default {
             let share_url=`${location.origin}${location.pathname}?tocbook=${book}`;
 
             $(".toc-image").attr("src", `${contents.image}`);
-            $(".toc-title").html(`<i data-clipboard-text="${share_url}" title="Copy to Clipboard" class="tiny share alternate icon toc-share"></i>&nbsp;Table of Contents: <em>${contents.title}</em>`);
+            $(".toc-title").html(`<i data-clipboard-text="${share_url}" title="Copy to Clipboard" class="tiny share alternate icon toc-share"></i>&nbsp;${tocString}: <em>${contents.title}</em>`);
             $(".toc-list").html(makeContents(contents.contents, contents.toc || ""));
             $(uiTocModal).modal("show");
 
@@ -171,7 +189,7 @@ export default {
           })
           .catch((error) => {
             $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
-            $(".toc-title").html("Table of Contents: <em>Error</em>");
+            $(".toc-title").html("${tocString}: <em>Error</em>");
             $(".toc-list").html(`<p>Failed to get configuration file ${book}.json`);
             $(uiTocModal).modal("show");
           });

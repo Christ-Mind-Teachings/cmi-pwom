@@ -99,7 +99,7 @@ defaults:
       image-width: 612
       image-height: 877
       bid: "WOH"
-      audio: false
+      audio: true
 
   - scope:
       path: ""

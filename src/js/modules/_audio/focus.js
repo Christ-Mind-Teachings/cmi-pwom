@@ -10,6 +10,7 @@ import {fetchTimingData} from "../_config/config";
 import _findLastIndex from "lodash/findLastIndex";
 import _map from "lodash/map";
 import {setCaptureData} from "./capture";
+import notify from "toastr";
 
 //paragraph timing array assigned on module initialization
 let timingData = null;
@@ -180,7 +181,10 @@ function getTime(idx) {
     return 60 * 60 * 24; //return a big number
   }
   else {
-    //console.log("getTime(%s)", idx);
+    let dataPoint = timingData[idx];
+    if (dataPoint.note) {
+      notify.info(dataPoint.note);
+    }
     return timingData[idx].seconds;
   }
 }

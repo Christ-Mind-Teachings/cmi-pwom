@@ -1779,12 +1779,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash_map__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/map */ "./node_modules/lodash/map.js");
 /* harmony import */ var lodash_map__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_map__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _capture__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./capture */ "./src/js/modules/_audio/capture.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_5__);
 /*
   highlight and scroll paragraph being spoken during audio playback
 
   Supports:
     play-from-here
 */
+
 
 
 
@@ -1952,7 +1955,12 @@ function getTime(idx) {
   if (idx < 0 || idx >= timingData.length) {
     return 60 * 60 * 24; //return a big number
   } else {
-    //console.log("getTime(%s)", idx);
+    let dataPoint = timingData[idx];
+
+    if (dataPoint.note) {
+      toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(dataPoint.note);
+    }
+
     return timingData[idx].seconds;
   }
 }

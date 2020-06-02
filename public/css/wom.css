@@ -106,3 +106,12 @@
 .transcript.wos .quote { 
   margin-left: 20px;
  }
+
+a.item.__timing::after {
+  content: " 🕙";
+}
+
+a.item.__timer::after {
+  content: " 👤";
+}
+
