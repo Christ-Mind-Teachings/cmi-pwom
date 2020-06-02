@@ -3,6 +3,7 @@ title: "Posłowie"
 ---
 
 <div markdown="1" align="center">
+&nbsp;
 ## *Posłowie* 
 </div>
 ---
@@ -92,4 +93,6 @@ na moją pamiątkę.<br>
 <p class="i1">zawsze</p>
 <p class="i2">z</p>
 <p class="i3">wami &hellip;</p>
+
+&nbsp;
 

@@ -4,6 +4,7 @@ title: "Księga czwarta"
 
 
 <div markdown="1" align="center">
+&nbsp;
 ## *Księga czwarta*
 
 ![znaczek]({{page.big-separator}})
@@ -347,4 +348,5 @@ i odwieczny <br>
 przyjacielu.<br>
 *Amen*
 
+&nbsp;
 

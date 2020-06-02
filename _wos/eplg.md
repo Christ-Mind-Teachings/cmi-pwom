@@ -5,10 +5,14 @@ title: "Epilog"
 
 <div markdown="1" align="center">
 
-## *EPILOG*
+&nbsp;
+
+## *Epilog*
 
 </div>
----
+
+&nbsp;
+
 **MIŁOŚĆ**. Miłość *naprawdę* płynie z każdym oddechem, jaki bierzemy, i z moich doświadczeń z Jeszuą nauczyłem się, że Miłość *rzeczywiście* pragnie być słyszana w każdym wypowiedzianym słowie. Jeszua jest w tym mistrzem, lecz jego mistrzostwo nie stawia Go ponad nami. Będzie czekał cierpliwie, wedle naszego postrzegania trochę nas wyprzedzając, aż w końcu rozpoznamy, że czeka na nas i zawsze na nas czekał nasz wybór Miłości. Jest to wybór, przy którym wszystkie inne opcje znikają. Wybór, który w ostatecznym rozrachunku rzeczywiście objawia się naszym przebudzonym umysłom jako *wybór bez alternatyw*. Czy istniał kiedykolwiek jakiś inny realny wybór?
 
 Miłość może wydawać się tak bardzo przerażająca! Wymaga ona głębokiego rozpoznania, że przeszłość *przeminęła*. Wymaga od nas, abyśmy powrócili do domu, do *tej* teraźniejszej chwili, wyrzekając się naszej potrzeby posiadania racji, naszej skłonności do obwiniania, a nade wszystko, byśmy przyjęli pełną odpowiedzialność za wszystko, co myślimy, czujemy, mówimy i czynimy. Musi to również oznaczać, że akceptujemy odpowiedzialność za *świat, który widzimy.* Jeśli świat się nie zmienia, musi to oznaczać, że my też się nie zmieniamy!

@@ -278,3 +278,4 @@ Idę do  samolotu, który zabiera mnie z  tej wyspy, którą kocham,  i  wiezi
 „Wkroczyliście do  kraju Borgów. Mamy pełną kontrolę nad waszym statkiem. Opór jest daremny”.
 
 Kapitanie Kirk, chyba wiem, jak musiałeś się czuć. Do  widzenia Maui.
+

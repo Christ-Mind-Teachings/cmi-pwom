@@ -4,7 +4,7 @@ environment: integration
 destination: "../cmi-www/t/pwom"
 
 sourceId: 16
-cmiTitle: "Teachings of Christ Mind"
+cmiTitle: "Nauki Umysłu Chrystusa"
 
 # Setup
 title:        'Droga Mistrzostwa'

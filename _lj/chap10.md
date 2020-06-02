@@ -155,3 +155,5 @@ Kendra ściska mocno niebieski segregator, z  czułością tuląc go do  piersi.
 Kiwam głową, wyrażając zgodę. Gdybym wówczas wiedział, co ma  to  wkrótce oznaczać, moje kiwnięcie byłoby stanowczym „nie”!
 
 Spoglądamy na  siebie w  ciszy jeszcze przez chwilę, po  czym przytulamy się bardzo długo, a  następnie ruszam na  lotnisko.
+
+&nbsp;

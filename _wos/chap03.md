@@ -4,6 +4,7 @@ title: "Księga trzecia"
 
 
 <div markdown="1" align="center">
+&nbsp;
 ## *Księga trzecia*
 
 ![znaczek]({{page.big-separator}})
@@ -639,3 +640,5 @@ a *ego* pozostanie na tronie.
 Zapytam cię ponownie:
 
 >*Czego tak naprawdę* **chcesz***?*
+
+&nbsp;

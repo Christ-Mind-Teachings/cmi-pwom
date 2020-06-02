@@ -48,8 +48,8 @@ wstrzymana na prośbę Jeszuy. To, co teraz zostało dodane, znalazło się
 tutaj również za Jego radą. Mogę tylko założyć, że przyszedł na to
 właściwy czas.
 
-<div align="right">
-Jayem
-</div>
+>Jayem
+
+&nbsp;
 
 

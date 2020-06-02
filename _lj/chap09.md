@@ -91,4 +91,5 @@ Energia przepływa przeze mnie, gdy wyciągam z  szafy walizkę.
 Pojawia mi  się myśl, aby wydrukować pierwszą wersję *Listów Jeszuy*. Wszystko się dzieje, jakby w  filmie i  widzę w  nim siebie, jak dostarczam Kendrze wydruk w  drodze na  lotnisko.
 
 Tydzień później z  rękopisem pod pachą wspinam się po  schodach do  jej drzwi.
+&nbsp;
 

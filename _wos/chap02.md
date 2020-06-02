@@ -3,6 +3,7 @@ title: "Księga druga"
 ---
 
 <div markdown="1" align="center">
+&nbsp;
 ## *Księga druga*
 ![znaczek]({{page.big-separator}})
 {: .omit}
@@ -746,3 +747,5 @@ jest cechą prawdziwej służby<br>
 i odzwierciedla w tym świecie<br>
 Miłość, która rodzi na wieczność<br>
 święte i jednorodzone dziecko Boga.
+
+&nbsp;

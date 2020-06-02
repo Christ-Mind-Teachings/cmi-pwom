@@ -39,7 +39,11 @@ Najpierw chcę się z  tobą podzielić swymi odczuciami<br>
 dotyczącymi twej obecnej sytuacji życiowej.<br>
 Myślę, że wiesz, co  mam na  myśli.*
 
+</div>
+
 „No, cóż, jeśli nie wiem, to  jestem pewien, że zostanie mi  to  wyjaśnione!”
+
+<div markdown="1" class="indent">
 
 *Tak, zostanie.<br>
 Twoja wątpliwość co  do  prawdziwości<br>
@@ -54,7 +58,11 @@ zaprzeczać swemu istnieniu.<br>
 Albowiem zaprzeczać części, to  zaprzeczać całości.<br>
 Waga tego jest przeogromna.*
 
+</div>
+
 „Dlaczego?”
+
+<div markdown="1" class="indent">
 
 *Po  prostu dlatego, że zawiera się w  tym zaprzeczenie<br>
 twemu własnemu Synostwu.<br>
@@ -87,7 +95,11 @@ Miecz rozszczepia to, w  co  uderza.<br>
 Rozdziela całość na  części<br>
 i  skutecznie powstrzymuje tego, w  kogo uderza.*
 
+</div>
+
 „Jeszua, czasami – nawet teraz, gdy piszę w  pośpiechu te słowa –  lękam się tego wszystkiego. Dlaczego?”
+
+<div markdown="1" class="indent">
 
 *To  jest dobre pytanie, Marc.<br>
 **Dlaczego** się tego lękasz?<br>
@@ -108,7 +120,11 @@ przywraca Syna Ojcu,<br>
 to  czyż tym, co  utrzymuje przekonanie o  oddzieleniu,<br>
 nie musi być **opieranie się**?*
 
+</div>
+
 „Brzmi to  dość prawdziwie”.
+
+<div markdown="1" class="indent">
 
 *I  musi być prawdą.*
 
@@ -624,7 +640,7 @@ Kontynuuję czytanie, aż dochodzę do  wersetu 23:
 
 <div markdown="1" class="indent">
 
-Teraz zaczynamy.*
+*Teraz zaczynamy.*
 
 *Będę dziś rozmawiał z  tobą*<br>
 *o  chwale,*<br>
@@ -815,13 +831,21 @@ Nagle znów czuję tę zmianę w  energii:
 *czy też zwyczajny opór przed oczywistością*<br>
 *przywodzi takie pytania?*
 
+</div>
+
 „Cóż, myślę, że to  mój opór.”
+
+<div markdown="1" class="indent">
 
 *Tak, **tylko** o  to  tu  chodzi.*<br>
 *A  czemu się opierasz?*<br>
 *Właśnie temu Życiu, którego zawsze szukałeś?*
 
+</div>
+
 „W  istocie, coś we  mnie stawia opór. Myślę, że się tego lękam”.
+
+<div markdown="1" class="indent">
 
 *To, czym chcę się tego wieczoru podzielić z  tobą,*<br>
 *przyniesie kres twemu oporowi,*<br>
@@ -875,7 +899,11 @@ Nagle znów czuję tę zmianę w  energii:
 *które nieuchronnie musi się zestarzeć.*<br>
 *Odłóż je  na  bok, tak jak dziecko odkłada starą zabawkę.*
 
+</div>
+
 „Ale czy nie jest to  zaprzeczaniem życiu?”
+
+<div markdown="1" class="indent">
 
 *W  złudzeniach nie ma  żadnego życia.*<br>
 *Twe pytanie wyraża twój opór.*<br>
@@ -939,7 +967,11 @@ Nagle znów czuję tę zmianę w  energii:
 *Albowiem tam, gdzie jest wiara **w**  Boga,*<br>
 *tam jest Oddzielenie **od**  wszystkiego, czym Bóg jest.*
 
+</div>
+
 „Tego już za  dużo. Z  pewnością sam muszę sobie to  wszystko wymyślać”.
+
+<div markdown="1" class="indent">
 
 *Oczywiście, że ty  to  wymyślasz.*<br>
 *Ten „ty”, który jest jednorodzonym Synem Ojca,*<br>
@@ -1143,3 +1175,5 @@ Jak to  się dzieje, że mam tak silną wolę, by  opierać się właśnie temu 
 Zaczynam rozpoznawać doniosłość przekazu Jeszuy. Dotyka on mego umysłu miękko, przelotnie, jak promień słońca, który znajduje szczelinę w  nieboskłonie chmur i  zaskakuje mnie swym nagłym światłem, skrywając je  jednak w  chwili, gdy wyglądam przez okno z  nadzieją przyjrzenia mu się bliżej.
 
 Zobaczyć to  Światło bezpośrednio, niczym nie przesłonięte – z  pewnością jest to  niezrównany cel! Jednak nie widzę wyraźnie woalu, który je  skrywa, ani też nie jestem pewien, jak ten woal usunąć. Jestem ponaglany przez nieznaną siłę we  mnie, co  dzieje się pozornie wbrew mnie. Czy wyparłem się mej prawdziwej tożsamości po  to, by  utożsamić się z  „ja”, którym *nie* jestem?
+
+&nbsp;

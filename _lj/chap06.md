@@ -51,7 +51,7 @@ znajdzie się na  swoim miejscu. A  wówczas&hellip; wolność!
 
 Kilkakrotnie odczuwałem obecność Jeszuy. Właśnie wczoraj, gdy byłem w
 trakcie przeformatywowania pewnych materiałów, wyczułem Jego obecność.
-Wymamrotałem pod nosem, że na- prawdę nie mam teraz czasu i  żeby mi
+Wymamrotałem pod nosem, że naprawdę nie mam teraz czasu i  żeby mi
 nie przeszkadzał. Wyobraźcie to  sobie! A  niektórzy rodzice martwią się
 wyimaginowanymi towarzyszami zabaw swoich dzieci!
 
@@ -209,13 +209,16 @@ niezależnie od  tego, co  z  niego wyniknie.
 
 *Witaj, Marc.*
 
+</div>
+
 „Witaj Jeszua. Jak się masz?”
 
-*Dobrze, Marc, choć widzę, że ty  nie bardzo.*
+
+>*Dobrze, Marc, choć widzę, że ty  nie bardzo.*
 
 „To  widać, co?”
 
-*Mój umiłowany przyjacielu,*<br>
+>*Mój umiłowany przyjacielu,*<br>
 *prawda nigdy nie jest ukryta,*<br>
 *w  żadnym czasie, przed nikim.*<br>
 *Choć, oczywiście,*<br>
@@ -223,7 +226,7 @@ niezależnie od  tego, co  z  niego wyniknie.
 
 „Tu  nasuwa mi  się pytanie: patrząc z  twojej perspektywy – dlaczego jestem zmęczony?”
 
-*Zmęczenie w  ogóle nie wiąże się z  ciałem*<br>
+>*Zmęczenie w  ogóle nie wiąże się z  ciałem*<br>
 *Wiąże się natomiast całkowicie z  umysłem.*<br>
 *Dysharmonia jest po  prostu*<br>
 *wyrażana przez ciało,*<br>
@@ -234,23 +237,23 @@ niezależnie od  tego, co  z  niego wyniknie.
 
 „Dobrze, ale dlaczego jestem zmęczony?”
 
-*Znasz odpowiedź bez pytania o  nią.*
+>*Znasz odpowiedź bez pytania o  nią.*
 
 „Ponieważ nie podążam za  głosem swego serca”.
 
-*Właśnie tak.*
+>*Właśnie tak.*
 
 „Wydaje się, że trzymam się przekonania, że rzeczywistość jest gdzieś
 »tam«. Że jeśli po  prostu i  w  pełni zrezygnuję z  opierania się memu
 sercu, wydarzy się nieszczęście i  świat mnie potępi”.
 
-*Upierać się przy byciu częścią świata,*<br>
+>*Upierać się przy byciu częścią świata,*<br>
 *to  już zaakceptować potępienie.*
 
 „To  co  mam czynić? Ot tak mrugnąć sobie oczami i  zwolnić się z
 wszystkich odpowiedzialności?”
 
-*Oczywiście, że nie.*<br>
+>*Oczywiście, że nie.*<br>
 *Jednak ufając głosowi Ducha Świętego*<br>
 *i  idąc w  kierunku,*<br>
 *który on wskazuje,*<br>
@@ -266,6 +269,8 @@ wszystkich odpowiedzialności?”
 
 „Ale skąd mam wiedzieć, co  jest rzeczywiście głosem Ducha, a  nie tylko
 bardziej subtelnym podszeptem ego?”
+
+<div markdown="1" class="indent">
 
 *Kiedy uwolnisz się od  wszelkiej myśli o  tym,*<br>
 *co  jest twym dobrem,*<br>
@@ -785,4 +790,6 @@ jego ważność, choć pozostaje to  poza jego rozumieniem.
 
 Podobnie jak Sherlock, odkładam tymczasem na  bok swój przycisk do
 papieru.
+
+&nbsp;
 
