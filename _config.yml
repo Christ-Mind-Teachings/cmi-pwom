@@ -53,7 +53,7 @@ collections:
     title: Droga Poznania,
   early:
     output: true
-    title: Early Years,
+    title: Wczesne lata Drogi,
 
 defaults:
 
@@ -134,7 +134,7 @@ defaults:
       type: early
     values:
       layout: transcript
-      book: "The Early Years"
+      book: "Wczesne lata Drogi"
       publisher: "Droga Mistrzostwa"
       image: "/public/img/wom/early-big.jpg"
       big-separator: "/public/img/wom/big.jpg"

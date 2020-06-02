@@ -6722,7 +6722,7 @@ const status = {
   woh: "wto 26 maj 10:24:08 2020 CEST",
   wot: "pon 25 maj 21:23:40 2020 CEST",
   wok: "ptk 29 maj 15:25:12 2020 CEST",
-  early: "wto 26 maj 13:35:48 2020 CEST"
+  early: "wto  2 cze 08:58:06 2020 CEST"
 };
 
 /***/ }),
