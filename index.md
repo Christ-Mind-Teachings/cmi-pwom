@@ -10,7 +10,7 @@ footer:
   repohref: "https://github.com/rmercer33/cmi-pwom"
 ---
 
-## Welcome to The Way of Mastery
+## Witamy na Drodze Mistrzostwa
 {: .ui.header}
 
 <div id="page-contents">
@@ -25,7 +25,7 @@ footer:
       </a>
       <div class="content">
         <div class="description">
-          The Jeshua Letters
+          Listy Jeszuy
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@ footer:
       </a>
       <div class="content">
         <div class="description">
-          Way of the Servant
+          Droga Sługi
         </div>
       </div>
     </div>
@@ -53,7 +53,7 @@ footer:
       </a>
       <div class="content">
         <div class="description">
-          The Early Years
+          Wczesne lata, Tom 1
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@ footer:
       </a>
       <div class="content">
         <div class="description">
-          The Way of the Heart
+          Droga Serca
         </div>
       </div>
     </div>
@@ -83,7 +83,7 @@ footer:
       </a>
       <div class="content">
         <div class="description">
-          Way of Transformation
+          Droga Przemiany
         </div>
       </div>
     </div>
@@ -97,7 +97,7 @@ footer:
       </a>
       <div class="content">
         <div class="description">
-          Way of Knowing
+          Droga Poznania
         </div>
       </div>
     </div>

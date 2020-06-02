@@ -325,11 +325,12 @@ Błogosław ją, błogosław ją całą.*
 13 listopada 1987  r.
 {: .omit}
 
+
+>Witaj, Marc
+
+„Witaj, Jeszua".
+
 <div markdown="1" class="indent">
-
-*Witaj, Marc.*
-
-„Witaj, Jeszua”.
 
 *Teraz zaczynamy.*
 
@@ -858,4 +859,4 @@ na  objawienie się rozpoznania.*
 *Amen.*
 
 </div>
-
+&nbsp;

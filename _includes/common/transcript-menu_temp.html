@@ -6,12 +6,12 @@
         <i class="red bookmark icon"></i>
       </span>
       <div class="menu">
-        <div id="bookmark-modal-open" class="bookmark-modal-open item">Pokaż zakładki</div>
-        <div id="bookmark-toggle-disable-selection" class="toggle-bookmark-selection item">Wyłącz tworzenie zakładek</div>
-        <div id="bookmark-toggle-highlight" class="toggle-bookmark-highlight item">Ukryj zaznaczony tekst</div>
+        <div id="bookmark-modal-open" class="bookmark-modal-open item">Show Bookmarks</div>
+        <div id="bookmark-toggle-disable-selection" class="toggle-bookmark-selection item">Disable Bookmark Creation</div>
+        <div id="bookmark-toggle-highlight" class="toggle-bookmark-highlight item">Hide Highlighted Text</div>
         <div class="divider"></div>
-        <div id="current-topic-filter" data-filter="none" class="header">Filtr tematów: Brak</div>
-        <div id="page-topics-modal-open" class="page-topics-modal-open item">Filtr zakładek</div>
+        <div id="current-topic-filter" data-filter="none" class="header">Topic Filter: None</div>
+        <div id="page-topics-modal-open" class="page-topics-modal-open item">Filter Bookmarks</div>
         <!--
         <div id="topic-menu-item" class="item">
           <i class="dropdown icon"></i>
@@ -23,22 +23,22 @@
       </div>
     </a>
     <a href="#" id="search-modal-open" class="item search-modal-open">
-      <span data-position="bottom center" data-tooltip="Szukaj w {{site.title}}">
+      <span data-position="bottom center" data-tooltip="Search {{site.title}}">
         <i class="search icon"></i>
       </span>
     </a>
     <a class="audio-player-toggle hide item" >
-      <span data-position="bottom center" data-tooltip="Odtwórz audio">
+      <span data-position="bottom center" data-tooltip="Play Audio">
         <i class="volume up icon"></i></a>
       </span>
     </a>
     <a href="#" class="toggle-paragraph-markers item">
-      <span data-position="bottom center" data-tooltip="Włącz/wyłącz numery paragrafów">
+      <span data-position="bottom center" data-tooltip="Toggle Display of Paragraph Numbers">
         <i class="paragraph icon"></i>
       </span>
     </a>
     <a href="#" class="top-of-page item">
-      <span data-position="bottom center" data-tooltip="Idź na górę strony">
+      <span data-position="bottom center" data-tooltip="Top of Page">
         <i class="level up icon"></i>
       </span>
     </a>
@@ -50,7 +50,7 @@
     {% endif %}
     {% endcomment %}
     <a href="#" id="contents-modal-open" data-book="{{page.bid | downcase}}" class="item toc-modal-open">
-      <span data-position="bottom center" data-tooltip="Pokaż spis treści">
+      <span data-position="bottom center" data-tooltip="Show Contents">
         <i class="align justify icon"></i>
       </span>
     </a>
@@ -67,12 +67,12 @@
     </a>
     -->
     <a id="toc-previous-page" href="#" class="previous-page item">
-      <span data-position="bottom center" data-tooltip="Poprzednia strona">
+      <span data-position="bottom center" data-tooltip="Previous Page">
         <i class="arrow circle left icon"></i>
       </span>
     </a>
     <a id="toc-next-page" href="#" class="next-page item">
-      <span data-position="bottom center" data-tooltip="Następna strona">
+      <span data-position="bottom center" data-tooltip="Next Page">
         <i class="arrow circle right icon"></i>
       </span>
     </a>
@@ -82,20 +82,20 @@
       <div id="help-menu" class="menu">
         <div id="transcript-page-info" class="header"></div>
         <div class="divider"></div>
-        <div data-note="studyguide" class="notes-modal-open item">Sugestie do praktyki</div>
+        <div data-note="studyguide" class="notes-modal-open item">Read Study Suggestions</div>
         <div class="divider"></div>
-        <div class="transcript-tour item">Informacje o stronie</div>
-        <div class="read-documentation item">Help po angielsku</div>
-        <div class="view-documentation item">Instrukcja wideo po angielsku</div>
+        <div class="transcript-tour item">Learn About This Page</div>
+        <div class="read-documentation item">Read Documentation</div>
+        <div class="view-documentation item">Watch Video Instruction</div>
         <div class="copy-page-key item">Copy Page Key</div>
-        <div class="contact-me item">Kontakt</div>
+        <div class="contact-me item">Get In Touch</div>
         <div class="divider"></div>
-        <div class="hide profile-management item">Zarządzaj listą adresów email</div>
-        <div class="hide topic-management item">Zarządzaj tematami</div>
+        <div class="hide profile-management item">Manage Email List</div>
+        <div class="hide topic-management item">Manage Topics</div>
       </div>
     </a>
     <a href="#" class="login-menu-option ui right floated item">
-      <span data-position="bottom center" data-tooltip="Zaloguj się/Utworz konto">
+      <span data-position="bottom center" data-tooltip="Sign In">
         <i class="red sign in icon"></i>
       </span>
     </a>

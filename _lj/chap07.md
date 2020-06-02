@@ -190,6 +190,8 @@ obok książki, uśmiechając się do  siebie.
 <div markdown="1" align="center">
 ### WSZYSTKO JEST TAK, JAK BYĆ POWINNO. UFAJ.
 
+</div>
+
 Gdy jestem z  powrotem w  mieszkaniu, siadam w  salonie skąpanym w
 świetle sączącego się przez żaluzje spokojnego popołudniowego słońca.
 Książki trzymam na  kolanach. Ponownie muskam je  dłońmi i  czuję
@@ -212,7 +214,6 @@ Przez chwilę widzę okiem umysłu twarz Jonasza oraz rozpoznaję tożsamość
 „tego Wielkiego” – mojego nauczyciela, mojego przyjaciela, mojego guru:
 Jeszuy, zwanego Jezusem.
 
-</div>
 
 ![znaczek]({{page.little-separator}})
 {: .omit}
@@ -597,4 +598,6 @@ Podnosząc głowę, spogląda przez przednią szybę, a  jej wzrok błądzi, nie
 Teraz odwraca wzrok i  patrzy na  mnie. – Myślę, że lepiej będzie, jak pojadę teraz do  pracy, albo raczej wrócę do  swego snu? A  co  ty  będziesz robił przez resztę dnia?
 
 Wcześniej zamierzałem spędzić ten dzień na  szukaniu pracy. Myślę, że moja racjonalna strona wygrywała wówczas tę bitwę. Wzruszam ramionami i  uśmiecham się. – Jadę w  góry.
+
+&nbsp;
 

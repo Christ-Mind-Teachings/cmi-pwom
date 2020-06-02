@@ -19,4 +19,5 @@ Wszystkim licznym uczniom z całego świata, którzy wraz ze mną wypłynęli na
 
 W końcu, kieruję swą wdzięczność ku memu przyjacielowi, Jeszule, synowi Józefa, niewidzialnemu, jednak zawsze obecnemu, którego miłość uzdrowiła me serce i który dotrzymał swej odwiecznej obietnicy, i przyprowadził mnie do Domu, kierując mnie w głąb prawdziwego zrozumienia dynamiki Oddzielenia i Drogi oświecenia ORAZ ucząc mnie, jak mam przekazywać innym to, co zrozumiałem, poczynając od skromnych początków wątpiącego, opornego, przestraszonego i poranionego trzydziestosiedmioletniego mężczyzny, po czas obecny, osoby w wieku lat sześćdziesięciu, która nie była w stanie w ogóle sobie wyobrazić, gdzie Jeszua ją zaprowadzi, a która czuje się obecnie spełniona, trwa w pokoju i ma ogromną frajdę pomagając innym w ich uzdrowieniu i prawdziwym przebudzeniu się do niezwykłego, choć zwyczajnego życia Umysłu Chrystusa. Miłość i kierownictwo Jeszuy jest inspiracją dla mej Pracy i życia. Nigdy nie będę w stanie wystarczająco Mu podziękować owocami mego działania.
 
+&nbsp;
 

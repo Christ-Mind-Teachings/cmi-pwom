@@ -106,7 +106,11 @@ i  wszystko, o  czym śnisz.*
 
 *Witaj, Marc.*
 
+</div>
+
 „Witaj, Jeszua. Kocham cię”.
+
+<div markdown="1" class="indent">
 
 *I  ja  ciebie też, umiłowany przyjacielu.*
 
@@ -469,3 +473,5 @@ Niezależnie od  tego, jakich byśmy użyli słów, by  opisać to  doświadczen
 Mógłbym przysiąc, że ogniki w  jej oczach trochę przygasły i  czuję, że czar prysł. A  może naszym wyborem jest wracać do  tego czaru?
 
 Jadąc do  domu czuję się, jakbym się unosił sześć stóp nad ziemią. Rozciągająca się przede mną panorama miasta Tacoma wibruje żywą energią. Jednak nawet w  takim momencie, po  całym tym czasie z  Jeszuą, po  wpływie, jaki na  mnie wywarła sesja z  Jeremiaszem, jestem już w  stanie rozpoznać tę znajomą energię prawie niezauważalnie wzbierającą we  mnie. Czy doświadczyłeś kiedyś, że wiesz coś ponad wszelką wątpliwość, a  zarazem wiesz równie jasno, że odmawiasz przyjęcia tej wiedzy, niezależnie od  tego, jak bardzo jest oczywista? Być może tak wydaje się prościej.
+
+&nbsp;

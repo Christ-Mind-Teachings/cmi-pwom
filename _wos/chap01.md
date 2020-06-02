@@ -3,6 +3,7 @@ title: "Księga Pierwsza"
 ---
 
 <div markdown="1" align="center">
+&nbsp;
 ## *Księga Pierwsza*
 
 ![znaczek]({{page.big-separator}})
@@ -828,3 +829,5 @@ Kto ma uszy,<br>
 *niechaj słucha*.
 
 I wszystko *stało się* nowe.
+
+&nbsp;

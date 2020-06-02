@@ -351,7 +351,11 @@ i w tym odpoczynku przyjdę do ciebie,<br>
 a Moja obecność będzie dla ciebie jak uzdrowienie.<br>
 Odpocznij teraz&hellip;*
 
+</div>
+
 Nigdy nie byłem w stanie wyrazić słowami tego, co się potem wydarzyło. Czułem, jakbym cały roztapiał się w świetle. Nigdy nie czułem tak wszechogarniającego pokoju.
+
+<div markdown="1" class="indent">
 
 *I blisko już jest koniec naszych trosk i cierpień.<br>
 Nie będę już więcej odchodził ze świętego domu Ojca.<br>
@@ -415,7 +419,11 @@ najpierw pojawia się subtelna myśl<br>
 o okolicznościach.<br>
 Czym są okoliczności, Marc?*
 
+</div>
+
 „Cóż, myślę, że jest to miejsce, pewnego rodzaju środowisko”.
+
+<div markdown="1" class="indent">
 
 *Tak!<br>
 Miejsce. Dobrze.<br>
@@ -823,6 +831,8 @@ Spoglądam na nią przez dłuższą chwilę. O rany, jak wyglądałoby życie be
 – A jak myślisz, wariacie? No dobra, napijmy się lampki wina zanim wyjdziesz, bo wygląda na to, że będę cię widywała jedynie wtedy, gdy odchodzisz od zmysłów!
 
 – No cóż, jeśli to nadal będzie się wydarzało, to będziesz mnie widywała częściej niż myślisz.
+
+&nbsp;
 
 
 

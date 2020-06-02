@@ -60,7 +60,7 @@ Obyśmy teraz żyli w  jednym akcie oddania, a  nasze stworzenia niech szerzą j
 
 Na  zawsze z  wdzięcznością dla odzwierciedlenia mego (i  waszego) Ja, które bezustannie nawiedzało me bezużyteczne sny, aż w  końcu cała ciemność została rozproszona: z  wdzięcznością dla Jeszuy, syna Józefa, który prosi jedynie, aby Go rozpoznać jako Przyjaciela Serca i  Brata tego świata.
 
-<div align="right" style="font-size: small;">
+<div align="right" style="font-size: regular;">
 Jayem (Jon Marc),<br>
 Alam Cinta Ashram,<br>
 Ubud, Bali<br>

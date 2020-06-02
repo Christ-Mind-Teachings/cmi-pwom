@@ -113,5 +113,7 @@ będzie o wiele większa niż sam czas włożony w napisanie tej książki.
 Niech Światło błogosławi twą podróż.
 
 
-<div align="right">Jayem</div>
+>Jayem
+
+&nbsp;
 
