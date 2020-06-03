@@ -103,29 +103,35 @@
     {
       "title": "Lekcja 10",
       "url": "/woh/l10/",
+      "audio": "/woh/l10.mp3",
       "contents": [
         {
           "title": "Lekcja 10: Pytania i odpowiedzi",
+          "audio": "/woh/l10qa.mp3",
           "url": "/woh/l10/l10qa/"
         }
       ]
     },
     {
       "title": "Lekcja 11",
+      "audio": "/woh/l11.mp3",
       "url": "/woh/l11/",
       "contents": [
         {
           "title": "Lekcja 11: Pytania i odpowiedzi",
+          "audio": "/woh/l11qa.mp3",
           "url": "/woh/l11/l11qa/"
         }
       ]
     },
     {
       "title": "Lekcja 12",
+      "audio": "/woh/l12.mp3",
       "url": "/woh/l12/",
       "contents": [
         {
           "title": "Lekcja 12: Pytania i odpowiedzi",
+          "audio": "/woh/l12qa.mp3",
           "url": "/woh/l12/l12qa/"
         }
       ]

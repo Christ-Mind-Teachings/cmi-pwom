@@ -1236,7 +1236,7 @@ __webpack_require__.r(__webpack_exports__);
  * 
  * Requirements to capture
  * 
- * 1. be logged in with role of "timer"
+ * 1. be logged in with role of "timer" or "editor"
  * 2. the transcript is reserved for timing by the one logged in or not reserved
  * 
  */
@@ -1552,10 +1552,20 @@ function restoreState() {
       if (!haveTimingData) {
         //create first data point but don't save in local store since user
         //has not initiated timing
-        autoCapture({
-          id: "p0",
-          seconds: 0
-        }, false);
+        let firstPid = $(".transcript p.cmiTranPara").first().attr("id");
+
+        if (firstPid) {
+          console.log("first pid: %s", firstPid);
+          autoCapture({
+            id: firstPid,
+            seconds: 0
+          }, false);
+        } else {
+          autoCapture({
+            id: "p0",
+            seconds: 0
+          }, false);
+        }
       }
     }
   }
@@ -1568,9 +1578,8 @@ function restoreState() {
     times
   */
   initialize: function (player, timingData) {
-    console.log("capture.init"); //if we support time capture and we already have timing data, mark paragraphs
+    //if we support time capture and we already have timing data, mark paragraphs
     //with a clock instead of the bullseye to indicate that we do have data
-
     if (timingData) {
       haveTimingData = true;
       markerIcon = "clock";

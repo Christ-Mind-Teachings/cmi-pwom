@@ -15,80 +15,97 @@
     },
     {
       "title": "Lekcja 1",
+      "audio": "/wot/l01.mp3",
       "url": "/wot/l01/",
       "contents": [
         {
           "title": "Lekcja 1: Pytania i odpowiedzi",
+          "audio": "/wot/l01qa.mp3",
           "url": "/wot/l01/l01qa/"
         }
       ]
     },
     {
       "title": "Lekcja 2",
+      "audio": "/wot/l02.mp3",
       "url": "/wot/l02/"
     },
     {
       "title": "Lekcja 3",
+      "audio": "/wot/l03.mp3",
       "url": "/wot/l03/"
     },
     {
       "title": "Lekcja 4",
+      "audio": "/wot/l04.mp3",
       "url": "/wot/l04/"
     },
     {
       "title": "Lekcja 5",
+      "audio": "/wot/l05.mp3",
       "url": "/wot/l05/"
     },
     {
       "title": "Lekcja 6",
+      "audio": "/wot/l06.mp3",
       "url": "/wot/l06/",
       "contents": [
         {
           "title": "Lekcja 6: Pytania i odpowiedzi",
+          "audio": "/wot/l06qa.mp3",
           "url": "/wot/l06/l06qa/"
         }
       ]
     },
     {
       "title": "Lekcja 7",
+      "audio": "/wot/l07.mp3",
       "url": "/wot/l07/",
       "contents": [
         {
           "title": "Lekcja 7: Pytania i odpowiedzi",
+          "audio": "/wot/l07qa.mp3",
           "url": "/wot/l07/l07qa/"
         }
       ]
     },
     {
       "title": "Lekcja 8",
+      "audio": "/wot/l08.mp3",
       "url": "/wot/l08/"
     },
     {
       "title": "Lekcja 9",
+      "audio": "/wot/l09.mp3",
       "url": "/wot/l09/",
       "contents": [
         {
           "title": "Lekcja 9: Pytania i odpowiedzi",
+          "audio": "/wot/l09qa.mp3",
           "url": "/wot/l09/l09qa/"
         }
       ]
     },
     {
       "title": "Lekcja 10",
+      "audio": "/wot/l10.mp3",
       "url": "/wot/l10/"
     },
     {
       "title": "Lekcja 11",
+      "audio": "/wot/l11.mp3",
       "url": "/wot/l11/",
       "contents": [
         {
           "title": "Lekcja 11: Pytania i odpowiedzi",
+          "audio": "/wot/l11qa.mp3",
           "url": "/wot/l11/l11qa/"
         }
       ]
     },
     {
       "title": "Lekcja 12",
+      "audio": "/wot/l12.mp3",
       "url": "/wot/l12/"
     },
     {

@@ -95,8 +95,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- //import key from "../_config/key";
-//teaching specific constants, assigned at initialization
+ //teaching specific constants, assigned at initialization
 
 let teaching = {};
 var warningIssued = false;
@@ -945,8 +944,13 @@ function deleteHandler() {
 */
 
 
-function initialize() {
-  teaching = Object(_bookmark__WEBPACK_IMPORTED_MODULE_2__["getTeachingInfo"])();
+function initialize(constants) {
+  if (constants) {
+    teaching = constants;
+  } else {
+    teaching = Object(_bookmark__WEBPACK_IMPORTED_MODULE_2__["getTeachingInfo"])();
+  }
+
   submitHandler();
   cancelHandler();
   shareHandler();
@@ -1676,7 +1680,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _list__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./list */ "../cmi-www/src/js/modules/_bookmark/list.js");
 /* harmony import */ var _topics__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./topics */ "../cmi-www/src/js/modules/_bookmark/topics.js");
 /* harmony import */ var _selection__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./selection */ "../cmi-www/src/js/modules/_bookmark/selection.js");
-/* harmony import */ var _bookmark_annotate__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../_bookmark/annotate */ "../cmi-www/src/js/modules/_bookmark/annotate.js");
+/* harmony import */ var _annotate__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./annotate */ "../cmi-www/src/js/modules/_bookmark/annotate.js");
 /* harmony import */ var _link_setup__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../_link/setup */ "../cmi-www/src/js/modules/_link/setup.js");
 
 
@@ -2046,18 +2050,18 @@ function initializeBookmarkFeatureState() {
 */
 
 
-function initTranscriptPage(sharePid) {
+function initTranscriptPage(sharePid, constants) {
   //get existing bookmarks for page
   getPageBookmarks(sharePid); //add support for text selection
 
-  Object(_selection__WEBPACK_IMPORTED_MODULE_10__["initialize"])(teaching); //show/hide bookmark highlights
+  Object(_selection__WEBPACK_IMPORTED_MODULE_10__["initialize"])(constants); //show/hide bookmark highlights
 
   highlightHandler(); //disable/enable bookmark creation feature
 
   bookmarkFeatureHandler();
   initializeBookmarkFeatureState(); //setup bookmark link listener
 
-  Object(_link_setup__WEBPACK_IMPORTED_MODULE_12__["createLinkListener"])(_bookmark_annotate__WEBPACK_IMPORTED_MODULE_11__["getLink"]);
+  Object(_link_setup__WEBPACK_IMPORTED_MODULE_12__["createLinkListener"])(_annotate__WEBPACK_IMPORTED_MODULE_11__["getLink"]);
   initBmLinkHandler(); //setup bookmark navigator if requested
 
   let pid = Object(_util_url__WEBPACK_IMPORTED_MODULE_6__["showBookmark"])();
@@ -2188,7 +2192,7 @@ const annotation = {
 
     if ($(".transcript").length) {
       //this is a transcript page
-      initTranscriptPage(pid);
+      initTranscriptPage(pid, constants);
     } //initialize bookmark list modal - available on all pages
 
 
@@ -3922,7 +3926,7 @@ function getSelectedText(range, fromNode = document.body) {
 */
 
 
-function initialize() {
+function initialize(constants) {
   $("div.transcript.ui").on("mouseup", function (e) {
     e.preventDefault(); //ignore text selection when disabled by user or when annotation is 
     //being created
@@ -3954,7 +3958,7 @@ function initialize() {
     processSelection(range);
   }); //init annotation input, edit, and delete
 
-  Object(_annotate__WEBPACK_IMPORTED_MODULE_1__["initialize"])();
+  Object(_annotate__WEBPACK_IMPORTED_MODULE_1__["initialize"])(constants);
 }
 /*
   create annotation from selected text
@@ -6729,10 +6733,10 @@ __webpack_require__.r(__webpack_exports__);
 const status = {
   lj: "Wed May 27 23:01:04 HST 2020",
   wos: "Tue May 26 22:53:45 HST 2020",
-  woh: "Mon Jun  1 22:27:34 HST 2020",
-  wot: "Sat May 23 10:16:42 HST 2020",
-  wok: "Sun May 31 12:19:09 HST 2020",
-  early: "Tue May 26 22:56:53 HST 2020"
+  woh: "Tue Jun  2 23:20:13 HST 2020",
+  wot: "Tue Jun  2 23:51:31 HST 2020",
+  wok: "Tue Jun  2 23:25:54 HST 2020",
+  early: "Mon Jun  1 22:39:18 HST 2020"
 };
 
 /***/ }),
