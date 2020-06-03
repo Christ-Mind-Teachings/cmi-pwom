@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 10. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 ## Lekcja 10<br>
 **Pytania i odpowiedzi**
@@ -87,3 +87,5 @@ To się okaże. Pamiętaj, umiłowany przyjacielu, *jest w tobie takie miejsce, 
 Tak więc, na tym kończąc, pozwolimy waszym ciałom, by się nieco „rozerwały", a następnie ponownie złożymy je w całość, i będziemy kontynuować.
 
 Amen.
+
+&nbsp;

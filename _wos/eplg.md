@@ -58,7 +58,7 @@ Czy może być jakaś większa przygoda?<br>
 Czy może być coś bardziej godnego naszego istnienia?
 
 Niech płyną potoki radości!
-
-*Jayem<br>
-Wielkanoc, 2006 r.*
+<div markdown="1" align="right">
+Jayem<br>
+Wielkanoc, 2006 r.
 

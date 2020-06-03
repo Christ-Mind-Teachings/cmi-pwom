@@ -1,7 +1,7 @@
 ---
 title: "Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 
 
@@ -200,3 +200,5 @@ Nie w innym miejscu i czasie, ale dlatego, że już doświadczyłeś ich ukończ
 -- Tak.
 
 Zaprawdę. A co może stanąć na drodze woli Boga? Dlatego też ci, którzy wezwani są, by dodać i stworzyć owe wibracje, muszą zawsze spoczywać w pewności, w rozpoznaniu: To się już dokonało. Cóż za zachwycający sposób na spędzenie ostatniego popołudnia snu oddzielenia. Oto coś do rozważenia&hellip;
+
+&nbsp;

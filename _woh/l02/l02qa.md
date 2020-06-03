@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 2. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 2<br>
 **Pytania i odpowiedzi**
@@ -87,3 +87,5 @@ W tych, którzy wcale nie przekazują wiadomości od Niej, ale chcieliby, abyś 
 Tego rodzaju wypowiedzi wcale nie pochodzą od Niej.
 
 I zaprawdę, tak jak niegdyś, Duszę tę darzę głęboką miłością i uważam za promienny przykład tego, czym może stać się świadomość.
+
+&nbsp;

@@ -113,7 +113,7 @@ defaults:
       image-width: 612
       image-height: 877
       bid: "WOT"
-      audio: false
+      audio: true
 
   - scope:
       path: ""
@@ -127,7 +127,7 @@ defaults:
       image-width: 612
       image-height: 877
       bid: "WOK"
-      audio: false
+      audio: true
 
   - scope:
       path: ""

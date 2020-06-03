@@ -1,10 +1,10 @@
 ---
 title: "Lekcja 9. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 9<br>
-Pytania i odpowiedzi
+**Pytania i odpowiedzi**
 
 </div>
 
@@ -179,3 +179,5 @@ Tak więc powiadam wszystkim tu obecnym: pamiętajcie, że nic nie dzieje się p
 Niech więc pokój będzie zawsze z wami.
 
 Amen.
+
+&nbsp;

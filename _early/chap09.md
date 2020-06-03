@@ -1,7 +1,7 @@
 ---
 title: "Śmierć i zmiany na Ziemi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 
 # Śmierć i zmiany na Ziemi
@@ -42,3 +42,5 @@ A więc oto tu jesteś. W niewielkim budynku w miejscu, które nazywasz Santa Fe
 I to, co ty robisz tutaj, *nawet tego wieczoru*, jest częścią tego właśnie procesu. Powiedziałem wiele razy, że przybywam, by wezwać do siebie moich przyjaciół. Wyobraź sobie, że każdy z was bardzo, bardzo dawno temu otrzymał scenariusz. I część tego scenariusza głosi, że nastanie dzień, gdy ponownie połączysz się ze starym przyjacielem -- tym, którego świat zwie Jezusem. I że poprzez to połączenie stworzona zostanie wibracja, która przyspieszy wypełnienie twej własnej roli, twej wyjątkowej roli, którą masz do odegrania, wkroczenia w pełnię *twojej* chrystusowej natury -- tak jak niegdyś ja, będąc człowiekiem, podjąłem decyzję, by wziąć słowo mego Ojca dosłownie i wejść w moją chrystusową naturę.
 
 I podczas gdy tego wieczoru w tym oto twoim mieście wiele istot siedzi przed telewizorem, a o wiele więcej siedzi w miejscach, które nazwałbyś lokalami nieświadomości, wlewając w swe ciała płyny -- w barach, podczas gdy wielu poszukuje kochanków, którzy ogrzaliby ich tej nocy, noc ta nigdy nie trwa wiecznie. *Ty* zaś podjąłeś decyzję, by przybyć *tutaj*, ponieważ usłyszałeś zaproszenie na ten wieczór i je przyjąłeś. Zatem świętuj i raduj się, bowiem ów dzień jest na wyciągnięcie ręki i nie ma większej radości niż ponowne połączenie się z pradawnymi przyjaciółmi, którzy głęboko w swym wnętrzu *wiedzą*, że *teraz nastał na to czas*. Rozpoczął się taniec, puszczono muzykę&hellip; I całe stworzenie *przybędzie* na tę imprezę.
+
+&nbsp;

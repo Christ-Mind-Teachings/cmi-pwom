@@ -1,18 +1,14 @@
 ---
 title: "Lekcja 10. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 10<br>
 **Pytania i odpowiedzi**
 
 </div>
 
-
-
 **Pytanie 1**
-
-
 
 ***Pytanie*:** Wyszła właśnie książka zatytułowana „The Bible Codes” (Kod Biblii). Odkryto sekretny kod Tory, który wskazuje na wiele wydarzeń, jakie zaszły obecnie, w dzisiejszych czasach. Czy mógłbyś to rozwinąć i odnieść się do wiarygodności tych informacji?
 
@@ -103,3 +99,5 @@ Niech ta odpowiedź będzie na teraz wystarczająca.
 *Jeszua*: Zaprawdę,  proszę bardzo.
 
 I ponownie zwracam się do was wszystkich, niech błogosławieństwo i pokój zawsze będą z wami.
+
+&nbsp;

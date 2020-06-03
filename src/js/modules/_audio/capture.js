@@ -21,7 +21,7 @@
  * 
  * Requirements to capture
  * 
- * 1. be logged in with role of "timer"
+ * 1. be logged in with role of "timer" or "editor"
  * 2. the transcript is reserved for timing by the one logged in or not reserved
  * 
  */
@@ -90,7 +90,7 @@ function initializeEdit() {
           onApprove: function() {
             //check current timing has the correct number of data points
             let noOfParagraphs = $("p.cmiTranPara").length;
-            
+
             if (noOfParagraphs !== timingData.length) {
               notify.error("Unexpected number of data points in existing timing data, please inform Rick, Can't capture time until this is resolved.");
               resolve(false);
@@ -354,7 +354,14 @@ function restoreState() {
       if (!haveTimingData) {
         //create first data point but don't save in local store since user
         //has not initiated timing
-        autoCapture({id: "p0", seconds: 0}, false);
+        let firstPid = $(".transcript p.cmiTranPara").first().attr("id");
+        if (firstPid) {
+          console.log("first pid: %s", firstPid);
+          autoCapture({id: firstPid, seconds: 0}, false);
+        }
+        else {
+          autoCapture({id: "p0", seconds: 0}, false);
+        }
       }
     }
   }
@@ -368,8 +375,6 @@ export default {
     times
   */
   initialize: function(player, timingData) {
-
-    console.log("capture.init");
 
     //if we support time capture and we already have timing data, mark paragraphs
     //with a clock instead of the bullseye to indicate that we do have data

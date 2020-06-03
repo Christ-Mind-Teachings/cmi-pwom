@@ -1,6 +1,7 @@
 ---
 title: "Błogość niewiedzy"
 ---
+&nbsp;
 <div markdown="1" align="center">
 
 # Błogość niewiedzy
@@ -154,3 +155,5 @@ Zastanów się zatem dobrze nad tym wszystkim, a przede wszystkim wprowadź do t
 Wówczas mądrość tego, jak wszystko się toczy, może ci się sama objawić. A gdy wiesz, że istnieje mądrość, która przepływa w stwarzaniu każdej chwili, to możesz podjąć decyzję, by ponownie *zaufać* Życiu. Życie zaś jest jedynie Miłością promieniejącą z Umysłu Boga. I właśnie tu znajdujesz się w tej chwili.
 
 Pokój niech będzie z wami, umiłowani i najdrożsi przyjaciele. Amen.
+
+&nbsp;

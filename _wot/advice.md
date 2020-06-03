@@ -1,7 +1,7 @@
 ---
 title: "Sugestie do praktyki"
 ---
-
+&nbsp;
 ## Sugestie do praktyki
 
 Oto podane przez Jeszuę wskazówki odnoszące się do tego jak „słuchać" nagrań i tekstów tych Lekcji:
@@ -23,3 +23,5 @@ Każdego nagrania słuchaj i każdą Lekcję czytaj kilka razy -- w różnych mi
 Bardzo ważne jest również, by zadawane ćwiczenia wykonywać według zaleceń. Wiele z nich to dokładnie te same ćwiczenia, które ponad 2000 lat temu podała Jeszule esseńska starszyzna.
 
 Powyższych sugestii używaj jakkolwiek chcesz, przede wszystkim jednak dobrze się baw z tym materiałem.
+
+&nbsp;

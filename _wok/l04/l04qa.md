@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 4. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 4<br>
 **Pytania i odpowiedzi**
@@ -59,3 +59,5 @@ Zobaczymy, kto będzie potrafił dostrzec wielkie różnice działające w tej p
 I na tym kończę. Zaprawdę umiłowani przyjaciele, bądźcie dziś w pokoju i pozwólcie waszemu Światłu świecić.
 
 Amen.
+
+&nbsp;

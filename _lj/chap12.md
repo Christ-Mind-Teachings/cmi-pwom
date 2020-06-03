@@ -1,7 +1,7 @@
 ---
 title: "Rozdział dwunasty"
 ---
-
+&nbsp;
 <div markdown="1" class="chHead">
 ## Rozdział dwunasty
 
@@ -269,3 +269,4 @@ Oto wszystko zostało uczynione nowym.
 *Amen.*
 
 </div>
+&nbsp;

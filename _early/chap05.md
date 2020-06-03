@@ -1,7 +1,7 @@
 ---
 title: "Święta chwila"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 
 # Święta chwila
@@ -200,3 +200,5 @@ Jestem jedynie twoim przyjacielem i twoim bratem, i zapewniam cię, że nie jest
 Zaprawdę zatem Wesołych Świąt Bożego Narodzenia dla każdego z was.
 
 Amen.
+
+&nbsp;

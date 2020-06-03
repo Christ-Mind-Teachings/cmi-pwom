@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 12. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 ## Lekcja 12<br>
 **Pytania i odpowiedzi**
@@ -126,14 +126,16 @@ Czy to, co powiedzieliśmy, jest pomocne w związku z twoim pytaniem?
 
 Zaprawdę tak. Czy masz zatem jeszcze jakieś pytania?
 
-**--** Nie.
+-- Nie.
 
 Mówimy wam, bądźcie pewni, że w nadchodzących tygodniach wypłynie na powierzchnię świadomości bardzo wiele pytań, o których nie wiedzieliście, że istnieją.
 
-**--** Jestem tego pewna.
+-- Jestem tego pewna.
 
 A będzie tak z jednego tylko powodu: abyście mogli zastosować do tych pytań odpowiedzi, które już znacie. I w ten sposób zostaniecie uwolnieni od przeszłości.
 
-**--** Amen.
+-- Amen.
 
 Bardzo dobrze więc, tak jak powiedziałaś: Amen.
+
+&nbsp;

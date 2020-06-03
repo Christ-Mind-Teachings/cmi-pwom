@@ -1,7 +1,7 @@
 ---
 title: "Chodź ze mną"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 
 # Chodź ze mną 
@@ -154,3 +154,5 @@ Pozostań zatem dzisiaj w pokoju. Wchodź często do cichej komnaty Serca, nie p
 Pokój niech zawsze będzie z wami, którzy przybyliście, by przywrócić Prawdę świadomości rodzaju ludzkiego.
 
 Amen.
+
+&nbsp;

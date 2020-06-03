@@ -1,7 +1,7 @@
 ---
 title: "Wstęp"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 ## *Wstęp*
 </div>
@@ -69,8 +69,7 @@ W zasadzie, kiedy Jeszua podyktował ostatnich parę stron i powiedział „Amen
 Alan Cohen w swym wstępie do *Listów Jeszuy* mówił o mistrzowskim nauczaniu Jeszuy. Gdy spoglądam wstecz, ten jeden prosty fakt staje się w pełni oczywisty. *Droga Sługi* jest ogniwem w doskonałym gobelinie tkanym przez tego miłującego mistrza, zawsze oddanego przebudzeniu nas wszystkich do stanu obecności i rzeczywistości Miłości – poza naszymi lękami, zranieniami, gniewami i wątpliwościami.
 
 *Droga Sługi*, niczym dobry obraz, ujawnia swe skarby, im dłużej się z nim obcuje. Książka ta trafiała w moje najgłębsze czułe struny, pokazując mi, gdzie nadal toczą się moje własne gierki ego, wymagające mojej uwagi. Stała się zawsze obecnym przypomnieniem, że Jeszua jest zawsze z nami wszystkimi, przepełniony Miłością, którą postanawiamy pamiętać na tej planecie. Ofiarujemy tę książkę tobie, tak jak została ofiarowana nam. Jeśli zechcesz, stanie się ona błogosławieństwem w twej podróży, stałym towarzyszem korygującym twój kurs, jeśli kiedykolwiek, choćby przez krótką chwilę, kusiłoby cię, aby się dać rozproszyć głosem świata, który, jak się zdaje, zadomowił się w twym umyśle. Tak jak ten dar Jeszuy pomógł tak wielu, tak niech również  służy tobie, byś nakłonił swego ucha na łagodny Głos, który ciągle żyje w nas wszystkich; Głos, który mówi jedynie o Miłości, o tym, czym razem jesteśmy na zawsze! Niech płyną potoki radości!
-
-*Jayem*
-*Ubud, Bali*
-*kwiecień 2006 r.*
-
+<div mardown="1" align="right">
+Jayem<br>
+Ubud, Bali<br>
+kwiecień 2006 r.

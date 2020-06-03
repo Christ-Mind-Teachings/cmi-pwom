@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 7. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 ## Lekcja 7<br>
 **Pytania i odpowiedzi**
@@ -135,3 +135,5 @@ Powiedziałbym każdemu z nich:
 Nie postrzegajcie w sobie nawzajem różnic, a jedynie odrębność ścieżek Życia, w którym pamięta się o Miłości i żyje Miłością.
 
 A jeśli to nie byłoby dla nich wystarczające, zasugerowałbym, by poszukali innej ścieżki.
+
+&nbsp;

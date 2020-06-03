@@ -1,7 +1,7 @@
 ---
 title: "Boska Kobiecość"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 
 # Boska Kobiecość
@@ -86,3 +86,5 @@ Pozostańcie zatem w pokoju i bawcie się dobrze. Róbcie to, co zwiecie „pój
 Idźcie zatem w pokoju i dziękuję, że pozwoliłyście, by ten, kto kiedyś przybył w męskiej formie, uczestniczył w waszym kręgu. To zaprawdę jest zaszczyt.
 
 Amen.
+
+&nbsp;

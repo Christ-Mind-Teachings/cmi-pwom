@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 11. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 ## Lekcja 11<br>
 **Pytania i odpowiedzi**
@@ -133,3 +133,5 @@ Umiłowany przyjacielu, każdy związek jest związkiem nauczania i uczenia się
 I gdy złość ustąpi, *zawsze*, *zawsze*, *zawsze* obejmij je -- przynajmniej metaforycznie. Daj mu odczuć, że je kochasz. Daj mu odczuć, że wszystko jest z nim w porządku. Daj mu odczuć, że owszem, ty również wiesz, że czasem jest troszkę ciężko być w świecie i że dziękujesz mu za to, że jest obecne w twoim życiu, ponieważ ty jesteś oddany temu, by uczyć się *od niego* w takim samym stopniu, jak oddany jesteś temu, by *je nauczać*.
 
 Przestańcie -- wszyscy na tej planecie, którzy słyszą te słowa -- *przestańcie traktować dzieci jak nieudolnych ludzi drugiej kategorii*. *Ich świadomość jest czysta i jasna!* Mówcie do nich jak dorośli. W swym związku z nimi żyjcie jak dojrzali dorośli. Spróbuj tego, umiłowany przyjacielu. Wyniesiesz z tego wiele, jeśli tylko będziesz pielęgnował skarb przekazany w tych słowach.
+
+&nbsp;

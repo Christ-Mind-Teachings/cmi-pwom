@@ -1,12 +1,12 @@
 ---
 title: "Przedmowa"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Przedmowa
+&nbsp;
 </div>
 
----
 Piszę do ciebie z nieco dziwnego miejsca. Z jednej strony byłem kanałem, przez który płynęły te głębokie, niezwykłe i transformujące nauki jako błogosławieństwo dla nas wszystkich. Jednocześnie ja sam nieustannie je przerabiam i jestem uczniem Istoty, która dała je nam wszystkim – uczniem Jeszuy, syna Józefa, który na Zachodzie bardziej znany jest jako „Jezus”, a które to imię jest transliteracją jego oryginalnego aramejskiego imienia.
 
 Gdy w sierpniu 1987 roku Jeszua pojawił się u mnie po raz pierwszy otoczony jasnym złoto-białym światłem, pchnięty zostałem na ścieżkę przebudzenia. Wpierw jednak doświadczyłem ogromnego przeszywającego mnie na wskroś lęku, byłem bowiem pewien, że tracę rozum. Szczegółowo opowiedziałem o tym pierwszym roku kontaktu z Jezusem w mojej pierwszej książce pt.: *Listy Jeszuy*. Zażądałem, aby mi udowodnił, że jest On czymś innym niż projekcje mego własnego umysłu i przez dziewięć lat robił jedynie to, zwyciężając w końcu mój głęboko ukryty i prawdopodobnie oparty na lęku sceptycyzm.
@@ -52,3 +52,4 @@ Niech płyną potoki radości!
 Jayem<br>
 Maj, 2011 r.
 
+&nbsp;

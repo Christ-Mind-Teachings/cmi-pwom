@@ -1,7 +1,7 @@
 ---
 title: "Niebo na Ziemi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 
 # Niebo na ziemi
@@ -142,3 +142,5 @@ czemu by po prostu nie zapytać:
 > *Jak w tej chwili Niebo może przyjść na Ziemię za moim pośrednictwem?*
 
 Odpowiedź nie pozostanie przed tobą ukryta.
+
+&nbsp;

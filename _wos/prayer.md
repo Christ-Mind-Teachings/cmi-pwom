@@ -28,3 +28,5 @@ nasza miłość jest niewyczerpana,<br>
 na zawsze i na wieki wieków!
 
 Amen
+
+&nbsp;

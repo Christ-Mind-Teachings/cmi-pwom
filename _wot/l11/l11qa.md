@@ -1,10 +1,10 @@
 ---
 title: "Lekcja 11. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 11<br>
-Pytania i odpowiedzi
+**Pytania i odpowiedzi**
 
 </div>
 
@@ -119,3 +119,5 @@ Ponieważ jesteś Synostwem, jesteście tymi punktami Światła, które są z te
 Zatem zaprawdę niech pokój będzie z nami *wszystkimi* -- zawsze. Czy to w twoim świecie, czy w naszym, w ramach wymiarów Stwarzania, tylko Miłość dzieje się naprawdę.
 
 Amen.
+
+&nbsp;

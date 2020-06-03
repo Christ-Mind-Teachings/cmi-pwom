@@ -1,7 +1,7 @@
 ---
 title: "Mistrzostwo komunikacji"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 # Mistrzostwo komunikacji
   ![znaczek]({{page.big-separator}})
@@ -130,3 +130,5 @@ Zaiste. Może ta krótka modlitwa naprawdę działa. Czy zauważyłaś, jak zmie
 -- Tak.
 
 Tak się stało. Oto prawda o tym, kim jesteś. Dziękuję za zaofiarowanie doskonałego przykładu dla tych, którzy będą czytać to wszystko.
+
+&nbsp;
