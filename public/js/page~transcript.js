@@ -7744,57 +7744,57 @@ function pageNavigationDriver() {
   driver.defineSteps([{
     element: "#masthead-title",
     popover: {
-      title: "Navigation and Features",
-      description: "The Way of Mastery is part of the Library of Christ Mind Teachings. On every page you can click here to display the Library's main page to see all available teachings.",
+      title: "Nawigacja i funkcjonalności",
+      description: "Droga Mistrzostwa jest częśćią Biblioteki Nauk Umysłu Chrystusa. Na każdej stronie możesz kliknąć w tym miejscu, aby wyświetlić główną stronę Biblioteki z wszystkimi dostępnymi naukami.",
       position: "bottom"
     }
   }, {
     element: "#page-menu",
     popover: {
-      title: "The Menu",
-      description: "This is the page menu, it will stick to the top when the page is scrolled (when the tour is over) so it is always available. The menu on other pages is similar but may contain additional features.",
+      title: "Menu",
+      description: "To jest menu strony. Jest ono zawsze widoczne i dostępne, gdy przewijasz stronę w dół czytając lub przeszukując tekst. Menu na innych stronach jest podobne, lecz może mieć dodatkowe funkcjonalności.",
       position: "bottom"
     }
   }, {
     element: ".bookmark-modal-open",
     popover: {
-      title: "List Bookmarks",
-      description: "Display a list of bookmarks you have created and optionally filter by topic. You can quickly jump to any bookmark. Learn more about bookmarks in the documentation.",
+      title: "Lista zakładek",
+      description: "Wyświetl listę zakładek, jakie utworzyłeś i opcjonalnie możesz je filtrować tematami. Możesz szybko przejść do dowolnej zakładki. Możesz dowiedzieć się więcej o zakładkach z pomocy w języku angielskim.",
       position: "bottom"
     }
   }, {
     element: ".search-modal-open",
     popover: {
-      title: "Search Through All Books",
-      description: "Find topics of interest by searching through all Way of Mastery books.",
+      title: "Szukaj we wszystkich książkach",
+      description: "Możesz wyszukiwać interesujące cię tematy we wszystkich książkach Drogi Mistrzostwa.",
       position: "bottom"
     }
   }, {
     element: "#quick-links-dropdown-menu",
     popover: {
-      title: "Navigate to Another Teaching",
-      description: "Quickly jump to one of the other teachings in the Library.",
+      title: "Przejdź do innych nauk Biblioteki",
+      description: "Szybko przejdź do innych nauk zebranych w Bibliotece.",
       position: "bottom"
     }
   }, {
     element: "#help-menu",
     popover: {
-      title: "Get Help and Learn About",
-      description: "Learn about the teaching and using the features of the site.",
+      title: "Pomoc oraz informacje",
+      description: "Dowiedz się więcej na temat nauk oraz funkcjonalności strony.",
       position: "bottom"
     }
   }, {
     element: ".login-menu-option",
     popover: {
-      title: "Sign In/Sign Out",
-      description: "Create an account and sign in to the site. It's free and allows you to create bookmarks that you can share via Facebook and keep synchronized between devices.",
+      title: "Zaloguj się/Załóż konto",
+      description: "Załóż konto i zaloguj się do strony. Konto jest darmowe i pozwala tworzyć własne zakładki ( zaznaczone fragmenty tekstu). Możesz dzielić się tak utworzonymi zakładkami na Facebooku.",
       position: "left"
     }
   }, {
     element: "[data-book='wot']",
     popover: {
-      title: "Display Table of Contents",
-      description: "Click on any image to display and navigate to the volume contents.",
+      title: "Pokaż spis treści",
+      description: "Kliknij na dowolny obrazek książki, aby wyświetlić spis treści.",
       position: "left"
     }
   }]);
