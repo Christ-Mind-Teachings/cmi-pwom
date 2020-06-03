@@ -5674,11 +5674,6 @@ function scrollIntoView(id, caller) {
   }, type => {
     scrollComplete(`scroll from url.js ${caller}(${id})`, type);
   });
-} //remove query string from url
-
-
-function resetUrl() {
-  history.replaceState({}, document.title, location.origin + location.pathname);
 } //called when query request is complete
 
 
@@ -5691,7 +5686,6 @@ function loadStart() {
 
   if (aInfo) {
     $("#transcript-page-loading").addClass("active");
-    resetUrl();
   }
 }
 /*
@@ -5706,7 +5700,6 @@ function showParagraph() {
 
   if (pId) {
     setTimeout(scrollIntoView, INTERVAL, pId, "showParagraph");
-    resetUrl();
   }
 }
 /*
@@ -5725,7 +5718,6 @@ function showBookmark() {
   let pId = getQueryString("bkmk");
 
   if (pId) {
-    resetUrl();
     return pId;
   }
 
@@ -5735,7 +5727,7 @@ function showSearchMatch() {
   let pId = getQueryString("srch");
 
   if (pId) {
-    resetUrl();
+    //setTimeout(scrollIntoView, INTERVAL, pId, "showSearchMatch");
     return pId;
   }
 
@@ -5745,7 +5737,6 @@ function showAnnotation() {
   let aInfo = getQueryString("as");
 
   if (aInfo) {
-    resetUrl();
     return aInfo;
   }
 
@@ -5759,7 +5750,6 @@ function getUser() {
   let user = getQueryString("user");
 
   if (user) {
-    resetUrl();
     return user;
   }
 
@@ -6732,7 +6722,7 @@ const status = {
   woh: "Mon Jun  1 22:27:34 HST 2020",
   wot: "Sat May 23 10:16:42 HST 2020",
   wok: "Sun May 31 12:19:09 HST 2020",
-  early: "Tue May 26 22:56:53 HST 2020"
+  early: "Mon Jun  1 22:39:18 HST 2020"
 };
 
 /***/ }),

@@ -1,5 +1,5 @@
 ---
-Title: "Lekcja 3. Pytania i odpowiedzi"
+title: "Lekcja 3. Pytania i odpowiedzi"
 ---
 
 <div markdown="1" align="center"> 

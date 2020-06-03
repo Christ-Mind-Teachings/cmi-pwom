@@ -7,7 +7,7 @@ title: "Lekcja 1. Pytania i odpowiedzi"
  **Pytania i odpowiedzi**
 </div>
 
-### *Po skończeniu danej lekcji Jeszua często odpowiada na pytania czytane mu w imieniu uczniów.*
+Po skończeniu danej lekcji Jeszua często odpowiada na pytania czytane mu w imieniu uczniów.
 
 ## Pytanie 1
 
