@@ -7684,50 +7684,50 @@ function pageDriver() {
   driver.defineSteps([{
     element: "#source-homepage",
     popover: {
-      title: "The Way of Mastery",
-      description: "This is the homepage for all of <em>The Way of Mastery</em> teachings in the Library. Each of the volumes below contain chapters and some included questions too. And most contain the original audio so you can read along as you listen.<br><br>Click on the image to see the table of contents. The Way of Mastery teachings include&hellip;",
+      title: "Droga Mistrzostwa",
+      description: "Oto główna strona wszystkich nauk <em>Drogi Mistrzostwa</em> umieszczonych w niniejszej Bibliotece. Trzy książki posiadają ścieżkę dźwiekową i można je czytać jednocześnie słuchając.<br><br>Kliknij na obrazek książki, aby zobaczyć spis treści&hellip;",
       position: "bottom"
     }
   }, {
     element: "[data-book='woh']",
     popover: {
-      title: "The Way of the Heart",
-      description: "The first of three years of monthly messages that present the fundamental ideas and exercises that form a pathway of awakening.",
+      title: "Droga Serca",
+      description: "Pierwsza z trzech książek, które tworzą trzyletni proces duchowej ścieżki przebudzenia.",
       position: "top"
     }
   }, {
     element: "[data-book='wot']",
     popover: {
-      title: "The Way of Transformation",
-      description: "The second year of monthly messages that presents a transformative way of life.",
+      title: "Droga Przemiany",
+      description: "Drugi rok comiesięcznych lekcji prowadzących do przemiany serca i umysłu.",
       position: "top"
     }
   }, {
     element: "[data-book='wok']",
     popover: {
-      title: "The Way of Knowing",
-      description: "The final year of monthly messages that culminates <em>The Way of Mastery</em>.",
+      title: "Droga Poznania",
+      description: "Ostatni tom, który zamyka trylogię <em>Drogi Mistrzostwa</em>.",
       position: "top"
     }
   }, {
     element: "[data-book='tjl']",
     popover: {
-      title: "The Jeshua Letters",
-      description: "Jayem's account of his introduction to Jeshua.",
+      title: "Listy Jeszuy",
+      description: "Opowieść Jayema o pojawieniu się Jeszuy w jego życiu i danych mu naukach nazwanych Listami Jeszuy.",
       position: "top"
     }
   }, {
     element: "[data-book='wos']",
     popover: {
-      title: "The Way of the Servant",
-      description: "A poetic description of the journey of awakening taken from inception to recognition of self as the servant - one who walks this world awake.",
+      title: "Droga Sługi",
+      description: "Poetycki opis podróży przebudzenia, od narodzenia do rozpoznania siebie jako sługi, ktory kroczy przebudzony w służbie dla wszystkich swych sióstr i braci.",
       position: "top"
     }
   }, {
     element: "[data-book='early']",
     popover: {
-      title: "The Early Years",
-      description: "A collection of messages given before the Way of the Heart.",
+      title: "Wczesne lata",
+      description: "Zbiór przesłań danych przed powstaniem <em>Drogi Serca</em>, pierwszej części trylogii <em>Drogi Mistrzostwa</em>.",
       position: "top"
     }
   }]);
