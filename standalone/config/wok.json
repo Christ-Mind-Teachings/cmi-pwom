@@ -3,12 +3,8 @@
   "title": "Droga Poznania",
   "image": "/public/img/wom/wok-toc.jpg",
   "toc": "relaxed ordered",
-  "totalPages": 19,
+  "totalPages": 18,
   "contents": [
-    {
-      "title": "Sugestie do praktyki",
-      "url": "/wok/advice/"
-    },
     {
       "title": "Przedmowa",
       "url": "/wok/preface/"
@@ -102,10 +98,6 @@
       "title": "Lekcja 11",
       "audio": "/wok/l11.mp3",
       "url": "/wok/l11/"
-    },
-    {
-      "title": "Ścieżka Drogi Mistrzostwa",
-      "url": "/wok/path/"
     }
   ]
 }

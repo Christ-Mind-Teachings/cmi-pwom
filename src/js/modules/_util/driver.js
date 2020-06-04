@@ -54,7 +54,7 @@ export function pageDriver() {
       element: "[data-book='wos']",
       popover: {
         title: "Droga Sługi",
-        description: "Poetycki opis podróży przebudzenia, od narodzenia do rozpoznania siebie jako sługi, ktory kroczy przebudzony w służbie dla wszystkich swych sióstr i braci.",
+        description: "Poetycki opis podróży przebudzenia, od narodzenia do rozpoznania siebie jako sługi, który kroczy przebudzony w służbie dla wszystkich swych sióstr i braci.",
         position: "top"
       }
     },

@@ -4,7 +4,7 @@ title: "Wstęp"
 &nbsp;
 <div markdown="1" align="center">
 
-## *WSTĘP*
+## *Wstęp*
 &nbsp;
 </div>
 

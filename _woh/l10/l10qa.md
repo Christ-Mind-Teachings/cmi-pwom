@@ -76,7 +76,7 @@ Być może nie rozgryziesz całego tematu. A może ci się uda -- być może zam
 
 > *Ach tak, byłem tu już kiedyś, a teraz jest to dla mnie nudne.*
 
-Nowy wzorzec po prostu cię poprowadzi -- wzorzec przebaczenia, wzorzec Miłości, wzorzec trwania w pokoju, bez względu na to, co zdaje się czynić świat. Gdy ktoś dokonuje na ciebie projekcji, co kiedyś być może budziło w tobie lęk, to teraz -- gdy pokazało się to na nowo, a ty zaliczyłeś swoją inicjację -- po prostu siedzisz i *patrzysz na wskroś *urojenia świadomości, w którym trwa twój brat lub twoja siostra. I widzisz w nich Chrystusa, i w ciszy ich błogosławisz, by samemu otrzymać błogosławieństwo.
+Nowy wzorzec po prostu cię poprowadzi -- wzorzec przebaczenia, wzorzec Miłości, wzorzec trwania w pokoju, bez względu na to, co zdaje się czynić świat. Gdy ktoś dokonuje na ciebie projekcji, co kiedyś być może budziło w tobie lęk, to teraz -- gdy pokazało się to na nowo, a ty zaliczyłeś swoją inicjację -- po prostu siedzisz i *patrzysz na wskroś* urojenia świadomości, w którym trwa twój brat lub twoja siostra. I widzisz w nich Chrystusa, i w ciszy ich błogosławisz, by samemu otrzymać błogosławieństwo.
 
 Istotą czasu są właśnie inicjacje. Czy czujesz, że wyczerpaliśmy temat?
 

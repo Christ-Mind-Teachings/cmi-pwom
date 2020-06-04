@@ -36,9 +36,9 @@ To powinno być na teraz wystarczające.
 
 ## Pytanie 2
 
-***Pytanie:* **Jaka jest różnica pomiędzy osądzaniem a rozróżnianiem? I jakich wskazówek mamy się trzymać, by w lepszy sposób ćwiczyć umiejętność rozróżniania?
+***Pytanie:*** Jaka jest różnica pomiędzy osądzaniem a rozróżnianiem? I jakich wskazówek mamy się trzymać, by w lepszy sposób ćwiczyć umiejętność rozróżniania?
 
-***Odpowiedź:* **Różnica między osądzaniem a umiejętnością rozróżniania to linia bardzo cienka, ale ważna i wpływająca na pole twego doświadczenia.
+***Odpowiedź:*** Różnica między osądzaniem a umiejętnością rozróżniania to linia bardzo cienka, ale ważna i wpływająca na pole twego doświadczenia.
 
 Chcę przedstawić ci pewien obrazek. Wyobraź sobie kogoś, kto sięga po flet, odpręża się w doskonałej niewinności i ufa, że żyje w nim doskonały flecista. I oddaje flet Temu Jednemu. I za pośrednictwem powietrza, płynący z ciała oddech wchodzi przez ustnik fletu i rozbrzmiewa najcudniejsza nuta -- taka, która nie wstrząsa układem nerwowym, która nie drażni nerwów w niczyich uszach, ale jest słodsza od miodu.
 

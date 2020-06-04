@@ -76,9 +76,9 @@ Umiłowany przyjacielu, zacznij ćwiczyć podejmowanie decyzji, by każdą decyz
 
 ## Pytanie 2
 
-**Pytanie:** Jeszuo, kilka razy wspomniałeś o tym, że wszystkie wydarzenia są neutralne. Czy mógłbyś proszę poruszyć ten temat głębiej i wyjaśnić go nam?
+***Pytanie:*** Jeszuo, kilka razy wspomniałeś o tym, że wszystkie wydarzenia są neutralne. Czy mógłbyś proszę poruszyć ten temat głębiej i wyjaśnić go nam?
 
-**Odpowiedź:** Umiłowany przyjacielu, byłbym przeszczęśliwy, odpowiadając na twoje pytanie, ale jest ono neutralnym wydarzeniem, które nie ma znaczenia! [śmiech]
+***Odpowiedź:*** Umiłowany przyjacielu, byłbym przeszczęśliwy, odpowiadając na twoje pytanie, ale jest ono neutralnym wydarzeniem, które nie ma znaczenia! [śmiech]
 
 Zaprawdę słyszałeś, jak mówiło ci się to wiele razy i oczywiście ja nie jestem pierwszym, który powiedział, że *wszystkie wydarzenia są neutralne*. Co mamy przez to na myśli?
 
@@ -88,7 +88,7 @@ Istnieje taka chwila, nieznana myśleniu świata. Przechodzi ona niepostrzeżeni
 
 Wiele razy mówiłem wam, że zasadniczo istnieją tylko dwie emocje lub inaczej mówiąc: tylko dwa światy lub dwie rzeczywistości: Miłość i lęk. I spośród tych dwu, tylko jedno jest Prawdziwe: Miłość. Bowiem Bóg jest Miłością i nie stwarza Ona czegoś do siebie niepodobnego. Zatem lęk musi być uzdrawiany w umyśle i ciele dopóki ciało trwa, po to, by umysł mógł postrzec ową *chwilę niewinności*&hellip;obserwując wzbierającą z Oceanu Tajemnicy falę -- bez potrzeby jej osądzania, bez potrzeby wznoszenia karteczki, głoszącej:
 
-*Daję jej 5 punktów lub 9.<br>Nie, to jest zła fala.*<br>*To jest dobra fala.*<br>*Co ta fala mi zrobi?*<br>*Och, nie chcę tej fali!*
+>*Daję jej 5 punktów lub 9.<br>Nie, to jest zła fala.*<br>*To jest dobra fala.*<br>*Co ta fala mi zrobi?*<br>*Och, nie chcę tej fali!*
 
 Znasz te wszystkie myśli.
 
@@ -126,9 +126,9 @@ To powinno być na teraz wystarczające.
 
 ## Pytanie 3
 
-**Pytanie:** Wyjaśnij proszę szerzej paradoks życia jako jedna Chrystusowa Świadomość, a równocześnie życia jako odrębne ciało i ego.
+***Pytanie:*** Wyjaśnij proszę szerzej paradoks życia jako jedna Chrystusowa Świadomość, a równocześnie życia jako odrębne ciało i ego.
 
-**Odpowiedź:** Umiłowany przyjacielu, posłuchaj uważnie, gdyż przechodzimy do puenty. W Chrystusowej Świadomości *niemożliwe* jest żyć jako odrębny umysł lub ego, ponieważ Chrystusowa Świadomość ustanowiona zostaje w *transcendencji* starego błędnego postrzegania, że żyjesz wewnątrz ciała i z niego spozierasz, a zatem, że jesteś oddzielony od innych z powodu odległości pomiędzy ciałami. W Chrystusowej Świadomości dosłownie czujesz i wiesz, że twa tożsamość to *Duch*. A Duch obejmuje wszystko. Dosłownie rozpoznajesz, że nie ma nic na zewnątrz ciebie.
+***Odpowiedź:*** Umiłowany przyjacielu, posłuchaj uważnie, gdyż przechodzimy do puenty. W Chrystusowej Świadomości *niemożliwe* jest żyć jako odrębny umysł lub ego, ponieważ Chrystusowa Świadomość ustanowiona zostaje w *transcendencji* starego błędnego postrzegania, że żyjesz wewnątrz ciała i z niego spozierasz, a zatem, że jesteś oddzielony od innych z powodu odległości pomiędzy ciałami. W Chrystusowej Świadomości dosłownie czujesz i wiesz, że twa tożsamość to *Duch*. A Duch obejmuje wszystko. Dosłownie rozpoznajesz, że nie ma nic na zewnątrz ciebie.
 
 Tak, jest całkiem prawdziwe to, że ciało-umysł, z którym kiedyś zwykłeś się utożsamiać, nadal trwa. Ale został on *przetłumaczony*. Został *przemieniony*, ponieważ twoje jego postrzeganie zostało naprawione. Uświadamiasz sobie, że twoja zdolność do bycia świadomym jest darem od Boga, który cie stworzył. Ta moc bycia świadomym jest mocą samego Ducha. Zatem nie jest to już dłużej „mój" ciało-umysł, „mój" egotyczny umysł, to po prostu „ciało", „umysł". I jest ono powierzane Duchowi z każdym oddechem, z każdą myślą.
 
@@ -148,7 +148,7 @@ Oczywiście, że nie. Powiedziałbyś:
 
 Czy możesz nauczyć siebie w trakcie swego dnia robić to samo?
 
-*O, ciało zmywa naczynia.*<br>*Ciało chodzi po trawie.*<br>*O, myśli przepływają przez umysł.*
+>*O, ciało zmywa naczynia.*<br>*Ciało chodzi po trawie.*<br>*O, myśli przepływają przez umysł.*
 
 Czy możesz stać się *Świadkiem* lub też obserwatorem tego, co się pojawia i znika? Im bardziej bowiem rozwijasz jakość Świadka, tym bardziej świat staje się przezroczysty i tym bardziej uświadamiasz sobie, że jesteś Obserwatorem wszystkich myśli. Jesteś Widzącym wszystkie rzeczy. Jesteś Duchem. Jesteś niczym ocean, w którym fale powstają i znikają. I zaczynasz się utożsamiać -- nie z ciałem, nie ze szczególną osobowością czy historią -- utożsamiasz się z tym, co obejmuje, ufa i przyzwala na wszystko. Będziesz Duchem. A *wtedy* będziesz znał odpowiedź na swoje pytanie, gdyż nie można na nie odpowiedzieć intelektualnie. Można ją *poznać* i żyć nią bezpośrednio.
 
@@ -156,9 +156,9 @@ To powinno dać ci okazję do zatrzymania się.
 
 ## Pytanie 4
 
-**Pytanie:** Czy możesz powiedzieć coś na temat tego, do czego postrzeganie ruchu New Age odnosi się jako do podejścia „wznieść się ponad to i stąd wyjść" -- do płynięcia z nurtem wzniesienia i ignorowania tego, co my zwiemy „strefą cienia" oraz o tym, jak zbalansować... jak nie zaprzeczać cieniowi? Czy możesz po prostu odnieść się do tego płynięcia z nurtem wzniesienia i zstępowania (w czasie krótszym niż 10 minut)?
+***Pytanie:*** Czy możesz powiedzieć coś na temat tego, do czego postrzeganie ruchu New Age odnosi się jako do podejścia „wznieść się ponad to i stąd wyjść" -- do płynięcia z nurtem wzniesienia i ignorowania tego, co my zwiemy „strefą cienia" oraz o tym, jak zbalansować... jak nie zaprzeczać cieniowi? Czy możesz po prostu odnieść się do tego płynięcia z nurtem wzniesienia i zstępowania (w czasie krótszym niż 10 minut)?
 
-**Odpowiedź:** Umiłowany przyjacielu, temu pytaniu dobrze by było poświęcić z godzinę, albo i kilka godzin. A jednak dam ci odpowiedź w dwie minuty. Jedyne pytanie, to: czy będziesz w stanie *uświadomić sobie* tę Prawdę w siedmiu lub ośmiu minutach, które ci wtedy zostaną? [śmiech]
+***Odpowiedź:*** Umiłowany przyjacielu, temu pytaniu dobrze by było poświęcić z godzinę, albo i kilka godzin. A jednak dam ci odpowiedź w dwie minuty. Jedyne pytanie, to: czy będziesz w stanie *uświadomić sobie* tę Prawdę w siedmiu lub ośmiu minutach, które ci wtedy zostaną? [śmiech]
 
 Oto odpowiedź: *Szukający musi stać się tym, który odnalazł*. Pragnienie, by płynąć z nurtem wzniesienia jest subtelnym aspektem *doświadczenia szukania*. Przebudzone serce obejmuje *wszystko*, ufa wszystkiemu, niczemu nie zaprzecza. A jeśli jesteś w tym świecie, to to, co nazywasz „cieniem", można kochać równie łatwo, jak jakiekolwiek mistyczne doświadczenie. Pragnienie, by trzymać się tamtego nurtu, nie jest niczym więcej niż pragnieniem, by czegoś unikać. Jeśli wiesz, że jesteś Duchem, nie ma dokąd iść. Istnieje jedynie miłujące obejmowanie tego, co jest, by mogło ono zostać przywrócone chwili, poprzez którą szerzy się Miłość.
 
