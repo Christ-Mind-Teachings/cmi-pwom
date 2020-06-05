@@ -36,7 +36,7 @@ To coś, co warto rozważyć.
 
 -- czyli tego, co nazywasz męską hydrauliką, która pomaga w procesie prokreacji ciała --
 
-> *&hellip;więc ponieważ ten organ zbudowany jest w określony sposób, to z pewnością nie mógłbym kiedykolwiek doświadczyć inkarnacji w żadnej innej formie. Więc jeśli powiedziałbym komuś: <Myślę, że kiedyś byłem Marią, tą, o której mówicie>, to oczywiście by mnie wyśmiano. Ponieważ, co jak co, ale moja klatka piersiowa pokryta jest zbyt bujnym owłosieniem&hellip; Ale nie, ja nie wierzę, że jestem tylko ciałem!*
+> *&hellip;więc ponieważ ten organ zbudowany jest w określony sposób, to z pewnością nie mógłbym kiedykolwiek doświadczyć inkarnacji w żadnej innej formie. Więc jeśli powiedziałbym komuś: 'Myślę, że kiedyś byłem Marią, tą, o której mówicie', to oczywiście by mnie wyśmiano. Ponieważ, co jak co, ale moja klatka piersiowa pokryta jest zbyt bujnym owłosieniem&hellip; Ale nie, ja nie wierzę, że jestem tylko ciałem!*
 
 Co tu się wydarzyło? Na początku Umysł jest Jednią. Ty -- mówimy do was wszystkich -- byłeś Tym Umysłem. I zaczął się sen, w którym wydawało się, że doszło do rozczłonkowania. W tym rozczłonkowaniu występuje wiele indywidualnych Punktów Światła, Dusz, Iskierek Boskości -- nazwij siebie jakkolwiek chcesz, nazwij siebie Beknięciem w Bożym Umyśle... To nie ma znaczenia. Oto *rezultat* snu oddzielenia, który w Rzeczywistości nigdy się nie wydarzył.
 

@@ -38,7 +38,7 @@ Jeśli jesteś spostrzegawczy, zauważysz, że kiedy mówi ten głosik, w samym 
 
 Po prostu powróć do uznania tego, kim jesteś i ponownie zadaj owo pytanie, tak jak to sugerowaliśmy. Potem, gdy ciało zaczyna się odprężać, zacznij obserwować, że potrzebujesz jedynie powiedzieć w swym umyśle:
 
-*>Tak naprawdę nie wiem, czym jest cokolwiek ani czemu służy. Jestem tu, by nauczyć się, co to znaczy być przebudzonym, być ucieleśnieniem Miłości. I jest mi dany jeden Nauczyciel, który zawsze prowadzi mnie właściwie.*
+>*Tak naprawdę nie wiem, czym jest cokolwiek ani czemu służy. Jestem tu, by nauczyć się, co to znaczy być przebudzonym, być ucieleśnieniem Miłości. I jest mi dany jeden Nauczyciel, który zawsze prowadzi mnie właściwie.*
 
 Zatem po prostu zadaj swoje pytanie ponownie. I zauważ jego skutek. Powiedz w swym umyśle:
 
