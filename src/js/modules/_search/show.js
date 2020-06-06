@@ -2,10 +2,12 @@
 import {getPageInfo} from "../_config/config";
 import uniq from "lodash/uniq";
 import store from "store";
+import constants from "../../constants";
+import {getString} from "../_language/lang";
 
 //this needs to use require because it is also used by a node app and node doesn't support import
 const womInfo = require("../_config/key");
-const queryResultName = "search.wom.result";
+const queryResultName = `search.${constants.sid}.result`;
 
 function getUnitName(pageInfo, unitInfo) {
   return pageInfo[unitInfo.pageKey].title;
@@ -28,7 +30,7 @@ function makeList(bid, title, pageInfo, matchArray) {
                   <i class="search icon"></i>
                   <div class="content">
                     <div class="header">
-                      <a href="${pageInfo[m.pageKey].url}?srch=${h.location}">Paragraph ${h.location.substr(1)}</a>
+                      <a href="${pageInfo[m.pageKey].url}?srch=${h.location}">getString("search:s10") ${h.location.substr(1)}</a>
                     </div>
                     <div class="description">
                       ${h.context}
@@ -192,8 +194,8 @@ export function showSavedQuery() {
   }
   $(".cmi-search-list").html(html);
 
-  $(".search-message.header").text("Last Search Result");
-  $(".search-message-body").html(`<p>Search for <em>${queryResult.query}</em> found ${queryResult.count} matches</p>`);
+  $(".search-message.header").text(getString("search:s11"));
+  $(".search-message-body").html(`<p>${getString("string:s3")} <em>${queryResult.query}</em> ${getString("string:s5")} ${queryResult.count} ${getString("string:s6")}</p>`);
   $("#search-results-header").html(`: <em>${queryResult.query}</em>`);
 }
 

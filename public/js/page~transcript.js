@@ -58,11 +58,10 @@ function searchAudit(source, query, count, error) {
 
   if (error) {
     body.error = error;
-  }
+  } //disable audit
 
-  axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(api, body).catch(err => {
-    console.error(`searchAudit error: ${err}`);
-  });
+
+  if (false) {}
 }
 
 /***/ }),
@@ -88,6 +87,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _navigator__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./navigator */ "../cmi-www/src/js/modules/_bookmark/navigator.js");
 /* harmony import */ var _clipboard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./clipboard */ "../cmi-www/src/js/modules/_bookmark/clipboard.js");
 /* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+
 
 
 
@@ -105,75 +106,79 @@ function warnNotSignedIn() {
 
   if (!userInfo && !warningIssued) {
     toastr__WEBPACK_IMPORTED_MODULE_1___default.a.options.timeOut = "10000";
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.success("Cancel, Sign In, and create a new bookmark.");
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.warning("You are not signed in. Bookmarks created when you are not signed in cannot be shared.");
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.success(Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m1"));
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.warning(Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m2"));
     warningIssued = true;
   }
 }
 
-const form = `
-  <form name="annotation" id="annotation-form" class="ui form">
-    <input class="hidden-field" type="text" readonly="" name="creationDate">
-    <input class="hidden-field" type="text" name="aid" readonly>
-    <input class="hidden-field" type="text" readonly="" name="rangeStart">
-    <div class="fields">
-      <div class="three wide field">
-        <input id="rangeEnd" type="text" name="rangeEnd" maxlength="4" placeholder="End">
-      </div>
-      <div id="available-topics" class="twelve wide field"></div>
-      </div>
-    </div>
-    <div class="field">
-      <input type="text" name="Comment" placeholder="Comment">
-    </div>
-    <div class="field">
-      <input type="text" name="newTopics" placeholder="New topics? Comma delimited list">
-    </div>
-    <div class="field">
-      <textarea name="Note" placeholder="Additional Notes" rows="3"></textarea>
-    </div>
-    <div class="fields">
-      <button class="annotation-submit ui green button" type="submit">Submit</button>
-      <button class="annotation-cancel ui red basic button">Cancel</button>
-      <button class="annotation-share ui green disabled basic button">Share</button>
-      <button class="annotation-note ui blue basic button">Links</button>
-      <div class="twelve wide field">
-        <button class="annotation-delete ui red disabled right floated button">Delete</button>
-      </div>
-    </div>
-  </form>
-  <div class="note-and-links hide">
-    <table id="bookmark-link-table" class="ui selectable celled table">
-      <thead>
-        <tr>
-          <th></th>
-          <th></th>
-          <th>Reference</th>
-          <th>Link</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody id="bookmark-link-list">
-      </tbody>
-    </table>
-    <form name="linkForm" id="link-form" class="ui form">
+function getAnnotationForm() {
+  let form = _language_lang__WEBPACK_IMPORTED_MODULE_7__["__lang"]`
+    <form name="annotation" id="annotation-form" class="ui form">
+      <input class="hidden-field" type="text" readonly="" name="creationDate">
+      <input class="hidden-field" type="text" name="aid" readonly>
+      <input class="hidden-field" type="text" readonly="" name="rangeStart">
       <div class="fields">
-        <div class="ten wide field">
-          <input required type="text" placeholder="Link note" name="reference">
+        <div class="three wide field">
+          <input id="rangeEnd" type="text" name="rangeEnd" maxlength="4" placeholder="${"label:end"}">
         </div>
-        <div class="five wide field">
-          <input required type="text" placeholder="Link" name="link">
+        <div id="available-topics" class="twelve wide field"></div>
         </div>
-        <button title="add or update" data-index="-1" type="submit" class="green ui icon button">
-          <i class="plus circle icon"></i>
-        </button>
-        <button title="clear fields" type="reset" class="yellow ui icon button">
-          <i class="minus circle icon"></i>
-        </button>
+      </div>
+      <div class="field">
+        <input type="text" name="Comment" placeholder="${"label:comment"}">
+      </div>
+      <div class="field">
+        <input type="text" name="newTopics" placeholder="${"label:newtopic"}">
+      </div>
+      <div class="field">
+        <textarea name="Note" placeholder="${"label:notes"}" rows="3"></textarea>
+      </div>
+      <div class="fields">
+        <button class="annotation-submit ui green button" type="submit">${"action:submit"}</button>
+        <button class="annotation-cancel ui red basic button">${"action:cancel"}</button>
+        <button class="annotation-share ui green disabled basic button">${"action:share"}</button>
+        <button class="annotation-note ui blue basic button">${"label:links"}</button>
+        <div class="twelve wide field">
+          <button class="annotation-delete ui red disabled right floated button">${"action:delete"}</button>
+        </div>
       </div>
     </form>
-  </div>
-`;
+    <div class="note-and-links hide">
+      <table id="bookmark-link-table" class="ui selectable celled table">
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th>${"label:linkref"}</th>
+            <th>${"label:link"}</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="bookmark-link-list">
+        </tbody>
+      </table>
+      <form name="linkForm" id="link-form" class="ui form">
+        <div class="fields">
+          <div class="ten wide field">
+            <input required type="text" placeholder="${"label:linknote"}" name="reference">
+          </div>
+          <div class="five wide field">
+            <input required type="text" placeholder="${"label:link"}" name="link">
+          </div>
+          <button title="add or update" data-index="-1" type="submit" class="green ui icon button">
+            <i class="plus circle icon"></i>
+          </button>
+          <button title="clear fields" type="reset" class="yellow ui icon button">
+            <i class="minus circle icon"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  `;
+  return form;
+}
+
 let linkArray = [];
 function getLink(index) {
   return linkArray[index];
@@ -181,13 +186,13 @@ function getLink(index) {
 
 function populateTable(links) {
   return `
-    ${links.map((item, index) => `
+    ${links.map((item, index) => _language_lang__WEBPACK_IMPORTED_MODULE_7__["__lang"]`
       <tr data-index="${index}">
-        <td title="Delete" class="delete-link-item"><i class="red trash alternate icon"></i></td>
-        <td title="Edit" class="edit-link-item"><i class="yellow pencil alternate icon"></i></td>
+        <td title="${"action:delete"}" class="delete-link-item"><i class="red trash alternate icon"></i></td>
+        <td title="${"action:edit"}" class="edit-link-item"><i class="yellow pencil alternate icon"></i></td>
         <td data-name="reference">${item.reference}</td>
         <td data-name="link">${formatLink(item.link)}</td>
-        <td title="Follow" class="follow-link-item"><i class="green share icon"></i></td>
+        <td title="${"action:follow"}" class="follow-link-item"><i class="green share icon"></i></td>
       </tr>
     `).join("")}
   `;
@@ -203,13 +208,13 @@ function setIndex(index) {
 }
 
 function makeTableRow(item, index) {
-  return `
+  return _language_lang__WEBPACK_IMPORTED_MODULE_7__["__lang"]`
     <tr data-index="${index}">
-      <td title="Delete" class="delete-link-item"><i class="red trash alternate icon"></i></td>
-      <td title="Edit" class="edit-link-item"><i class="yellow pencil alternate icon"></i></td>
+      <td title="${"action:delete"}" class="delete-link-item"><i class="red trash alternate icon"></i></td>
+      <td title="${"action:edit"}" class="edit-link-item"><i class="yellow pencil alternate icon"></i></td>
       <td data-name="reference">${item.reference}</td>
       <td data-name="link">${item.link}</td>
-      <td title="Follow" class="follow-link-item"><i class="green share icon"></i></td>
+      <td title="${"action:follow"}" class="follow-link-item"><i class="green share icon"></i></td>
     </tr>
   `;
 }
@@ -221,17 +226,17 @@ function validateLink(pid, link) {
   try {
     rawLink = JSON.parse(link);
   } catch (error) {
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error("Invalid link; invalid format, get link from bookmark popup.");
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m3"));
     return false;
   }
 
   if (!rawLink.aid || !rawLink.desc || !rawLink.key || !rawLink.userId) {
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error("Invalid link; invalid format, get link from bookmark popup.");
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m4"));
     return false;
   }
 
   if (rawLink.key === pKey) {
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error("Invalid link; it references itself.");
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m5"));
     return false;
   }
 
@@ -308,8 +313,7 @@ function createLinkHandlers() {
 
     linkArray[index].deleted = true; //remove item from table
 
-    parent.remove();
-    console.log("after delete: link %o", linkArray);
+    parent.remove(); //console.log("after delete: link %o", linkArray);
   }); //edit
 
   $(".transcript").on("click", "#bookmark-link-list td.edit-link-item", function (e) {
@@ -342,7 +346,7 @@ function generateHorizontalList(listArray) {
   if (!listArray || listArray.length === 0) {
     return `
       <div class="item">
-        <em>Annotation has no topics</em>
+        <em>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m6")}</em>
       </div>
     `;
   }
@@ -399,7 +403,7 @@ function genExtrasItem(item) {
 
 function generateComment(comment) {
   if (!comment) {
-    return "No comment";
+    return Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m6");
   } else {
     return comment;
   }
@@ -464,7 +468,7 @@ function annotationFormOpen(currentPid) {
     let pid = selector.first(1).attr("id"); //if currentPid === pid user clicked hidden link in editor, we just exit w/o notice
 
     if (currentPid !== pid) {
-      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(`A bookmark is already being added at paragraph ${pid}. Please complete that first.`);
+      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(_language_lang__WEBPACK_IMPORTED_MODULE_7__["__lang"]`${"annotate:m8"} ${pid}. ${"annotate:m9"}`);
     }
 
     return true;
@@ -475,7 +479,7 @@ function annotationFormOpen(currentPid) {
 
 function bookmarkNavigatorActive() {
   if ($(".transcript").hasClass("bookmark-navigator-active")) {
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info("Annotation is disabled when the bookmark navigator is active.");
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m10"));
     return true;
   }
 
@@ -501,7 +505,7 @@ function editAnnotation(pid, aid, annotation) {
 
   addSelectionGuard();
   $(".annotation-edit").wrapAll(wrapper);
-  $(".annotate-wrapper").prepend(form);
+  $(".annotate-wrapper").prepend(getAnnotationForm());
   $(".annotation-delete.disabled").removeClass("disabled");
   $(".annotation-share.disabled").removeClass("disabled");
   getTopicList(pid, aid, annotation);
@@ -536,7 +540,7 @@ function noteHandler() {
 
     $(`#${pid}`).addClass("annotation-edit annotation-note");
     $(".annotation-edit").wrapAll(wrapper);
-    $(".annotate-wrapper").prepend(form);
+    $(".annotate-wrapper").prepend(getAnnotationForm());
     getTopicList(pid);
   });
 }
@@ -569,7 +573,7 @@ function hoverNoteHandler() {
     let comment = generateComment(annotation.Comment);
     let extraHtml = generateExtraList(annotation);
     $(".annotation-information .topic-list").html(topicList);
-    $(".annotation-information .range").html(`Range: ${annotation.rangeStart}/${annotation.rangeEnd}`);
+    $(".annotation-information .range").html(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("label:range")}: ${annotation.rangeStart}/${annotation.rangeEnd}`);
     $(".annotation-information .description").html(`${comment}`);
     $(".annotation-information .extra").html(extraHtml);
     $(this).popup({
@@ -648,7 +652,7 @@ function hoverHandler() {
     let comment = generateComment(annotation.Comment);
     let extraHtml = generateExtraList(annotation);
     $(".annotation-information .topic-list").html(topicList);
-    $(".annotation-information .range").html(`Range: ${annotation.rangeStart}/${annotation.rangeEnd}`);
+    $(".annotation-information .range").html(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("label:range")}: ${annotation.rangeStart}/${annotation.rangeEnd}`);
     $(".annotation-information .description").html(`${comment}`);
     $(".annotation-information .extra").html(extraHtml);
     $(this).popup({
@@ -748,7 +752,7 @@ function removeSelectionGuard() {
   let guard = $("div.transcript.ui.disable-selection:not(.user)");
 
   if (guard.length > 0) {
-    console.log("removing selection guard");
+    //console.log("removing selection guard");
     guard.removeClass("disable-selection");
   }
 }
@@ -761,7 +765,7 @@ function addSelectionGuard() {
   let guard = $("div.transcript.ui");
 
   if (!guard.hasClass("disable-selection")) {
-    console.log("adding selection guard");
+    //console.log("adding selection guard");
     guard.addClass("disable-selection");
   }
 }
@@ -873,27 +877,27 @@ function shareHandler() {
     if (userInfo.userId === "xxx") {
       header2 = `
         <h4 class="ui left floated header">
-          <i title="Sign into your account to share this bookmark to FB by email or to copy a link." class="red window close outline small icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m11")}" class="red window close outline small icon"></i>
           <div class="content">
             ${formData.Comment}
           </div>
         </h4>
         <h4 class="ui right floated header">
-          <i title="Close Window" class="share-annotation window close small icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:closewin")}" class="share-annotation window close small icon"></i>
         </h4>
       `;
     } else {
       header2 = `
         <h4 class="ui left floated header">
-          <i title="Share to Facebook" class="share-annotation facebook small icon"></i>
-          <i title="Share via email" class="share-annotation envelope outline small icon"></i>
-          <i data-clipboard-text="${url}" title="Copy Url to Clipboard" class="share-annotation linkify small icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:fbshare")}" class="share-annotation facebook small icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:emailshare")}" class="share-annotation envelope outline small icon"></i>
+          <i data-clipboard-text="${url}" title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:cp2clip")}" class="share-annotation linkify small icon"></i>
           <div class="content">
             ${formData.Comment}
           </div>
         </h4>
         <h4 class="ui right floated header">
-          <i title="Close Window" class="share-annotation window close small icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:closewin")}" class="share-annotation window close small icon"></i>
         </h4>
       `;
     }
@@ -983,8 +987,9 @@ function getUserInput(highlight) {
   addSelectionGuard();
   warnNotSignedIn();
   $(`#${highlight.pid}`).addClass("annotation-edit");
-  $(".annotation-edit").wrapAll(wrapper);
-  $(".annotate-wrapper").prepend(form);
+  $(".annotation-edit").wrapAll(wrapper); //$(".annotate-wrapper").prepend(form);
+
+  $(".annotate-wrapper").prepend(getAnnotationForm());
   getTopicList(highlight.pid, highlight.id); //show this highlight, all others are hidden
 
   $(`[data-annotation-id="${highlight.id}"]`).addClass("show");
@@ -1011,7 +1016,7 @@ function generateOption(topic) {
 function makeTopicSelect(topics) {
   return `
     <select name="topicList" id="annotation-topic-list" multiple="" class="search ui dropdown">
-      <option value="">Select Topic(s)</option>
+      <option value="">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("label:selecttopic")}</option>
       ${topics.map(topic => `${generateOption(topic)}`).join("")}
     </select>
   `;
@@ -1028,7 +1033,7 @@ function getTopicList(pid, aid, data) {
     initializeForm(pid, aid, data);
   }).catch(error => {
     console.error("topic fetch error: ", error);
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error("Unable to fetch bookmark topic list: ", error);
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m12")}: ${error}`);
   });
 }
 
@@ -1062,6 +1067,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _selection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./selection */ "../cmi-www/src/js/modules/_bookmark/selection.js");
 /* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
 /* harmony import */ var _bookmark__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./bookmark */ "../cmi-www/src/js/modules/_bookmark/bookmark.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
 /*
   Bookmark data implementation
 
@@ -1074,6 +1080,7 @@ __webpack_require__.r(__webpack_exports__);
   Operations for create, modify, and delete are performed locally and sent to the server
   for signed in users.
 */
+
 
 
 
@@ -1216,20 +1223,6 @@ function queryBookmarks(key) {
         return;
       });
     } else {
-      /*
-      let sid = parseInt(keyInfo.sourceId, 10);
-      let bookmarks = [];
-       //build expected structure from local storage
-      store.each((value, key) => {
-        if (key.startsWith(sid)) {
-          if (!bookmarks[key]) {
-            bookmarks[key] = {};
-          }
-          bookmarks[key] = value;
-        }
-      });
-      console.log("queryBookmarks: list from local store, user not signed in");
-      */
       let bookmarks = buildBookmarkListFromLocalStore(keyInfo);
       resolve(bookmarks);
     }
@@ -1345,7 +1338,7 @@ function postAnnotation(annotation) {
       }
     }).catch(err => {
       console.error(`Error saving annotation: ${err}`);
-      toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error("Error saving annotation, please try again"); //if error and this is a new annotation we need to remove the highlight from the page
+      toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_10__["getString"])("error:e1")); //if error and this is a new annotation we need to remove the highlight from the page
 
       console.log("postBody", postBody);
     });
@@ -1622,7 +1615,7 @@ function deleteLocalAnnotation(pid, aid) {
   let data = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(pageKey);
 
   if (!data) {
-    throw new Error("Expect bookmark data not found in local storage");
+    throw new Error("Expected bookmark data not found in local storage");
   }
 
   let annotations = data[pid]; //user pressed delete on an annotation that was not created yet
@@ -1682,6 +1675,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _selection__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./selection */ "../cmi-www/src/js/modules/_bookmark/selection.js");
 /* harmony import */ var _annotate__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./annotate */ "../cmi-www/src/js/modules/_bookmark/annotate.js");
 /* harmony import */ var _link_setup__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../_link/setup */ "../cmi-www/src/js/modules/_link/setup.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+
 
 
 
@@ -1786,9 +1781,9 @@ function initBmLinkHandler() {
       aid = parseInt($(this).prev("span").attr("data-aid"), 10);
     } else if (type === "highlight") {
       aid = parseInt($(this).prev("mark").attr("data-aid"), 10);
-    }
+    } //console.log("bookmark type: %s, pid: %s, aid: %s", type, pid, aid);
+    //bookmark wont be found if it is still being created
 
-    console.log("bookmark type: %s, pid: %s, aid: %s", type, pid, aid); //bookmark wont be found if it is still being created
 
     let bookmarkData = Object(_bmnet__WEBPACK_IMPORTED_MODULE_2__["getBookmark"])(pid);
 
@@ -1857,7 +1852,7 @@ function getPageBookmarks(sharePid) {
     }
   }).catch(error => {
     console.error(error);
-    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.error("Unable to load bookmarks");
+    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_13__["getString"])("error:e2"));
   });
 }
 /*
@@ -2021,12 +2016,12 @@ function bookmarkFeatureHandler() {
     if (el.hasClass("disable-selection") && el.hasClass("user")) {
       //console.log("removing selection guard - user initiated")
       el.removeClass("disable-selection user");
-      $(".toggle-bookmark-selection").text("Disable Bookmark Creation");
+      $(".toggle-bookmark-selection").text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_13__["getString"])("menu:m1"));
       store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_creation_state, "enabled");
     } else {
       //console.log("adding selection guard - user initiated")
       el.addClass("disable-selection user");
-      $(".toggle-bookmark-selection").text("Enable Bookmark Creation");
+      $(".toggle-bookmark-selection").text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_13__["getString"])("menu:m2"));
       store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_creation_state, "disabled");
     }
   });
@@ -2041,8 +2036,8 @@ function initializeBookmarkFeatureState() {
   let state = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(teaching.bm_creation_state);
 
   if (state && state === "disabled") {
-    console.log("triggering selection guard disable");
-    $("#bookmark-toggle-disable-selection").trigger("click"); //$(".toggle-bookmark-selection").trigger("click");
+    //console.log("triggering selection guard disable");
+    $("#bookmark-toggle-disable-selection").trigger("click");
   }
 }
 /*
@@ -2215,6 +2210,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var clipboard__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(clipboard__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+
 
  //var clipboard;
 
@@ -2225,18 +2222,18 @@ function setEvents(clip) {
     //console.log("e.text: %s", e.text);
     if (e.text.indexOf("tocbook") > -1) {
       //modal dialog is displayed so notify won't work
-      $(".toc.modal > .message").html("<p>Url copied to clipboard</p>");
+      $(".toc.modal > .message").html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("clip:url")}</p>`);
       setTimeout(() => {
         $(".toc.modal > .message > p").remove();
       }, 2000);
     } else {
-      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info("Link Copied to Clipboard");
+      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("clip:link"));
     }
 
     e.clearSelection();
   });
   clip.on("error", () => {
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info("Error coping to Clipboard");
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("error:e3"));
   });
 }
 
@@ -2287,9 +2284,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash_uniqWith__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_uniqWith__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! store */ "../cmi-www/node_modules/store/dist/store.legacy.js");
 /* harmony import */ var store__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
 /*
   Display list of bookmarks for user/source and allow for filtering by topic
 */
+
 
 
 
@@ -2345,7 +2344,7 @@ function makeTopicSelect(topics) {
   return `
     <label>Filter Topic(s)</label>
     <select name="topicList" id="bookmark-topic-list" multiple="" class="search ui dropdown">
-      <option value="">Select Topic(s)</option>
+      <option value="">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("label:selecttopic")}</option>
       ${topics.map(topic => `${generateOption(topic)}`).join("")}
     </select>
   `;
@@ -2353,7 +2352,7 @@ function makeTopicSelect(topics) {
 
 function generateHorizontalList(listArray) {
   if (!listArray || listArray.length === 0) {
-    return "No Topics";
+    return Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("annotate:m13");
   }
 
   return `
@@ -2374,7 +2373,7 @@ function generateParagraphList(pid, bkmk, url, pTopicList) {
         <i class="bookmark icon"></i>
         <div class="content">
           <div class="header">
-            <a href="${url}?bkmk=${pid}">Paragraph: ${pid}</a> 
+            <a href="${url}?bkmk=${pid}">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("label:para")}: ${pid}</a>
           </div>
         </div>
       </div> <!-- item: ${pid} -->
@@ -2393,7 +2392,7 @@ function generateParagraphList(pid, bkmk, url, pTopicList) {
       <i class="bookmark icon"></i>
       <div class="content">
         <div class="header">
-          <a href="${url}?bkmk=${pid}">Paragraph: ${pid}</a> 
+          <a href="${url}?bkmk=${pid}">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("label:para")}: ${pid}</a>
         </div>
         <div class="list">
           ${bkmk.map(annotation => `
@@ -2404,7 +2403,7 @@ function generateParagraphList(pid, bkmk, url, pTopicList) {
                   ${generateHorizontalList(annotation.topicList)}
                 </div>
                 <div class="description">
-                  ${annotation.Comment ? annotation.Comment : "No Comment"}
+                  ${annotation.Comment ? annotation.Comment : Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("annotate:m7")}
                 </div>
               </div>
             </div> <!-- item: ${annotation.rangeStart}/${annotation.rangeEnd} -->
@@ -2459,21 +2458,20 @@ function generateBookmarksForBookPages(pages) {
 
 function generateBookmarkList(books) {
   if (books.length === 0) {
-    return `
+    return _language_lang__WEBPACK_IMPORTED_MODULE_5__["__lang"]`
       <h2 class="ui center aligned icon header">
         <i class="circular bookmark icon"></i>
-        You Don't Have Any Bookmarks Yet
+        ${"bmlist:header"}
       </h2>
       <p>
-        Bookmarks are expressive and powerful and you can assign them to categories to easily
-        view only the categories you want. There are two way to create bookmarks.
+        ${"bmlist:intro"}
       </p>
       <ul>
-        <li>Selecting text of interest or</li>
-        <li>Clicking on the paragraph number, eg: (p21)</li>
+        <li>${"bmlist:item1"}</li>
+        <li>${"bmlist:item2"}</li>
       </ul>
       <p>
-        See <a href="/acq/bookmark/">the Bookmark documentation</a> for more information.
+        ${"bmlist:link"}
       </p>
     `;
   }
@@ -2792,7 +2790,7 @@ function initList() {
     console.log("calling populateModal()");
     populateModal(response);
   }).catch(err => {
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error("Failed to get bookmarks");
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("error:e4"));
     console.error("Error getting bookmarks for: %s from server", sourceId, err);
   });
 }
@@ -2857,6 +2855,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _shareByEmail__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./shareByEmail */ "../cmi-www/src/js/modules/_bookmark/shareByEmail.js");
 /* harmony import */ var _clipboard__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./clipboard */ "../cmi-www/src/js/modules/_bookmark/clipboard.js");
 /* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+
 
 
 
@@ -2876,7 +2876,7 @@ let gPageKey;
 
 function generateHorizontalList(listArray) {
   if (!listArray || listArray.length === 0) {
-    return "No Topics";
+    return Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("annotate:m13");
   }
 
   return `
@@ -2929,7 +2929,7 @@ function generateAnnotation(annotation, topics = []) {
           </div>
           <div class="description">
             <a data-aid="${annotation.aid}" class="annotation-item" data-range="${annotation.rangeStart}/${annotation.rangeEnd}">
-              ${annotation.Comment ? annotation.Comment : "No Comment"}
+              ${annotation.Comment ? annotation.Comment : Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("annotate:m7")}
             </a>
           </div>
         </div>
@@ -2975,25 +2975,7 @@ function getBookmarkUrl(bookmarks, pageKey, pid) {
   } else {
     //we have a bookmark with no selected text, have to get the url in another way
     url = `${teaching.url_prefix}${teaching.keyInfo.getUrl(pageKey)}?bkmk=${bookmark[0].rangeStart}`;
-  }
-  /*
-  for (let prop in bookmark) {
-    if (bookmark.hasOwnProperty(prop)) {
-      if (bookmark[prop][0]) {
-        let selectedText = bookmark[prop][0].selectedText;
-        if (selectedText) {
-          url = `${bookmark[prop][0].selectedText.url}?bkmk=${bookmark[prop][0].rangeStart}`;
-        }
-        else {
-          //we have a bookmark with no selected text, have to get the url in another way
-          url = `${teaching.keyInfo.getUrl(pageKey)}?bkmk=${bookmark[prop][0].rangeStart}`;
-        }
-        break;
-      }
-    }
-  }
-  */
-  //console.log("url: %s", url);
+  } //console.log("url: %s", url);
 
 
   return url;
@@ -3286,22 +3268,22 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
 
   if (!prevActualPid) {
     $(".bookmark-navigator .previous-bookmark").addClass("inactive");
-    $(".bookmark-navigator .previous-bookmark").html("<i class='up arrow icon'></i> Previous");
+    $(".bookmark-navigator .previous-bookmark").html(`<i class='up arrow icon'></i> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("action:prev")}`);
   } else {
     //add data-pid attribute to link for previous bkmk
     $(".bookmark-navigator .previous-bookmark").attr("data-pid", prevActualPid);
     $(".bookmark-navigator .previous-bookmark").removeClass("inactive");
-    $(".bookmark-navigator .previous-bookmark").html(`<i class="up arrow icon"></i> Previous (${prevActualPid})`);
+    $(".bookmark-navigator .previous-bookmark").html(`<i class="up arrow icon"></i> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("action:prev")} (${prevActualPid})`);
   }
 
   if (!nextActualPid) {
     $(".bookmark-navigator .next-bookmark").addClass("inactive");
-    $(".bookmark-navigator .next-bookmark").html("<i class='down arrow icon'></i> Next");
+    $(".bookmark-navigator .next-bookmark").html(`<i class='down arrow icon'></i> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("action:next")}`);
   } else {
     //add data-pid attribute to link for next bkmk
     $(".bookmark-navigator .next-bookmark").attr("data-pid", nextActualPid);
     $(".bookmark-navigator .next-bookmark").removeClass("inactive");
-    $(".bookmark-navigator .next-bookmark").html(`<i class="down arrow icon"></i> Next (${nextActualPid})`);
+    $(".bookmark-navigator .next-bookmark").html(`<i class="down arrow icon"></i> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("action:next")} (${nextActualPid})`);
   }
 
   return true;
@@ -3344,7 +3326,7 @@ function bookmarkManager(actualPid) {
 
 
       if (!getCurrentBookmark(pageKey, actualPid, bmList, bmModal, "both")) {
-        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(`A bookmark at ${actualPid} was not found.`);
+        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(_language_lang__WEBPACK_IMPORTED_MODULE_9__["__lang"]`${"fragment:f1"} ${actualPid} ${"fragment:f2"}`);
         return;
       } //init navigator controls
 
@@ -3359,7 +3341,7 @@ function bookmarkManager(actualPid) {
       console.error(err);
 
       if (err === "bookmark not found") {
-        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(`A bookmark at ${actualPid} was not found.`);
+        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(_language_lang__WEBPACK_IMPORTED_MODULE_9__["__lang"]`${"fragment:f1"} ${actualPid} ${"fragment:f2"}`);
       }
     });
   } else {
@@ -3448,7 +3430,7 @@ function initShareDialog(source) {
     userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_8__["getUserInfo"])();
 
     if (!userInfo) {
-      toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info("You must be signed in to share selected text");
+      toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("annotate:m14"));
       return;
     }
 
@@ -3464,7 +3446,7 @@ function initShareDialog(source) {
     } else if ($(this).hasClass("linkify")) {
       if (pos > -1) {
         //Houston, we've got a problem
-        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.error("Sorry, there was a problem, an invalid link was copied to the clipboard, refresh the page and try again.");
+        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("error:e5"));
         return;
       } //work is already done
 
@@ -3488,7 +3470,7 @@ function initShareDialog(source) {
     if (channel === "facebook") {
       if (pos > -1) {
         //Houston, we've got a problem
-        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.error("Sorry, there was a problem, refresh the page and try again.");
+        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("error:e5"));
         return;
       }
 
@@ -3502,7 +3484,7 @@ function initShareDialog(source) {
     } else if (channel === "email") {
       if (pos > -1) {
         //Houston, we've got a problem
-        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.error("Sorry, there was a problem, refresh the page and try again.");
+        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("error:e5"));
         return;
       }
 
@@ -3592,18 +3574,18 @@ function initClickListeners() {
     if (userInfo.userId === "xxx") {
       header = `
         <h4 class="ui header">
-          <i title="Sign into your account to share this bookmark to FB by email or to copy a link." class="red window close outline small icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("annotate:m11")}" class="red window close outline small icon"></i>
           <div class="content">
             ${$(this).text()}
           </div>
         </h4>
       `;
     } else {
-      header = `
+      header = _language_lang__WEBPACK_IMPORTED_MODULE_9__["__lang"]`
         <h4 class="ui header">
-          <i title="Share to Facebook" class="share-annotation facebook small icon"></i>
-          <i title="Share via email" class="share-annotation envelope outline small icon"></i>
-          <i data-clipboard-text="${url}" title="Copy link to clipboard" class="share-annotation linkify small icon"></i>
+          <i title="${"action:fbshare"}" class="share-annotation facebook small icon"></i>
+          <i title="${"action:emailshare"}" class="share-annotation envelope outline small icon"></i>
+          <i data-clipboard-text="${url}" title="${"action:cp2clip"}" class="share-annotation linkify small icon"></i>
           <div class="content">
             ${$(this).text()}
           </div>
@@ -3660,21 +3642,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initialize", function() { return initialize; });
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _annotate__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./annotate */ "../cmi-www/src/js/modules/_bookmark/annotate.js");
-/* harmony import */ var lodash_isFinite__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/isFinite */ "../cmi-www/node_modules/lodash/isFinite.js");
-/* harmony import */ var lodash_isFinite__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_isFinite__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var lodash_difference__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/difference */ "../cmi-www/node_modules/lodash/difference.js");
-/* harmony import */ var lodash_difference__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_difference__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _topics__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./topics */ "../cmi-www/src/js/modules/_bookmark/topics.js");
+/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! uuid */ "../cmi-www/node_modules/uuid/dist/esm-browser/index.js");
+/* harmony import */ var _annotate__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./annotate */ "../cmi-www/src/js/modules/_bookmark/annotate.js");
+/* harmony import */ var lodash_isFinite__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/isFinite */ "../cmi-www/node_modules/lodash/isFinite.js");
+/* harmony import */ var lodash_isFinite__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_isFinite__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var lodash_difference__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash/difference */ "../cmi-www/node_modules/lodash/difference.js");
+/* harmony import */ var lodash_difference__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_difference__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _topics__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./topics */ "../cmi-www/src/js/modules/_bookmark/topics.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
 
 
 const textPosition = __webpack_require__(/*! dom-anchor-text-position */ "../cmi-www/node_modules/dom-anchor-text-position/index.js");
 
 const textQuote = __webpack_require__(/*! dom-anchor-text-quote */ "../cmi-www/node_modules/dom-anchor-text-quote/index.js");
 
-const wrapRange = __webpack_require__(/*! wrap-range-text */ "../cmi-www/node_modules/wrap-range-text/index.js");
+const wrapRange = __webpack_require__(/*! wrap-range-text */ "../cmi-www/node_modules/wrap-range-text/index.js"); //const uuid = require("uuid/v4");
 
-const uuid = __webpack_require__(/*! uuid/v4 */ "../cmi-www/node_modules/uuid/v4.js");
+
+
 
 
 
@@ -3751,8 +3736,8 @@ function updateSelectionTopicList(annotation) {
   } //classes have been added or deleted
 
 
-  let deletedTopics = lodash_difference__WEBPACK_IMPORTED_MODULE_3___default()(classArray, topicListArray);
-  let addedTopics = lodash_difference__WEBPACK_IMPORTED_MODULE_3___default()(topicListArray, classArray); //console.log("deletedTopics: %o", deletedTopics);
+  let deletedTopics = lodash_difference__WEBPACK_IMPORTED_MODULE_4___default()(classArray, topicListArray);
+  let addedTopics = lodash_difference__WEBPACK_IMPORTED_MODULE_4___default()(topicListArray, classArray); //console.log("deletedTopics: %o", deletedTopics);
   //console.log("addedTopics: %o", addedTopics);
   //remove deleted topics
 
@@ -3760,7 +3745,7 @@ function updateSelectionTopicList(annotation) {
     let dt = deletedTopics.join(" ");
     $(`[data-annotation-id="${annotation.aid}"]`).removeClass(dt); //track page topics
 
-    _topics__WEBPACK_IMPORTED_MODULE_4__["default"].deleteTopics(deletedTopics);
+    _topics__WEBPACK_IMPORTED_MODULE_5__["default"].deleteTopics(deletedTopics);
   } //add added topics
 
 
@@ -3775,7 +3760,7 @@ function updateSelectionTopicList(annotation) {
       });
       return found !== undefined;
     });
-    _topics__WEBPACK_IMPORTED_MODULE_4__["default"].addTopics(addedObjectTopics);
+    _topics__WEBPACK_IMPORTED_MODULE_5__["default"].addTopics(addedObjectTopics);
   } //topics.report();
 
 }
@@ -3912,7 +3897,7 @@ function getSelectedText(range, fromNode = document.body) {
     title: $("#book-title").text(),
     url: location.pathname,
     pid: range.startContainer.parentNode.id,
-    id: uuid(),
+    id: Object(uuid__WEBPACK_IMPORTED_MODULE_1__["v4"])(),
     target: {
       type: "SpecificResource",
       source: location.href,
@@ -3932,7 +3917,7 @@ function initialize(constants) {
     //being created
 
     if ($(this).hasClass("disable-selection")) {
-      console.log("selection prevented by selection guard");
+      //console.log("selection prevented by selection guard");
       return;
     }
 
@@ -3958,7 +3943,7 @@ function initialize(constants) {
     processSelection(range);
   }); //init annotation input, edit, and delete
 
-  Object(_annotate__WEBPACK_IMPORTED_MODULE_1__["initialize"])(constants);
+  Object(_annotate__WEBPACK_IMPORTED_MODULE_2__["initialize"])(constants);
 }
 /*
   create annotation from selected text
@@ -3971,13 +3956,13 @@ function processSelection(range) {
   let endParent = range.endContainer.parentElement.localName;
 
   if (startParent === "span") {
-    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info("Don't include the paragraph number in your selection, please try again.");
+    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e6"));
     console.log("selection includes <p>");
     return;
   }
 
   if (startParent === "mark" || endParent === "mark") {
-    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info("Your selection is overlapping with another; overlapping is not supported.");
+    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e7"));
     console.log("overlapping selections");
 
     if (location.hostname === "localhost") {
@@ -4004,14 +3989,14 @@ function processSelection(range) {
 
   let pid = parseInt(rangeStart.substr(1), 10);
 
-  if (!lodash_isFinite__WEBPACK_IMPORTED_MODULE_2___default()(pid)) {
+  if (!lodash_isFinite__WEBPACK_IMPORTED_MODULE_3___default()(pid)) {
     console.log("Pid: %s !isFinite()");
     return;
   } //not sure how to handl text selected across paragraphs, so disallow it.
 
 
   if (rangeStart !== rangeEnd) {
-    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info("Please limit selected text to a single paragraph");
+    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e8"));
     console.log("multi paragraph selection: start: %s, end: %s", rangeStart, rangeEnd);
     return;
   }
@@ -4024,7 +4009,7 @@ function processSelection(range) {
     highlight(selectedText, node); //persist annotation
 
     pageAnnotations[selectedText.id] = selectedText;
-    Object(_annotate__WEBPACK_IMPORTED_MODULE_1__["getUserInput"])(selectedText);
+    Object(_annotate__WEBPACK_IMPORTED_MODULE_2__["getUserInput"])(selectedText);
   }
 }
 
@@ -4047,6 +4032,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
 /* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+
 
 
 
@@ -4064,7 +4051,7 @@ function initShareByEmail(constants) {
     const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_3__["getUserInfo"])();
 
     if (!userInfo) {
-      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.warning("You must be signed in to share bookmarks.");
+      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.warning(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("annotate:m14"));
       $(".email-share-dialog-wrapper").addClass("hide");
       return;
     }
@@ -4072,7 +4059,7 @@ function initShareByEmail(constants) {
     let formData = $("#email-share-form").form("get values");
 
     if (formData.mailList.length === 0 && formData.emailAddresses.length === 0) {
-      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info("Please enter at least one email address.");
+      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("error:e9"));
       return;
     }
 
@@ -4098,7 +4085,7 @@ function initShareByEmail(constants) {
     $(".email-share-dialog-wrapper").addClass("hide");
     axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(_globals__WEBPACK_IMPORTED_MODULE_2__["default"].share, shareInfo).then(response => {
       if (response.status === 200) {
-        toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info("Email Sent!");
+        toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:emailsent"));
       } else {
         toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(response.data.message);
       }
@@ -4120,9 +4107,9 @@ function generateOption(item) {
 
 function makeMaillistSelect(maillist) {
   return `
-    <label>Mail List Names</label>
+    <label>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:listnames")}</label>
     <select name="mailList" id="maillist-address-list" multiple="" class="search ui dropdown">
-      <option value="">Select Email Address(es)</option>
+      <option value="">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:selectaddress")}</option>
       ${maillist.map(item => `${generateOption(item)}`).join("")}
     </select>
   `;
@@ -4148,7 +4135,7 @@ function loadEmailList() {
     $("#maillist-select").html(selectHtml);
     $("#maillist-address-list.dropdown").dropdown();
   }).catch(err => {
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error("Error getting email list: ", err);
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("error:e10")}: ${err}`);
   });
 }
 /*
@@ -4176,6 +4163,7 @@ function shareByEmail(quote, citation, url) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
 /*
   Keeps track of topics used by page annotations that have selectedText
 
@@ -4187,6 +4175,7 @@ __webpack_require__.r(__webpack_exports__);
   because each highlight contains a class that corresponds to each topic the annotation 
   contains.
 */
+
 let topics = new Map();
 let listRefreshNeeded = true;
 let deletedKeys = [];
@@ -4213,7 +4202,7 @@ function makeTopicSelect(topics) {
 
 function formatTopic(topic) {
   if (topic === "__reset__") {
-    return "<div class='reset-filter item'>Clear Filter</div>";
+    return `<div class='reset-filter item'>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_0__["getString"])("label:clearfilter")}</div>`;
   }
 
   return `<div class="item">${topic}</div>`;
@@ -4256,7 +4245,7 @@ function makeTopicList(topicMap) {
   listRefreshNeeded = false;
 
   if (topics.length === 0) {
-    return "<div class='ntf item'>Page has no topics</div>";
+    return `<div class='ntf item'>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_0__["getString"])("annotate:m15")}</div>`;
   }
 
   topics.sort();
@@ -4297,7 +4286,7 @@ function topicSelectHandler() {
 
       $(".transcript").removeClass("topic-filter-active"); //reset header text
 
-      $("#topic-menu-item").prev(".header").text("Topic Filter: None");
+      $("#topic-menu-item").prev(".header").text(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_0__["getString"])("label:topicfilter")}: None`);
       $("#topic-menu-item").prev(".header").attr("data-filter", "none");
       return;
     } //filter already active
@@ -4330,7 +4319,7 @@ function topicSelectHandler() {
 
     $(`mark.bookmark-selected-text.${topic}`).addClass("show"); //mark menu option as having an active filter
 
-    $("#topic-menu-item").prev(".header").html(`Topic Filter: <span class="red">${topic}</span>`);
+    $("#topic-menu-item").prev(".header").html(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_0__["getString"])("label:topicfilter")}: <span class="red">${topic}</span>`);
     $("#topic-menu-item").prev(".header").attr("data-filter", topic);
   });
 }
@@ -4369,7 +4358,7 @@ function updateTopicList() {
       //remove filter indication from .transcript
       $(".transcript").removeClass("topic-filter-active"); //reset header text to indicate filter has cleared
 
-      $("#topic-menu-item").prev(".header").text("Topic Filter: None");
+      $("#topic-menu-item").prev(".header").text(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_0__["getString"])("label:topicfilter")}: None`);
       $("#topic-menu-item").prev(".header").attr("data-filter", "none");
     }
   }
@@ -4601,7 +4590,7 @@ function filterResetHandler() {
 
     $(".transcript").removeClass("topic-filter-active"); //clear active filter from menu
 
-    $("#current-topic-filter").html("Topic Filter: None");
+    $("#current-topic-filter").html(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_0__["getString"])("label:topicfilter")}: None`);
     $("#current-topic-filter").attr("data-filter", ""); //mark bookmark icon green - no filter applied
 
     $("#bookmark-dropdown-menu > span > i").eq(0).removeClass("yellow").addClass("green"); //close the modal
@@ -4952,6 +4941,107 @@ module.exports = {
 
 /***/ }),
 
+/***/ "../cmi-www/src/js/modules/_language/lang.js":
+/*!***************************************************!*\
+  !*** ../cmi-www/src/js/modules/_language/lang.js ***!
+  \***************************************************/
+/*! exports provided: setLanguage, getString, __lang */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setLanguage", function() { return setLanguage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getString", function() { return getString; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__lang", function() { return __lang; });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_1__);
+
+
+let language = {
+  ready: false
+};
+/*
+ * Load language file for prompts set programatically
+ *
+ * English is the default and stored in /public/lang/en.json.
+ * Non english languages are stored in /t/<sid>/public/lang.
+ */
+
+function setLanguage(constants) {
+  let lang = "en";
+  let url;
+
+  if (constants.lang) {
+    lang = constants.lang;
+  }
+
+  url = `/public/lang/${lang}.json`;
+
+  if (lang !== "en" && constants.env === "integration") {
+    url = `${constants.url_prefix}${url}`;
+  } //console.log("requesting lang: %s.json from: %s", lang, url);
+
+
+  axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(url).then(response => {
+    //console.log("language %o", response.data);
+    language = response.data;
+    console.log("%s loaded", lang);
+  }).catch(error => {
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(`Failed to load language: ${lang}`);
+    console.error("language load failed: %o", error);
+  });
+}
+/*
+ * Get string for argument 'key'. Key can be in two parts
+ * delimited by a ':'. The second part is optional.
+ */
+
+function getString(key) {
+  if (typeof key !== "string") {
+    return null;
+  }
+
+  let [s, k] = key.split(":");
+
+  if (!language[s]) {
+    return null;
+  }
+
+  if (!k) {
+    return language[s];
+  }
+
+  if (!language[s][k]) {
+    return null;
+  }
+
+  return language[s][k];
+}
+/*
+ * This is a tagged template function that populates
+ * a template string with values from the language
+ * object.
+ */
+
+function __lang(strings, ...values) {
+  const tokens = values.map(value => {
+    let t = getString(value);
+
+    if (!t) {
+      return value;
+    }
+
+    return t;
+  });
+  return strings.reduce((result, string, i) => {
+    return `${result}${string}${tokens[i] || ""}`;
+  }, "");
+}
+
+/***/ }),
+
 /***/ "../cmi-www/src/js/modules/_link/setup.js":
 /*!************************************************!*\
   !*** ../cmi-www/src/js/modules/_link/setup.js ***!
@@ -5266,6 +5356,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash_range__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_range__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! scroll-into-view */ "../cmi-www/node_modules/scroll-into-view/scrollIntoView.js");
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(scroll_into_view__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
 /*
   NOTE: When an annotation is shared and seen on a computer with bookmarks there could be a conflict between the users
         bookmarks and the shared bookmark. Not sure what to do in this case...
@@ -5279,6 +5370,7 @@ __webpack_require__.r(__webpack_exports__);
         When the close button is pressed then add the omitted bookmark
 
 */
+
 
 
 
@@ -5325,9 +5417,9 @@ function wrapRange(annotation) {
   let annotationRange = lodash_range__WEBPACK_IMPORTED_MODULE_3___default()(numericRange[0], numericRange[1] + 1);
   let header = `
     <h4 class="ui header">
-      <i title="Close" class="share-annotation-close small window close icon"></i>
+      <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("action:close")}" class="share-annotation-close small window close icon"></i>
       <div class="content">
-        ${annotation.Comment ? annotation.Comment : "No Comment"}
+        ${annotation.Comment ? annotation.Comment : Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("annotate:m7")}
       </div>
     </h4>
   `;
@@ -5443,7 +5535,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! store */ "../cmi-www/node_modules/store/dist/store.legacy.js");
 /* harmony import */ var store__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _util_url__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_util/url */ "../cmi-www/src/js/modules/_util/url.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
 /*eslint no-console: "off" */
+
 
 
 
@@ -5515,7 +5609,7 @@ function getUserInfo(name) {
 function setAsSignedIn() {
   let userInfo = getUserInfo(); //change sign-in icon to sign-out and change color from red to green
 
-  $(".login-menu-option > span").html("<i class='green sign out icon'></i>").attr("data-tooltip", `Sign Out: ${userInfo.name}`); //change bookmark menu icon to green from red
+  $(".login-menu-option > span").html("<i class='green sign out icon'></i>").attr("data-tooltip", `${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:signout")}: ${userInfo.name}`); //change bookmark menu icon to green from red
 
   $(".main.menu a > span > i.bookmark.icon").addClass("green").removeClass("red"); //add color to menu background to further indicate signed in status
 
@@ -5531,7 +5625,7 @@ function setAsSignedIn() {
 
 function setAsSignedOut() {
   //change sign-in icon to sign-out and change color from red to green
-  $(".login-menu-option > span").html("<i class='red sign in icon'></i>").attr("data-tooltip", "Sign In"); //change bookmark menu icon to green from red
+  $(".login-menu-option > span").html("<i class='red sign in icon'></i>").attr("data-tooltip", Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:signin")); //change bookmark menu icon to green from red
 
   $(".main.menu a > span > i.bookmark.icon").addClass("red").removeClass("green"); //removed signed-in class
 
@@ -5790,14 +5884,17 @@ const keyInfo = __webpack_require__(/*! ./modules/_config/key */ "./src/js/modul
 
 let env = "standalone";
 let sid = "pwom";
+let lang = "pl";
 let title = "Droga Mistrzostwa";
 let bucket = "assets.christmind.info";
 /* harmony default export */ __webpack_exports__["default"] = ({
   env: env,
   //sa or prod, sa=standalone
+  lang: lang,
   sid: sid,
   title: title,
   audioBase: `https://s3.amazonaws.com/${bucket}/${sid}/audio`,
+  searchEndpoint: `https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/latest/${sid}`,
   bm_modal_key: `bm.${sid}.modal`,
   //list
   bm_creation_state: `bm.${sid}.creation`,
@@ -5819,6 +5916,69 @@ let bucket = "assets.christmind.info";
 
 /***/ }),
 
+/***/ "./src/js/lang.js":
+/*!************************!*\
+  !*** ./src/js/lang.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//english
+/* harmony default export */ __webpack_exports__["default"] = ({
+  label: {
+    key: "Key",
+    l1: "Book Title Unknown",
+    l2: "Title Unknown",
+    l3: "Table of Contents",
+    l4: "Search for",
+    l5: "of",
+    l6: "Last Search Result"
+  },
+  notify: {
+    n1: "Click is ignored when audio is not playing.",
+    n2: "Warning, your timing data will be lost if you close the window without submitting the data.",
+    n3: "Your Data Will Be Lost",
+    n4: "Thank you! The data was submitted successfully.",
+    n5: "Sorry, submit failed.",
+    n6: "Partial audio capture data restored. You can continue timing where you left off.",
+    n7: "You have an incomplete timing session. Start time capture to begin where you left off.",
+    n8: "You have a complete but unsubmited timing session. Please send us the data.",
+    n9: "There are no search results to show.",
+    n10: "There is no search result at",
+    n11: "Failed to hilight",
+    n12: "search results"
+  },
+  search: {
+    s1: "Search Started...",
+    s2: "Searching for",
+    s3: "Search for",
+    s4: "from",
+    s5: "found",
+    s6: "matches",
+    s7: "Search Result",
+    s8: "Search Error",
+    s9: "didn't find any matches",
+    s10: "Paragraph",
+    s11: "Last Search Result"
+  },
+  html: {
+    h1: "Drat! Your submit failed.",
+    h2: "To re-submit, try to refresh the page or return at a later time. The data will not be lost. This form will be displayed the next time you visit the page."
+  },
+  error: {
+    e1: "Unexpected number of data points in existing timing data, please inform Rick, Can't capture time until this is resolved.",
+    e2: "Failed to load audio timing data",
+    e3: "Invalid configuration file",
+    e4: "Configuration file error, didn't find url in file.",
+    e5: "Title not found",
+    e6: "Failed to load configuration file"
+  }
+});
+
+/***/ }),
+
 /***/ "./src/js/modules/_about/about.js":
 /*!****************************************!*\
   !*** ./src/js/modules/_about/about.js ***!
@@ -5832,6 +5992,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _config_key__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_config/key */ "./src/js/modules/_config/key.js");
 /* harmony import */ var _config_key__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_config_key__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var www_modules_bookmark_clipboard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! www/modules/_bookmark/clipboard */ "../cmi-www/src/js/modules/_bookmark/clipboard.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
+
 
 
 
@@ -5894,7 +6056,7 @@ function createClickHandlers() {
 
     if ($(".copy-page-key").length > 0) {
       let pageKey = _config_key__WEBPACK_IMPORTED_MODULE_1___default.a.genPageKey();
-      $(".copy-page-key").attr("data-clipboard-text", pageKey).text(`Key: ${pageKey}`);
+      $(".copy-page-key").attr("data-clipboard-text", pageKey).text(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_3__["getString"])("label:key")}: ${pageKey}`);
       www_modules_bookmark_clipboard__WEBPACK_IMPORTED_MODULE_2__["default"].register(".copy-page-key");
     }
   }
@@ -5978,6 +6140,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _status__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./status */ "./src/js/modules/_config/status.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
+
 
 
 
@@ -6081,6 +6245,7 @@ function getConfig(book, assign = true) {
       resolve(response.data);
     }).catch(() => {
       config = null;
+      toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error(`getString("error:e3")}: ${url}`);
       reject(`Config file: ${url} is not valid JSON`);
     });
   });
@@ -6114,6 +6279,7 @@ function loadConfig(book) {
       resolve("config fetched from server");
     }).catch(error => {
       config = null;
+      toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error(`getString("error:e3")}: ${url}`);
       reject(`Config file: ${url} is not valid JSON`);
     });
   });
@@ -6133,7 +6299,7 @@ function getAudioInfo(url) {
   });
 
   if (!audioInfo) {
-    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error("Configuration file error, didn't find url in file.");
+    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("error:e4"));
     return {};
   }
 
@@ -6144,7 +6310,7 @@ function getAudioInfo(url) {
   }
 
   if (!audioInfo) {
-    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error("Level 2 Configuration file error, didn't find url in file.");
+    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("error:e4"));
     return {};
   }
 
@@ -6189,8 +6355,8 @@ function getPageInfo(pageKey, data = false) {
   return new Promise((resolve, reject) => {
     //invalid pageKey
     if (pageKey === -1) {
-      info.bookTitle = "Book Title Unknown";
-      info.title = "Title Unknown";
+      info.bookTitle = Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:l1");
+      info.title = Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:l2");
       info.url = "";
       resolve(info);
       return;
@@ -6199,15 +6365,15 @@ function getPageInfo(pageKey, data = false) {
 
     getConfig(decodedKey.bookId, false).then(data => {
       if (!data) {
-        info.bookTitle = "Book Title Unknown";
-        info.title = "Title Unknown";
+        info.bookTitle = Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:l1");
+        info.title = Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:l2");
         info.url = "";
       } else {
         info.bookTitle = data.title;
         let unit = data.contents[decodedKey.uid];
 
         if (!unit) {
-          info.title = `Title not found, pageKey: ${pageKey}, decodedKey: ${decodedKey}`;
+          info.title = `${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("error:e5")}, pageKey: ${pageKey}, decodedKey: ${decodedKey}`;
           info.title = "";
         } else {
           if (decodedKey.hasQuestions) {
@@ -6735,7 +6901,7 @@ const status = {
   wos: "Tue May 26 22:53:45 HST 2020",
   woh: "Tue Jun  2 23:20:13 HST 2020",
   wot: "Tue Jun  2 23:51:31 HST 2020",
-  wok: "Tue Jun  2 23:25:54 HST 2020",
+  wok: "Wed Jun  3 09:10:55 HST 2020",
   early: "Mon Jun  1 22:39:18 HST 2020"
 };
 
@@ -6755,13 +6921,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(scroll_into_view__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _config_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_config/config */ "./src/js/modules/_config/config.js");
 /* harmony import */ var www_modules_bookmark_clipboard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! www/modules/_bookmark/clipboard */ "../cmi-www/src/js/modules/_bookmark/clipboard.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
+
 
 
 
 const uiTocModal = ".toc.ui.modal";
 const uiOpenTocModal = ".toc-modal-open";
 const uiModalOpacity = 0.5;
-const tocString = "Spis treści";
+const tocString = Object(_language_lang__WEBPACK_IMPORTED_MODULE_3__["getString"])("label:l3");
 /*
 * If there is timing or a timer defined for a toc item
 * set the class accordingly. A clock icon is displayed
@@ -6940,7 +7108,7 @@ function getBookId() {
         }).catch(error => {
           $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
           $(".toc-title").html("${tocString}: <em>Error</em>");
-          $(".toc-list").html(`<p>Failed to get configuration file ${book}.json`);
+          $(".toc-list").html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_3__["getString"])("error:e6")} ${book}.json`);
           $(uiTocModal).modal("show");
         });
       } else {
@@ -6949,6 +7117,71 @@ function getBookId() {
     });
   }
 });
+
+/***/ }),
+
+/***/ "./src/js/modules/_language/lang.js":
+/*!******************************************!*\
+  !*** ./src/js/modules/_language/lang.js ***!
+  \******************************************/
+/*! exports provided: getString, __lang */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getString", function() { return getString; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__lang", function() { return __lang; });
+/* harmony import */ var _lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../lang.js */ "./src/js/lang.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_1__);
+
+
+/*
+ * Get string for argument 'key'. Key can be in two parts
+ * delimited by a ':'. The second part is optional.
+ */
+
+function getString(key) {
+  if (typeof key !== "string") {
+    return null;
+  }
+
+  let [s, k] = key.split(":");
+
+  if (!_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"][s]) {
+    return null;
+  }
+
+  if (!k) {
+    return _lang_js__WEBPACK_IMPORTED_MODULE_0__["default"][s];
+  }
+
+  if (!_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"][s][k]) {
+    return null;
+  }
+
+  return _lang_js__WEBPACK_IMPORTED_MODULE_0__["default"][s][k];
+}
+/*
+ * This is a tagged template function that populates
+ * a template string with values from the language
+ * object.
+ */
+
+function __lang(strings, ...values) {
+  const tokens = values.map(value => {
+    let t = getString(value);
+
+    if (!t) {
+      return value;
+    }
+
+    return t;
+  });
+  return strings.reduce((result, string, i) => {
+    return `${result}${string}${tokens[i] || ""}`;
+  }, "");
+}
 
 /***/ }),
 
@@ -6968,6 +7201,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var store__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../constants */ "./src/js/constants.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
 /*
   search results query navigator
 */
@@ -6975,10 +7210,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 const page = __webpack_require__(/*! ../_config/key */ "./src/js/modules/_config/key.js");
 
-const queryResultName = "search.wom.result";
-const url_prefix = "/t/wom";
+const queryResultName = `search.${_constants__WEBPACK_IMPORTED_MODULE_3__["default"].sid}.result`;
+const url_prefix = _constants__WEBPACK_IMPORTED_MODULE_3__["default"].env === "standalone" ? "/" : _constants__WEBPACK_IMPORTED_MODULE_3__["default"].url_prefix;
 const SCROLL_INTERVAL = 250;
 
 function scrollComplete(message, type) {
@@ -7019,7 +7256,7 @@ class PageMatches {
 
   setTitle() {
     let pos = this.current - this.start + 1;
-    let title = `Search for <em>${this.query}</em> (${pos} of ${this.count})`;
+    let title = `${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:l4")} <em>${this.query}</em> (${pos} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:l5")} ${this.count})`;
     $(".search-navigator-header-query").html(title);
   }
   /*
@@ -7191,7 +7428,7 @@ function initControls(pid) {
   let lastSearch = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(queryResultName);
 
   if (!lastSearch) {
-    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.warning("There are no search results to show.");
+    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.warning(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("notify:n9"));
     return;
   } //console.log("lastSearch: %o", lastSearch);
 
@@ -7202,7 +7439,7 @@ function initControls(pid) {
   let title = lastSearch.titleArray[bid]; //when ?srch=p2 and p2 does not contain a search hit
 
   if (!lastSearch.pageInfo[pageKey]) {
-    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.warning(`There is no search result at ${pid}`);
+    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.warning(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("notify:n10")} ${pid}`);
     return;
   }
 
@@ -7210,7 +7447,7 @@ function initControls(pid) {
   let url; //check that requested search hit is valid
 
   if (hitPositions.current === -1) {
-    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.warning(`There is no search result at ${pid}`);
+    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.warning(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("notify:n10")} ${pid}`);
     return;
   }
 
@@ -7241,7 +7478,7 @@ function initControls(pid) {
   let markFail = markSearchHits(lastSearch.flat, hitPositions.start, hitPositions.end, lastSearch.query, "show");
 
   if (markFail) {
-    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.info(`Failed to hilight ${markFail} search results`);
+    toastr__WEBPACK_IMPORTED_MODULE_2___default.a.info(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("notify:n11")} ${markFail} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("notify:n12")}`);
   }
 
   initClickListeners(matches); //indicate search navigator is active by adding class to ./transcript
@@ -7274,7 +7511,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var www_modules_audit_audit__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! www/modules/_audit/audit */ "../cmi-www/src/js/modules/_audit/audit.js");
-const searchEndpoint = "https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/latest/wom";
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../constants */ "./src/js/constants.js");
+
+
 
 
 
@@ -7294,8 +7534,6 @@ const uiSearchMessage = ".ui.search.message";
 const uiSearchMessageHeader = ".search-message.header";
 const uiSearchMessageBody = ".search-message-body"; //search message id's
 
-const SOURCE_NOT_SELECTED = Symbol("no_source");
-const SOURCE_SELECTED = Symbol("source_selected");
 const SEARCHING = Symbol("searching");
 const SEARCH_RESULT = Symbol("search_result");
 const SEARCH_ERROR = Symbol("search_error");
@@ -7303,30 +7541,18 @@ const SAVED_SEARCH = Symbol("saved_search");
 
 function displaySearchMessage(msgId, arg1, arg2, arg3) {
   switch (msgId) {
-    case SOURCE_NOT_SELECTED:
-      $(uiSearchMessage).addClass("negative");
-      $(uiSearchMessageHeader).text("Search Source Not Selected");
-      $(uiSearchMessageBody).html("<p>You forgot to select a search source.</p>");
-      break;
-
-    case SOURCE_SELECTED:
-      $(uiSearchMessage).removeClass("negative");
-      $(uiSearchMessageHeader).text("Search Source");
-      $(uiSearchMessageBody).html(`<p>Searching from <em>${arg1}</em></p>`);
-      break;
-
     case SEARCHING:
       $(uiSearchInputIcon).addClass("loading");
       $(uiSearchString).attr("disabled", true);
       $(uiSearchMessage).addClass("purple");
-      $(uiSearchMessageHeader).text("Search Started...");
-      $(uiSearchMessageBody).html(`<p>Searching for <em>${arg2}</em></p>`);
+      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s1"));
+      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s2")} <em>${arg2}</em></p>`);
       break;
 
     case SAVED_SEARCH:
       //arg1: source, arg2: query string, arg3: count
-      $(uiSearchMessageHeader).text("Last Search Result");
-      $(uiSearchMessageBody).html(`<p>Search for <em>${arg2}</em> from <em>${arg1}</em> found ${arg3} matches</p>`);
+      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("label:l6"));
+      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s3")} <em>${arg2}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s4")} <em>${arg1}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s5")} ${arg3} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s6")}</p>`);
       break;
 
     case SEARCH_RESULT:
@@ -7338,15 +7564,15 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
         $(uiSearchString).val("");
       }
 
-      $(uiSearchMessageHeader).text("Search Result");
-      $(uiSearchMessageBody).html(`<p>Search for <em>${arg2}</em> found ${arg3} matches</p>`);
+      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s7"));
+      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s3")} <em>${arg2}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s5")} ${arg3} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s7")}</p>`);
       break;
 
     case SEARCH_ERROR:
       $(uiSearchInputIcon).removeClass("loading");
       $(uiSearchString).attr("disabled", false);
       $(uiSearchMessage).removeClass("purple").addClass("negative");
-      $(uiSearchMessageHeader).text("Search Error");
+      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s8"));
       $(uiSearchMessageBody).html(`<p>${arg1}</p>`);
       break;
 
@@ -7361,22 +7587,22 @@ function search(query) {
     query: query,
     width: 30
   };
-  axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(searchEndpoint, searchBody).then(response => {
+  axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(_constants__WEBPACK_IMPORTED_MODULE_7__["default"].searchEndpoint, searchBody).then(response => {
     //console.log("search response: %o", response);
     displaySearchMessage(SEARCH_RESULT, "", `"${response.data.queryTransformed}"`, response.data.count);
 
     if (response.data.count > 0) {
       Object(_show__WEBPACK_IMPORTED_MODULE_1__["showSearchResults"])(response.data, response.data.queryTransformed);
     } else {
-      toastr__WEBPACK_IMPORTED_MODULE_4___default.a.info(`Search for "${response.data.queryTransformed}" didn't find any matches`);
+      toastr__WEBPACK_IMPORTED_MODULE_4___default.a.info(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s3")} "${response.data.queryTransformed}" ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s9")}`);
     }
 
-    Object(www_modules_audit_audit__WEBPACK_IMPORTED_MODULE_5__["searchAudit"])("WOM", searchBody.query, response.data.count);
+    Object(www_modules_audit_audit__WEBPACK_IMPORTED_MODULE_5__["searchAudit"])(_constants__WEBPACK_IMPORTED_MODULE_7__["default"].sid.toUpperCase(), searchBody.query, response.data.count);
     document.getElementById("search-input-field").focus();
   }).catch(error => {
     console.error("search error: %o", error);
     displaySearchMessage(SEARCH_ERROR, error.message);
-    Object(www_modules_audit_audit__WEBPACK_IMPORTED_MODULE_5__["searchAudit"])("WOM", searchBody.query, 0, error.message);
+    Object(www_modules_audit_audit__WEBPACK_IMPORTED_MODULE_5__["searchAudit"])(_constants__WEBPACK_IMPORTED_MODULE_7__["default"].sid.toUpperCase(), searchBody.query, 0, error.message);
   });
 }
 
@@ -7457,13 +7683,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash_uniq__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_uniq__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! store */ "./node_modules/store/dist/store.legacy.js");
 /* harmony import */ var store__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../constants */ "./src/js/constants.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
+
+
 
 
  //this needs to use require because it is also used by a node app and node doesn't support import
 
 const womInfo = __webpack_require__(/*! ../_config/key */ "./src/js/modules/_config/key.js");
 
-const queryResultName = "search.wom.result";
+const queryResultName = `search.${_constants__WEBPACK_IMPORTED_MODULE_3__["default"].sid}.result`;
 
 function getUnitName(pageInfo, unitInfo) {
   return pageInfo[unitInfo.pageKey].title;
@@ -7486,7 +7716,7 @@ function makeList(bid, title, pageInfo, matchArray) {
                   <i class="search icon"></i>
                   <div class="content">
                     <div class="header">
-                      <a href="${pageInfo[m.pageKey].url}?srch=${h.location}">Paragraph ${h.location.substr(1)}</a>
+                      <a href="${pageInfo[m.pageKey].url}?srch=${h.location}">getString("search:s10") ${h.location.substr(1)}</a>
                     </div>
                     <div class="description">
                       ${h.context}
@@ -7665,8 +7895,8 @@ function showSavedQuery() {
   }
 
   $(".cmi-search-list").html(html);
-  $(".search-message.header").text("Last Search Result");
-  $(".search-message-body").html(`<p>Search for <em>${queryResult.query}</em> found ${queryResult.count} matches</p>`);
+  $(".search-message.header").text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("search:s11"));
+  $(".search-message-body").html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("string:s3")} <em>${queryResult.query}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("string:s5")} ${queryResult.count} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("string:s6")}</p>`);
   $("#search-results-header").html(`: <em>${queryResult.query}</em>`);
 }
 

@@ -1,29 +1,29 @@
 /*
- * 
+ *
  * This allows the user to capture the audio playback time at the start of each
- * paragraph. 
- * 
+ * paragraph.
+ *
  * Each paragraph under .cmiTranPara, for transcripts containing audio and that have not yet
  * been timed, have a bullseye icon inserted at the beginning. When audio is played, pressing
  * the 'C' on the audio player displays the bullseye.
- * 
+ *
  * When clicked, the bullseye becomes a check mark indicating time has been captured. Whe clicked
- * again the check mark becomes a bullseye. Data is stored in local storage while it is being 
+ * again the check mark becomes a bullseye. Data is stored in local storage while it is being
  * collected and can be restored if the timing session is interrupted before the data is submitted.
- * 
+ *
  * A bullseye is clicked when the audio is transitioning between paragrapsh - in the gap between
  * the previous paragraph and before the current. When all paragraphs have been clicked and the audio
  * ends, the timing submission form if displayed automatically. The user just submits the form and
  * the timing data ends up being emailed to the recipient as configured with Netlify.
- * 
+ *
  * If the submit fails, the timing data is stored in local storage and the form is automatically
  * displayed when the page is refreshed or returned to at a later time.
- * 
+ *
  * Requirements to capture
- * 
+ *
  * 1. be logged in with role of "timer" or "editor"
  * 2. the transcript is reserved for timing by the one logged in or not reserved
- * 
+ *
  */
 
 import CaptureData from "./captureData";
@@ -32,9 +32,10 @@ import store from "store";
 import {getUserInfo} from "www/modules/_user/netlify";
 import scroll from "scroll-into-view";
 import {disableScroll} from "./focus";
+import {getString} from "../_language/lang";
 
 /*
-  if a timer closes the submit form without pressing submit the data 
+  if a timer closes the submit form without pressing submit the data
   will be lost. So we check for this condition and warn them once
 */
 let posted = false;
@@ -63,8 +64,8 @@ let editInitialized = false;
     return true
   if response is no
     return false
-  
-  If we don't have timing data 
+
+  If we don't have timing data
     return true
 */
 function initializeEdit() {
@@ -92,7 +93,7 @@ function initializeEdit() {
             let noOfParagraphs = $("p.cmiTranPara").length;
 
             if (noOfParagraphs !== timingData.length) {
-              notify.error("Unexpected number of data points in existing timing data, please inform Rick, Can't capture time until this is resolved.");
+              notify.error(getString("error:e1"));
               resolve(false);
               return;
             }
@@ -204,7 +205,8 @@ function createListener() {
       captureId = e.target.parentElement.id;
     }
     else {
-      notify.info("Click is ignored when audio is not playing.");
+      //Click is ignored when audio is not playing.
+      notify.info(getString("notify:n1"));
     }
   });
 
@@ -214,7 +216,9 @@ function createListener() {
     closable: false,
     onHide: function() {
       if (!posted && !warned) {
-        notify.warning("Warning, your timing data will be lost if you close the window without submitting the data.", "Your Data Will Be Lost", {timeOut: 10000, closeButton: true});
+        //Warning, your timing data will be lost if you close the window without submitting the data.
+        //Your Data Will Be Lost
+        notify.warning(getString("notify:n2"), getString("notify:n3"), {timeOut: 10000, closeButton: true});
         warned = true;
         return false;
       }
@@ -230,20 +234,24 @@ function createListener() {
     let $form = $(this);
     $.post($form.attr("action"), $form.serialize())
       .done(function() {
-        notify.success("Thank you! The data was submitted successfully.");
+        //Thank you! The data was submitted successfully.
+        notify.success(getString("notify:n4"));
         $(uiTimeCaptureModal).modal("hide");
         toggleMarkers();
 
         //if there was a previously failed submit - remove it
         store.remove(`captureData-${location.pathname}`);
       })
+      //Sorry, submit failed.
+      //Drat! Your submit failed.
+      //To re-submit, try to refresh the page or return at a later time.
+      //The data will not be lost. This form will be displayed the next
+      //time you visit the page.
       .fail(function(e) {
-        notify.error("Sorry, submit failed.");
+        notify.error(getString("notify:n5"));
         $("#audio-data-form .ui.message").addClass("negative").html(
-          `<div class="header">Drat! Your submit failed.</div>
-           <p>To re-submit, try to refresh the page or return at a later time.
-           The data will not be lost. This form will be displayed the next
-           time you visit the page.</p>`
+          `<div class="header">${getString("html:h1")}</div>
+           <p>${getString("html:h2")}</p>`
         );
         $("#audio-form-submit").addClass("disabled");
 
@@ -308,7 +316,8 @@ function recoverPartialSession() {
     //adjust audio play time to last timed paragraph
     audioPlayer.setCurrentTime(lastParagraph.seconds);
 
-    notify.info("Partial audio capture data restored. You can continue timing where you left off.");
+    //Partial audio capture data restored. You can continue timing where you left off.
+    notify.info(getString("notify:n6"));
 
     //scroll last timed paragraph into viewport
     scroll(document.getElementById(lastParagraph.id));
@@ -410,10 +419,12 @@ export default {
     else {
       //notify user if there is a partial timing session
       if (store.get(`$captureData-${location.pathname}`)) {
-        notify.info("You have an incomplete timing session. Start time capture to begin where you left off.");
+        //You have an incomplete timing session. Start time capture to begin where you left off.
+        notify.info(getString("notify:n7"));
       }
       else if (store.get(`captureData-${location.pathname}`)) {
-        notify.info("You have a complete but unsubmited timing session. Please send us the data.");
+        //You have a complete but unsubmited timing session. Please send us the data.
+        notify.info(getString("notify:n8"));
         retrySubmit();
       }
     }

@@ -2,6 +2,7 @@ import store from "store";
 import axios from "axios";
 import notify from "toastr";
 import {status} from "./status";
+import {getString} from "../_language/lang";
 const transcript = require("./key");
 
 let config; //the current configuration, initially null, assigned by getConfig()
@@ -97,6 +98,7 @@ export function getConfig(book, assign = true) {
       })
       .catch(() => {
         config = null;
+        notify.error(`getString("error:e3")}: ${url}`);
         reject(`Config file: ${url} is not valid JSON`);
       });
   });
@@ -133,6 +135,7 @@ export function loadConfig(book) {
       })
       .catch((error) => {
         config = null;
+        notify.error(`getString("error:e3")}: ${url}`);
         reject(`Config file: ${url} is not valid JSON`);
       });
   });
@@ -152,7 +155,7 @@ export function getAudioInfo(url) {
   });
 
   if (!audioInfo) {
-    notify.error("Configuration file error, didn't find url in file.");
+    notify.error(getString("error:e4"));
     return {};
   }
 
@@ -163,7 +166,7 @@ export function getAudioInfo(url) {
   }
 
   if (!audioInfo) {
-    notify.error("Level 2 Configuration file error, didn't find url in file.");
+    notify.error(getString("error:e4"));
     return {};
   }
 
@@ -205,8 +208,8 @@ export function getPageInfo(pageKey, data = false) {
 
     //invalid pageKey
     if (pageKey === -1) {
-      info.bookTitle = "Book Title Unknown";
-      info.title = "Title Unknown";
+      info.bookTitle = getString("label:l1");
+      info.title = getString("label:l2");
       info.url = "";
       resolve(info);
       return;
@@ -216,8 +219,8 @@ export function getPageInfo(pageKey, data = false) {
     getConfig(decodedKey.bookId, false)
       .then((data) => {
         if (!data) {
-          info.bookTitle = "Book Title Unknown";
-          info.title = "Title Unknown";
+          info.bookTitle = getString("label:l1");
+          info.title = getString("label:l2");
           info.url = "";
         }
         else {
@@ -225,7 +228,7 @@ export function getPageInfo(pageKey, data = false) {
 
           let unit = data.contents[decodedKey.uid];
           if (!unit) {
-            info.title = `Title not found, pageKey: ${pageKey}, decodedKey: ${decodedKey}`;
+            info.title = `${getString("error:e5")}, pageKey: ${pageKey}, decodedKey: ${decodedKey}`;
             info.title = "";
           }
           else {

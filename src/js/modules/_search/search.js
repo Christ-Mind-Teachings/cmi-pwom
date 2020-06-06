@@ -1,11 +1,12 @@
 
-const searchEndpoint = "https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/latest/wom";
 import axios from "axios";
 import { showSavedQuery, showSearchResults } from "./show";
 import {showSearchMatch} from "www/modules/_util/url";
 import { initNavigator } from "./navigator";
 import notify from "toastr";
 import {searchAudit} from "www/modules/_audit/audit";
+import {getString} from "../_language/lang";
+import constants from "../../constants";
 
 //search modal
 const uiSearchModal = ".search.ui.modal";
@@ -22,8 +23,6 @@ const uiSearchMessageHeader = ".search-message.header";
 const uiSearchMessageBody = ".search-message-body";
 
 //search message id's
-const SOURCE_NOT_SELECTED = Symbol("no_source");
-const SOURCE_SELECTED = Symbol("source_selected");
 const SEARCHING = Symbol("searching");
 const SEARCH_RESULT = Symbol("search_result");
 const SEARCH_ERROR = Symbol("search_error");
@@ -31,27 +30,17 @@ const SAVED_SEARCH = Symbol("saved_search");
 
 function displaySearchMessage(msgId, arg1, arg2, arg3) {
   switch(msgId) {
-    case SOURCE_NOT_SELECTED:
-      $(uiSearchMessage).addClass("negative");
-      $(uiSearchMessageHeader).text("Search Source Not Selected");
-      $(uiSearchMessageBody).html("<p>You forgot to select a search source.</p>");
-      break;
-    case SOURCE_SELECTED:
-      $(uiSearchMessage).removeClass("negative");
-      $(uiSearchMessageHeader).text("Search Source");
-      $(uiSearchMessageBody).html(`<p>Searching from <em>${arg1}</em></p>`);
-      break;
     case SEARCHING:
       $(uiSearchInputIcon).addClass("loading");
       $(uiSearchString).attr("disabled", true);
       $(uiSearchMessage).addClass("purple");
-      $(uiSearchMessageHeader).text("Search Started...");
-      $(uiSearchMessageBody).html(`<p>Searching for <em>${arg2}</em></p>`);
+      $(uiSearchMessageHeader).text(getString("search:s1"));
+      $(uiSearchMessageBody).html(`<p>${getString("search:s2")} <em>${arg2}</em></p>`);
       break;
     case SAVED_SEARCH:
       //arg1: source, arg2: query string, arg3: count
-      $(uiSearchMessageHeader).text("Last Search Result");
-      $(uiSearchMessageBody).html(`<p>Search for <em>${arg2}</em> from <em>${arg1}</em> found ${arg3} matches</p>`);
+      $(uiSearchMessageHeader).text(getString("label:l6"));
+      $(uiSearchMessageBody).html(`<p>${getString("string:s3")} <em>${arg2}</em> ${getString("search:s4")} <em>${arg1}</em> ${getString("search:s5")} ${arg3} ${getString("search:s6")}</p>`);
       break;
     case SEARCH_RESULT:
       $(uiSearchInputIcon).removeClass("loading");
@@ -63,15 +52,15 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
         $(uiSearchString).val("");
       }
 
-      $(uiSearchMessageHeader).text("Search Result");
-      $(uiSearchMessageBody).html(`<p>Search for <em>${arg2}</em> found ${arg3} matches</p>`);
+      $(uiSearchMessageHeader).text(getString("search:s7"));
+      $(uiSearchMessageBody).html(`<p>${getString("string:s3")} <em>${arg2}</em> ${getString("string:s5")} ${arg3} ${getString("string:s7")}</p>`);
       break;
     case SEARCH_ERROR:
       $(uiSearchInputIcon).removeClass("loading");
       $(uiSearchString).attr("disabled", false);
       $(uiSearchMessage).removeClass("purple").addClass("negative");
 
-      $(uiSearchMessageHeader).text("Search Error");
+      $(uiSearchMessageHeader).text(getString("search:s8"));
       $(uiSearchMessageBody).html(`<p>${arg1}</p>`);
       break;
     default:
@@ -86,7 +75,7 @@ function search(query) {
     width: 30
   };
 
-  axios.post(searchEndpoint, searchBody)
+  axios.post(constants.searchEndpoint, searchBody)
     .then((response) => {
       //console.log("search response: %o", response);
       displaySearchMessage(SEARCH_RESULT, "", `"${response.data.queryTransformed}"`, response.data.count);
@@ -94,15 +83,15 @@ function search(query) {
         showSearchResults(response.data, response.data.queryTransformed);
       }
       else {
-        notify.info(`Search for "${response.data.queryTransformed}" didn't find any matches`);
+        notify.info(`${getString("string:s3")} "${response.data.queryTransformed}" ${getString("string:s9")}`);
       }
-      searchAudit("WOM", searchBody.query, response.data.count);
+      searchAudit(constants.sid.toUpperCase(), searchBody.query, response.data.count);
       document.getElementById("search-input-field").focus();
     })
     .catch((error) => {
       console.error("search error: %o", error);
       displaySearchMessage(SEARCH_ERROR, error.message);
-      searchAudit("WOM", searchBody.query, 0, error.message);
+      searchAudit(constants.sid.toUpperCase(), searchBody.query, 0, error.message);
     });
 }
 

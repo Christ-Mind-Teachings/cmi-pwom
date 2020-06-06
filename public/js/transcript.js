@@ -1213,32 +1213,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! scroll-into-view */ "./node_modules/scroll-into-view/scrollIntoView.js");
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(scroll_into_view__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _focus__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./focus */ "./src/js/modules/_audio/focus.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
 /*
- * 
+ *
  * This allows the user to capture the audio playback time at the start of each
- * paragraph. 
- * 
+ * paragraph.
+ *
  * Each paragraph under .cmiTranPara, for transcripts containing audio and that have not yet
  * been timed, have a bullseye icon inserted at the beginning. When audio is played, pressing
  * the 'C' on the audio player displays the bullseye.
- * 
+ *
  * When clicked, the bullseye becomes a check mark indicating time has been captured. Whe clicked
- * again the check mark becomes a bullseye. Data is stored in local storage while it is being 
+ * again the check mark becomes a bullseye. Data is stored in local storage while it is being
  * collected and can be restored if the timing session is interrupted before the data is submitted.
- * 
+ *
  * A bullseye is clicked when the audio is transitioning between paragrapsh - in the gap between
  * the previous paragraph and before the current. When all paragraphs have been clicked and the audio
  * ends, the timing submission form if displayed automatically. The user just submits the form and
  * the timing data ends up being emailed to the recipient as configured with Netlify.
- * 
+ *
  * If the submit fails, the timing data is stored in local storage and the form is automatically
  * displayed when the page is refreshed or returned to at a later time.
- * 
+ *
  * Requirements to capture
- * 
+ *
  * 1. be logged in with role of "timer" or "editor"
  * 2. the transcript is reserved for timing by the one logged in or not reserved
- * 
+ *
  */
 
 
@@ -1246,8 +1247,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 /*
-  if a timer closes the submit form without pressing submit the data 
+  if a timer closes the submit form without pressing submit the data
   will be lost. So we check for this condition and warn them once
 */
 
@@ -1272,8 +1274,8 @@ let editInitialized = false;
     return true
   if response is no
     return false
-  
-  If we don't have timing data 
+
+  If we don't have timing data
     return true
 */
 
@@ -1302,7 +1304,7 @@ function initializeEdit() {
           let noOfParagraphs = $("p.cmiTranPara").length;
 
           if (noOfParagraphs !== timingData.length) {
-            toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error("Unexpected number of data points in existing timing data, please inform Rick, Can't capture time until this is resolved.");
+            toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e1"));
             resolve(false);
             return;
           }
@@ -1413,7 +1415,8 @@ function createListener() {
       captureRequested = true;
       captureId = e.target.parentElement.id;
     } else {
-      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info("Click is ignored when audio is not playing.");
+      //Click is ignored when audio is not playing.
+      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("notify:n1"));
     }
   }); //initialize time capture modal
 
@@ -1424,7 +1427,9 @@ function createListener() {
     closable: false,
     onHide: function () {
       if (!posted && !warned) {
-        toastr__WEBPACK_IMPORTED_MODULE_1___default.a.warning("Warning, your timing data will be lost if you close the window without submitting the data.", "Your Data Will Be Lost", {
+        //Warning, your timing data will be lost if you close the window without submitting the data.
+        //Your Data Will Be Lost
+        toastr__WEBPACK_IMPORTED_MODULE_1___default.a.warning(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("notify:n2"), Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("notify:n3"), {
           timeOut: 10000,
           closeButton: true
         });
@@ -1440,17 +1445,21 @@ function createListener() {
 
     let $form = $(this);
     $.post($form.attr("action"), $form.serialize()).done(function () {
-      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.success("Thank you! The data was submitted successfully.");
+      //Thank you! The data was submitted successfully.
+      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.success(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("notify:n4"));
       $(uiTimeCaptureModal).modal("hide");
       toggleMarkers(); //if there was a previously failed submit - remove it
 
       store__WEBPACK_IMPORTED_MODULE_2___default.a.remove(`captureData-${location.pathname}`);
-    }).fail(function (e) {
-      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error("Sorry, submit failed.");
-      $("#audio-data-form .ui.message").addClass("negative").html(`<div class="header">Drat! Your submit failed.</div>
-           <p>To re-submit, try to refresh the page or return at a later time.
-           The data will not be lost. This form will be displayed the next
-           time you visit the page.</p>`);
+    }) //Sorry, submit failed.
+    //Drat! Your submit failed.
+    //To re-submit, try to refresh the page or return at a later time.
+    //The data will not be lost. This form will be displayed the next
+    //time you visit the page.
+    .fail(function (e) {
+      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("notify:n5"));
+      $("#audio-data-form .ui.message").addClass("negative").html(`<div class="header">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("html:h1")}</div>
+           <p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("html:h2")}</p>`);
       $("#audio-form-submit").addClass("disabled"); //store data so we can submit later
 
       store__WEBPACK_IMPORTED_MODULE_2___default.a.set(`captureData-${location.pathname}`, captureData.getData());
@@ -1507,8 +1516,9 @@ function recoverPartialSession() {
     let lastParagraph = data.time[data.time.length - 1]; //console.log("last paragraph: ", lastParagraph);
     //adjust audio play time to last timed paragraph
 
-    audioPlayer.setCurrentTime(lastParagraph.seconds);
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info("Partial audio capture data restored. You can continue timing where you left off."); //scroll last timed paragraph into viewport
+    audioPlayer.setCurrentTime(lastParagraph.seconds); //Partial audio capture data restored. You can continue timing where you left off.
+
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("notify:n6")); //scroll last timed paragraph into viewport
 
     scroll_into_view__WEBPACK_IMPORTED_MODULE_4___default()(document.getElementById(lastParagraph.id)); //indicate previous session was recovered
 
@@ -1606,9 +1616,11 @@ function restoreState() {
     } else {
       //notify user if there is a partial timing session
       if (store__WEBPACK_IMPORTED_MODULE_2___default.a.get(`$captureData-${location.pathname}`)) {
-        toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info("You have an incomplete timing session. Start time capture to begin where you left off.");
+        //You have an incomplete timing session. Start time capture to begin where you left off.
+        toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("notify:n7"));
       } else if (store__WEBPACK_IMPORTED_MODULE_2___default.a.get(`captureData-${location.pathname}`)) {
-        toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info("You have a complete but unsubmited timing session. Please send us the data.");
+        //You have a complete but unsubmited timing session. Please send us the data.
+        toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("notify:n8"));
         retrySubmit();
       }
     }
@@ -1790,12 +1802,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _capture__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./capture */ "./src/js/modules/_audio/capture.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
 /*
   highlight and scroll paragraph being spoken during audio playback
 
   Supports:
     play-from-here
 */
+
 
 
 
@@ -2031,11 +2045,6 @@ function showNscroll(idx) {
     player = p; //load the timing data
 
     Object(_config_config__WEBPACK_IMPORTED_MODULE_1__["fetchTimingData"])(timingDataUri).then(data => {
-      //round timing data to two decimal places
-      //        timingData = _map(data.time, function(value) {
-      //          value.seconds = round(value.seconds);
-      //          return value;
-      //        });
       timingData = data.time.map(value => {
         value.seconds = round(value.seconds);
         return value;
@@ -2046,6 +2055,7 @@ function showNscroll(idx) {
         Object(_capture__WEBPACK_IMPORTED_MODULE_4__["setCaptureData"])(timingData);
       }
     }).catch(error => {
+      toastr__WEBPACK_IMPORTED_MODULE_5___default.a.error(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e2")}: ${error.message}`);
       console.error("Failed to load timing data: %s, error: ", timingDataUri, error);
     });
   },
@@ -2301,19 +2311,6 @@ function setEventListeners(player, userStatus, haveTimingData) {
         $(".mejs__ptoggle").addClass("mejs-ptoggle-hidden").removeClass("mejs-ptoggle-visible");
       }
     });
-    /* don't think we need this when we have timing data
-    //get notified when seek start
-    player.media.addEventListener("seeking", function() {
-      var time = player.getCurrentTime();
-      focus.setSeeking(time);
-    });
-     //get notified when seek ended
-    player.media.addEventListener("seeked", function() {
-      var time = player.getCurrentTime();
-      focus.setSeeked(time);
-    });
-    */
-
     player.media.addEventListener("prevp", function () {
       Object(_focus__WEBPACK_IMPORTED_MODULE_17__["switchToParagraph"])("PREV");
     });
@@ -2451,14 +2448,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var www_modules_util_facebook__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! www/modules/_util/facebook */ "../cmi-www/src/js/modules/_util/facebook.js");
 /* harmony import */ var www_modules_page_startup__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! www/modules/_page/startup */ "../cmi-www/src/js/modules/_page/startup.js");
 /* harmony import */ var www_modules_page_notes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! www/modules/_page/notes */ "../cmi-www/src/js/modules/_page/notes.js");
-/* harmony import */ var _setEnv__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./setEnv */ "./src/js/setEnv.js");
-/* harmony import */ var _modules_config_config__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/_config/config */ "./src/js/modules/_config/config.js");
-/* harmony import */ var _modules_bookmark_start__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/_bookmark/start */ "./src/js/modules/_bookmark/start.js");
-/* harmony import */ var _modules_search_search__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/_search/search */ "./src/js/modules/_search/search.js");
-/* harmony import */ var _modules_contents_toc__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/_contents/toc */ "./src/js/modules/_contents/toc.js");
-/* harmony import */ var _modules_audio_audio__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/_audio/audio */ "./src/js/modules/_audio/audio.js");
-/* harmony import */ var _modules_about_about__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/_about/about */ "./src/js/modules/_about/about.js");
-/* harmony import */ var _notes__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./notes */ "./src/js/notes.js");
+/* harmony import */ var www_modules_language_lang__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! www/modules/_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var _setEnv__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./setEnv */ "./src/js/setEnv.js");
+/* harmony import */ var _modules_config_config__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/_config/config */ "./src/js/modules/_config/config.js");
+/* harmony import */ var _modules_bookmark_start__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/_bookmark/start */ "./src/js/modules/_bookmark/start.js");
+/* harmony import */ var _modules_search_search__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/_search/search */ "./src/js/modules/_search/search.js");
+/* harmony import */ var _modules_contents_toc__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/_contents/toc */ "./src/js/modules/_contents/toc.js");
+/* harmony import */ var _modules_audio_audio__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/_audio/audio */ "./src/js/modules/_audio/audio.js");
+/* harmony import */ var _modules_about_about__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./modules/_about/about */ "./src/js/modules/_about/about.js");
+/* harmony import */ var _notes__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./notes */ "./src/js/notes.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
 /* eslint no-console: off */
 //common modules
 
@@ -2475,28 +2474,31 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 $(document).ready(() => {
   Object(www_modules_util_url__WEBPACK_IMPORTED_MODULE_0__["loadStart"])();
+  Object(www_modules_language_lang__WEBPACK_IMPORTED_MODULE_5__["setLanguage"])(_constants__WEBPACK_IMPORTED_MODULE_14__["default"]);
   Object(www_modules_page_startup__WEBPACK_IMPORTED_MODULE_3__["initTranscriptPage"])();
   www_modules_user_netlify__WEBPACK_IMPORTED_MODULE_1__["default"].initialize();
   www_modules_util_facebook__WEBPACK_IMPORTED_MODULE_2__["default"].initialize();
-  _modules_about_about__WEBPACK_IMPORTED_MODULE_11__["default"].initialize();
-  Object(www_modules_page_notes__WEBPACK_IMPORTED_MODULE_4__["initialize"])(_notes__WEBPACK_IMPORTED_MODULE_12__["noteInfo"]);
-  Object(_setEnv__WEBPACK_IMPORTED_MODULE_5__["setRuntimeEnv"])();
-  Object(_modules_config_config__WEBPACK_IMPORTED_MODULE_6__["loadConfig"])(Object(_modules_contents_toc__WEBPACK_IMPORTED_MODULE_9__["getBookId"])()).then(result => {
-    _modules_search_search__WEBPACK_IMPORTED_MODULE_8__["default"].initialize();
+  _modules_about_about__WEBPACK_IMPORTED_MODULE_12__["default"].initialize();
+  Object(www_modules_page_notes__WEBPACK_IMPORTED_MODULE_4__["initialize"])(_notes__WEBPACK_IMPORTED_MODULE_13__["noteInfo"]);
+  Object(_setEnv__WEBPACK_IMPORTED_MODULE_6__["setRuntimeEnv"])();
+  Object(_modules_config_config__WEBPACK_IMPORTED_MODULE_7__["loadConfig"])(Object(_modules_contents_toc__WEBPACK_IMPORTED_MODULE_10__["getBookId"])()).then(result => {
+    _modules_search_search__WEBPACK_IMPORTED_MODULE_9__["default"].initialize();
     /*
       result of 0 indicates no contents config found
       - toc, and audio depend on config file
     */
 
     if (result !== 0) {
-      _modules_contents_toc__WEBPACK_IMPORTED_MODULE_9__["default"].initialize("transcript");
-      _modules_audio_audio__WEBPACK_IMPORTED_MODULE_10__["default"].initialize();
+      _modules_contents_toc__WEBPACK_IMPORTED_MODULE_10__["default"].initialize("transcript");
+      _modules_audio_audio__WEBPACK_IMPORTED_MODULE_11__["default"].initialize();
     }
 
     Object(www_modules_util_url__WEBPACK_IMPORTED_MODULE_0__["showParagraph"])();
-    Object(_modules_bookmark_start__WEBPACK_IMPORTED_MODULE_7__["bookmarkStart"])("transcript");
+    Object(_modules_bookmark_start__WEBPACK_IMPORTED_MODULE_8__["bookmarkStart"])("transcript");
 
     if ($(".disable-paragraph-marker").length > 0) {
       console.log("disable paragraph markers");

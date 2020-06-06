@@ -1,12 +1,13 @@
 import scroll from "scroll-into-view";
 import {getConfig} from "../_config/config";
 import clipboard from "www/modules/_bookmark/clipboard";
+import {getString} from "../_language/lang";
 
 const uiTocModal = ".toc.ui.modal";
 const uiOpenTocModal = ".toc-modal-open";
 const uiModalOpacity = 0.5;
 
-const tocString = "Spis treści";
+const tocString = getString("label:l3");
 
 /*
 * If there is timing or a timer defined for a toc item
@@ -190,7 +191,7 @@ export default {
           .catch((error) => {
             $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
             $(".toc-title").html("${tocString}: <em>Error</em>");
-            $(".toc-list").html(`<p>Failed to get configuration file ${book}.json`);
+            $(".toc-list").html(`<p>${getString("error:e6")} ${book}.json`);
             $(uiTocModal).modal("show");
           });
       }
