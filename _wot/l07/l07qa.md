@@ -1,10 +1,10 @@
 ---
 title: "Lekcja 7. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 7<br>
-Pytania i odpowiedzi
+**Pytania i odpowiedzi**
 
 </div>
 
@@ -55,3 +55,5 @@ Myślę, że to będzie na teraz wystarczające. Tak więc to była krótka godz
 Zatem niech pokój zawsze będzie z wami.
 
 Amen.
+
+&nbsp;

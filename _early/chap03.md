@@ -1,6 +1,7 @@
 ---
 title: "Błogosławieństwo przebaczenia"
 ---
+&nbsp;
 <div markdown="1" align="center">
 # Błogosławieństwo przebaczenia
 
@@ -130,3 +131,5 @@ Zobaczymy. I pamiętaj, że nie ma czegoś takiego, jak prywatność!
 A więc stosowne będzie, jeśli poświęcimy krótką chwilę na pytania, zadawane przez tych, którzy wydają się tu siedzieć w swoich ciałach.
 
 A zatem na zakończenie tego, czym się podzieliliśmy z wami podczas tej godziny, pamiętaj o tych oto ideach: przebaczenie, miłość do siebie, akceptacja *doskonałości* każdej chwili, w której odkrywasz siebie. A ponieważ poprosiłeś o uzdrowienie i przebudzenie, Duch Święty już idzie przed tobą, prostując twą ścieżkę. Pamiętaj, że gdybyś wiedział, jak wyprostować swoją ścieżkę, to zrobiłbyś to sam już dawno temu! A zatem uznaj, że to, co się dzieje, jest częścią ścieżki wyznaczonej dla ciebie przez Inteligencję czy też Mądrość, która wie dużo lepiej niż twój myślący umysł, jak odnaleźć drogę do Domu. I im bardziej będziesz się poddawał doskonałości każdej chwili, tym bardziej będziesz odkrywał, że ucho igielne jest *zawsze* przed tobą i że tak naprawdę jest ono królewską drogą prowadzącą cię do pokoju.
+
+&nbsp;

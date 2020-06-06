@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 12. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 ## Lekcja 12<br>
 **Pytania i odpowiedzi**
@@ -36,9 +36,9 @@ To coś, co warto rozważyć.
 
 -- czyli tego, co nazywasz męską hydrauliką, która pomaga w procesie prokreacji ciała --
 
-> *&hellip;więc ponieważ ten organ zbudowany jest w określony sposób, to z pewnością nie mógłbym kiedykolwiek doświadczyć inkarnacji w żadnej innej formie. Więc jeśli powiedziałbym komuś: <Myślę, że kiedyś byłem Marią, tą, o której mówicie>, to oczywiście by mnie wyśmiano. Ponieważ, co jak co, ale moja klatka piersiowa pokryta jest zbyt bujnym owłosieniem&hellip; Ale nie, ja nie wierzę, że jestem tylko ciałem!*
+> *&hellip;więc ponieważ ten organ zbudowany jest w określony sposób, to z pewnością nie mógłbym kiedykolwiek doświadczyć inkarnacji w żadnej innej formie. Więc jeśli powiedziałbym komuś: 'Myślę, że kiedyś byłem Marią, tą, o której mówicie', to oczywiście by mnie wyśmiano. Ponieważ, co jak co, ale moja klatka piersiowa pokryta jest zbyt bujnym owłosieniem&hellip; Ale nie, ja nie wierzę, że jestem tylko ciałem!*
 
-Co tu się wydarzyło? Na początku Umysł jest Jednią. Ty -- mówimy do was wszystkich -- byłeś Tym Umysłem. I zaczął się sen, w którym wydawało się, że doszło do rozczłonkowania. W tym rozczłonkowaniu występuje wiele indywidualnych Punktów Światła, Dusz, Iskierek Boskości -- nazwij siebie jakkolwiek chcesz, nazwij siebie Beknięciem w Bożym Umyśle... To nie ma znaczenia. Oto *rezultat *snu oddzielenia, który w Rzeczywistości nigdy się nie wydarzył.
+Co tu się wydarzyło? Na początku Umysł jest Jednią. Ty -- mówimy do was wszystkich -- byłeś Tym Umysłem. I zaczął się sen, w którym wydawało się, że doszło do rozczłonkowania. W tym rozczłonkowaniu występuje wiele indywidualnych Punktów Światła, Dusz, Iskierek Boskości -- nazwij siebie jakkolwiek chcesz, nazwij siebie Beknięciem w Bożym Umyśle... To nie ma znaczenia. Oto *rezultat* snu oddzielenia, który w Rzeczywistości nigdy się nie wydarzył.
 
 I tu umysł wpada w osłupienie -- Bogu dzięki za to! W tym procesie w Umyśle, który postrzega Siebie jako rozczłonkowany, narodziło się -- i nadal rodzi -- wiele światów. W jednej malusieńkiej, maleńkiej, najdrobniejszej odrobinie kurzu lub też odrobinie Światła, narodził się świat, który nazywacie Ziemią, a wraz z nią wszystkie formy życia. I w tej maleńkiej drobinie wykształciły się -- lub zostały stworzone -- ramy czasowe, w których ludzkim ciałom nadano imiona. A umysły wierzą -- tak jak ty nadal w to wierzysz -- że w jakiś sposób jesteś czymś innym niż ten, kto siedzi obok lub naprzeciw ciebie, tylko dlatego, że istnieje ciało, które wytwarza postrzeganie, że istnieje między wami jakaś odległość.
 
@@ -126,14 +126,16 @@ Czy to, co powiedzieliśmy, jest pomocne w związku z twoim pytaniem?
 
 Zaprawdę tak. Czy masz zatem jeszcze jakieś pytania?
 
-**--** Nie.
+-- Nie.
 
 Mówimy wam, bądźcie pewni, że w nadchodzących tygodniach wypłynie na powierzchnię świadomości bardzo wiele pytań, o których nie wiedzieliście, że istnieją.
 
-**--** Jestem tego pewna.
+-- Jestem tego pewna.
 
 A będzie tak z jednego tylko powodu: abyście mogli zastosować do tych pytań odpowiedzi, które już znacie. I w ten sposób zostaniecie uwolnieni od przeszłości.
 
-**--** Amen.
+-- Amen.
 
 Bardzo dobrze więc, tak jak powiedziałaś: Amen.
+
+&nbsp;

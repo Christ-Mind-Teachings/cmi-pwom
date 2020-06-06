@@ -3,7 +3,7 @@
   "title": "Wczesne lata Drogi Mistrzostwa, Tom 1",
   "image": "/public/img/wom/early-toc.jpg",
   "toc": "relaxed ordered",
-  "totalPages": 16,
+  "totalPages": 15,
   "contents": [
     {
       "title": "Wstęp",
@@ -72,10 +72,6 @@
     {
       "title": "Chodź ze mną",
       "url": "/early/chap10/"
-    },
-    {
-      "title": "Ścieżka Drogi Mistrzostwa",
-      "url": "/early/path/"
     }
   ]
 }

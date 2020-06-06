@@ -1,13 +1,13 @@
 ---
 title: "Lekcja 1. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 1<br>
  **Pytania i odpowiedzi**
 </div>
 
-### *Po skończeniu danej lekcji Jeszua często odpowiada na pytania czytane mu w imieniu uczniów.*
+Po skończeniu danej lekcji Jeszua często odpowiada na pytania czytane mu w imieniu uczniów.
 
 ## Pytanie 1
 
@@ -89,3 +89,5 @@ Pamiętaj, że *niemożliwe jest wyjście ponad to, czego w pełni nie umiłowan
 
 I spójrz na wskroś tego, by uświadomić sobie, że to cię nie ogranicza w żaden sposób w przejawianiu bezgranicznej obecności Miłości. To nie jest żadną słabością. I nie należy tego porównywać z tym, co zdaje się być ciałem nietkniętym chorobą. Oczy ciała bowiem nie pokazują, co tkwi w duszy drugiej osoby.
 Ukochany przyjacielu, jest taka część ciebie, która niesie odwieczną łzę. Pozwól jej popłynąć, a dokona się uzdrowienie.
+
+&nbsp;

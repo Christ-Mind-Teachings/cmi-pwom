@@ -1,10 +1,10 @@
 ---
 title: "Lekcja 11. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 11<br>
-Pytania i odpowiedzi
+**Pytania i odpowiedzi**
 
 </div>
 
@@ -48,7 +48,7 @@ Czy to ci pomogło?
 
 ***Pytanie:*** Czy możesz wypowiedzieć się na temat *Rodu* i tego, jak to się dzieje, że ktoś jest z twego rodu, oraz na temat grup dusz?
 
-***Odpowiedź:* **Po pierwsze, umiłowany przyjacielu, jeśli cię zaakceptujemy [śmiech], być może zostaniesz dopuszczony do Rodu.
+***Odpowiedź:*** Po pierwsze, umiłowany przyjacielu, jeśli cię zaakceptujemy [śmiech], być może zostaniesz dopuszczony do Rodu.
 
 Zaprawdę odpowiedź mogłaby zająć całą godzinę lub kilka godzin, ponieważ jest to pytanie, które odnosi się do samego źródła snu oddzielenia i procesu budzenia się dziecka w kołysce.
 
@@ -119,3 +119,5 @@ Ponieważ jesteś Synostwem, jesteście tymi punktami Światła, które są z te
 Zatem zaprawdę niech pokój będzie z nami *wszystkimi* -- zawsze. Czy to w twoim świecie, czy w naszym, w ramach wymiarów Stwarzania, tylko Miłość dzieje się naprawdę.
 
 Amen.
+
+&nbsp;

@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 6. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 6<br>
 **Pytania i odpowiedzi**
@@ -125,3 +125,5 @@ Chcę jednak powiedzieć wam wszystkim – każdemu bez wyjątku, kto będzie s�
 Trwaj więc w pokoju. I *wiedz*, że jesteś miłowany.
 
 Amen.
+
+&nbsp;

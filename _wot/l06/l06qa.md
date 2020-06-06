@@ -1,10 +1,10 @@
 ---
 title: "Lekcja 6. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 6<br>
-Pytania i odpowiedzi
+**Pytania i odpowiedzi**
 
 </div>
 
@@ -89,3 +89,5 @@ Taki jest właśnie tego skutek!
 Pozostańcie zatem w pokoju raz jeszcze, umiłowani przyjaciele. Będziemy kontynuować za trzydzieści dni.
 
 Amen.
+
+&nbsp;

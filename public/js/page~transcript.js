@@ -6897,12 +6897,12 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "status", function() { return status; });
 const status = {
-  lj: "Wed May 27 23:01:04 HST 2020",
-  wos: "Tue May 26 22:53:45 HST 2020",
-  woh: "Tue Jun  2 23:20:13 HST 2020",
-  wot: "Tue Jun  2 23:51:31 HST 2020",
-  wok: "Wed Jun  3 09:10:55 HST 2020",
-  early: "Mon Jun  1 22:39:18 HST 2020"
+  lj: "Fri Jun  5 16:42:57 HST 2020",
+  wos: "Fri Jun  5 16:42:57 HST 2020",
+  woh: "Fri Jun  5 16:42:57 HST 2020",
+  wot: "Fri Jun  5 16:42:57 HST 2020",
+  wok: "Fri Jun  5 16:42:57 HST 2020",
+  early: "Fri Jun  5 16:42:57 HST 2020"
 };
 
 /***/ }),
@@ -7928,50 +7928,50 @@ function pageDriver() {
   driver.defineSteps([{
     element: "#source-homepage",
     popover: {
-      title: "The Way of Mastery",
-      description: "This is the homepage for all of <em>The Way of Mastery</em> teachings in the Library. Each of the volumes below contain chapters and some included questions too. And most contain the original audio so you can read along as you listen.<br><br>Click on the image to see the table of contents. The Way of Mastery teachings include&hellip;",
+      title: "Droga Mistrzostwa",
+      description: "Oto główna strona wszystkich nauk <em>Drogi Mistrzostwa</em> umieszczonych w niniejszej Bibliotece. Trzy książki posiadają ścieżkę dźwiekową i można je czytać jednocześnie słuchając.<br><br>Kliknij na obrazek książki, aby zobaczyć spis treści&hellip;",
       position: "bottom"
     }
   }, {
     element: "[data-book='woh']",
     popover: {
-      title: "The Way of the Heart",
-      description: "The first of three years of monthly messages that present the fundamental ideas and exercises that form a pathway of awakening.",
+      title: "Droga Serca",
+      description: "Pierwsza z trzech książek, które tworzą trzyletni proces duchowej ścieżki przebudzenia.",
       position: "top"
     }
   }, {
     element: "[data-book='wot']",
     popover: {
-      title: "The Way of Transformation",
-      description: "The second year of monthly messages that presents a transformative way of life.",
+      title: "Droga Przemiany",
+      description: "Drugi rok comiesięcznych lekcji prowadzących do przemiany serca i umysłu.",
       position: "top"
     }
   }, {
     element: "[data-book='wok']",
     popover: {
-      title: "The Way of Knowing",
-      description: "The final year of monthly messages that culminates <em>The Way of Mastery</em>.",
+      title: "Droga Poznania",
+      description: "Ostatni tom, który zamyka trylogię <em>Drogi Mistrzostwa</em>.",
       position: "top"
     }
   }, {
     element: "[data-book='tjl']",
     popover: {
-      title: "The Jeshua Letters",
-      description: "Jayem's account of his introduction to Jeshua.",
+      title: "Listy Jeszuy",
+      description: "Opowieść Jayema o pojawieniu się Jeszuy w jego życiu i danych mu naukach nazwanych Listami Jeszuy.",
       position: "top"
     }
   }, {
     element: "[data-book='wos']",
     popover: {
-      title: "The Way of the Servant",
-      description: "A poetic description of the journey of awakening taken from inception to recognition of self as the servant - one who walks this world awake.",
+      title: "Droga Sługi",
+      description: "Poetycki opis podróży przebudzenia, od narodzenia do rozpoznania siebie jako sługi, który kroczy przebudzony w służbie dla wszystkich swych sióstr i braci.",
       position: "top"
     }
   }, {
     element: "[data-book='early']",
     popover: {
-      title: "The Early Years",
-      description: "A collection of messages given before the Way of the Heart.",
+      title: "Wczesne lata",
+      description: "Zbiór przesłań danych przed powstaniem <em>Drogi Serca</em>, pierwszej części trylogii <em>Drogi Mistrzostwa</em>.",
       position: "top"
     }
   }]);
@@ -7988,57 +7988,57 @@ function pageNavigationDriver() {
   driver.defineSteps([{
     element: "#masthead-title",
     popover: {
-      title: "Navigation and Features",
-      description: "The Way of Mastery is part of the Library of Christ Mind Teachings. On every page you can click here to display the Library's main page to see all available teachings.",
+      title: "Nawigacja i funkcjonalności",
+      description: "Droga Mistrzostwa jest częśćią Biblioteki Nauk Umysłu Chrystusa. Na każdej stronie możesz kliknąć w tym miejscu, aby wyświetlić główną stronę Biblioteki z wszystkimi dostępnymi naukami.",
       position: "bottom"
     }
   }, {
     element: "#page-menu",
     popover: {
-      title: "The Menu",
-      description: "This is the page menu, it will stick to the top when the page is scrolled (when the tour is over) so it is always available. The menu on other pages is similar but may contain additional features.",
+      title: "Menu",
+      description: "To jest menu strony. Jest ono zawsze widoczne i dostępne, gdy przewijasz stronę w dół czytając lub przeszukując tekst. Menu na innych stronach jest podobne, lecz może mieć dodatkowe funkcjonalności.",
       position: "bottom"
     }
   }, {
     element: ".bookmark-modal-open",
     popover: {
-      title: "List Bookmarks",
-      description: "Display a list of bookmarks you have created and optionally filter by topic. You can quickly jump to any bookmark. Learn more about bookmarks in the documentation.",
+      title: "Lista zakładek",
+      description: "Wyświetl listę zakładek, jakie utworzyłeś i opcjonalnie możesz je filtrować tematami. Możesz szybko przejść do dowolnej zakładki. Możesz dowiedzieć się więcej o zakładkach z pomocy w języku angielskim.",
       position: "bottom"
     }
   }, {
     element: ".search-modal-open",
     popover: {
-      title: "Search Through All Books",
-      description: "Find topics of interest by searching through all Way of Mastery books.",
+      title: "Szukaj we wszystkich książkach",
+      description: "Możesz wyszukiwać interesujące cię tematy we wszystkich książkach Drogi Mistrzostwa.",
       position: "bottom"
     }
   }, {
     element: "#quick-links-dropdown-menu",
     popover: {
-      title: "Navigate to Another Teaching",
-      description: "Quickly jump to one of the other teachings in the Library.",
+      title: "Przejdź do innych nauk Biblioteki",
+      description: "Szybko przejdź do innych nauk zebranych w Bibliotece.",
       position: "bottom"
     }
   }, {
     element: "#help-menu",
     popover: {
-      title: "Get Help and Learn About",
-      description: "Learn about the teaching and using the features of the site.",
+      title: "Pomoc oraz informacje",
+      description: "Dowiedz się więcej na temat nauk oraz funkcjonalności strony.",
       position: "bottom"
     }
   }, {
     element: ".login-menu-option",
     popover: {
-      title: "Sign In/Sign Out",
-      description: "Create an account and sign in to the site. It's free and allows you to create bookmarks that you can share via Facebook and keep synchronized between devices.",
+      title: "Zaloguj się/Załóż konto",
+      description: "Załóż konto i zaloguj się do strony. Konto jest darmowe i pozwala tworzyć własne zakładki ( zaznaczone fragmenty tekstu). Możesz dzielić się tak utworzonymi zakładkami na Facebooku.",
       position: "left"
     }
   }, {
     element: "[data-book='wot']",
     popover: {
-      title: "Display Table of Contents",
-      description: "Click on any image to display and navigate to the volume contents.",
+      title: "Pokaż spis treści",
+      description: "Kliknij na dowolny obrazek książki, aby wyświetlić spis treści.",
       position: "left"
     }
   }]);

@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 8. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 ## Lekcja 8<br>
 **Pytania i odpowiedzi**
@@ -63,3 +63,5 @@ Pomyśl sobie o tym od czasu do czasu. Pokój więc niech będzie z wami.
 A ci z was, którzy słuchają tego nagrania lub słyszą te słowa tuż przed położeniem się spać i zakosztowaniem porządnego snu -- czy położycie głowę na poduszce tego wieczoru i dacie mi chwilę waszego czasu, uznając, że wiecie, iż nie dzieli nas żaden dystans -- poza długością myśli, którą decydujecie się pomyśleć. Myśl więc i wiedz, że jestem z tobą i zaprawdę będziemy razem podróżować, podczas gdy ciało śpi.
 
 Pokój niech zawsze będzie z wami. Amen.
+
+&nbsp;

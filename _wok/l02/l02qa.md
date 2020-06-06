@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 2. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 2<br>
 **Pytania i odpowiedzi**
@@ -160,3 +160,5 @@ Niech każdy, kto przybywa, by się z tobą połączyć, pamięta, że wzrastaj�
 Czy to odpowiada na twoje pytanie w wystarczającym stopniu?
 
 -- Tak.
+
+&nbsp;

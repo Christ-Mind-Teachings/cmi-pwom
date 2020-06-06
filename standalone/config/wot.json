@@ -3,12 +3,8 @@
   "title": "Droga Przemiany",
   "image": "/public/img/wom/wot-toc.jpg",
   "toc": "relaxed ordered",
-  "totalPages": 20,
+  "totalPages": 18,
   "contents": [
-    {
-      "title": "Sugestie do praktyki",
-      "url": "/wot/advice/"
-    },
     {
       "title": "Przedmowa",
       "url": "/wot/preface/"
@@ -107,10 +103,6 @@
       "title": "Lekcja 12",
       "audio": "/wot/l12.mp3",
       "url": "/wot/l12/"
-    },
-    {
-      "title": "Ścieżka Drogi Mistrzostwa",
-      "url": "/wot/path/"
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 title: "Przedmowa Alana Cohena"
 ---
-
+&nbsp;
 <div markdown="1" class="chHead"> 
 ## Przedmowa Alana Cohena
 

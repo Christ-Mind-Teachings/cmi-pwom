@@ -1,7 +1,7 @@
 ---
 title: "Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 
 # Niebo na ziemi
@@ -171,3 +171,5 @@ Kończąc więc tę godzinę, pokój mój wam daję -- lecz nie tak, jak daje ś
 Zatem niech pokój zawsze będzie z wami, stwórcy niebios i piekieł, którzy w każdej chwili możecie ponownie dokonać wyboru. A ponieważ ja jestem bez czasu, mogę czekać po wieki na ciebie, byś wybrał wraz ze mną.
 
 Amen.
+
+&nbsp;

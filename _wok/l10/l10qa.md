@@ -1,18 +1,14 @@
 ---
 title: "Lekcja 10. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 10<br>
 **Pytania i odpowiedzi**
 
 </div>
 
-
-
 **Pytanie 1**
-
-
 
 ***Pytanie*:** Wyszła właśnie książka zatytułowana „The Bible Codes” (Kod Biblii). Odkryto sekretny kod Tory, który wskazuje na wiele wydarzeń, jakie zaszły obecnie, w dzisiejszych czasach. Czy mógłbyś to rozwinąć i odnieść się do wiarygodności tych informacji?
 
@@ -94,7 +90,7 @@ Czy to wyjaśnienie pomogło ci w kwestii tego pytania?
 
 *Jeszua*: Widzisz, często kiedy dorosły patrzy na niedolę dziecka i *czuje* *się* bezradny lub *czuje*, że jest to nie w porządku, lub *czuje* *gniew*, wszystko, co wówczas czyni, jest wyrażaniem czułego miejsca w sobie, które nie zostało w nim uzdrowione z jego własnych doświadczeń dzieciństwa. Ujawniana jest *mu* *granica*, która woła o głębsze uzdrowienie i wybaczenie w *nim* *samym*. Albowiem tylko ci, którzy potrafią wybaczyć sobie, tylko ci, którzy uzdrowili swe własne wnętrze, mogą zaprawdę być pomocni we wspieraniu innych w ich zdrowieniu.
 
-Powiedziałem wam kiedyś, że ci, którzy mówią o pokoju i działają na rzecz pokoju, lecz nie mają pokoju w swym własnym sercu, niczego nie osiągają. Nie różni się to niczym od pracy z dzieckiem, które było molestowane, głodne, które przechodzi przez chaos relacji z rówieśnikami lub cokolwiek innego. Jeśli wywołuje to w tobie *emocje*, dobrze się przypatrz, abyś zobaczył, co mogło jeszcze zostać w *tobie* nieuleczone. Innymi słowy, wyciągnij belkę ze swego oka, zanim podejmiesz się próby pomocy bliźniemu w usunięciu mu źdźbła, które w jego oku wygląda na belkę z powodu tego, że projektujesz na niego to, co jest w tobie nieuzdrowione. Tylko *uzdrowiony* umysł* może pomagać w uzdrawianiu bliźniego.
+Powiedziałem wam kiedyś, że ci, którzy mówią o pokoju i działają na rzecz pokoju, lecz nie mają pokoju w swym własnym sercu, niczego nie osiągają. Nie różni się to niczym od pracy z dzieckiem, które było molestowane, głodne, które przechodzi przez chaos relacji z rówieśnikami lub cokolwiek innego. Jeśli wywołuje to w tobie *emocje*, dobrze się przypatrz, abyś zobaczył, co mogło jeszcze zostać w *tobie* nieuleczone. Innymi słowy, wyciągnij belkę ze swego oka, zanim podejmiesz się próby pomocy bliźniemu w usunięciu mu źdźbła, które w jego oku wygląda na belkę z powodu tego, że projektujesz na niego to, co jest w tobie nieuzdrowione. Tylko *uzdrowiony umysł* może pomagać w uzdrawianiu bliźniego.
 
 Niech ta odpowiedź będzie na teraz wystarczająca.
 
@@ -103,3 +99,5 @@ Niech ta odpowiedź będzie na teraz wystarczająca.
 *Jeszua*: Zaprawdę,  proszę bardzo.
 
 I ponownie zwracam się do was wszystkich, niech błogosławieństwo i pokój zawsze będą z wami.
+
+&nbsp;

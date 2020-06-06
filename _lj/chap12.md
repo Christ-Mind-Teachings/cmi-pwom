@@ -1,7 +1,7 @@
 ---
 title: "Rozdział dwunasty"
 ---
-
+&nbsp;
 <div markdown="1" class="chHead">
 ## Rozdział dwunasty
 
@@ -96,7 +96,7 @@ Gdy zaczynam gwałtownie łapać powietrze i  czuję, że znajoma mi  nemezis ud
 > „I  wyciągnąwszy rękę, dotknął Pan moich ust i  rzekł mi: <br>
 > «Oto kładę Moje słowa w  twoje usta».”
 
-<div markdown="1" class="indent"
+<div markdown="1" class="indent">
 
 Mój umysł, oddech i  całe ciało zostają wtłoczone w  bezruch ciszy.
 
@@ -141,7 +141,6 @@ Mój umysł, oddech i  całe ciało zostają wtłoczone w  bezruch ciszy.
 *Nie lękaj się, umiłowany bracie.*
 
 *Nie lękaj się.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -203,7 +202,7 @@ Otwieram list.
 >
 > *Nie jestem w  stanie wyrazić, co  on dla mnie oznacza. Bez wątpienia moje modlitwy zostały wysłuchane.*
 >
-> **Piszę, aby cię zapytać, czy zechciałbyś pozwolić mi  zapłacić za  publikację tej cennej książki. Byłabym zaszczycona, gdybym mogła to  zrobić.*
+> *Piszę, aby cię zapytać, czy zechciałbyś pozwolić mi  zapłacić za  publikację tej cennej książki. Byłabym zaszczycona, gdybym mogła to  zrobić.*
 >
 > Z  poważaniem,
 >
@@ -269,3 +268,4 @@ Oto wszystko zostało uczynione nowym.
 *Amen.*
 
 </div>
+&nbsp;

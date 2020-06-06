@@ -1,7 +1,7 @@
 ---
 title: "Chodź ze mną"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 
 # Chodź ze mną 
@@ -91,7 +91,7 @@ Zaprawdę, drodzy przyjaciele, pojawiły się wówczas pewne waśnie: „Kim jes
 
 Jeden ostatni raz powędrowałem na pustynię, by modlić się tam i -- tak -- płakać i poczuć ostatnie ślady lęku, chwilowego zwątpienia, i by oddać te sprawy memu Ojcu, prosząc jedynie o to, by przejawiła się przeze mnie Jego Wola. A Jego Wolą jest jedynie Miłość.
 
-W tamtych czasach ze Wschodu przybywało wielu podróżników i podczas jednej z takich podróży z kraju, który znacie jako Indie, przybyli pewni nauczyciele, którzy spędzili dużo czasu z grupą Esseńczyków, żyjących raczej na uboczu społeczeństwa. Mój wujek z moją matką zabrali mnie w podróż do tego miejsca na pustyni, samotnego i wyizolowanego. Usiadłem u stóp owego dziwnego mężczyzny, mówiącego innym językiem, który zdawał się rozbrzmiewać melodią -- jak ty byś to określił -- *rezonującą *głęboko w mej duszy i przywołującą odczucie pokoju, jaki czułem, gdy sam czytałem w moim rodzimym języku aramejskim -- jakby te dwa języki były siostrzanymi narzeczami, rozbrzmiewającymi tymi samymi nutami jednej pieśni.
+W tamtych czasach ze Wschodu przybywało wielu podróżników i podczas jednej z takich podróży z kraju, który znacie jako Indie, przybyli pewni nauczyciele, którzy spędzili dużo czasu z grupą Esseńczyków, żyjących raczej na uboczu społeczeństwa. Mój wujek z moją matką zabrali mnie w podróż do tego miejsca na pustyni, samotnego i wyizolowanego. Usiadłem u stóp owego dziwnego mężczyzny, mówiącego innym językiem, który zdawał się rozbrzmiewać melodią -- jak ty byś to określił -- *rezonującą* głęboko w mej duszy i przywołującą odczucie pokoju, jaki czułem, gdy sam czytałem w moim rodzimym języku aramejskim -- jakby te dwa języki były siostrzanymi narzeczami, rozbrzmiewającymi tymi samymi nutami jednej pieśni.
 
 Odczułem wewnętrzny przymus, by bardziej zagłębić się w filozoficzny nurt, jaki nauczyciele ci przynieśli z tamtego odległego kraju. Mój wujek nigdy nie powiedział mi: „Teraz powinieneś udać się tu". Czekał, aż sam o to poproszę. I gdy byłem jeszcze nastolatkiem, poszedłem do niego i powiedziałem: „Czuję się wzywany, by udać się do ich kraju. Muszę zrozumieć ich sposób postrzegania, ich techniki, muszę się od nich uczyć." A on odpowiedział: „Mój przyjacielu, jeśli udasz się w tę podróż, możesz już nie wrócić. To ogromna odległość i wiele do nauki. Czy jesteś chętny, by opuścić rodzinę i dom?". Będąc młodzikiem, bez zwlekania odparłem po prostu: „No pewnie!".
 
@@ -113,7 +113,7 @@ Zrozum zatem dobrze, że ci, którzy byli ze mną, byli tacy, jak ty. Byli ludź
 
 Nie pozwól, by ktokolwiek ci wmawiał, że ukrzyżowanie się nie wydarzyło. Gdyby tak było, wtedy moje własne doświadczenie na pewno było złudzeniem, a ja być może postradałem rozum. Ciało zostało ukrzyżowane, było martwe i zostało pochowane. A moi wyznawcy i przyjaciele rozpierzchli się. Wielu z nich wzięło na swe barki ciężar winy i bólu. Porzucili -- poza kilkoma -- moją matkę i uciekli, by się ukryć. Niektórzy pozostali, by z bliska śledzić wydarzenia, ale nie z nazbyt bliskiej odległości, ponieważ nie chcieli zostać rozpoznani. Wszyscy znacie poczucie winy, które pojawia się, gdy czujesz, że kogoś porzuciłeś. Poczucie winy zawsze jest złudzeniem.
 
-Zrozum zatem dobrze, że trzeciego dnia głaz został odsunięty, a ci, którzy byli najbliżej mnie -- kobiety, które rozumiały i były ze mną w komunikacji -- przybyły, by odkryć, że dzieje się coś wielkiego. A ja zaprawdę ukazałem się wielu. Gdy bowiem zrozumiesz, że nie jesteś ciałem, i gdy będziesz chciał jedynie Miłości, a więc i nie będziesz widział niczego innego, to również i ty nauczysz się, że jesteś Duchem, że jesteś Boskim Światłem. Zrozumiesz, że *w tej właśnie chwili *ciało, które wydaje się twoim ciałem, jest z tobą jedynie dlatego, że z głębi swego *współczucia* podejmujesz decyzję, by być obecnym w tej szacie, mimo że prawda o tym, kim jesteś, nigdy się nie zmieniła. Pozostajesz Duchem i jedynie Duchem. Tworzysz fasadę, za pomocą której możesz szerzyć Miłość w świecie, który tego potrzebuje.
+Zrozum zatem dobrze, że trzeciego dnia głaz został odsunięty, a ci, którzy byli najbliżej mnie -- kobiety, które rozumiały i były ze mną w komunikacji -- przybyły, by odkryć, że dzieje się coś wielkiego. A ja zaprawdę ukazałem się wielu. Gdy bowiem zrozumiesz, że nie jesteś ciałem, i gdy będziesz chciał jedynie Miłości, a więc i nie będziesz widział niczego innego, to również i ty nauczysz się, że jesteś Duchem, że jesteś Boskim Światłem. Zrozumiesz, że *w tej właśnie chwili* ciało, które wydaje się twoim ciałem, jest z tobą jedynie dlatego, że z głębi swego *współczucia* podejmujesz decyzję, by być obecnym w tej szacie, mimo że prawda o tym, kim jesteś, nigdy się nie zmieniła. Pozostajesz Duchem i jedynie Duchem. Tworzysz fasadę, za pomocą której możesz szerzyć Miłość w świecie, który tego potrzebuje.
 
 Drodzy przyjaciele, moje podróże nie różniły się od waszych. Ty również podróżowałeś do odległych kultur. Studiowałeś wszystkie duchowe techniki, jakie są, i jakie kiedykolwiek stworzono. Znasz drogę pokładania nadziei w magii. Znasz ścieżkę polegającą na wykonywaniu pewnych rytuałów w celu zadowolenia Boga, tak jakby Bóg cię kiedykolwiek oceniał. I każdy z was budzi się do prostoty owej Prawdy, której ja również jako człowiek się nauczyłem:
 
@@ -131,7 +131,7 @@ Zrozum dobrze, przybywam do *każdego serca*, które przygotuje dla mnie miejsce
 
 Oczywiście tylko, jeśli tego chcesz! To nie jest konieczne do tego, by się przebudzić. Nauczaj zatem ten świat, że ja przybywam jedynie jako brat i przyjaciel.
 
-Będąc człowiekiem, dopełniłem mej części w Pojednaniu i poprzez nauczanie tego, że śmierć jest nierzeczywista, *sam się tego nauczyłem*. „Co? Jeszua mówi, że kiedy poszedł na krzyż, być może pojawiło się zwątpienie?" O tak. Ale jeśli prawdą jest, że otrzymujesz to, co dajesz, i że tak jak nauczasz, tak sam się uczysz, to ponieważ wiedziałem, że chcę nieograniczoności na zawsze, pozwoliłem, by to świadectwo było również *moją *ostateczną lekcją: nauką, że prawdą *jest*: *śmierć jest nierzeczywista*. A jeśli śmierć jest nierzeczywista, nie może istnieć myśl o poświęceniu i nie można niczego utracić. Można jedynie wszystko zyskać poprzez pamiętanie, że:
+Będąc człowiekiem, dopełniłem mej części w Pojednaniu i poprzez nauczanie tego, że śmierć jest nierzeczywista, *sam się tego nauczyłem*. „Co? Jeszua mówi, że kiedy poszedł na krzyż, być może pojawiło się zwątpienie?" O tak. Ale jeśli prawdą jest, że otrzymujesz to, co dajesz, i że tak jak nauczasz, tak sam się uczysz, to ponieważ wiedziałem, że chcę nieograniczoności na zawsze, pozwoliłem, by to świadectwo było również *moją* ostateczną lekcją: nauką, że prawdą *jest*: *śmierć jest nierzeczywista*. A jeśli śmierć jest nierzeczywista, nie może istnieć myśl o poświęceniu i nie można niczego utracić. Można jedynie wszystko zyskać poprzez pamiętanie, że:
 
 > *Zaprawdę jestem tutaj, by być prawdziwie pomocnym, gdziekolwiek to „tutaj" by nie było.*
 
@@ -154,3 +154,5 @@ Pozostań zatem dzisiaj w pokoju. Wchodź często do cichej komnaty Serca, nie p
 Pokój niech zawsze będzie z wami, którzy przybyliście, by przywrócić Prawdę świadomości rodzaju ludzkiego.
 
 Amen.
+
+&nbsp;

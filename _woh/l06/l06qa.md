@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 6. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 ## Lekcja 6<br>
 **Pytania i odpowiedzi**
@@ -79,3 +79,5 @@ Przebaczenie, uzdrowienie, pokój i przebudzenie są równymi sobie *potencjała
 Oto prosta i wąska ścieżka prowadząca do *Życia*! A ty masz przyjaciela -- obecnie nie posiadającego ciała -- który nie chce niczego prócz tego, by być świadkiem twego *prawdziwego Życia*. I masz niezliczonych przyjaciół posiadających ciała, którzy podzielają to samo pragnienie.
 
 Bądź zatem tym, czym jesteś! I żyj mocą ci podarowaną, wolnością, w której zawsze przebywasz, jako Miłość, którą jesteś!
+
+&nbsp;

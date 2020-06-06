@@ -1,7 +1,7 @@
 ---
 title: "Znaczenie Wniebowstąpienia"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 
 # Znaczenie wniebowstąpienia
@@ -274,3 +274,5 @@ Dla niektórych z was, począwszy od tej chwili, nic już nie będzie takie samo
 Pokój Synowi Bożemu, który podejmuje decyzję, aby podjąć sprawy Nieba i połączyć je z rzeczami ziemskimi, tak by światło Królestwa ponownie mogło być szerzone ze wschodu na zachód. W tym zawiera się znaczenie krzyża. Krzyża światła, w którym dziecię Chrystusowe zamieszkuje z otwartym sercem i wyciągniętymi ramionami, stopami na ziemi, a umysłem w Niebie, by demonstrować odzwierciedlenie doskonałej miłości.
 
 Niech pokój będzie z tobą. A teraz&hellip;AMEN.
+
+&nbsp;

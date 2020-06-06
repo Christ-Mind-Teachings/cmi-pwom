@@ -1,6 +1,7 @@
 ---
 title: "Pytania i odpowiedzi"
 ---
+&nbsp;
 <div markdown="1" align="center">
 
 # Mistrzostwo komunikacji
@@ -32,3 +33,5 @@ Czy pomaga ci to w odniesieniu do tych dwóch zdań, które „ktoś" musiał we
 -- Dobrze wiedzieć, że masz poczucie humoru.
 
 Umiłowany przyjacielu, im dalej wkraczasz w Boga, tym więcej musisz się śmiać.
+
+&nbsp;

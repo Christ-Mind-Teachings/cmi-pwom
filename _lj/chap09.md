@@ -1,7 +1,7 @@
 ---
 title: "Rozdział dziewiąty"
 ---
-
+&nbsp;
 <div markdown="1" class="chHead">
 ## Rozdział dziewiąty
 
@@ -92,4 +92,3 @@ Pojawia mi  się myśl, aby wydrukować pierwszą wersję *Listów Jeszuy*. Wszy
 
 Tydzień później z  rękopisem pod pachą wspinam się po  schodach do  jej drzwi.
 &nbsp;
-

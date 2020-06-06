@@ -25,3 +25,5 @@ Droga Sługi*
 Więcej informacji na temat Drogi Mistrzostwa, oferowanych materiałów, a także spotkań i wydarzeń znajdziesz na polskiej stronie [Droga Mistrzostwa](https://drogamistrzostwa.pl) oraz na stronie [Wydawnictwa Pokoju Chrystusa](https://pokojchrystusa.pl)
 
 Angielska strona Drogi Mistrzostwa - [The Way of Mastery](https://www.wayofmastery.com) 
+
+&nbsp;

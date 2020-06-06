@@ -1,7 +1,7 @@
 ---
-Title: "Lekcja 3. Pytania i odpowiedzi"
+title: "Lekcja 3. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center"> 
 ## Lekcja 3<br>
 **Pytania i odpowiedzi**
@@ -117,3 +117,5 @@ Czy to pomogło ci uzyskać odpowiedź na pytanie?
 I na tym kończymy, zaprawdę,
 
 Amen.
+
+&nbsp;

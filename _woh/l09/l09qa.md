@@ -1,7 +1,7 @@
 ---
 title: "Lekcja 9. Pytania i odpowiedzi"
 ---
-
+&nbsp;
 <div markdown="1" align="center">
 ## Lekcja 9<br>
 **Pytania i odpowiedzi**
@@ -59,3 +59,5 @@ Tak, wiem. Czy wiesz, że pytanie, któremu zdajesz się opierać w swym umyśle
 Pytanie zawsze odzwierciedla to, co płynie z głębi samego Umysłu, co czeka na przyswojenie, zintegrowanie i przekroczenie.
 
 A więc proszę bardzo! Teraz masz coś, nad czym możesz sobie od czasu do czasu porozmyślać.
+
+&nbsp;
