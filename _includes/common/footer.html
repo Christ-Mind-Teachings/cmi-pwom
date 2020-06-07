@@ -24,9 +24,9 @@ footer:
       <div class="three wide column">
         <h4 class="ui inverted header">{{page.footer.id}}</h4>
         <div class="ui inverted link list">
-          <a class="item" href="/acq/contact/">Kontakt</a>
-          <a class="item" href="/acq/welcome/">Dokumentacja</a>
-          <a class="item" href="/acq/tech/">Informacje o Projekcie</a>
+          <a class="item" href="/acq/contact/">{{site.data.lang.footer.f1}}</a>
+          <a class="item" href="/acq/welcome/">{{site.data.lang.footer.f2}}</a>
+          <a class="item" href="/acq/tech/">{{site.data.lang.footer.f3}}</a>
           <a class="item" href="{{page.footer.repohref}}" target="_blank">GitHub Repo</a>
         </div>
       </div>
@@ -37,13 +37,8 @@ footer:
       </div>
       {% if page.footer.donate == true %}
         <div class="seven wide right floated column">
-          {% if page.footer.source == "nwffacim" %}
-            <h4 class="ui inverted teal header">Support This Teaching</h4>
-            <p>All donations go directly to Paul Tuttle and NWFFACIM.</p>
-          {% else %}
-            <h4 class="ui inverted teal header">Support The Library</h4>
-            <p>Your donation supports further development of CMI.</p>
-          {% endif %}
+          <h4 class="ui inverted teal header">{{site.data.lang.footer.f4}}</h4>
+          <p>{{site.data.lang.footer.f5}}</p>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick" />
             <input type="hidden" name="hosted_button_id" value="L99G7U73RWCEC" />

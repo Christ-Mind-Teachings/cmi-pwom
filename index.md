@@ -1,7 +1,7 @@
 ---
 layout: page
 masthead: home
-title: "Way of Mastery Contents"
+title: "Droga Mistrzostwa"
 footer:
   display: true
   donate: false
@@ -12,6 +12,14 @@ footer:
 
 ## Witamy na Drodze Mistrzostwa
 {: .ui.header}
+
+Głównym nauczaniem *Drogi Mistrzostwa* jest ścieżka prowadząca do
+przebudzenia, opisana i dana w trzyletniej serii comiesięcznych lekcji
+przekazanych przez Jeszuę w formie channelingu w komunii z Jayemem.
+*Droga Mistrzostwa* zawiera, oprócz lekcji, odpowiedzi na wiele
+zadawanych Jeszule pytań, wiele dodatkowego materiału i wiele
+skutecznych ćwiczeń. Jest ona bardzo praktycznym, konkretnym
+przewodnikiem do wewnętrznej przemiany.
 
 <div id="page-contents">
   <div class="ui three cards">

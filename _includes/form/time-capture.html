@@ -3,29 +3,29 @@ usage: {% include form/time-capture.html %}
 {% endcomment %}
 <form name="audio-data" honeypot-field="message" id="audio-data-form" action="/audio/" class="ui form" netlify>
   <div class="ui message">
-    <div class="header">Please enter your name and email address.</div>
+    <div class="header">{{site.data.lang.time.t9}}</div>
     <p id="timing-data-message"></p>
   </div>
   <div class="honeypot-field inline field">
-    <label>Message</label>
-    <input name="message" placeholder="Message" type="text">
+    <label>{{site.data.lang.time.t10}}</label>
+    <input name="message" placeholder="{{site.data.lang.time.t10}}" type="text">
   </div>
   <div class="inline field">
-    <label>Name</label>
-    <input id="captured-audio-name" name="name" placeholder="Name" type="text">
+    <label>*{{site.data.lang.time.t11}}*</label>
+    <input id="captured-audio-name" name="name" placeholder="{{site.data.lang.time.t11}}" type="text">
   </div>
   <div class="inline field">
-    <label>E-mail</label>
-    <input id="captured-audio-email" name="email" type="email" placeholder="E-mail address">
+    <label>{{site.data.lang.time.t12}}</label>
+    <input id="captured-audio-email" name="email" type="email" placeholder="{{site.data.lang.time.t13}}">
   </div>
   <div class="inline field">
-    <label>Comments</label>
+    <label>{{site.data.lang.time.t14}}</label>
     <input id="captured-audio-comments" name="comments" type="text" placeholder="Your comments">
   </div>
   <div class="disabled field">
-    <label>Timing Data</label>
+    <label>{{site.data.lang.t15}}</label>
     <textarea rows="2" readonly id="captured-audio-data" name="data"></textarea>
   </div>
-  <button id="audio-form-submit" class="ui button" type="submit">Submit</button>
+  <button id="audio-form-submit" class="ui button" type="submit">{{site.data.lang.form.f1}}</button>
 </form>
 

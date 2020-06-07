@@ -1,16 +1,16 @@
-{% assign cmi-image = "https://www.christmind.info/public/img/cmi-logo-200.png" %}
+{% assign cmi-image = "https://www.christmind.info/public/img/cmi/cmi-logo-200.png" %}
 {% if page.layout == "transcript" %}
   {% assign type = "article" %}
-  {% assign description = page.fb.desc | default: "Way of Mastery: " | append: page.book | append: " " | append: page.title %}
-  {% assign title = "Way of Mastery: " | append: page.title %}
+  {% assign description = page.fb.desc | default: site.title | append: ": " | append: page.book | append: " " | append: page.title %}
+  {% assign title = site.title | append: ": " | append: page.title %}
 {% else %}
   {% assign type = "website" %}
   {% assign description = page.fb.desc | default: site.description %}
-  {% assign title = page.title | default: "Way of Mastery" %}
+  {% assign title = page.title | default: site.title %}
 {% endif %}
 
 <!-- facebook -->
-<meta property="og:site_name" content="Biblioteka Nauk Umysłu Chrystusa"/>
+<meta property="og:site_name" content="{{site.siteName}}"/>
 <meta property="og:title" content="{{title}}"/>
 <meta property="fb:admins" content="rick.mercer.us"/>
 <meta property="fb:app_id" content="{{site.fb-appId}}"/>

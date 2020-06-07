@@ -2,9 +2,9 @@
 <div class="search ui modal">
   <i class="close icon"></i>
   <div class="ui large header">
-    Search the Way of Mastery<br/>
+    {{site.data.lang.menu.m2}} {{site.title}}<br/>
     <small>
-      <a href="/acq/search/">See Documentation</a>
+      <a href="/acq/search/">{{site.data.lang.search.s1}}</a>
     </small>
   </div>
   <div class="image content">
@@ -15,10 +15,10 @@
       <div class="ui search positive message">
         <div class="content">
           <div class="search-message header">
-            Welcome to the Way of Mastery Search&hellip;
+            {{site.data.lang.search.s2}} {{site.title}} {{site.data.lang.menu.m2}}&hellip;
           </div>
           <div class="search-message-body">
-            <p>Enter your search and press enter to begin.</p>
+            <p>{{site.data.lang.search.s3}}</p>
           </div>
         </div>
       </div>
@@ -26,17 +26,17 @@
         <div class="field">
           <!-- <div class="ui right labeled left icon input"> -->
           <div class="ui icon fluid input">
-            <input id="search-input-field" type="search" placeholder="Enter search">
+            <input id="search-input-field" type="search" placeholder="{{site.data.lang.search.s4}}">
             <i class="inverted circular search link icon"></i>
           </div>
         </div>
         <div class="field">
-          <button class="ui button" type="submit">Search</button>
+          <button class="ui button" type="submit">{{site.data.lang.menu.m2}}</button>
         </div>
       </form>
       <h4 class="ui horizontal divider header">
         <i class="search icon"></i>
-        Search Results
+        {{site.data.lang.search.s5}}
         <span id="search-results-header"></span>
       </h4>
       <div class="cmi-search-list">

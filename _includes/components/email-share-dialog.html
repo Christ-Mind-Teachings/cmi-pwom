@@ -1,15 +1,15 @@
 <div class="hide email-share-dialog-wrapper">
   <div class="email-share-dialog ui raised padded green segment">
-    <p>Select recipients from the dropdown list and/or enter email addresses in the field below.</p>
+    <p>{{site.data.lang.share.s1}}</p>
     <form name="emailshare" id="email-share-form" class="ui form">
       <div id="maillist-select" class="field"></div>
       <div class="field">
-        <label>Enter Email Address(es)</label>
-        <input type="text" name="emailAddresses" placeholder="Comma delimited list">
+        <label>{{site.data.lang.share.s2}}</label>
+        <input type="text" name="emailAddresses" placeholder="{{site.data.lang.share.s3}}">
       </div>
       <div class="fields">
-        <button class="ui button" type="submit">Submit</button>
-        <button class="email-share-cancel ui button">Cancel</button>
+        <button class="ui button" type="submit">{{site.data.lang.form.f1}}</button>
+        <button class="email-share-cancel ui button">{{site.data.lang.form.f2}}</button>
       </div>
     </form>
   </div>

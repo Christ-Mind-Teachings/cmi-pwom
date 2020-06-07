@@ -4959,8 +4959,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_1__);
 
 
+const [NOTLOADED, LOADING, LOADED, FAILED] = [0, 1, 2, 3];
+let status = NOTLOADED;
 let language = {
-  ready: false
+  notReady: true
 };
 /*
  * Load language file for prompts set programatically
@@ -4971,7 +4973,9 @@ let language = {
 
 function setLanguage(constants) {
   let lang = "en";
-  let url;
+  let url; //loading started
+
+  status = LOADING;
 
   if (constants.lang) {
     lang = constants.lang;
@@ -4987,23 +4991,55 @@ function setLanguage(constants) {
   axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(url).then(response => {
     //console.log("language %o", response.data);
     language = response.data;
+    status = LOADED;
     console.log("%s loaded", lang);
   }).catch(error => {
+    status = FAILED;
     toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(`Failed to load language: ${lang}`);
     console.error("language load failed: %o", error);
   });
 }
-/*
- * Get string for argument 'key'. Key can be in two parts
- * delimited by a ':'. The second part is optional.
- */
 
-function getString(key) {
-  if (typeof key !== "string") {
-    return null;
+function waitForReady(s, k) {
+  return new Promise((resolve, reject) => {
+    function wait(s, k, ms, max = 8, cnt = 0) {
+      if (cnt === 0) {
+        console.log("waiting for max count: %s", max);
+      } else {
+        console.log("waiting count: %s", cnt);
+      } // if (language.hasOwnProperty("notReady")) {
+
+
+      if (status === LOADING) {
+        if (cnt < max) {
+          setTimeout(() => wait(s, k, ms, max, cnt + 1), ms);
+        } else {
+          console.log("terminating wait at count %s", cnt);
+          resolve("timeout");
+        }
+      } else {
+        console.log("Language ready at wait count: %s", cnt);
+        resolve(keyValue(s, k));
+      }
+    } //if (language.hasOwnProperty("notReady")) {
+
+
+    if (status == LOADING) {
+      wait(s, k, 250);
+    } else {
+      resolve(keyValue(s, k));
+    }
+  });
+}
+
+function keyValue(s, k) {
+  if (status === NOTLOADED) {
+    return "shared language not loaded";
   }
 
-  let [s, k] = key.split(":");
+  if (status !== LOADED) {
+    return `state ${status}`;
+  }
 
   if (!language[s]) {
     return null;
@@ -5018,6 +5054,25 @@ function getString(key) {
   }
 
   return language[s][k];
+}
+/*
+ * Get string for argument 'key'. Key can be in two parts
+ * delimited by a ':'. The second part is optional.
+ */
+
+
+function getString(key, wait = false) {
+  if (typeof key !== "string") {
+    return null;
+  }
+
+  let [s, k] = key.split(":");
+
+  if (wait) {
+    return waitForReady(s, k);
+  }
+
+  return keyValue(s, k);
 }
 /*
  * This is a tagged template function that populates
@@ -5609,7 +5664,9 @@ function getUserInfo(name) {
 function setAsSignedIn() {
   let userInfo = getUserInfo(); //change sign-in icon to sign-out and change color from red to green
 
-  $(".login-menu-option > span").html("<i class='green sign out icon'></i>").attr("data-tooltip", `${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:signout")}: ${userInfo.name}`); //change bookmark menu icon to green from red
+  Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:signout", true).then(resp => {
+    $(".login-menu-option > span").html("<i class='green sign out icon'></i>").attr("data-tooltip", `${resp}: ${userInfo.name}`);
+  }); //change bookmark menu icon to green from red
 
   $(".main.menu a > span > i.bookmark.icon").addClass("green").removeClass("red"); //add color to menu background to further indicate signed in status
 
@@ -5625,7 +5682,9 @@ function setAsSignedIn() {
 
 function setAsSignedOut() {
   //change sign-in icon to sign-out and change color from red to green
-  $(".login-menu-option > span").html("<i class='red sign in icon'></i>").attr("data-tooltip", Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:signin")); //change bookmark menu icon to green from red
+  Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:signin", true).then(resp => {
+    $(".login-menu-option > span").html("<i class='red sign in icon'></i>").attr("data-tooltip", resp);
+  }); //change bookmark menu icon to green from red
 
   $(".main.menu a > span > i.bookmark.icon").addClass("red").removeClass("green"); //removed signed-in class
 
@@ -5925,55 +5984,55 @@ let bucket = "assets.christmind.info";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//english
+//Polish
 /* harmony default export */ __webpack_exports__["default"] = ({
   label: {
-    key: "Key",
-    l1: "Book Title Unknown",
-    l2: "Title Unknown",
-    l3: "Table of Contents",
-    l4: "Search for",
-    l5: "of",
+    key: "Klucz",
+    l1: "Nieznany tytuł książki",
+    l2: "Tytuł nieznany",
+    l3: "Spis treści",
+    l4: "Szukaj",
+    l5: "z",
     l6: "Last Search Result"
   },
   notify: {
-    n1: "Click is ignored when audio is not playing.",
-    n2: "Warning, your timing data will be lost if you close the window without submitting the data.",
-    n3: "Your Data Will Be Lost",
-    n4: "Thank you! The data was submitted successfully.",
-    n5: "Sorry, submit failed.",
-    n6: "Partial audio capture data restored. You can continue timing where you left off.",
-    n7: "You have an incomplete timing session. Start time capture to begin where you left off.",
-    n8: "You have a complete but unsubmited timing session. Please send us the data.",
-    n9: "There are no search results to show.",
-    n10: "There is no search result at",
-    n11: "Failed to hilight",
-    n12: "search results"
+    n1: "Kliknięcie jest ignorowane, gdy audio nie jest odtwarzane.",
+    n2: "Uwaga! Dane znaczników czasu zostaną utracone, jeśli zamkniesz okno bez wysłania danych.",
+    n3: "Twoje dane zostaną utracone",
+    n4: "Dziękuję! Przesłanie danych powiodło się.",
+    n5: "Przykro mi, przesłanie danych nie powiodło się.",
+    n6: "Przywrócono częściowe dane znaczników czasu. Możesz kontynuować od miejsca, w którym skończyłeś.",
+    n7: "Sesja wprowadzania znaczników czasu jest niezakończona. Zacznij wprowadzać znaczniki w miejscu, gdzie poprzednio skończyłeś.",
+    n8: "Sesja wprowadzania znaczników czasu jest kompletna, jednak dane nie zostały przekazane. Proszę prześlij nam dane.",
+    n9: "Wyszukiwanie nie dało żadnych rezultatów.",
+    n10: "Brak rezultatów wyszukiwania w",
+    n11: "Wyróżnienie nie powiodło się.",
+    n12: "wyniki wyszukiwania"
   },
   search: {
-    s1: "Search Started...",
-    s2: "Searching for",
-    s3: "Search for",
-    s4: "from",
-    s5: "found",
-    s6: "matches",
-    s7: "Search Result",
-    s8: "Search Error",
-    s9: "didn't find any matches",
-    s10: "Paragraph",
-    s11: "Last Search Result"
+    s1: "Wyszukiwanie rozpoczęte...",
+    s2: "Szukanie",
+    s3: "Szukaj",
+    s4: "z",
+    s5: "znalezione",
+    s6: "dopasowania",
+    s7: "Rezultaty wyszukiwania",
+    s8: "Błąd wyszukiwania",
+    s9: "nie znaleziono żadnych dopasowań",
+    s10: "Akapit",
+    s11: "Rezultaty ostatniego wyszukiwania"
   },
   html: {
-    h1: "Drat! Your submit failed.",
-    h2: "To re-submit, try to refresh the page or return at a later time. The data will not be lost. This form will be displayed the next time you visit the page."
+    h1: "Niech to..! Przesłanie danych nie powiodło się.",
+    h2: "Aby przesłać dane ponownie, spróbuj odświeżyć stronę albo ponów próbę za jakiś czas. Dane nie zostaną utracone. Ten formularz zostanie wyświetlony następnym razem, gdy odwiedzisz stronę."
   },
   error: {
-    e1: "Unexpected number of data points in existing timing data, please inform Rick, Can't capture time until this is resolved.",
-    e2: "Failed to load audio timing data",
-    e3: "Invalid configuration file",
-    e4: "Configuration file error, didn't find url in file.",
-    e5: "Title not found",
-    e6: "Failed to load configuration file"
+    e1: "Nieoczekiwana liczba punktów danych w istniejącym zbiorze danych znaczników czasu. Skontaktuj się proszę z Rick'iem. Nie można wprowadzać znaczników czasu dopóki problem nie zostanie rozwiązany.",
+    e2: "Nie powiodło się wczytanie znaczników czasu pliku audio",
+    e3: "Niepoprawna konfiguracja pliku",
+    e4: "Błąd konfiguracji pliku. Nie znaleziono adresu url.",
+    e5: "Nie znaleziono tytułu",
+    e6: "Nie powiodło się wczytanie pliku konfiguracji"
   }
 });
 
@@ -8191,9 +8250,11 @@ function transcriptDriver() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "noteInfo", function() { return noteInfo; });
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
+
 const noteInfo = {
   studyguide: {
-    url: "/t/wom/notes/studyGuide.html",
+    url: `${_constants__WEBPACK_IMPORTED_MODULE_0__["default"].env === "standalone" ? "/" : _constants__WEBPACK_IMPORTED_MODULE_0__["default"].url_prefix}notes/studyGuide.html`,
     title: "Study Suggestions"
   }
 };
