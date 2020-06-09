@@ -1,13 +1,10 @@
 ---
 title: "Lekcja 9. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
-## Lekcja 9<br>
+## Lekcja 9
 **Pytania i odpowiedzi**
-
-  
-
 </div>
 
 ## Pytanie 1
@@ -60,4 +57,3 @@ Pytanie zawsze odzwierciedla to, co płynie z głębi samego Umysłu, co czeka n
 
 A więc proszę bardzo! Teraz masz coś, nad czym możesz sobie od czasu do czasu porozmyślać.
 
-&nbsp;

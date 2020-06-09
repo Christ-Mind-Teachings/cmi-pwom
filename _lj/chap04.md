@@ -1,7 +1,7 @@
 ---
 title: "Rozdział czwarty"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział czwarty
 
@@ -1176,4 +1176,3 @@ Zaczynam rozpoznawać doniosłość przekazu Jeszuy. Dotyka on mego umysłu mię
 
 Zobaczyć to  Światło bezpośrednio, niczym nie przesłonięte – z  pewnością jest to  niezrównany cel! Jednak nie widzę wyraźnie woalu, który je  skrywa, ani też nie jestem pewien, jak ten woal usunąć. Jestem ponaglany przez nieznaną siłę we  mnie, co  dzieje się pozornie wbrew mnie. Czy wyparłem się mej prawdziwej tożsamości po  to, by  utożsamić się z  „ja”, którym *nie* jestem?
 
-&nbsp;

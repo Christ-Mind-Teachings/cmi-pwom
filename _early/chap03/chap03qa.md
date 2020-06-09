@@ -3,7 +3,6 @@ title: "Pytania i odpowiedzi"
 ---
 
 <div markdown="1" align="center">
-&nbsp;
 # Błogosławieństwo przebaczenia
 
 ## Pytania i odpowiedzi

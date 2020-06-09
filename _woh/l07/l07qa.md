@@ -1,13 +1,10 @@
 ---
 title: "Lekcja 7. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
-## Lekcja 7<br>
+## Lekcja 7
 **Pytania i odpowiedzi**
-
-
-
 </div>
 
 ## Pytanie 1
@@ -102,7 +99,7 @@ Dziękuję za zadanie pytania. Wskazuje ono na pragnienie uzyskania odpowiedzi.
 
 ***Pytanie****:* Jakie są wzajemne oddziaływania pomiędzy odgrywaniem silnych przywiązań, nawyków, kompulsji, uzależnień po to, by je łagodnie i ze zrozumieniem porzucić, a korzystaniem z dyscypliny i samokontroli w celu położenia kresu owym przywiązaniom?
 
-***Odpowiedź****:*Dyscyplina to nie surowość lub opieranie się *czemuś*. Prawdziwa dyscyplina to po prostu wytwór Umysłu. *Prawdziwa dyscyplina* wymaga jedynie tego, by swą uwagę skupiać dokładnie na tym, co jest prawdziwe w każdej chwili twego doświadczenia, i by robić to bez osądu. Dyscyplina to czujność świadomości oraz decyzja, by *być* obecnością Miłości.
+***Odpowiedź****: *Dyscyplina to nie surowość lub opieranie się *czemuś*. Prawdziwa dyscyplina to po prostu wytwór Umysłu. *Prawdziwa dyscyplina* wymaga jedynie tego, by swą uwagę skupiać dokładnie na tym, co jest prawdziwe w każdej chwili twego doświadczenia, i by robić to bez osądu. Dyscyplina to czujność świadomości oraz decyzja, by *być* obecnością Miłości.
 
 Odpowiedź wydaje się prosta, krótka i na temat, ale jeśli zastanowisz się nad nią -- na przykład jeśli usiądziesz w medytacji i powoli przepiszesz tę odpowiedź, patrząc jak poszczególne litery pojawiają się na czystym, białym papierze i pozwalając sobie na bycie cierpliwym, donikąd się nie spiesząc -- to zostanie dla ciebie odsłonięte jeszcze więcej. A jednak, zaprawdę, już dano ci samo sedno tej odpowiedzi. Zatem miłej dyscypliny podczas jej kontemplowania.
 
@@ -136,4 +133,3 @@ Nie postrzegajcie w sobie nawzajem różnic, a jedynie odrębność ścieżek Ż
 
 A jeśli to nie byłoby dla nich wystarczające, zasugerowałbym, by poszukali innej ścieżki.
 
-&nbsp;

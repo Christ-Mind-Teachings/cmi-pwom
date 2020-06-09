@@ -1,7 +1,7 @@
 ---
 title: Epilog
 ---
-&nbsp;
+
 <div markdown="1" class="chHead"> 
 ## Epilog
 
@@ -66,4 +66,3 @@ Alam Cinta Ashram,<br>
 Ubud, Bali<br>
 grudzień 2011 r.
 </div>
-&nbsp;

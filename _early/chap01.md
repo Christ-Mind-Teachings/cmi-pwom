@@ -1,7 +1,7 @@
 ---
 title: "Miłość uzdrawia wszystko"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
 # Miłość uzdrawia wszystko
 
@@ -220,4 +220,3 @@ Pozostańcie zatem w pokoju, umiłowani przyjaciele.
 
 Amen.
 
-&nbsp;

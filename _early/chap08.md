@@ -1,7 +1,7 @@
 ---
 title: "Niebo na Ziemi"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
 
 # Niebo na ziemi
@@ -143,4 +143,3 @@ czemu by po prostu nie zapytać:
 
 Odpowiedź nie pozostanie przed tobą ukryta.
 
-&nbsp;

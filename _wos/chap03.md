@@ -2,15 +2,14 @@
 title: "Księga trzecia"
 ---
 
-
 <div markdown="1" align="center">
-&nbsp;
 ## *Księga trzecia*
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
 </div>
+
 <p markdown="1" class="top"><span class="dropcaps">T</span>en, kto patrzy na mnie,<br>
 i naprawdę mnie *widzi*, <br>
 nauczył się już<br>
@@ -639,6 +638,5 @@ a *ego* pozostanie na tronie.
 
 Zapytam cię ponownie:
 
->*Czego tak naprawdę* **chcesz***?*
+> *Czego tak naprawdę* **chcesz***?*
 
-&nbsp;

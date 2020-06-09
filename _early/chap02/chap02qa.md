@@ -1,7 +1,7 @@
 ---
 title: "Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
 
 # Mistrzostwo komunikacji
@@ -34,4 +34,3 @@ Czy pomaga ci to w odniesieniu do tych dwóch zdań, które „ktoś" musiał we
 
 Umiłowany przyjacielu, im dalej wkraczasz w Boga, tym więcej musisz się śmiać.
 
-&nbsp;

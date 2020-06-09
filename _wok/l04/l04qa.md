@@ -1,16 +1,14 @@
 ---
 title: "Lekcja 4. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center"> 
-## Lekcja 4<br>
+## Lekcja 4
 **Pytania i odpowiedzi**
 
 </div>
 
-
-
-**Pytanie 1**
+## Pytanie 1
 
 ***Pytanie:*** Jeszuo, w Kursie Cudów mówisz coś o „Wielkich Promieniach Światła". O co w tym chodzi?
 
@@ -26,7 +24,7 @@ Czy to wyjaśnienie pomogło ci w kwestii tego pytania?
 
 *Odpowiedź*: Tak.
 
-**Pytanie 2**
+## Pytanie 2**
 
 ***Pytanie:*** Mówisz, że każdy jest Chrystusem, a jednak nawet pomiędzy najbardziej oświeconymi istotami są, jak się wydaje, pewne różnice. Czy każdy ma swą *niepowtarzalną istotę duszy*?
 
@@ -60,4 +58,3 @@ I na tym kończę. Zaprawdę umiłowani przyjaciele, bądźcie dziś w pokoju i 
 
 Amen.
 
-&nbsp;

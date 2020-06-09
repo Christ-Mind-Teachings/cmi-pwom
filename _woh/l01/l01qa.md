@@ -1,9 +1,9 @@
 ---
 title: "Lekcja 1. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center"> 
-## Lekcja 1<br>
+## Lekcja 1
  **Pytania i odpowiedzi**
 </div>
 
@@ -36,8 +36,6 @@ Drogi przyjacielu, rozważaj dokładnie, czego pragniesz, i jakie są twe intenc
 
 > *Czemu jestem prawdziwie oddany? To bowiem, czemu jestem oddany, stanowi punkt skupienia mej intencji. Intencja zaś, na której się skupiam, przynosi mi spełnienie mego pragnienia. A to, czego doświadczam – czy mi się to podoba, czy nie – jest zawsze wynikiem mego pragnienia.*
 
-
-
 ## Pytanie 2
 
 ***Pytanie***: Czy dla tych z nas, którzy oddani są ścieżce duchowej ewolucji, możesz wypowiedzieć się na temat roli seksualności i seksualnej ekspresji?
@@ -57,7 +55,6 @@ Seksualność jest wspaniałą rzeczą! Nie pozwól sobie wmówić, że jej unik
 Ukochany przyjacielu, czy widziałeś kiedyś jak małe dzieci nago biegają po polu i bez żadnego zastanowienia bawią się swymi intymnymi częściami? Czerpią z tego chwilę przyjemności, a czasami mogą dotykać siebie nawzajem. Nie ma w tym osądu. Jest tylko niewinność. A dorośli, widząc to, mówią:
 
 > *Czyż to nie urocze?*
-
 
 Inni zaś reagują:
 
@@ -90,4 +87,3 @@ Pamiętaj, że *niemożliwe jest wyjście ponad to, czego w pełni nie umiłowan
 I spójrz na wskroś tego, by uświadomić sobie, że to cię nie ogranicza w żaden sposób w przejawianiu bezgranicznej obecności Miłości. To nie jest żadną słabością. I nie należy tego porównywać z tym, co zdaje się być ciałem nietkniętym chorobą. Oczy ciała bowiem nie pokazują, co tkwi w duszy drugiej osoby.
 Ukochany przyjacielu, jest taka część ciebie, która niesie odwieczną łzę. Pozwól jej popłynąć, a dokona się uzdrowienie.
 
-&nbsp;

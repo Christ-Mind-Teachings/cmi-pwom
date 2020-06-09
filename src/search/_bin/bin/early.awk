@@ -14,9 +14,6 @@ function discardParagraph(p) {
   if (n = match(p,/[Tt]eraz zaczynamy\.$/) > 0) {
     return 3
   }
-  if (n = match(p,/[Pp]ytania i odpowiedzi/) > 0) {
-    return 3
-  }
   if (n = match(p,/^[Nn]o$/) > 0) {
     return 4
   }
@@ -70,21 +67,17 @@ BEGIN {
   }
   next
 }
-/Track/ {
-  getline tmp
+# opening or closing div
+/^<div/ || /^<\/div/ {
   next
 }
-$1 ~ /##/ {
-  # questions
+# header
+$1 ~ /#/ {
   next
 }
 # a markdown class designation
 /^{:/ {
   omit = 1
-  next
-}
-# opening or closing div
-/^<div/ || /^<\/div/ {
   next
 }
 /^$/ || /^>$/ || /^>\s*$/ {
@@ -127,7 +120,7 @@ $1 ~ /##/ {
       # remove <span></span> 
       gsub(/<\/?span[^>]*>/,"",raw)
       # remove punctuation
-      gsub(/[\[\])(*>.,!?;:’'"“”„–/\\]/,"",raw)
+      gsub(/[\[\])(*>.,!?;:’'"“”/\\]/,"",raw)
       #remove 0xa0
       gsub(/ /,"",raw)
       # convert dash to space 

@@ -3,11 +3,10 @@ title: "Księga Pierwsza"
 ---
 
 <div markdown="1" align="center">
-&nbsp;
+
 ## *Księga Pierwsza*
 
 ![znaczek]({{page.big-separator}})
-
 {: .omit}
 
 </div>
@@ -103,8 +102,7 @@ Jak było na początku<br>
 teraz<br>
 i na wieki.
 
- ![znaczek]({{page.little-separator}})
-
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 <p markdown="1" class="top"><span class="dropcaps">P</span>*rzebudzone* Serce<br>
@@ -830,4 +828,3 @@ Kto ma uszy,<br>
 
 I wszystko *stało się* nowe.
 
-&nbsp;

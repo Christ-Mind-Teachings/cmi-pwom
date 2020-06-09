@@ -1,7 +1,7 @@
 ---
 title: "Rozdział ósmy"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział ósmy
 
@@ -318,4 +318,3 @@ Jutro zacznę pisać.
 *Amen.*
 
 </div>
-&nbsp;

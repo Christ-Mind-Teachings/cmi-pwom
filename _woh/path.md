@@ -2,8 +2,6 @@
 title: "Ścieżka Drogi Mistrzostwa"
 ---
 
-
-
 ## Ścieżka Drogi Mistrzostwa
 
 Jeśli masz w sobie pragnienie, aby wzrastać, doświadczyć uzdrowienia i prawdziwie siebie poznać, możesz skorzystać z drogowskazu czy też mapy, jaką jest ta Ścieżka. 
@@ -26,4 +24,3 @@ Więcej informacji na temat Drogi Mistrzostwa, oferowanych materiałów, a takż
 
 Angielska strona Drogi Mistrzostwa - [The Way of Mastery](https://www.wayofmastery.com) 
 
-&nbsp;

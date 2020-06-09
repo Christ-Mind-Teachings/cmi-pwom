@@ -1,7 +1,7 @@
 ---
 title: Rozdział szósty
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział szósty
 
@@ -791,4 +791,3 @@ jego ważność, choć pozostaje to  poza jego rozumieniem.
 Podobnie jak Sherlock, odkładam tymczasem na  bok swój przycisk do
 papieru.
 
-&nbsp;

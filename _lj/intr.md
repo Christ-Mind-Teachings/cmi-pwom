@@ -1,7 +1,7 @@
 ---
 title: "Wstęp"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead"> 
 ## Wstęp
 
@@ -115,5 +115,4 @@ Niech Światło błogosławi twą podróż.
 
 >Jayem
 
-&nbsp;
 

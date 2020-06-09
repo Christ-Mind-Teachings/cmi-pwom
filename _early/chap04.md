@@ -1,7 +1,7 @@
 ---
 title: "Błogość niewiedzy"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
 
 # Błogość niewiedzy
@@ -156,4 +156,3 @@ Wówczas mądrość tego, jak wszystko się toczy, może ci się sama objawić. 
 
 Pokój niech będzie z wami, umiłowani i najdrożsi przyjaciele. Amen.
 
-&nbsp;

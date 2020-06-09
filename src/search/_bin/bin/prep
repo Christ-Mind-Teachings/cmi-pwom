@@ -4,11 +4,11 @@ workingDir=`pwd`
 scriptDir=`dirname $0`
 scriptName=`basename $0`
 
-unitDir="/Users/rmercer/Projects/cmi/site/cmi-wom"
+unitDir="/Users/rmercer/Projects/cmi/site/cmi-pwom"
 awkFile="wom.awk"
 debug=0
 
-source="wom"
+source="pwom"
 
 function syntax {
   echo "prep -b <book> file"
@@ -30,10 +30,12 @@ if [[ -z $1 ]]; then
   syntax
 fi
 
-if [ $book == "tjl" ]; then
-  awkFile="tjl.awk"
+if [ $book == "lj" ]; then
+  awkFile="lj.awk"
 elif [ $book == "wos" ]; then
   awkFile="wos.awk"
+elif [ $book == "early" ]; then
+  awkFile="early.awk"
 fi
 
 unit=$1

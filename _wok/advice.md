@@ -1,7 +1,7 @@
 ---
 title: "Sugestie do praktyki"
 ---
-&nbsp;
+
 ## Sugestie do praktyki
 
 Oto podane przez Jeszuę wskazówki odnoszące się do tego jak „słuchać" nagrań i tekstów tych Lekcji:
@@ -24,4 +24,3 @@ Bardzo ważne jest również, by zadawane ćwiczenia wykonywać według zaleceń
 
 Powyższych sugestii używaj jakkolwiek chcesz, przede wszystkim jednak dobrze się baw z tym materiałem.
 
-&nbsp;

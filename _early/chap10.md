@@ -1,7 +1,7 @@
 ---
 title: "Chodź ze mną"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
 
 # Chodź ze mną 
@@ -155,4 +155,3 @@ Pokój niech zawsze będzie z wami, którzy przybyliście, by przywrócić Prawd
 
 Amen.
 
-&nbsp;

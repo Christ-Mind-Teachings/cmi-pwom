@@ -3,14 +3,16 @@ title: "Posłowie"
 ---
 
 <div markdown="1" align="center">
-&nbsp;
 ## *Posłowie* 
 </div>
+
 ---
 
-<p markdown="1" class="top"><span class="dropcaps">T</span>eraz nadszedł koniec.<br>
-Wróciliśmy <br>
-do pradawnego początku.</p>
+<p markdown="1" class="top">
+<span class="dropcaps">T</span>eraz nadszedł koniec.<br>
+  Wróciliśmy <br>
+  do pradawnego początku.
+</p>
 
 Tutaj, <br>
 gdzie Prawda została przywrócona,<br>
@@ -19,9 +21,9 @@ na świat.
 
 ---
 
-
 <p markdown="1" class="top"><span class="dropcaps">J</span>esteś tutaj tylko po to, <br>
-aby być prawdziwe pomocny.</p>
+aby być prawdziwe pomocny.
+</p>
 
 Jednak<br>
 nie wiesz,<br>
@@ -53,6 +55,7 @@ choć ciała są <br>
 pozornie oddzielne,<br>
 nie ma dwóch,<br>
 jest tylko jedno.</p>
+
 ---
 
 <p markdown="1" class="top"><span class="dropcaps">M</span>ódl się, <br>
@@ -82,10 +85,11 @@ od swego Ojca.
 i pamiętaj, <br>
 że ty sam postanowiłeś przyjść<br>
 *tutaj*.</p>
+
 Spójrz wokół siebie<br>
 i błogosław miejsce, w którym jesteś.<br>
 Czyń te rzeczy często,<br>
-na moją pamiątkę.<br>
+na moją pamiątkę.
 
 ---
 
@@ -94,5 +98,4 @@ na moją pamiątkę.<br>
 <p class="i2">z</p>
 <p class="i3">wami &hellip;</p>
 
-&nbsp;
 

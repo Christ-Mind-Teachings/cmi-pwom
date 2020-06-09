@@ -1,16 +1,14 @@
 ---
 title: "Lekcja 2. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center"> 
-## Lekcja 2<br>
+## Lekcja 2br>
 **Pytania i odpowiedzi**
 
 </div>
 
-
-
-**Pytanie 1**
+## Pytanie 1
 
 ***Pytanie***: Jeszuo, czy zechciałbyś pomóc nam w zdefiniowaniu pojęcia „Wiedza", czy też „Poznanie"?
 
@@ -46,7 +44,7 @@ Poznanie i Wiedza nie mają nic wspólnego z przekonaniem. Leżą one poza przek
 
 Na teraz powinno to wystarczyć. Sugerujemy, byście mocno zastanowili się nad tym, co powiedziałem. Już to samo w sobie wrzuci do stawu kamyk, który pomoże rozpuścić opór przed Wiedzą.
 
-**Pytanie 2**
+## Pytanie 2
 
 ***Pytanie***: Na przestrzeni lat widzieliśmy wielu ludzi, którzy wydają się docierać do samego sedna swych blokad, po czym zatrzymują się. A następnie się wycofują. Czasem może pojawić się projekcja, formują się „towarzystwa wzajemnej adoracji", a nawet jawny atak. Czy mógłbyś powiedzieć, co tu się dzieje oraz jak najlepiej sobie z tym poradzić?
 
@@ -161,4 +159,3 @@ Czy to odpowiada na twoje pytanie w wystarczającym stopniu?
 
 -- Tak.
 
-&nbsp;

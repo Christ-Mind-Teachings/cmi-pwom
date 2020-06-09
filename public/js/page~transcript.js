@@ -3266,26 +3266,28 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
   $(".bookmark-navigator .current-bookmark").attr("data-pid", `${actualPid}`); //console.log("prev: %s, next: %s", prevActualPid, nextActualPid);
   //set previous to inactive
 
-  if (!prevActualPid) {
-    $(".bookmark-navigator .previous-bookmark").addClass("inactive");
-    $(".bookmark-navigator .previous-bookmark").html(`<i class='up arrow icon'></i> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("action:prev")}`);
-  } else {
-    //add data-pid attribute to link for previous bkmk
-    $(".bookmark-navigator .previous-bookmark").attr("data-pid", prevActualPid);
-    $(".bookmark-navigator .previous-bookmark").removeClass("inactive");
-    $(".bookmark-navigator .previous-bookmark").html(`<i class="up arrow icon"></i> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("action:prev")} (${prevActualPid})`);
-  }
-
-  if (!nextActualPid) {
-    $(".bookmark-navigator .next-bookmark").addClass("inactive");
-    $(".bookmark-navigator .next-bookmark").html(`<i class='down arrow icon'></i> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("action:next")}`);
-  } else {
-    //add data-pid attribute to link for next bkmk
-    $(".bookmark-navigator .next-bookmark").attr("data-pid", nextActualPid);
-    $(".bookmark-navigator .next-bookmark").removeClass("inactive");
-    $(".bookmark-navigator .next-bookmark").html(`<i class="down arrow icon"></i> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("action:next")} (${nextActualPid})`);
-  }
-
+  Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("action:prev", true).then(resp => {
+    if (!prevActualPid) {
+      $(".bookmark-navigator .previous-bookmark").addClass("inactive");
+      $(".bookmark-navigator .previous-bookmark").html(`<i class='up arrow icon'></i>${resp}`);
+    } else {
+      //add data-pid attribute to link for previous bkmk
+      $(".bookmark-navigator .previous-bookmark").attr("data-pid", prevActualPid);
+      $(".bookmark-navigator .previous-bookmark").removeClass("inactive");
+      $(".bookmark-navigator .previous-bookmark").html(`<i class="up arrow icon"></i> ${resp} (${prevActualPid})`);
+    }
+  });
+  Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("action:next", true).then(resp => {
+    if (!nextActualPid) {
+      $(".bookmark-navigator .next-bookmark").addClass("inactive");
+      $(".bookmark-navigator .next-bookmark").html(`<i class='down arrow icon'></i> ${resp}`);
+    } else {
+      //add data-pid attribute to link for next bkmk
+      $(".bookmark-navigator .next-bookmark").attr("data-pid", nextActualPid);
+      $(".bookmark-navigator .next-bookmark").removeClass("inactive");
+      $(".bookmark-navigator .next-bookmark").html(`<i class="down arrow icon"></i> ${resp} (${nextActualPid})`);
+    }
+  });
   return true;
 }
 /*
@@ -4957,6 +4959,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_1__);
+/*
+ * Support for language translation in code shared by CMI sources. Many modules in cmi-www
+ * are used by the other sources and this module supplies translations for prompts and labels
+ * that are set programatically.
+ */
 
 
 const [NOTLOADED, LOADING, LOADED, FAILED] = [0, 1, 2, 3];
@@ -4968,12 +4975,18 @@ let language = {
  * Load language file for prompts set programatically
  *
  * English is the default and stored in /public/lang/en.json.
- * Non english languages are stored in /t/<sid>/public/lang.
+ * Non english languages are stored in /t/<sid>/public/lang/??.json.
  */
 
 function setLanguage(constants) {
   let lang = "en";
-  let url; //loading started
+  let url;
+
+  if (status === LOADED) {
+    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.warning("language already loaded");
+    return;
+  } //loading started
+
 
   status = LOADING;
 
@@ -4999,17 +5012,17 @@ function setLanguage(constants) {
     console.error("language load failed: %o", error);
   });
 }
+/*
+ * Wait for language data to be loaded and return translation
+ * for key s:k.
+ *
+ * If status == LOADING wait for 250ms up to 8 times for the status
+ * to change. Bail if it doens't change.
+ */
 
 function waitForReady(s, k) {
   return new Promise((resolve, reject) => {
     function wait(s, k, ms, max = 8, cnt = 0) {
-      if (cnt === 0) {
-        console.log("waiting for max count: %s", max);
-      } else {
-        console.log("waiting count: %s", cnt);
-      } // if (language.hasOwnProperty("notReady")) {
-
-
       if (status === LOADING) {
         if (cnt < max) {
           setTimeout(() => wait(s, k, ms, max, cnt + 1), ms);
@@ -5018,7 +5031,7 @@ function waitForReady(s, k) {
           resolve("timeout");
         }
       } else {
-        console.log("Language ready at wait count: %s", cnt);
+        //console.log("Language ready at wait count: %s", cnt);
         resolve(keyValue(s, k));
       }
     } //if (language.hasOwnProperty("notReady")) {
@@ -5031,14 +5044,27 @@ function waitForReady(s, k) {
     }
   });
 }
+/*
+ * Get the translation for key [s:k].
+ *
+ * Return "not loaded" if setLanguage() has not been called, or
+ * "loading" or "failed" if the language file is not ready.
+ *
+ * Return translated value otherwise.
+ *
+ * Note: if "loading" is return getString() should be called with the second
+ * argument "true" so it return a promise and getString() will return the
+ * translation when the file is ready.
+ */
+
 
 function keyValue(s, k) {
   if (status === NOTLOADED) {
-    return "shared language not loaded";
+    return "not loaded";
   }
 
   if (status !== LOADED) {
-    return `state ${status}`;
+    return `${status === LOADING ? `loading(${s}:${k})` : `failed(${s}:${k})`}`;
   }
 
   if (!language[s]) {
@@ -5056,9 +5082,13 @@ function keyValue(s, k) {
   return language[s][k];
 }
 /*
- * Get string for argument 'key'. Key can be in two parts
+ * Get trnaslation for argument 'key'. Key can be in two parts
  * delimited by a ':'. The second part is optional.
- */
+ *
+ * When arg: wait is true, getString() returns a promise. Use this
+* if getString() returns a value of "loading(s:k)" to wait until
+* language file is loaded before requesting a translation.
+*/
 
 
 function getString(key, wait = false) {
@@ -5078,6 +5108,9 @@ function getString(key, wait = false) {
  * This is a tagged template function that populates
  * a template string with values from the language
  * object.
+ *
+ * Note: This won't work when called before the language
+ * file is loaded and ready.
  */
 
 function __lang(strings, ...values) {

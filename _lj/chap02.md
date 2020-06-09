@@ -1,7 +1,7 @@
 ---
 title: "Rozdział drugi"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział drugi
 ![znaczek]({{page.big-separator}})
@@ -832,4 +832,3 @@ Spoglądam na nią przez dłuższą chwilę. O rany, jak wyglądałoby życie be
 
 – No cóż, jeśli to nadal będzie się wydarzało, to będziesz mnie widywała częściej niż myślisz.
 
-&nbsp;

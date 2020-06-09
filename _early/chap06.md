@@ -1,7 +1,7 @@
 ---
 title: "Boska Kobiecość"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
 
 # Boska Kobiecość
@@ -87,4 +87,3 @@ Idźcie zatem w pokoju i dziękuję, że pozwoliłyście, by ten, kto kiedyś pr
 
 Amen.
 
-&nbsp;

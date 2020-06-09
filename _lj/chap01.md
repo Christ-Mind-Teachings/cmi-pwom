@@ -1,7 +1,7 @@
 ---
 title: "Rozdział pierwszy"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział pierwszy
 
@@ -562,4 +562,3 @@ Milkniemy oboje.
 – Tak?
 
 – A co jeśli to „oni” się mylą?”
-&nbsp;

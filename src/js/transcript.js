@@ -6,7 +6,6 @@ import auth from "www/modules/_user/netlify";
 import fb from "www/modules/_util/facebook";
 import {initTranscriptPage} from "www/modules/_page/startup";
 import {initialize as initNotes} from "www/modules/_page/notes";
-import {setLanguage} from "www/modules/_language/lang";
 
 //teaching specific modules
 import {setRuntimeEnv} from "./setEnv";
@@ -17,7 +16,10 @@ import toc, {getBookId} from "./modules/_contents/toc";
 import audio from "./modules/_audio/audio";
 import about from "./modules/_about/about";
 import { noteInfo } from "./notes";
+
+import {setLanguage} from "www/modules/_language/lang";
 import constants from "./constants";
+//setLanguage(constants);
 
 $(document).ready(() => {
 

@@ -1,9 +1,9 @@
 ---
 title: "Lekcja 11. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center"> 
-## Lekcja 11<br>
+## Lekcja 11
 **Pytania i odpowiedzi**
 
 </div>
@@ -120,4 +120,3 @@ Zatem zaprawdę niech pokój będzie z nami *wszystkimi* -- zawsze. Czy to w two
 
 Amen.
 
-&nbsp;

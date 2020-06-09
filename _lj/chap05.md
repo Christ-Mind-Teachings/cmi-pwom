@@ -1,7 +1,7 @@
 ---
 title: "Rozdział piąty"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział piąty
 
@@ -474,4 +474,3 @@ Mógłbym przysiąc, że ogniki w  jej oczach trochę przygasły i  czuję, że 
 
 Jadąc do  domu czuję się, jakbym się unosił sześć stóp nad ziemią. Rozciągająca się przede mną panorama miasta Tacoma wibruje żywą energią. Jednak nawet w  takim momencie, po  całym tym czasie z  Jeszuą, po  wpływie, jaki na  mnie wywarła sesja z  Jeremiaszem, jestem już w  stanie rozpoznać tę znajomą energię prawie niezauważalnie wzbierającą we  mnie. Czy doświadczyłeś kiedyś, że wiesz coś ponad wszelką wątpliwość, a  zarazem wiesz równie jasno, że odmawiasz przyjęcia tej wiedzy, niezależnie od  tego, jak bardzo jest oczywista? Być może tak wydaje się prościej.
 
-&nbsp;

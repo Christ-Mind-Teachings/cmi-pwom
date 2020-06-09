@@ -1,7 +1,7 @@
 ---
 title: "Rozdział siódmy"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział siódmy
 
@@ -599,4 +599,3 @@ Teraz odwraca wzrok i  patrzy na  mnie. – Myślę, że lepiej będzie, jak poj
 
 Wcześniej zamierzałem spędzić ten dzień na  szukaniu pracy. Myślę, że moja racjonalna strona wygrywała wówczas tę bitwę. Wzruszam ramionami i  uśmiecham się. – Jadę w  góry.
 
-&nbsp;

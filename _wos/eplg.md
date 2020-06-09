@@ -2,16 +2,11 @@
 title: "Epilog"
 ---
 
-
 <div markdown="1" align="center">
-
-&nbsp;
 
 ## *Epilog*
 
 </div>
-
-&nbsp;
 
 **MIŁOŚĆ**. Miłość *naprawdę* płynie z każdym oddechem, jaki bierzemy, i z moich doświadczeń z Jeszuą nauczyłem się, że Miłość *rzeczywiście* pragnie być słyszana w każdym wypowiedzianym słowie. Jeszua jest w tym mistrzem, lecz jego mistrzostwo nie stawia Go ponad nami. Będzie czekał cierpliwie, wedle naszego postrzegania trochę nas wyprzedzając, aż w końcu rozpoznamy, że czeka na nas i zawsze na nas czekał nasz wybór Miłości. Jest to wybór, przy którym wszystkie inne opcje znikają. Wybór, który w ostatecznym rozrachunku rzeczywiście objawia się naszym przebudzonym umysłom jako *wybór bez alternatyw*. Czy istniał kiedykolwiek jakiś inny realny wybór?
 
@@ -36,7 +31,7 @@ Jeden z moich ulubionych cytatów pochodzi od żydowskiego nauczyciela Majmonide
 
 Z Jeszuą jako naszym miłującym bratem i przewodnikiem poznaliśmy, że jedyny wybór, jaki jest, jest nieuniknionym rozpoznaniem, że *kiedy* to teraz, a *kto* to my. Poznaliśmy również, że w przebudzeniu nie chodzi o jakąś efemeryczną powściągliwość udającą transcendencję, w której każde wyzwanie i każde niechciane uczucie jest zbywane wyjaśnieniem, że jest to złudzenie. Przebudzenie jest raczej *korektą*, wycieraniem do czysta karty wyuczonego postrzegania, tak aby życie, które jest jedynie Miłością, która szerzy się, by objąć stworzenie, mogło być *przeżywane*, a nie jedynie ograniczane do przetrwania. Przebudzenie nie jest końcem, lecz początkiem. Mój przyjaciel Michael Stillwater nazywa to „lądowaniem całymi stopami na planecie”.
 
-„Zabierz mnie stąd, Scotty” [^1] *nie jest* podejściem, którym żyje ani którego naucza nas nasz łagodny brat. Miłość nie szuka ucieczki, lecz służy. Gdy ego krzyczy: „Ale co ja z tego będę miał?”, przebudzone serce zadaje proste pytanie: „Jak mogę pomóc?”…a następnie pozwala, by Miłość była przewodnikiem.
+„Zabierz mnie stąd, Scotty” [^1] *nie jest* podejściem, którym żyje ani którego naucza nas nasz łagodny brat. Miłość nie szuka ucieczki, lecz służy. Gdy ego krzyczy: „Ale co ja z tego będę miał?”, przebudzone serce zadaje proste pytanie: „Jak mogę pomóc?”&hellip; a następnie pozwala, by Miłość była przewodnikiem.
 
 [^1]: „Beam me up, Scotty” – „Teleportuj mnie Scotty” – powiedzenie znane z serialu Star Trek [przyp.tłum].
 
@@ -58,7 +53,9 @@ Czy może być jakaś większa przygoda?<br>
 Czy może być coś bardziej godnego naszego istnienia?
 
 Niech płyną potoki radości!
+
 <div markdown="1" align="right">
 Jayem<br>
 Wielkanoc, 2006 r.
+</div>
 

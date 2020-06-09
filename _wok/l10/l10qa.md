@@ -1,14 +1,14 @@
 ---
 title: "Lekcja 10. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center"> 
-## Lekcja 10<br>
+## Lekcja 10
 **Pytania i odpowiedzi**
 
 </div>
 
-**Pytanie 1**
+## Pytanie 1
 
 ***Pytanie*:** Wyszła właśnie książka zatytułowana „The Bible Codes” (Kod Biblii). Odkryto sekretny kod Tory, który wskazuje na wiele wydarzeń, jakie zaszły obecnie, w dzisiejszych czasach. Czy mógłbyś to rozwinąć i odnieść się do wiarygodności tych informacji?
 
@@ -38,13 +38,7 @@ Czy to jest wystarczającą odpowiedzią na twe pytanie?
 
 *Odpowiedź*: Tak.
 
-
-
-
-
-**Pytanie 2**
-
-
+## Pytanie 2
 
 ***Pytanie*:** Czy możesz nam bardziej wyjaśnić kwestię wolnej woli u dzieci, ponieważ często wydaje się, że są one na łasce wyborów, jakie podejmują ich rodzice?
 
@@ -100,4 +94,3 @@ Niech ta odpowiedź będzie na teraz wystarczająca.
 
 I ponownie zwracam się do was wszystkich, niech błogosławieństwo i pokój zawsze będą z wami.
 
-&nbsp;

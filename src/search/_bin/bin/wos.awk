@@ -5,6 +5,9 @@
 # return 1 if we want to discard the paragraph
 #
 function discardParagraph(p) {
+  if (n = match(p,/^[Aa]men/) > 0) {
+    return 1
+  }
   return 0
 }
 
@@ -63,6 +66,9 @@ BEGIN {
   omit = 1
   next
 }
+$1 ~ /#/ {
+  next
+}
 # opening or closing div
 /^<div/ || /^<\/div/ {
   next
@@ -101,14 +107,17 @@ BEGIN {
     printf "    \"pid\": %s,\n", p
     for (line in lines) {
       raw = lines[line]
+      gsub(/\&hellip;/, "", raw)
       # remove <br/> 
       gsub(/<br\/>/,"",raw)
+      # remove <br> 
+      gsub(/<br>/,"",raw)
       # remove <p></p> 
       gsub(/<\/?p[^>]*>/,"",raw)
       # remove <span></span> 
       gsub(/<\/?span[^>]*>/,"",raw)
       # remove punctuation
-      gsub(/[\[\])(*>.,!?;:–‘’'"“”/\\]/,"",raw)
+      gsub(/[\[\])(*>.,!?;:–‘’'"“”„/\\]/,"",raw)
       #remove 0xa0
       gsub(/ /,"",raw)
       # convert dash to space 

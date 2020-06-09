@@ -1,7 +1,7 @@
 ---
 title: "Rozdział dziesiąty"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział dziesiąty
 
@@ -156,4 +156,3 @@ Kiwam głową, wyrażając zgodę. Gdybym wówczas wiedział, co ma  to  wkrótc
 
 Spoglądamy na  siebie w  ciszy jeszcze przez chwilę, po  czym przytulamy się bardzo długo, a  następnie ruszam na  lotnisko.
 
-&nbsp;
