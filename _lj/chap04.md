@@ -1,7 +1,7 @@
 ---
 title: "Rozdział czwarty"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział czwarty
 
@@ -26,25 +26,24 @@ Kołysząc się łagodnie w  bujanym fotelu i  pijąc w  ciszy herbatę, prawie 
 
 Tak, czuję jak zaczyna się wibracja. Już dłużej mnie to  nie zaskakuje, gdyż wiem, że będzie się ona utrzymywać tak długo, póki jej nie rozpoznam, niczym kogoś, kto puka do  drzwi, na  początku łagodnie, później coraz głośniej, dopóki mu nie otworzą. Wolę łagodność, więc wyciągam spokojnie pióro i  notatnik z  półki nieopodal i  wracam na  fotel.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.<br>
 Witaj, Marc.*
+</div>
 
 „Witaj, Jeszua!”
 
+<div data-index="1" markdown="1" class="indent">
 *Dziękuję ci, że pozwalasz Mi<br>
 na  komunikowanie się z  tobą.<br>
 Najpierw chcę się z  tobą podzielić swymi odczuciami<br>
 dotyczącymi twej obecnej sytuacji życiowej.<br>
 Myślę, że wiesz, co  mam na  myśli.*
-
 </div>
 
 „No, cóż, jeśli nie wiem, to  jestem pewien, że zostanie mi  to  wyjaśnione!”
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Tak, zostanie.<br>
 Twoja wątpliwość co  do  prawdziwości<br>
 twego doświadczenia ze  Mną<br>
@@ -57,13 +56,11 @@ to  wątpić w  rzeczywistość tego, czego doświadczasz lub<br>
 zaprzeczać swemu istnieniu.<br>
 Albowiem zaprzeczać części, to  zaprzeczać całości.<br>
 Waga tego jest przeogromna.*
-
 </div>
 
 „Dlaczego?”
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Po  prostu dlatego, że zawiera się w  tym zaprzeczenie<br>
 twemu własnemu Synostwu.<br>
 Rozumiesz?<br>
@@ -94,13 +91,11 @@ tworzy przestrzeń dla tego, co  nowe.<br>
 Miecz rozszczepia to, w  co  uderza.<br>
 Rozdziela całość na  części<br>
 i  skutecznie powstrzymuje tego, w  kogo uderza.*
-
 </div>
 
-„Jeszua, czasami – nawet teraz, gdy piszę w  pośpiechu te słowa –  lękam się tego wszystkiego. Dlaczego?”
+„Jeszua, czasami – nawet teraz, gdy piszę w  pośpiechu te słowa – lękam się tego wszystkiego. Dlaczego?”
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *To  jest dobre pytanie, Marc.<br>
 **Dlaczego** się tego lękasz?<br>
 Wskazałem już gdzie szukać odpowiedzi,<br>
@@ -119,13 +114,11 @@ jeśli to  właśnie **przyzwolenie**<br>
 przywraca Syna Ojcu,<br>
 to  czyż tym, co  utrzymuje przekonanie o  oddzieleniu,<br>
 nie musi być **opieranie się**?*
-
 </div>
 
 „Brzmi to  dość prawdziwie”.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *I  musi być prawdą.*
 
 *Marc,<br>
@@ -207,7 +200,6 @@ jak zareagujesz na  to, co  stworzyłeś?*
 *Bądź błogosławiony.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -222,7 +214,9 @@ Jadę dalej, nadal spiesząc się i  wyprzedzając z  dwóch stron i  dopiero w 
 
 Tym razem nic nie zapowiada Jego obecności, chyba że byłem zbyt podekscytowany, by  to  zauważyć.
 
+<div data-index="1" markdown="1" class="indent">
 > *Marc, weź Biblię i  znajdź ewangelię Mateusza 7,5-8.*
+</div>
 
 Zaskakuje mnie to  i  reaguję na  to, rozglądając się, jakbym się obawiał, że ktoś mógł to  usłyszeć. Wraz ze  słowami pojawia się obraz otwartej Biblii leżącej na  stole. Wszystkie słowa na  otwartej tam stronie napisane są czerwoną czcionką, co  oznacza, że przypisywane są one Jezusowi[^2].
 
@@ -240,6 +234,7 @@ Skutecznie zapomniałem o  sugestii Jeszuy. Wówczas mój wzrok pada na  Biblię
 
 „Cholera. Znów to  samo”. Znajome uczucie znów się pojawia. Wyciągam Biblię z  jej grobu. Kiedy otworzyłem ją ostatnim razem? Niepewnie ją kartkuję, aż w  końcu znajduję ewangelię Mateusza, rozdział 7, wersety 5–8 i  zaczynam czytać:
 
+<div data-index="1" markdown="1" class="indent">
 > „Obłudniku, wyrzuć najpierw belkę ze  swego oka, a  wtedy przejrzysz, ażeby usunąć drzazgę z  oka twego brata.
 
 > Nie dawajcie psom tego, co  święte, i  nie rzucajcie swych pereł przed świnie, by  ich nie podeptały nogami, i  obróciwszy się, was nie poszarpały.
@@ -247,18 +242,17 @@ Skutecznie zapomniałem o  sugestii Jeszuy. Wówczas mój wzrok pada na  Biblię
 > Proście, a  będzie wam dane; szukajcie, a  znajdziecie; kołaczcie, a  otworzą wam.
 
 > Albowiem każdy, kto prosi, otrzymuje; kto szuka, znajduje; a  kołaczącemu otworzą”.
+</div>
 
 Obie strony, każde słowo każdego wersetu jest w  kolorze czerwonym. Następnie słyszę Jego znajomy głos.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Marc, te cztery wersety powinno się czytać razem;*<br>
 *są one niezmiernie ważne*<br>
 *dla budzącej się świadomości.*<br>
 *Czy wiesz, czym jest owa „belka”[^3]?* 
-
 </div>
 
 [^3]: Angielskie słowo „beam” oznacza zarówno „belkę”, jak i „snop światła” – przyp.tłum.
@@ -270,8 +264,7 @@ Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co
 
 „To  jest widzenie drugiej osoby. To  jest, hmm&hellip;” – szukam słów.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *To  jest osąd, Marc.*<br>
 *Właśnie osąd musi być najpierw wyrzucony,*<br>
 *albowiem jest on twą jedyną niedoskonałością.*<br>
@@ -316,7 +309,6 @@ Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co
 *Bądź błogosławiony.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -327,17 +319,20 @@ Gdy się nad tym zastanawiam, najpierw widzę kłodę, coś dość solidnego, co
 
 Skończyłem właśnie jeść późną kolację i  rozkoszuję się myślą, że za  chwilę po  prostu usiądę w  bujanym fotelu i  będę spoglądał na  zatokę i  statki, obserwując jak ostatnie ślady zmierzchu ustępują miejsca nocy, i popijając filiżankę gorącej czekolady, jak gdyby było to  jedyne doznanie, jakiego można doświadczać w  całym wszechświecie. Ale nie dzisiaj.
 
+<div data-index="1" markdown="1" class="indent">
 > *Witaj, Marc.*
+</div>
 
 Nieruchomieję i  delektuję się uczuciem, jakie przynosi Jego obecność. Wspaniały spokój.
 
+<div data-index="1" markdown="1" class="indent">
 > *Będzie ci trochę trudno pisać*<br>
 > *z  zamkniętymi oczami.*
+</div>
 
 Otwieram niechętnie oczy, przez chwilę obawiając się, że utracę z  Nim łączność. Nie tracę jej.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Jak wiele przemierzono dróg?*<br>
@@ -497,7 +492,6 @@ Otwieram niechętnie oczy, przez chwilę obawiając się, że utracę z  Nim ł�
 *i  nie lękaj się.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -506,38 +500,47 @@ Otwieram niechętnie oczy, przez chwilę obawiając się, że utracę z  Nim ł�
 20 grudnia 1987  r.
 {: .omit}
 
+<div data-index="1" markdown="1" class="indent">
 > *Teraz zaczynamy.*
 
 > *Marc, chcę cię prosić, byś znów otworzył Biblię,*<br>
 > *a  my  poprowadzimy cię do  tych słów,*<br>
 > *które obecnie bardzo potrzebujesz usłyszeć.*
+</div>
 
 Podchodzę do  półki, chwytam Biblię (Boże, to  już dwa razy w  ciągu paru dni, moja mama byłaby w  szoku!) i  siadam.
 
 „Dobrze” – myślę sobie – „Co  u  licha mam czytać tym razem?”. Nie, to  nie jest odpowiednia postawa, po  prostu porzuć swe oczekiwania. Wkrótce się wyciszam. Wówczas słyszę:
 
+<div data-index="1" markdown="1" class="indent">
 > *Zajrzyj do  Marka 4,9 i  zacznij czytać.*
+</div>
 
 I  znowu cały tekst jest wyróżniony czerwonym kolorem. Czy te „zbiegi okoliczności” się kiedyś skończą? Czy gdzieś po  drodze nie mógłby się zdarzyć jakiś błąd? Zaczynam sobie uświadamiać, że coś się tu  dzieje i  jeśli nie potrafię tego wytłumaczyć, to  będę musiał coś z  tym zrobić. Dlaczego to  zawsze wywołuje we  mnie dreszcze lęku?
 
+<div data-index="1" markdown="1" class="indent">
 > „I  dodał: Kto ma uszy do słuchania, niechaj słucha!
 > Wam dana jest tajemnica królestwa&hellip;”
+</div>
 
 Czuję nagłe poruszenie, niczym falę energii płynącą w  górę kręgosłupa.
 
+<div data-index="1" markdown="1" class="indent">
 > *Marc,*<br>
 > *zawsze pamiętaj te słowa,*<br>
 > *a  zwątpienie co  do  twej podróży cię nie przemoże.*<br>
 > *Teraz zajrzyj do  Jana 5,10.*
+</div>
 
 Zaczynam czytać przypowieść o  tym, jak Jezus uzdrowił człowieka w  szabat i  jak Żydzi chcieli Go zabić, ponieważ nie tylko złamał prawo, ale twierdził, że jest równy Bogu.
 
 Kontynuuję czytanie, aż dochodzę do  wersetu 23:
 
+<div data-index="1" markdown="1" class="indent">
 > „ &hellip;aby wszyscy oddawali cześć Synowi, tak jak oddają cześć Ojcu.<br>Kto nie oddaje czci Synowi, nie oddaje czci Ojcu, który Go posłał”.
+</div>
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Wielkiej uwagi wymaga*<br>
 *teraz to, co  powiem o  tym nauczaniu.*<br>
 *Dla tych, którzy budują swe świątynie*<br>
@@ -629,7 +632,6 @@ Kontynuuję czytanie, aż dochodzę do  wersetu 23:
 *oczy Syna.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -638,8 +640,7 @@ Kontynuuję czytanie, aż dochodzę do  wersetu 23:
 22 grudnia 1987  r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Będę dziś rozmawiał z  tobą*<br>
@@ -759,7 +760,6 @@ Kontynuuję czytanie, aż dochodzę do  wersetu 23:
 *chodźcie do  domu.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -772,7 +772,6 @@ Proroctwo. Każda najdrobniejsza cząstka mego jestestwa się temu sprzeciwia. M
 Nagle znów czuję tę zmianę w  energii:
 
 <div markdown="1" class="indent">
-
 *Bardzo dobrze, Marc.*<br>
 *To  przychodzi tak łatwo, kiedy wybierasz*<br>
 *klucz **przyzwalania**.*<br>
@@ -805,7 +804,6 @@ Nagle znów czuję tę zmianę w  energii:
 *Pokój Mój daję wam.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -814,39 +812,38 @@ Nagle znów czuję tę zmianę w  energii:
 26 grudnia 1987  r.
 {: .omit}
 
+<div data-index="1" markdown="1" class="indent">
 > *Dobry wieczór, Marc.*
+</div>
 
 „Dobry wieczór, Jeszuo. Jak to  się dzieje, że ta  komunikacja może się wydarzać w  taki sposób, tak &hellip;”
 
+<div data-index="1" markdown="1" class="indent">
 > *Sugerowałbym, żebyś to  zapisał, proszę.*
+</div>
 
 „W  porządku”.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Umiłowany bracie,*<br>
 *czy jeszcze nie rozumiesz,*<br>
 *czy też zwyczajny opór przed oczywistością*<br>
 *przywodzi takie pytania?*
-
 </div>
 
 „Cóż, myślę, że to  mój opór.”
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Tak, **tylko** o  to  tu  chodzi.*<br>
 *A  czemu się opierasz?*<br>
 *Właśnie temu Życiu, którego zawsze szukałeś?*
-
 </div>
 
 „W  istocie, coś we  mnie stawia opór. Myślę, że się tego lękam”.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *To, czym chcę się tego wieczoru podzielić z  tobą,*<br>
 *przyniesie kres twemu oporowi,*<br>
 *jeśli tylko zechcesz choć trochę*<br>
@@ -898,13 +895,11 @@ Nagle znów czuję tę zmianę w  energii:
 *Jest to  upieraniem się przy podtrzymywaniu złudzenia,*<br>
 *które nieuchronnie musi się zestarzeć.*<br>
 *Odłóż je  na  bok, tak jak dziecko odkłada starą zabawkę.*
-
 </div>
 
 „Ale czy nie jest to  zaprzeczaniem życiu?”
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *W  złudzeniach nie ma  żadnego życia.*<br>
 *Twe pytanie wyraża twój opór.*<br>
 *Wyraża twe głęboko utrzymywane przekonanie, że świat*<br>
@@ -966,13 +961,11 @@ Nagle znów czuję tę zmianę w  energii:
 *Wiara nigdy nie jest wystarczająca.*<br>
 *Albowiem tam, gdzie jest wiara **w**  Boga,*<br>
 *tam jest Oddzielenie **od**  wszystkiego, czym Bóg jest.*
-
 </div>
 
 „Tego już za  dużo. Z  pewnością sam muszę sobie to  wszystko wymyślać”.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Oczywiście, że ty  to  wymyślasz.*<br>
 *Ten „ty”, który jest jednorodzonym Synem Ojca,*<br>
 *wymyśla to  wszystko.*<br>
@@ -1036,7 +1029,6 @@ Nagle znów czuję tę zmianę w  energii:
 *Pomyśl o  tym.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -1045,8 +1037,7 @@ Nagle znów czuję tę zmianę w  energii:
 28 grudnia 1987  r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Wiedz, że wizja Mnie*<br>
@@ -1145,7 +1136,6 @@ pradawnej pamięci, kiedy człowiek chodził w  Bogu*<br>
 *Bądź błogosławiony.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -1176,4 +1166,3 @@ Zaczynam rozpoznawać doniosłość przekazu Jeszuy. Dotyka on mego umysłu mię
 
 Zobaczyć to  Światło bezpośrednio, niczym nie przesłonięte – z  pewnością jest to  niezrównany cel! Jednak nie widzę wyraźnie woalu, który je  skrywa, ani też nie jestem pewien, jak ten woal usunąć. Jestem ponaglany przez nieznaną siłę we  mnie, co  dzieje się pozornie wbrew mnie. Czy wyparłem się mej prawdziwej tożsamości po  to, by  utożsamić się z  „ja”, którym *nie* jestem?
 
-&nbsp;

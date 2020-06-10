@@ -1,7 +1,7 @@
 ---
 title: "Rozdział siódmy"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział siódmy
 
@@ -220,8 +220,7 @@ Jeszuy, zwanego Jezusem.
 
 4 września 1988  r.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Znowu*<br>
@@ -303,7 +302,6 @@ Jeszuy, zwanego Jezusem.
 *Pokój tobie.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -311,8 +309,7 @@ Jeszuy, zwanego Jezusem.
 
 7 września 1988  r.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Umiłowani bracia,*<br>
@@ -429,7 +426,6 @@ Jeszuy, zwanego Jezusem.
 *Kiedy dokonasz wyboru, by  to  zaakceptować?*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -437,8 +433,7 @@ Jeszuy, zwanego Jezusem.
 
 4 października 1988  r.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Tym razem*<br>
@@ -568,7 +563,6 @@ Jeszuy, zwanego Jezusem.
 *się dokonał.*
 
 *Amen.*
-
 </div>
 
 Udaje mi  się dotrzeć do  Kendry, gdy ta  właśnie wyjeżdża z  podjazdu na  ulicę, by  ruszyć w  swą rutynową godzinną jazdę do  pracy.
@@ -599,4 +593,3 @@ Teraz odwraca wzrok i  patrzy na  mnie. – Myślę, że lepiej będzie, jak poj
 
 Wcześniej zamierzałem spędzić ten dzień na  szukaniu pracy. Myślę, że moja racjonalna strona wygrywała wówczas tę bitwę. Wzruszam ramionami i  uśmiecham się. – Jadę w  góry.
 
-&nbsp;

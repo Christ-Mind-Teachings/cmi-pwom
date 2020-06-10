@@ -1,7 +1,7 @@
 ---
 title: "Rozdział drugi"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział drugi
 ![znaczek]({{page.big-separator}})
@@ -28,7 +28,7 @@ Jest wystarczająco jasno, by otaczający mnie świat zamienić w delikatną gr�
 
 Przychodzi mi do głowy, by usiąść do medytacji. Otula mnie łagodna bryza, której dotyk z łatwością uspokaja me ciało, umysł i oddech, aż w końcu pozostaje tylko krystaliczna świadomość, wzniosłe dobre samopoczucie. Czuję teraz subtelne, narastające ciepło, gdy wschodzące słońce zaczyna pieścić me ciało. Otwierając powoli oczy, eksploduję radosnym śmiechem. Tutaj jest tak pięknie! Głaz, na którym siedzę, leży na szczycie pagórka na koń- cu małego wąwozu w kształcie końskiej podkowy. Jestem obrócony twarzą w stronę kanału i leżącej po jego drugiej stronie wy- spy Maui. Obserwuję wschodzące słońce, które niczym ognisty bóg wspina się po prawie bezchmurnym niebie. Najnaturalniejszą reakcją jest zwyczajne dziękczynienie. Choć mam otwarte oczy, pojawia się we mnie znajome już uczucie. Widzę złote Światło i słyszę znajomy Głos.
 
-<div markdown="1" class="indent">
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Właśnie przez szukanie<br>
@@ -145,7 +145,6 @@ W tym zawiera się pokój,<br>
 który przewyższa wszelki umysł.*
 
 *Amen.*
-
 </div>
 
 Światło przygasa. Siedzę w bezruchu przez bardzo długi czas. Mój świat całkowicie się zatrzymał. Podnoszę się powoli i schodzę na plażę, czując pod stopami ciepły piasek, obserwując jak promienie słońca tańczą niczym migoczące diamenty na powierzchni łagodnych fal. Rozbieram się i wchodzę do spienionego morza, którego tropikalne wody obejmują mnie i koją. Czuję napływające łzy. Nie opieram się niczemu i łzy swobodnie płyną, gdy tak stoję zanurzony do pasa w wodach oceanu.
@@ -163,10 +162,12 @@ Głos niewidocznej stewardesy wybudza mnie z krótkiej drzemki. Odwracam głowę
 
 Sięgam do podręcznego bagażu, wyciągam notatnik, przewracam pierwszą stronę i czytam słowa przekazane na plaży Fagana:
 
+<div data-index="1" markdown="1" class="indent">
 > *Twą jedyną myślą była i jest myśl,<br>
 > że jesteś oddzielony ode Mnie.<br>
 > Na tym opiera się stworzenie<br>
 > mileniów złudzeń.*
+</div>
 
 Nagle przez umysł zaczyna mi przepływać strumień obrazów. Indianie i kawaleria; drapacze chmur i korki drogowe; setki muzułmanów w pokłonie zwróconych w stronę Mekki; ksiądz w konfesjonale; święty Hindus z ciałem natartym popiołem; twarz mężczyzny za kratami; chaos na rynku giełdowym; nowożeńcy, których oczy wyrażają nadzieję, że ich entuzjazm będzie trwał wiecznie; stara kobieta wydająca ostatnie tchnienie...
 
@@ -192,17 +193,18 @@ Dlaczego Jeszua nie mógłby przynajmniej powiedzieć czegoś, co ma sens? Dajmy
 
 Owa wewnętrzna polemika toczy się w mej głowie i nie znajduję w niej punktów dających się pogodzić, aż w końcu porażka mego intelektu, który nie potrafi tego pojąć, uchwycić w zgrabne formułki logicznych pojęć, które wielbi, każe mi się po prostu zamknąć. Wówczas to się znów zaczyna. Poczucie ciepła, które rośnie od wewnątrz, zmiana wibracji, aż w końcu Głos:
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Trwaj ze Mną jeszcze przez chwilę.<br>
 Chcę teraz z tobą porozmawiać,<br>
 zanim wyjdziesz do pracy.<br>
 Czy zechcesz się teraz do Mnie przyłączyć?*
+</div>
 
 „Tak”, mamroczę pod nosem. Pewien jestem, że już całkiem postradałem zmysły, dlaczegóż by więc się nie zgodzić?
 
+<div data-index="1" markdown="1" class="indent">
 *Weź więc notatnik i długopis,<br>
 albowiem będę się dzielił z tobą<br>
 tym, czym jest Życie,<br>
@@ -315,7 +317,6 @@ Bardzo cię kocham,<br>
 albowiem JAM JEST Miłością.*
 
 *Amen.*
-
 </div>
 
 Minęła godzina. Jak mam patrzeć na korek, w którym utknąłem, jak na „koniec mych złudzeń”? Myślę sobie: „Po prostu pozwól temu odejść. Pozwól, by odszedł osąd tej chwili”. Mój umysł nagle się uspokaja, niczym górskie jezioro w bezwietrzny dzień, gdy jego tafli nie marszczy ani jedna fala.
@@ -330,8 +331,7 @@ Przez chwilę jestem buddyjskim mnichem zen, ale tylko przez jedną ulotną chwi
 9 września 1987 r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Marc, słuchaj Mnie uważnie.<br>
@@ -350,13 +350,11 @@ tylko świat złudzeń<br>
 i w tym odpoczynku przyjdę do ciebie,<br>
 a Moja obecność będzie dla ciebie jak uzdrowienie.<br>
 Odpocznij teraz&hellip;*
-
 </div>
 
 Nigdy nie byłem w stanie wyrazić słowami tego, co się potem wydarzyło. Czułem, jakbym cały roztapiał się w świetle. Nigdy nie czułem tak wszechogarniającego pokoju.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *I blisko już jest koniec naszych trosk i cierpień.<br>
 Nie będę już więcej odchodził ze świętego domu Ojca.<br>
 Zaprawdę, zwyciężyłem świat.<br>
@@ -370,7 +368,6 @@ Chrystusa.*
 *W tym zawiera się pokój.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -394,8 +391,7 @@ Wieczór. Wino nalane, ale jeszcze nietknięte. Z jakiegoś powodu waham się, c
 
 „Cholera” – myślę. Czuję, że to się znów zaczyna. Uświadamiam sobie, że nadejście tego odczucia zauważyłem praktycznie na samym początku. W miarę jak owo uczucie narasta, zrywam się i biegnę po notatnik i długopis. Równie dobrze mogę to zaakceptować i przyjąć ten przekaz. Być może oszaleję, a być może już zwariowałem. W takim przypadku niczego nie pogorszy to, że się przygotuję&hellip;
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Po pierwsze, zrozum,<br>
@@ -418,13 +414,11 @@ decydujesz się nadać etykietkę „nieszczęścia”,<br>
 najpierw pojawia się subtelna myśl<br>
 o okolicznościach.<br>
 Czym są okoliczności, Marc?*
-
 </div>
 
 „Cóż, myślę, że jest to miejsce, pewnego rodzaju środowisko”.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Tak!<br>
 Miejsce. Dobrze.<br>
 A teraz<br>
@@ -688,7 +682,6 @@ jednak zawsze jesteśmy z tobą.*
 *Pokój daję tobie.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -832,4 +825,3 @@ Spoglądam na nią przez dłuższą chwilę. O rany, jak wyglądałoby życie be
 
 – No cóż, jeśli to nadal będzie się wydarzało, to będziesz mnie widywała częściej niż myślisz.
 
-&nbsp;

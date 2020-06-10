@@ -1,7 +1,7 @@
 ---
 title: Rozdział szósty
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział szósty
 
@@ -67,8 +67,7 @@ chłoną łagodne światło niezwykle przejrzystego wieczoru, gdy zaczyna się
 znane mi  już uczucie. W  zasadzie cieszę się na  to  spotkanie,
 niezależnie od  tego, co  z  niego wyniknie.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Cisza.*<br>
@@ -128,7 +127,6 @@ niezależnie od  tego, co  z  niego wyniknie.
 *Chodź, powiadam ci, chodź!*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -137,8 +135,7 @@ niezależnie od  tego, co  z  niego wyniknie.
 6 maja 1988  r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Tak dużo czasu minęło od  chwili,*<br>
@@ -194,7 +191,6 @@ niezależnie od  tego, co  z  niego wyniknie.
 *aby Królestwo mogło być poznane.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -203,8 +199,7 @@ niezależnie od  tego, co  z  niego wyniknie.
 25 maja 1988  r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Witaj, Marc.*
@@ -213,19 +208,23 @@ niezależnie od  tego, co  z  niego wyniknie.
 
 „Witaj Jeszua. Jak się masz?”
 
-
+<div data-index="1" markdown="1" class="indent">
 >*Dobrze, Marc, choć widzę, że ty  nie bardzo.*
+</div>
 
 „To  widać, co?”
 
+<div data-index="1" markdown="1" class="indent">
 >*Mój umiłowany przyjacielu,*<br>
 *prawda nigdy nie jest ukryta,*<br>
 *w  żadnym czasie, przed nikim.*<br>
 *Choć, oczywiście,*<br>
 *wielu woli nie widzieć.*
+</div>
 
 „Tu  nasuwa mi  się pytanie: patrząc z  twojej perspektywy – dlaczego jestem zmęczony?”
 
+<div data-index="1" markdown="1" class="indent">
 >*Zmęczenie w  ogóle nie wiąże się z  ciałem*<br>
 *Wiąże się natomiast całkowicie z  umysłem.*<br>
 *Dysharmonia jest po  prostu*<br>
@@ -234,25 +233,33 @@ niezależnie od  tego, co  z  niego wyniknie.
 *rozpoznania jej prawdziwego źródła.*<br>
 *Powiedzieć: „Jestem zmęczony” to  niewiele więcej*<br>
 *niż uciec od  prawdy w  złudzenia.*
+</div>
 
 „Dobrze, ale dlaczego jestem zmęczony?”
 
+<div data-index="1" markdown="1" class="indent">
 >*Znasz odpowiedź bez pytania o  nią.*
+</div>
 
 „Ponieważ nie podążam za  głosem swego serca”.
 
+<div data-index="1" markdown="1" class="indent">
 >*Właśnie tak.*
+</div>
 
 „Wydaje się, że trzymam się przekonania, że rzeczywistość jest gdzieś
 »tam«. Że jeśli po  prostu i  w  pełni zrezygnuję z  opierania się memu
 sercu, wydarzy się nieszczęście i  świat mnie potępi”.
 
+<div data-index="1" markdown="1" class="indent">
 >*Upierać się przy byciu częścią świata,*<br>
 *to  już zaakceptować potępienie.*
+</div>
 
 „To  co  mam czynić? Ot tak mrugnąć sobie oczami i  zwolnić się z
 wszystkich odpowiedzialności?”
 
+<div data-index="1" markdown="1" class="indent">
 >*Oczywiście, że nie.*<br>
 *Jednak ufając głosowi Ducha Świętego*<br>
 *i  idąc w  kierunku,*<br>
@@ -266,12 +273,12 @@ wszystkich odpowiedzialności?”
 *wszystkiego, w  czym w  tym momencie uczestniczysz.*<br>
 *I  znów,*<br>
 *chodzi tu  o  ufność.*
+</div>
 
 „Ale skąd mam wiedzieć, co  jest rzeczywiście głosem Ducha, a  nie tylko
 bardziej subtelnym podszeptem ego?”
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Kiedy uwolnisz się od  wszelkiej myśli o  tym,*<br>
 *co  jest twym dobrem,*<br>
 *kiedy uwolnisz się od  wszelkiej myśli,*<br>
@@ -351,7 +358,6 @@ bardziej subtelnym podszeptem ego?”
 *Żyj tym, co  wiesz.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -389,8 +395,7 @@ więc mam się nią dzielić?
 6 czerwca 1988  r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Gdy odpoczywasz,*<br>
@@ -447,7 +452,6 @@ udawałem się na  pustynię.*
 *Pomyśl o  tym.*
 
 *Amen.*
-
 </div>
 
 Później tego dnia, gdy zmywam naczynia i  odkładam je  na  suszarkę,
@@ -613,8 +617,7 @@ Dawca Prawdy, Dawca  Prawdy…”.
 19 lipca 1988  r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Ukochani bracia,*<br>
@@ -714,7 +717,6 @@ Dawca Prawdy, Dawca  Prawdy…”.
 *Moi umiłowani bracia.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -723,8 +725,7 @@ Dawca Prawdy, Dawca  Prawdy…”.
 21 lipca 1988  r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Znów przychodzę do  ciebie,*<br>
@@ -775,7 +776,6 @@ Dawca Prawdy, Dawca  Prawdy…”.
 *albowiem zawsze jestem z  wami.*
 
 *Amen.*
-
 </div>
 
 „Znów przychodzę do  ciebie, albowiem znowu o  to  poprosiłeś”. Gdy
@@ -791,4 +791,3 @@ jego ważność, choć pozostaje to  poza jego rozumieniem.
 Podobnie jak Sherlock, odkładam tymczasem na  bok swój przycisk do
 papieru.
 
-&nbsp;

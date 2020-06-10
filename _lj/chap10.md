@@ -1,7 +1,7 @@
 ---
 title: "Rozdział dziesiąty"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział dziesiąty
 
@@ -24,7 +24,7 @@ Ogień płonie przede mną, a  Kendra siada na  kanapie, podając mi  kubek gor�
 
 –  Znasz mnie! Dzisiaj jest sobota i  nigdy nie jest za  wcześnie, by  cieszyć się wolnym dniem. A  poza tym nie wszyscy zażywają wolności, by  włóczyć się po  Hawajach!
 
-Nie odpowiadam. Patrzę jej po  prostu w  oczy. Pamiętam, jak myślałem dokładnie tak samo. Czy to  działo się jeszcze tak niedawno? Czy naprawdę wierzyłem, że nie jestem wolny, by  podążać za  głębią mego serca i  że „rzeczywistość” jest *gdzieś tam*, w  pracy, której nigdy naprawdę nie kochałem? Oczywiście,  że w  to  wierzyłem. W  tych wewnętrznych zawodach przeciągania liny jakaś część mnie wyraźnie ciągle wierzy, że ja  również powinienem „zejść na  ziemię”, tyle że ta  wyłaniająca się, większa część mnie – część, którą dopiero zaczynam poznawać – po  prostu już więcej się temu nie podda.
+Nie odpowiadam. Patrzę jej po  prostu w  oczy. Pamiętam, jak myślałem dokładnie tak samo. Czy to  działo się jeszcze tak niedawno? Czy naprawdę wierzyłem, że nie jestem wolny, by  podążać za  głębią mego serca i  że „rzeczywistość” jest *gdzieś tam*, w  pracy, której nigdy naprawdę nie kochałem? Oczywiście, że w  to  wierzyłem. W  tych wewnętrznych zawodach przeciągania liny jakaś część mnie wyraźnie ciągle wierzy, że ja  również powinienem „zejść na  ziemię”, tyle że ta  wyłaniająca się, większa część mnie – część, którą dopiero zaczynam poznawać – po  prostu już więcej się temu nie podda.
 
 Kendra wydaje się dokładnie wiedzieć, o  czym myślę.
 
@@ -38,7 +38,7 @@ Jej ręce spoczywają na  rękopisie, ale nagle zmienia i  nastrój, i  zdanie:
 
 –  Nigdy nie opowiedziałeś mi, co  się wydarzyło na  twej zimowej wycieczce w  góry.
 
-Naprawdę miałem nadzieję, że się o  to  nie zapyta. Od  tego wypadu minął już miesiąc, jednak jej pytanie łatwo ponownie przypomina wpływ, jaki ten dzień miał na  mnie. Zastanawiam się, czy kiedykolwiek przejdzie on z  teraźniejszości do  kategorii „historia”. Ręka drży mi  lekko, gdy odkładam naprędce opróżnioną filiżankę i  przysuwam się bliżej kominka. Są takie części tej wyprawy, którymi nie chcę się dzielić. Rzeczy, które mnie zaniepokoiły. Wybieram więc dobrze wydeptaną ścieżkę.
+Naprawdę miałem nadzieję, że się o  to  nie zapyta. Od  tego wypadu minął już miesiąc, jednak jej pytanie łatwo ponownie przypomina wpływ, jaki ten dzień miał na  mnie. Zastanawiam się, czy kiedykolwiek przejdzie on z  teraźniejszości do  kategorii „historia”. Ręka drży mi  lekko, gdy odkładam naprędce opróżnioną filiżankę i  przysuwam się bliżej kominka. Są takie części tej wyprawy, którymi nie chcę się dzielić. Rzeczy, które mnie zaniepokoiły. Wybieram więc dobrze wydeptaną ścieżkę.
 
 –  Najpierw dobra wiadomość! Odnalazłem drogę do  strumienia, zmiotłem śnieg z  dużej skały, usiadłem i  czekałem.
 
@@ -97,9 +97,9 @@ Właśnie wtedy poczułem, że złagodniała. Powiedziała mi, że nie zostało 
 
 –  &hellip;i  że w  rzeczywistości tutaj jest tylko jeden z  nas! Jedna istota, jedna dusza, która poddała się urokowi, utknęła we  śnie. Tutaj jest tylko jeden z  nas!
 
-–  Ale czyż to  nie jest coś, co  powiedział ci również Jeszua? „Nigdy nie spoglądasz na  drugiego, albowiem zawsze widzisz  siebie”?
+–  Ale czyż to  nie jest coś, co  powiedział ci również Jeszua? „Nigdy nie spoglądasz na  drugiego, albowiem zawsze widzisz siebie”?
 
-–  No tak! Ale to  nie ma  żadnego sensu! Kurczę, Kendra! A  te śmieci przyszłości! Nie podoba mi  się to! Przyprawia mnie to  o  dreszcze, tak samo, kiedy Jeszua pokazywał mi  podobne  rzeczy.
+–  No tak! Ale to  nie ma  żadnego sensu! Kurczę, Kendra! A  te śmieci przyszłości! Nie podoba mi  się to! Przyprawia mnie to  o  dreszcze, tak samo, kiedy Jeszua pokazywał mi  podobne rzeczy.
 
 –  Co?! Kiedy ci to  pokazywał? Ukrywasz coś przede mną?
 
@@ -156,4 +156,3 @@ Kiwam głową, wyrażając zgodę. Gdybym wówczas wiedział, co ma  to  wkrótc
 
 Spoglądamy na  siebie w  ciszy jeszcze przez chwilę, po  czym przytulamy się bardzo długo, a  następnie ruszam na  lotnisko.
 
-&nbsp;

@@ -1,7 +1,7 @@
 ---
 title: "Rozdział jedenasty"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead">
 ## Rozdział jedenasty
 
@@ -155,7 +155,7 @@ Rozglądam się wokół… Maui. Mieszkać tutaj, w  tym pięknie? Ja? W  głowi
 
 Nagle, gdy spoglądam na  gwiazdy, a  potem na  majaczącą w  mroku krzywiznę Haleakali, i  wdycham te zdumiewające słodkie zapachy, Matka Maui wydaje się coraz bardziej moim domem.
 
-> *Kogo tutaj nabieram, myślę sobie. Czułem się tutaj jak w  domu za  pierwszym razem, kiedy tu  przyjechałem w  1973 roku,  w  roku, w  którym zacząłem praktykę medytacji. Tu  spotkałem swego pierwszego mistrza Zen. Maui jest wygodną parą jeansów, które odkładam do  szafy i  o  których zapominam. Dlaczego tak postępuję? Dlaczego nie chciałem – lub nie byłem w  stanie – pozwolić sobie być tam, gdzie najbardziej pragnąłbym być?*
+> *Kogo tutaj nabieram, myślę sobie. Czułem się tutaj jak w  domu za  pierwszym razem, kiedy tu  przyjechałem w  1973 roku, w  roku, w  którym zacząłem praktykę medytacji. Tu  spotkałem swego pierwszego mistrza Zen. Maui jest wygodną parą jeansów, które odkładam do  szafy i  o  których zapominam. Dlaczego tak postępuję? Dlaczego nie chciałem – lub nie byłem w  stanie – pozwolić sobie być tam, gdzie najbardziej pragnąłbym być?*
 
 Ta  myśl mocno mnie uderza. Jest jak symbol dużo głębszych rzeczy. Co  mnie powstrzymywało przez te wszystkie lata, przez te wszystkie życia ujawniające się niczym fragmenty zapomnianego snu od  pojawienia się Jeszuy? Co  mnie powstrzymuje przed otwarciem się, by  naprawdę przyjąć serce i  duszę Prawdy, która jest tak oczywista w  Jego słowach? Muszę muszę się dowiedzieć, prawdziwie i w pełni dowiedzieć, o  co  w  tym wszystkim chodzi! Nie tylko dla siebie, ale dla wszystkich dusz. Co  powoduje, że świat kręci się właśnie w  taki sposób? Co  utrzymuje cierpienie w  jednym punkcie, niczym dźwięk na  pękniętej płycie?
 
@@ -210,8 +210,7 @@ Zapadnia otwiera się, a  dziwne uczucie się pogłębia. Czuję się, jakbym sp
 
 Jego głos mnie zaskakuje. Dochodzi do  mnie z  tyłu i  przysiągłbym, że czuję Jego obecność, czuję jak stoi za  mną. Lecz nie obracam się, by  to  sprawdzić.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Bardzo dobrze, Mój bracie.*<br>
 *Czekałem na  to  cierpliwie dłużej*<br>
 *niż jesteś teraz w  stanie sobie wyobrazić.*<br>
@@ -245,7 +244,6 @@ Jego głos mnie zaskakuje. Dochodzi do  mnie z  tyłu i  przysiągłbym, że czu
 *której pozwoliłeś się na  nowo rozpalić.*
 
 *Nic innego poza tym nie trzeba czynić.*
-
 </div>
 
 Niewidzialne pole energii wydaje się mnie uwalniać. Zakręcam wodę pod prysznicem i  wracam do  łóżka, gdzie leżę przez jakiś czas w  cichym osłupieniu.
@@ -278,4 +276,3 @@ Idę do  samolotu, który zabiera mnie z  tej wyspy, którą kocham,  i  wiezi
 „Wkroczyliście do  kraju Borgów. Mamy pełną kontrolę nad waszym statkiem. Opór jest daremny”.
 
 Kapitanie Kirk, chyba wiem, jak musiałeś się czuć. Do  widzenia Maui.
-&nbsp;
