@@ -20,8 +20,7 @@ przez ciemność nocy.*
 3 stycznia, 1988  r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Jeszcze chwila, a  będziesz tam, gdzie JAM JEST.<br>
@@ -93,7 +92,6 @@ Błogosławię ciebie<br>
 i  wszystko, o  czym śnisz.*
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -102,16 +100,13 @@ i  wszystko, o  czym śnisz.*
 22 stycznia 1988  r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Witaj, Marc.*
-
 </div>
 
 „Witaj, Jeszua. Kocham cię”.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *I  ja  ciebie też, umiłowany przyjacielu.*
 
 *Teraz zaczynamy.*
@@ -218,7 +213,6 @@ Nawet czas został wybrany.*
 *wy  jesteście.*<br>
 
 *Amen.*
-
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -227,8 +221,7 @@ Nawet czas został wybrany.*
 15 lutego 1988  r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Niech tak będzie.*<br>
@@ -286,7 +279,6 @@ Nawet czas został wybrany.*
 *jedynemu, jednorodzonemu Świętego Ojca.*
 
 *Amen.*
-
 </div>
 
 On mówi. Ja  piszę. Wszystko wydaje się znikać. Nie zważam na  fizyczne otoczenie, a  przygasające światło odchodzącego dnia niczemu nie przeszkadza, gdy pióro mknie po  liniach kartki papieru. Przekaz się kończy. Jeszua łagodnie się wycofuje, a  ja  wracam do  tego, co  nazywamy rzeczywistością – siedzę w  cichym mieszkaniu, słysząc głosy przechodzącej właśnie pod moim oknem rozmawiającej pary.

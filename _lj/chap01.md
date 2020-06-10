@@ -264,17 +264,21 @@ Idę z naszego obozowiska w stronę północnego krańca plaży. Mój wzrok tań
 
 Zaczyna we mnie wzbierać dziwne uczucie. To nie ból, z pewnością uczucie nie jest bolesne. Przypomina bardziej lekki szum, wibrację. Odczuwam je w centrum ciała, w pobliżu serca. Teraz porusza się ono, poszerza i wznosi, wypełniając mą głowę. Dziwne wydaje się równoczesne odczuwanie, jak i bierne obserwowanie tego dziwnego niewielkiego zjawiska.
 
-> *Witaj, Marc.*
+<div data-index="1" markdown="1" class="indent">
+Witaj, Marc.
+</div>
 
 Z tej wibracji wyłaniają się słowa, które są tak czyste i wyraźne, jak gdyby ktoś mówił mi je wprost do ucha. Wraz ze słowami wibracja wydaje się zmieniać i zaczynam czuć energię, ciepło, doznanie, jakiego do tej pory nie doświadczyłem. Jest wzniosłe i pełne spokoju nie do opisania.
 
 Słowa te mnie zaskakują, bowiem jest w nich niewątpliwe poczucie zażyłości, jak wtedy, gdy dzwoni do ciebie osoba, którą kochasz nade wszystko, i gdy odbierasz telefon, ona mówi po prostu „witaj”, a ty wiesz, kto to jest.
 
-> *Cieszę się, że dotarłeś do tego punktu,<br>
-> w którym jesteś gotowy pozwolić,<br>
-> aby doszło do tej komunikacji między nami.<br>
-> Bądź pewien, że będę z tobą rozmawiał częściej<br>
-> w przyszłości.*
+<div data-index="1" markdown="1" class="indent">
+Cieszę się, że dotarłeś do tego punktu,<br>
+w którym jesteś gotowy pozwolić,<br>
+aby doszło do tej komunikacji między nami.<br>
+Bądź pewien, że będę z tobą rozmawiał częściej<br>
+w przyszłości.
+</div>
 
 Nie potrafię utrzymać kontaktu. Energia zanika i znów słyszę odgłos spienionych fal uderzających w swym tańcu o skałę poniżej mnie. Słońce błyszczy i odbija się w wodach oceanu. Czuję na skórze silny powiew morskiej bryzy. Uświadamiam sobie, że do tego momentu nie miałem świadomości ani spienionych fal, ani bryzy, ani słońca.
 
@@ -332,13 +336,15 @@ Ostrość widzenia powoli się rozmywa. Oddycham spokojniej i rytmiczniej. Czuj�
 
 Teraz odbieram wrażenie ruchu i czuję, że ktoś prowadzi mnie w stronę czegoś, co jawi się jako drzwi. Otwierają się one i szybuję przez tunel wspaniałego, pulsującego światła. Gdy zbliżam się do jego końca, widzę tam jasne światło, które zaczyna przybierać formę mężczyzny w lśniących szatach. Jego twarz wydaje się teraz znajoma.
 
-<div markdown="1" class="indent">
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.<br>
 Marc, powoli otwórz oczy.<br>
 Pozwól jednak, by twa świadomość spoczywała przy Mnie.*
+</div>
 
-*Słowa te równocześnie słyszę i widzę, jak odcinają się na pustym tle. Jednak – co więcej – ja je czuję.*
+Słowa te równocześnie słyszę i widzę, jak odcinają się na pustym tle. Jednak – co więcej – ja je czuję.
 
+<div data-index="1" markdown="1" class="indent">
 *Jestem tym,<br>
 którego świat zna<br>
 jako Jezusa,<br>
@@ -421,7 +427,6 @@ przez całą wieczność.*
 *Spoczywaj w pokoju.*
 
 *Amen.*
-
  </div>
 
 Gdy jego energia powoli znika, stopniowo powracam do mej codziennej rzeczywistości. Powracam? A gdzie byłem? I kto tam się udał? Co to znaczy „przyjdź tutaj, gdzie JAM JEST”? Gdzie to jest? Skąd wyszedłem, nie używając siły mięśni? Z mego „snu”? Wzdrygam się, rozglądając się wkoło: zestaw stereo, kominek, poruszane wiatrem kwiaty na balkonie.
@@ -436,8 +441,7 @@ Skrycie zaczynam podejrzewać, że rozglądając się wokół siebie, nie zrozum
 15 sierpnia 1987 r.
 {: .omit}
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.<br>
 O jakąż Miłością darzę<br>
 synów Boga,<br>
@@ -475,7 +479,6 @@ nadal pozostaje do dokonania wybór.<br>
 Jaki będzie twój wybór?*
 
 *Amen.*
-
 </div>
 
 Kendra kładzie na stole spisane słowa Jeszuy, nie odrywając od nich oczu.

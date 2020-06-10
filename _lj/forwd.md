@@ -4,7 +4,6 @@ title: "Przedmowa Alana Cohena"
 
 <div markdown="1" class="chHead"> 
 ## Przedmowa Alana Cohena
-
 </div>
 
 Czy wierzysz, że mógłby do ciebie przemówić Bóg? Zadziwia mnie, że

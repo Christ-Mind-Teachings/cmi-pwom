@@ -61,6 +61,7 @@ I  właśnie wtedy Go słyszę. Nie, najpierw Go czuję. Bardzo mocno.
 
 Mocniej niż kiedykolwiek wcześniej.
 
+<div data-index="1" markdown="1" class="indent">
 > *Witaj, mój bracie.*<br>*Tak więc przechodzimy do  następnego kroku*<br>*w  odwiecznym Dziele, jakie wcześniej współdzieliliśmy.*<br>
 > *Znów Mi  zaufałeś.*<br>
 > *Nie opuszczę cię, dopóki wszystko nie zostanie dokonane.*
@@ -68,6 +69,7 @@ Mocniej niż kiedykolwiek wcześniej.
 > *Teraz*<br>
 > *proszę cię, byś otworzył Biblię.*<br>
 > *Zacznij proszę czytać księgę Jeremiasza.*
+</div>
 
 Dobrze Go usłyszałem? Biblię? Nawet nie wiem, gdzie jest ta  cholerna książka. Jeremiasz? Z  jakiegoś dziwnego powodu jedyne, co  mi  przychodzi na  myśl, to  ta  stara melodia: „Jeremiasz był ropuchą…”.
 
@@ -75,31 +77,39 @@ Wstaję z  maty i  wzrokiem przeszukuję półki. Setki książek o  filozofii, 
 
 Muszę skorzystać ze  spisu treści, żeby odnaleźć stronę Księgi Jeremiasza. W  miarę, gdy wertuję Biblię, ucisk żołądka wzrasta o  jeden stopień. A  w  zasadzie o  kilka. Dokładnie w  tej chwili On mówi do  mnie, a  Jego głos jest tak wyraźny, że mogę się odwrócić i  wyjrzeć przez okno, nie tracąc z  Nim kontaktu, podobnie jak rozmawia się z  przyjacielem, który mówi do  ciebie, podczas gdy ty  zajmujesz się innymi rzeczami. Jedyna różnica jest taka,  że nie potrafię się od  tego przyjaciela odciąć i  nie zwracać na  niego uwagi!
 
+<div data-index="1" markdown="1" class="indent">
 > *Teraz zacznij czytać.*
+</div>
 
 Zaczynam i  gdy dochodzę do  piątego wersetu, Jeszua mnie zatrzymuje.
 
+<div data-index="1" markdown="1" class="indent">
 > *Proszę czytaj na  głos, powoli.*<br>
 > *Tak, byś mógł naprawdę usłyszeć.*<br>
 > *Albowiem to  są teraz moje słowa dla ciebie.*
+</div>
 
 Na  głos. Powoli. W  porządku. Myślę, że to  jest jeden z  tych momentów, które z  pewnością miały nadejść, kiedy powiedziałem, że będę Mu ufał mimo wszystko.
 
+<div data-index="1" markdown="1" class="indent">
 > „Zanim ukształtowałem cię w  łonie matki, znałem cię,<br>
 > nim przyszedłeś na  świat, uświęciłem cię,<br>
 > prorokiem dla narodów ustanowiłem cię”.
+</div>
 
 Gdy zaczynam gwałtownie łapać powietrze i  czuję, że znajoma mi  nemezis uderza mnie mocno i  szybko w  brzuch, On znów mówi:
 
+<div data-index="1" markdown="1" class="indent">
 > *Teraz przeczytaj werset dziewiąty.*
+</div>
 
-> „I  wyciągnąwszy rękę, dotknął Pan moich ust i  rzekł mi: <br>
-> «Oto kładę Moje słowa w  twoje usta».”
+„I  wyciągnąwszy rękę, dotknął Pan moich ust i  rzekł mi: <br>
+«Oto kładę Moje słowa w  twoje usta».”
 
-<div markdown="1" class="indent">
 
 Mój umysł, oddech i  całe ciało zostają wtłoczone w  bezruch ciszy.
 
+<div data-index="1" markdown="1" class="indent">
 *Mój bracie,*<br>
 *wybrałem cię, ponieważ ty  wpierw Mnie wybrałeś,*<br>
 *dawno temu.*<br>
@@ -156,14 +166,18 @@ Palcem wskazującym dotykam czoła i  łagodnie pocieram nim w  dół aż do  na
 
 To  wszystko ustępuje i  jestem świadomy jedynie Jego, widząc nas w  nieskończonym polu purpurowo zabarwionego światła.
 
+<div data-index="1" markdown="1" class="indent">
 > *Wszystko jest przygotowane.*<br>
 > *I  teraz zaczniemy.*
+</div>
 
 Właśnie wtedy zauważam, że nie jesteśmy sami. Wydaje się, że jest z  nami cała grupa, duży krąg istot lśniących światłem. Wszystko to  zanurzone jest w  owym polu purpurowo zabarwionego światła. Mgliście widzę pokój oraz siedzących naprzeciw i  wpatrujących się we  mnie przyjaciół.
 
 Nie! Oni wpatrują się w  moje ciało i  ja  również! Tyle że ja  patrzę na  nie z  góry. Jeszua przemieszcza się do  miejsca tuż za  moim ciałem. Następnie wydaje się, że do  niego wnika. To  jest ostatnia rzecz, której jestem świadomy, dopóki to  wszystko się nie skończy.
 
+<div data-index="1" markdown="1" class="indent">
 > *Dziękuję, Mój bracie.*
+</div>
 
 Jego głos mnie zaskakuje. Nagle ponownie zaczynam być świadomy swego ciała. Jest to  dość niemiłe doświadczenie. Otwieram oczy, lecz potrzebuję kilku chwil zanim wszystko na  powrót przybierze kształty rzeczy, ludzi, doniczek, krzeseł, ścian. Ale coś stało się z  ludźmi. Twarze wpatrują się we  mnie, mają szeroko otwarte oczy. Niektórzy siedzą z  otwartymi ustami, wszyscy w  bezruchu. Wyglądają na  zszokowanych.
 
@@ -210,7 +224,9 @@ Otwieram list.
 
 Teraz moje łzy zaczęły łagodnie płynąć. Jestem sam, ale w  ogóle nie czuję się samotny. Nagle to  dociera do  mnie z  ogromną siłą. Znak! Nagle przypominają mi  się Jego słowa do  mnie:
 
+<div data-index="1" markdown="1" class="indent">
 > *Wkrótce otrzymasz wyraźny znak dotyczący Dzieła, w  jakim uczestniczysz, Dzieła pojednania Syna. Kiedy jednoznacznie wybierzesz aktywne uczestnictwo w  tym Dziele, wszystko, czego będzie potrzeba, zostanie dostarczone.*
+</div>
 
 Chyba jednak nie żartował. Po  raz pierwszy tego wieczoru patrzę na  zegarek. Jest po  północy. Minęło ponad pięć godzin! W  końcu wstaję ostrożnie, lecz wibracja nie ustępuje.
 
@@ -226,8 +242,7 @@ Nastanie świt, zanim to  ciało w  końcu zaśnie. I, co  dziwne, to, co  ze  s
 
 Oto wszystko zostało uczynione nowym.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz*<br>
 *wykonało się.*<br>
 *Wybór*<br>
@@ -266,5 +281,4 @@ Oto wszystko zostało uczynione nowym.
 *witaj w  domu.*
 
 *Amen.*
-
 </div>

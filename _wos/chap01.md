@@ -2,7 +2,7 @@
 title: "Księga Pierwsza"
 ---
 
-<div markdown="1" align="center">
+<div markdown="1" class="chHead">
 
 ## *Księga Pierwsza*
 
@@ -654,8 +654,9 @@ jego ostateczną i całkowitą<br>
 ![znaczek]({{page.little-separator}})
 {: .omit}
 
-> *Tak ostatni będą pierwszymi,* <br>
-> *a pierwsi ostatnimi.*
+*Tak ostatni będą pierwszymi,*<br>
+*a pierwsi ostatnimi.*
+{: .center}
 
 I teraz<br>
 śniący odchodzi na spoczynek.<br>

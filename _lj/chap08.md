@@ -56,7 +56,9 @@ Wydaje się to  tak jasne, tak proste! A  jednak ślad czegoś we  mnie ciągle 
 ![znaczek]({{page.little-separator}})
 {: .omit}
 
+<div data-index="1" markdown="1" class="indent">
 > *Marc, proszę wstań i  pisz*.
+</div>
 
 Jego głos mnie zaskakuje, otwieram nagle oczy.
 
@@ -64,11 +66,15 @@ Jego głos mnie zaskakuje, otwieram nagle oczy.
 
 „Nie możemy się tym zająć rano?” – pytam mego niewidzialnego gościa, po  czym śmieję się cicho z  nonszalancji, z  jaką toczy się ta  rozmowa.
 
+<div data-index="1" markdown="1" class="indent">
 > *Możemy.*
+</div>
 
 Boże, tak bardzo kocham to  uczucie Jego obecności i  myślę sobie, jak miło byłoby zwinąć się w  kłębek na  Jego „kolanach” i  spać wiecznie.
 
+<div data-index="1" markdown="1" class="indent">
 > *Zostaniesz obudzony o  3:00 nad ranem i  będziemy kontynuowali.*
+</div>
 
 O  trzeciej! Myślałem bardziej o  czasie gdzieś koło dziewiątej albo nawet później. Czuję, jak Jego energia się wycofuje i  szybko zapadam z  powrotem w  sen.
 
@@ -78,8 +84,7 @@ Naglę otwieram szeroko oczy. Patrząc kątem oka widzę wyraźnie zegar. Jest 3
 
 Zdegustowany odrzucam kołdrę i  chwytam szlafrok. Idąc do  toalety, podnoszę wzrok do  góry i  mamroczę pod nosem: „Rany, chłopaki, nic was nie powstrzyma, co?”.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Przegrywasz tę bitwę, Marc.*<br>
@@ -259,7 +264,6 @@ Zdegustowany odrzucam kołdrę i  chwytam szlafrok. Idąc do  toalety, podnoszę
 *Czy rzeczywiście*<br>
 *może być*<br>
 *inny wybór od  tego?*
-
 </div>
 
 Zatrzymuję się na  chwilę. Energia Jeszuy nagle ustąpiła i  jestem sam, wpatrując się w  migoczące światła na  czarnych i  spokojnych wodach przystani. Czuję w  sobie bardzo delikatne odczucie, rodzaj jakiegoś pulsowania. Poddając swój opór, oddycham głęboko i  powoli, pozwalając, by  brzuch, żebra i  klatka piersiowa rozszerzały się i  uwalniały bez napięcia.
@@ -278,8 +282,7 @@ Albowiem w  tym momencie wieczności Sen odszedł.
 
 Jutro zacznę pisać.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz*<br>
 *wykonało się.*<br>
 *Wybór*<br>
@@ -316,5 +319,4 @@ Jutro zacznę pisać.
 *witaj w  domu.*
 
 *Amen.*
-
 </div>

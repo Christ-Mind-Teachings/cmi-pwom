@@ -15,7 +15,7 @@ title: "Rozdział trzeci"
 2 listopada 1987 r.
 {: .omit}
 
-<div markdown="1" class="indent">
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Umiłowany bracie,<br>bo naprawdę tym właśnie jesteś,<br>przyszedłem, bo o to prosiłeś.<br>W trakcie naszego spotkania w tej chwili<br>będę się z tobą dzielił<br>tym, co ujawni ci<br>harmonię Królestwa.*
@@ -325,13 +325,13 @@ Błogosław ją, błogosław ją całą.*
 13 listopada 1987  r.
 {: .omit}
 
-
+<div data-index="1" markdown="1" class="indent">
 >Witaj, Marc
+</div>
 
 „Witaj, Jeszua".
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Czyż to  nie pocieszenia<br>
@@ -573,7 +573,6 @@ albowiem jesteś Synem Ojca<br>
 i  jesteś miłowany nade wszystko.*
 
 *Amen.*
-
 </div>
 
 21 listopada 1987  r.
@@ -600,9 +599,11 @@ Kucam, a  mój wzrok pada na  pokryty śniegiem mały, delikatny kwiatek. Bardzo
 
 Nadchodzi uczucie. Wzbiera ono z  wewnętrznej głębi, by  następnie zostać przemienionym w  słowa wypowiadane nie do  ludzkiego ucha, które zbyt często nie słyszy, lecz do  Życia, które już zna prawdę tego, co  jest wypowiadane:
 
+<div data-index="1" markdown="1" class="indent">
 > *Jesteśmy jedynie Jednym.<br>
 > Pokój mój wam daję.<br>
 > Nie tak, jak daje świat, Ja  wam daję.*
+</div>
 
 Radość zaczyna promienieć niczym strumienie energii. Wylewa się czubkami palców i  płynie przez stopy do  ziemi. Wstaję, wznoszę wzrok ku  niebu i  krzyczę: „Ja  i  Mój Ojciec Jedno  *jesteśmy!*”.
 Kręcę się i  wiruję, i  śmieję się głośno. Obejmuję drzewa i  mech, i  kwiat, i  otwieram usta, łapiąc padający śnieg. Dotykam świętej intymności.
@@ -682,20 +683,23 @@ Prawie w  ogóle nie oglądam mieszkania. Nawet nie wchodzę do  sypialni czy ł
 
 Jest trzecia nad ranem, a  dokładnie 3:22. Jestem, a  raczej byłem, pogrążony w  głębokim śnie. Gdy zaczynam przewracać się niespokojnie z  boku na  bok, ze  snu wybudza mnie łagodny głos, który tym razem niesie ze  sobą ślad uporczywości.
 
+<div data-index="1" markdown="1" class="indent">
 > *Marc, wstań i  pisz.*
+</div>
 
 „Cholera” – to  teraz moja jedyna myśl. Jest 3:30 nad ranem. Nikt nie wstaje o  tej porze dlatego, że sugeruje mu to  jakiś głos.
 
+<div data-index="1" markdown="1" class="indent">
 > *Marc, wstań i  pisz.<br>
 > To  najlepsza godzina na<br>
 > łatwą i  płynną komunikację.*
+</div>
 
 Dobrze już, dobrze. Choć niechętnie, i  tak już się przebudziłem.
 
 „No cóż…” – myślę sobie, gdy siedzę z  długopisem w  dłoni. „Jeśli tak ma  to  dalej wyglądać, będę musiał pamiętać, żeby wykręcać się brakiem okularów. Następnym razem”.
 
-<div markdown="1" class="indent">
-
+<div data-index="1" markdown="1" class="indent">
 *Teraz zaczynamy.*
 
 *Nie myśl, że możesz kierować przepływem swego życia<br>
@@ -857,5 +861,4 @@ na  objawienie się rozpoznania.*
 *Daję ci Moje błogosławieństwo.*
 
 *Amen.*
-
 </div>

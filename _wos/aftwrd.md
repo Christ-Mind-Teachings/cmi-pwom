@@ -2,7 +2,7 @@
 title: "Posłowie"
 ---
 
-<div markdown="1" align="center">
+<div markdown="1" class="chHead">
 ## *Posłowie* 
 </div>
 

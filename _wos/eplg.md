@@ -2,10 +2,8 @@
 title: "Epilog"
 ---
 
-<div markdown="1" align="center">
-
+<div markdown="1" class="chHead">
 ## *Epilog*
-
 </div>
 
 **MIŁOŚĆ**. Miłość *naprawdę* płynie z każdym oddechem, jaki bierzemy, i z moich doświadczeń z Jeszuą nauczyłem się, że Miłość *rzeczywiście* pragnie być słyszana w każdym wypowiedzianym słowie. Jeszua jest w tym mistrzem, lecz jego mistrzostwo nie stawia Go ponad nami. Będzie czekał cierpliwie, wedle naszego postrzegania trochę nas wyprzedzając, aż w końcu rozpoznamy, że czeka na nas i zawsze na nas czekał nasz wybór Miłości. Jest to wybór, przy którym wszystkie inne opcje znikają. Wybór, który w ostatecznym rozrachunku rzeczywiście objawia się naszym przebudzonym umysłom jako *wybór bez alternatyw*. Czy istniał kiedykolwiek jakiś inny realny wybór?

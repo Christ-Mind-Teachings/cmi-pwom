@@ -2,12 +2,9 @@
 title: "Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center">
-
+<div markdown="1" class="chHead">
 # Mistrzostwo komunikacji
-
 ## Pytania i odpowiedzi
-
 </div>
 
 ## Pytanie 1

@@ -2,7 +2,7 @@
 title: "Księga druga"
 ---
 
-<div markdown="1" align="center">
+<div markdown="1" class="chHead">
 
 ## *Księga druga*
 

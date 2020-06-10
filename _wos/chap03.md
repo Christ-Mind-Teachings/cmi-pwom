@@ -2,7 +2,7 @@
 title: "Księga trzecia"
 ---
 
-<div markdown="1" align="center">
+<div markdown="1" class="chHead">
 ## *Księga trzecia*
 
 ![znaczek]({{page.big-separator}})
