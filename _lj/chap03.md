@@ -643,7 +643,7 @@ Czuję jednak poddenerwowanie. A  co, jeśli tego mieszkania nie ma?
 
 Kendra przynosi mi  gazetę i  zajmuje się czymś w  kuchni, gdy ja  zakreślam ogłoszenia i  zaczynam dzwonić po  tych mieszkaniach, których opis jest choć trochę atrakcyjny. Parę telefonów później zaczyna dawać o  sobie znać przygnębienie, albo przynajmniej moje stare, znajome zwątpienie. Przeszukałem gazetę kilka razy, dość systematycznie. Słowa, które usłyszałem, po  prostu się nie sprawdzają.
 
-W  końcu widzę ogłoszenie. Mieszkanie jest blisko wyjątkowego sąsiedztwa, w  jakim kiedyś mieszkałem. Czynsz jest dużo wyższy niż mogę sobie na  to  pozwolić. Myślę, że pojadę je   obejrzeć.
+W  końcu widzę ogłoszenie. Mieszkanie jest blisko wyjątkowego sąsiedztwa, w  jakim kiedyś mieszkałem. Czynsz jest dużo wyższy niż mogę sobie na  to  pozwolić. Myślę, że pojadę je  obejrzeć.
 
 Godzinę później wracam, trochę przygnębiony. To  zdecydowanie nie było odpowiednie miejsce. Nagle powstrzymuję się od  dalszego narzekania. Nie, nie zamierzam wzruszyć ramionami, skonkludować, że mam bujną wyobraźnię i  zapomnieć o  wszystkim. To  się wydarzyło. Słyszałem ten głos bardzo wyraźnie.
 

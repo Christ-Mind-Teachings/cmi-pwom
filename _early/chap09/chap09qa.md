@@ -2,11 +2,8 @@
 title: "Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center">
-
-
+<div markdown="1" class="chHead">
 # Śmierć i zmiany na Ziemi
-
 ## Pytania i odpowiedzi
 
 </div>
@@ -15,7 +12,7 @@ title: "Pytania i odpowiedzi"
 
 Tego wieczoru chcemy odnieść się konkretnie do pewnych pytań, które powstały, gdyż ich celem jest pomóc w szerzeniu i rozjaśnieniu prostego przesłania na temat tych ram czasowych, na temat pewnych zmian, na temat pewnych rzeczy, które teraz dzieją się na tej planecie, w tym zmian zachodzących na poziomie waszych rządów, w miarę jak ów Armageddon gotuje się do osiągnięcia punktu kulminacyjnego, kiedy to wszystkim duszom zada się pytanie:
 
-> *Czy masz zamiar przyłączyć się do tańca, czy też będziesz musiał opuścić to sąsiedztwo?*
+> Czy masz zamiar przyłączyć się do tańca, czy też będziesz musiał opuścić to sąsiedztwo?
 
 To nie jest osąd, a propozycja skierowana jest do każdej duszy. Używaj czasu konstruktywnie, możesz uzdrowić swoje serce, możesz praktykować przebaczenie, możesz przebudzić się jako Chrystus. Będziesz musiał to uczynić, ponieważ planeta czyni dokładnie to samo -- i jeśli za nią nie podążysz, nie będziesz w stanie poradzić sobie z jej światłem i częstotliwością, i będziesz musiał przenieść się do innego sąsiedztwa. To wszystko. Bez osądu, bez lęku, bez żadnego śmiertelnego ciosu od Boga -- to zwyczajna, prosta prośba. Możesz przebudzić się teraz, albo gdzieś indziej, później. Już dużo za wiele było tych „poźniej".
 
@@ -37,13 +34,13 @@ Umiłowany przyjacielu, słyszałeś, jak powiedziano, że gdy słyszysz o wojna
 
 Ta wibracja jest niczym wrzucony do stawu kamyk, który zaczyna wzbudzać fale. To dzieje się już od jakiegoś czasu i zaczyna przyspieszać, zaczyna wibrować ciut mocniej, jak woda, która zaczyna wrzeć. Czujesz, że to się dzieje, choć jeszcze nie widzisz unoszących się bąbelków. *Wiesz*, że w energii wody coś się zmienia. I gdy to się dzieje, to dosłownie faluje to we wnętrzu każdej duszy. Dlaczego? Ponieważ oddzielenie nie istnieje. I jeśli Bóg sobie myśli:
 
-> *No dobra, czas dać dziecku małego szturchańca. Pozwoliłem, by spało zbyt długo. Zobaczmy, czy usłyszy mój głos przez sen...*
+> No dobra, czas dać dziecku małego szturchańca. Pozwoliłem, by spało zbyt długo. Zobaczmy, czy usłyszy mój głos przez sen&hellip;
 
 to ta fala musi przejść przez każdą stworzoną duszę. A gdy to się dzieje, porusza to wszystkie stare lęki, wszystkie stare wzorce, wszystkie stare nawyki i duszy zadaje się pytanie:
 
-> *Czy jesteś gotowa na oczyszczenie?*
+> Czy jesteś gotowa na oczyszczenie?
 
--- co oznacza po prostu dokonanie innego wyboru. Nie chodzi tu o... nie jest tu wymagane leżenie na łożu z gwoździ. To proste rozpoznanie, że pojawia się coś, co już dłużej nie jest odczuwane jako tak komfortowe, jakim było niegdyś. Czy jesteś chętny, by to puścić i przyzwolić na krótki okres dezorientacji, póki rzeczywistość się w tobie nie ugruntuje? Póki to, co myślałeś, że nigdy nie mogłoby się wydarzyć, nie stanie się twoją normą, a ty będziesz kroczył po świecie jako przebudzony.
+-- co oznacza po prostu dokonanie innego wyboru. Nie chodzi tu o&hellip; nie jest tu wymagane leżenie na łożu z gwoździ. To proste rozpoznanie, że pojawia się coś, co już dłużej nie jest odczuwane jako tak komfortowe, jakim było niegdyś. Czy jesteś chętny, by to puścić i przyzwolić na krótki okres dezorientacji, póki rzeczywistość się w tobie nie ugruntuje? Póki to, co myślałeś, że nigdy nie mogłoby się wydarzyć, nie stanie się twoją normą, a ty będziesz kroczył po świecie jako przebudzony.
 
 Lęki wielu ludzi ulegają nasileniu. Dlaczego? Ponieważ są oni oddani lękowi. Wierzą w lęk, to lęk zapewnia im poczucie bezpieczeństwa. Wiem, że brzmi to dziwnie, ale to bardzo prawdziwe. Tak długo, jak mogę spoglądać na bliźniego i widzieć go jako kogoś złego, wiem, kogo trzeba atakować. I wszystko, co mi pozostaje, to wykombinować, jak zaatakować ciebie zanim ty zaatakujesz mnie. To bardzo proste. I jeśli wygram, zabieram wszystkie kulki. Ale w ataku nikt *nie może* być wygranym. Gdy bowiem atakujący atakuje, *jest* on atakowany przez ciężar negatywności swego własnego lęku.
 
@@ -67,7 +64,7 @@ Tak, to się wydarzy i niewłaściwe oraz nieprecyzyjne byłoby zakładanie, że
 
 Umiłowany przyjacielu, tak, Shanti Christo jest wyrazem wibracji myśli, niczym kamyk wrzucony do stawu, stworzony, by przejawić konkretne wibracyjne wzorce czy też fale. Zostanie on przez nas użyty, by przyciągnąć wiele umysłów i wiele istot, by wkroczyły poprzez portal w przebudzoną świadomość. Tworzonych jest wiele portali. A dlaczego potrzeba wielu portali? Ponieważ istnieje wiele poziomów świadomości i wiele form doświadczenia, które stworzyliście wy wszyscy, każdy na tej planecie. Ja nie jestem nauczycielem dla wszystkich, mimo iż stoję na czele Pojednania. Tak więc wyobraź sobie, że po prostu siedzę sobie za małym, niedużym biurkiem gdzieś na łące i odbieram to, co nazywacie bezprzewodowym telefonem. W tym wypadku nie jest to nawet niefizyczny telefon. Dzwonię więc do innego nauczyciela, innej istoty i mówię:
 
-> *Wiesz, ten gość miał z tobą bardzo dobre połączenie cztery tysiące lat temu w Egipcie. Może byś do niego wpadł i uciął z nim sobie krótką pogawędkę?*
+> Wiesz, ten gość miał z tobą bardzo dobre połączenie cztery tysiące lat temu w Egipcie. Może byś do niego wpadł i uciął z nim sobie krótką pogawędkę?
 
 Tak więc realizuje się tu pewien plan. Może się wydawać, że istnieje wiele form uniwersalnego programu nauczania, wielu nauczycieli, wiele metodologii. Jednak one wszystkie są jedynie portalami, poprzez które dusza decyduje się kroczyć, by przejść z lęku do miłości, z niepoczytalności do poczytalności, ze snów do rzeczywistości. Zatem Shanti Christo jest jednym z takich portali, poprzez które mogę konkretnie aktywować wezwanie i stworzyć miejsce zgromadzenia lub też -- jeśli wolisz -- częstotliwość zgromadzenia, poprzez które mogę wezwać do siebie tych, którzy -- biorąc pod uwagę to, z czym w przeszłości rezonowali, swe przeszłe doświadczenia -- doświadczyli miłości i zaufania do mnie jako kogoś, kto może przeprowadzić ich przez ów most.
 
@@ -97,7 +94,7 @@ Czy to jest pomocne w tej kwestii?
 
 -- Bardzo.
 
-Przy okazji, nalegam, byście nigdy nie słuchali tego gościa Germaina. A Michał jest czasami trochę... Oczywiście tylko żartuję.
+Przy okazji, nalegam, byście nigdy nie słuchali tego gościa Germaina. A Michał jest czasami trochę&hellip; Oczywiście tylko żartuję.
 
 Jeden z uczestników: -- A Maria robi zakupy w Biedronce!
 
@@ -107,9 +104,9 @@ Zatem nie szukaj śmierci swego „ja", ale szukaj zmartwychwstałego Ja. To pow
 
 -- Czy podsumowałbyś ten wieczór?
 
-Był on... wartościowy. Umiłowany przyjacielu, jak dobrze wiesz, ponieważ do umysłu wrzucono ową myśl, to zgromadzenie podczas tego wieczoru zostało zaprojektowane, by wywołać konkretne korekty, które popłyną do wielu umysłów -- do o wiele większej liczby umysłów niż jesteś tego świadomy. Dla tych z was, którzy to przyjmą, będzie to niczym uderzenie, uderzenie w strunę.
+Był on&hellip; wartościowy. Umiłowany przyjacielu, jak dobrze wiesz, ponieważ do umysłu wrzucono ową myśl, to zgromadzenie podczas tego wieczoru zostało zaprojektowane, by wywołać konkretne korekty, które popłyną do wielu umysłów -- do o wiele większej liczby umysłów niż jesteś tego świadomy. Dla tych z was, którzy to przyjmą, będzie to niczym uderzenie, uderzenie w strunę.
 
-> *Ach tak, pewnie! Dzięki za szturchnięcie. Muszę się do tego zabrać. Muszę się za to zabrać. Zaczynałem już wierzyć, że mógłbym po prostu się rozpuścić i nie musieć rodzić Chrystusa.*
+> Ach tak, pewnie! Dzięki za szturchnięcie. Muszę się do tego zabrać. Muszę się za to zabrać. Zaczynałem już wierzyć, że mógłbym po prostu się rozpuścić i nie musieć rodzić Chrystusa.
 
 A potem dadzą to oni wielu innym.
 
@@ -121,7 +118,7 @@ Zatem zaprawdę, umiłowani przyjaciele, *przyzwólcie*, by to, co dobre, świę
 
 Zatem często przebywajcie ze sobą i pamiętajcie zawsze, że jesteście Światłem tego świata. Czemu by się tym wreszcie nie zająć? To powiedziawszy, pokój niech będzie z wami zawsze, płynąc z serca tego, kto was kocha i kto sięgnął poprzez przestrzeń i czas, by cię dotknąć i szepnąć do ciebie:
 
-> *Umiłowany przyjacielu, przyjdź i weź moją dłoń. My już jesteśmy na moście. Po prostu krocz lekko. Chodź ze mną. Znam drogę.*
+> Umiłowany przyjacielu, przyjdź i weź moją dłoń. My już jesteśmy na moście. Po prostu krocz lekko. Chodź ze mną. Znam drogę.
 
 Od tego jednego -- kto jest mną i mówi w imieniu wielu, którzy gromadzą się ze mną za każdym razem, gdy jest do wykonania konkretne zadanie -- kocham cię i my cię kochamy. Niemożliwe jest, byś podróżował sam. A jeśli chodzi o to, o co jesteś proszony w głębi swej wizji i serca, bądź pewien, że nie byłbyś o to poproszony, gdyby nie dano ci mocy i wsparcia, by tego dokonać. Nigdy nie myśl, że musisz być sprawcą i wykonawcą. Musisz jedynie -- jak każdy z nas -- być sługą Umysłu Stwórcy, który jest jedynie Miłością i któremu służymy w doskonałej wolności, radości i spełnieniu.
 
@@ -137,11 +134,11 @@ Tak jak ty wiele razy szedłeś ulicą i nawet nie zauważałeś mijającego ci�
 
 ## Pytanie 7
 
-***Pytanie*:** Z tego, co mówisz, nie ma ustanowionej sekwencji, która wydarza się w chwili zwanej śmiercią. Wielu ludzi opowiada o przechodzeniu przez tunel i o tym, że spotyka tam ciebie, i...
+***Pytanie*:** Z tego, co mówisz, nie ma ustanowionej sekwencji, która wydarza się w chwili zwanej śmiercią. Wielu ludzi opowiada o przechodzeniu przez tunel i o tym, że spotyka tam ciebie, i&hellip;
 
 **Odpowiedź:** Doświadczenie tunelu, które określa się w twojej kulturze jako doświadczenie z pogranicza śmierci, jest bardzo, bardzo podstawowym stadium procesu umierania. Przede wszystkim wiąże się ono z wycofaniem energii z rdzenia mózgu -- z rdzenia mózgu do łodygi ciała lub inaczej mówiąc ku kręgosłupowi. Wytwarza to *wrażenie* tunelu, w którym następuje wycofanie ze zmysłów ciała do tego, co jawi się jako tunel. A jest on portalem i bramą. I tak -- ja pojawiam się wielu osobom, tak jak i inni. Ale system przekonań nadal tu funkcjonuje. To jest jedynie jedno z pierwszych stadiów procesu śmierci.
 
-Gdy postępuje ona i gdy pień mózgu dosłownie obumiera -- co oznacza po prostu to, że siła życiowa zostaje z niego wycofana i nie powraca tam, a więc zostaje on porzucony jak stary bagaż -- wtedy dusza, świadomość doświadcza wibracyjnego skoku, który mógłbyś określić jako kwantowy skok w stany wibracyjne, w coraz to subtelniejsze stany swego istnienia. Ale istnieje czas, w którym ma miejsce odegranie ostatków skutków wszystkich postrzeżeń i przekonań. Nazywa się go... w pewnym momencie bardzo szybko odgrywa się historię życia. Myśli lękowe na temat szatana lub też wiara w Zbawiciela stają się energią, która przyciąga do tej istoty dane doświadczenie.
+Gdy postępuje ona i gdy pień mózgu dosłownie obumiera -- co oznacza po prostu to, że siła życiowa zostaje z niego wycofana i nie powraca tam, a więc zostaje on porzucony jak stary bagaż -- wtedy dusza, świadomość doświadcza wibracyjnego skoku, który mógłbyś określić jako kwantowy skok w stany wibracyjne, w coraz to subtelniejsze stany swego istnienia. Ale istnieje czas, w którym ma miejsce odegranie ostatków skutków wszystkich postrzeżeń i przekonań. Nazywa się go&hellip; w pewnym momencie bardzo szybko odgrywa się historię życia. Myśli lękowe na temat szatana lub też wiara w Zbawiciela stają się energią, która przyciąga do tej istoty dane doświadczenie.
 
 Tak więc generalnie coś wydarza się na poziomie energetycznym. Ale to, co wydarza się w tej energii, jest *całkowicie wyjątkowe* dla każdego. A to, co się liczy, to: Jeśli czas został użyty konstruktywnie -- czyli jeśli użyłeś czasu po to, by porzucić ograniczające przekonania i zacząć wspierać najpierw wiarę, a następnie bezpośrednie doświadczenie łączenia się z innymi wymiarami, by przypomnieć sobie Umysł Boga, jeśli ćwiczyłeś przebaczenie i uzdrowienie -- wtedy w chwili śmierci twój umysł nie chwyci się lęku.
 
@@ -177,23 +174,23 @@ Nie ma niczego bardziej łagodnego niż Miłość. Nie ma niczego, co byłoby ba
 
 ***Odpowiedź*:** Umiłowany przyjacielu, ono już się zmaterializowało. I na twoim trójwymiarowym planie czasu jesteś świadkiem procesu, za pomocą którego ta materializacja się zadziewa. W rzeczywistości to już się dokonało, ponieważ Bóg nie myśli myśli, które objawiałyby się jako niespełnione. Ty po prostu podłączasz się do tego, co już się wydarzyło. Wiem, że to dość duży krok, ale to jest w porządku, pozwól sobie na to. Po prostu pozwalasz sobie uczestniczyć w tym, czego już dokonałeś. Usłysz bowiem: w rzeczywistości sen i proces budzenia nigdy się nie wydarzył. Albowiem to, co nie ma skutków, nigdy się nie wydarzyło. Sen, przebudzenie ze snu już się dokonało. Mógłbyś powiedzieć, że oglądasz film. Film puszczany o godzinie 11. Czy możesz wyobrazić sobie prezentera wiadomości, który mówi:
 
-> *Całe stworzenie dziś się przebudziło i powróciło do Świętego Umysłu Boga. Oto zapowiedź filmu, który puścimy o 11.*
+> Całe stworzenie dziś się przebudziło i powróciło do Świętego Umysłu Boga. Oto zapowiedź filmu, który puścimy o 11.
 
 A to, czego doświadczasz, to oglądanie tego filmu. To zupełnie, jakbyś był w hologramie. Tak, a kiedy przejawią się konkretne fragmenty, w których pojawisz się ty? Kiedy *chciałbyś*, by się one przejawiły?
 
 -- Jutro.
 
-Bardzo dobrze. Po prostu obudź się jutro i wiedz: to się już dokonało. Nie pozwól, by w twym umyśle pojawiły się wątpliwości i po prostu przyzwól, by Pocieszyciel, Duch Święty odsłonił dla ciebie to, co się dokonało. Wyobraź sobie... nadzorcę na budowie, budującego piękny budynek. Podchodzisz do niego i pytasz:
+Bardzo dobrze. Po prostu obudź się jutro i wiedz: to się już dokonało. Nie pozwól, by w twym umyśle pojawiły się wątpliwości i po prostu przyzwól, by Pocieszyciel, Duch Święty odsłonił dla ciebie to, co się dokonało. Wyobraź sobie&hellip; nadzorcę na budowie, budującego piękny budynek. Podchodzisz do niego i pytasz:
 
-> *Jak do tego doszło?*
+> Jak do tego doszło?
 
 A on otacza cię ramieniem i mówi:
 
-> *Najpierw pokażę ci fundamenty, następnie projekt architektoniczny...*
+> Najpierw pokażę ci fundamenty, następnie projekt architektoniczny&hellip;
 
 Jednak przez cały ten czas ty jesteś w owym budynku, podczas gdy twój umysł łączy się z dniem, w którym po raz pierwszy przywieziono beton, by wylać fundamenty, potem postawiono metalowe dźwigary, następnie zaś dekorator wnętrz dokonywał ostatnich poprawek. Widzisz to wszystko, gdy nadzorca opisuje ci proces tworzenia budynku, w którym mieszkasz. Budowle na tej Ziemi już tu są. Ty po prostu jeszcze ich nie widzisz. Ale one są tu osadzane i ujrzysz je. A kiedy je ujrzysz, będziesz wiedział, tak jak będą to wiedziały setki innych istot:
 
-> *Widziałem je już wcześniej.*
+> Widziałem je już wcześniej.
 
 Nie w innym miejscu i czasie, ale dlatego, że już doświadczyłeś ich ukończenia. Czy to ma sens?
 

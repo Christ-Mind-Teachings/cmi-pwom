@@ -8,7 +8,7 @@ title: "Rozdział dziewiąty"
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-*W  Królestwie nie ma  wysiłku.*
+W  Królestwie nie ma  wysiłku.
 {: .omit}
 
 </div>
@@ -29,8 +29,8 @@ Nie ma  dla tego żadnego racjonalnego wytłumaczenia, jedynie głębokie wewnę
 Niektóre rzeczy, które powiedział ostatnio, ciągle mnie wewnętrznie poruszają:
 
 <div data-index="1" markdown="1" class="indent">
-> *Wybierz więc tylko uwolnienie się od  twego bezużytecznego snu<br> i  naródź się ponownie w  doświadczeniu Królestwa. <br>
-> Wybór ten rodzi proces rozpoznania, które szybko <br>przywraca pamięć o  prawowitym miejscu Syna.*
+ Wybierz więc tylko uwolnienie się od  twego bezużytecznego snu<br> i  naródź się ponownie w  doświadczeniu Królestwa. <br>
+ Wybór ten rodzi proces rozpoznania, które szybko <br>przywraca pamięć o  prawowitym miejscu Syna.
 </div>
 
 To  dyskredytuje to, co, jak teraz widzę, stanowiło całą siłę napędową mojej „ścieżki duchowej” od  1973 roku, kiedy to  rozpocząłem praktykę medytacji i  jogi wraz ze  studiami nad psychologią i  religiami świata. Teraz z  niezwykłą jasnością widzę, że wszystko to  opierało się na  moim „ja”, starającym się coś osiągnąć, pozyskać wiedzę i  – co  pokornie przyznaję – kontrolę nad własnym życiem. Teraz w  tym nowym świetle to  wszystko jawi się jako zwyczajny sen, sen oparty na  fałszywej przesłance: spojrzałem wrogowi w  twarz i  zobaczyłem, że to  tylko „ja”, które nie jest niczym więcej niż nawykiem pielęgnowanym od  momentu dokonania wyboru, by  istnieć we  Śnie Oddzielenia!
@@ -56,7 +56,7 @@ Miłość. Słodka, słodka miłość! Myślałem, że coś o  niej wiem, ale te
 A  jak rozumieć to  tajemnicze stwierdzenie:
 
 <div data-index="1" markdown="1" class="indent">
-> *Wkrótce otrzymasz wyraźny znak dotyczący Dzieła, w  jakim uczestniczysz, Dzieła pojednania Syna. Kiedy jednoznacznie wybierzesz aktywne uczestnictwo w  tym Dziele, wszystko, czego będzie potrzeba, zostanie dostarczone.*
+ Wkrótce otrzymasz wyraźny znak dotyczący Dzieła, w  jakim uczestniczysz, Dzieła pojednania Syna. Kiedy jednoznacznie wybierzesz aktywne uczestnictwo w  tym Dziele, wszystko, czego będzie potrzeba, zostanie dostarczone.
 </div>
 
 Jasny znak! Hura! Bardzo by  się teraz taki przydał! Ale czy też nie jest tak, że znaki są potrzebne jedynie tej mniejszej części mnie, tak bardzo nawykłej do  wylęknionego, często skrywanego za  uśmiechem rozumowania?
@@ -64,13 +64,13 @@ Jasny znak! Hura! Bardzo by  się teraz taki przydał! Ale czy też nie jest tak
 Ponownie wyciągam skoroszyt, otwieram go i  czuję, że przyciągają mnie słowa, co  do  których czuję głęboki opór.
 
 <div data-index="1" markdown="1" class="indent">
-> *W  Królestwie nie doświadcza się wysiłku. Jest tam tylko przejawianie się przez ciebie woli Ojca; przejawianie, które dotyka śpiącego Syna, odzianego chwilowo w  sen samotności.*
+W  Królestwie nie doświadcza się wysiłku. Jest tam tylko przejawianie się przez ciebie woli Ojca; przejawianie, które dotyka śpiącego Syna, odzianego chwilowo w  sen samotności.
 </div>
 
 Wertuję wydrukowane strony Jego ostatnich przesłań i  mój wzrok zatrzymuje się na  jeszcze jednym dziwnym stwierdzeniu:
 
 <div data-index="1" markdown="1" class="indent">
-> *Ukończenie tego projektu jest teraz nieuniknione.*
+Ukończenie tego projektu jest teraz nieuniknione.
 </div>
 
 „Właśnie!” – nagle wykrzykuję. „Co  ja  do  diabła wiem na  temat pisania książek, a  co  dopiero o  ich wydawaniu! I  kto k…..a  tak w  ogóle będzie chciał czytać te pierdoły? I  dlaczego mieliby chcieć to  czytać? No, gdyby ta  rzecz faktycznie stała się książką czytaną przez ludzi…. To  byłby dopiero «wyraźny znak», a  to  ci dopiero!”

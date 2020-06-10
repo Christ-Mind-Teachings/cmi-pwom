@@ -2,9 +2,9 @@
 title: "Lekcja 6. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center">
-## Lekcja 6
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead">
+# Lekcja 6
+## Pytania i odpowiedzi
 </div>
 
 ## Pytanie 1
@@ -39,7 +39,7 @@ Jeszua: Tak, mogę. [przerwa]
 
 Jeszua: A to już inna kwestia.
 
-Zaprawdę, umiłowany przyjacielu, wpierw spójrz uważnie i rozpoznaj owo miejsce w swym wnętrzu, z którego wyprowadzasz linię oddzielającą to, co jest *światłością* od tego, co jest *ciemnością*. Pamiętaj bowiem, że cierpienie rodzi się w rozdwojonym umyśle; umyśle, który widzi konflikt, podział, oddzielenie. Jeśli prawdą jest, że jedynie Miłość uzdrawia -- a ja cię zapewniam, że tak jest -- to czy możesz spojrzeć na to, co nazwałeś ciemnością, i odkryć tam światło, sam ową ciemność rozświetlając? Czy w królestwie doświadczenia, w królestwie Stworzenia -- takim, jakim ty je znasz -- istnieją ciemne moce? Tak, ale nie mam tu na myśli tego, że istnieje moc oddzielona od ciebie lub pozostająca poza zasięgiem Bożej Miłości, posiadająca moc, by kierować, wpływać lub kontrolować cię w jakikolwiek sposób. Ciemność... Gdy twa podróż dobiega kresu, widzisz, że ciemność to nic więcej jak część twego własnego istnienia, która została odrzucona i pozbawiona miłości. Gdy bowiem kochasz to, co postrzegasz jako ciemność, to odzyskujesz ją jako część siebie. A kochając, przemieniasz ją. I moc, którą jej dałeś, oddzielając się od niej, powraca do ciebie, czyli tam, gdzie ona naprawdę przebywa.
+Zaprawdę, umiłowany przyjacielu, wpierw spójrz uważnie i rozpoznaj owo miejsce w swym wnętrzu, z którego wyprowadzasz linię oddzielającą to, co jest *światłością* od tego, co jest *ciemnością*. Pamiętaj bowiem, że cierpienie rodzi się w rozdwojonym umyśle; umyśle, który widzi konflikt, podział, oddzielenie. Jeśli prawdą jest, że jedynie Miłość uzdrawia -- a ja cię zapewniam, że tak jest -- to czy możesz spojrzeć na to, co nazwałeś ciemnością, i odkryć tam światło, sam ową ciemność rozświetlając? Czy w królestwie doświadczenia, w królestwie Stworzenia -- takim, jakim ty je znasz -- istnieją ciemne moce? Tak, ale nie mam tu na myśli tego, że istnieje moc oddzielona od ciebie lub pozostająca poza zasięgiem Bożej Miłości, posiadająca moc, by kierować, wpływać lub kontrolować cię w jakikolwiek sposób. Ciemność&hellip; Gdy twa podróż dobiega kresu, widzisz, że ciemność to nic więcej jak część twego własnego istnienia, która została odrzucona i pozbawiona miłości. Gdy bowiem kochasz to, co postrzegasz jako ciemność, to odzyskujesz ją jako część siebie. A kochając, przemieniasz ją. I moc, którą jej dałeś, oddzielając się od niej, powraca do ciebie, czyli tam, gdzie ona naprawdę przebywa.
 
 Czy istnieje różnica między tym, co można by określić mianem „ciemności", czyli światem, w którym żyjesz, poruszasz się i funkcjonujesz -- pozornie jako ciało w czasie i przestrzeni -- a tym, co nazywasz „planem astralnym"? Nie. Wszystko istnieje dokładnie tu, gdzie jesteś ty. Przebywasz bowiem na tym planie w takim samym stopniu, w jakim w tej chwili siedzisz na podłodze. Świat astralny jest astralnym tylko dlatego, że wycofałeś z niego swoją świadomość i ograniczyłeś ją jedynie do wymiaru fizycznego. Zatem, gdy patrzysz z wnętrza ciała, wydaje się, że istnieje inny wymiar, który postanawiasz nazwać „astralem" i w którym rzeczy są ukryte przed twym wzrokiem. A one wcale nie są ukryte. One po prostu są dla ciebie niedostępne, jeśli posługujesz się fizycznymi oczami. Lecz gdy użyjesz swego wewnętrznego oka, nic nie będzie skryte.
 
@@ -53,17 +53,18 @@ Przemyśl dobrze, co jest ci ofiarowane w tej odpowiedzi. Rozważ to głęboko. 
 
 ***Odpowiedź****:* Po pierwsze, najdroższy przyjacielu, czy istnieje między nimi jakaś różnica? Twoje doświadczenie zawsze przeżywasz z perspektywy teraźniejszości i w teraźniejszości. To bowiem, co się pojawia, nie należy do przeszłości; dzieje się to teraz. Czy to stary wzorzec z ego? Być może. Jeśli towarzyszy temu wrażenie zaciśnięcia, poczucie oporu, odczucie osądu siebie samego lub kogoś innego, to bądź pewien, że to, co się pojawiło, by chwilowo zawładnąć twoją uwagą, jest egotycznym wzorcem, ponieważ ego -- z samej jego definicji -- jest zaciśnięciem przed Miłością. Rezultatem tego jest utrata spokoju.
 
-Spójrz więc na to i po prostu rozpoznaj...
+Spójrz więc na to i po prostu rozpoznaj&hellip;
 
-> *Co pojawia się w tej chwili? Czy jestem chętny, by na to spojrzeć, poczuć to i to objąć?*
+> Co pojawia się w tej chwili? Czy jestem chętny, by na to spojrzeć, poczuć to i to objąć?
 
-Wtedy zaczynasz -- wedle tego, jak my to postrzegamy i obserwujemy -- rozpoznawać...
+Wtedy zaczynasz -- wedle tego, jak my to postrzegamy i obserwujemy -- rozpoznawać&hellip;
 
-> *Czy jestem chętny, by oddychać?*<br>*Oddech bowiem to Życie!*
+> Czy jestem chętny, by oddychać?<br>
+Oddech bowiem to Życie!
 
 *Poczuj* więc, co tak naprawdę czujesz. *Zaobserwuj*, co jest naprawdę obecne w twym umyśle. W ten sposób wyciągasz dłonie i obejmujesz nimi to, co jest. Gdy to uczynisz, uznaj tę oto wspaniałą Prawdę:
 
-> *Mogę wybrać ponownie. Zamiast tego mogę wybrać pokój.*
+> Mogę wybrać ponownie. Zamiast tego mogę wybrać pokój.
 
 Owo „to" nie tyle jest obrazem tego, co określiłbyś jako wspomnienie, odczucie lub coś, co się ma zadziać. „To" mówi o twym *osądzie*, twoim *postrzeganiu* tego, co się pojawia. *Możesz wybrać pokój zamiast postrzegania, które okrada cię z pokoju.* W tym miejscu masz nieskończoną i doskonałą moc, by dosłownie *przemienić* swoje życie!
 

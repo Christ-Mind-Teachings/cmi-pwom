@@ -2,8 +2,7 @@
 title: "Śmierć i zmiany na Ziemi"
 ---
 
-<div markdown="1" align="center">
-
+<div markdown="1" class="chHead">
 # Śmierć i zmiany na Ziemi
 
 ![znaczek]({{page.big-separator}})
@@ -23,7 +22,7 @@ Przybywam, ponieważ jesteśmy jednym. Przybywam, ponieważ jesteśmy przyjació
 
 Zatem zaprawdę, umiłowani przyjaciele, to zaszczyt i radość przebywać z wami, współtworzyć z wami, kroczyć z wami drogą, którą obraliście. Albowiem jedynie poprzez niewinność doskonale wolnej woli dusza może powrócić do Królestwa. Miłość nie potrzebuje zmagania, Miłość nie musi po nic sięgać i niczego się trzymać, Miłość nie musi do niczego przekonywać. Ona po prostu trwa w swej własnej naturze, czekając aż poszukiwacz rzeczywistości odwróci się od wrzasku i hałasu świata, w którym nie można znaleźć pokoju, w którym zawsze brakuje spełnienia i zacznie słyszeć doskonale czystą, lecz cichą pieśń Stwórcy, który szepce nieustannie:
 
-> *Umiłowane dziecię, kocham cię. Przyjdź, przypomnij Mnie sobie i pozwól, byśmy byli Jednym.*
+> Umiłowane dziecię, kocham cię. Przyjdź, przypomnij Mnie sobie i pozwól, byśmy byli Jednym.
 
 Niech to wszystko będzie moim powitaniem; składam wam dzięki, każdemu z was, za waszą chęć, by usłyszeć wezwanie i na nie odpowiedzieć, by wejść na ów most i pozwolić, by jego światło, jego inteligencja -- gdyż ten most to jedynie Duch Święty, nić wiodąca z powrotem do Umysłu Boga -- by ona prowadziła nas we wszystkim. A gdy ty uczysz się nie słuchać myśli zrodzonych w tym świecie, lecz słyszeć szepty Ducha, które wznoszą się z cichego umysłu, ze spokojnego serca i z decyzji, by ufać głosowi Ducha, nie może ci się nie powieść ukończenie tej podróży. Koniec jest zatem pewny, a każdy z was na swój własny sposób -- i zaprawdę wy wszyscy kolektywnie -- jesteście świadkami i doświadczacie w sobie i w waszych związkach sposobu, w jaki Bóg Ojciec wzywa na powrót stworzenie do Siebie samej.
 

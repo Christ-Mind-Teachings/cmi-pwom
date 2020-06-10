@@ -8,9 +8,9 @@ title: "Rozdział dziesiąty"
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-*Kiedy dusza dokonuje wyboru, by  służyć Bogu,<br>
+Kiedy dusza dokonuje wyboru, by  służyć Bogu,<br>
 służy nieskalanej tajemnicy.<br>
-Właśnie temu można całkowicie zaufać.*
+Właśnie temu można całkowicie zaufać.
 {: .omit}
 
 </div>

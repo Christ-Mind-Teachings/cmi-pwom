@@ -86,18 +86,16 @@ Teraz zacznij czytać.
 Zaczynam i  gdy dochodzę do  piątego wersetu, Jeszua mnie zatrzymuje.
 
 <div data-index="1" markdown="1" class="indent">
-Proszę czytaj na  głos, powoli.<br>
+Proszę czytaj na głos, powoli.<br>
 Tak, byś mógł naprawdę usłyszeć.<br>
 Albowiem to  są teraz moje słowa dla ciebie.
 </div>
 
-Na  głos. Powoli. W  porządku. Myślę, że to  jest jeden z  tych momentów, które z  pewnością miały nadejść, kiedy powiedziałem, że będę Mu ufał mimo wszystko.
+Na głos. Powoli. W  porządku. Myślę, że to  jest jeden z  tych momentów, które z  pewnością miały nadejść, kiedy powiedziałem, że będę Mu ufał mimo wszystko.
 
-<div data-index="1" markdown="1" class="indent">
 „Zanim ukształtowałem cię w  łonie matki, znałem cię,<br>
 nim przyszedłeś na  świat, uświęciłem cię,<br>
 prorokiem dla narodów ustanowiłem cię”.
-</div>
 
 Gdy zaczynam gwałtownie łapać powietrze i  czuję, że znajoma mi  nemezis uderza mnie mocno i  szybko w  brzuch, On znów mówi:
 
@@ -211,17 +209,17 @@ Wszystko nadal wibruje. Jeśli bym nie wiedział, co  się stało, myślałbym, 
 
 Otwieram list.
 
-> *Drogi Marc,*
+> Drogi Marc,
 >
-> *Nie znasz mnie. Parę tygodni temu na  wykładzie w  Seattle twoja przyjaciółka wręczyła mi  twój rękopis. Najpierw muszę ci powiedzieć, że modliłam się, by  odkryć i  poznać prawdziwego Jezusa. Wiem, że to  nie był przypadek, że dostałam od  niej ten rękopis.*
+> Nie znasz mnie. Parę tygodni temu na  wykładzie w  Seattle twoja przyjaciółka wręczyła mi  twój rękopis. Najpierw muszę ci powiedzieć, że modliłam się, by  odkryć i  poznać prawdziwego Jezusa. Wiem, że to  nie był przypadek, że dostałam od  niej ten rękopis.
 >
-> *Nie jestem w  stanie wyrazić, co  on dla mnie oznacza. Bez wątpienia moje modlitwy zostały wysłuchane.*
+> Nie jestem w  stanie wyrazić, co  on dla mnie oznacza. Bez wątpienia moje modlitwy zostały wysłuchane.
 >
-> *Piszę, aby cię zapytać, czy zechciałbyś pozwolić mi  zapłacić za  publikację tej cennej książki. Byłabym zaszczycona, gdybym mogła to  zrobić.*
+> Piszę, aby cię zapytać, czy zechciałbyś pozwolić mi  zapłacić za  publikację tej cennej książki. Byłabym zaszczycona, gdybym mogła to  zrobić.
 >
 > Z  poważaniem,
 >
-> *J.R.*
+> J.R.
 
 Teraz moje łzy zaczęły łagodnie płynąć. Jestem sam, ale w  ogóle nie czuję się samotny. Nagle to  dociera do  mnie z  ogromną siłą. Znak! Nagle przypominają mi  się Jego słowa do  mnie:
 

@@ -2,9 +2,9 @@
 title: "Lekcja 12. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center">
-## Lekcja 12
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead">
+# Lekcja 12
+## Pytania i odpowiedzi
 </div>
 
 ## Pytanie 1
@@ -19,7 +19,7 @@ Oto, co podamy wam jako poprawkę, wyjaśnienie, samo sedno bardzo ważnej myśl
 
 To bardzo dobre pytanie, ale ostatecznie pójdź jeszcze głębiej i zapytaj *siebie*, dlaczego ty powiedziałeś:
 
-> *Ojcze, czemuś mnie opuścił?*
+> Ojcze, czemuś mnie opuścił?
 
 To coś, co warto rozważyć.
 
@@ -29,19 +29,19 @@ To coś, co warto rozważyć.
 
 ***Odpowiedź****:* Umiłowany przyjacielu, sugerowalibyśmy tutaj, że istnieje wielu takich, którzy są w posiadaniu tego, co zwiecie męskimi ciałami, a którzy również w tajemnicy chowają to samo odczucie, skryte odrobinę głębiej, gdyż sądzą oni, że byłoby to ocenione lub postrzegane za coś szalonego.
 
-> *No cóż, skoro mam jedynie ten rodzaj organu&hellip;*
+> No cóż, skoro mam jedynie ten rodzaj organu&hellip;
 
 -- czyli tego, co nazywasz męską hydrauliką, która pomaga w procesie prokreacji ciała --
 
-> *&hellip;więc ponieważ ten organ zbudowany jest w określony sposób, to z pewnością nie mógłbym kiedykolwiek doświadczyć inkarnacji w żadnej innej formie. Więc jeśli powiedziałbym komuś: 'Myślę, że kiedyś byłem Marią, tą, o której mówicie', to oczywiście by mnie wyśmiano. Ponieważ, co jak co, ale moja klatka piersiowa pokryta jest zbyt bujnym owłosieniem&hellip; Ale nie, ja nie wierzę, że jestem tylko ciałem!*
+> &hellip;więc ponieważ ten organ zbudowany jest w określony sposób, to z pewnością nie mógłbym kiedykolwiek doświadczyć inkarnacji w żadnej innej formie. Więc jeśli powiedziałbym komuś: 'Myślę, że kiedyś byłem Marią, tą, o której mówicie', to oczywiście by mnie wyśmiano. Ponieważ, co jak co, ale moja klatka piersiowa pokryta jest zbyt bujnym owłosieniem&hellip; Ale nie, ja nie wierzę, że jestem tylko ciałem!
 
-Co tu się wydarzyło? Na początku Umysł jest Jednią. Ty -- mówimy do was wszystkich -- byłeś Tym Umysłem. I zaczął się sen, w którym wydawało się, że doszło do rozczłonkowania. W tym rozczłonkowaniu występuje wiele indywidualnych Punktów Światła, Dusz, Iskierek Boskości -- nazwij siebie jakkolwiek chcesz, nazwij siebie Beknięciem w Bożym Umyśle... To nie ma znaczenia. Oto *rezultat* snu oddzielenia, który w Rzeczywistości nigdy się nie wydarzył.
+Co tu się wydarzyło? Na początku Umysł jest Jednią. Ty -- mówimy do was wszystkich -- byłeś Tym Umysłem. I zaczął się sen, w którym wydawało się, że doszło do rozczłonkowania. W tym rozczłonkowaniu występuje wiele indywidualnych Punktów Światła, Dusz, Iskierek Boskości -- nazwij siebie jakkolwiek chcesz, nazwij siebie Beknięciem w Bożym Umyśle To nie ma znaczenia. Oto *rezultat* snu oddzielenia, który w Rzeczywistości nigdy się nie wydarzył.
 
 I tu umysł wpada w osłupienie -- Bogu dzięki za to! W tym procesie w Umyśle, który postrzega Siebie jako rozczłonkowany, narodziło się -- i nadal rodzi -- wiele światów. W jednej malusieńkiej, maleńkiej, najdrobniejszej odrobinie kurzu lub też odrobinie Światła, narodził się świat, który nazywacie Ziemią, a wraz z nią wszystkie formy życia. I w tej maleńkiej drobinie wykształciły się -- lub zostały stworzone -- ramy czasowe, w których ludzkim ciałom nadano imiona. A umysły wierzą -- tak jak ty nadal w to wierzysz -- że w jakiś sposób jesteś czymś innym niż ten, kto siedzi obok lub naprzeciw ciebie, tylko dlatego, że istnieje ciało, które wytwarza postrzeganie, że istnieje między wami jakaś odległość.
 
 Jednym z takich bardzo tymczasowych iluzorycznych rozczłonkowań, jest Ta, która znana jest jako Maria Magdalena, Maria z Magdali. W ramach tego snu wyłonił się ten, kto znany jest jako Jeszua, syn Józefa. I w procesie ekspresji owego snu, tych dwoje -- tak to ujmijmy -- spojrzało na siebie i powiedziało:
 
-> *O mój Boże! Jakie to cudowne!*
+> O mój Boże! Jakie to cudowne!
 
 A to oznacza, że jako dusze nadal będące częścią tego snu, nie pochodzimy z jakiegoś miejsca ponad wami. Jesteśmy w tym wszyscy razem, ponieważ istnieje Jeden Umysł.
 
@@ -61,7 +61,7 @@ To egotyczny umysł spogląda w *przeszłość*. To egotyczny umysł *wymaga wyj
 
 Spójrz więc uważnie i sprawdź:
 
-> *Czy jest we mnie nadal coś, co potrzebuje sięgać na zewnątrz, by złapać inną część samego siebie w jakiejś pradawnej przeszłości, tak bym nareszcie zyskał jakieś poczucie własnej wartości?*
+> Czy jest we mnie nadal coś, co potrzebuje sięgać na zewnątrz, by złapać inną część samego siebie w jakiejś pradawnej przeszłości, tak bym nareszcie zyskał jakieś poczucie własnej wartości?
 
 Jedyne, co określa twą wartość, to jak mocno postanawiasz ucieleśniać Chrystusową Świadomość *teraz*.
 
@@ -69,7 +69,7 @@ Właśnie dlatego niegdyś nauczałem i dalej nauczam, że wiara w reinkarnację
 
 Nie musisz udawać się do wielkich Archiwów Kroniki Akaszy i wyszukiwać informacji na swój temat na kosmicznych mikrofilmach świata, by odkryć, kim *byłeś*, w celu zrozumienia, czemu teraz jesteś takim głupkiem. [Śmiech]
 
-> *Ooo, w końcu załapałem! No cóż, to wyjaśnia wszystko!*
+> Ooo, w końcu załapałem! No cóż, to wyjaśnia wszystko!
 
 -- mówisz, sącząc kolejne piwo. Nie tworzysz swej głupoty nigdzie indziej, jak tylko teraz. Czy zamierzasz więc być księżniczką głupolandii? Czy też przywdziejesz szatę tego, kto przyjmuje całkowitą odpowiedzialność za tworzenie własnego doświadczenia?
 
@@ -77,17 +77,17 @@ Dla tych z was, którzy zdają się odczuwać sentyment do „Janów", „Marii"
 
 Oto więc coś do rozważenia dla was wszystkich -- szczególnie jeśli czujecie jakiś sentyment lub przyciąganie, bądź też identyfikację z tą Marią -- czemu by nie zaprzestać trzymania Jej na dystans i nie zapytać siebie w medytacji:
 
-> *Jakie przymioty Tej Istoty sprawiają, że odczuwam względem Niej taki sentyment? Cóż takiego jest w Niej, co pragnę mieć w sobie?*
+> Jakie przymioty Tej Istoty sprawiają, że odczuwam względem Niej taki sentyment? Cóż takiego jest w Niej, co pragnę mieć w sobie?
 
 I przyciągnij te przymioty do siebie. Ponownie -- tak, jakbyś był gąbką. Uczyń je częścią swej istoty. Pokonaj rozczłonkowanie, które wydarzyło się we śnie oddzielenia. Czy ma to dla was sens?
 
 Wiem, że to, czym się tu podzieliłem, może niektórych nieco zaskoczyć, gdy to usłyszą. Jeśli tak się stanie, oznacza to jedynie, że nadal potrzebują oni postrzegania siebie jako mających jakąś *wyjątkową* formę związku, który jakoś zagubił się w pradawnej przeszłości. Nie, on się nie zagubił. A oni muszą zrobić kolejny krok i uświadomić sobie, że trzeba zabrać się za robotę -- jeśli tak ma to być postrzegane -- i tu i teraz wziąć się za to, co nie zostało jeszcze zrobione.
 
-> *Czy ucieleśniam Chrystusową Świadomość?*
+> Czy ucieleśniam Chrystusową Świadomość?
 
 Tak lub nie.
 
-> *Jakie kroki muszę podjąć, by to uczynić?*
+> Jakie kroki muszę podjąć, by to uczynić?
 
 To wszystko, co kiedykolwiek trzeba było uczynić.
 
@@ -109,7 +109,10 @@ Ale jest rzesza tych, którzy przyjmują Jego myślokształty i rzesza tych, kt�
 
 A oto, co ma zawsze znaczenie: każdy, kto służy jako *kanał*, jak to teraz zwie wasz świat, ma przed sobą przez cały czas dokładnie taką samą pracę do wykonania, jak każda inna osoba -- pracę, która polega na ciągłym rozwijaniu się, poddawaniu, przyzwalaniu, ufaniu, puszczaniu, uwalnianiu się od egotycznej świadomości, porzucaniu potrzeby wyjątkowości, przyglądaniu się jak sobie prawdziwie radzi -- poddając się, poddając, poddając.
 
-> *Nie jestem sprawcą ani wykonawcą.*<br>*Nie jestem kimś, kto coś wie.*<br>*Od nikogo niczego nie potrzebuję.*<br>*Komu jeszcze muszę odpuścić?*<br>*Jak głęboko potrafię opanować przebaczenie?*
+> Nie jestem sprawcą ani wykonawcą.<br>
+Nie jestem kimś, kto coś wie.<br>
+Od nikogo niczego nie potrzebuję.<br>Komu jeszcze muszę odpuścić?<br>
+Jak głęboko potrafię opanować przebaczenie?
 
 I tak dalej. To jest podstawowa rzecz. I faktycznie relacja, taka jak ta pomiędzy tym moim umiłowanym bratem a mną, jest relacją, która podkreśla jego potrzebę praktykowania tych rzeczy.
 

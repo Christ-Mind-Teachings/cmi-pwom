@@ -2,14 +2,11 @@
 title: "Błogosławieństwo przebaczenia"
 ---
 
-<div markdown="1" align="center">
+<div markdown="1" class="chHead">
 # Błogosławieństwo przebaczenia
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
-
-
-
 </div>
 
 Teraz zaczynamy.
@@ -32,7 +29,7 @@ A zatem jeśli chcesz poznać wolność i pokój, to używaj każdej chwili, aby
 
 A ponieważ w prawdzie jedynie Chrystus jest stworzeniem Boga, to jedynie tym możesz być w Rzeczywistości. To zaś oznacza, że jeśli nawet jeden raz w ciągu dnia jakaś myśl w twoim umyśle pociągnie cię do postrzegania, że jesteś inny niż to, jakim zostałeś stworzony, to w tamtej chwili postanowiłeś się utożsamić z czystą i totalną niepoczytalnością. Mówiłem ci często, że masz wybór tylko między dwiema emocjami: Miłością i lękiem. Dwa inne słowa, jakie można by w zamian użyć, to poczytalność i niepoczytalność. Nie ma tu żadnego kompromisu. Jesteś albo jednym, albo drugim. Możesz sam siebie oszukiwać, mówiąc:
 
-> *No cóż, ja naprawdę zmierzam w kierunku Miłości, ale najpierw muszę przejść pewne doświadczenia, po czym może do niej dotrę.*
+> No cóż, ja naprawdę zmierzam w kierunku Miłości, ale najpierw muszę przejść pewne doświadczenia, po czym może do niej dotrę.
 
 Jesteś albo w domu, albo z dala od domu. Jesteś albo jednym z Bogiem, albo śnisz sen o oddzieleniu. Tylko jedna z tych opcji prowadzi do rzeczywistości Pokoju i rozpoznania, że jesteś taki, jakim zostałeś stworzony -- co wydaje się być niepoczytalne dla twojego odwróconego do góry nogami świata. I w tej chwili masz w sobie całą moc w Niebie i na Ziemi, aby *wybrać* pokój; aby *szerzyć* jedynie miłość; aby *wybaczyć* zamiast osądzić; aby *być* *otwartym*, a nie zamkniętym w sobie.
 
@@ -42,7 +39,7 @@ I właśnie dlatego gdy przechodzisz przez swoje liczne inkarnacje, ciągle wpad
 
 Dwa tysiące lat temu -- wedle tego, jak ty pojmujesz czas -- przyszedłem z bardzo prostym przesłaniem. Było to przesłanie przebaczenia. Przybywałem również ponownie na wiele sposobów, oferując tę samą prostą technologię, ponieważ *tylko ona działa*. A jednak umysł chce, abyś wierzył, że musisz to nieustannie komplikować.
 
-> *Z pewnością istnieje coś innego do zdobycia -- jakaś wielka moc, jakieś wielkie mistyczne doświadczenie. Gdybym tylko mógł uporządkować moje sprawy zewnętrzne, wtedy będę pamiętał, żeby przebaczyć światu, bo będę czuł się komfortowo.*
+> Z pewnością istnieje coś innego do zdobycia -- jakaś wielka moc, jakieś wielkie mistyczne doświadczenie. Gdybym tylko mógł uporządkować moje sprawy zewnętrzne, wtedy będę pamiętał, żeby przebaczyć światu, bo będę czuł się komfortowo.
 
 Możesz być pewny, że to, co chcesz widzieć odzwierciedlone w świecie na zewnątrz ciebie, pozostaje pod wpływem, czy też jest rozszerzeniem jakości świadomości, którą z chwili na chwilę dopuszczasz do swego umysłu. I jeśli wydajesz się doświadczać zmagania, to znaczy, że nadal pozostaje jakiś zakamarek, którego nie dotknęło twoje przebaczenie. Czy będziesz w stanie odnaleźć ów zakamarek? Wielu z was spróbuje to zrobić.
 
@@ -60,7 +57,7 @@ Czy to jest trudna droga? Nie. Wymaga ona przede wszystkim twojej chęci, *aby c
 
 A zatem przez następne siedem dni zadawaj sobie to pytanie na zakończenie każdego dnia:
 
-> *Ile razy w ciągu tych 24 godzin zatrzymałem wszystko, czym się zajmowałem i w pełni siebie kochałem?*
+> Ile razy w ciągu tych 24 godzin zatrzymałem wszystko, czym się zajmowałem i w pełni siebie kochałem?
 
 „No cóż, pamiętałbym o tym więcej niż jeden raz, ale byłem strasznie zajęty."
 
@@ -102,11 +99,11 @@ Nie mówię tu o niebezpieczeństwie -- a istnieje takie niebezpieczeństwo -- w
 
 W moich czasach mówiliśmy często o pokusie Szatana. Znana wielu z was historia moich czterdziestu dni i nocy na pustyni, podczas których sam Szatan przyszedł, by mnie kusić, jest oczywiście symbolem, który pokazuje, że gdy więcej Mocy i Światła jaśnieje poprzez ciebie, to ego -- egotyczna energia przenikająca twoje wytwory w tym wymiarze, a w mniejszym stopniu inne wymiary czy światy -- *zawsze* będzie próbowało zadomowić się w twoim umyśle&hellip; *Zawsze*. A zatem im bardziej lśni twoje Światło, tym bardziej te tak zwane drobiny ciemności chcą się wedrzeć i pozatykać twoje kanały. Nigdy więc się nie rozleniwiaj. Nigdy nie bądź usatysfakcjonowany. Nie przestawaj pragnąć coraz więcej i więcej tego, co Boskie, samolubnie się tego *domagaj* i ucz się, jak być czujny na to, jakie myśli dopuszczasz do swego umysłu. I bądź bardzo ostrożny. Bo gdy się budzisz i nagle masz jakąś nikczemną i złą myśl, to pojawia się pokusa, by myśleć: 
 
-> *O mój Boże, zawaliłem sprawę.*
+> O mój Boże, zawaliłem sprawę.
 
 To jest osąd, a osąd jest przeciwieństwem Miłości. Tylko Miłość może uzdrawiać. Po prostu zauważ tę myśl i powiedz sobie:
 
-> *Ach tak, kiedyś tak myślałem.*
+> Ach tak, kiedyś tak myślałem.
 
 I poczuj miłość do siebie. Tylko Miłość uzdrawia umysł. Żadna inna technologia nie będzie działać.
 
@@ -114,15 +111,15 @@ Przebaczenie, miłość do siebie, rozpoznanie, że nikt nie pojawia się w twoi
 
 A przebaczenie to nie pochodzi z umysłu, który myśli, że przewyższa kogoś innego. Rozpoznaje ono, że nie tylko mają oni wspólną, ale *wręcz tę samą tożsamość*. Widzisz różnicę? To bardzo ważne.
 
-> *No cóż, przebaczam ci, ty biedny prostaku.*
+> No cóż, przebaczam ci, ty biedny prostaku.
 
 Nie.
 
-> *Przebaczam ci i błogosławię cię, ponieważ jesteś tym samym, co ja, i w Rzeczywistości jest tylko jeden z nas; razem zaś mamy moc, by poprzez naszą świętość sprowadzić Niebo na Ziemię. I robimy to teraz!*
+> Przebaczam ci i błogosławię cię, ponieważ jesteś tym samym, co ja, i w Rzeczywistości jest tylko jeden z nas; razem zaś mamy moc, by poprzez naszą świętość sprowadzić Niebo na Ziemię. I robimy to teraz!
 
 Ktoś musi to dać innemu aspektowi siebie samego. Czemu nie ty? Na co czekasz?
 
-> *Gdyby tylko moja mama mi przebaczyła, gdyby tylko mój ojciec mi wybaczył, i -- och mój Boże -- co z moją pierwszą żoną, a potem czwartym mężem?! Gdybym tylko mógł uregulować z nimi sprawy, wtedy mógłbym już zająć się byciem Chrystusem.*
+> Gdyby tylko moja mama mi przebaczyła, gdyby tylko mój ojciec mi wybaczył, i -- och mój Boże -- co z moją pierwszą żoną, a potem czwartym mężem?! Gdybym tylko mógł uregulować z nimi sprawy, wtedy mógłbym już zająć się byciem Chrystusem.
 
 A zatem&hellip; Wydaje się, że przerwa, którą właśnie stworzyliśmy, zaistniała w samym środku myśli czy też czynności, która cię miała dokądś zaprowadzić. Oto więc twoje drugie ćwiczenie: Trwaj w pokoju i stań się swoim własnym kanałem, który kieruje tobą, gdy podążasz do celu czy też za myślą daną ci tuż przed ową przerwą. Czy to ma dla was jakiś sens? Jeśli będąc w stanie odprężenia, oddasz się temu ćwiczeniu -- nie raz, lecz często -- to odkryjesz, że ten proces prowadzi cię na coraz głębsze poziomy. Ci z was, którzy autentycznie zaangażują się w ten proces, doświadczą serii tak zwanych wglądów czy też objawień. To zaś wspomoże oczyszczenie głębszych energii w twoim umyśle. Czy byłbyś więc chętny, aby to zrobić?
 

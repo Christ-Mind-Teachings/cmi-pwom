@@ -2,10 +2,8 @@
 title: "Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center">
-
+<div markdown="1" class="chHead">
 # Niebo na ziemi
-
 ## Pytania i odpowiedzi
 
 </div>
@@ -18,7 +16,7 @@ title: "Pytania i odpowiedzi"
 
 Jeśli zaprawdę chciałbyś przyciągnąć do siebie jasność odpowiedzi na konkretne pytanie, upewnij się, że zadajesz jasne pytanie. Umiłowany przyjacielu, pozwól sobie zatem odprężyć się na chwilę. To nie przychodzi z umysłu, lecz z umysłu będącego w zrelaksowanym stanie istnienia, ze zrelaksowanego ciała emocjonalnego. Po prostu zacznij w swym wnętrzu pytać:
 
-> *Jakie pytanie z pewnością przyciągnęłoby do mnie odpowiedź, którą pragnę odkryć?*
+> Jakie pytanie z pewnością przyciągnęłoby do mnie odpowiedź, którą pragnę odkryć?
 
 Zatrzymamy się tu na chwilę, byś pozwolił, by zrodziło się owo pytanie.
 
@@ -32,11 +30,11 @@ To tak naprawdę bardzo łatwe. Pytania z Miłości w dosłownym znaczeniu wytwa
 
 Gdy siedzisz w medytacji i pozwalasz, by pojawiły się pytania, to gdy zaczynasz być zdyscyplinowany w swej świadomości i zauważać, co dzieje się w umyśle z chwili na chwilę, i gdy pojawiają się pytania, zatrzymaj się, spójrz na nie i zapytaj siebie:
 
-> *Czy to pytanie pochodzi z Miłości czy z lęku?*
+> Czy to pytanie pochodzi z Miłości czy z lęku?
 
 A następnie zapytaj:
 
-> *Co takiego zauważam w swym istnieniu, co powiązane jest z powstaniem tego pytania? Czy jest to odczucie radości i zadziwienia, odrobina ekscytacji, poczucie szerzenia się? Czy też jest to zaciśnięcie, poczucie chłodu, złego przeczucia, dysonansu zamiast rezonansu?*
+> Co takiego zauważam w swym istnieniu, co powiązane jest z powstaniem tego pytania? Czy jest to odczucie radości i zadziwienia, odrobina ekscytacji, poczucie szerzenia się? Czy też jest to zaciśnięcie, poczucie chłodu, złego przeczucia, dysonansu zamiast rezonansu?
 
 Czy ma to dla ciebie sens?
 
@@ -66,7 +64,7 @@ Tam, gdzie nie ma pytań, już masz swoją odpowiedź. A jak wielu w twoim świe
 
 Wirtuoz lub mistrz instrumentu uczy się skupiać uwagę na tym, czego chce, zamiast na tym, co jego zdaniem nie pozwala mu osiągnąć tego, czego pragnie. A to, czego chcesz, to usłyszeć dźwięk swego własnego fletu. A więc podnosisz swój instrument do ust i zaczynasz w niego dmuchać, póki nie znajdziesz właściwego kąta, by wydać nutę.
 
-> *O, to ta nuta, która mi się podoba. Oj, teraz znowu się rozproszyłem przez ten obój. Zamiast myśleć o tym, jak mogę oddzielić się od oboju, skupię się tylko na tym, co chcę usłyszeć. Na moim własnym flecie.*
+> O, to ta nuta, która mi się podoba. Oj, teraz znowu się rozproszyłem przez ten obój. Zamiast myśleć o tym, jak mogę oddzielić się od oboju, skupię się tylko na tym, co chcę usłyszeć. Na moim własnym flecie.
 
 Ćwicz ponownie zagranie tej nuty przez zwrócenie uwagi na to, czego chcesz, przez uwolnienie muzyków grających na obojach, skrzypków i całej reszty od winy za rozpraszanie ciebie. Skup się na tym, czego chcesz. Jaką częstotliwość chcesz poczuć w swym ciele, jakie myśli chcesz myśleć? Skup swą uwagę na wytworzeniu siły wydmuchu dźwięku, który chcesz w sobie usłyszeć. A gdy się na tym skupiasz, to zaczyna to brzmieć jak nuta dźwięcząca w krysztale: lśni promiennie, rozbrzmiewa promiennie w pustej przestrzeni, gdzie nic jej nie blokuje. Tak więc nawet gdy ten muzyk grający na oboju i skrzypek robią to, co do nich należy, ty jesteś tak zaabsorbowany, tak skupiony całą swą uwagą i całym swym pragnieniem na niemartwieniu się tym, co oni robią, lub na tym, jak ich dźwięk może wpływać na twój dźwięk -- a kiedy czujesz wpływ dźwięku oboju lub rozproszenie obojem, znowu zwracasz się ku wytworzeniu dźwięku, którego pragniesz. Może to oznaczać głębokie oddychanie; może to oznaczać uśmiechanie się z miłością; może to oznaczać pomyślenie sobie: „Dokonało się i uznaję to!". Uczysz się zwracać uwagę swego umysłu w kierunku tego, co chcesz poczuć i czego chcesz doświadczyć, co chcesz przywołać do swej rzeczywistości. To buduję tę siłę.
 
@@ -74,7 +72,7 @@ I widzisz, to daje  ci odpowiedź na twoje pytanie. Gdy zaczynasz się stabilizo
 
 I dokładnie w ten sam sposób, kiedykolwiek myślisz, że czujesz różne energie i nie jesteś pewien, czy to twoja energia, czy kogoś innego, odwróć uwagę umysłu od tej myśli -- to bezużyteczne pytanie. Z powrotem skup się na tym:
 
-> *Kogóż obchodzi, co teraz czuję lub co myślę, że może się dziać? Czego chcę? Ach, chcę, by me ciało było rozluźnione. Chcę spoglądać z miłością na świat, który widzę. Chcę kroczyć jako Chrystusowa istota w kobiecej formie. Chcę być szczęśliwa. Jak bym to czuła w tej chwili?*
+> Kogóż obchodzi, co teraz czuję lub co myślę, że może się dziać? Czego chcę? Ach, chcę, by me ciało było rozluźnione. Chcę spoglądać z miłością na świat, który widzę. Chcę kroczyć jako Chrystusowa istota w kobiecej formie. Chcę być szczęśliwa. Jak bym to czuła w tej chwili?
 
 Zacznij używać mocy stwarzania, której i tak zawsze używasz, by stwarzać inaczej -- poprzez przeniesienie uwagi z martwienia się kimś grającym na oboju na skupienie na promieniejącym klejnocie, który możesz stworzyć, wydając własny dźwięk. Wzmocnij go. Stań się nim.
 
@@ -82,13 +80,13 @@ Jeśli poszedłbyś na siłownię, by wytrenować mięsień, i miałbyś podnosi
 
 Za każdym razem, gdy podejmujesz decyzję, by dać się rozproszyć czymś, co robią inni i oderwać swą uwagę od nuty, którą chcesz nauczyć się grać, możesz zadać sobie pytanie:
 
-> *Jak by to było czuć w tej chwili doskonały pokój?*
+> Jak by to było czuć w tej chwili doskonały pokój?
 
-> *Jak by to było być Chrystusem wcielonym?*
+> Jak by to było być Chrystusem wcielonym?
 
-> *Jak by to było nie czuć lęku?*
+> Jak by to było nie czuć lęku?
 
-> *Jak by to było być wolnym od mych przeszłych historii?*
+> Jak by to było być wolnym od mych przeszłych historii?
 
 Przez skupienie na tej nucie odkrywasz, że jedyny czas, w którym siebie zraniłeś, to ten, gdy swą uwagę skupiłeś na próbie wykombinowania, co należy do kogoś innego i jak oni to robią. Im bardziej skupiasz swą uwagę tutaj na wydaniu doskonałego dźwięku na flecie, wszystko dookoła ciebie zaczyna ucichać. To się chyba nazywa -- czujność i dyscyplina.
 
@@ -100,7 +98,7 @@ Wyobraź sobie, że jesteś Żydem, synem żydowskich rodziców ze średniej kla
 
 Czy zatem byłbyś chętny, by zacząć dyscyplinować umysł, by sprowadzić go ponownie do zadania sobie następującego pytania:
 
-> *Czego naprawdę chcę? Jak by to było, gdybym teraz stał się tak oburzający w samym środku tego, o czym właśnie myślę jako o szalonej sytuacji, by wybrać bycie nieograniczonym i doskonałym pokojem?*
+> Czego naprawdę chcę? Jak by to było, gdybym teraz stał się tak oburzający w samym środku tego, o czym właśnie myślę jako o szalonej sytuacji, by wybrać bycie nieograniczonym i doskonałym pokojem?
 
 Każda tego typu myśl będzie odpowiednia, o ile będzie równie nieograniczona.
 
@@ -146,7 +144,7 @@ Cud nad cudami!
 
 Nikt nie ma w portfelu dolarowego banknotu, jeśli nie zdecydował się na jego doświadczenie. Absolutnie nikt nie jest pozbawiony mocy przejawienia środków służących manifestacji, jeśli jest chętny, by wziąć odpowiedzialność za swe błędne wytwory. Uśmiechają się oni i mówią:
 
-> *No cóż, stworzyłem to, a teraz mogę zacząć od nowa.*
+> No cóż, stworzyłem to, a teraz mogę zacząć od nowa.
 
 „Wyłączność" jest najbardziej interesującym słowem w waszym języku. Posłuchaj uważnie. Jeśli ktoś postrzega, że coś istnieje „na wyłączność", to dosłownie podejmuje decyzję, by umieścić siebie na zewnątrz tego, co postrzega jako coś będącego „na wyłączność". Nie chodzi tu o samą rzecz, czy to byłaby organizacja, grupa, związek. To nie one leżą u podstaw wyłączności. Postrzeganie wytwarza doświadczenie -- zawsze, zawsze, zawsze. I jeśli ktoś patrzyłby na cokolwiek i osądzał to jako coś będącego „na wyłączność", wtedy istnieje dla niego możliwość zatrzymania się i spojrzenia na to, jak w dosłownym znaczeniu stworzył on odczucie bycia wyłączonym. Czy ma to dla ciebie sens?
 

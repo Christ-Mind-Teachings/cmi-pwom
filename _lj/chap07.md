@@ -8,11 +8,11 @@ title: "Rozdział siódmy"
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-*Nie tak jak daje świat,*<br>
-*Ja  wam daję.*<br>
-*Jednak moje dawanie jest tylko*<br>
-*twoim dawaniem sobie samemu.*<br>
-*Kiedy dokonasz wyboru, by  to  zaakceptować?*
+Nie tak jak daje świat,<br>
+Ja  wam daję.<br>
+Jednak moje dawanie jest tylko<br>
+twoim dawaniem sobie samemu.<br>
+Kiedy dokonasz wyboru, by  to  zaakceptować?
 {: .omit}
 
 </div>
@@ -44,7 +44,7 @@ Cała nasza trójka wisi na  telefonach z  pytaniami do  banków. Odpowiedź jes
 
 Frustracja, gniew, lęk, zamęt i  poczucie dezorientacji szaleją przez kilka następnych minut. W  końcu dodzwaniamy się do  Wayne’a. Wszyscy troje zaczynamy mówić w  tym samym czasie, przekrzykując się jeden przez drugiego, dopóki Wayne nie krzyczy, żebyśmy się uciszyli.
 
-–  Słuchajcie, jestem tym tak samo zaskoczony, jak wy. *Myśleliśmy*, że mamy w  rezerwie 200 tysięcy dolarów od  finansujących nas podmiotów, więc wykorzystywaliśmy aktywa do  poszerzania rynków, takich jak wasz w  stanie Waszyngton. Ale środki rezerwy zostały wycofane. A  może ich w  ogóle nie było. Nie wiem.  Bank zamroził nasze aktywa. *Nie mamy* dostępu do  żadnych pieniędzy.
+–  Słuchajcie, jestem tym tak samo zaskoczony, jak wy. *Myśleliśmy*, że mamy w  rezerwie 200 tysięcy dolarów od  finansujących nas podmiotów, więc wykorzystywaliśmy aktywa do  poszerzania rynków, takich jak wasz w  stanie Waszyngton. Ale środki rezerwy zostały wycofane. A  może ich w  ogóle nie było. Nie wiem. Bank zamroził nasze aktywa. *Nie mamy* dostępu do  żadnych pieniędzy.
 
 Powoli zaczyna do  nas docierać rzeczywistość. Przychodzi mi  na  myśl, żeby zapytać o  prowizje, zwłaszcza o  honoraria z  tytułu rozwoju produktów informatycznych, jakie zaprojektowaliśmy dla firmy. Za  45 dni ma  do  nas wpłynąć kwota 10 tysięcy dolarów.
 
@@ -53,9 +53,7 @@ Po  dłuższej chwili ciszy Wayne mówi powoli: – Wygląda na  to, że to  *ws
 –  A  co  z  wynagrodzeniem za  sierpień, które mieliśmy dostać za  tydzień?
 
 Cisza jest jedyną odpowiedzią, którą słyszymy.
-W  końcu dociera do  mnie jasno, co  się wydarzyło. Straciłem wynag
-
-rodzenie za  dwa miesiące, parę tysięcy dolarów prowizji oraz – co  najważniejsze – należny mi  1 października udział w  honorariach z  tytułu rozwoju programu. Dla *tych* pieniędzy wszedłem w  to  wspólne przedsięwzięcie. Nawet najbardziej zachowawcze szacunki tantiemów obiecywały mi  wystarczający dochód, bym nie musiał pracować codziennie po  to  tylko, by  zatroszczyć się o  kolejny dzień.
+W  końcu dociera do  mnie jasno, co  się wydarzyło. Straciłem wynagrodzenie za  dwa miesiące, parę tysięcy dolarów prowizji oraz – co  najważniejsze – należny mi  1 października udział w  honorariach z  tytułu rozwoju programu. Dla *tych* pieniędzy wszedłem w  to  wspólne przedsięwzięcie. Nawet najbardziej zachowawcze szacunki tantiemów obiecywały mi  wystarczający dochód, bym nie musiał pracować codziennie po  to  tylko, by  zatroszczyć się o  kolejny dzień.
 
 Chwyta mnie paraliżujący lęk. Kiedy już wszystko zostało powiedziane i  wyjaśnione, okazuje się, że dysponuję funduszami, które wystarczą mi, by  przeżyć miesiąc październik. To  wszystko.
 
@@ -90,7 +88,7 @@ Wydało się.
 
 –  Co  takiego zamierzasz pisać? – jej głos zdradza podejrzenie, że już zna odpowiedź.
 
-–  Czuję, że już czas, by  zacząć&hellip; to  znaczy, siedzę tutaj, nie mam pieniędzy, nie mam pomysłu, czym miałyby być *Listy Jeszuy*. Czuję, jakbym wpatrywał się we  mgłę, która wszystko przede mną zakrywa, a  jednak wypełnia mnie najdziwniejsze uczucie,  że ta  mgła jest całkowicie bezpieczna.
+–  Czuję, że już czas, by  zacząć&hellip; to  znaczy, siedzę tutaj, nie mam pieniędzy, nie mam pomysłu, czym miałyby być *Listy Jeszuy*. Czuję, jakbym wpatrywał się we  mgłę, która wszystko przede mną zakrywa, a  jednak wypełnia mnie najdziwniejsze uczucie, że ta  mgła jest całkowicie bezpieczna.
 
 Kendra zadaje oczywiste pytanie: – Jak zamierzasz to  zrobić?
 
@@ -116,7 +114,7 @@ W  zasadzie wprawia mnie to  w  zakłopotanie. Czasami racjonalny głos we  mnie
 
 Znów chwila ciszy.
 
-–  Zatem&hellip; – Kendra w  końcu mówi prawie szeptem – to  się dzieje, to  znaczy to  się naprawdę *rozgrywa*”.
+–  Zatem&hellip; – Kendra w  końcu mówi prawie szeptem – to  się dzieje, to  znaczy to  się naprawdę *rozgrywa*.
 
 –  Pamiętasz książki Castanedy? – pytam, wiedząc, że to  jedne z  jej ulubionych. – Pamiętasz jak Carlos musi skoczyć z  klifu w  ciemność nocy? Czuję się, jakbym to  ja  tak skoczył, nie wiedząc, że to  zrobiłem. Większość czasu czuję się z  tym dobrze, lecz czasami zaczynam wierzgać i  krzyczeć, pomimo tego, że spadam. Czuję, że samo spadanie jest absolutnie w  porządku, niezależnie od  tego, jak silne są te lękowe napady. Czuję, jakby to  się działo w  zwolnionym tempie, jednak wiem, że to  się dzieje nawet teraz, gdy z  tobą o  tym rozmawiam.
 
@@ -220,87 +218,87 @@ Jeszuy, zwanego Jezusem.
 4 września 1988  r.
 
 <div data-index="1" markdown="1" class="indent">
-*Teraz zaczynamy.*
+Teraz zaczynamy.
 
-*Znowu*<br>
-*dokonałeś wyboru, by  przygotować miejsce dla Mnie,*<br>
-*tak więc teraz przychodzę do  ciebie.*
+Znowu<br>
+dokonałeś wyboru, by  przygotować miejsce dla Mnie,<br>
+tak więc teraz przychodzę do  ciebie.
 
-*Umiłowany,*<br>
-*czyż do  Królestwa nie wchodzi się*<br>
-*bez wysiłku?*<br>
-*Jakich zmagań trzeba doświadczyć,*<br>
-*jaką pokonać przeszkodę?*<br>
-*Czyż takie postrzeganie nie jest oparte na  przekonaniu,*<br>
-*że złudzenie jest Rzeczywistością?*
+Umiłowany,<br>
+czyż do  Królestwa nie wchodzi się<br>
+bez wysiłku?<br>
+Jakich zmagań trzeba doświadczyć,<br>
+jaką pokonać przeszkodę?<br>
+Czyż takie postrzeganie nie jest oparte na  przekonaniu,<br>
+że złudzenie jest Rzeczywistością?
 
-*Nigdy nie jesteś oddzielony*<br>
-*od  twego Świętego Ojca.*<br>
-*Twoim wyborem jest po  prostu upieranie się, że jesteś.*<br>
-*W  tym rodzi się*<br>
-*i  trwa*<br>
-*wszelkie zmaganie,*<br>
-*wszelki lęk,*<br>
-*wszelkie zwątpienie.*<br>
-*Przeniknij całkowicie tę prawdę,*<br>
-*a  złudzeń już więcej nie będzie.*<br>
-*Czy jeszcze będziemy zwlekać?*
+Nigdy nie jesteś oddzielony<br>
+od  twego Świętego Ojca.<br>
+Twoim wyborem jest po  prostu upieranie się, że jesteś.<br>
+W  tym rodzi się<br>
+i  trwa<br>
+wszelkie zmaganie,<br>
+wszelki lęk,<br>
+wszelkie zwątpienie.<br>
+Przeniknij całkowicie tę prawdę,<br>
+a  złudzeń już więcej nie będzie.<br>
+Czy jeszcze będziemy zwlekać?
 
-*Ojciec czeka*<br>
-*na  powrót Syna*<br>
-*z  cierpliwością zrodzoną*<br>
-*z  niepojętej miłości.*
+Ojciec czeka<br>
+na  powrót Syna<br>
+z  cierpliwością zrodzoną<br>
+z  niepojętej miłości.
 
-*Nie ma  złych zwrotów w  twej podróży,*<br>
-*ani w  niczyjej innej.*<br>
-*Wiesz, że dla świata jest to  szaleństwem,*<br>
-*lecz świat jest szaleństwem.*<br>
-*Uwolnij się od  niego.*
+Nie ma  złych zwrotów w  twej podróży,<br>
+ani w  niczyjej innej.<br>
+Wiesz, że dla świata jest to  szaleństwem,<br>
+lecz świat jest szaleństwem.<br>
+Uwolnij się od  niego.
 
-*Dziś będę mówił krótko,*<br>
-*albowiem to, czym należy się podzielić, jest proste.*<br>
-*Czekam na  ciebie tuż po  drugiej stronie*<br>
-*twego opierania się celowi*<br>
-*darmo danemu*<br>
-*i  przyjętemu.*<br>
-*JAM JEST końcem twego bólu,*<br>
-*którym jest podróż Oddzielenia.*<br>
-*Dzieli cię teraz ode Mnie tylko jeden oddech,*<br>
-*jednak twój opór jest twą ścieżką*<br>
-*do  domu Ojca.*
+Dziś będę mówił krótko,<br>
+albowiem to, czym należy się podzielić, jest proste.<br>
+Czekam na  ciebie tuż po  drugiej stronie<br>
+twego opierania się celowi<br>
+darmo danemu<br>
+i  przyjętemu.<br>
+JAM JEST końcem twego bólu,<br>
+którym jest podróż Oddzielenia.<br>
+Dzieli cię teraz ode Mnie tylko jeden oddech,<br>
+jednak twój opór jest twą ścieżką<br>
+do  domu Ojca.
 
-*W  pełni obejmuj każdą chwilę swego doświadczenia.*<br>
-*Celebruj ją.*<br>
-*To  przyspieszy proces*<br>
-*ostatecznego uwolnienia.*
+W  pełni obejmuj każdą chwilę swego doświadczenia.<br>
+Celebruj ją.<br>
+To  przyspieszy proces<br>
+ostatecznego uwolnienia.
 
-**Listy Jeszuy** *to początek*<br>
-*naszej wspólnej pracy;*<br>
-*twym celem jest pozwolić,*<br>
-*by  ta  praca wniknęła w  tkankę złudzeń,*<br>
-*które trzymają w  sidłach Syna Ojca.*<br>
-*To  jest tworzenie kolejnych drzwi*<br>
-*prowadzących ze  złudzeń do  Rzeczywistości.*
+**Listy Jeszuy** to początek<br>
+naszej wspólnej pracy;<br>
+twym celem jest pozwolić,<br>
+by  ta  praca wniknęła w  tkankę złudzeń,<br>
+które trzymają w  sidłach Syna Ojca.<br>
+To  jest tworzenie kolejnych drzwi<br>
+prowadzących ze  złudzeń do  Rzeczywistości.
 
-*Oświecenie jest nieuniknione.*<br>
-*Zawsze o  tym pamiętaj,*<br>
-*gdy spoglądasz na  swych towarzyszy snu.*<br>
-*Służba Pojednaniu*<br>
-*to  poznanie niewymagającej wysiłku radości*<br>
-*woli Ojca.*<br>
-*Wszystko inne jest tylko opieraniem się temu.*
+Oświecenie jest nieuniknione.<br>
+Zawsze o  tym pamiętaj,<br>
+gdy spoglądasz na  swych towarzyszy snu.<br>
+Służba Pojednaniu<br>
+to  poznanie niewymagającej wysiłku radości<br>
+woli Ojca.<br>
+Wszystko inne jest tylko opieraniem się temu.
 
-*Ja  zawsze jestem tutaj*<br>
-*i  przyłączę się do  ciebie*<br>
-*w  tej najradośniejszej pracy*<br>
-*pojednania chwilowej fantazji*<br>
-*Oddzielenia,*<br>
-*gdy tylko dokonasz wyboru, by  rozpoznać Mnie,*<br>
-*a  nie świat.*
+Ja  zawsze jestem tutaj<br>
+i  przyłączę się do  ciebie<br>
+w  tej najradośniejszej pracy<br>
+pojednania chwilowej fantazji<br>
+Oddzielenia,<br>
+gdy tylko dokonasz wyboru, by  rozpoznać Mnie,<br>
+a  nie świat.
 
-*Pokój tobie.*
+Pokój tobie.
 
-*Amen.*
+Amen.
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -309,122 +307,123 @@ Jeszuy, zwanego Jezusem.
 7 września 1988  r.
 
 <div data-index="1" markdown="1" class="indent">
-*Teraz zaczynamy.*
+Teraz zaczynamy.
 
-*Umiłowani bracia,*<br>
-*chciałbym was prosić, żebyście przystanęli*<br>
-*na  chwilę w  waszym śnie,*<br>
-*tak bym mógł tę chwilę dzielić z  wami.*
+Umiłowani bracia,<br>
+chciałbym was prosić, żebyście przystanęli<br>
+na  chwilę w  waszym śnie,<br>
+tak bym mógł tę chwilę dzielić z  wami.
 
-*Nie zgubiliście Mnie*<br>
-*i  zapewniam,*<br>
-*że i  Ja  was nie zgubiłem.*<br>
-*„Podnieście kamień,*<br>
-*a  znajdziecie Mnie tam”.*<br>
-*Jak długo będziecie chcieli czekać*<br>
-*na  to, co  jest nieuchronne?*<br>
-*Zaprawdę, Śniący przebudzi się.*
+Nie zgubiliście Mnie<br>
+i  zapewniam,<br>
+że i  Ja  was nie zgubiłem.<br>
+„Podnieście kamień,<br>
+a  znajdziecie Mnie tam”.<br>
+Jak długo będziecie chcieli czekać<br>
+na  to, co  jest nieuchronne?<br>
+Zaprawdę, Śniący przebudzi się.
 
-*Zobaczyć nowymi oczami*<br>
-*to  przemienić świat,*<br>
-*który jest całkowicie twym wytworem,*<br>
-*ze  świata ciemności*<br>
-*w  świat Światła.*
+Zobaczyć nowymi oczami<br>
+to  przemienić świat,<br>
+który jest całkowicie twym wytworem,<br>
+ze  świata ciemności<br>
+w  świat Światła.
 
-*By  zobaczyć nowymi oczami,*<br>
-*trzeba tylko, byś porzucił*<br>
-*te postrzeżenia, o  których*<br>
-*już wiesz, że **nie mogą** działać.*<br>
-*Królestwa, którego szukasz,*<br>
-*nie można znaleźć tam, gdzie jesteś.*<br>
-*Jest Ono jednakże*<br>
-*tam, gdzie JAM JEST.*<br>
-*Odległość pomiędzy nami nigdy nie jest*<br>
-*większa od  tego prostego wyboru:*<br>
-*uwolnić się od  niepoczytalnego upierania się*<br>
-*przy oddzieleniu od  swego Świętego Ojca.*
+By  zobaczyć nowymi oczami,<br>
+trzeba tylko, byś porzucił<br>
+te postrzeżenia, o  których<br>
+już wiesz, że **nie mogą** działać.<br>
+Królestwa, którego szukasz,<br>
+nie można znaleźć tam, gdzie jesteś.<br>
+Jest Ono jednakże<br>
+tam, gdzie JAM JEST.<br>
+Odległość pomiędzy nami nigdy nie jest<br>
+większa od  tego prostego wyboru:<br>
+uwolnić się od  niepoczytalnego upierania się<br>
+przy oddzieleniu od  swego Świętego Ojca.
 
-*Ja  jestem Jeszua.*<br>
-*Jestem dla ciebie dostępny, kiedykolwiek*<br>
-*tylko dokonasz wyboru,*<br>
-*by  Mnie poznać.*<br>
-*Nie ma  w  tym najmniejszej trudności,*<br>
-*albowiem jest to  prosty wybór,*<br>
-*by  prawdziwie być tym, kim już jesteś,*<br>
-*a  o  czym zapomniałeś.*<br>
-*Gdy dojdziesz do  poznania Mnie,*<br>
-*zaświta rozpoznanie, że to, czym JAM JEST,*<br>
-*istnieje wszędzie*<br>
-*jako substancja wszystkich rzeczy.*
+Ja  jestem Jeszua.<br>
+Jestem dla ciebie dostępny, kiedykolwiek<br>
+tylko dokonasz wyboru,<br>
+by  Mnie poznać.<br>
+Nie ma  w  tym najmniejszej trudności,<br>
+albowiem jest to  prosty wybór,<br>
+by  prawdziwie być tym, kim już jesteś,<br>
+a  o  czym zapomniałeś.<br>
+Gdy dojdziesz do  poznania Mnie,<br>
+zaświta rozpoznanie, że to, czym JAM JEST,<br>
+istnieje wszędzie<br>
+jako substancja wszystkich rzeczy.
 
-*Gdy dojdziesz do  poznania Mnie,*<br>
-*zaświta rozpoznanie,*<br>
-*że już jesteś wszystkim,*<br>
-*co  Ja  przedstawiam*<br>
-*dla świadomości ludzkości.*<br>
-*Gdy dojdziesz do  poznania Mnie,*<br>
-*zaświta rozpoznanie,*<br>
-*że nie ma  żadnej odległości do  pokonania,*<br>
-*żadnego postępu do  zrobienia,*<br>
-*żadnego błędu do  skorygowania,*<br>
-*za  wyjątkiem jednego:*<br>
-*twego niepoczytalnego postrzegania siebie samego*<br>
-*jako oddzielonego ode Mnie.*
+Gdy dojdziesz do  poznania Mnie,<br>
+zaświta rozpoznanie,<br>
+że już jesteś wszystkim,<br>
+co  Ja  przedstawiam<br>
+dla świadomości ludzkości.<br>
+Gdy dojdziesz do  poznania Mnie,<br>
+zaświta rozpoznanie,<br>
+że nie ma  żadnej odległości do  pokonania,<br>
+żadnego postępu do  zrobienia,<br>
+żadnego błędu do  skorygowania,<br>
+za  wyjątkiem jednego:<br>
+twego niepoczytalnego postrzegania siebie samego<br>
+jako oddzielonego ode Mnie.
 
-*Jesteś podobny do  bogacza,*<br>
-*który podróżuje z  sakiewką*<br>
-*pełną klejnotów i  złotych monet,*<br>
-*ciągle szukając skarbu,*<br>
-*będąc przekonanym, że ów gdzieś na  niego czeka,*<br>
-*a  zapominając o  sakiewce, którą ściska*<br>
-*mocno w  dłoni.*
+Jesteś podobny do  bogacza,<br>
+który podróżuje z  sakiewką<br>
+pełną klejnotów i  złotych monet,<br>
+ciągle szukając skarbu,<br>
+będąc przekonanym, że ów gdzieś na  niego czeka,<br>
+a  zapominając o  sakiewce, którą ściska<br>
+mocno w  dłoni.
 
-*Zastanów się nad tym obrazem*<br>
-*i  pozwól, by  przemienił twe postrzeganie,*<br>
-*albowiem jest to  bardzo wierny obraz*<br>
-*tego, kim postanowiłeś być.*<br>
-*Jesteś w  pełni wolny, by  dokonać tego wyboru ponownie.*<br>
+Zastanów się nad tym obrazem<br>
+i  pozwól, by  przemienił twe postrzeganie,<br>
+albowiem jest to  bardzo wierny obraz<br>
+tego, kim postanowiłeś być.<br>
+Jesteś w  pełni wolny, by  dokonać tego wyboru ponownie.<br>
 
-*Pamiętaj zawsze,*<br>
-*że prawda o  Królestwie jest całkowicie poza*<br>
-*możliwościami twego świata.*
+Pamiętaj zawsze,<br>
+że prawda o  Królestwie jest całkowicie poza<br>
+możliwościami twego świata.
 
-*Dlatego też*<br>
-*nie szukaj przewodnictwa w  świecie,*<br>
-*albowiem on nie może cię poprowadzić*<br>
-*do  tego, co  znajduje się poza światem:*<br>
-*do  Królestwa*<br>
-*i  do  skarbu, którego szukasz*<br>
-*we  wszystkich swych tęsknotach.*<br>
-*Jestem zawsze z  wami,*<br>
-*choć rzadko Mnie rozpoznajecie.*<br>
-*Jestem samym sercem tego, czym wy*<br>
-*zawsze jesteście,*<br>
-*choć walczycie, by  temu zaprzeczyć.*
+Dlatego też<br>
+nie szukaj przewodnictwa w  świecie,<br>
+albowiem on nie może cię poprowadzić<br>
+do  tego, co  znajduje się poza światem:<br>
+do  Królestwa<br>
+i  do  skarbu, którego szukasz<br>
+we  wszystkich swych tęsknotach.<br>
+Jestem zawsze z  wami,<br>
+choć rzadko Mnie rozpoznajecie.<br>
+Jestem samym sercem tego, czym wy<br>
+zawsze jesteście,<br>
+choć walczycie, by  temu zaprzeczyć.
 
-*Kiedy uwolnisz się od  Snu*<br>
-*–  który jest całkowicie niepoczytalny –*<br>
-*pozostanie jedynie*<br>
-*Rzeczywistość tego, kim jesteś.*
+Kiedy uwolnisz się od  Snu<br>
+–  który jest całkowicie niepoczytalny –<br>
+pozostanie jedynie<br>
+Rzeczywistość tego, kim jesteś.
 
-*Tutaj jest koniec*<br>
-*twej podróży.*<br>
-*Tutaj jest pokój.*<br>
-*Tutaj JAM JEST.*<br>
-*Chodź do  domu, do  Mnie.*<br>
-*Chodź do  domu, do  prawdziwego Siebie,*<br>
-*i  świętuj ze  Mną ten jeden fakt:*<br>
-*„Ja  i  Mój Ojciec Jedno jesteśmy”.*
+Tutaj jest koniec<br>
+twej podróży.<br>
+Tutaj jest pokój.<br>
+Tutaj JAM JEST.<br>
+Chodź do  domu, do  Mnie.<br>
+Chodź do  domu, do  prawdziwego Siebie,<br>
+i  świętuj ze  Mną ten jeden fakt:<br>
+„Ja  i  Mój Ojciec Jedno jesteśmy”.
 
-*Pokój niech będzie z  wami,*<br>
-*Moi umiłowani bracia.*<br>
-*Nie tak jak daje świat,*<br>
-*Ja  wam daję.*<br>
-*Jednak Moje dawanie jest tylko<br>**twym** dawaniem samemu sobie.*
+Pokój niech będzie z  wami,<br>
+Moi umiłowani bracia.<br>
+Nie tak jak daje świat,<br>
+Ja  wam daję.<br>
+Jednak Moje dawanie jest tylko<br>
+**twym** dawaniem samemu sobie.
 
-*Kiedy dokonasz wyboru, by  to  zaakceptować?*
+Kiedy dokonasz wyboru, by  to  zaakceptować?
 
-*Amen.*
+Amen.
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -433,135 +432,135 @@ Jeszuy, zwanego Jezusem.
 4 października 1988  r.
 
 <div data-index="1" markdown="1" class="indent">
-*Teraz zaczynamy.*
+Teraz zaczynamy.
 
-*Tym razem*<br>
-*przychodzę do  ciebie*<br>
-*nie bez dużego wahania.*<br>
-*Wahanie to  pojawia się, ponieważ*<br>
-*znów narasta w  tobie opór,*<br>
-*choć na  bardzo subtelnych poziomach.*
+Tym razem<br>
+przychodzę do  ciebie<br>
+nie bez dużego wahania.<br>
+Wahanie to  pojawia się, ponieważ<br>
+znów narasta w  tobie opór,<br>
+choć na  bardzo subtelnych poziomach.
 
-*W  trakcie tej decydującej przemiany*<br>
-*przysuwasz się bliżej niż kiedykolwiek wcześniej*<br>
-*do  rozpłynięcia się we  Mnie.*<br>
-*Jest to  czas o  decydującym znaczeniu,*<br>
-*albowiem ego*<br>
-*–  nawyk oddzielenia –*<br>
-*powstanie raz jeszcze w  swej nieugiętości,*<br>
-*by  do  tego nie dopuścić.*<br>
-*Świadomemu umysłowi **wydaje się**,*<br>
-*że wszystko jest dobrze,*<br>
-*jednak na  bardzo subtelnych,*<br>
-*bardzo głębokich poziomach,*<br>
-*zapewniam cię, że nie jest.*
+W  trakcie tej decydującej przemiany<br>
+przysuwasz się bliżej niż kiedykolwiek wcześniej<br>
+do  rozpłynięcia się we  Mnie.<br>
+Jest to  czas o  decydującym znaczeniu,<br>
+albowiem ego<br>
+–  nawyk oddzielenia –<br>
+powstanie raz jeszcze w  swej nieugiętości,<br>
+by  do  tego nie dopuścić.<br>
+Świadomemu umysłowi **wydaje się**,<br>
+że wszystko jest dobrze,<br>
+jednak na  bardzo subtelnych,<br>
+bardzo głębokich poziomach,<br>
+zapewniam cię, że nie jest.
 
-*Dlatego też*<br>
-*wahałem się z  przyjściem,*<br>
-*albowiem było możliwe, że opór*<br>
-*znów stanie się twym nawykowym wyborem,*<br>
-*odbudowując w  ten sposób ów mur,*<br>
-*nad rozebraniem którego tak pilnie pracowaliśmy.*
+Dlatego też<br>
+wahałem się z  przyjściem,<br>
+albowiem było możliwe, że opór<br>
+znów stanie się twym nawykowym wyborem,<br>
+odbudowując w  ten sposób ów mur,<br>
+nad rozebraniem którego tak pilnie pracowaliśmy.
 
-*Cieszę się, że –*<br>
-*w  najbardziej decydującym momencie tego kontaktu –*<br>
-*wybrałeś w  swej duszy otwarcie się na  Mnie.*<br>
-*Właśnie w  tym momencie*<br>
-*pojawiła ci się jasna wizja Światła*<br>
-*i  zobaczyłeś różne obrazy,*<br>
-*dające rozpoznanie Mojej obecności.*
+Cieszę się, że –<br>
+w  najbardziej decydującym momencie tego kontaktu –<br>
+wybrałeś w  swej duszy otwarcie się na  Mnie.<br>
+Właśnie w  tym momencie<br>
+pojawiła ci się jasna wizja Światła<br>
+i  zobaczyłeś różne obrazy,<br>
+dające rozpoznanie Mojej obecności.
 
-*Jesteś niczym wojownik*<br>
-*toczący swą ostatnią bitwę.*<br>
-*„Wrogowie” przybierają subtelniejsze formy*<br>
-*i  mogą ujść niezauważeni.*<br>
-*To  Ja  mówiłem do  ciebie dziś rano,*<br>
-*sugerując, byś wstał.*<br>
-*Wielką prawdą jest, że otwartość na  prowadzenie*<br>
-*jest najbardziej obecna*<br>
-*wcześnie rano.*<br>
-*Odrobina senności,*<br>
-*mógłbym tu  dodać,*<br>
-*zwiększa tę otwartość.*
+Jesteś niczym wojownik<br>
+toczący swą ostatnią bitwę.<br>
+„Wrogowie” przybierają subtelniejsze formy<br>
+i  mogą ujść niezauważeni.<br>
+To  Ja  mówiłem do  ciebie dziś rano,<br>
+sugerując, byś wstał.<br>
+Wielką prawdą jest, że otwartość na  prowadzenie<br>
+jest najbardziej obecna<br>
+wcześnie rano.<br>
+Odrobina senności,<br>
+mógłbym tu  dodać,<br>
+zwiększa tę otwartość.
 
-*Jedź jutro w  góry.*<br>
-*Nie pozwól, by  „powinności”*<br>
-*twego złudzenia były ważniejsze.*<br>
-*Emocje, jakie odczuwasz*<br>
-*od  wczoraj wieczorem,*<br>
-*są wynikiem twego wyparcia się Mnie.*<br>
-*Dobrze o  tym wiesz.*
+Jedź jutro w  góry.<br>
+Nie pozwól, by  „powinności”<br>
+twego złudzenia były ważniejsze.<br>
+Emocje, jakie odczuwasz<br>
+od  wczoraj wieczorem,<br>
+są wynikiem twego wyparcia się Mnie.<br>
+Dobrze o  tym wiesz.
 
-*Dokonałeś wyboru, by  uczestniczyć*<br>
-*w  przynoszeniu*<br>
-*wiedzy tak wzniosłej,*<br>
-*tak prostej,*<br>
-*że aż wydaje się ona niemożliwa do  zrozumienia.*<br>
-*Jest to  wiedza **pełnego** życia w  Chrystusie.*
+Dokonałeś wyboru, by  uczestniczyć<br>
+w  przynoszeniu<br>
+wiedzy tak wzniosłej,<br>
+tak prostej,<br>
+że aż wydaje się ona niemożliwa do  zrozumienia.<br>
+Jest to  wiedza **pełnego** życia w  Chrystusie.
 
-*Jeszcze raz*<br>
-*powtarzam, że jest to*<br>
-*przełomowy dla ciebie czas.*<br>
-*Nie wahaj się na  swej ścieżce.*<br>
-*Cały wszechświat wyrusza, by  cię wesprzeć w  tym czasie,*<br>
-*a  gdy to  czyni,*<br>
-*w  dowolnym momencie i  miejscu,*<br>
-*dusza staje na  skraju*<br>
-*pełnego przebudzenia.*
+Jeszcze raz<br>
+powtarzam, że jest to<br>
+przełomowy dla ciebie czas.<br>
+Nie wahaj się na  swej ścieżce.<br>
+Cały wszechświat wyrusza, by  cię wesprzeć w  tym czasie,<br>
+a  gdy to  czyni,<br>
+w  dowolnym momencie i  miejscu,<br>
+dusza staje na  skraju<br>
+pełnego przebudzenia.
 
-*Nie pozwalaj, by  twój nawyk*<br>
-*–  zrodzony z  Oddzielenia –*<br>
-*wymusił jeszcze jedno odrzucenie tego wsparcia.*<br>
-*W  takim stopniu, w  jakim dopuszczasz wsparcie,*<br>
-*w  takim stopniu wsparcie jest dane.*<br>
-*Taka jest szczodrość stołu Ojca.*
+Nie pozwalaj, by  twój nawyk<br>
+–  zrodzony z  Oddzielenia –<br>
+wymusił jeszcze jedno odrzucenie tego wsparcia.<br>
+W  takim stopniu, w  jakim dopuszczasz wsparcie,<br>
+w  takim stopniu wsparcie jest dane.<br>
+Taka jest szczodrość stołu Ojca.
 
-*Nasz dzisiejsza komunikacja* <br>
-*nie przynosi żadnego nowego nauczania.*<br>
-*To, co  zostało dane jako **Listy Jeszuy**,*<br>
-*jest teraz zakończone.*<br>
-*Ukończenie tego projektu jest teraz nieuniknione.*<br>
-*Następnie przyjdą*<br>
-*konkretne wskazówki od  nas,*<br>
-*a  Ja  będę kontynuował udoskonalanie tego Nauczania,*<br>
-*tak jak będzie to  wymagane*<br>
-*dla korzyści wielu poziomów*<br>
-*ludzkiej świadomości.*
+Nasz dzisiejsza komunikacja <br>
+nie przynosi żadnego nowego nauczania.<br>
+To, co  zostało dane jako **Listy Jeszuy**,<br>
+jest teraz zakończone.<br>
+Ukończenie tego projektu jest teraz nieuniknione.<br>
+Następnie przyjdą<br>
+konkretne wskazówki od  nas,<br>
+a  Ja  będę kontynuował udoskonalanie tego Nauczania,<br>
+tak jak będzie to  wymagane<br>
+dla korzyści wielu poziomów<br>
+ludzkiej świadomości.
 
-*Jutro,*<br>
-*kiedy pojedziesz w  góry,*<br>
-*nawiążesz kontakt*<br>
-*z  istotą*<br>
-*–  duszą –*<br>
-*która zacznie przekazywać ci*<br>
-*mądrość ziemi,*<br>
-*o  którą prosiłeś.*
+Jutro,<br>
+kiedy pojedziesz w  góry,<br>
+nawiążesz kontakt<br>
+z  istotą<br>
+–  duszą –<br>
+która zacznie przekazywać ci<br>
+mądrość ziemi,<br>
+o  którą prosiłeś.
 
-*Marc,*<br>
-*wyraźnie widzę twe niedowierzanie.*<br>
-*„Boże, jeszcze jeden?!” – myślisz sobie.*<br>
-*Czy nie nastał już czas, byś po  prostu*<br>
-*był tym, co  wybrałeś:*<br>
-*posłańcem serca,*<br>
-*otwierającym, przyjmującym i  dzielącym się*<br>
-*mądrością doskonałej wiedzy,*<br>
-*po  to, by  pomóc w  budzeniu się człowieka?*
+Marc,<br>
+wyraźnie widzę twe niedowierzanie.<br>
+„Boże, jeszcze jeden?!” – myślisz sobie.<br>
+Czy nie nastał już czas, byś po  prostu<br>
+był tym, co  wybrałeś:<br>
+posłańcem serca,<br>
+otwierającym, przyjmującym i  dzielącym się<br>
+mądrością doskonałej wiedzy,<br>
+po  to, by  pomóc w  budzeniu się człowieka?
 
-*To  nie jest jakaś wielka rzecz,*<br>
-*lecz najprostsza z  najprostszych:*<br>
-*nieuchronne zakończenie dramatu*<br>
-*Oddzielenia,*<br>
-*albowiem ostatecznie nie można zaprzeczyć Światłu.*
+To  nie jest jakaś wielka rzecz,<br>
+lecz najprostsza z  najprostszych:<br>
+nieuchronne zakończenie dramatu<br>
+Oddzielenia,<br>
+albowiem ostatecznie nie można zaprzeczyć Światłu.
 
-*Już wkrótce*<br>
-*świadomość człowieka*<br>
-*skąpie się w  chwale pamięci Syna.*
+Już wkrótce<br>
+świadomość człowieka<br>
+skąpie się w  chwale pamięci Syna.
 
-*Raduj się*<br>
-*i  pozwól, by  twój powrót do  Światła*<br>
-*się dokonał.*
+Raduj się<br>
+i  pozwól, by  twój powrót do  Światła<br>
+się dokonał.
 
-*Amen.*
+Amen.
 </div>
 
 Udaje mi  się dotrzeć do  Kendry, gdy ta  właśnie wyjeżdża z  podjazdu na  ulicę, by  ruszyć w  swą rutynową godzinną jazdę do  pracy.

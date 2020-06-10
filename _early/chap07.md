@@ -2,8 +2,7 @@
 title: "Znaczenie Wniebowstąpienia"
 ---
 
-<div markdown="1" align="center">
-
+<div markdown="1" class="chHead">
 # Znaczenie wniebowstąpienia
 
 ![znaczek]({{page.big-separator}})
