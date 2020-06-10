@@ -1,10 +1,9 @@
 ---
 title: "Przedmowa Alana Cohena"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead"> 
 ## Przedmowa Alana Cohena
-
 </div>
 
 Czy wierzysz, że mógłby do ciebie przemówić Bóg? Zadziwia mnie, że
@@ -99,4 +98,3 @@ do wewnątrz i tam odkrycie mistrza, którego szukaliśmy.
 Błogosławię Jayema za jego wielki i szlachetny dar, i ciebie za
 przyjęcie wielkich prawd, jakie ten dar zawiera.
 
-&nbsp;

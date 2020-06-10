@@ -2,12 +2,11 @@
 title: "Księga Pierwsza"
 ---
 
-<div markdown="1" align="center">
-&nbsp;
+<div markdown="1" class="chHead">
+
 ## *Księga Pierwsza*
 
 ![znaczek]({{page.big-separator}})
-
 {: .omit}
 
 </div>
@@ -103,8 +102,7 @@ Jak było na początku<br>
 teraz<br>
 i na wieki.
 
- ![znaczek]({{page.little-separator}})
-
+![znaczek]({{page.little-separator}})
 {: .omit}
 
 <p markdown="1" class="top"><span class="dropcaps">P</span>*rzebudzone* Serce<br>
@@ -656,8 +654,9 @@ jego ostateczną i całkowitą<br>
 ![znaczek]({{page.little-separator}})
 {: .omit}
 
-> *Tak ostatni będą pierwszymi,* <br>
-> *a pierwsi ostatnimi.*
+*Tak ostatni będą pierwszymi,*<br>
+*a pierwsi ostatnimi.*
+{: .center}
 
 I teraz<br>
 śniący odchodzi na spoczynek.<br>
@@ -830,4 +829,3 @@ Kto ma uszy,<br>
 
 I wszystko *stało się* nowe.
 
-&nbsp;

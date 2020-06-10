@@ -1,6 +1,7 @@
 import {pageDriver, pageNavigationDriver, transcriptDriver} from "../_util/driver";
 import key from "../_config/key";
 import clipboard from "www/modules/_bookmark/clipboard";
+import {getString} from "../_language/lang";
 
 function createClickHandlers() {
   //help menu
@@ -64,7 +65,7 @@ export default {
     //get pagekey and setup copy to clipboard
     if ($(".copy-page-key").length > 0) {
       let pageKey = key.genPageKey();
-      $(".copy-page-key").attr("data-clipboard-text", pageKey).text(`Key: ${pageKey}`);
+      $(".copy-page-key").attr("data-clipboard-text", pageKey).text(`${getString("label:key")}: ${pageKey}`);
       clipboard.register(".copy-page-key");
     }
   }

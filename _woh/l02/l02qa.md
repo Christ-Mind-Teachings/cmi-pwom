@@ -1,11 +1,10 @@
 ---
 title: "Lekcja 2. Pytania i odpowiedzi"
 ---
-&nbsp;
-<div markdown="1" align="center"> 
-## Lekcja 2<br>
-**Pytania i odpowiedzi**
 
+<div markdown="1" align="center"> 
+## Lekcja 2
+**Pytania i odpowiedzi**
 </div>
 
 ## Pytanie 1
@@ -88,4 +87,3 @@ Tego rodzaju wypowiedzi wcale nie pochodzą od Niej.
 
 I zaprawdę, tak jak niegdyś, Duszę tę darzę głęboką miłością i uważam za promienny przykład tego, czym może stać się świadomość.
 
-&nbsp;

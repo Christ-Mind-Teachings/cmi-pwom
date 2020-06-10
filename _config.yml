@@ -1,15 +1,16 @@
 # CMI
 #destination: "../cmi-www/_site/t/pwom"
 
+sourceId: 16
 environment: standalone
 
-sourceId: 16
 cmiTitle: "Nauki Umysłu Chrystusa"
+siteName: "Biblioteka Nauk Umysłu Chrystusa"
 
 # Setup
 title:        'Droga Mistrzostwa'
 tagline:      'Now, we begin...'
-description:  'A pathway of awakening from Jeshua through Jon Marc Hammer (Jayem)'
+description:  'Ścieżka przebudzenia dana przez Jeszuę w komunii z Jayemem (Jon Marc Hammer)'
 url:          'https://www.christmind.info/t/pwom'
 baseurl:      ''
 keywords:     "Christ Mind, Way of Mastery, Jeshua, Jayem, Way of the Heart, Way of Transformation, Way of Knowing"
@@ -36,6 +37,8 @@ markdown: kramdown
 
 # Collections for transcripts
 collections:
+  notes:
+    output: true
   lj:
     output: true
     title: Listy Jeszuy

@@ -5,10 +5,12 @@
 import scroll from "scroll-into-view";
 import store from "store";
 import notify from "toastr";
+import constants from "../../constants";
+import {getString} from "../_language/lang";
 const page = require("../_config/key");
 
-const queryResultName = "search.wom.result";
-const url_prefix = "/t/wom";
+const queryResultName = `search.${constants.sid}.result`;
+const url_prefix = constants.env === "standalone"?"/":constants.url_prefix;
 
 const SCROLL_INTERVAL = 250;
 
@@ -46,7 +48,7 @@ class PageMatches {
 
   setTitle() {
     let pos = this.current - this.start + 1;
-    let title = `Search for <em>${this.query}</em> (${pos} of ${this.count})`;
+    let title = `${getString("label:l4")} <em>${this.query}</em> (${pos} ${getString("label:l5")} ${this.count})`;
 
     $(".search-navigator-header-query").html(title);
   }
@@ -212,7 +214,7 @@ function initControls(pid) {
   let lastSearch = store.get(queryResultName);
 
   if (!lastSearch) {
-    notify.warning("There are no search results to show.");
+    notify.warning(getString("notify:n9"));
     return;
   }
 
@@ -225,7 +227,7 @@ function initControls(pid) {
 
   //when ?srch=p2 and p2 does not contain a search hit
   if (!lastSearch.pageInfo[pageKey]) {
-    notify.warning(`There is no search result at ${pid}`);
+    notify.warning(`${getString("notify:n10")} ${pid}`);
     return;
   }
 
@@ -234,7 +236,7 @@ function initControls(pid) {
 
   //check that requested search hit is valid
   if (hitPositions.current === -1) {
-    notify.warning(`There is no search result at ${pid}`);
+    notify.warning(`${getString("notify:n10")} ${pid}`);
     return;
   }
 
@@ -269,7 +271,7 @@ function initControls(pid) {
 
   let markFail = markSearchHits(lastSearch.flat, hitPositions.start, hitPositions.end, lastSearch.query, "show");
   if (markFail) {
-    notify.info(`Failed to hilight ${markFail} search results`);
+    notify.info(`${getString("notify:n11")} ${markFail} ${getString("notify:n12")}`);
   }
   initClickListeners(matches);
 

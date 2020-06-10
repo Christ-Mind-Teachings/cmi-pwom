@@ -1,12 +1,10 @@
 ---
 title: "Przedmowa"
 ---
-&nbsp;
+
 <div markdown="1" align="center"> 
 ## Przedmowa
-&nbsp;
 </div>
-
 
 Piszę do ciebie z nieco dziwnego miejsca. Z jednej strony byłem kanałem, przez który płynęły te głębokie, niezwykłe i transformujące nauki jako błogosławieństwo dla nas wszystkich. Jednocześnie ja sam nieustannie je przerabiam i jestem uczniem Istoty, która dała je nam wszystkim – uczniem Jeszuy, syna Józefa, który na Zachodzie bardziej znany jest jako „Jezus”, a które to imię jest transliteracją jego oryginalnego aramejskiego imienia.
 
@@ -47,7 +45,6 @@ Teraz wszystko zależy od ciebie. Niech Bóg cię błogosławi, abyś poznał pr
 
 Niech płyną potoki radości!
 
-Jayem
+Jayem<br>
 Maj, 2011 r.
 
-&nbsp;

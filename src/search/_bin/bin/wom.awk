@@ -11,7 +11,10 @@ function discardParagraph(p) {
   if (n = match(p,/^[Aa]men/) > 0) {
     return 2
   }
-  if (n = match(p,/[Nn]ow.*we.*begin\.$/) > 0) {
+  if (n = match(p,/[Tt]eraz zaczynamy\.$/) > 0) {
+    return 3
+  }
+  if (n = match(p,/[Pp]ytania i odpowiedzi/) > 0) {
     return 3
   }
   if (n = match(p,/^[Nn]o$/) > 0) {
@@ -80,6 +83,10 @@ $1 ~ /##/ {
   omit = 1
   next
 }
+# opening or closing div
+/^<div/ || /^<\/div/ {
+  next
+}
 /^$/ || /^>$/ || /^>\s*$/ {
 
   # discard paragraphs when omit is true
@@ -120,7 +127,7 @@ $1 ~ /##/ {
       # remove <span></span> 
       gsub(/<\/?span[^>]*>/,"",raw)
       # remove punctuation
-      gsub(/[\[\])(*>.,!?;:’'"“”/\\]/,"",raw)
+      gsub(/[\[\])(*>.,!?;:’'"“”„–/\\]/,"",raw)
       #remove 0xa0
       gsub(/ /,"",raw)
       # convert dash to space 

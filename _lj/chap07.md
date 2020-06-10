@@ -187,9 +187,8 @@ których czuję coraz większe ciepło. Przez całą drogę powrotną do  Tacomy
 odczuwam wyraźną radość. Czasami wyciągam rękę i  muskam dłonią leżące
 obok książki, uśmiechając się do  siebie.
 
-<div markdown="1" align="center">
+<div markdown="1" class="centered-header">
 ### WSZYSTKO JEST TAK, JAK BYĆ POWINNO. UFAJ.
-
 </div>
 
 Gdy jestem z  powrotem w  mieszkaniu, siadam w  salonie skąpanym w

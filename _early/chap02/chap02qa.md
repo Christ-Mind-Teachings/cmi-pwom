@@ -1,13 +1,10 @@
 ---
 title: "Pytania i odpowiedzi"
 ---
-&nbsp;
-<div markdown="1" align="center">
 
+<div markdown="1" class="chHead">
 # Mistrzostwo komunikacji
-
 ## Pytania i odpowiedzi
-
 </div>
 
 ## Pytanie 1
@@ -34,4 +31,3 @@ Czy pomaga ci to w odniesieniu do tych dwóch zdań, które „ktoś" musiał we
 
 Umiłowany przyjacielu, im dalej wkraczasz w Boga, tym więcej musisz się śmiać.
 
-&nbsp;

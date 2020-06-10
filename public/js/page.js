@@ -168,14 +168,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var www_modules_page_startup__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! www/modules/_page/startup */ "../cmi-www/src/js/modules/_page/startup.js");
 /* harmony import */ var www_modules_page_notes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! www/modules/_page/notes */ "../cmi-www/src/js/modules/_page/notes.js");
 /* harmony import */ var www_modules_util_url__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! www/modules/_util/url */ "../cmi-www/src/js/modules/_util/url.js");
-/* harmony import */ var _modules_bookmark_start__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/_bookmark/start */ "./src/js/modules/_bookmark/start.js");
-/* harmony import */ var _modules_search_search__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/_search/search */ "./src/js/modules/_search/search.js");
-/* harmony import */ var _modules_contents_toc__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/_contents/toc */ "./src/js/modules/_contents/toc.js");
-/* harmony import */ var _modules_about_about__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/_about/about */ "./src/js/modules/_about/about.js");
-/* harmony import */ var _notes__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./notes */ "./src/js/notes.js");
-/* harmony import */ var _setEnv__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./setEnv */ "./src/js/setEnv.js");
+/* harmony import */ var www_modules_language_lang__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! www/modules/_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var _modules_bookmark_start__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/_bookmark/start */ "./src/js/modules/_bookmark/start.js");
+/* harmony import */ var _modules_search_search__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/_search/search */ "./src/js/modules/_search/search.js");
+/* harmony import */ var _modules_contents_toc__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/_contents/toc */ "./src/js/modules/_contents/toc.js");
+/* harmony import */ var _modules_about_about__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/_about/about */ "./src/js/modules/_about/about.js");
+/* harmony import */ var _notes__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./notes */ "./src/js/notes.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
+/* harmony import */ var _setEnv__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./setEnv */ "./src/js/setEnv.js");
 /* eslint no-console: off */
 //common modules
+
 
 
 
@@ -187,15 +190,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 $(document).ready(() => {
   Object(www_modules_page_startup__WEBPACK_IMPORTED_MODULE_1__["initStickyMenu"])();
-  Object(_setEnv__WEBPACK_IMPORTED_MODULE_9__["setRuntimeEnv"])();
-  Object(_modules_bookmark_start__WEBPACK_IMPORTED_MODULE_4__["bookmarkStart"])("page");
-  _modules_search_search__WEBPACK_IMPORTED_MODULE_5__["default"].initialize();
+  Object(www_modules_language_lang__WEBPACK_IMPORTED_MODULE_4__["setLanguage"])(_constants__WEBPACK_IMPORTED_MODULE_10__["default"]);
+  Object(_setEnv__WEBPACK_IMPORTED_MODULE_11__["setRuntimeEnv"])();
+  Object(_modules_bookmark_start__WEBPACK_IMPORTED_MODULE_5__["bookmarkStart"])("page");
+  _modules_search_search__WEBPACK_IMPORTED_MODULE_6__["default"].initialize();
   www_modules_user_netlify__WEBPACK_IMPORTED_MODULE_0__["default"].initialize();
-  _modules_contents_toc__WEBPACK_IMPORTED_MODULE_6__["default"].initialize("page");
-  Object(www_modules_page_notes__WEBPACK_IMPORTED_MODULE_2__["initialize"])(_notes__WEBPACK_IMPORTED_MODULE_8__["noteInfo"]);
-  _modules_about_about__WEBPACK_IMPORTED_MODULE_7__["default"].initialize();
+  _modules_contents_toc__WEBPACK_IMPORTED_MODULE_7__["default"].initialize("page");
+  Object(www_modules_page_notes__WEBPACK_IMPORTED_MODULE_2__["initialize"])(_notes__WEBPACK_IMPORTED_MODULE_9__["noteInfo"]);
+  _modules_about_about__WEBPACK_IMPORTED_MODULE_8__["default"].initialize();
   Object(www_modules_page_startup__WEBPACK_IMPORTED_MODULE_1__["initAnimation"])();
   Object(www_modules_util_url__WEBPACK_IMPORTED_MODULE_3__["showTOC"])();
 });

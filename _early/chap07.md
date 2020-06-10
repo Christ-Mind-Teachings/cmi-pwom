@@ -1,7 +1,7 @@
 ---
 title: "Znaczenie Wniebowstąpienia"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
 
 # Znaczenie wniebowstąpienia
@@ -275,4 +275,3 @@ Pokój Synowi Bożemu, który podejmuje decyzję, aby podjąć sprawy Nieba i po
 
 Niech pokój będzie z tobą. A teraz&hellip;AMEN.
 
-&nbsp;

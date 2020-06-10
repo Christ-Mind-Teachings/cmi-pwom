@@ -1,13 +1,10 @@
 ---
 title: "Lekcja 12. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
-## Lekcja 12<br>
+## Lekcja 12
 **Pytania i odpowiedzi**
-
-
-
 </div>
 
 ## Pytanie 1
@@ -138,4 +135,3 @@ A będzie tak z jednego tylko powodu: abyście mogli zastosować do tych pytań 
 
 Bardzo dobrze więc, tak jak powiedziałaś: Amen.
 
-&nbsp;

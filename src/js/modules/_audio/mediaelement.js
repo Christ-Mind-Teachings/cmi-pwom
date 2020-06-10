@@ -119,25 +119,11 @@ function setEventListeners(player, userStatus, haveTimingData) {
     player.media.addEventListener("ptoggle", function() {
       if (togglePlayFromHere()) {
         $(".mejs__ptoggle").addClass("mejs-ptoggle-visible").removeClass("mejs-ptoggle-hidden");
-      }      
+      }
       else {
         $(".mejs__ptoggle").addClass("mejs-ptoggle-hidden").removeClass("mejs-ptoggle-visible");
       }
     });
-
-    /* don't think we need this when we have timing data
-    //get notified when seek start
-    player.media.addEventListener("seeking", function() {
-      var time = player.getCurrentTime();
-      focus.setSeeking(time);
-    });
-
-    //get notified when seek ended
-    player.media.addEventListener("seeked", function() {
-      var time = player.getCurrentTime();
-      focus.setSeeked(time);
-    });
-    */
 
     player.media.addEventListener("prevp", function() {
       switchToParagraph("PREV");
@@ -186,7 +172,7 @@ function getUserStatus() {
 
   //no reservation, the user is a timer
   if (!reservation) {
-    return "TIMER";  
+    return "TIMER";
   }
 
   //check if reservation is for the user

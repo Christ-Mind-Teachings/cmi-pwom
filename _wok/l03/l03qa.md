@@ -1,16 +1,14 @@
 ---
 title: "Lekcja 3. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center"> 
-## Lekcja 3<br>
+## Lekcja 3
 **Pytania i odpowiedzi**
 
 </div>
 
-
-
-**Pytanie 1**
+## Pytanie 1
 
 ***Pytanie***: W jaki sposób mam nie zachowywać ani jednej miłości dla siebie, a jednak nadal siebie kochać?
 
@@ -58,7 +56,7 @@ Dlatego też, zaprawdę, umiłowany przyjacielu, dobrze przemyśl to, czym się 
 
 To powinno wystarczyć na teraz.
 
-**Pytanie 2**
+## Pytanie 2
 
 ***Pytanie:*** Skoro nie wiemy, czego potrzebują nasi bracia i siostry, czy możliwe jest, że Duch Święty może poprowadzić nas tak, byśmy mówili i robili rzeczy, które wywołają ostrą reakcję innych, tak jak w Twoim przypadku, gdy krzyczałeś i rozgniewałeś się na bankierów? Czy prawdą jest, że nie jesteśmy w stanie mieć wpływu na to, jak przewodnictwo Ducha Świętego będzie brzmiało lub wyglądało dla innych?
 
@@ -118,4 +116,3 @@ I na tym kończymy, zaprawdę,
 
 Amen.
 
-&nbsp;

@@ -1,13 +1,10 @@
 ---
 title: "Lekcja 11. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
-## Lekcja 11<br>
+## Lekcja 11
 **Pytania i odpowiedzi**
-
-
-
 </div>
 
 ## Pytanie 1
@@ -134,4 +131,3 @@ I gdy złość ustąpi, *zawsze*, *zawsze*, *zawsze* obejmij je -- przynajmniej 
 
 Przestańcie -- wszyscy na tej planecie, którzy słyszą te słowa -- *przestańcie traktować dzieci jak nieudolnych ludzi drugiej kategorii*. *Ich świadomość jest czysta i jasna!* Mówcie do nich jak dorośli. W swym związku z nimi żyjcie jak dojrzali dorośli. Spróbuj tego, umiłowany przyjacielu. Wyniesiesz z tego wiele, jeśli tylko będziesz pielęgnował skarb przekazany w tych słowach.
 
-&nbsp;

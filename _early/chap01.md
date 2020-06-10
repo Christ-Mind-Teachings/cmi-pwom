@@ -1,13 +1,12 @@
 ---
 title: "Miłość uzdrawia wszystko"
 ---
-&nbsp;
-<div markdown="1" align="center">
+
+<div markdown="1" class="chHead">
 # Miłość uzdrawia wszystko
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
-
 </div>
 
 Teraz zaczynamy.
@@ -44,7 +43,12 @@ Dlatego proszę cię, wyświadcz mi wielką przysługę. Jeśli zamierzasz się 
 
 Tak naprawdę to nie jest zbyt skomplikowane. Po przesłuchaniu tego przesłania kilka tysięcy razy odkryjesz: „Acha, mam nauczać jedynie Miłości!". To jest to samo przesłanie -- wiele form o tej samej treści: „Nauczaj jedynie Miłości, ponieważ nią jesteś. Nauczaj jedynie Miłości, ponieważ nią jesteś".
 
-> -- „Ojcze, co powinienem zrobić w tej chwili?" <br>-- „Nauczaj jedynie Miłości, ponieważ nią jesteś".<br> -- „Czy mam pójść tutaj czy tam?"<br> -- „Posłuchaj Miłości, niech ona cię poprowadzi".
+<div markdown="1" class="indent">
+-- Ojcze, co powinienem zrobić w tej chwili?<br>
+-- Nauczaj jedynie Miłości, ponieważ nią jesteś.<br>
+-- Czy mam pójść tutaj czy tam?<br>
+-- Posłuchaj Miłości, niech ona cię poprowadzi.
+</div>
 
 Bądź zatem obecnością Miłości, którą jesteś, a jesteś Światłem, które rozświetla ten świat. I nie możesz nie być we właściwym miejscu o właściwym czasie. Jeśli chcesz poznać wolę swego Ojca, otwórz oczy. Z kim przebywasz? Gdzie jesteś? W jaki sposób możesz przynieść Miłość do przestronności i świętości tego świętego spotkania?
 
@@ -220,4 +224,3 @@ Pozostańcie zatem w pokoju, umiłowani przyjaciele.
 
 Amen.
 
-&nbsp;

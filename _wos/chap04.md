@@ -2,15 +2,14 @@
 title: "Księga czwarta"
 ---
 
-
-<div markdown="1" align="center">
-&nbsp;
+<div markdown="1" class="chHead">
 ## *Księga czwarta*
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
 </div>
+
 <p markdown="1" class="top"><span class="dropcaps">M</span>istrzostwo i służba<br>
 są jednym.<br>
 Tam, gdzie jest jedno, <br>
@@ -346,7 +345,7 @@ umiłowany,<br>
 drogi,<br>
 i odwieczny <br>
 przyjacielu.<br>
+
 *Amen*
 
-&nbsp;
 

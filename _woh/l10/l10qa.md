@@ -1,13 +1,10 @@
 ---
 title: "Lekcja 10. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
-## Lekcja 10<br>
+## Lekcja 10
 **Pytania i odpowiedzi**
-
-
-
 </div>
 
 ## Pytanie 1
@@ -88,4 +85,3 @@ Tak więc, na tym kończąc, pozwolimy waszym ciałom, by się nieco „rozerwa�
 
 Amen.
 
-&nbsp;

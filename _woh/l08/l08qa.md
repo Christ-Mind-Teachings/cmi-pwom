@@ -1,13 +1,10 @@
 ---
 title: "Lekcja 8. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
-## Lekcja 8<br>
+## Lekcja 8
 **Pytania i odpowiedzi**
-
-  
-
 </div>
 
 ## Pytanie 1
@@ -64,4 +61,3 @@ A ci z was, którzy słuchają tego nagrania lub słyszą te słowa tuż przed p
 
 Pokój niech zawsze będzie z wami. Amen.
 
-&nbsp;

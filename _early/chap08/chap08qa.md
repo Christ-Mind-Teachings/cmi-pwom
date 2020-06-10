@@ -1,7 +1,7 @@
 ---
 title: "Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
 
 # Niebo na ziemi
@@ -172,4 +172,3 @@ Zatem niech pokój zawsze będzie z wami, stwórcy niebios i piekieł, którzy w
 
 Amen.
 
-&nbsp;

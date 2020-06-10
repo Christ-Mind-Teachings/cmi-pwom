@@ -1,0 +1,87 @@
+{
+  "annotate": {
+    "m1": "Anulu, Zaloguj się i utwórz nową zakładkę.",
+    "m2": "Nie jesteś zalogowany. Nie można udostępniać zakładek utworzonych, gdy nie jest się        zalogowany.",
+    "m3": "Nieprawidłowy link; nieprawidłowy format, pobierz link z wyświetlonego okienka              zakładki.",
+    "m4": "Nieprawidłowy link; nieprawidłowy format, pobierz link z wyświetlonego okienka              zakładki.",
+    "m5": "Nieprawidłowy link; odnosi się do samego siebie.",
+    "m6": "Notatka nie ma żadnych tematów",
+    "m7": "Brak komentarza",
+    "m8": "Zakładka właśnie jest już dodawana do akapitu.",
+    "m9": "Dkończ proszę najpierw tę czynność.",
+    "m10": "Notatka jest wyłączona, gdy nawigator zakładek jest aktywny.",
+    "m11": "Zaloguj się do swego konta, aby udostępnić zakładkę na FB, wysłać ją mailem lub aby skopiować link.",
+    "m12": "Nie można otworzyć listy tematów zakładek.",
+    "m13": "Brak tematów",
+    "m14": "Musisz być zalogowany, aby udostępniać zakładki.",
+    "m15": "Strona nie ma żadnych tematów."
+  },
+  "label": {
+    "end": "Koniec",
+    "range": "Zakres",
+    "comment": "Komentarz",
+    "newtopic": "Nowe tematy? Listę tematów przedziel przecinkami",
+    "notes": "Dodatkowe notatki",
+    "links": "Linki",
+    "linkref": "Odniesienia",
+    "link": "Link",
+    "linknote": "Notatka do linka",
+    "selecttopic": "Wybór tematu/tematów",
+    "selectaddress": "Wybierz adres/adresy email",
+    "listnames": "Wyślij listę osób",
+    "para": "Akapit",
+    "clearfilter": "Wyczyść filtr",
+    "topicfilter": "Filtr tematów"
+  },
+  "bmlist": {
+    "header": "Nie masz jeszcze żadnych zakładek.",
+    "intro": "Zakładki są bardzo wyrazistym i mocnym narzędziem. Możesz przypisywać je do      kategorii, aby w łatwy sposób przeglądać te kategorie, które cię interesują. Są dwa sposoby tworzenia zakładek.",
+    "item1": "Zaznaczając fragment interesującego cię tekstu lub",
+    "item2": "Klikając na numer akapitu np.(p21)",
+    "link": "Zobacz <a href='/acq/bookmark/'>pomoc tekstową o zakładkach </a> aby dowiedzieć się więcej."
+  },
+  "action": {
+    "submit": "Wyślij",
+    "cancel": "Anuluj",
+    "share": "Udostępnij",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "follow": "Śledź",
+    "prev": "Poprzedni",
+    "next": "Następny",
+    "closewin": "Zamknij okno",
+    "close": "Zamknij",
+    "signout": "Wyloguj się",
+    "signin": "Zaloguj się",
+    "cp2clip": "Kopiuj adres Url",
+    "fbshare": "Udostępnij na Facebooku",
+    "emailshare": "Udostępnij mailem",
+    "emailsent": "Email wysłany!"
+  },
+  "fragment": {
+    "f1": "Zakładka w",
+    "f2": "nie została znaleziona."
+  },
+  "clip": {
+    "url": "Adres Url skopiowany do schowka",
+    "link": "Link skopiowany do schowka"
+  },
+  "menu": {
+    "m1": "Wyłącz tworzenie zakładek",
+    "m2": "Włącz tworzenie zakładek"
+  },
+  "error": {
+    "e1": "Błąd przy zapisie notatki, proszę spróbować ponownie.",
+    "e2": "Nie potrafię wyświetlić zakładek",
+    "e3": "Błąd kopiowania do schowka",
+    "e4": "Nie udało się otworzyć zakładek.",
+    "e5": "Przepraszamy, jest jakiś problem. Odśwież stronę i spróbuj ponownie.",
+    "e6": "Spróbuj proszę ponownie, nie uwzględniając w wyborze numeru akapitu.",
+    "e7": "Twój wybór pokrywa się z zakresem innyego wyboru. Ta funkcjonalność nie obsługuje pokrywających się zakresów wyboru.",
+    "e8": "Ogranicz proszę wybór zaznaczonego tekstu do pojedynczego akapitu.",
+    "e9": "Wprowadź proszę przynajmniej jeden adres email.",
+    "e10": "Błąd w pozyskiwaniu listy adresów email:",
+    "e11": "Nieoczekiwana liczba punktów danych w istniejących danych znaczników czasu. Skontaktuj się proszę z Rick'iem. Nie można wprowadzać znaczników czasu dopóki problem nie zostanie rozwiązany.",
+    "e12": "Przykro nam, przesłanie danych nie powiodło się."
+  }
+}

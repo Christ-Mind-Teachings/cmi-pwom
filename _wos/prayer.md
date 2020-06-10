@@ -2,11 +2,9 @@
 title: "Modlitwa Przypomnienia"
 ---
 
-&nbsp;
-
+<div class="more-space" markdown="1">
 ## MODLITWA PRZYPOMNIENIA
-
-&nbsp;  
+</div>
 
 <span markdown="1" class="dropcaps">O</span>jcze-Matko Boże,<br>
 Źródło naszego Istnienia,<br>
@@ -29,4 +27,3 @@ na zawsze i na wieki wieków!
 
 Amen
 
-&nbsp;

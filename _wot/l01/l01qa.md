@@ -1,9 +1,9 @@
 ---
 title: "Lekcja 1. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
-## Lekcja 1<br>
+## Lekcja 1
 **Pytania i odpowiedzi**
 
 </div>
@@ -116,4 +116,3 @@ I z tego stanu świadomości dokonaj wyboru jak będziesz doświadczał każdej 
 
 Amen.
 
-&nbsp;

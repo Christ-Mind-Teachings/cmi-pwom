@@ -1,9 +1,9 @@
 ---
 title: "Lekcja 7. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center"> 
-## Lekcja 7<br>
+## Lekcja 7
 **Pytania i odpowiedzi**
 
 </div>
@@ -56,4 +56,3 @@ Zatem niech pokój zawsze będzie z wami.
 
 Amen.
 
-&nbsp;

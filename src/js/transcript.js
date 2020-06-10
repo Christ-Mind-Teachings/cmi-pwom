@@ -6,9 +6,9 @@ import auth from "www/modules/_user/netlify";
 import fb from "www/modules/_util/facebook";
 import {initTranscriptPage} from "www/modules/_page/startup";
 import {initialize as initNotes} from "www/modules/_page/notes";
-import {setRuntimeEnv} from "./setEnv";
 
 //teaching specific modules
+import {setRuntimeEnv} from "./setEnv";
 import {loadConfig} from "./modules/_config/config";
 import {bookmarkStart} from "./modules/_bookmark/start";
 import search from "./modules/_search/search";
@@ -17,9 +17,14 @@ import audio from "./modules/_audio/audio";
 import about from "./modules/_about/about";
 import { noteInfo } from "./notes";
 
+import {setLanguage} from "www/modules/_language/lang";
+import constants from "./constants";
+//setLanguage(constants);
+
 $(document).ready(() => {
 
   loadStart();
+  setLanguage(constants);
   initTranscriptPage();
   auth.initialize();
   fb.initialize();

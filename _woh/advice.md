@@ -2,8 +2,6 @@
 title: "Sugestie do praktyki"
 ---
 
-
-
 ## Sugestie do praktyki
 
 Oto podane przez Jeszuę wskazówki odnoszące się do tego jak „słuchać" nagrań i tekstów tych Lekcji:

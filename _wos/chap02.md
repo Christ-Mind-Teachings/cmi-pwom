@@ -2,13 +2,15 @@
 title: "Księga druga"
 ---
 
-<div markdown="1" align="center">
-&nbsp;
+<div markdown="1" class="chHead">
+
 ## *Księga druga*
+
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
 </div>
+
 <p markdown="1" class="top"><span class="dropcaps">S</span>*łużba*<br/>
 Dziwnym wydaje się to słowo,<br>
 jednak w nim skrywa się znaczenie<br>
@@ -555,6 +557,7 @@ tak jest teraz, <br>
 zawsze i na wieki wieków.
 
 ![znaczek]({{page.little-separator}})
+{: omit}
 
 <p markdown="1" class="top"><span class="dropcaps">D</span>o czego więc<br>
 można przyrównać<br>
@@ -748,4 +751,3 @@ i odzwierciedla w tym świecie<br>
 Miłość, która rodzi na wieczność<br>
 święte i jednorodzone dziecko Boga.
 
-&nbsp;

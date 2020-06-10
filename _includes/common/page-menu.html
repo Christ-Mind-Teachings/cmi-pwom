@@ -1,33 +1,33 @@
 <div class="ui borderless main menu">
   <div id="page-menu" class="ui text container">
     <a href="#" class="bookmark-modal-open ui dropdown item">
-      <span data-position="bottom center" data-tooltip="Pokaż zakładki">
+      <span data-position="bottom center" data-tooltip="{{site.data.lang.menu.m1}}">
         <i class="red bookmark icon"></i>
       </span>
     </a>
     <a href="#" class="item search-modal-open">
-      <span data-position="bottom center" data-tooltip="Szukaj w {{site.title}}">
+      <span data-position="bottom center" data-tooltip="{{site.data.lang.menu.m2}} {{site.title}}">
         <i class="search icon"></i>
       </span>
     </a>
-    {% include common/quick-link-menu.html name="wom" %}
+    {% include common/quick-link-menu.html name="pwom" %}
     <a id="help-menu" href="#" class="ui dropdown item">
       <i class="question icon"></i>
       <div class="menu">
-        <div data-note="studyguide" class="notes-modal-open item">Sugestie do praktyki</div>
+        <div data-note="studyguide" class="notes-modal-open item">{{site.data.lang.menu.m3}}</div>
         <div class="divider"></div>
-        <div class="page-tour item">Krotki przegląd Drogi Mistrzostwa</div>
-        <div class="page-navtour item">Informacje o stronie</div>
-        <div class="read-documentation item">Help po angielsku</div>
-        <div class="view-documentation item">Instrukcja wideo po angielsku</div>
-        <div class="contact-me item">Kontakt</div>
+        <div class="page-tour item">{{site.data.lang.pmenu.p4}} {{site.title}}</div>
+        <div class="page-navtour item">{{site.data.lang.menu.m5}}</div>
+        <div class="read-documentation item">{{site.data.lang.menu.m6}}</div>
+        <div class="view-documentation item">{{site.data.lang.menu.m7}}</div>
+        <div class="contact-me item">{{site.data.lang.menu.m8}}</div>
         <div class="divider"></div>
-        <div class="hide profile-management item">Zarządzaj listą adresów email</div>
-        <div class="hide topic-management item">Zarządzaj tematami</div>
+        <div class="hide profile-management item">{{site.data.lang.menu.m9}}</div>
+        <div class="hide topic-management item">{{site.data.lang.menu.m10}}</div>
       </div>
     </a>
     <a href="#" class="login-menu-option ui right floated item">
-      <span data-position="bottom center" data-tooltip="Zaloguj się/załóż konto">
+      <span data-position="bottom center" data-tooltip="{{site.data.lang.menu.m11}}">
         <i class="red sign in icon"></i>
       </span>
     </a>

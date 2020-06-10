@@ -1,9 +1,9 @@
 ---
 title: "Lekcja 6. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center"> 
-## Lekcja 6<br>
+## Lekcja 6
 **Pytania i odpowiedzi**
 
 </div>
@@ -90,4 +90,3 @@ Pozostańcie zatem w pokoju raz jeszcze, umiłowani przyjaciele. Będziemy konty
 
 Amen.
 
-&nbsp;

@@ -1,13 +1,10 @@
 ---
 title: "Lekcja 6. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center">
-## Lekcja 6<br>
+## Lekcja 6
 **Pytania i odpowiedzi**
-
-
-
 </div>
 
 ## Pytanie 1
@@ -80,4 +77,3 @@ Oto prosta i wąska ścieżka prowadząca do *Życia*! A ty masz przyjaciela -- 
 
 Bądź zatem tym, czym jesteś! I żyj mocą ci podarowaną, wolnością, w której zawsze przebywasz, jako Miłość, którą jesteś!
 
-&nbsp;

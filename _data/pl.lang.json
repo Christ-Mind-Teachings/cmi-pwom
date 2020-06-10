@@ -1,0 +1,92 @@
+{
+  "footer": {
+    "f1": "Kontakt",
+    "f2": "Dokumentacja",
+    "f3": "Informacje o Projekcie",
+    "f4": "Wsparcie dla Biblioteki",
+    "f5": "Twoja darowizna wspiera dalszy rozwój CMI - Biblioteki Nauk Umysłu Chrystusa"
+  },
+  "masthead": {
+    "m1": "Idź do Katalogu Biblioteki",
+    "m2": "Idź do głównej strony"
+  },
+  "search": {
+    "s1": "Zobacz dokumentację",
+    "s2": "Witamy w",
+    "s3": "Wprowadź, co chcesz wyszukać i naciśnij Enter.",
+    "s4": "Wprowadź wyszukiwanie",
+    "s5": "Rezultaty wyszukiwania"
+  },
+  "time": {
+    "t1": "Potwierdź proszę ponowną edycję znaczników czasu.",
+    "t2": "Istnieją już znaczniki czasu dla tej sesji. Potwierdź proszę, że chcesz je modyfikować.",
+    "t3": "Tak",
+    "t4": "Nie",
+    "t5": "Rejestrowanie znaczników czasu",
+    "t6": "Prześlij nam swoje dane",
+    "t7": "Dziękujemy za wsparcie dla Bibliotek!!",
+    "t8": "Nagranie się skończyło i dane zostały zebrane. Wypełnij proszę poniższy formularz i naciśnij 'Prześlij', aby wysłać zarejestrowane przez Ciebie znaczniki czasu.",
+    "t9": "Wprowadź proszę swoje imię i adres mailowy.",
+    "t10": "Wiadomość",
+    "t11": "Imię",
+    "t12": "E-mail",
+    "t13": "Adres E-mail",
+    "t14": "Komentarz",
+    "t15": "Znaczniki czasu"
+  },
+  "bkmrk": {
+    "b1": "Zakładki",
+    "b2": "Filtr",
+    "b3": "Resetuj",
+    "b4": "Pokazuj tylko zakładki z wybranymi tematami"
+  },
+  "nav": {
+    "n1": "Poprzednia strona",
+    "n2": "Poprzednia",
+    "n3": "Obecna",
+    "n4": "Następna",
+    "n5": "Następna strona",
+    "n6": "Zamknij"
+  },
+  "share": {
+    "s1": "Wybierz odbiorców z listy rozwijalnej i/lub wprowadź adresy email w poniższym polu.",
+    "s2": "Wprowadź adres/adresy email",
+    "s3": "Lista elementów przedzielana przecinkami",
+    "s4": "Poczekaj chwilkę"
+  },
+  "form": {
+    "f1": "Prześlij",
+    "f2": "Anulu",
+    "f3": "Spis Treści"
+  },
+  "menu": {
+    "m1": "Pokaż zakładki",
+    "m2": "Szukaj w",
+    "m3": "Sugestie do praktyki",
+    "m5": "Informacje o stronie",
+    "m6": "Help po angielsku",
+    "m7": "Instrukcja wideo po angielsku",
+    "m8": "Kontakt",
+    "m9": "Zarządzaj listą adresów email",
+    "m10": "Zarządzaj tematami",
+    "m11": "Zaloguj się/załóż konto"
+  },
+  "pmenu": {
+    "p4": "Krotki przegląd"
+  },
+  "tmenu": {
+    "t1": "Pokaż zakładki",
+    "t2": "Wyłącz tworzenie zakładek",
+    "t3": "Ukryj zaznaczony tekst",
+    "t4": "Filtr tematów: Brak",
+    "t5": "Filtr zakładek",
+    "t6": "Odtwórz audio",
+    "t7": "Włącz/wyłącz numery akapitów",
+    "t8": "Idź na górę strony",
+    "t9": "Pokaż spis treści",
+    "t10": "Poprzednia strona",
+    "t11": "Następna strona",
+    "t12": "Kopiuj klucz strony"
+  }
+}
+

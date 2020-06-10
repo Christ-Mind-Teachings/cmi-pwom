@@ -1,0 +1,91 @@
+{
+  "footer": {
+    "f1": "Get In Touch",
+    "f2": "Documentation",
+    "f3": "Project Info",
+    "f4": "Support The Library",
+    "f5": "Your donation supports further development of CMI."
+  },
+  "masthead": {
+    "m1": "To Library Card Catalog",
+    "m2": "To homepage of"
+  },
+  "search": {
+    "s1": "See Documentation",
+    "s2": "Welcome to",
+    "s3": "Enter your search and press enter to begin.",
+    "s4": "Enter Search",
+    "s5": "Search Results"
+  },
+  "time": {
+    "t1": "Please Confrim Time Capture",
+    "t2": "Timing data exists for this session. Please confirm that you want to modify the existing timing.",
+    "t3": "Yes",
+    "t4": "No",
+    "t5": "Audio Time Capture",
+    "t6": "Send Us Your Data",
+    "t7": "Thank you for supporting the Library!!",
+    "t8": "The recording has finished and data collected. Please fill the form below and press 'Submit' to send us the timing data you captured.",
+    "t9": "Please enter your name and email address.",
+    "t10": "Message",
+    "t11": "Name",
+    "t12": "E-mail",
+    "t13": "E-mail address",
+    "t14": "Comments",
+    "t15": "Timing Data"
+  },
+  "bkmrk": {
+    "b1": "Bookmarks",
+    "b2": "Filter",
+    "b3": "Reset",
+    "b4": "Show Only Bookmarks With Selected Topic"
+  },
+  "nav": {
+    "n1": "Previous Page",
+    "n2": "Previous",
+    "n3": "Current",
+    "n4": "Next",
+    "n5": "Next Page",
+    "n6": "Close"
+  },
+  "share": {
+    "s1": "Select recipients from the dropdown list and/or enter email addresses in the field below.",
+    "s2": "Enter Email Address(es)",
+    "s3": "Comma delimited list",
+    "s4": "Hang on a sec"
+  },
+  "form": {
+    "f1": "Submit",
+    "f2": "Cancel",
+    "f3": "Table of Contents"
+  },
+  "menu": {
+    "m1": "Show Bookmarks",
+    "m2": "Search",
+    "m3": "Read Study Suggestions",
+    "m5": "Learn About This Page",
+    "m6": "Read Documentation",
+    "m7": "Watch Video Instruction",
+    "m8": "Get In Touch",
+    "m9": "Manage Email List",
+    "m10": "Manage Topics",
+    "m11": "Sign In"
+  },
+  "pmenu": {
+    "p4": "Quick Tour of"
+  },
+  "tmenu": {
+    "t1": "Show Bookmarks",
+    "t2": "Disable Bookmark Creation",
+    "t3": "Hide Highlighted Text",
+    "t4": "Topic Filter: None",
+    "t5": "Filter Bookmarks",
+    "t6": "Play Audio",
+    "t7": "Toggle Display of Paragraph Numbers",
+    "t8": "Top of Page",
+    "t9": "Show Contents",
+    "t10": "Previous Page",
+    "t11": "Next Page",
+    "t12": "Copy Page Key"
+  }
+}

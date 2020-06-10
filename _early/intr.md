@@ -1,11 +1,9 @@
 ---
 title: "Wstęp"
 ---
-&nbsp;
-<div markdown="1" align="center">
 
+<div markdown="1" class="chHead">
 ## *Wstęp*
-&nbsp;
 </div>
 
 Książka, którą trzymasz w dłoniach, jest zapisem przekazów danych przez Jeszuę podczas publicznych spotkań we wczesnych latach mojej pracy z Nim. Nauki te to obszerny zbiór mądrości Jeszuy, istotna część Ścieżki *Drogi Mistrzostwa,* i teraz są one po raz pierwszy dostępne w formie książki.
@@ -50,4 +48,4 @@ Błogosławieństwa,
 
 Jayem<br>
 styczeń 2019 r.
-&nbsp;
+

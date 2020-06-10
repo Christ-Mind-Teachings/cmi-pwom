@@ -1,7 +1,7 @@
 ---
 title: "Wstęp"
 ---
-&nbsp;
+
 <div markdown="1" class="chHead"> 
 ## Wstęp
 
@@ -31,7 +31,7 @@ jest, mamusiu.
 – Kto jest tutaj, kochanie? – nie odwracając głowy pyta mama, wertując
 strony kościelnego śpiewnika.
 
-– Chrystus – odpowiadam pewnie.”
+– Chrystus – odpowiadam pewnie.
 
 Teraz mama odwraca się i spogląda na mnie.
 
@@ -112,8 +112,6 @@ będzie o wiele większa niż sam czas włożony w napisanie tej książki.
 
 Niech Światło błogosławi twą podróż.
 
+Jayem
 
->Jayem
-
-&nbsp;
 

@@ -1,10 +1,9 @@
 ---
 title: "Przedmowa"
 ---
-&nbsp;
-<div markdown="1" align="center"> 
+
+<div markdown="1" class="chHead"> 
 ## Przedmowa
-&nbsp;
 </div>
 
 Piszę do ciebie z nieco dziwnego miejsca. Z jednej strony byłem kanałem, przez który płynęły te głębokie, niezwykłe i transformujące nauki jako błogosławieństwo dla nas wszystkich. Jednocześnie ja sam nieustannie je przerabiam i jestem uczniem Istoty, która dała je nam wszystkim – uczniem Jeszuy, syna Józefa, który na Zachodzie bardziej znany jest jako „Jezus”, a które to imię jest transliteracją jego oryginalnego aramejskiego imienia.
@@ -35,9 +34,9 @@ Zatem tom, który teraz trzymasz w dłoni oraz pozostałe wspomniane książki, 
 > *Naszym celem jest ustanowić kompletną Drogę, która poprowadzi duszę od jej pierwszych inklinacji do przebudzenia aż do dojrzałego przejawienia Chrystusowego Umysłu.*
 
 Zainteresowani czytelnicy mogą dowiedzieć się więcej na temat Drogi na
-stronie:<br> [Way of Mastery]( https://www.wayofmastery.com) lub [Droga
+stronie: [Way of Mastery]( https://www.wayofmastery.com) lub [Droga
 Mistrzostwa](https://drogamistrzostwa.pl), jak również na stronie
-[Wydawnictwa Pokoju Chrustusa](https://pokojchrystusa.pl)
+[Wydawnictwa Pokoju Chrustusa](https://pokojchrystusa.pl).
 
 Jeszcze jedna uwaga: oto jedyna autoryzowana wersja tych Nauk, przekazana dokładnie tak, jak została oryginalnie podana, włączywszy w to dział pytań i odpowiedzi – niektóre z nich są bezcennymi Naukami przeznaczonymi dla nas wszystkich. Dołożono ogromnych starań, by upewnić się, że redaktorzy nie zmienią niczego przy spisywaniu tekstu z audio. Nie ma tu tytułów rozdziałów ani podrozdziałów, gdyż On takowych nie podawał. Słowa, na które położył On nacisk, zostały zaznaczone kursywą.
 
@@ -52,4 +51,3 @@ Niech płyną potoki radości!
 Jayem<br>
 Maj, 2011 r.
 
-&nbsp;

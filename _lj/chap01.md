@@ -8,7 +8,10 @@ title: "Rozdział pierwszy"
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-*Każdy z was jest tutaj<br>tylko z jednego powodu:<br>by ponownie uświadomić sobie Prawdę<br> i wrócić do Domu.*
+Każdy z was jest tutaj<br>
+tylko z jednego powodu:<br>
+by ponownie uświadomić sobie Prawdę<br> 
+i wrócić do Domu.
 {: .omit}
 
 </div>
@@ -265,7 +268,7 @@ Idę z naszego obozowiska w stronę północnego krańca plaży. Mój wzrok tań
 Zaczyna we mnie wzbierać dziwne uczucie. To nie ból, z pewnością uczucie nie jest bolesne. Przypomina bardziej lekki szum, wibrację. Odczuwam je w centrum ciała, w pobliżu serca. Teraz porusza się ono, poszerza i wznosi, wypełniając mą głowę. Dziwne wydaje się równoczesne odczuwanie, jak i bierne obserwowanie tego dziwnego niewielkiego zjawiska.
 
 <div data-index="1" markdown="1" class="indent">
-> *Witaj, Marc.*
+Witaj, Marc.
 </div>
 
 Z tej wibracji wyłaniają się słowa, które są tak czyste i wyraźne, jak gdyby ktoś mówił mi je wprost do ucha. Wraz ze słowami wibracja wydaje się zmieniać i zaczynam czuć energię, ciepło, doznanie, jakiego do tej pory nie doświadczyłem. Jest wzniosłe i pełne spokoju nie do opisania.
@@ -273,11 +276,11 @@ Z tej wibracji wyłaniają się słowa, które są tak czyste i wyraźne, jak gd
 Słowa te mnie zaskakują, bowiem jest w nich niewątpliwe poczucie zażyłości, jak wtedy, gdy dzwoni do ciebie osoba, którą kochasz nade wszystko, i gdy odbierasz telefon, ona mówi po prostu „witaj”, a ty wiesz, kto to jest.
 
 <div data-index="1" markdown="1" class="indent">
-> *Cieszę się, że dotarłeś do tego punktu,<br>
-> w którym jesteś gotowy pozwolić,<br>
-> aby doszło do tej komunikacji między nami.<br>
-> Bądź pewien, że będę z tobą rozmawiał częściej<br>
-> w przyszłości.*
+Cieszę się, że dotarłeś do tego punktu,<br>
+w którym jesteś gotowy pozwolić,<br>
+aby doszło do tej komunikacji między nami.<br>
+Bądź pewien, że będę z tobą rozmawiał częściej<br>
+w przyszłości.
 </div>
 
 Nie potrafię utrzymać kontaktu. Energia zanika i znów słyszę odgłos spienionych fal uderzających w swym tańcu o skałę poniżej mnie. Słońce błyszczy i odbija się w wodach oceanu. Czuję na skórze silny powiew morskiej bryzy. Uświadamiam sobie, że do tego momentu nie miałem świadomości ani spienionych fal, ani bryzy, ani słońca.
@@ -345,53 +348,53 @@ Pozwól jednak, by twa świadomość spoczywała przy Mnie.*
 Słowa te równocześnie słyszę i widzę, jak odcinają się na pustym tle. Jednak – co więcej – ja je czuję.
 
 <div data-index="1" markdown="1" class="indent">
-*Jestem tym,<br>
+Jestem tym,<br>
 którego świat zna<br>
 jako Jezusa,<br>
-a teraz ty przyszedłeś<br>tutaj, gdzie JAM JEST.*
+a teraz ty przyszedłeś<br>tutaj, gdzie JAM JEST.
 
-*Nasze pierwsze spotkania<br>
+Nasze pierwsze spotkania<br>
 będą krótkie.<br>
 Powinny być przez ciebie traktowane<br>
 jako ćwiczenia<br>
 w uczeniu się dostrajania<br>
-do tego, co można nazwać Moją częstotliwością.*
+do tego, co można nazwać Moją częstotliwością.
 
-*Tak naprawdę<br>
+Tak naprawdę<br>
 miejsce, w którym JAM JEST, zawsze<br>
 jest dostępne dla ciebie<br>
 i dla każdego z synów Ojca,<br>
 albowiem właśnie tym<br>
 oczywiście<br>
 jesteście,<br>
-bez wyjątku, każdy z was.*
+bez wyjątku, każdy z was.
 
-*I nadszedł dla was<br>
+I nadszedł dla was<br>
 czas powrotu pamięci.<br>
 Kto z was dokona wyboru, by obudzić się<br>
 ze snu, jaki wybraliście, by śnić<br>
 tak bardzo dawno temu?<br>
 Tego, czym będę się dzielił z tobą<br>
 w trakcie tych pierwszych spotkań,<br>
-nie można nazwać „głęboką mądrością”.*
+nie można nazwać „głęboką mądrością”.
 
-*Jednakże,<br>
+Jednakże,<br>
 jeśli będziesz rozważał to, czym się z tobą dzielę,<br>
-może to zaprawdę<br>przyspieszyć twą podróż do domu.*
+może to zaprawdę<br>przyspieszyć twą podróż do domu.
 
-*Byłem z tobą od zawsze.<br>
+Byłem z tobą od zawsze.<br>
 Zawsze<br>
 Mnie znałeś.<br>
 Jesteś sługą Światła,<br>
-które wielu zwie Bogiem.*
+które wielu zwie Bogiem.
 
-*To jest wszystkim, czym zawsze byłeś,<br>
+To jest wszystkim, czym zawsze byłeś,<br>
 nawet w tych wszystkich doświadczeniach –<br>
 które zwiesz „wcieleniami” –<br>
 jakie stworzyłeś w celu ukrycia się<br>
-przed prawdą, którą zawsze byłeś.*
+przed prawdą, którą zawsze byłeś.
 
-*Wolno ci<br>
+Wolno ci<br>
 porzucić ten sen.<br>
 Nie może ci już dłużej służyć.<br>
 Przywiódł cię on<br>
@@ -407,26 +410,26 @@ dla synów Żywego Boga.<br>
 Kiedy to zadanie zostanie ukończone,<br>powrócę tam, gdzie JAM JEST, czekając na obwieszczenie<br>
 Nowego Wieku Światła<br>
 na tej fizycznej płaszczyźnie.<br>
-Wkrótce się to objawi.*
+Wkrótce się to objawi.
 
-*Teraz,<br>
+Teraz,<br>
 odejdę.<br>
 Postaram się zaszczepić w tobie<br>
 przekonanie o Prawdzie, którą znasz.<br>
 Ufaj swemu wewnętrznemu głosowi.<br>
 Nie zawiedzie cię<br>
-ani cię nie oszuka.*
+ani cię nie oszuka.
 
-*To w cichej pokorze<br>
+To w cichej pokorze<br>
 przemawia głos Ojca.<br>
 Wiedz z pewnością, że Ja,<br>
 ten, którego znasz jako Jeszua,<br>
 zaprawdę zawsze jestem z tobą,<br>
-przez całą wieczność.*
+przez całą wieczność.
 
-*Spoczywaj w pokoju.*
+Spoczywaj w pokoju.
 
-*Amen.*
+Amen.
  </div>
 
 Gdy jego energia powoli znika, stopniowo powracam do mej codziennej rzeczywistości. Powracam? A gdzie byłem? I kto tam się udał? Co to znaczy „przyjdź tutaj, gdzie JAM JEST”? Gdzie to jest? Skąd wyszedłem, nie używając siły mięśni? Z mego „snu”? Wzdrygam się, rozglądając się wkoło: zestaw stereo, kominek, poruszane wiatrem kwiaty na balkonie.
@@ -442,7 +445,7 @@ Skrycie zaczynam podejrzewać, że rozglądając się wokół siebie, nie zrozum
 {: .omit}
 
 <div data-index="1" markdown="1" class="indent">
-*Teraz zaczynamy.<br>
+Teraz zaczynamy.<br>
 O jakąż Miłością darzę<br>
 synów Boga,<br>
 niezależnie od tego, czy chwilowo utożsamiają się<br>
@@ -452,33 +455,33 @@ Syn jest Jednym.<br>
 Syn jest tym,<br>
 co rodzi się wiecznie<br>ze Świętego Ojca,<br>
 który jest niewypowiedzianą,<br>
-a jednak zawsze obecną pełnią.*
+a jednak zawsze obecną pełnią.
 
-*Dlatego też<br>
+Dlatego też<br>
 Miłość, jaką czuję,<br>
 jest Miłością, którą JAM JEST.<br>
 Ten termin oznacza<br>
 nie zwyczajne „ja” jako „Jeszua”,<br>
 ale Prawdę i Rzeczywistość<br>
-tego, czym wszyscy jesteśmy.*
+tego, czym wszyscy jesteśmy.
 
-*Pozwólcie sobie poczuć<br>
+Pozwólcie sobie poczuć<br>
 prawdę tego,<br>
 że każdy z was<br>
 jest tutaj tylko z jednego powodu:<br>
 by znów uświadomić sobie Prawdę<br>
-i powrócić do domu.*
+i powrócić do domu.
 
-*Nigdy wcześniej na ziemi<br>
+Nigdy wcześniej na ziemi<br>
 nie było takiej okazji, jak teraz,<br>
 aby to się stało.<br>
 Jednak nawet kiedy syn<br>
 stoi przed drzwiami i puka,<br>
 a Ojciec drzwi otworzył,<br>
 nadal pozostaje do dokonania wybór.<br>
-Jaki będzie twój wybór?*
+Jaki będzie twój wybór?
 
-*Amen.*
+Amen.
 </div>
 
 Kendra kładzie na stole spisane słowa Jeszuy, nie odrywając od nich oczu.

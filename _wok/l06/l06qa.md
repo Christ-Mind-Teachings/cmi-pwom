@@ -1,18 +1,14 @@
 ---
 title: "Lekcja 6. Pytania i odpowiedzi"
 ---
-&nbsp;
+
 <div markdown="1" align="center"> 
-## Lekcja 6<br>
+## Lekcja 6
 **Pytania i odpowiedzi**
 
 </div>
 
-
-
-**Pytanie 1**
-
-
+## Pytanie 1
 
 ***Pytanie*:** Jaka jest różnica pomiędzy *radością* a *przyjemnością*, i dlaczego wiele duchowych tradycji potępia przyjemność?
 
@@ -88,13 +84,7 @@ Czy to wyjaśnienie pomogło ci w kwestii twego pytania?
 
 Czy macie zatem jeszcze jakieś pytanie?
 
-
-
-
-
-**Pytanie 2**
-
-
+## Pytanie 2
 
 ***Pytanie*:** Zarząd Shanti Christo odbył dzisiaj telekonferencję i zapytałam, czy ktoś miałby jakieś pytanie przy okazji tego nagrania. Zaproponowano, abyśmy po prostu zapytali cię, czy mógłbyś opowiedzieć nam – zarządowi oraz członkom Shanti Christo – o kierunku, w którym zmierzamy i o wszystkim, co chciałbyś przekazać na temat częstotliwości wibracji Shanti Christo i co możemy zrobić, by utrzymywać naszą częstotliwość w harmonii z wizją. 
 
@@ -126,4 +116,3 @@ Trwaj więc w pokoju. I *wiedz*, że jesteś miłowany.
 
 Amen.
 
-&nbsp;

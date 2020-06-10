@@ -11,6 +11,7 @@ import _findLastIndex from "lodash/findLastIndex";
 import _map from "lodash/map";
 import {setCaptureData} from "./capture";
 import notify from "toastr";
+import {getString} from "../_language/lang";
 
 //paragraph timing array assigned on module initialization
 let timingData = null;
@@ -249,13 +250,6 @@ export default {
     //load the timing data
     fetchTimingData(timingDataUri)
       .then((data) => {
-
-        //round timing data to two decimal places
-//        timingData = _map(data.time, function(value) {
-//          value.seconds = round(value.seconds);
-//          return value;
-//        });
-
         timingData = data.time.map((value) => {
           value.seconds = round(value.seconds);
           return value;
@@ -268,6 +262,7 @@ export default {
         }
       })
       .catch((error) => {
+        notify.error(`${getString("error:e2")}: ${error.message}`);
         console.error("Failed to load timing data: %s, error: ", timingDataUri, error);
       });
   },
