@@ -2,9 +2,9 @@
 title: "Lekcja 8. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center">
-## Lekcja 8
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead">
+# Lekcja 8
+## Pytania i odpowiedzi
 </div>
 
 ## Pytanie 1
@@ -27,7 +27,7 @@ Istnieje Miłość i lęk, ale nigdy nie powiedziałem, że lęk jest „niżej"
 
 ***Odpowiedź***: Nie ma między nimi różnicy. Kiedy pozostajesz w Prawdzie, będąc doskonałą istotą, którą jesteś, odkryjesz tam brak oporu. Umysł, który chce zrozumieć, co ma zostać uzdrowione, czy też umysł, który mówi:
 
-> *No cóż, coś mi się pokazuje, ale i tak wiem, że tym nie jestem, tak więc po prostu poprzebywam sobie w jakiejś uduchowionej krainie&hellip;*
+> No cóż, coś mi się pokazuje, ale i tak wiem, że tym nie jestem, tak więc po prostu poprzebywam sobie w jakiejś uduchowionej krainie&hellip;
 
 -- taki  umysł trwa w *oporze*. Utracił swą pokorę. Przestał ufać, że Ojciec wszystkich rzeczy wie, jak zaprowadzić go do domu. A dom ten to powrót do miejsca, w którym stajesz się chętny, by pozwolić, aby coś szerzyło się poprzez ciebie.
 
@@ -35,13 +35,13 @@ Pozwól, że podzielę się z wami wszystkimi czymś dość istotnym, co nie zos
 
 I dlatego gdy wybierasz uzdrowienie, gdy nie opierasz się temu, co się pojawia, gdy uświadamiasz sobie, że Miłość ufa wszystkiemu, obejmuje wszystko, pozwala na wszystko i wszystko przekracza, gdy uświadamiasz sobie, że jesteś po prostu posłańcem Miłości, wtedy nie ma znaczenia, co się pojawia!
 
-> *Acha, to wymaga uzdrowienia!*
+> Acha, to wymaga uzdrowienia!
 
 I uzdrawiasz to z *bezosobowego poziomu*. Nie identyfikujesz się z tym, nawet jeśli myślisz, że łączy się to w jakiś sposób z czymś, co -- jak jesteś przekonany -- było częścią twego przeszłego doświadczenia.
 
 Czasami nawet nie pamiętasz, gdzie odłożyłeś kluczyki do samochodu. Skąd możesz mieć pewność, że ma to swe źródło w twojej przeszłości? Po prostu to uzdrów. Albowiem gdy to uczynisz, będziesz doskonałością istnienia, którym jesteś. Będziesz Chrystusem, głoszącym:
 
-> *Przyjdź i złóż swe grzechy na ołtarzu mego Serca, a ja to dla ciebie uzdrowię.*
+> Przyjdź i złóż swe grzechy na ołtarzu mego Serca, a ja to dla ciebie uzdrowię.
 
 Nie ma znaczenia, skąd to się wzięło. Nie ma znaczenia, kto to spowodował. Jedyne, co ma znaczenie, to uzdrowienie. Jeśli coś takiego się pojawiło, a ty rozpoznajesz w tym przeszkodę, coś, co potrzebuje uzdrowienia z poziomu doskonałości twej istoty, to obejmij to Miłością Chrystusa i uzdrów to. A kiedy to uczynisz, podnosisz na duchu swego brata lub siostrę, których być może nawet nie spotkasz w fizyczności.
 
@@ -51,9 +51,9 @@ Wydaje się, że istnieje wiele umysłów i osób, w których Miłość i lęk z
 
 Uzdrów to, co pokazuje się w twej świadomości i przestań utożsamiać się z tym jako swoim. Miłość jest. Jest i lęk. Istnieje potrzeba uzdrowienia, która stanowi pomost między tamtymi dwoma. Czy zdecydujesz się utożsamiać z lękiem, przez co zaprzeczysz Miłości? Czy też utożsamisz się z Miłością i pójdziesz do przodu? Gdy będziesz trwał w doskonałości swej istoty, to myślę, że odpowiedź stanie się oczywista.
 
-Tak wielu z was przychodzi, by zadawać mi pytania, ale ja sam nigdy nie mam okazji zadać pytania... A zatem zadam pytanie:
+Tak wielu z was przychodzi, by zadawać mi pytania, ale ja sam nigdy nie mam okazji zadać pytania&hellip; A zatem zadam pytanie:
 
-> *Czy ty, który słuchasz tych słów, wyrazisz chęć, by być światłem, które rozświetla ten świat i w pełni zobowiążesz się, by w każdej chwili i z każdym oddechem wybierać uzdrowienie poprzez miłość i przebaczenie?*
+> Czy ty, który słuchasz tych słów, wyrazisz chęć, by być światłem, które rozświetla ten świat i w pełni zobowiążesz się, by w każdej chwili i z każdym oddechem wybierać uzdrowienie poprzez miłość i przebaczenie?
 
 Pomyśl sobie o tym od czasu do czasu. Pokój więc niech będzie z wami.
 

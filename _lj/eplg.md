@@ -41,9 +41,9 @@ A  ty, drogi czytelniku, jesteś kluczem. Niebo jest niepełne bez ciebie, czeka
 
 Jego przekaz różni się od  ograniczonego przekazu ortodoksyjnego chrześcijaństwa, które przyjęło perspektywę, że jedynie Jeszua jest „jednorodzonym Synem Boga”, co  samo w  sobie było tylko krokiem na  drodze do  przebudzenia ludzkości. Jego autentyczna ewangelia na  swe ujawnienie i  przyjęcie czekała do  obecnych czasów, obecnej epoki. Jego ewangelia jest zarówno niezwykła, jak i  absolutnie prosta, po  prostu dlatego, że tak naprawdę istnieje jedynie Prawda. A  tą prawdą jest:
 
-> *Syn jest jeden, nie ma  drugiego.<br>
+> Syn jest jeden, nie ma  drugiego.<br>
 Ty  (my  wszyscy) jesteś taki, jakim JAM JEST.<br>
-Tylko Bóg JEST.*
+Tylko Bóg JEST.
 
 Nic nie dzieje się przypadkiem. To, że odważyłeś się przeczytać tego typu książkę, może jedynie oznaczać, że nastał już czas, twój czas – tak jak kiedyś nastał mój i  Jego. To  twój czas, by  odważyć się w  pełni wszystko sobie przypomnieć, twój czas odrzucenia kurtyny Snu i  wejścia w  pełni i  ostatecznie w  pokój, który o  lata świetlne wyprzedził wątłe zdolności rozumienia umysłu. Jest to  twój czas, by  urzeczywistnić pokój przez „ponowne narodzenie się” do  obecności tego pokoju i  jako jego obecność. I  w  twej obecności świat jest uzdrawiany.
 
@@ -51,12 +51,12 @@ Niech mistyczna Rzeczywistość Umysłu Chrystusa przenika cię, przepełnia i  
 
 Niech się to  dzieje poza wszelkimi snami o  stracie, zagrożeniu i  potrzebie bezużytecznej obrony, gdy wraz z  Nim dochodzimy do  zrozumienia tego, co  On kiedyś zademonstrował w  polu przestrzeni i  czasu, i  ku  czemu cierpliwie od  tamtej chwili prowadzi nas wszystkich:
 
-> *Nie spoglądasz na  drugiego.<br>
-> Albowiem widzisz jedynie Siebie.*
+> Nie spoglądasz na  drugiego.<br>
+> Albowiem widzisz jedynie Siebie.
 
 Obyśmy teraz żyli w  jednym akcie oddania, a  nasze stworzenia niech szerzą jedynie Dobro, Świętość i  Piękno, gdy stajemy się tym, czym nas stworzono: Żywym Słowem, abyśmy realizowali najwspanialszą z  możliwych ścieżek:
 
-> *Miłujcie się wzajemnie,<br>tak jak Ja  was wpierw umiłowałem.*
+> Miłujcie się wzajemnie,<br>tak jak Ja  was wpierw umiłowałem.
 
 Na  zawsze z  wdzięcznością dla odzwierciedlenia mego (i  waszego) Ja, które bezustannie nawiedzało me bezużyteczne sny, aż w  końcu cała ciemność została rozproszona: z  wdzięcznością dla Jeszuy, syna Józefa, który prosi jedynie, aby Go rozpoznać jako Przyjaciela Serca i  Brata tego świata.
 

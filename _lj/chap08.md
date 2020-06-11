@@ -8,10 +8,10 @@ title: "Rozdział ósmy"
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-*Kiedy uwolnisz się od  swego Snu*<br>
-*–  który jest całkowicie niepoczytalny –*<br>
-*pozostanie jedynie*<br>
-*Rzeczywistość tego, kim jesteś.*
+Kiedy uwolnisz się od  swego Snu<br>
+–  który jest całkowicie niepoczytalny –<br>
+pozostanie jedynie<br>
+Rzeczywistość tego, kim jesteś.
 {: .omit}
 
 </div>
@@ -35,7 +35,7 @@ Po  tym półtora roku z  Jeszuą wiem teraz dobrze, czego się ode mnie wymaga,
 
 Obserwując jak morska wydra pływa swobodnie nieopodal końca mola, zacząłem myśleć, że może ci zwariowani fizycy pracujący nad nowatorską kwantową teorią są blisko prawdy, bliżej niż są tego świadomi? A  może są mistrzami, którzy przyszli do  nas w  przebraniu, by  nas pchnąć poza struktury naszych myśli, cieni na  ścianach naszych jaskiń? Mówią o  dziwnej rzeczywistości, w  której w  jakiś sposób wszystkie możliwości już są obecne, ukryte w  jakimś niewidzialnym worku wieczności, czekając, aż zrobimy tę jedną rzecz: dokonamy wyboru, którą z  tych „rzeczywistości” sami przejawimy. Przecież to  my  jesteśmy tymi, którzy mają moc, zawsze.
 
-Zgodnie z  tym, co  mówi Jeszua, te „nieskończone możliwości” przychodzą w  dwóch pakietach: jeden z  etykietą „Królestwo”, a  drugi z  etykietą „Sen”. Sen przechowuje w  sobie pozornie nieskończoną liczbę możliwości: wszystkie światy i  życia przeżywane przed nami, po  nas i  przeżywane teraz jako my. Wszystkie  te światy spoczywają na  jednym fundamencie: Oddzieleniu, nierozerwalnie połączonym z  jedną fundamentalną energią – energią lęku. Wierzymy w  to  zbiorowo tak mocno, że nie jest to  w  ogóle kwestionowane. Żyjemy w  oddzieleniu od  siebie nawzajem, od  natury, od  Boga. Ponieważ upieramy się przy byciu oddzielonymi, bez wahania wybieramy pakiet z  etykietą „Sen” i  natychmiast lądujemy tutaj, teraz, w  świecie, jaki wierzymy, że jest rzeczywisty i  niezależny od  nas. A  może jest on jedynie lustrem odzwierciedlającym nic innego, jak tylko nasz wybór?
+Zgodnie z  tym, co  mówi Jeszua, te „nieskończone możliwości” przychodzą w  dwóch pakietach: jeden z  etykietą „Królestwo”, a  drugi z  etykietą „Sen”. Sen przechowuje w  sobie pozornie nieskończoną liczbę możliwości: wszystkie światy i  życia przeżywane przed nami, po  nas i  przeżywane teraz jako my. Wszystkie te światy spoczywają na  jednym fundamencie: Oddzieleniu, nierozerwalnie połączonym z  jedną fundamentalną energią – energią lęku. Wierzymy w  to  zbiorowo tak mocno, że nie jest to  w  ogóle kwestionowane. Żyjemy w  oddzieleniu od  siebie nawzajem, od  natury, od  Boga. Ponieważ upieramy się przy byciu oddzielonymi, bez wahania wybieramy pakiet z  etykietą „Sen” i  natychmiast lądujemy tutaj, teraz, w  świecie, jaki wierzymy, że jest rzeczywisty i  niezależny od  nas. A  może jest on jedynie lustrem odzwierciedlającym nic innego, jak tylko nasz wybór?
 
 Pomyślałem sobie: „Może świat nadal kręci się, jak zawsze, wokół wojen, chciwości i  tym podobnych, ponieważ to  my  upieramy się przy jego realności, a  następnie zmagamy się z  szukaniem sposobów, by  sobie z  nim radzić. Czy przekazaliśmy naszą moc pakietowi z  nalepką »Sen«? Czy właśnie tę moc Syna oddaliśmy naszym złudzeniom?”.
 
@@ -57,7 +57,7 @@ Wydaje się to  tak jasne, tak proste! A  jednak ślad czegoś we  mnie ciągle 
 {: .omit}
 
 <div data-index="1" markdown="1" class="indent">
-> *Marc, proszę wstań i  pisz*.
+> Marc, proszę wstań i  pisz.
 </div>
 
 Jego głos mnie zaskakuje, otwieram nagle oczy.
@@ -67,13 +67,13 @@ Jego głos mnie zaskakuje, otwieram nagle oczy.
 „Nie możemy się tym zająć rano?” – pytam mego niewidzialnego gościa, po  czym śmieję się cicho z  nonszalancji, z  jaką toczy się ta  rozmowa.
 
 <div data-index="1" markdown="1" class="indent">
-> *Możemy.*
+> Możemy.
 </div>
 
 Boże, tak bardzo kocham to  uczucie Jego obecności i  myślę sobie, jak miło byłoby zwinąć się w  kłębek na  Jego „kolanach” i  spać wiecznie.
 
 <div data-index="1" markdown="1" class="indent">
-> *Zostaniesz obudzony o  3:00 nad ranem i  będziemy kontynuowali.*
+> Zostaniesz obudzony o  3:00 nad ranem i  będziemy kontynuowali.
 </div>
 
 O  trzeciej! Myślałem bardziej o  czasie gdzieś koło dziewiątej albo nawet później. Czuję, jak Jego energia się wycofuje i  szybko zapadam z  powrotem w  sen.
@@ -85,185 +85,185 @@ Naglę otwieram szeroko oczy. Patrząc kątem oka widzę wyraźnie zegar. Jest 3
 Zdegustowany odrzucam kołdrę i  chwytam szlafrok. Idąc do  toalety, podnoszę wzrok do  góry i  mamroczę pod nosem: „Rany, chłopaki, nic was nie powstrzyma, co?”.
 
 <div data-index="1" markdown="1" class="indent">
-*Teraz zaczynamy.*
+Teraz zaczynamy.
 
-*Przegrywasz tę bitwę, Marc.*<br>
-*Przegrywasz,*<br>
-*jednak przegrana nie jest teraz naszym celem.*<br>
-*Wkrótce*<br>
-*otrzymasz jasny znak*<br>
-*dzieła, w  którym uczestniczysz,*<br>
-*dzieła pojednania Syna.*
+Przegrywasz tę bitwę, Marc.<br>
+Przegrywasz,<br>
+jednak przegrana nie jest teraz naszym celem.<br>
+Wkrótce<br>
+otrzymasz jasny znak<br>
+dzieła, w  którym uczestniczysz,<br>
+dzieła pojednania Syna.
 
-*Kiedy zdecydowanie wybierzesz*<br>
-*aktywne uczestnictwo w  tym dziele,*<br>
-*nie będzie **niczego**,*<br>
-*co  nie będzie ci dane.*
+Kiedy zdecydowanie wybierzesz<br>
+aktywne uczestnictwo w  tym dziele,<br>
+nie będzie **niczego**,<br>
+co  nie będzie ci dane.
 
-*Nie ma  potrzeby powrotu*<br>
-*do  twych poprzednich snów*<br>
-*i  czyż ta  myśl*<br>
-*nie jest powodem twego widocznego cierpienia?*
+Nie ma  potrzeby powrotu<br>
+do  twych poprzednich snów<br>
+i  czyż ta  myśl<br>
+nie jest powodem twego widocznego cierpienia?
 
-*Teraz jest czas*<br>
-*twego ostatecznego wyboru.*<br>
-*Wybór jest tylko pomiędzy*<br>
-*Miłością a  lękiem.*<br>
-*Lęk jest twym nawykiem,*<br>
-*Snem ludzkości*<br>
-*i  zaprzeczeniem*<br>
-*prawowitemu dziedzictwu Syna.*
+Teraz jest czas<br>
+twego ostatecznego wyboru.<br>
+Wybór jest tylko pomiędzy<br>
+Miłością a  lękiem.<br>
+Lęk jest twym nawykiem,<br>
+Snem ludzkości<br>
+i  zaprzeczeniem<br>
+prawowitemu dziedzictwu Syna.
 
-*To  właśnie akceptacja dziedzictwa*<br>
-*jest wyborem, który jedynie musi być dokonany,*<br>
-*tylko dlatego, że kiedyś* <br>
-*właśnie tego dziedzictwa się wyrzekliśmy.*
+To  właśnie akceptacja dziedzictwa<br>
+jest wyborem, który jedynie musi być dokonany,<br>
+tylko dlatego, że kiedyś <br>
+właśnie tego dziedzictwa się wyrzekliśmy.
 
-*W  Królestwie*<br>
-*nie doświadcza się wysiłku.*<br>
-*Jest tam tylko przejawianie się*<br>
-*woli Ojca dla ciebie*<br>
-*i  przez ciebie –*<br>
-*przejawianie, które dotyka*<br>
-*śpiącej duszy Syna,*<br>
-*odzianej chwilowo w  sen samotności,*<br>
-*brnącej niepewnie przez pola*<br>
-*zasłane trupami śmierci*<br>
-*i  tym, co  umiera właśnie w  tej chwili.*<br>
-*Albowiem Oddzielenie od  Ojca*<br>
-*jest śmiercią*<br>
-*i  niczym więcej.*
+W  Królestwie<br>
+nie doświadcza się wysiłku.<br>
+Jest tam tylko przejawianie się<br>
+woli Ojca dla ciebie<br>
+i  przez ciebie –<br>
+przejawianie, które dotyka<br>
+śpiącej duszy Syna,<br>
+odzianej chwilowo w  sen samotności,<br>
+brnącej niepewnie przez pola<br>
+zasłane trupami śmierci<br>
+i  tym, co  umiera właśnie w  tej chwili.<br>
+Albowiem Oddzielenie od  Ojca<br>
+jest śmiercią<br>
+i  niczym więcej.
 
-*Kiedy wybierasz*<br>
-*obfitość Królestwa,*<br>
-*rodzi się taki sposób życia,*<br>
-*który nie wymaga żadnego planowania,*<br>
-*żadnych osiągnięć,*<br>
-*żadnego zabezpieczania swego przetrwania.*<br>
-*Wszystko jest przygotowane dla ciebie,*<br>
-*który wpierw służysz Ojcu*<br>
-*będącemu w  tobie.*
+Kiedy wybierasz<br>
+obfitość Królestwa,<br>
+rodzi się taki sposób życia,<br>
+który nie wymaga żadnego planowania,<br>
+żadnych osiągnięć,<br>
+żadnego zabezpieczania swego przetrwania.<br>
+Wszystko jest przygotowane dla ciebie,<br>
+który wpierw służysz Ojcu<br>
+będącemu w  tobie.
 
-*Budzenie się ze  Snu*<br>
-*wydaje się bolesne*<br>
-*tylko w  takim stopniu,*<br>
-*w  jakim opieramy się przebudzeniu*<br>
-*z  pokusy iluzorycznego snu*<br>
-*i  pozornej jego potrzeby.*<br>
-*Ten sen jest tylko nawykiem*<br>
-*pielęgnowanym od  chwili dokonania wyboru,*<br>
-*by  trwać w  Śnie Oddzielenia.*
+Budzenie się ze  Snu<br>
+wydaje się bolesne<br>
+tylko w  takim stopniu,<br>
+w  jakim opieramy się przebudzeniu<br>
+z  pokusy iluzorycznego snu<br>
+i  pozornej jego potrzeby.<br>
+Ten sen jest tylko nawykiem<br>
+pielęgnowanym od  chwili dokonania wyboru,<br>
+by  trwać w  Śnie Oddzielenia.
 
-*Czy nie chciałbyś wybrać ze  Mną*<br>
-*Rzeczywistości Królestwa?*<br>
-*W  nim jest wszystko, co  możesz sobie wyobrazić,*<br>
-*każda potrzeba jest spełniona,*<br>
-*zanim jeszcze zdążysz poprosić.*<br>
-*Albowiem wie Ojciec wasz,*<br>
-*czego wam potrzeba.*
+Czy nie chciałbyś wybrać ze  Mną<br>
+Rzeczywistości Królestwa?<br>
+W  nim jest wszystko, co  możesz sobie wyobrazić,<br>
+każda potrzeba jest spełniona,<br>
+zanim jeszcze zdążysz poprosić.<br>
+Albowiem wie Ojciec wasz,<br>
+czego wam potrzeba.
 
-*Doświadczyłeś*<br>
-*wielu aspektów Oddzielenia.*<br>
-*Znasz dobrze ten świat.*<br>
-*Czyż jego powab*<br>
-*nie zawiódł cię w  oczywisty sposób?*<br>
-*Wybierz więc*<br>
-*tylko uwolnienie się od*<br>
-*twego bezużytecznego snu*<br>
-*i  naródź się ponownie*<br>
-*w  doświadczeniu Królestwa.*<br>
-*Wybór ten rodzi*<br>
-*proces rozpoznania,*<br>
-*które szybko przywraca pamięć*<br>
-*o  prawowitym miejscu Syna.*
+Doświadczyłeś<br>
+wielu aspektów Oddzielenia.<br>
+Znasz dobrze ten świat.<br>
+Czyż jego powab<br>
+nie zawiódł cię w  oczywisty sposób?<br>
+Wybierz więc<br>
+tylko uwolnienie się od<br>
+twego bezużytecznego snu<br>
+i  naródź się ponownie<br>
+w  doświadczeniu Królestwa.<br>
+Wybór ten rodzi<br>
+proces rozpoznania,<br>
+które szybko przywraca pamięć<br>
+o  prawowitym miejscu Syna.
 
 
-*Albowiem będziesz siedział*<br>
-*po  prawicy Ojca,*<br>
-*nie widząc nic*<br>
-*prócz chwały wielkości,*<br>
-*niewyobrażalnej pośród marności*<br>
-*i  cierpienia*<br>
-*Snu Oddzielenia.*
+Albowiem będziesz siedział<br>
+po  prawicy Ojca,<br>
+nie widząc nic<br>
+prócz chwały wielkości,<br>
+niewyobrażalnej pośród marności<br>
+i  cierpienia<br>
+Snu Oddzielenia.
 
-*Sen lęku,*<br>
-*który jest całością światów człowieka,*<br>
-*nie zawiera ani śladu*<br>
-*prawdziwej radości,*<br>
-*a  jedynie pozorne przyjemności,*<br>
-*trwające tylko przez chwilę.*
+Sen lęku,<br>
+który jest całością światów człowieka,<br>
+nie zawiera ani śladu<br>
+prawdziwej radości,<br>
+a  jedynie pozorne przyjemności,<br>
+trwające tylko przez chwilę.
 
-*Właśnie dlatego wybierz*<br>
-*To, co  jest wieczne.*<br>
-*Właśnie dlatego wybierz*<br>
-*To, co  trwa na  zawsze*<br>
-*i  którego granic*<br>
-*nie można sięgnąć.*<br>
-*Właśnie dlatego wybierz*<br>
-*obecność Ojca*<br>
-*w  tobie,*<br>
-*a  Królestwo*<br>
-*będzie wszystkim, czego będziesz doświadczał wokół.*
+Właśnie dlatego wybierz<br>
+To, co  jest wieczne.<br>
+Właśnie dlatego wybierz<br>
+To, co  trwa na  zawsze<br>
+i  którego granic<br>
+nie można sięgnąć.<br>
+Właśnie dlatego wybierz<br>
+obecność Ojca<br>
+w  tobie,<br>
+a  Królestwo<br>
+będzie wszystkim, czego będziesz doświadczał wokół.
 
-*Jakie życie może być lżejsze*<br>
-*niż to, które nie wymaga*<br>
-*ani odrobiny zmagania się?*<br>
-*Jaka radość może być większa od  uczestnictwa*<br>
-*w  wiecznej obfitości,*<br>
-*która jest obecnością Ojca*<br>
-*i  budzeniem się Syna*<br>
-*w  każdym,*<br>
-*kto żyje strasznym Snem,*<br>
-*z  powodu którego sam od  tak dawna cierpisz?*
+Jakie życie może być lżejsze<br>
+niż to, które nie wymaga<br>
+ani odrobiny zmagania się?<br>
+Jaka radość może być większa od  uczestnictwa<br>
+w  wiecznej obfitości,<br>
+która jest obecnością Ojca<br>
+i  budzeniem się Syna<br>
+w  każdym,<br>
+kto żyje strasznym Snem,<br>
+z  powodu którego sam od  tak dawna cierpisz?
 
-*Bardzo cię kochamy.*<br>
-*Jednak nie możemy wybrać za  ciebie.*<br>
-*Jesteśmy po  prostu twym przewodnikiem,*<br>
-*wskazując drogę*<br>
-*tylko wtedy, gdy jesteśmy o  to  proszeni,*<br>
-*cierpliwie oczekując, by  rozpoznanie*<br>
-*Snu,*<br>
-*rozpoznanie nędzy Snu,*<br>
-*zaświtało w  świadomości*<br>
-*umysłu przywykłego do  ciemności.*
+Bardzo cię kochamy.<br>
+Jednak nie możemy wybrać za  ciebie.<br>
+Jesteśmy po  prostu twym przewodnikiem,<br>
+wskazując drogę<br>
+tylko wtedy, gdy jesteśmy o  to  proszeni,<br>
+cierpliwie oczekując, by  rozpoznanie<br>
+Snu,<br>
+rozpoznanie nędzy Snu,<br>
+zaświtało w  świadomości<br>
+umysłu przywykłego do  ciemności.
 
-*Wybierz Królestwo w  pełni,*<br>
-*a  Snu więcej nie będzie.*<br>
-*Zniknie z  umysłu na  zawsze,*<br>
-*zostawiając tylko niewiarygodny pokój*<br>
-*i  zadziwienie, że Sen*<br>
-*mógł być kiedykolwiek śniony.*
+Wybierz Królestwo w  pełni,<br>
+a  Snu więcej nie będzie.<br>
+Zniknie z  umysłu na  zawsze,<br>
+zostawiając tylko niewiarygodny pokój<br>
+i  zadziwienie, że Sen<br>
+mógł być kiedykolwiek śniony.
 
-*W  Królestwie nie ma  żadnego braku.*
+W  Królestwie nie ma  żadnego braku.
 
-*Twym jedynym zadaniem*<br>
-*–  jeśli tak to  możemy nazwać –*<br>
-*jest doświadczać w  radości*<br>
-*absolutnego bezpieczeństwa i  obfitości*<br>
-*stołu Ojca.*
+Twym jedynym zadaniem<br>
+–  jeśli tak to  możemy nazwać –<br>
+jest doświadczać w  radości<br>
+absolutnego bezpieczeństwa i  obfitości<br>
+stołu Ojca.
 
-*Ten prosty wybór*<br>
-*demonstruje prawdę*<br>
-*głęboko ukrytą w  sercu*<br>
-*każdego wciąż śpiącego syna.*<br>
-*Bycie świadkiem tego wyboru*<br>
-*jest aktem ponaglania, by  się przebudzić,*<br>
-*aż każdy syn człowieczy*<br>
-*będzie znów żył*<br>
-*jako Prawda tego, kim jest:*<br>
-*jedynym Synem,*<br>
-*zrodzonym z  Ojca*<br>
-*przed wszystkim światami,*<br>
-*mającym udział w  obfitości*<br>
-*darmo danej*<br>
-*–  obecności Ojca.*
+Ten prosty wybór<br>
+demonstruje prawdę<br>
+głęboko ukrytą w  sercu<br>
+każdego wciąż śpiącego syna.<br>
+Bycie świadkiem tego wyboru<br>
+jest aktem ponaglania, by  się przebudzić,<br>
+aż każdy syn człowieczy<br>
+będzie znów żył<br>
+jako Prawda tego, kim jest:<br>
+jedynym Synem,<br>
+zrodzonym z  Ojca<br>
+przed wszystkim światami,<br>
+mającym udział w  obfitości<br>
+darmo danej<br>
+–  obecności Ojca.
 
-*W  tym jest*<br>
-*Królestwo*<br>
-*nieba na  ziemi.*<br>
-*Czy rzeczywiście*<br>
-*może być*<br>
-*inny wybór od  tego?*
+W  tym jest<br>
+Królestwo<br>
+nieba na  ziemi.<br>
+Czy rzeczywiście<br>
+może być<br>
+inny wybór od  tego?
 </div>
 
 Zatrzymuję się na  chwilę. Energia Jeszuy nagle ustąpiła i  jestem sam, wpatrując się w  migoczące światła na  czarnych i  spokojnych wodach przystani. Czuję w  sobie bardzo delikatne odczucie, rodzaj jakiegoś pulsowania. Poddając swój opór, oddycham głęboko i  powoli, pozwalając, by  brzuch, żebra i  klatka piersiowa rozszerzały się i  uwalniały bez napięcia.
@@ -283,40 +283,40 @@ Albowiem w  tym momencie wieczności Sen odszedł.
 Jutro zacznę pisać.
 
 <div data-index="1" markdown="1" class="indent">
-*Teraz*<br>
-*wykonało się.*<br>
-*Wybór*<br>
-*już został dokonany.*
+Teraz<br>
+wykonało się.<br>
+Wybór<br>
+już został dokonany.
 
-*Teraz*<br>
-*rozpoznanie*<br>
-*jest pełne,*<br>
-*przychodząc jak złodziej nocą,*<br>
-*kradnąc pajęczyny*<br>
-*cieni,*<br>
-*ujawniając złudzenie*<br>
-*długo trwającego Snu*<br>
-*Synowi, który pamięta.*
+Teraz<br>
+rozpoznanie<br>
+jest pełne,<br>
+przychodząc jak złodziej nocą,<br>
+kradnąc pajęczyny<br>
+cieni,<br>
+ujawniając złudzenie<br>
+długo trwającego Snu<br>
+Synowi, który pamięta.
 
-*Koniec samotnej podróży*<br>
-*i  świętowanie*<br>
-*tej, która zaczęła się na  nowo.*<br>
-*To  nie jest podróż do,*<br>
-*ale podróż w*<br>
-*Królestwie.*<br>
-*Tak więc Moja obietnica została spełniona,*<br>
-*albowiem Sen spłonął na  zawsze*<br>
-*w  chwale obecności Ojca.*
+Koniec samotnej podróży<br>
+i  świętowanie<br>
+tej, która zaczęła się na  nowo.<br>
+To  nie jest podróż do,<br>
+ale podróż w<br>
+Królestwie.<br>
+Tak więc Moja obietnica została spełniona,<br>
+albowiem Sen spłonął na  zawsze<br>
+w  chwale obecności Ojca.
 
-*Teraz*<br>
-*życie naprawdę zaczyna się na  nowo.*<br>
-*Teraz*<br>
-*życie naprawdę się spełnia.*<br>
-*A  wszystko to*<br>
-*–  bez wysiłku.*<br>
-*Witaj w  domu,*<br>
-*umiłowany bracie,*<br>
-*witaj w  domu.*
+Teraz<br>
+życie naprawdę zaczyna się na  nowo.<br>
+Teraz<br>
+życie naprawdę się spełnia.<br>
+A  wszystko to<br>
+–  bez wysiłku.<br>
+Witaj w  domu,<br>
+umiłowany bracie,<br>
+witaj w  domu.
 
-*Amen.*
+Amen.
 </div>

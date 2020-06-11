@@ -2,9 +2,9 @@
 title: "Lekcja 9. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center">
-## Lekcja 9
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead">
+# Lekcja 9
+## Pytania i odpowiedzi
 </div>
 
 ## Pytanie 1
@@ -25,11 +25,11 @@ Powtórzmy więc, że wydawało się, iż zarówno ty, jak i wielu innych, przec
 
 Tak więc każdy umysł musi następnie zwrócić się do wnętrza i być prawdziwie szczery.
 
-> *Co czuję?*
+> Co czuję?
 
-> *Czuję, że nie przebaczyłem sobie samemu, albo takiej to a takiej rzeczy.*
+> Czuję, że nie przebaczyłem sobie samemu, albo takiej to a takiej rzeczy.
 
-> *Czuję, że ten głos ciągle do mnie mówi: „Nie jesteś wystarczająco dobry, nie jesteś wystarczająco dobry".*
+> Czuję, że ten głos ciągle do mnie mówi: „Nie jesteś wystarczająco dobry, nie jesteś wystarczająco dobry".
 
 Jeśli te głosy cię przyzywają, to znaczy, że coś woła o twoją uwagę. Wtedy najlepiej przyjąć to jako swoją drogę do domu. Może się ona różnić od drogi innej osoby, ale to nieistotne, ponieważ porównywanie i kontrast charakteryzują umysł egotyczny, a nie Umysł Chrystusa.
 
@@ -45,13 +45,13 @@ Czy ma to dla ciebie sens?
 
 Tak. Będę wdzięczny za to, ponieważ posłuży to większej całości wątku czy też nici, która jest teraz wplatana między wielu ludzi, którzy zostali wezwani, oraz wielu tych, którzy będą wezwani, by przyłączyć się do tej przygody, którą nazywamy energią Shanti Christo. Myśl o tym w ten sposób: w jednym, podzielonym na wiele punkcików Światła Umyśle na jednym krańcu wszechświata było kilkaset tysięcy punkcików Światła, które powiedziały:
 
-> *Cóż, rozwinęłyśmy się razem, to i razem możemy się zwinąć!*
+> Cóż, rozwinęłyśmy się razem, to i razem możemy się zwinąć!
 
 -- To bardzo cenne. Od bardzo dawna chciałem zadać ci to pytanie.
 
 Tak, wiem. Czy wiesz, że pytanie, któremu zdajesz się opierać w swym umyśle, to postawiona przez duszę brama do świadomego umysłu, poprzez którą dokonujesz kolejnego skoku, wznosząc się po swej nici z powrotem do Serca Boga? Właśnie dlatego pytania, które wypływają z głębi Umysłu, to pytania najwyższej wagi. A ty możesz wyćwiczyć swój Umysł, by obserwował pytanie, i mówił:
 
-> *Ach! Oto zbliżam się do bramy. Ciekawe, co takiego jest w tym pytaniu? Cóż takiego mi objawia to wypływające z głębi mej istoty pytanie? Co ono przede mną kryje? Jaka energia zaczyna się we mnie teraz przemieniać?*
+> Ach! Oto zbliżam się do bramy. Ciekawe, co takiego jest w tym pytaniu? Cóż takiego mi objawia to wypływające z głębi mej istoty pytanie? Co ono przede mną kryje? Jaka energia zaczyna się we mnie teraz przemieniać?
 
 Pytanie zawsze odzwierciedla to, co płynie z głębi samego Umysłu, co czeka na przyswojenie, zintegrowanie i przekroczenie.
 

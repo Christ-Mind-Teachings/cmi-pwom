@@ -2,9 +2,9 @@
 title: "Lekcja 11. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center"> 
-## Lekcja 11
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead">
+# Lekcja 11
+## Pytania i odpowiedzi
 
 </div>
 
@@ -20,7 +20,7 @@ Czy objaśnić ci to, czy to wystarczająca odpowiedź?
 
 Zaprawdę. Umiłowany przyjacielu, oto pytanie, które tak naprawdę służy&hellip;wnosi ono w naszą świadomość coś, co naprawdę służy ograniczeniu samego procesu przebudzenia. *Ego* przykłada znaczenie bardziej do *formy* niż do *treści*. Egotyczny umysł szuka formy ekspresji, która -- jak ma nadzieję -- spełni postrzegany przez niego cel, a zatem zapewni, że dostanie on to, czego chce.
 
-> *Ach, zrobiłem to! Widzisz, jak dobry jestem?*
+> Ach, zrobiłem to! Widzisz, jak dobry jestem?
 
 *Jedyny cel duszy to przebudzić się*, pozwolić na to, by wydarzył się proces transformacji, tak by Chrystus ponownie dzierżył najwyższą władzę w umyśle, w którym lęk wytworzył substytut.
 
@@ -28,7 +28,7 @@ Liczy się *treść*. I im bardziej dany umysł oddaje się *treści*, właściw
 
 Powtórzmy -- *wyjątkowość* jest *interpretacją ego*. Na przykład nie ma nic wyjątkowego we mnie, objawiającym się jako główny mówca w imieniu tego, co kiedyś określiłem jako „Ród". Nie ma nic wyjątkowego w tym mym umiłowanym bracie, który łączy się ze mną w tym procesie. Dla niektórych umysłów może to wyglądać jako coś wyjątkowego. A niektórzy mogą powiedzieć:
 
-> *Och Jeszua! To, co on czyni, jest wyjątkowe pośród wszystkich mistrzów!*
+> Och Jeszua! To, co on czyni, jest wyjątkowe pośród wszystkich mistrzów!
 
 To jest projekcja. Wszystkie rzeczy mają jedną funkcję: uzdrowienie Synostwa, tak by Miłość mogła być szerzona *poczytalnie* z Umysłu Boga poprzez Jego Stworzenie, które jest Chrystusem. To wszystko. Mógłbyś spojrzeć na te dwie rzeczy jak na dwie strony tej samej monety.
 
@@ -76,7 +76,7 @@ Gdy rozpoczął się sen, zaczął on przejmować kontrolę w Umyśle jednego Sy
 
 Gdy zatem znajdziesz się w stanie świadomości, w którym przynajmniej część ciebie nadal ceni ciało, poczujesz energię seksualną i będziesz musiał ją odczuwać, ponieważ energia seksualna jest energią kreatywną -- to wszystko. Pragnieniem Miłości jest pomnażać Siebie, wyrażać Siebie, szerzyć Siebie. W ramach cielesnego używania seksualności najlepsze, co seksualność może zrobić, to powiedzieć komuś:
 
-> *Akceptuję ciebie takim, jakim jesteś i widzę twoją niewinność. Dokonuję wyboru, by pozwolić, aby to ciało zostało użyte w taki sposób, by wyrażać prostą Prawdę.*
+> Akceptuję ciebie takim, jakim jesteś i widzę twoją niewinność. Dokonuję wyboru, by pozwolić, aby to ciało zostało użyte w taki sposób, by wyrażać prostą Prawdę.
 
 Żadna ilość seksualności nie przebudzi Synostwa. Jakkolwiek ciało *może* -- jeśli używane jest przez umysł *w pełni oddany* byciu Uczniem Chrystusa -- stać się kontekstem, poprzez który Miłość pomaga rozpuścić lęki, brak poczucia własnej wartości, pewne ugruntowane lub skrystalizowane w umyśle twego brata lub siostry postrzeżenia. Ciało nie może być użyte, by coś *zdobyć*. Jego jedynym poczytalnym celem jest szerzyć lub dawać -- to wszystko.
 
@@ -88,11 +88,11 @@ Najlepiej zatem, by do seksualności podchodzono w przebudzonym stanie tylko jak
 
 Czy seksualność zatem może być używana w święty sposób? Oczywiście! Ołówek może zostać użyty w święty sposób. To *umysł* decyduje o *celu* i *wartości* wszystkiego. Podjęcie decyzji, by seksualnych energii ciała używać jedynie jako czegoś, poprzez co Duch Święty może dotknąć innego umysłu i serca, i pozwolić im na zrelaksowanie się w akceptacji siebie, ponieważ są oni widziani i doceniani za to, *czym są*, a nie dlatego, że jest ktoś, kto próbuje coś od nich zdobyć -- oto najwyższy użytek i wartość, jaką może mieć cielesna seksualność. A przy okazji, wszystko *oprócz* tego -- wszystko *oprócz* tego -- jest decyzją *przeciwko Chrystusowi*, to czyste i jasne.
 
-Wspomniałeś terminy: „wyjątkowość" oraz „świętość". W twoim świecie ego często postrzega, że to seksualność tworzy świętość połączenia dwojga. To jest myślenie wywrócone do góry nogami. Świętość nie wymaga żadnego ruchu, wymaga ona poddania złudzenia w każdym z dwóch umysłów. Święty związek, czy to podczas jedzenia pizzy, czy uprawiania tego, co nazywacie „seksem"... A tak przy okazji, wy cały czas uprawiacie seks, nawet gdy jecie pizzę... Świętość wydarza się, kiedy jakiekolwiek dwie istoty spoglądają do swych wnętrz i odrywają Prawdę, że *nie ma braku*. *Następnie* łączą się one, jednak nie po to, by coś zyskać, ale by stwarzać to, co *dobre*, *święte* i *piękne*. A tym może być pizza. Może to być ośrodek warsztatowy. A może to być to, co nazywacie „uprawianiem miłości". Tak przy okazji, nie podoba mi się pojęcie „uprawianie" (ang. „making" -- dosłownie „wytwarzanie" -- przyp. tłum.) To robi ego. Wszystkie czyny zatem są natchnione z zupełnie innego miejsca świadomości, i to wszystko.
+Wspomniałeś terminy: „wyjątkowość" oraz „świętość". W twoim świecie ego często postrzega, że to seksualność tworzy świętość połączenia dwojga. To jest myślenie wywrócone do góry nogami. Świętość nie wymaga żadnego ruchu, wymaga ona poddania złudzenia w każdym z dwóch umysłów. Święty związek, czy to podczas jedzenia pizzy, czy uprawiania tego, co nazywacie „seksem"&hellip; A tak przy okazji, wy cały czas uprawiacie seks, nawet gdy jecie pizzę&hellip; Świętość wydarza się, kiedy jakiekolwiek dwie istoty spoglądają do swych wnętrz i odrywają Prawdę, że *nie ma braku*. *Następnie* łączą się one, jednak nie po to, by coś zyskać, ale by stwarzać to, co *dobre*, *święte* i *piękne*. A tym może być pizza. Może to być ośrodek warsztatowy. A może to być to, co nazywacie „uprawianiem miłości". Tak przy okazji, nie podoba mi się pojęcie „uprawianie" (ang. „making" -- dosłownie „wytwarzanie" -- przyp. tłum.) To robi ego. Wszystkie czyny zatem są natchnione z zupełnie innego miejsca świadomości, i to wszystko.
 
-Wyjątkowość... Wyjątkowość nie jest niczym więcej, jak próbą, by użyć związku -- z pizzą, z innym ciałem, z bratem lub siostrą -- by coś *dostać*. To właśnie czyni związek *wyjątkowym*. To nie oznacza -- świętość nie oznacza, że wszyscy żyją w domu sami i nikt nie jest w zaangażowanym związku, ponieważ w *świętości* Duch Święty daje natchnienie dla celu związku -- z chwili na chwilę, i na kolejną chwilę. I jeśli wygląda na to, że właściwe jest, by dwoje zeszło się i zamieszkało pod tym samym dachem, nawet jako mąż i żona... to ta *forma* jest *wtórna* względem *treści*, do której przebudziło się każde z nich. Skoro forma jest rzeczą wtórną, to może zostać łatwo objęta i łatwo uwolniona, gdy owa treść wezwie do przetasowania kart. Wyjątkowość utrzymywałaby, że:
+Wyjątkowość&hellip; Wyjątkowość nie jest niczym więcej, jak próbą, by użyć związku -- z pizzą, z innym ciałem, z bratem lub siostrą -- by coś *dostać*. To właśnie czyni związek *wyjątkowym*. To nie oznacza -- świętość nie oznacza, że wszyscy żyją w domu sami i nikt nie jest w zaangażowanym związku, ponieważ w *świętości* Duch Święty daje natchnienie dla celu związku -- z chwili na chwilę, i na kolejną chwilę. I jeśli wygląda na to, że właściwe jest, by dwoje zeszło się i zamieszkało pod tym samym dachem, nawet jako mąż i żona&hellip; to ta *forma* jest *wtórna* względem *treści*, do której przebudziło się każde z nich. Skoro forma jest rzeczą wtórną, to może zostać łatwo objęta i łatwo uwolniona, gdy owa treść wezwie do przetasowania kart. Wyjątkowość utrzymywałaby, że:
 
-> *Nie, teraz, gdy jesteśmy razem, liczy się forma.*
+> Nie, teraz, gdy jesteśmy razem, liczy się forma.
 
 Ego kocha *formę*, gdyż wierzy ono, że forma może dać mu bezpieczeństwo, którego ono potrzebuje, podczas gdy próbuje ono *przetrwać* w swoich *lękach*. Umysł przebudzony do świętości jest *nieustraszony* i jedynie kocha. Tak więc forma stała się drugorzędna wobec treści.
 

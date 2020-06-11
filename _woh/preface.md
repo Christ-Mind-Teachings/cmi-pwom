@@ -18,7 +18,7 @@ Usiadłem, zamknąłem oczy i zacząłem powtarzać daną mi przez Niego krótk�
 
 Pamiętam jak jednego wieczoru miałem gorączkę, opuchnięte gardło i straciłem głos. A On mi powiedział, że to nie stanowi problemu, ponieważ On – w odróżnieniu ode mnie – nie wierzy w ograniczenie i chorobę. Gdy przemawiał, po przeziębieniu nie było śladu, a ja byłem wolny od jego symptomów jeszcze kilka godzin po sesji. Ale kiedy symptomy zaczęły wracać, zawołałem do Niego: „Jak temu zapobiec?”. Oto, jak była Jego Odpowiedź:
 
-> *Mój bracie, tego musisz dowiedzieć się w sobie i dla siebie samego.*
+> Mój bracie, tego musisz dowiedzieć się w sobie i dla siebie samego.
 
 Od początku naszych spotkań sygnalizowano mi, że tworzy On Drogę, „jakiej jeszcze nie było na Ziemi”, a która jest poświęcona rozkwitowi miliona dusz w Chrystusowym Umyśle. Miało to być częścią nadchodzącej radykalnej przemiany całej Ludzkości, którą czujemy obecnie tak wyraźnie.
 
@@ -31,7 +31,7 @@ Ważne jest, aby uczniowie wiedzieli, że nauki zawarte w trzech tekstach „Dro
 
 Zatem tom, który teraz trzymasz w dłoni oraz pozostałe wspomniane książki, stanowią jeden z najwspanialszych i wszechobejmujących duchowych Dróg, które ofiarowano temu światu. On sam ujął to wiele lat temu w ten sposób:
 
-> *Naszym celem jest ustanowić kompletną Drogę, która poprowadzi duszę od jej pierwszych inklinacji do przebudzenia aż do dojrzałego przejawienia Chrystusowego Umysłu.*
+> Naszym celem jest ustanowić kompletną Drogę, która poprowadzi duszę od jej pierwszych inklinacji do przebudzenia aż do dojrzałego przejawienia Chrystusowego Umysłu.
 
 Zainteresowani czytelnicy mogą dowiedzieć się więcej na temat Drogi na
 stronie: [Way of Mastery]( https://www.wayofmastery.com) lub [Droga

@@ -2,9 +2,9 @@
 title: "Lekcja 6. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center"> 
-## Lekcja 6
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead">
+# Lekcja 6
+## Pytania i odpowiedzi
 
 </div>
 
@@ -34,7 +34,7 @@ Radość więc jest przymiotem Poznania. Przyjemność jest fizjologicznym stane
 
 
 
->*Bądź ostrożny. Nie szukaj przyjemności.*
+>Bądź ostrożny. Nie szukaj przyjemności.
 
 
 
@@ -46,7 +46,7 @@ Na przykład, w sferze seksualności wielu stara się *używać* ciała, aby *po
 
 
 
->*Widzę cię w twej doskonałej niewinności i chcę to świętować, łącząc się z tobą całym ciałem.* 
+>Widzę cię w twej doskonałej niewinności i chcę to świętować, łącząc się z tobą całym ciałem. 
 
 
 
@@ -54,7 +54,7 @@ A zatem Umysł angażuje się w dawanie, a przyjemne stany, które mogą się po
 
 
 
->*No, no! Światła nie rozbłysły, fanfary nie zabrzmiały. To zwyczajnie nie było tak, jak miało być.*
+>No, no! Światła nie rozbłysły, fanfary nie zabrzmiały. To zwyczajnie nie było tak, jak miało być.
 
 
 
@@ -64,7 +64,7 @@ Radość jest rozpoznaniem, że:
 
 
 
->*Ja i mój Ojciec Jedno jesteśmy. I we wszelkich kontekstach, mogę wybrać Miłość zamiast lęku.*
+>Ja i mój Ojciec Jedno jesteśmy. I we wszelkich kontekstach, mogę wybrać Miłość zamiast lęku.
 
 
 

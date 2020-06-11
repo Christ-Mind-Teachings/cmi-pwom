@@ -7,7 +7,10 @@ title: "Rozdział trzeci"
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-*To zawsze lęk<br>przed własną śmiercią<br>blokuje rozpoznanie<br>Królestwa.*
+To zawsze lęk<br>
+przed własną śmiercią<br>
+blokuje rozpoznanie<br>
+Królestwa.
 {: .omit}
 
 </div>
@@ -16,20 +19,20 @@ title: "Rozdział trzeci"
 {: .omit}
 
 <div data-index="1" markdown="1" class="indent">
-*Teraz zaczynamy.*
+Teraz zaczynamy.
 
-*Umiłowany bracie,<br>bo naprawdę tym właśnie jesteś,<br>przyszedłem, bo o to prosiłeś.<br>W trakcie naszego spotkania w tej chwili<br>będę się z tobą dzielił<br>tym, co ujawni ci<br>harmonię Królestwa.*
+Umiłowany bracie,<br>bo naprawdę tym właśnie jesteś,<br>przyszedłem, bo o to prosiłeś.<br>W trakcie naszego spotkania w tej chwili<br>będę się z tobą dzielił<br>tym, co ujawni ci<br>harmonię Królestwa.
 
-*Po pierwsze,<br>zauważysz, że upodobałem sobie<br>używanie terminologii<br>czysto chrześcijańskiej,<br>choć powinno się wiedzieć, że taką<br>terminologię lepiej postrzegać jako judeochrześcijańską.<br>Czynię tak, ponieważ te terminy łatwo się rozpoznaje,<br>odnosząc je do czasu, gdy kroczyłem między wami.<br>Z pewnością nie jest to jedyna forma,<br>jaką można było wybrać.*
+Po pierwsze,<br>zauważysz, że upodobałem sobie<br>używanie terminologii<br>czysto chrześcijańskiej,<br>choć powinno się wiedzieć, że taką<br>terminologię lepiej postrzegać jako judeochrześcijańską.<br>Czynię tak, ponieważ te terminy łatwo się rozpoznaje,<br>odnosząc je do czasu, gdy kroczyłem między wami.<br>Z pewnością nie jest to jedyna forma,<br>jaką można było wybrać.
 
-*Jestem nieograniczony,<br>
+Jestem nieograniczony,<br>
 tak samo jak ty.<br>
 Jedyną istotną różnicą między nami<br>
 jest ta, że ja  w  pełni uznałem<br>
 swą nieograniczoność,<br>
-podczas gdy ty  postanawiasz jej nie uznawać.*
+podczas gdy ty  postanawiasz jej nie uznawać.
 
-*Marc,<br>
+Marc,<br>
 przez ostatnich parę lat,<br>
 zgodnie z  tym jak ty  postrzegasz przepływ swego doświadczenia,<br>
 osiągnąłeś spory wgląd i  zrozumienie<br>
@@ -38,9 +41,9 @@ pragnąłeś tego.<br>
 Pragnienie jest więc pierwszym czynnikiem wymaganym<br>
 w  procesie wyłaniania się<br>
 ze  snu, w  którym trwasz<br>
-od  tysięcy lat.*
+od  tysięcy lat.
 
-*Jestem całkiem świadomy tego,<br>
+Jestem całkiem świadomy tego,<br>
 że masz co  do  tego wątpliwości.<br>
 Rozważ następującą rzecz:<br>
 a  może to  lęk przed oczywistością?<br>
@@ -51,17 +54,17 @@ narodzony z  własnego pragnienia,<br>
 rzeczywiście doprowadziłeś<br>
 do  przejawienia i  wyrażenia się<br>
 doświadczenia połączenia się z  umysłem Jeszuy,<br>
-„Chrystusa”?*
+„Chrystusa”?
 
-*Ten ostatni termin nie jest tytułem, jakiego się domagałem.<br>
+Ten ostatni termin nie jest tytułem, jakiego się domagałem.<br>
 Został Mi  przypisany<br>
 przez tych, którzy odmówili<br>
 pełnego przyjęcia w  sobie<br>
 Mojego przesłania.<br>
 Jeśli się go nie przyjmuje,<br>
-wynika to  zawsze z  lęku.<br>*
+wynika to  zawsze z  lęku.<br>
 
-*Lęk jest jedyną energią,<br>
+Lęk jest jedyną energią,<br>
 która może cię oddzielić<br>
 od  Królestwa.<br>
 To  nie jest „lęk przed Bogiem”,<br>
@@ -75,13 +78,13 @@ w  twej świadomości.<br>
 I  czyż każde takie poruszenie nie jest<br>
 tylko poddaniem ograniczeń,<br>
 jakie sam sobie narzuciłeś<br>
-i  do  czego się przyznajesz?*
+i  do  czego się przyznajesz?
 
-*Dlatego też moja nieograniczoność pozwoliła Mi  stwierdzić<br>
+Dlatego też moja nieograniczoność pozwoliła Mi  stwierdzić<br>
 bez najmniejszego wahania:<br>
-„Ja  i  Mój Ojciec Jedno jesteśmy”.*
+„Ja  i  Mój Ojciec Jedno jesteśmy”.
 
-*Do  Królestwa wchodzi się,<br>
+Do  Królestwa wchodzi się,<br>
 kiedy oczywista prawda tego stwierdzenia<br>
 zostaje przyjęta we  własnym umyśle.<br>
 Jest to  znak poddania ograniczeń<br>
@@ -90,42 +93,42 @@ Chciałbym, aby było całkowicie jasne,<br>
 że słowo „ciemność”, jakie wybrałem,<br>
 powinno być zawsze utożsamiane z  lękiem,<br>
 który jest jedyną formą energii,<br>
-o  której można powiedzieć, że ją stworzyłeś.*
+o  której można powiedzieć, że ją stworzyłeś.
 
-*W  Królestwie<br>
+W  Królestwie<br>
 lęk nie istnieje.<br>
 Jesteś w  pełni miłowany.<br>
-Nigdy nie zgrzeszyłeś.*
+Nigdy nie zgrzeszyłeś.
 
-*W  naturze Śniącego leży<br>
+W  naturze Śniącego leży<br>
 wiara we  własny Sen.<br>
 Ów Sen znasz dobrze.<br>
 Rzeczywistość postrzegasz jak przez mgłę,<br>
 jak echo melodii,<br>
 która po  cichu do  ciebie wraca.<br>
-Słuchaj jej i  jedynie jej.*
+Słuchaj jej i  jedynie jej.
 
-*Właśnie tu  mają wartość twe specjalne zdolności.<br>
+Właśnie tu  mają wartość twe specjalne zdolności.<br>
 Samo dzielenie się z  innymi<br>
 sztuką trwania w  ciszy<br>
 może pomóc tym, którzy szukają Królestwa,<br>
 dojść do  miejsca bezbronności,<br>
-w  którym możemy z  nimi rozmawiać.*
+w  którym możemy z  nimi rozmawiać.
 
-*Królestwa nie można stracić,<br>
+Królestwa nie można stracić,<br>
 lecz zostało ono zapomniane.<br>
 Jednak to  w  zapomnieniu zrodzona jest właśnie substancja<br>
-prawdziwego przypomnienia.*
+prawdziwego przypomnienia.
 
-*Używamy tego, co  śnisz, niezależnie od  treści,<br>
+Używamy tego, co  śnisz, niezależnie od  treści,<br>
 jako mechanizmu twego przebudzenia.<br>
 Jeśli mogę sobie pozwolić na  drobny żart,<br>
 to  choć leziesz zabłoconymi buciorami<br>
 po  białym dywanie,<br>
 przemieniamy go w  przepiękny gobelin,<br>
-który **przyciągnie** twą uwagę.*
+który **przyciągnie** twą uwagę.
 
-*Oto harmonia Królestwa:<br>
+Oto harmonia Królestwa:<br>
 nic, absolutnie nic<br>
 nie służy nigdy niczemu innemu, jak tylko ponaglaniu Śniącego,<br>
 by  zakończył swój sen.<br>
@@ -138,9 +141,9 @@ podkreślałem,<br>
 Jest w  tym harmonia<br>
 i  tylko jedno przelotne spojrzenie upewnia<br>
 nawet największego sceptyka,<br>
-że tak jest.*
+że tak jest.
 
-*Do  tej pory już zauważyłeś,<br>
+Do  tej pory już zauważyłeś,<br>
 że prośba o  kontakt z  twym przewodnikami<br>
 nie wymaga naszej zgody,<br>
 by  mogła zajść komunikacja.<br>
@@ -151,50 +154,50 @@ Wydarza się to, kiedy Śniący<br>
 zacznie postrzegać, niezależnie od  tego,<br>
 jak bardzo jeszcze mgliście,<br>
 że jest coś dość dziwnego<br>
-w  naturze Snu.*
+w  naturze Snu.
 
-*Sen jest całym obszarem doświadczania lęku,<br>
+Sen jest całym obszarem doświadczania lęku,<br>
 który eksplodował z  tej jednej początkowej myśli:<br>
 „Jestem oddzielony od  Boga”.<br>
 Wydarzyło się to  niezliczone wieki temu,<br>
 a  jednak zaledwie chwilę temu,<br>
-albowiem czas jest tylko częścią twego Snu.*
+albowiem czas jest tylko częścią twego Snu.
 
-*Jeden z  twych przewodników nieustannie podkreślał,<br>
+Jeden z  twych przewodników nieustannie podkreślał,<br>
 że postawą, jaką trzeba przyjąć<br>
 po  to, by  obudzić się ze  Snu,<br>
 to  „pozwalać, pozwalać, pozwalać”.<br>
 Prośba o  przewodnictwo wspiera to<br>
 i  jest pośrednim rozpoznaniem,<br>
 że nic innego nie zdało egzaminu,<br>
-że nic innego nie można zrobić.*
+że nic innego nie można zrobić.
 
-*Na  początku<br>
+Na  początku<br>
 sam akt pozwalania jest przerażający,<br>
 ponieważ odczuwa się go jak umieranie,<br>
 doświadczenie dość dobrze znane<br>
-oddzielonemu ego!*
+oddzielonemu ego!
 
-*Z  tego też powodu,<br>
+Z  tego też powodu,<br>
 większość szukających pozostaje na  zawsze szukającymi,<br>
 poszukując jakiejś formy magii,<br>
 która zasadniczo<br>
-ma  im **przynieść** oświecenie.*
+ma  im **przynieść** oświecenie.
 
-*To  nie może zadziałać,<br>
+To  nie może zadziałać,<br>
 albowiem przebudzenie wymaga otwartości przyjmowania.<br>
 To  się może wydarzyć tylko<br>
 w  postawie przyzwalania,<br>
 to  znaczy<br>
-pozwalania, by  nastąpiła śmierć.*
+pozwalania, by  nastąpiła śmierć.
 
-*Dla oddzielonej tożsamości irracjonalne jest to,<br>
+Dla oddzielonej tożsamości irracjonalne jest to,<br>
 że najwspanialsze działanie pojawia się w  akcie<br>
 nieczynienia absolutnie niczego.<br>
 Dlatego też,<br>
-„Jarzmo moje jest słodkie, a  moje brzemię lekkie”.*
+„Jarzmo moje jest słodkie, a  moje brzemię lekkie”.
 
-*Żaden wysiłek nie jest wymagany, by  wejść do  Królestwa.<br>
+Żaden wysiłek nie jest wymagany, by  wejść do  Królestwa.<br>
 **Przyzwolenie** jest kluczem do  bramy prowadzącej<br>
 poza Sen Śniącego.<br>
 Wystarczy jedna chwila refleksji, Marc, abyś zobaczył,<br>
@@ -204,35 +207,35 @@ gdy Śniący zaczyna sobie uświadamiać,<br>
 że coś jest nie tak,<br>
 jednak jego bracia tego nie postrzegają<br>
 i  wszelkie próby dzielenia się tym, co  on czuje,<br>
-prowadzą tylko do  frustracji niepowodzenia.*
+prowadzą tylko do  frustracji niepowodzenia.
 
-*Nie możesz sam zakończyć Snu,<br>
+Nie możesz sam zakończyć Snu,<br>
 ponieważ Śniący jest częścią Snu.<br>**Przyzwalanie** jest procesem<br>
 poddawania Snu<br>
 o  samym Śniącym.<br>
 Kiedy znika Śniący,<br>
 wówczas znika również jego Sen.<br>
 Jest więc tylko Królestwo,<br>
-które jako jedyne zawsze istniało.*
+które jako jedyne zawsze istniało.
 
-*Jesteś budzącym się Śniącym.<br>
+Jesteś budzącym się Śniącym.<br>
 Gdy to  mówię, rozpoznajesz prawdę,<br>
 iż jedyną różnicą pomiędzy tobą<br>
 a  wieloma twymi braćmi,<br>
 jest to, że rozpoznajesz sen<br>
 oraz zasadność przyzwolenia<br>
-jako klucza do  Królestwa.*
+jako klucza do  Królestwa.
 
-*Jednym z  aspektów twego Snu<br>
+Jednym z  aspektów twego Snu<br>
 była twa podróż ze  Mną<br>
 w  Kanaanie i  Galilei.<br>
 Z  wielu źródeł o  tym słyszałeś.<br>
 Jeszcze raz ci to  potwierdzę.<br>
 Byłeś Esseńczykiem<br>
 i  nawet w  czasie obecnego życia spotkałeś<br>
-wielu z  twych śniących towarzyszy.*
+wielu z  twych śniących towarzyszy.
 
-*Słyszałeś, że ty,<br>
+Słyszałeś, że ty,<br>
 razem z  twą drogą przyjaciółką Kendrą,<br>
 byliście obecni, kiedy przemawiałem do  tłumów<br>
 na  Górze Oliwnej.<br>
@@ -243,9 +246,9 @@ lecz rozpoznanie, że to  nauczanie<br>
 zostało we  Mnie urzeczywistnione.<br>
 Syn cieśli podróżował do  odległych krain<br>
 i  wrócił jako mistrz.<br>
-Takie było twoje postrzeganie.*
+Takie było twoje postrzeganie.
 
-*Tak więc<br>
+Tak więc<br>
 brama do  Królestwa<br>
 stała się dla ciebie<br>
 klejnotem, jaki miałeś odkryć<br>
@@ -254,34 +257,34 @@ Udałeś się tam<br>
 w  czasie dziewięciu kolejnych wcieleń,<br>
 by  opanować różne formy jogi i  filozofii.<br>
 W  obecnym wcieleniu<br>
-wypełniłeś swój obrany kurs.*
+wypełniłeś swój obrany kurs.
 
-*Tym końcem, jak dobrze wiesz,<br>
+Tym końcem, jak dobrze wiesz,<br>
 było rozpoznanie,<br>
 że Śniący może stać się mistrzem<br>
 całego swego Snu,<br>
 a  jednak pozostać w  ów Sen uwikłany.<br>
 Odkryłeś bardzo prosty klucz<br>
 –  klejnot –<br>
-i  czyż nie jest nim cisza przyzwalania?*
+i  czyż nie jest nim cisza przyzwalania?
 
-*Można powiedzieć, że doświadczenie<br>
+Można powiedzieć, że doświadczenie<br>
 Mego kazania<br>
 było twym pierwszym prawdziwym poruszeniem,<br>
-by  obudzić się ze  swego Snu.*
+by obudzić się ze swego Snu.
 
-*Czy jawi się to  jako długa podróż?<br>
+Czy jawi się to  jako długa podróż?<br>
 Pamiętaj,<br>
 takie postrzeganie<br>
-przynależy do  samego Snu.*
+przynależy do  samego Snu.
 
-*Będę cię prosił, abyś zaczął spędzać<br>
+Będę cię prosił, abyś zaczął spędzać<br>
 teraz trochę czasu ze  Mną każdego dnia.<br>
 Praca, o  której mówiłem wcześniej,<br>
 jest teraz ukończona<br>
-i  możemy zacząć.*
+i  możemy zacząć.
 
-*Powtórzę,<br>
+Powtórzę,<br>
 to  nie jest z  Mojej strony rozkaz,<br>
 tylko łagodne przypomnienie.<br>
 Udział w  tym jest twym wolnym wyborem,<br>
@@ -290,9 +293,9 @@ To, czym JAM JEST,<br>
 nie zna żadnego przymuszenia,<br>
 albowiem miłość nie może przymuszać.<br>
 Ona zwyczajnie przyciąga poszukiwacza Rzeczywistości<br>
-do  siebie.*
+do  siebie.
 
-*Nie wymaga to  żadnego wysiłku,<br>
+Nie wymaga to  żadnego wysiłku,<br>
 tylko bycia dostępnym,<br>
 albowiem każdy poszukujący rozpoznaje Miłość,<br>
 ponieważ – nieważne jak głęboko to  skrywa –<br>
@@ -305,18 +308,18 @@ Naszym zadaniem więc<br>
 jest jedynie łagodnie przyprowadzić poszukującego<br>
 do  doświadczenia **zwracania uwagi**<br>
 na  to, co  zawsze istniało:<br>
-Królestwo.*
+Królestwo.
 
-*Zakończymy tutaj.<br>
+Zakończymy tutaj.<br>
 Jestem bardzo zadowolony z  łatwości, do  jakiej doszedłeś<br>
 w  byciu **obecnym** przez **przyzwalanie.**<br>
 Czyż ta  podróż,<br>
 niezależnie od  tego, jak bardzo najeżona jest<br>
 pozornymi dylematami i  bólem,<br>
 nie jest tego warta?<br>
-Błogosław ją, błogosław ją całą.*
+Błogosław ją, błogosław ją całą.
 
-*Amen.*
+Amen.
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -332,9 +335,9 @@ Błogosław ją, błogosław ją całą.*
 „Witaj, Jeszua".
 
 <div data-index="1" markdown="1" class="indent">
-*Teraz zaczynamy.*
+Teraz zaczynamy.
 
-*Czyż to  nie pocieszenia<br>
+Czyż to  nie pocieszenia<br>
 absolutnego poznania szukasz?<br>
 Czyż to  nie pocieszenia<br>
 absolutnego zjednoczenia pragniesz?<br>
@@ -347,9 +350,9 @@ to, czego się pragnie, tego się doświadcza<br>
 –  zawsze.<br>
 Taka jest szczodrość stołu Ojca,<br>
 taka jest miłość wszechświata:<br>
-„Proście, a  będzie wam dane”.*
+„Proście, a  będzie wam dane”.
 
-*Chciałbym wyjaśnić to  stwierdzenie,<br>
+Chciałbym wyjaśnić to  stwierdzenie,<br>
 które, nawiasem mówiąc, rzeczywiście wypowiedziałem.<br>
 W  przyszłości<br>
 wyjaśnię ci dokładnie te nauki<br>
@@ -359,9 +362,9 @@ wiele innych tam spisanych<br>
 nie było danych przeze Mnie.<br>
 W  tym procesie<br>
 wyjaśnię znaczenie tych nauk,<br>
-przywracając im ich pierwotną intencję.*
+przywracając im ich pierwotną intencję.
 
-*„Proście, a  będzie wam dane”.<br>
+„Proście, a  będzie wam dane”.<br>
 Nie ma  znaczenia, o  co  prosisz,<br>
 ani że prośba<br>
 jest być może<br>
@@ -369,18 +372,18 @@ jest być może<br>
 Umysł ma  głębię.<br>
 Prośba, o  której mówię,<br>
 jest prośbą, która płynie<br>
-z  głębi twego umysłu.*
+z  głębi twego umysłu.
 
-*Intencją stworzenia,<br>
+Intencją stworzenia,<br>
 które jest wszechobecnym przepływem Ojca,<br>
 jest użycie prośby<br>
 jako mechanizmu skupiania<br>
 ruchu życia w  formę.<br>
 Przeszkodą, oczywiście,<br>
 jest iluzoryczne oddzielenie znane<br>
-jako ego.*
+jako ego.
 
-*Każdy z  was w  tym uczestniczy,<br>
+Każdy z  was w  tym uczestniczy,<br>
 odzwierciedlając dla siebie<br>
 aspekty wielkiego złudzenia,<br>
 które jest waszym jedynym stworzeniem.<br>
@@ -388,9 +391,9 @@ Tak jak wszyscy jesteście Jednym Umysłem w  Prawdzie<br>
 –  jednorodzonym Synem –<br>
 tak również<br>
 jesteście jednego umysłu jako wasze złudzenie,<br>
-ego.*
+ego.
 
-*Nigdy nie spoglądasz na  drugiego,<br>
+Nigdy nie spoglądasz na  drugiego,<br>
 albowiem nie ma  „drugiego”.<br>
 Widzisz tylko samego siebie.<br>
 Wiele razy było mówione,<br>
@@ -403,23 +406,23 @@ i  dlatego też możesz zacząć uwalniać się od  niego.<br>
 W  oparciu o  to  istotne zrozumienie,<br>
 możemy przejść do  zrozumienia<br>
 Mego stwierdzenia:<br>
-„Proście, a  będzie wam dane”.*
+„Proście, a  będzie wam dane”.
 
-*Ponieważ nie jesteś oddzielony od  Boga,<br>
+Ponieważ nie jesteś oddzielony od  Boga,<br>
 wszystko, co  przechowujesz w  umyśle jako swe pragnienie,<br>
 manifestuje się<br>
-i  doświadczasz tego natychmiast.*
+i  doświadczasz tego natychmiast.
 
-*Może się wydawać, że tak nie jest,<br>
+Może się wydawać, że tak nie jest,<br>
 jednak zapewniam cię, że tak jest.<br>
 Trudność pojawia się,<br>
 kiedy upierasz się przy przekonaniu,<br>
 że jesteś tylko tą trójwymiarową istotą,<br>
 jakiej doświadczasz codziennie.<br>
 Jesteś czymś dużo większym niż to,<br>
-nawet w  obrębie twego wielkiego złudzenia.*
+nawet w  obrębie twego wielkiego złudzenia.
 
-*Mówię tutaj o  tym,<br>
+Mówię tutaj o  tym,<br>
 że doświadczenie nie musi się wydarzyć<br>
 w  fizycznej formie, aby było istotne.<br>
 „Każdy, kto pożądliwie patrzy na  kobietę,<br>
@@ -429,17 +432,17 @@ Tego nie powinno się odczytywać jako przenośnię.<br>
 W  takim przypadku<br>
 już doświadczyłeś<br>
 w  pełni<br>
-seksualnego aktu.*
+seksualnego aktu.
 
-*Oczywiście<br>
+Oczywiście<br>
 jest to  prawdą<br>
 dla wszelkiego pragnienia przechowywanego w  umyśle,<br>
 od  najmniejszego<br>
 do  największego.<br>
 Dlatego też<br>
-to, **czego** pragniesz, ma  podstawowe znaczenie.*
+to, **czego** pragniesz, ma  podstawowe znaczenie.
 
-*„Szukajcie wpierw Królestwa Bożego”<br>
+„Szukajcie wpierw Królestwa Bożego”<br>
 oznacza: szukajcie nade wszystko oświecenia.<br>
 Nie oznacza to,<br>
 że nie będziesz żywił żadnych innych myśli.<br>
@@ -450,9 +453,9 @@ pragnąc Królestwa,<br>
 Ojciec –<br>
 poprzez Ducha Świętego –<br>
 przemieni każde doświadczenie, jakie tworzysz,<br>
-w  środki, z  pomocą których się przebudzisz.*
+w  środki, z  pomocą których się przebudzisz.
 
-*Bądź tego zawsze pewien,<br>
+Bądź tego zawsze pewien,<br>
 bowiem gdy doświadczanie Boga jest utrzymywane<br>
 jako podstawowe pragnienie,<br>
 leży ono zawsze poza granicami<br>
@@ -460,9 +463,9 @@ każdego pragnienia osadzonego w  ego.<br>
 Tak więc<br>
 bodźcem dla twej duszy<br>
 jest przejście **przez** te ograniczone doświadczenia,<br>
-niezależnie od  ich rodzaju.*
+niezależnie od  ich rodzaju.
 
-*Właśnie z  tego powodu<br>
+Właśnie z  tego powodu<br>
 szukający zaczyna czuć,<br>
 że wszystko, czego doświadcza,<br>
 w  jakiś sposób symbolizuje coś,<br>
@@ -475,9 +478,9 @@ wydaje się tracić swe<br>
 znaczenie.<br>
 Na  szczęście<br>**traci** jedynie swe ograniczone znaczenie,<br>
 jako że było poczęte<br>
-w  ograniczonej myśli ego.*
+w  ograniczonej myśli ego.
 
-*Ostatecznie<br>
+Ostatecznie<br>
 nic nie daje już żadnej satysfakcji.<br>
 Teraz ego znajduje się na  grząskim gruncie,<br>
 albowiem jego fundament – oddzielenie –<br>
@@ -487,17 +490,17 @@ cała budowla tego, czego doświadczasz,<br>
 i  ona również staje się przeźroczysta.<br>
 Doznanie to<br>
 jest interpretowane jako śmierć<br>
-i  całkiem dosłownie nią jest.*
+i  całkiem dosłownie nią jest.
 
-*„Narodzić się ponownie”<br>
+„Narodzić się ponownie”<br>
 oznacza tylko, że znika<br>
-twe utożsamienie z  ego.*
+twe utożsamienie z  ego.
 
-*Jest to  oczywiście powszechnie błędnie rozumiane.<br>
+Jest to  oczywiście powszechnie błędnie rozumiane.<br>
 To  zawsze lęk przed własną śmiercią<br>
-blokuje rozpoznanie Królestwa.*
+blokuje rozpoznanie Królestwa.
 
-*Dla tych z  was, którzy są zanurzeni<br>
+Dla tych z  was, którzy są zanurzeni<br>
 w  zniekształconych wierzeniach<br>
 na  temat mojej misji na  ziemi,<br>
 chciałbym zaoferować następującą sugestię:<br>
@@ -512,15 +515,15 @@ Wasze desperackie pragnienie tego<br>
 tworzy **złudzenie** zbawienia,<br>
 jako że zawsze doświadczasz tego, czego pragniesz.<br>
 Jednak by  wejść do  Królestwa,<br>
-pragnienie musi być zrodzone z  właściwej intencji.*
+pragnienie musi być zrodzone z  właściwej intencji.
 
-*„Proście, a  będzie wam dane”<br>
+„Proście, a  będzie wam dane”<br>
 mówi o  precyzyjnym skupieniu<br>
 kreatywnej energii,<br>
 która jest obfitością<br>
-stołu Ojca.*
+stołu Ojca.
 
-*Nie proście więc<br>
+Nie proście więc<br>
 o  zbawienie,<br>
 ponieważ macie zniekształcone<br>
 jego wyobrażenia.<br>
@@ -530,17 +533,17 @@ byście się wybudzili z  ostatnich pozostałości przekonania,<br>
 To  zogniskuje impuls waszej duszy<br>
 właściwą intencją.<br>
 Jako że otrzymujesz to, o  co  prosisz,<br>
-jasność myśli jest istotna.*
+jasność myśli jest istotna.
 
-*Marc,<br>
+Marc,<br>
 myśl, jaką otrzymałeś,<br>
 dotycząca **Listów Jeszuy**,<br>
 jest aktualna.<br>
 Pozwól, by  się to  dokonało.<br>
 Bądź pewien, że będziemy prowadzili<br>
-każdy twój krok.*
+każdy twój krok.
 
-*Ten etap twego własnego procesu<br>
+Ten etap twego własnego procesu<br>
 może być zwany „etapem przyzwalania”.<br>
 Osiąga się go, kiedy każda próba tworzenia<br>
 lub manipulowania twym światem<br>
@@ -548,9 +551,9 @@ całkowicie zawodzi.<br>
 Porażka w  twym świecie<br>
 jest błogosławieństwem wyższego rzędu,<br>
 ponieważ jest oznaką początku<br>
-końca złudzenia.*
+końca złudzenia.
 
-*Właśnie dlatego dzieliliśmy się z  tobą tym,<br>
+Właśnie dlatego dzieliliśmy się z  tobą tym,<br>
 że cały szereg postrzeżeń<br>
 przechowywanych przez świadomość świata<br>
 jest diametralnie przeciwstawny<br>
@@ -565,14 +568,14 @@ Raduj się więc<br>
 rozpoznaniem swej porażki.<br>
 Jest ona oznaką początku<br>
 ostatnich dni twej podróży<br>
-do  mieszkania Świętego Ojca.*
+do  mieszkania Świętego Ojca.
 
-*Tutaj kończymy.<br>
+Tutaj kończymy.<br>
 Bądź zawsze błogosławiony,<br>
 albowiem jesteś Synem Ojca<br>
-i  jesteś miłowany nade wszystko.*
+i  jesteś miłowany nade wszystko.
 
-*Amen.*
+Amen.
 </div>
 
 21 listopada 1987  r.
@@ -600,12 +603,12 @@ Kucam, a  mój wzrok pada na  pokryty śniegiem mały, delikatny kwiatek. Bardzo
 Nadchodzi uczucie. Wzbiera ono z  wewnętrznej głębi, by  następnie zostać przemienionym w  słowa wypowiadane nie do  ludzkiego ucha, które zbyt często nie słyszy, lecz do  Życia, które już zna prawdę tego, co  jest wypowiadane:
 
 <div data-index="1" markdown="1" class="indent">
-> *Jesteśmy jedynie Jednym.<br>
-> Pokój mój wam daję.<br>
-> Nie tak, jak daje świat, Ja  wam daję.*
+Jesteśmy jedynie Jednym.<br>
+Pokój mój wam daję.<br>
+Nie tak, jak daje świat, Ja  wam daję.
 </div>
 
-Radość zaczyna promienieć niczym strumienie energii. Wylewa się czubkami palców i  płynie przez stopy do  ziemi. Wstaję, wznoszę wzrok ku  niebu i  krzyczę: „Ja  i  Mój Ojciec Jedno  *jesteśmy!*”.
+Radość zaczyna promienieć niczym strumienie energii. Wylewa się czubkami palców i  płynie przez stopy do  ziemi. Wstaję, wznoszę wzrok ku  niebu i  krzyczę: „Ja  i  Mój Ojciec Jedno *jesteśmy!*”.
 Kręcę się i  wiruję, i  śmieję się głośno. Obejmuję drzewa i  mech, i  kwiat, i  otwieram usta, łapiąc padający śnieg. Dotykam świętej intymności.
 
 Po  jakimś czasie, choć nie mam pojęcia, ile czasu minęło, drzewa jakby przemówiły: „Już czas, żebyś wracał”. Nie spiesząc się, wychodzę z  lasu, wracam do  furgonetki i  zaczynam jechać w  dół.
@@ -640,7 +643,7 @@ Czuję jednak poddenerwowanie. A  co, jeśli tego mieszkania nie ma?
 
 Kendra przynosi mi  gazetę i  zajmuje się czymś w  kuchni, gdy ja  zakreślam ogłoszenia i  zaczynam dzwonić po  tych mieszkaniach, których opis jest choć trochę atrakcyjny. Parę telefonów później zaczyna dawać o  sobie znać przygnębienie, albo przynajmniej moje stare, znajome zwątpienie. Przeszukałem gazetę kilka razy, dość systematycznie. Słowa, które usłyszałem, po  prostu się nie sprawdzają.
 
-W  końcu widzę ogłoszenie. Mieszkanie jest blisko wyjątkowego sąsiedztwa, w  jakim kiedyś mieszkałem. Czynsz jest dużo wyższy niż mogę sobie na  to  pozwolić. Myślę, że pojadę je   obejrzeć.
+W  końcu widzę ogłoszenie. Mieszkanie jest blisko wyjątkowego sąsiedztwa, w  jakim kiedyś mieszkałem. Czynsz jest dużo wyższy niż mogę sobie na  to  pozwolić. Myślę, że pojadę je  obejrzeć.
 
 Godzinę później wracam, trochę przygnębiony. To  zdecydowanie nie było odpowiednie miejsce. Nagle powstrzymuję się od  dalszego narzekania. Nie, nie zamierzam wzruszyć ramionami, skonkludować, że mam bujną wyobraźnię i  zapomnieć o  wszystkim. To  się wydarzyło. Słyszałem ten głos bardzo wyraźnie.
 
@@ -684,15 +687,15 @@ Prawie w  ogóle nie oglądam mieszkania. Nawet nie wchodzę do  sypialni czy ł
 Jest trzecia nad ranem, a  dokładnie 3:22. Jestem, a  raczej byłem, pogrążony w  głębokim śnie. Gdy zaczynam przewracać się niespokojnie z  boku na  bok, ze  snu wybudza mnie łagodny głos, który tym razem niesie ze  sobą ślad uporczywości.
 
 <div data-index="1" markdown="1" class="indent">
-> *Marc, wstań i  pisz.*
+Marc, wstań i  pisz.
 </div>
 
 „Cholera” – to  teraz moja jedyna myśl. Jest 3:30 nad ranem. Nikt nie wstaje o  tej porze dlatego, że sugeruje mu to  jakiś głos.
 
 <div data-index="1" markdown="1" class="indent">
-> *Marc, wstań i  pisz.<br>
-> To  najlepsza godzina na<br>
-> łatwą i  płynną komunikację.*
+Marc, wstań i  pisz.<br>
+To  najlepsza godzina na<br>
+łatwą i  płynną komunikację.
 </div>
 
 Dobrze już, dobrze. Choć niechętnie, i  tak już się przebudziłem.
@@ -700,17 +703,17 @@ Dobrze już, dobrze. Choć niechętnie, i  tak już się przebudziłem.
 „No cóż…” – myślę sobie, gdy siedzę z  długopisem w  dłoni. „Jeśli tak ma  to  dalej wyglądać, będę musiał pamiętać, żeby wykręcać się brakiem okularów. Następnym razem”.
 
 <div data-index="1" markdown="1" class="indent">
-*Teraz zaczynamy.*
+Teraz zaczynamy.
 
-*Nie myśl, że możesz kierować przepływem swego życia<br>
+Nie myśl, że możesz kierować przepływem swego życia<br>
 z  punktu widzenia twego świadomego umysłu.<br>
 Nie jest on przewidziany dla tej zdolności,<br>
 albowiem nie w  niej leży jego cel.<br>
 Chcę cię prosić, abyś w  pełni zaakceptował,<br>
 że umysł nie jest po  to, by  być reżyserem,<br>
-lecz aby być sługą.*
+lecz aby być sługą.
 
-*Sługą czego?<br>
+Sługą czego?<br>
 Przepływu twego życia,<br>
 tego tajemniczego poruszenia Życia w  tobie.<br>
 Jest to  poruszenie,<br>
@@ -718,17 +721,17 @@ które wypływa<br>
 z  Ojca<br>
 i  ma  być wcielone w  życie<br>
 przez Syna,<br>
-który uczestniczy w  Pojednaniu.*
+który uczestniczy w  Pojednaniu.
 
-*Tego nie można kontrolować,<br>
+Tego nie można kontrolować,<br>
 albowiem koncepcja kontroli<br>
 –  nawet sama jej potrzeba –<br>
 rodzi się dopiero po  wplątaniu się<br>
 w  złudzenie Oddzielenia.<br>
 Albowiem cóż chciałbyś kontrolować,<br>
-jak nie to, czemu nie ufasz?*
+jak nie to, czemu nie ufasz?
 
-*Zastanów się nad tym przez chwilę<br>
+Zastanów się nad tym przez chwilę<br>
 i  pójdziemy dalej.<br>
 Chciałbym się odnieść<br>
 do  twojego wczorajszego doświadczenia w  górach,<br>
@@ -742,9 +745,9 @@ należą wyłącznie do  Mnie<br>
 jako jedynego jednorodzonego Syna Ojca,<br>
 wylały się z  ciebie bez żadnego poczucia oddzielenia.<br>
 Byłeś w  istocie<br>
-Umysłem, który wypowiedział te słowa.*
+Umysłem, który wypowiedział te słowa.
 
-*Wyjaśnijmy to:<br>
+Wyjaśnijmy to:<br>
 w  tamtym momencie<br>
 dokonałeś wyboru, by  pozwolić<br>
 prawdziwemu dziedzictwu twego jestestwa,<br>
@@ -765,9 +768,9 @@ myśli stwórczej,<br>
 którą wciela w  życie,<br>
 tworząc na  wierny obraz i  podobieństwo Ojca.<br>
 Albowiem obraz jest formą<br>
-świętej myśli Ojca.*
+świętej myśli Ojca.
 
-*Jednak chciałbym dodać,<br>
+Jednak chciałbym dodać,<br>
 że to, co  nazywamy tutaj<br>
 „świętą myślą” Ojca,<br>
 jest bezobrazowe;<br>
@@ -786,40 +789,40 @@ by  były świadkiem obrazu tego, co  jest jedyną Rzeczywistością.<br>
 Kiedy jest się świadkiem uwidocznionej Miłości,<br>
 może ona być rozpoznana,<br>
 a  ruch w  stronę oświecenia dokonuje się<br>
-bez wysiłku.*
+bez wysiłku.
 
-*Moglibyśmy powiedzieć,<br>
+Moglibyśmy powiedzieć,<br>
 że umysł zostaje dotknięty i  przez chwilę<br>
 –  niezależnie jak przelotną –<br>
 rozpoznaje najwyższe dobro, jakie jest mu dostępne.<br>
 Z  tego też powodu<br>
-każdy akt miłości ma  być pielęgnowany.*
+każdy akt miłości ma  być pielęgnowany.
 
-*Wszystkie umysły są kanałami miłości,<br>
+Wszystkie umysły są kanałami miłości,<br>
 na  tyle, na  ile postanawiają trwać w  przebudzeniu.<br>
 Umysły ludzkości<br>
 są odurzone miłością.<br>
 Tęsknią za  miłością,<br>
 ponieważ Prawda tego, kim są<br>
 i  tego, co  jest jedyną Rzeczywistością,<br>
-nieodzownie jest w  nich.*
+nieodzownie jest w  nich.
 
-*Przebudzony Syn<br>
+Przebudzony Syn<br>
 zwyczajnie odgrywa ruch Życia,<br>
 który jest Miłością wychodzącą od  Ojca,<br>
 na  rzecz tych, którzy pozostają uśpieni.<br>
 Dzieci Boga są w  rzeczywistości<br>
-jedynie aspektami jednorodzonego Syna.*
+jedynie aspektami jednorodzonego Syna.
 
-*Stąd też<br>
+Stąd też<br>
 wszelka odgrywana miłość jest miłością siebie samego,<br>
 albowiem,<br>
 tak jak zacząłeś to  rozpoznawać,<br>
 każdy z  nas jest stróżem braci naszych<br>
 z  powodu tej prostej prawdy,<br>
-że **jesteśmy** naszymi braćmi.*
+że **jesteśmy** naszymi braćmi.
 
-*Kiedy patrzy się na  to  z  iluzorycznej perspektywy<br>
+Kiedy patrzy się na  to  z  iluzorycznej perspektywy<br>
 Oddzielenia,<br>
 jest to  niezrozumiałe.<br>
 Kiedy patrzy się na  to  z  perspektywy<br>
@@ -838,9 +841,9 @@ jedno proste zdanie,<br>
 Pojednanie zostanie dopełnione<br>
 na  ziemi, tak jak jest i  w  niebie.<br>
 To  zdanie brzmi:<br>
-„Ja  i  Mój Ojciec Jedno jesteśmy”.*
+„Ja  i  Mój Ojciec Jedno jesteśmy”.
 
-*Dobrze, Marc,<br>
+Dobrze, Marc,<br>
 wracaj do  łóżka.<br>
 Lecz wiedz, że dzień, kiedy snu już więcej nie będzie,<br>
 szybko nadchodzi do  umysłu<br>
@@ -856,9 +859,9 @@ z  otwartymi, wzniesionymi do  góry dłońmi,<br>
 a  zostaniesz obdarowany<br>
 hojnością stołu Ojca.<br>
 Jest to  proste przyzwolenie<br>
-na  objawienie się rozpoznania.*
+na  objawienie się rozpoznania.
 
-*Daję ci Moje błogosławieństwo.*
+Daję ci Moje błogosławieństwo.
 
-*Amen.*
+Amen.
 </div>

@@ -3,7 +3,7 @@ title: "Lekcja 1. Pytania i odpowiedzi"
 ---
 
 <div markdown="1" class="chHead"> 
-## Lekcja 1
+# Lekcja 1
 ## Pytania i odpowiedzi
 </div>
 

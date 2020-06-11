@@ -2,9 +2,8 @@
 title: "Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center">
+<div markdown="1" class="chHead">
 # Błogosławieństwo przebaczenia
-
 ## Pytania i odpowiedzi
 
 </div>
@@ -83,7 +82,7 @@ Jestem tylko tobą.
 
 ## Pytanie 4
 
-***Pytanie*:** Tak, ja mam pytanie. Nie jestem pewien... No dobrze, zadam je.
+***Pytanie*:** Tak, ja mam pytanie. Nie jestem pewien&hellip; No dobrze, zadam je.
 
 ***Odpowiedź*:** Ten człowiek zwykł brać mnie na bok i zadawać pytania na osobności.
 
@@ -111,7 +110,7 @@ A więc oto kolejne pytanie zadane w odpowiednim momencie. Jak się zatem wszysc
 
 Teraz rozpoczną się owe, jak je nazywacie, zgromadzenia rodziny -- i będą one rosły. I pamiętaj -- z cierpliwością, bez zwątpienia, w zaufaniu i przyzwoleniu, aby rozwinęło się to w doskonały sposób. A jeśli myślisz, że nie rozwija się to w doskonały sposób, nie szukaj na zewnątrz siebie -- powróć do pytania:
 
-> *Czy dziś kochałem siebie? Ile razy wyraziłem przebaczenie światu? Czy -- przepraszam za moje słownictwo -- posprzątałem po swoim przedstawieniu?*
+> Czy dziś kochałem siebie? Ile razy wyraziłem przebaczenie światu? Czy -- przepraszam za moje słownictwo -- posprzątałem po swoim przedstawieniu?
 
 Ponieważ pamiętaj, że świat nie jest niczym więcej niż wielkim przedstawieniem.
 

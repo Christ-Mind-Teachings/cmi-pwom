@@ -2,9 +2,9 @@
 title: "Lekcja 10. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center"> 
-## Lekcja 10
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead"> 
+# Lekcja 10
+## Pytania i odpowiedzi
 
 </div>
 
@@ -20,9 +20,7 @@ W książkach Tory zawarty jest zatem wątek Światła, który niczym nić przep
 
 A we wszystkim tym chodzi o to, że wiadomym było już dla Rodu, że nadejdzie taki dzień dla tej Rodziny zwanej żydowskim narodem, gdy narodzi się ten, który jest niczym *owoc z owocu*. Jest we mnie trochę z Mojżesza, trochę z Ezechiela, trochę z każdego z proroków. Ten wątek Światła emanujący z Abby miał swe *ukoronowanie* w życiu Jeszuy syna Józefa, *odzwierciedlając* Prawdę każdej duszy i przywracając je wszystkie Prawdzie, mimo że pogrążone były w tak głębokim śnie. Niezależnie czy był to Judasz, czy Estera, czy Maria – wszyscy, każda istota, która kiedykolwiek usłyszała o moim Życiu, nieważne jak głęboko wszyscy byli uśpieni, Abba poprzez mnie stworzył to, co jest wzorcem Prawdy każdej duszy. To właśnie miałem na myśli, kiedy powiedziałem, że jestem zwyczajnym pierwowzorem tego, co ma nadejść i co miałem na myśli, kiedy powiedziałem:
 
->*Większe dzieła od tych czynić będziecie.*
-
-
+>Większe dzieła od tych czynić będziecie.
 
 Albowiem wielka jest moc – wykładnicza moc – kiedy jest dziesięć Chrystusów a nie jeden, lub pięćdziesiąt tysięcy Chrystusów, a nie dziesięć. Oto co nadchodzi na waszej planecie – *planeta Chrystusów.* A wówczas, jak to się u was mówi, *uwaga*!
 
@@ -52,27 +50,15 @@ A zatem, patrząc z jednej strony, wygląda tak, jakby dziecko było biedną ofi
 
 *Doświadczenia każdego dziecka są przywołane suwerenną mocą tej duszy.* A lekcje, jakie gromadzi, są bogate i różnorodne. Oto dlaczego nie można porównywać czyichś podróży. To, co możesz zrobić, to *uszanować* podróż każdego człowieka. Nigdy nie spoglądaj na bliźniego i nie mów:
 
-
-
->*Przykro mi, że przechodzisz przez to doświadczenie.*
-
-
+>Przykro mi, że przechodzisz przez to doświadczenie.
 
 Zamiast tego, naucz się pytać:
 
-
-
->*Czego to cię nauczyło? Jak postanowisz zareagować na tę sytuację? Czy wybierzesz bycie ofiarą, czy wybierzesz przeistoczenie?*
-
-
+>Czego to cię nauczyło? Jak postanowisz zareagować na tę sytuację? Czy wybierzesz bycie ofiarą, czy wybierzesz przeistoczenie?
 
 Co oznacza:
 
-
-
->*Czy zechcesz zaakceptować moc w sobie, by wyzdrowieć, czy też będziesz potrzebował, wskutek braku wybaczania, kontynuacji swego przekonania, że jesteś mały, że jesteś niegodny. Co postanowisz zrobić?*
-
-
+>Czy zechcesz zaakceptować moc w sobie, by wyzdrowieć, czy też będziesz potrzebował, wskutek braku wybaczania, kontynuacji swego przekonania, że jesteś mały, że jesteś niegodny. Co postanowisz zrobić?
 
 Nie mówię ci, byś nie okazywał współczucia. Wręcz przeciwnie, *współczucie* oznacza wejście w *czucie razem* z kimś. Współczucie, wspólnota – przyłączenie się w uczuciu. Lecz empatia nigdy nie powinna być litowaniem się. 
 

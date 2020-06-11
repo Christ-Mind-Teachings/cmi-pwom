@@ -2,9 +2,9 @@
 title: "Lekcja 7. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center">
-## Lekcja 7
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead">
+# Lekcja 7
+## Pytania i odpowiedzi
 </div>
 
 ## Pytanie 1
@@ -17,15 +17,15 @@ Gdy służysz drugiemu, działasz w taki sposób, że inni doznają radości, gd
 
 Wyobraź sobie jak to jest iść do pracy, gdzie produkuje się lody czekoladowe. Pytasz się więc swego pracodawcy:
 
-> *Co chciałbyś, abym robił?*
+> Co chciałbyś, abym robił?
 
 A pracodawca uśmiecha się i mówi:
 
-> *Tak bardzo uwielbiam te lody i produkuję ich tak dużo, iż jedyne, co musisz robić, to je jeść. Bardzo dobrze ci zapłacę, jeśli po prostu wypełnisz to zadanie.*
+> Tak bardzo uwielbiam te lody i produkuję ich tak dużo, iż jedyne, co musisz robić, to je jeść. Bardzo dobrze ci zapłacę, jeśli po prostu wypełnisz to zadanie.
 
 A ty patrzysz na niego i mówisz:
 
-> *No cóż, tak się składa, że też lubię lody czekoladowe. I jeśli to jedyne, co mam do zrobienia, to zapewniam cię, że będziesz miał najbardziej lojalnego pracownika, jakiego można sobie wyobrazić.*
+> No cóż, tak się składa, że też lubię lody czekoladowe. I jeśli to jedyne, co mam do zrobienia, to zapewniam cię, że będziesz miał najbardziej lojalnego pracownika, jakiego można sobie wyobrazić.
 
 Służenie Bogu nie oznacza pracy w świecie po to, by zrealizować jakąś koncepcję, którą umysł stworzył na temat tego, co znaczy służyć Bogu. Służenie Bogu oznacza jedynie tak głębokie czerpanie [z Niego -- przyp.tłum.], że twój kielich zawsze *się przelewa*. Nie ma żadnego poczucia braku, a zatem nie ma potrzeby, by sięgać *na zewnątrz* swej jaźni, by napełnić ów kielich. A kiedy twa uwaga jest cała oddana Rzeczywistości Miłości, która mieszka w tobie, twój kielich rzeczywiście zaczyna się przelewać. I gdy będzie się tak przelewać, wyszuka sobie drogi ujścia, tak jak wylewająca się poza swój brzeg rzeka zaczyna żłobić nowe korytarze, czyż nie tak? I nigdy nie przepowiesz, nie przewidzisz, w którą stronę popłyną te nowe strumienie. Ale przyniosą one wsparcie Życia i Miłości wszystkiemu, czego dotkną.
 
@@ -33,7 +33,7 @@ Te nowe strumienie przestaną jednak płynąć, jeśli rzeka zapomni o swoim źr
 
 Jak mawiałem już wiele razy, gdy *naprawdę zrozumiesz*, że nie musisz czynić niczego prócz nieustannego przyjmowania Bożej Miłości, staniesz się owym doskonałym sługą. A wtedy jeśli się okaże, że masz zostać zamiataczem ulic, to po prostu będziesz zamiatał ulice. I nie będzie w twym umyśle niczego innego poza twym własnym przeobfitym kielichem. A inni będą cię mijać, mówiąc:
 
-> *Ta osoba to zwykły zamiatacz ulic, a ja z jakiegoś powodu chcę koło niego przechodzić w drodze do pracy tylko po to, by się przywitać. Wydaje się, że dzięki temu mój dzień jest udany.*
+> Ta osoba to zwykły zamiatacz ulic, a ja z jakiegoś powodu chcę koło niego przechodzić w drodze do pracy tylko po to, by się przywitać. Wydaje się, że dzięki temu mój dzień jest udany.
 
 A być może będziesz poproszony, by być zbawicielem świata. Tylko głos ego dostrzegłby różnicę między byciem zbawicielem świata a zamiataczem ulic.
 
@@ -69,11 +69,11 @@ Nie łącz idei *wyjątkowości* z koncepcją bliźniaczych płomieni lub bratni
 
 Nie możesz przynieść do Światła tego, co potrzebuje uzdrowienia, ponieważ nie wiesz, czym naprawdę jest uzdrowienie. Naucz się poznawać, czym jest prawdziwe uzdrowienie, a to, co potrzebuje uzdrowienia, samo ci się pokaże. Gdyż *prawdziwe uzdrowienie* to *wybór pokoju*, a nie zaprzeczanie temu, co *czujesz*. Bowiem pokój jest niczym ocean, który obejmuje wszystkie fale, jakie mogą się pojawić. Wystarczy więc, że po prostu zapytasz:
 
-> *Czy w tej chwili na pewno jestem w pokoju?*
+> Czy w tej chwili na pewno jestem w pokoju?
 
 A jeśli odpowiedź brzmi „nie", zapytaj jedynie:
 
-> *Co potrzebuje uzdrowienia, by przywrócony został pokój?*
+> Co potrzebuje uzdrowienia, by przywrócony został pokój?
 
 Nie pozostanie to przed tobą ukryte. Czy jesteś chętny zastosować to w praktyce?
 
@@ -81,11 +81,11 @@ Odpowiedź: -- Jak najbardziej!
 
 Gdy deklarujesz coś takiego, będą wśród nas tacy, którzy powiedzą:
 
-> *No cóż, podrzucę ci trochę moich spraw.*
+> No cóż, podrzucę ci trochę moich spraw.
 
 Kiedy spisywano o mnie opowieści głoszące, że *wziąłem na siebie* grzechy świata i kiedy słyszysz o mistrzach i nauczycielach, którzy przeobrażają grzechy swych uczniów, pomyśl o tym po prostu jak o „karmicznych sprawach do załatwienia". I gdy ktoś powie nam:
 
-> *Jestem gotów to wszystko zrobić. Jestem całkowicie chętny, by zastosować to w praktyce!*
+> Jestem gotów to wszystko zrobić. Jestem całkowicie chętny, by zastosować to w praktyce!
 
 &hellip;No proszę! Znaleźliśmy potencjalnego „pracownika". Nigdy nie zostanie ci dane więcej niż będziesz w stanie przeobrazić. I oczywiście zawsze możesz zaprzestać i poszukać innej pracy!
 
@@ -109,7 +109,7 @@ Odpowiedź wydaje się prosta, krótka i na temat, ale jeśli zastanowisz się n
 
 ***Odpowiedź****:* Po pierwsze, znacząco przyczyniłem się do ich rozwoju, ponieważ sponsoruję ich marketing [śmiech]. Śmiejecie się, ale ja mam to na myśli w dosłownym znaczeniu. Jest wiele osób, nawet w tym pomieszczeniu, które powiedziałyby:
 
-> *Te dwa ruchy religijne wydają się bardzo od siebie różnić.*
+> Te dwa ruchy religijne wydają się bardzo od siebie różnić.
 
 I to jest ważne, gdyż forma zawsze ma drugorzędne znaczenie. Uzdrowienie oddzielenia od Boga, rozpłynięcie się w prawdziwym przebaczeniu, gotowość, by po prostu pozwolić Miłości żyć tam, gdzie kiedyś rządził malusieńki komar, nalegający na uznanie swych własnych idei -- oto, co ma znaczenie. W tym sensie zatem ścieżka, która rzeczywiście zdaje się daną osobę prowadzić ku rozpoznaniu Prawdy, a więc i wyzwalać ją, jest równa każdej innej ścieżce, bez względu na jej „zewnętrzne ozdóbki". Zaprawdę, umiłowany przyjacielu, ciesz się tym, co przyniosła ci każda z tych ścieżek. Bądź za nie wdzięczny. I idź dalej.
 

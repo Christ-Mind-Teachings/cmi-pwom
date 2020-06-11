@@ -2,8 +2,7 @@
 title: "Znaczenie Wniebowstąpienia"
 ---
 
-<div markdown="1" align="center">
-
+<div markdown="1" class="chHead">
 # Znaczenie wniebowstąpienia
 
 ![znaczek]({{page.big-separator}})
@@ -161,7 +160,7 @@ To miłość uzdrowi ten świat. Miłość trwa w swej własnej obecności, w sw
 
 Nie możesz być stwórcą miłości. Nie możesz nadąć się miłością po to, by później ją rozdawać. Nie ma żadnych magicznych technik, które pomogą wzniecić w twym wnętrzu jej moc. Ona już została ci dana bez ograniczeń.
 
-Cuda zatem muszą wydarzać się naturalnie dla umysłów, które nauczają jedynie miłości... Nauczają jedynie miłości, ponieważ w umyśle nie ma już ciemnych zakamarków, które chciałbyś zachować dla siebie.
+Cuda zatem muszą wydarzać się naturalnie dla umysłów, które nauczają jedynie miłości&hellip; Nauczają jedynie miłości, ponieważ w umyśle nie ma już ciemnych zakamarków, które chciałbyś zachować dla siebie.
 
 Przychodzę teraz, by prosić cię, byś od tej chwili uczył tylko miłości, byś był tym, kto wie i świadczy swoim życiem, że wszystkie potrzeby już zostały zaspokojone i którego umysł został naprawiony, przywrócony do poczytalności.
 
@@ -169,7 +168,7 @@ Ponieważ kiedy przez ten krótki czas kroczysz po tym świecie jako obecność 
 
 Proszę, zrozum, że wniebowstąpienie już się dokonało i czeka tylko na twoje przypomnienie, że nie jesteś czymś oddzielonym, co musi być dokądś zabrane lub co musi doświadczyć jakiegoś pełnego uniesienia stanu, po to by stwierdzić: „Teraz to załapałem!". Pełen uniesienia stan odrodzenia Królestwa Niebieskiego na ziemi czeka na twoje przyjęcie tego, co jest prawdziwe teraz.
 
-Czy możesz sobie wyobrazić, jakby to było, gdybyś jutro kroczył przez ten świat i za każdym razem, gdy twój brat lub siostra powiedzą: „O Boże, życie to koszmar. Czyż nie jest okropne? A te całe wybory prezydenckie...", ty decydowałbyś, by nie uczestniczyć w tej energii? Jednak nie podrywając się i uciekając od nich, lecz poprzez wzniesienie się ponad to ograniczenie i świecenie samą miłością i pokojem.
+Czy możesz sobie wyobrazić, jakby to było, gdybyś jutro kroczył przez ten świat i za każdym razem, gdy twój brat lub siostra powiedzą: „O Boże, życie to koszmar. Czyż nie jest okropne? A te całe wybory prezydenckie&hellip;", ty decydowałbyś, by nie uczestniczyć w tej energii? Jednak nie podrywając się i uciekając od nich, lecz poprzez wzniesienie się ponad to ograniczenie i świecenie samą miłością i pokojem.
 
 Będziesz wiedział, co masz powiedzieć, ponieważ zostaną ci dane słowa tego świata, tak jak zawsze i mnie były dawane. Czy słyszałeś o tak zwanym Kazaniu na górze? Gdy jego słowa wybrzmiały, kilku przyjaciół, których świat błędnie nazwał moimi uczniami, podeszło do mnie i powiedziało: „Panie, to było takie piękne! To było tak niesamowite!". Spojrzałem na nich i rzekłem: „Co takiego powiedziałem?". To nie było zaplanowane. Ja niczego nie czynię ani nie wytwarzam. Sam z siebie nie czynię niczego. Ojciec przeze mnie czyni wszystkie rzeczy. Strasznie trudno było im to zrozumieć, ponieważ ego potrzebuje stawiać innych na piedestale, gdyż boi się rozpoznać, że ta sama moc jest w nim.
 
@@ -219,7 +218,7 @@ Jak więc stworzyć cuda, które skracają czas? Uznając, że pojednanie już s
 
 Obiecałem, że owego dnia rzeczywiście powrócę. I choć myślałem, że wyraziłem się jasno, wielu mnie nie zrozumiało. Niech będzie jasne, że powróciłem. Powróciłem nie tylko po to, aby połączyć się z umysłem tego mojego ukochanego brata, który ostatecznie się poddał, ponieważ nie mógł tego wszystkiego zrozumieć. Przyszedłem z dawną znajomą, którą niektórzy z was znają jako Helen. Przyszedłem poprzez tych, których postrzegacie jako dwa tysiące trzech przyjaciół, którzy obecnie służą gdzieś na tym globie jako tak zwane „kanały". I służę z wieloma innymi i na wiele sposobów, ponieważ dotrzymałem złożonej przeze mnie obietnicy.
 
-Powróciłem, ponieważ was kocham. W prawdzie nigdy nigdzie nie odszedłem. I pracowałem bez przerwy, szepcząc do ciebie w twoich snach, by łagodnie poprowadzić cię w lewo, kiedy myślałeś, że idziesz w prawo. Przyszedłem do ciebie, ponieważ zostałeś mi dany przez mego Ojca. Tak jak niektóre osoby -- nazwijmy to w ten sposób -- są przypisane do ciebie. I one przyjdą do ciebie, kiedy tylko przyzwolisz -- poprzez swoją chęć -- na rozpoznanie, że pojednanie dokonało się w tobie. Jest wielu, którzy na ciebie czekają... Będą oni do ciebie posłani w taki sposób, którego nie jesteś w stanie pojąć. I poprzez ciebie dokona się to samo dzieło, które dokonywało się przeze mnie.
+Powróciłem, ponieważ was kocham. W prawdzie nigdy nigdzie nie odszedłem. I pracowałem bez przerwy, szepcząc do ciebie w twoich snach, by łagodnie poprowadzić cię w lewo, kiedy myślałeś, że idziesz w prawo. Przyszedłem do ciebie, ponieważ zostałeś mi dany przez mego Ojca. Tak jak niektóre osoby -- nazwijmy to w ten sposób -- są przypisane do ciebie. I one przyjdą do ciebie, kiedy tylko przyzwolisz -- poprzez swoją chęć -- na rozpoznanie, że pojednanie dokonało się w tobie. Jest wielu, którzy na ciebie czekają&hellip; Będą oni do ciebie posłani w taki sposób, którego nie jesteś w stanie pojąć. I poprzez ciebie dokona się to samo dzieło, które dokonywało się przeze mnie.
 
 Czy zaczynasz to rozumieć? Tworzona jest sieć, w której Ojciec, który mnie umiłował, obdarza mnie mocą, bym dawał tę miłość tobie. W twoim jej przyjęciu dana jest ci moc dawania tej miłości dalej. Dawanie to jest cudem, który uzdrawia potrzebę istnienia czasu.
 
@@ -233,7 +232,7 @@ Wniebowstąpienie dokonało się. W czasie odegra się to jako radosne świętow
 
 To przyspieszenie nabiera tempa. Niektórzy z was znają to uczucie. I będzie ono przyspieszać coraz bardziej. Obecnie każdego dnia umysły budzą się na całej planecie. I będą szukały one sobie podobnych. Jest wielu, którzy czują potrzebę dołączenia do czegoś w rodzaju „wspólnoty" i połączenia się z ludźmi, którzy podobnie myślą i czują. I nawet teraz, gdy to mówię, wielu z was w tym pokoju przytakuje w swym wnętrzu, myśląc: „Och tak, czuję to". Ponieważ już jest w tobie wiedza o tym, jak przejawi się wniebowstąpienie, pojednanie. I ponieważ świta ona w tobie, wyrażasz chęć uczestniczenia w tym dawno już napisanym scenariuszu.
 
-Oto, co czujesz... Nie jest to pragnienie, by czegoś unikać, lecz zew -- wezwanie, które skierowane jest do każdego serca i umysłu. I kto zainicjował to wezwanie? Ty. Dlatego też możesz przebudzić się jedynie na swoje własne wezwanie. Jest to dla mnie zaszczyt, że Ojciec ponownie poprosił mnie, bym dostarczył ci twój własny telegram do siebie samego. Proszę więc: pokwituj go, otwórz i przeczytaj. A kiedy go otworzysz, powiesz: „O mój Boże, to wiadomość ode mnie samego!". „Drogi ja! Nastał już czas. Obudź się teraz". Zanim zjem śniadanie? Tak. Zanim weźmiesz oddech, zanim pomyślisz jakąś myśl, dziękuj Bogu, ponieważ to Ojciec był mocą, poprzez którą Syna przywrócono na jego prawowite miejsce.
+Oto, co czujesz&hellip; Nie jest to pragnienie, by czegoś unikać, lecz zew -- wezwanie, które skierowane jest do każdego serca i umysłu. I kto zainicjował to wezwanie? Ty. Dlatego też możesz przebudzić się jedynie na swoje własne wezwanie. Jest to dla mnie zaszczyt, że Ojciec ponownie poprosił mnie, bym dostarczył ci twój własny telegram do siebie samego. Proszę więc: pokwituj go, otwórz i przeczytaj. A kiedy go otworzysz, powiesz: „O mój Boże, to wiadomość ode mnie samego!". „Drogi ja! Nastał już czas. Obudź się teraz". Zanim zjem śniadanie? Tak. Zanim weźmiesz oddech, zanim pomyślisz jakąś myśl, dziękuj Bogu, ponieważ to Ojciec był mocą, poprzez którą Syna przywrócono na jego prawowite miejsce.
 
 I zająłeś swe miejsce po prawicy Boga. Co ten obraz oznacza? Prawidłową umysłowość, to wszystko. Nie ma to zupełnie nic wspólnego z fizyczną lokalizacją. Prawa ręka Boga oznacza prawidłową umysłowość. I to dzieje się nawet w tej chwili.
 
@@ -263,7 +262,7 @@ Bardzo ważne jest w tej chwili -- i dlatego prosiłem, aby to spotkanie się wy
 
 I tak oto dotarliśmy do końca tego spotkania. Każdemu z was przekazuję moją wdzięczność i podziękowania.
 
-Chcę ci wyjawić mały sekret. Chociaż moi pradawni i najdrożsi przyjaciele zmagali się i „urabiali sobie ręce po łokcie", usiłując poinformować o tym wydarzeniu całe rzesze ludzi... Nie ma rzeczy niemożliwych. Można by powiedzieć, że zadziałał tu pewien mechanizm opóźniający, ponieważ było bardzo istotne, by pojawiły się tutaj tylko pewne osoby. Wy nimi jesteście. I każdy z was na swój sposób dokonał pewnego „zakotwiczenia energii" -- to najprostszy sposób, by to opisać -- a ono rzeczywiście współtworzy swego rodzaju cud, gdyż tworzysz coś, co rzekomo jest nagrywane na taśmie.
+Chcę ci wyjawić mały sekret. Chociaż moi pradawni i najdrożsi przyjaciele zmagali się i „urabiali sobie ręce po łokcie", usiłując poinformować o tym wydarzeniu całe rzesze ludzi&hellip; Nie ma rzeczy niemożliwych. Można by powiedzieć, że zadziałał tu pewien mechanizm opóźniający, ponieważ było bardzo istotne, by pojawiły się tutaj tylko pewne osoby. Wy nimi jesteście. I każdy z was na swój sposób dokonał pewnego „zakotwiczenia energii" -- to najprostszy sposób, by to opisać -- a ono rzeczywiście współtworzy swego rodzaju cud, gdyż tworzysz coś, co rzekomo jest nagrywane na taśmie.
 
 Niech jednak będzie wiadome każdemu, kto ogląda nagranie tego wieczornego spotkania, że poczuje -- być może delikatnie, być może mocno -- coś, co nazwać by można przekazem energii.
 

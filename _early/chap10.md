@@ -2,8 +2,7 @@
 title: "Chodź ze mną"
 ---
 
-<div markdown="1" align="center">
-
+<div markdown="1" class="chHead">
 # Chodź ze mną 
 
 ![znaczek]({{page.big-separator}})
@@ -31,31 +30,31 @@ Przybyłem zachwycić się darem pieśni i tańca, i świętowania, które wzbie
 
 Byłem zatroskany, patrząc na wielu i widząc zasłony bólu, zwątpienia i winy, i zastanawiałem się: 
 
-> *Skąd wzięły się te wszystkie rzeczy?*
+> Skąd wzięły się te wszystkie rzeczy?
 
 Gdyż zaprawdę przybyłem tu i wybrałem, tak jak i ty wybrałeś, narodzenie się w jakiejś linii czasu, w konkretnej kulturze na Ziemi, w której nauczano prostej prawdy:
 
-> ***Bóg jest Jeden i Bóg jest Miłością.***
+> **Bóg jest Jeden i Bóg jest Miłością.**
 
 A jednak sedno tego prostego przesłania wydawało się być zakryte wieloma pokładami złożoności. Niektórzy mówili, że: „Pan, twój Bóg, jest Bogiem zazdrosnym", a ja nie mogłem tego zrozumieć, gdyż w czasie moich podróży, gdy siadałem przy spokojnych wodach i obserwowałem tańczące na nich światło słońca, gdy słuchałem ptasiej pieśni, gdy słyszałem głos mej matki, nie mogłem pojąć tego, że Bóg mógłby być zazdrosny, że mógłby On być czymkolwiek innym niż wyrazem Miłości, którą On jest. I patrzyłem na mój lud i zaprawdę zatroskałem się. Ale ten, kto szuka, znajduje. A kiedy już znajdziesz, będziesz zatroskany, a owo zatroskanie wytworzy otwarcie, w którym jeszcze głębiej niż dotąd zapytasz:
 
-> *Ojcze, pokaż mi swoją Twarz, naucz mnie Swojej Prawdy, niech Twoja Wola wypełni się przeze mnie, by przywrócono Ci Stworzenie.*
+> Ojcze, pokaż mi swoją Twarz, naucz mnie Swojej Prawdy, niech Twoja Wola wypełni się przeze mnie, by przywrócono Ci Stworzenie.
 
 W tej zatem godzinie przybywam, by łagodnie podzielić się z tobą prostotą prawdy, że jesteś taki, jakim jestem i zawsze byłem ja, nawet w ramach czasu. Czułem to wszystko, co czułeś ty. Kwestionowałem te same rzeczy, które ty kwestionowałeś. Spoglądałem na polityczne struktury mych czasów i zastanawiałem się:
 
-> *Skąd to odczucie niepoczytalności? Skąd ten lęk, pociąg do władzy, która nigdy nie zdoła zaspokoić? Czy nie wystarczy nakarmić tych, którzy głodują i zaopiekować się samotnymi?*
+> Skąd to odczucie niepoczytalności? Skąd ten lęk, pociąg do władzy, która nigdy nie zdoła zaspokoić? Czy nie wystarczy nakarmić tych, którzy głodują i zaopiekować się samotnymi?
 
 A ponieważ dokonałem wyboru, by narodzić się w rodzinie w pełni oddanej odkrywaniu i wyrażaniu Miłości Boga, zapewniono mi wielu nauczycieli. Jako dziecko zabierano mnie do wielu nauczycieli. W owych czasach w żydowskiej społeczności było wiele frakcji. Jedną z tych grup była ta, którą znasz jako Esseńczycy i -- wbrew temu, co mawia wielu współczesnych uczonych --Esseńczycy nie byli jedynie sektą, która oddzieliła się od głównej populacji. Tak, prawdą jest, że mieli oni swe klasztory, wyodrębnione społeczności, ale było też wielu Esseńczyków, którzy żyli *w* żydowskiej populacji tamtych czasów, którzy żyli w miastach i byli cieślami, rybakami, kupcami, nauczycielami, jak również -- tak, również rabinami. Esseńczycy bowiem reprezentowali jedynie rdzeń lub esencję nauki, mającej na celu przywrócenie żydowskiej rodzinie starożytnej wiedzy: że człowiek jest jednym z Ziemią, i że poprzez oddawanie czci połączeniu z nią, dusza budzi się do prawdy o swej zależności, nie tylko od Ziemi i rzeczy w czasie, ale od Boga jako Źródła i Stwórcy wszystkiego. Esseńczycy zatem nauczyli mnie jak dostroić się do ciała, jak je uzdrawiać, równoważyć, jak słuchać jego subtelnych przesłań, jak używać darów postu, modlitwy i medytacji, by naprawiać drobne zaburzenia w równowadze, które tak naprawdę biorą się z umysłu i z jego lęków i zwątpień.
 
 Zanim ukończyłem piąty rok życia, już zabierano mnie do pewnych nauczycieli, zarówno z monastycznej tradycji esseńskiej, jak i do tych, którzy żyli w Judei i Jerozolimie. Jeden z tych nauczycieli nazywał się Józef z Arymatei. Był on również mym dalekim wujem, należał do mojej rodziny. Zdobył on coś, co nazwalibyście wielkim bogactwem w branży kupieckiej, ale zajmował również wysoką pozycję w żydowskiej społeczności. Często spędzałem z nim czas, moi rodzice po prostu zostawiali mnie z nim, i już gdy byłem bardzo młody, zaczynał mi nucić istotę i sedno judaizmu:
 
-> *Bóg jest jedynie Miłością, a ty jesteś całkowicie zależny od tego Źródła Stworzenia. Zatem Jemu oddaj każdą decyzję, ufając, że poprowadzi cię Miłość.*
+> Bóg jest jedynie Miłością, a ty jesteś całkowicie zależny od tego Źródła Stworzenia. Zatem Jemu oddaj każdą decyzję, ufając, że poprowadzi cię Miłość.
 
 Choć byłem małym dzieckiem, myśli te zaczęły się we mnie zakorzeniać. W wieku siedmiu lat odbyłem pierwszą podróż z moją matką, z tym, który był ze mną jako mój ojciec, i z moim wujkiem. Dzięki swej zamożności mój wujek mógł zorganizować nam podróż statkiem i udaliśmy się do ziem, które teraz znane ci są jako Anglia. Udaliśmy się tam, by studiować z pewnymi grupami, po to, by zaczęto odsłaniać przede mną rozumienie rozmaitych grup i ich wysiłków, by zrozumieć Tajemnicę Stworzenia oraz ich starań, by ponownie połączyć się ze Źródłem Stworzenia. Byliśmy tam, by poznać ich zwyczaje, by poczuć -- jak by to ująć -- ich sposób postrzegania, by się *uczyć*.
 
 Zatem podróżowaliśmy dalej i moje pierwsze doświadczenie w owej krainie wiązało się z przedstawieniem mnie kaście kapłańskiej -- słyszałeś zapewne o „druidach". Ta energia, ten główny wątek zbliżania się do Stwórcy i Stworzenia sięga bardzo zamierzchłych czasów. Gdy spędzałem z nimi czas, nauczywszy się już spoczywać w niewinności, nie osądzając, ale czując, słuchając i ucząc się poprzez empatię, ujrzałem, że ich całe podejście do Tajemnicy Boga wydawała się przenikać pewna fundamentalna energia. Usiłowali oni zsynchronizować się z energiami Ziemi i chociaż było to całkowicie w porządku, to zacząłem odczuwać, że towarzyszyła temu delikatna nadzieja zyskania panowania lub władzy nad subtelnymi źródłami energiami tego, co stworzone. I gdy zacząłem to odczuwać, pytałem jeszcze mocniej:
 
-> *Duchu Święty dany mi przez Boga, przynieś mądrość, bym mógł pojąć to, co czuję.*
+> Duchu Święty dany mi przez Boga, przynieś mądrość, bym mógł pojąć to, co czuję.
 
 I zacząłem odczuwać, widzieć i rozpoznawać, że choć intencje tego wątku zaprawdę były w pewnym czasie dobre, to umysł człowieka, ego człowieka może wziąć każdą ideę i użyć jej dla swych własnych celów, tu zatem była subtelna intencja zdobycia władzy *nad* naturą, zyskania dostępu do pewnych mocy, by zdobyć siłę, czy kontrolę nad innymi. To nie było czymś jawnym lub złym; to było jedynie błędne postrzeganie. Podczas tej podróży zostałem z nimi przez okres dziewięciu miesięcy, po czym powędrowaliśmy z powrotem do Judei. Przywiozłem stamtąd wiele pytań i wspomnień na temat tego, czym się tam ze mną podzielono.
 
@@ -63,21 +62,21 @@ Następnie zostałem pokierowany, by poświęcać dużo czasu wędrówkom na pus
 
 Studiowałem dużo z Esseńczykami i wiele się od nich nauczyłem, ale również często odczuwałem tam subtelną, ukrytą energię lęku. W kręgach tych była tendencja, by osądzać Saduceuszy i Faryzeuszy, a nawet żywić pewną dozę nienawiści względem tych, którzy przybyli na naszą ziemię: Rzymian. A ja nie mogłem pogodzić tej subtelnej, ukrytej energii z prostotą Prawdy, którą odnalazłem, czytając Torę:
 
-> ***Bóg jest jedynie Miłością!***
+> **Bóg jest jedynie Miłością!**
 
 Dlatego też poprosiłem, bym mógł szukać dalej. Ponownie udałem się do mego wuja, który był dla mnie w dużym stopniu duchowym mentorem. Gdy zaczął on dostrzegać, że moje pytania nabierały dojrzałości, że *potrzebowałem* szukać i rozumieć, poczynił pewne przygotowania. I ponownie udałem się z moją rodziną, z mymi rodzicami, do miejsca, które znasz jako Egipt. W tamtym czasie było tam również wiele grup, zbiorowości Esseńczyków, którzy byli świadomi mej obecności (choć ja nie byłem świadomy tego, że oni byli świadomi), oraz tego, że mam w tym życiu misję do spełnienia, i że wzrastałem i rozwijałem się *ku* realizacji tej misji.
 
-A więc wybraliśmy się w podróż i tam zostałem przedstawiony kapłanom. Zadawałem im pytania, przyglądałem się ich rytuałom, słuchałem ich i do późnych godzin nocnych rozmawiałem z ich „filozofami", i znowu -- a nawet w większym stopniu -- odkryłem tam coś, co nazwijmy poleganiem na „magii". Uważano tam bowiem, że rytuały przekazywane z pokolenia na pokolenie w tym nurcie, w tej kulturze, miały jakąś większą moc; że same zwyczaje, same rytuały dzierżyły władzę i że to właśnie poprzez użycie właściwych... behawioralnych metod mogłeś odblokować owe moce, czy to tkwiące w kamieniach, kryształach, laskach, czy też w śpiewach. To wszystko nie wydawało się dla mnie właściwe. A jednak -- miałem wtedy około jedenastu lat -- gdy wypytywałem o to kapłanów, oni się bardzo zaniepokoili, poszli do mego wuja i powiedzieli: „Zabierz go od nas. On nie jest jeszcze gotowy, by nauczyć się tego, co mamy do przekazania".
+A więc wybraliśmy się w podróż i tam zostałem przedstawiony kapłanom. Zadawałem im pytania, przyglądałem się ich rytuałom, słuchałem ich i do późnych godzin nocnych rozmawiałem z ich „filozofami", i znowu -- a nawet w większym stopniu -- odkryłem tam coś, co nazwijmy poleganiem na „magii". Uważano tam bowiem, że rytuały przekazywane z pokolenia na pokolenie w tym nurcie, w tej kulturze, miały jakąś większą moc; że same zwyczaje, same rytuały dzierżyły władzę i że to właśnie poprzez użycie właściwych&hellip; behawioralnych metod mogłeś odblokować owe moce, czy to tkwiące w kamieniach, kryształach, laskach, czy też w śpiewach. To wszystko nie wydawało się dla mnie właściwe. A jednak -- miałem wtedy około jedenastu lat -- gdy wypytywałem o to kapłanów, oni się bardzo zaniepokoili, poszli do mego wuja i powiedzieli: „Zabierz go od nas. On nie jest jeszcze gotowy, by nauczyć się tego, co mamy do przekazania".
 
 Mój wujek uśmiechnął się. „Udamy się w podróż powrotną do domu". Wiedział, że w trakcie podróży byłem bardzo zmartwiony, gdyż cały czas mój umysł i moje serce szukały zrozumienia:
 
-> *Po co tyle trudności? Mój Ojciec jest jedynie Miłością!*
+> Po co tyle trudności? Mój Ojciec jest jedynie Miłością!
 
 Podczas podróży do domu byłem cichy i posępny, a gdy przywitano mnie w domu, poszedłem do warsztatu mego ojca, małego warsztaciku stolarskiego. Przy okazji mówiąc -- nigdy nie byłem dobrym cieślą&hellip;Byłem niejako zaprzątnięty innymi sprawami, a mój ojciec, w przeciwieństwie do tradycji owych czasów, nie nalegał, abym pozostał z nim w warsztacie. A kiedy poczuł, że byłem przyciągany ku wyprawom na wzgórza, by medytować, modlić się, spacerować i rozmawiać z innymi, po prostu mi na to pozwalał. I wielu jego przyjaciół przychodziło do niego, mówiąc: „Twój syn nigdy nie będzie dobrym cieślą. Poddaj go nieco większej dyscyplinie". On zaś uśmiechał się i mówił: „Jego wzywa inny Głos". Niektórzy to rozumieli i wspierali mnie, ale było też wielu, którzy się bardzo martwili tym, co postrzegali jako moją buntowniczość, brak dyscypliny, brak poczucia powinności względem tradycji.
 
 Ponownie udałem się w podróż, najpierw do Egiptu, a potem z powrotem do Judei, gdzie rozpocząłem poszukiwania tych, którzy mnie wesprą i pójdą ze mną. Tobie są oni znani jako uczniowie, ja wolę nazywać ich przyjaciółmi. Obudziły się we mnie pewne zdolności&hellip; Będziemy tu przez chwilę mówić o tym, co wielu z was nazywa czakrami lub subtelnymi zdolnościami. Gdy owe centra energetyczne otwierają się, umysł i serce mogą rzeczywiście zyskać dostęp do poziomów poznania, które wydawały się wcześniej ukryte. Gdy więc siedziałem w modlitwie, którą ty nazwałbyś medytacją, po prostu zapytałem:
 
-> *Duchu Święty, co chciałbyś, abym uczynił tego dnia?*
+> Duchu Święty, co chciałbyś, abym uczynił tego dnia?
 
 I pojawił się obraz, ujrzałem kogoś stojącego na brzegu jeziora, zwyczajnego rybaka, i od razu wiedziałem, że mam z nim nawiązać kontakt. Powstałem więc i rozpocząłem wędrówkę. Zajęła ona kilka godzin w najgorętszej porze dnia. Dotarłem do brzegu jeziora, które znasz jako Jezioro Galilejskie, a tam faktycznie stał rybak. Nie był to rybak całkowicie mi nieznany, ale członek mojej rodziny, kuzyn. Jego imię brzmi Jan. Wstał on od swego zajęcia z sieciami i spojrzał na mnie. Nie widział mnie odkąd odbyłem moją długą podróż. A jednak gdy spojrzał w moje oczy, wiedział, że wiele się zmieniło, i w tym naszym spoglądaniu na siebie zaszło coś, co można nazwać komunikacją na poziomie głębi dusz, i on wiedział, że nastał czas. Coś go skłoniło, by na mnie spojrzeć i powiedzieć: „Dobra, i co teraz?", na co mu odpowiedziałem: „Pójdź za mną".
 
@@ -105,7 +104,7 @@ Nauczyłem się subtelnej sztuki *słuchania*, przestawania z drugim w związku,
 
 > *Bóg jest ze mną teraz i jedyny czas, jaki istnieje, to ta chwila.*
 
-I tak w owej krainie w bardzo wysokich górach doświadczyłem chłodu śniegów, doświadczyłem podróżowania do jaskiń, by pozostawać tam samemu przez całe tygodnie. Ale w miarę upływu czasu przejrzałem na wylot ograniczenia, jakie te techniki niosły. I z własnej woli opuściłem góry i rozpocząłem podróż na dół, w doliny, gdzie odnalazłem mych nauczycieli i po prostu powiedziałem im: „Myślę, że już wiem, o co chodzi". A oni uśmiechnęli się i powiedzieli: „Już czas, byś odszedł, ale zanim to się stanie, jest coś, czym musimy się z tobą podzielić". Oni już wiedzieli, że zbliżam się do końca nauki, którą od nich otrzymałem i bez mojej wiedzy wysłali wiadomość. Gdyby mieli telefony, byłoby to znacznie prostsze! Mój wujek i mój ojciec przybyli po mnie i gdy schodziłem z góry, by spotkać się z grupą moich nauczycieli, zdziwiłem się, że oni tam już byli. I tam, w kręgu, ojciec mój podzielił się ze mną tym, że był cel, który na mnie czekał, że istniała potrzeba, by być niczym światło przeszywające ciemność kultury, w której się narodziłem, i że zaprawdę byłem proszony, by oddać swe życie -- by nauczać mój własny żydowski ród, by przypomnieć im o prostocie tej Prawdy, że nie potrzeba pośrednika pomiędzy jakimkolwiek człowiekiem a Bogiem... Że kasta kapłańska, rabini, świątynie, całe to skomplikowanie stworzone na przestrzeni długiego czasu, nie były tak naprawdę konieczne, ale nadal można by ich używać, by czcić i świętować prostotę tego, że „Ja i mój Ojciec jesteśmy Jednym". W tamtej chwili nie wiedziałem, że plan misji mego życia wiązałby się z daniem dość wyjątkowego świadectwa. Zatem zaprawdę *przyzwoliłem*, by akcja toczyła się dalej. To nie było tak, że to ja ją wyreżyserowałem, ona już była w toku. Ja po prostu na to przyzwoliłem.
+I tak w owej krainie w bardzo wysokich górach doświadczyłem chłodu śniegów, doświadczyłem podróżowania do jaskiń, by pozostawać tam samemu przez całe tygodnie. Ale w miarę upływu czasu przejrzałem na wylot ograniczenia, jakie te techniki niosły. I z własnej woli opuściłem góry i rozpocząłem podróż na dół, w doliny, gdzie odnalazłem mych nauczycieli i po prostu powiedziałem im: „Myślę, że już wiem, o co chodzi". A oni uśmiechnęli się i powiedzieli: „Już czas, byś odszedł, ale zanim to się stanie, jest coś, czym musimy się z tobą podzielić". Oni już wiedzieli, że zbliżam się do końca nauki, którą od nich otrzymałem i bez mojej wiedzy wysłali wiadomość. Gdyby mieli telefony, byłoby to znacznie prostsze! Mój wujek i mój ojciec przybyli po mnie i gdy schodziłem z góry, by spotkać się z grupą moich nauczycieli, zdziwiłem się, że oni tam już byli. I tam, w kręgu, ojciec mój podzielił się ze mną tym, że był cel, który na mnie czekał, że istniała potrzeba, by być niczym światło przeszywające ciemność kultury, w której się narodziłem, i że zaprawdę byłem proszony, by oddać swe życie -- by nauczać mój własny żydowski ród, by przypomnieć im o prostocie tej Prawdy, że nie potrzeba pośrednika pomiędzy jakimkolwiek człowiekiem a Bogiem&hellip; Że kasta kapłańska, rabini, świątynie, całe to skomplikowanie stworzone na przestrzeni długiego czasu, nie były tak naprawdę konieczne, ale nadal można by ich używać, by czcić i świętować prostotę tego, że „Ja i mój Ojciec jesteśmy Jednym". W tamtej chwili nie wiedziałem, że plan misji mego życia wiązałby się z daniem dość wyjątkowego świadectwa. Zatem zaprawdę *przyzwoliłem*, by akcja toczyła się dalej. To nie było tak, że to ja ją wyreżyserowałem, ona już była w toku. Ja po prostu na to przyzwoliłem.
 
 I gdy zapytano mnie: „Czy jesteś królem żydowskim?", odpowiedziałem po prostu: „Niektórzy tak mawiają". „Czy jesteś Synem Boga?" -- „Czy ty tak mówisz?" I na każde pytanie odpowiadałem pytaniem, gdyż to wszystko nie miało znaczenia. To spowodowało duże wzburzenie pośród mych zwolenników, mych przyjaciół, gdyż znali oni -- tak jak wy -- swe lęki. Niektórzy stali się ode mnie zależni, niektórzy naprawdę mieli nadzieję, że jestem Mesjaszem, politycznym Mesjaszem, który miał przybyć, by obalić Rzymian siłą. Niektórzy zaczęli we mnie wątpić i zaczęli się odsuwać. Wielu mnie kochało i nie mogło pojąć tego, co miało się wydarzyć, choć nauczałem ich, że: „Po trzech dniach wzniosę na nowo tę świątynię. Bądźcie zatem dobrej myśli". Oni zaś byli zdezorientowani: „Co on ma na myśli? Zbudowanie świątyni zajęło wiele lat! Któż mógłby ją zburzyć i w trzy dni odbudować kamień po kamieniu? O czym on mówi?". A niektórzy zaczęli pojmować, że mówiłem o świątyni mego ciała.
 
@@ -117,23 +116,23 @@ Zrozum zatem dobrze, że trzeciego dnia głaz został odsunięty, a ci, którzy 
 
 Drodzy przyjaciele, moje podróże nie różniły się od waszych. Ty również podróżowałeś do odległych kultur. Studiowałeś wszystkie duchowe techniki, jakie są, i jakie kiedykolwiek stworzono. Znasz drogę pokładania nadziei w magii. Znasz ścieżkę polegającą na wykonywaniu pewnych rytuałów w celu zadowolenia Boga, tak jakby Bóg cię kiedykolwiek oceniał. I każdy z was budzi się do prostoty owej Prawdy, której ja również jako człowiek się nauczyłem:
 
-> *Ja i mój Ojciec Jedno jesteśmy. Tu i teraz cała moc Miłości może przeze mnie przepływać, ponieważ zwyczajnie porzucam każde postrzeżenie, jakie kiedykolwiek miałem, i uznaję, że jedynie Miłość jest rzeczywista, i że temu, co rzeczywiste, nigdy nie można zagrozić, a to, co nierzeczywiste, nie istnieje.*
+> Ja i mój Ojciec Jedno jesteśmy. Tu i teraz cała moc Miłości może przeze mnie przepływać, ponieważ zwyczajnie porzucam każde postrzeżenie, jakie kiedykolwiek miałem, i uznaję, że jedynie Miłość jest rzeczywista, i że temu, co rzeczywiste, nigdy nie można zagrozić, a to, co nierzeczywiste, nie istnieje.
 
 Ta Prawda stoi w całkowitej sprzeczności ze wszystkim, czego naucza cię świat, ale gdy dokonujesz wyboru, by praktykować w *każdej chwili*, korekta przypływa do głębin umysłu, a serce się otwiera. Do duszy powraca śmiech, gdyż pozory nie mają już mocy, by nad *tobą* panować, ponieważ widzisz jedynie Miłość i przypomniałeś sobie, że śmierć we wszystkich jej formach jest nierzeczywista. Pozostajesz taki, jakim zostałeś stworzony, a pomiędzy umysłami połączonymi w Miłości *nie ma oddzielenia*.
 
 Zrozum więc proszę, co masz w zasięgu ręki, gdyż przybyłeś, by w swym własnym życiu zaświadczyć, że nie ma już dłużej potrzeby, by opierać się na magicznych środkach w celu przywołania Mocy Boga. *Ty jesteś obecnością tej Mocy!*
 
-&hellip;Ona się martwi i wysyła czasem taką myśl: „Jeszua, taśma zaraz się skończy". Trochę ją onieśmielam, gdy mówię o tym publicznie. Być może nadszedł czas, by powiedzieć, że ta istota, którą znacie jako Anastazja, również podróżowała ze mną w tamtych czasach, tyle że jako mężczyzna. W tamtym czasie był to bardzo inteligentny, oczytany i wykształcony mężczyzna. Znał język grecki, hebrajski i aramejski. A jednak jego przyjaciele często go nie słuchali, ale to już inna historia. On w tamtych czasach również nosił w sobie wiele winy: „Czy zawiodłem mojego przyjaciela, Jeszuę?". Pozostając w swym bólu, pozwalał, aby słowa, które wypowiedziałem, rozbrzmiewały w jego umyśle: „W trzy dni odbuduję tę świątynię. Co on miał na myśli? Do licha, Jeszua!". A jednak przybyłem i ukazałem się mu, podobnie jak wielu innymi moim przyjaciołom, używając tego, co ty mógłbyś nazwać „różnymi poziomami gęstości"...
+&hellip;Ona się martwi i wysyła czasem taką myśl: „Jeszua, taśma zaraz się skończy". Trochę ją onieśmielam, gdy mówię o tym publicznie. Być może nadszedł czas, by powiedzieć, że ta istota, którą znacie jako Anastazja, również podróżowała ze mną w tamtych czasach, tyle że jako mężczyzna. W tamtym czasie był to bardzo inteligentny, oczytany i wykształcony mężczyzna. Znał język grecki, hebrajski i aramejski. A jednak jego przyjaciele często go nie słuchali, ale to już inna historia. On w tamtych czasach również nosił w sobie wiele winy: „Czy zawiodłem mojego przyjaciela, Jeszuę?". Pozostając w swym bólu, pozwalał, aby słowa, które wypowiedziałem, rozbrzmiewały w jego umyśle: „W trzy dni odbuduję tę świątynię. Co on miał na myśli? Do licha, Jeszua!". A jednak przybyłem i ukazałem się mu, podobnie jak wielu innymi moim przyjaciołom, używając tego, co ty mógłbyś nazwać „różnymi poziomami gęstości"&hellip;
 
 Zrozum dobrze, przybywam do *każdego serca*, które przygotuje dla mnie miejsce. Nie są do tego wymagane całe życia poświęcone oczyszczaniu, ponieważ *nie ma* w tobie winy; twą naturą jest doskonałość. A prostota trwania ze mną leży jedynie w twej chęci, by uwolnić ciężar świata, odwrócić się od hałasu i zgiełku tego, co nazwaliśmy już głosem ego -- który jest kolektywnym chaosem umysłu świata -- i by spocząć w prostym uznaniu:
 
-> *Jestem taki, jakim stworzył mnie Bóg. Ponieważ wszystkie umysły są połączone, dokonuję wyboru, by trwać w obecności odwiecznego przyjaciela, który nigdy mnie nie opuścił.*
+> Jestem taki, jakim stworzył mnie Bóg. Ponieważ wszystkie umysły są połączone, dokonuję wyboru, by trwać w obecności odwiecznego przyjaciela, który nigdy mnie nie opuścił.
 
 Oczywiście tylko, jeśli tego chcesz! To nie jest konieczne do tego, by się przebudzić. Nauczaj zatem ten świat, że ja przybywam jedynie jako brat i przyjaciel.
 
 Będąc człowiekiem, dopełniłem mej części w Pojednaniu i poprzez nauczanie tego, że śmierć jest nierzeczywista, *sam się tego nauczyłem*. „Co? Jeszua mówi, że kiedy poszedł na krzyż, być może pojawiło się zwątpienie?" O tak. Ale jeśli prawdą jest, że otrzymujesz to, co dajesz, i że tak jak nauczasz, tak sam się uczysz, to ponieważ wiedziałem, że chcę nieograniczoności na zawsze, pozwoliłem, by to świadectwo było również *moją* ostateczną lekcją: nauką, że prawdą *jest*: *śmierć jest nierzeczywista*. A jeśli śmierć jest nierzeczywista, nie może istnieć myśl o poświęceniu i nie można niczego utracić. Można jedynie wszystko zyskać poprzez pamiętanie, że:
 
-> *Zaprawdę jestem tutaj, by być prawdziwie pomocnym, gdziekolwiek to „tutaj" by nie było.*
+> Zaprawdę jestem tutaj, by być prawdziwie pomocnym, gdziekolwiek to „tutaj" by nie było.
 
 W moim przypadku wydaje się, że oznacza to bycie bez ciała, ponieważ Wolą Stwórcy nie jest, bym przyjął fizyczną formę, a ty swoją własną drogą dochodzisz do owej niewinnej prostoty cichych, którzy posiądą Ziemię:
 
@@ -141,7 +140,7 @@ W moim przypadku wydaje się, że oznacza to bycie bez ciała, ponieważ Wolą S
 
 To jest bardzo, bardzo proste.
 
-> *Co mogę uczynić? W jaki sposób mogę służyć?*
+> Co mogę uczynić? W jaki sposób mogę służyć?
 
 Będąc obecnością Miłości! A twe dary zostaną aktywowane za twoim pośrednictwem, gdyż jest jeden Nauczyciel, który wie jak utkać przebudzenie tego świata i który jest już w to aktywnie zaangażowany. Zatem nie oczekuj, że będziesz nadzorującym, ale nadzorowanym, i ufaj Głosowi przemawiającemu w Imieniu Boga, tak jak ja nauczyłem się słyszeć *jedynie ten Głos*.
 

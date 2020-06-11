@@ -2,9 +2,9 @@
 title: "Lekcja 4. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center"> 
-## Lekcja 4
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead">
+# Lekcja 4
+## Pytania i odpowiedzi
 
 </div>
 
@@ -18,7 +18,7 @@ Lecz jest jeszcze jeden poziom. A to po prostu oznacza, że Wielkie Promienie Ś
 
 Zatem Wielkie Promienie Światła również odnoszą się do *tych idei, które uwalniają umysł*, idei, które są *wieczne* i znajdują się w każdej formie Uniwersalnego Programu Nauczania. Zaprawdę, każdy z was, bez wyjątku, który słucha tych słów *jest* Wielkim Promieniem. A Wielkie Promienie istnieją i istniały *wraz* *z* tym jednym Centralnym Słońcem poprzez całą wieczność. Oto Prawda o twoim istnieniu i jest to prawdopodobnie najbardziej fundamentalna Prawda, która musi się pojawić jako Poznanie w umyśle:
 
->*JESTEM WIELKIM PROMIENIEM ŚWIATŁA -- nieograniczonym, wiecznym, niezrodzonym i nieśmiertelnym! I choćbym nie wiem jak się starał, nie mogę uciec od faktu, że jestem twórcą i współtwórcą. A zatem może już czas, abym przestał udawać, że jestem czymś mniejszym od Wielkiego Promienia i zabrał się za odkrywanie, w jaki sposób mogę pozwolić temu Światłu jaśnieć -- nawet w tym świecie.*
+>JESTEM WIELKIM PROMIENIEM ŚWIATŁA -- nieograniczonym, wiecznym, niezrodzonym i nieśmiertelnym! I choćbym nie wiem jak się starał, nie mogę uciec od faktu, że jestem twórcą i współtwórcą. A zatem może już czas, abym przestał udawać, że jestem czymś mniejszym od Wielkiego Promienia i zabrał się za odkrywanie, w jaki sposób mogę pozwolić temu Światłu jaśnieć -- nawet w tym świecie.
 
 Czy to wyjaśnienie pomogło ci w kwestii tego pytania?
 

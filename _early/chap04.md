@@ -2,14 +2,11 @@
 title: "Błogość niewiedzy"
 ---
 
-<div markdown="1" align="center">
-
+<div markdown="1" class="chHead">
 # Błogość niewiedzy
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
-
-
 </div>
 
 Teraz zaczynamy.
@@ -46,7 +43,7 @@ Jak wiele razy potrafiłeś zrezygnować ze swoich idei na temat tego, czym jest
 
 Jak często w ciągu dnia spoczywasz w pokoju, który na wieki przekracza wszelkie pojmowanie, i pytasz tego, co niewidzialne:
 
-> *Po co to jest? Jaki jest sens i przeznaczenie tej chwili? Co chciałbyś, abym zobaczył w tym krześle, w tym deszczu, w tym bracie i tej siostrze?*
+> Po co to jest? Jaki jest sens i przeznaczenie tej chwili? Co chciałbyś, abym zobaczył w tym krześle, w tym deszczu, w tym bracie i tej siostrze?
 
 Powiadam wam bowiem, że ucho igielne znajduje się u źródła twojej własnej świadomości. Nie odnajdziesz drogi do duchowego życia na zewnątrz ciebie, lecz wewnątrz -- w samym rdzeniu wszystkiego, co wybudowałeś wokół prostoty niewinnej tajemnicy zwanej Stworzeniem.
 
@@ -54,7 +51,7 @@ Droga do pokoju, droga do życia opartego na cudach, nie polega na usilnym dopas
 
 Droga do pokoju w życiu, droga do mistrzostwa, droga do zjednoczenia z całym stworzeniem -- doprawdy droga do doskonałej i dopełnionej Chrystusowości -- nie polega na próbach robienia czegoś, lecz na opanowaniu sztuki zrzekania się, sztuki pozostawania w pokorze i niewinności boskiej niewiedzy.
 
-> *Ojcze, Ty, któryś jest Źródłem i Stwórcą wszystkiego; Ty, który przenikasz wszystko, tajemnico promieniejąca z tajemnicy, nie wiem, czym jest i po co jest cokolwiek. Jeszcze wczoraj myślałem, że wiem, a nawet chwilę temu tak myślałem, lecz teraz postanawiam zrzec się wszystkiego i spocząć w tym Doskonałym Pokoju, który -- być może -- pokaże mi, jak postrzegać i doświadczać wszystkiego od nowa.*
+> Ojcze, Ty, któryś jest Źródłem i Stwórcą wszystkiego; Ty, który przenikasz wszystko, tajemnico promieniejąca z tajemnicy, nie wiem, czym jest i po co jest cokolwiek. Jeszcze wczoraj myślałem, że wiem, a nawet chwilę temu tak myślałem, lecz teraz postanawiam zrzec się wszystkiego i spocząć w tym Doskonałym Pokoju, który -- być może -- pokaże mi, jak postrzegać i doświadczać wszystkiego od nowa.
 
 W tym znajduje się ścieżka mocy i władzy.
 
@@ -64,7 +61,7 @@ A zatem, umiłowani przyjaciele, chcemy was prosić, abyście byli zdeterminowan
 
 Zastanów się nad tymi wyrażeniami, ponieważ jest w nich wiele mądrości. Pierwsze jest ekspresją świadomości świata. Albowiem wystarczy, że usiądziesz na ławce w parku i poobserwujesz swój świat, jego ruch uliczny: wszyscy wiedzą, co robią, dokąd idą i po co -- no i oczywiście jest to ważne. Lecz jedynie ten, który wie, że nie wie, spoczywa przez chwilę na ławce w parku i mówi:
 
-> *Ojcze, jaki ma być ten dzień? Naucz mnie. Pokaż mi. Ja nie wiem niczego.*
+> Ojcze, jaki ma być ten dzień? Naucz mnie. Pokaż mi. Ja nie wiem niczego.
 
 Albowiem ten, który nie wie niczego, spoczywa w pokorze, a następnie może zachwycać się tym, ku czemu on lub ona jest poprowadzony oraz tym, co jest objawiane w ich świadomości. Albowiem jedynie wówczas, gdy umysł jest uwolniony od wytwarzania projekcji, może stać się pustym naczyniem, w którym przyjmuje promienną tajemnicę świecącą z Umysłu Boga we wszystkim, co stworzono.
 
@@ -72,7 +69,7 @@ Droga przebudzenia jest zatem drogą uznania własnej *całkowitej niewiedzy*. D
 
 Zacznijmy więc od czegoś całkiem prostego. Gdzie myślisz, że się teraz znajdujesz? Pomyśl o tym przez chwilę i bądź ze sobą szczery. Kiedy usiadłeś i umieściłeś tę taśmę w swoim małym odtwarzaczu, czy twoje działanie nie wypływało ze stanu świadomości, który można by opisać tak:
 
-> *Dokładnie wiem, co robię. Jestem w swoim domu. Jestem w swoim samochodzie. Mamy taką a taką pogodę. Mam tylko tyle czasu i -- o mój Boże -- czyż rząd nie powinien zająć się tamtą sprawą i czy to nie powinno mieć miejsca? A co z tamtym wydarzeniem sportowym? Ale z niego głupek, że upadł na tyłek z powodu deszczu, a więc przegraliśmy mecz i dlatego jestem przygnębiony.*
+> Dokładnie wiem, co robię. Jestem w swoim domu. Jestem w swoim samochodzie. Mamy taką a taką pogodę. Mam tylko tyle czasu i -- o mój Boże -- czyż rząd nie powinien zająć się tamtą sprawą i czy to nie powinno mieć miejsca? A co z tamtym wydarzeniem sportowym? Ale z niego głupek, że upadł na tyłek z powodu deszczu, a więc przegraliśmy mecz i dlatego jestem przygnębiony.
 
 Wszystkie te rzeczy przebiegają ci przez głowę. Przed włączeniem tego nagrania już zdecydowałeś, że usłyszysz coś, co albo podniesie cię na duchu, albo skłoni do myślenia. Być może już zdecydowałeś, że usłyszysz mnie komunikującego się za pośrednictwem tegoż mojego umiłowanego brata -- zapewniam cię, że w przyszłości czekają cię pewne niespodzianki. Jeszcze zanim rozpocząłeś to doświadczenie, już zdecydowałeś, czym ono dla ciebie będzie. Już zdecydowałeś, jak do niego podejść: poprzez włączenie myślącego, analitycznego umysłu słyszysz słowa w zdaniach i dlatego wierzysz, że dojdziesz do zrozumienia.
 
@@ -86,13 +83,13 @@ A zatem rozejrzyj się dookoła -- dokładnie tam, gdzie jesteś. Wydaje ci się
 
 Gdzieś w głębi swego umysłu przyjąłeś pewne wyobrażenia o tym, czym rzeczy są i czemu służą, włącznie z twoim ciałem, umysłem, myślami i uczuciami. W oparciu o te głęboko osadzone w tobie przyzwyczajenia zdecydowałeś, czego *potrzebujesz*, aby pasowało to do tego, co -- jak *wierzysz* -- jest prawdą. Z tego zaś, co *potrzebujesz*, dokonujesz projekcji impulsów tego, czego chcesz. A to, czego chcesz, określa twój sposób postrzegania każdego przedmiotu, każdej osoby, każdej kropli deszczu, każdego obłoczka i każdego krzesła wokół ciebie. Powiadam ci jednak ponownie, że bycie cichym rzeczywiście zaczyna się od rozpoznania, że *ty* *nie wiesz*, czego naprawdę chcesz, chyba, że dotarłeś do miejsca, w którym cichy głos w tobie mówi ci tak:
 
-> *Chcę Boga. Chcę Pokoju. Chcę wrócić do Domu.*
+> Chcę Boga. Chcę Pokoju. Chcę wrócić do Domu.
 
 Chwilę wcześniej zapytałem się, czy wiesz, gdzie się znajdujesz, i powiadam ci: jeśli uważasz, że siedzisz na krześle, jeśli sądzisz, że wiesz, która jest godzina, jeśli sądzisz, że wiesz, co ten dzień ma dla ciebie oznaczać, to nie wiesz, gdzie się znajdujesz. *Dosłownie nie wiesz, gdzie jesteś*.
 
 Jeśli masz się podjąć jakiegokolwiek działania w ciągu dnia, to czyż nie byłoby mądrze przynajmniej zacząć rozważać prostotę następującego pytania:
 
-> *Czy nie jest mądrze najpierw wiedzieć, gdzie jestem, zanim zdecyduję, co mam zrobić?*
+> Czy nie jest mądrze najpierw wiedzieć, gdzie jestem, zanim zdecyduję, co mam zrobić?
 
 Ludzki umysł sądzi, że wie, gdzie się znajduje, lecz on znajduje się w gmatwaninie obłąkanych pojęć i pełnych lęku wyobrażeń, które błędnie wytworzył, aby zastąpić prostotę rzeczywistości trwania w Umyśle Boga -- czyli bycia nieograniczonym na wieki i otrzymywania pełnego wsparcia i zaopatrzenia w każdej chwili.
 
@@ -102,7 +99,7 @@ Wiesz, co by się stało? Najpierw, po obudzeniu, pojawiłaby się ogromna rado�
 
 Proszę cię więc, abyś porównał tę definicję, ten obraz, z tym, jak żyje ród ludzki, a potem zadał sobie pytanie:
 
-> *Czy ród ludzki wie, gdzie się znajduje? Czy ja jako część ludzkiego rodu wiem, gdzie się znajduję? Czy jestem chętny, by w tej chwili zrzec się wszystkich idei, jakie kiedykolwiek miałem na temat tego, czym jest cokolwiek i do czego służy, a więc również, jakie jest tego znaczenie czy użyteczność? Czy mogę dokonać wyboru, aby odpocząć w przestrzeni neutralności i pozwolić czemuś ponad mną nauczać mnie od nowa?*
+> Czy ród ludzki wie, gdzie się znajduje? Czy ja jako część ludzkiego rodu wiem, gdzie się znajduję? Czy jestem chętny, by w tej chwili zrzec się wszystkich idei, jakie kiedykolwiek miałem na temat tego, czym jest cokolwiek i do czego służy, a więc również, jakie jest tego znaczenie czy użyteczność? Czy mogę dokonać wyboru, aby odpocząć w przestrzeni neutralności i pozwolić czemuś ponad mną nauczać mnie od nowa?
 
 A zatem jeśli w tej chwili stoisz, chcę, żebyś usiadł, a jeśli siedzisz, pozostań na swoim miejscu -- zwłaszcza, że to zdanie ma teraz nowe znaczenie. I naprawdę *poczuj* materiał, z którego zrobiony jest przedmiot, na którym siedzisz. *Poczuj go*! Otwórz komórki swojego ciała i pozwól, aby jakość wibracji miejsca, na którym siedzisz, przeniknęła do twego jestestwa. Pozwól, aby skóra była organizmem, który słyszy, a nie tylko czuje. Czy potrafisz usłyszeć melodię, którą śpiewa ów przedmiot, na którym siedzisz? Każda rzecz zawiera w sobie świadomość, czyli życie. Albowiem całe Stworzenie jest jedynie Życiem, a zatem z każdej stworzonej formy emanuje mądrość i inteligencja. Poczuj jakość wibracji. Czy jakiś kolor pojawia się w twoim umyśle? Niekoniecznie chodzi tu o kolor materiału, lecz o kolor wibracji reprezentowanej przez ten przedmiot. Czy podoba ci się ten kolor? Czy dobrze się z tym przedmiotem czujesz? Jeśli nie, to pozbądź się go i daj go komuś innemu w potrzebie i znajdź dla siebie coś takiego, co stwarza wibrację, która przyniesie ci poczucie przyjemności ponad ego.
 
@@ -116,19 +113,19 @@ Ci z was, którzy są w związku lub ci, którzy mogą stworzyć związek -- naw
 
 Usiądź z tą osobą, spójrzcie sobie w oczy. Umieśćcie ręce na czymkolwiek siedzicie, na przykład na podłodze lub krześle, spójrzcie sobie w oczy i niech każdy z was powie drugiemu prawdę o sobie. Prawdopodobnie na początku będziesz mówił takie rzeczy, jak:
 
-> *No cóż, nazywam się tak i tak, mieszkam w takim a takim miejscu, mam tych rodziców i -- och mój Boże -- mam również te zdolności&hellip;*
+> No cóż, nazywam się tak i tak, mieszkam w takim a takim miejscu, mam tych rodziców i -- och mój Boże -- mam również te zdolności&hellip;
 
 Nic z tego nie stanowi prawdy o tym, czym jesteś. Prawdą o tym, kim jesteś, jest to, że nie wiesz, kim jesteś i nie wiesz, po co jesteś. Znajdujesz się w stanie *całkowitej boskiej niewiedzy*. I możesz to sobie udowodnić w ten sposób: patrz na osobę siedzącą naprzeciwko ciebie przez przynajmniej dwie lub trzy minuty, następnie zaś podaj myśl, która pojawia się w jej umyśle w tym momencie. Zobaczysz, że w 99,9999999% czasu całkowicie się mylisz. Poproś ich, żeby wykonali jakiś ruch, zmienili język ciała, a następnie powiedz im, co próbują w ten sposób wyrazić. Ponownie odkryjesz, że mogą cię nabrać, kiedykolwiek chcą. Czy wiesz, czym jest dana rzecz i po co jest? Czy naprawdę wiesz, co dzieje się w jakimkolwiek momencie? Ja ci odpowiadam, że nie wiesz, dopóki polegasz na swoich własnych myślach i ideach.
 
 Po robieniu tego ćwiczenia przez kilka minut, praktykuj spoczywanie w neutralności własnej niewiedzy:
 
-> *Ojcze, nie wiem, czym jest cokolwiek i po co to jest.*
+> Ojcze, nie wiem, czym jest cokolwiek i po co to jest.
 
 Następnie poproś drugą osobę, aby o czymś pomyślała. Mógłby to być na przykład obraz różowego słonia -- lub cokolwiek. Gdy tak spoczywasz w swojej niewiedzy, zrzekając się wszelkiej nadziei na rozpoznanie, czym to jest, po co jest i co powinno zostać przekazane, to być może odkryjesz, że zaczynasz sobie uświadamiać, iż pewna idea dominuje w twym umyśle. Być może będzie to coś dziwnego. Być może będzie to różowy słoń. A potem po prostu powiedz swojemu przyjacielowi: *Wydaje mi się, że myślisz o różowym słoniu lub że język twego ciała wyraża pewną myśl&hellip;*
 
 Dzięki swej praktyce udoskonalisz swą zdolność przyjmowania wiedzy w nowy sposób. I gdy tylko ją udoskonalisz, znajdziesz się w stanie, który nazywamy Kosmiczną Świadomością, czy też Chrystusową Świadomością, w której tak bardzo opanowałeś porzucanie swoich własnych idei, że to, co jest faktycznie prawdziwe i to, co ma sens w danym momencie, jest objawiane w twojej świadomości z chwili na chwilę, nawet jeśli dotyczy to kogoś, kto znajduje się po drugiej stronie planety. I wówczas, gdy pytasz się w swoim wnętrzu „co powinienem z tym zrobić?", Duch Święty ci to mówi, i wiesz, kiedy mówić, a kiedy nie mówić, kiedy działać, a kiedy nie działać. Spoczywanie w ciszy własnej niewiedzy pozwala Życiu, aby objawiło się poprzez ciebie i w tobie. Lecz to, co się objawi, nie będzie postrzegane jako twoje własne i zrozumiesz, że nie możesz przyjmować uznania za to, co się dzieje za twoim pośrednictwem. I powiesz, tak jak kiedyś ja powiedziałem: 
 
-> *Dlaczego nazywasz mnie dobrym, gdy cuda dzieją za moim pośrednictwem? Jedynie Ojciec jest dobry. Ja jestem zaledwie kanałem dla Tajemnicy Życia. Jestem pusty. Nie ma nikogo w domu.*
+> Dlaczego nazywasz mnie dobrym, gdy cuda dzieją za moim pośrednictwem? Jedynie Ojciec jest dobry. Ja jestem zaledwie kanałem dla Tajemnicy Życia. Jestem pusty. Nie ma nikogo w domu.
 
 A gdy nie ma nikogo, wówczas są wszyscy.
 
@@ -150,7 +147,7 @@ I w końcu poddają się, uwalniając każde najmniejsze przekonanie, że w ich 
 
 Zastanów się zatem dobrze nad tym wszystkim, a przede wszystkim wprowadź do tego lekkość i humor. Śmiej się z siebie samego. Śmiej się z tego „ja", którym -- jak myślałeś -- jesteś. Gdy kiedykolwiek uwierzysz, że coś musi się zadziać w określony sposób, klepnij się po udzie -- w ten sposób przynajmniej zrobisz z niego dobry pożytek -- zaśmiej się i powiedz sobie: 
 
-> *Mój Boże, ja rzeczywiście pomyślałem, że coś musi się zadziać w określony sposób. Ten żart mi się nie udał.*
+> Mój Boże, ja rzeczywiście pomyślałem, że coś musi się zadziać w określony sposób. Ten żart mi się nie udał.
 
 Wówczas mądrość tego, jak wszystko się toczy, może ci się sama objawić. A gdy wiesz, że istnieje mądrość, która przepływa w stwarzaniu każdej chwili, to możesz podjąć decyzję, by ponownie *zaufać* Życiu. Życie zaś jest jedynie Miłością promieniejącą z Umysłu Boga. I właśnie tu znajdujesz się w tej chwili.
 

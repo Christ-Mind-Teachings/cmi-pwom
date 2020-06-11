@@ -8,11 +8,11 @@ title: "Rozdział piąty"
 ![znaczek]({{page.big-separator}})
 {: .omit}
 
-*Budzący się Syn<br>
+Budzący się Syn<br>
 jest jak ktoś, kto szuka Światła,<br>
 a  następnie opłakuje zniknięcie cieni,<br>
 gdy świt przebija się łagodnie<br>
-przez ciemność nocy.*
+przez ciemność nocy.
 {: .omit}
 
 </div>
@@ -21,9 +21,9 @@ przez ciemność nocy.*
 {: .omit}
 
 <div data-index="1" markdown="1" class="indent">
-*Teraz zaczynamy.*
+Teraz zaczynamy.
 
-*Jeszcze chwila, a  będziesz tam, gdzie JAM JEST.<br>
+Jeszcze chwila, a  będziesz tam, gdzie JAM JEST.<br>
 To  jest twój dom,<br>
 tak jak jest to  dom wszystkich, którzy nadal zwlekają<br>
 w  tańcu cieni.<br>
@@ -37,14 +37,14 @@ będąc jedną substancją z  Ojcem.<br>
 Tym jedynie jesteście.<br>
 Tym jedynie JAM JEST.<br>
 Tym jedynie są wszyscy.<br>
-W  tym zawiera się poznanie istoty Mojej ewangelii.*
+W  tym zawiera się poznanie istoty Mojej ewangelii.
 
-*Jest to  mądrość wzniosła,<br>
+Jest to  mądrość wzniosła,<br>
 jednak jest bardziej oczywista<br>
 niż własny oddech w  piersiach,<br>
-dla każdego, kto tylko chce jej szukać.*
+dla każdego, kto tylko chce jej szukać.
 
-*Nigdy nie ma  żadnych barier pomiędzy<br>
+Nigdy nie ma  żadnych barier pomiędzy<br>
 formami Syna i  Jego Świętym Ojcem.<br>
 Wszelkie takie bariery są tylko odzwierciedleniem<br>
 jednej myśli:<br>
@@ -52,9 +52,9 @@ jednej myśli:<br>
 Z  tego rodzi się lęk,<br>
 a  Syn wycofuje się
 do  małego punktu Światła,<br>
-którym jedynie jest.*
+którym jedynie jest.
 
-*Wiara w  „inność”<br>
+Wiara w  „inność”<br>
 jest upieraniem się przy Oddzieleniu.<br>
 Jednakże to  wam daję:<br>
 świat nic o  tym nie wie,<br>
@@ -67,17 +67,17 @@ wymaga **innego** poznania.<br>
 Mój **Kurs Cudów** jedynie wskazuję drogę<br>
 tym, którzy są głęboko przywiązani do  swego<br>
 judeochrześcijańskiego dziedzictwa.<br>
-Jest wiele takich dróg.*
+Jest wiele takich dróg.
 
-*Wiedz jedno:<br>
+Wiedz jedno:<br>
 droga do  domu,<br>
 kiedy jest prawdziwa,<br>
 nie każe ci w  siebie wierzyć,<br>
 lecz łagodnie popycha cię poza twe złudzenia.<br>
 Klucze, jakie ci dałem, są obecne na  wszystkich takich drogach:<br>
-pragnienie, intencja, przyzwolenie, poddanie się.*
+pragnienie, intencja, przyzwolenie, poddanie się.
 
-*Zakończymy teraz naszą rozmowę,<br>
+Zakończymy teraz naszą rozmowę,<br>
 gdyż twój umysł zaczyna zastanawiać się nad tym, <br>
 co  zostało ujawnione.<br>
 Teraz wiesz, kim jesteś.<br>
@@ -89,9 +89,9 @@ zasadza się w  trzecim kluczu.<br>
 Kiedy to  nastąpi,<br>
 rozpocznie się nasza praca.<br>
 Błogosławię ciebie<br>
-i  wszystko, o  czym śnisz.*
+i  wszystko, o  czym śnisz.
 
-*Amen.*
+Amen.
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -101,21 +101,21 @@ i  wszystko, o  czym śnisz.*
 {: .omit}
 
 <div data-index="1" markdown="1" class="indent">
-*Witaj, Marc.*
+Witaj, Marc.
 </div>
 
 „Witaj, Jeszua. Kocham cię”.
 
 <div data-index="1" markdown="1" class="indent">
-*I  ja  ciebie też, umiłowany przyjacielu.*
+I  ja  ciebie też, umiłowany przyjacielu.
 
-*Teraz zaczynamy.*
+Teraz zaczynamy.
 
-*Cierpliwie czekam, aż poddasz<br>
-ostatni skrawek swego oporu.<br>
-Cierpliwie czekam.*
+Cierpliwie czekam, aż poddasz<br>
+ostatni slawek swego oporu.<br>
+Cierpliwie czekam.
 
-*Chodź do  Mnie<br>
+Chodź do  Mnie<br>
 i  pozwól, by  świata już więcej nie było.<br>
 Albowiem był on tylko słabym odbiciem<br>
 przelotnej myśli.<br>
@@ -124,18 +124,18 @@ Królestwa nie ma  w  jakimś specjalnym miejscu,<br>
 ani specjalnym czasie.<br>
 Królestwo jest pośród was.<br>
 Wypowiedziałem te słowa bardzo dawno temu,<br>
-jednak ciągle jest to  błędnie rozumiane.*
+jednak ciągle jest to  błędnie rozumiane.
 
-*Królestwo jest związkiem Ojca i  Syna,<br>
+Królestwo jest związkiem Ojca i  Syna,<br>
 który jest poza wszelką ciemnością i  tę ciemność poprzedza.<br>
-Nigdy się nie zmienił.*
+Nigdy się nie zmienił.
 
-*„Pośród was” to  metafora, jako że to  „wy”,<br>
+„Pośród was” to  metafora, jako że to  „wy”,<br>
 z  którym się tak błędnie utożsamiacie,<br>
 jest przelotną myślą, na  której wznoszone są<br>
-światy waszych niezliczonych snów.*
+światy waszych niezliczonych snów.
 
-*Królestwo,<br>
+Królestwo,<br>
 gdzie prawdziwie zawsze przebywacie,<br>
 jest wewnątrz tego „wy”.<br>
 Wiedz o  tym i  to  dobrze.<br>
@@ -147,72 +147,72 @@ nie może być Rzeczywiste.<br>
 A  jednak cienie mogą posiadać moc, by  cię związać.<br>
 Wiedz, że źródłem tej mocy<br>
 jest samo twe naleganie,<br>
-żeby one **były** rzeczywiste.*
+żeby one **były** rzeczywiste.
 
-*Budzący się Syn jest jak ktoś, kto szuka światła,<br>
+Budzący się Syn jest jak ktoś, kto szuka światła,<br>
 a  następnie opłakuje zniknięcie cieni,<br>
 gdy świt przebija się łagodnie<br>
-przez ciemność nocy.*
+przez ciemność nocy.
 
-*Marc,<br>
+Marc,<br>
 chcę cię prosić, abyś jeszcze raz rozważył<br>
 dysharmonię, na  którą stałeś się wrażliwy.<br>
 Czy nie jest to  tylko ostateczny opór,<br>
 przy którym tak uparcie obstajesz?<br>
-Dobrze się nad tym zastanów.*
+Dobrze się nad tym zastanów.
 
 ![znaczek]({{page.little-separator}})
 {: .omit}
 
-*Niech to  będzie znakiem dla ciebie:*<br>
-*to, co  płynie bez wysiłku w  twym doświadczeniu,*<br>
-*zaprawdę jest wolą Ojca.*<br>
-*To, co  przynosi zmęczenie i  wyczerpanie,*<br>
-*lub to, co  znaczy twe oblicze ociężałością,*<br>
-*jest tylko ciężarem ciemności, z  której już dawno wyrosłeś.*<br>
-*Nie mówiłbym ci tego, jeśli by  tak nie było.*<br>
-*A  czego się lękasz?*<br>
-*Czy nie jest to  również lęk przed poddaniem swej ciemności?*<br>
-*I  czyż nie jest to  zwyczajnym upieraniem się*<br>
-*przy rzeczywistości świata?*<br>
+Niech to  będzie znakiem dla ciebie:<br>
+to, co  płynie bez wysiłku w  twym doświadczeniu,<br>
+zaprawdę jest wolą Ojca.<br>
+To, co  przynosi zmęczenie i  wyczerpanie,<br>
+lub to, co  znaczy twe oblicze ociężałością,<br>
+jest tylko ciężarem ciemności, z  której już dawno wyrosłeś.<br>
+Nie mówiłbym ci tego, jeśli by  tak nie było.<br>
+A  czego się lękasz?<br>
+Czy nie jest to  również lęk przed poddaniem swej ciemności?<br>
+I  czyż nie jest to  zwyczajnym upieraniem się<br>
+przy rzeczywistości świata?<br>
 
-*Daję wam tę prawdę:*<br>
-*Świat zostaje przemieniony przez*<br>
-*odnowienie waszego umysłu,*<br>
-*albowiem to  „od-nowienie”*<br>
-*jest powrotem Syna do  Królestwa Jego Ojca,*<br>
-*doskonałego stanu istnienia,*<br>
-*które oświeca świat;*<br>
-*jego ciemności zwyczajnie znikają w  zalewie*<br>
-*jasności, która jest twym prawowitym domem.*<br>
-*Zaprawdę,*<br>
-*Królestwo już się szerzy na  ziemi,*<br>
-*lecz człowiek tego nie rozumie.*<br>
-*Czy zechcesz Mi  pomóc*<br>
-*w  przemienianiu świata przez*<br>
-*odnowienie umysłu Syna?*<br>
-*Po  to  przyszedłeś na  świat.*<br>
-*Po  to  cierpiałeś w  świecie.*<br>
-*Po  to  Mnie szukałeś.*<br>
-*Niech będzie to  całkiem jasne:*<br>
-*to, co  się odsłania w  ramach*<br>
-*naszych rozmów, jest tylko przejawianiem się*<br>
-*twego pragnienia, by  mieć udział w  tym dziele.*<br>
-*Twój ból jest jedynie twą odmową*<br>
-*zaakceptowania spełnienia tego pragnienia.*<br>
+Daję wam tę prawdę:<br>
+Świat zostaje przemieniony przez<br>
+odnowienie waszego umysłu,<br>
+albowiem to  „od-nowienie”<br>
+jest powrotem Syna do  Królestwa Jego Ojca,<br>
+doskonałego stanu istnienia,<br>
+które oświeca świat;<br>
+jego ciemności zwyczajnie znikają w  zalewie<br>
+jasności, która jest twym prawowitym domem.<br>
+Zaprawdę,<br>
+Królestwo już się szerzy na  ziemi,<br>
+lecz człowiek tego nie rozumie.<br>
+Czy zechcesz Mi  pomóc<br>
+w  przemienianiu świata przez<br>
+odnowienie umysłu Syna?<br>
+Po  to  przyszedłeś na  świat.<br>
+Po  to  cierpiałeś w  świecie.<br>
+Po  to  Mnie szukałeś.<br>
+Niech będzie to  całkiem jasne:<br>
+to, co  się odsłania w  ramach<br>
+naszych rozmów, jest tylko przejawianiem się<br>
+twego pragnienia, by  mieć udział w  tym dziele.<br>
+Twój ból jest jedynie twą odmową<br>
+zaakceptowania spełnienia tego pragnienia.<br>
 
-*Odejdziemy teraz.<br>
+Odejdziemy teraz.<br>
 Nie zwlekaj dłużej.<br>
 Zaprawdę, czas jest bliski.<br>
 Koniec podróży jest pewny.<br>
-Nawet czas został wybrany.*
+Nawet czas został wybrany.
 
-*To, czym JAM JEST,*<br>
-*jest zawsze z  wami,*<br>
-*albowiem to, czym JAM JEST,*<br>
-*wy  jesteście.*<br>
+To, czym JAM JEST,<br>
+jest zawsze z  wami,<br>
+albowiem to, czym JAM JEST,<br>
+wy  jesteście.<br>
 
-*Amen.*
+Amen.
 </div>
 
 ![znaczek]({{page.little-separator}})
@@ -222,63 +222,63 @@ Nawet czas został wybrany.*
 {: .omit}
 
 <div data-index="1" markdown="1" class="indent">
-*Teraz zaczynamy.*
+Teraz zaczynamy.
 
-*Niech tak będzie.*<br>
-*Koniec jest blisko,*<br>
-*ciemność blednie*<br>
-*w  świetle niezrozumiałym*<br>
-*dla umysłu człowieka.*<br>
-*Żeby mógł być tulony na  łonie*<br>
-*boskiej mądrości,*<br>
-*musi najpierw zostać opróżniony*<br>
-*z  wszelkich śladów siebie,*<br>
-*albowiem jego „ja” jest wypaczeniem*<br>
-*tego, co  jest jedyną Rzeczywistością.*<br>
-*JAM JEST Tym.*
+Niech tak będzie.<br>
+Koniec jest blisko,<br>
+ciemność blednie<br>
+w  świetle niezrozumiałym<br>
+dla umysłu człowieka.<br>
+Żeby mógł być tulony na  łonie<br>
+boskiej mądrości,<br>
+musi najpierw zostać opróżniony<br>
+z  wszelkich śladów siebie,<br>
+albowiem jego „ja” jest wypaczeniem<br>
+tego, co  jest jedyną Rzeczywistością.<br>
+JAM JEST Tym.
 
-*„Na  zawsze” nie istnieje,*<br>
-*albowiem w  rzeczywistości*<br>
-*czasu nie ma.*<br>
-*Jest tylko ta  chwila,*<br>
-*a  w  niej pojawiają się wszystkie światy.*<br>
-*Wiedz jedno:*<br>
-*to, czym jesteś,*<br>
-*trwa w  każdym czasie i  każdym miejscu,*<br>
-*jednak zawsze jest poza ciemnością złudzeń.*<br>
+„Na  zawsze” nie istnieje,<br>
+albowiem w  rzeczywistości<br>
+czasu nie ma.<br>
+Jest tylko ta  chwila,<br>
+a  w  niej pojawiają się wszystkie światy.<br>
+Wiedz jedno:<br>
+to, czym jesteś,<br>
+trwa w  każdym czasie i  każdym miejscu,<br>
+jednak zawsze jest poza ciemnością złudzeń.<br>
 
-*Światło JAM JEST świta*<br>
-*w  akcie rozpoznania*<br>
-*tego, co  jako jedyne **Jest**.*<br>
-*Twym jedynym zadaniem jest na  to  pozwolić.*
+Światło JAM JEST świta<br>
+w  akcie rozpoznania<br>
+tego, co  jako jedyne **Jest**.<br>
+Twym jedynym zadaniem jest na  to  pozwolić.
 
-*Klucze ci dałem,*<br>
-*a  ty  ich użyłeś.*<br>
-*Albowiem do  Królestwa nie można się zbliżyć,*<br>
-*jeśli najpierw nie ma  pragnienia,*<br>
-*ani też nie może się dokonać ruch w  jego stronę*<br>
-*bez jasnej i  bezkompromisowej intencji.*
+Klucze ci dałem,<br>
+a  ty  ich użyłeś.<br>
+Albowiem do  Królestwa nie można się zbliżyć,<br>
+jeśli najpierw nie ma  pragnienia,<br>
+ani też nie może się dokonać ruch w  jego stronę<br>
+bez jasnej i  bezkompromisowej intencji.
 
-*Jednak największym z  kluczy jest przyzwolenie,*<br>
-*albowiem wejście doń nie może się dokonać*<br>
-*przez własny wysiłek,*<br>
-*lecz jedynie przez zaniknięcie własnego „ja”.*
+Jednak największym z  kluczy jest przyzwolenie,<br>
+albowiem wejście doń nie może się dokonać<br>
+przez własny wysiłek,<br>
+lecz jedynie przez zaniknięcie własnego „ja”.
 
-*W  tym zasadza się istota Mojej ewangelii:*<br>
-*do  Królestwa nie wchodzi się*<br>
-*ani przez ogromny wysiłek,*<br>
-*ani przez zwyczajną wiarę,*<br>
-*ale jedynie przez koniec złudzeń.*<br>
-*Nauczaj tego.*<br>
-*Bądź tym.*<br>
-*W  ten sposób przebudzony Syn ogłasza:*<br>
-*„Ja  i  Mój Ojciec Jedno jesteśmy”.*
+W  tym zasadza się istota Mojej ewangelii:<br>
+do  Królestwa nie wchodzi się<br>
+ani przez ogromny wysiłek,<br>
+ani przez zwyczajną wiarę,<br>
+ale jedynie przez koniec złudzeń.<br>
+Nauczaj tego.<br>
+Bądź tym.<br>
+W  ten sposób przebudzony Syn ogłasza:<br>
+„Ja  i  Mój Ojciec Jedno jesteśmy”.
 
-*Pokój,*<br>
-*i  jeszcze raz mówię: pokój,*<br>
-*jedynemu, jednorodzonemu Świętego Ojca.*
+Pokój,<br>
+i  jeszcze raz mówię: pokój,<br>
+jedynemu, jednorodzonemu Świętego Ojca.
 
-*Amen.*
+Amen.
 </div>
 
 On mówi. Ja  piszę. Wszystko wydaje się znikać. Nie zważam na  fizyczne otoczenie, a  przygasające światło odchodzącego dnia niczemu nie przeszkadza, gdy pióro mknie po  liniach kartki papieru. Przekaz się kończy. Jeszua łagodnie się wycofuje, a  ja  wracam do  tego, co  nazywamy rzeczywistością – siedzę w  cichym mieszkaniu, słysząc głosy przechodzącej właśnie pod moim oknem rozmawiającej pary.
@@ -360,7 +360,7 @@ Jeremiasz użył imienia „Jeszua”, ale wiem, że ja  sam się pilnowałem, b
 
 Jąkam się i  szukam słów: – To, hm, to  jest, hm, moje życie? Czy mógłbyś, hm, czy zechciałbyś&hellip; to  wyjaśnić, proszę?
 
-–  Po  pierwsze, wyjaśnimy ci to  po  to, abyś lepiej zrozumiał to, co  zwiesz „życiem”. Serce moje, ty  nie tyle masz wiele, wiele żyć – jedno tu, drugie tam, a  potem kolejne – w  tym, co  zwiecie czasem. Ty  nie masz tego, co  zwie się „przeszłymi” życiami. Mówimy o  przeszłych życiach, ponieważ ludzki umysł to  rozumie, ale w  rzeczywistości tak nie jest. Masz tylko te życia, które przeżywasz *teraz*.
+–  Po  pierwsze, wyjaśnimy ci to  po  to, abyś lepiej zrozumiał to, co  zwiesz „życiem”. Serce moje, ty  nie tyle masz wiele, wiele żyć – jedno tu, drugie tam, a  potem kolejne – w  tym, co  zwiecie czasem. Ty  nie masz tego, co  zwie się „przeszłymi” życiami. Mówimy o  przeszłych życiach, ponieważ ludzki umysł to  rozumie, ale w  rzeczywistości tak nie jest. Masz tylko te życia, które przeżywasz teraz.
 
 Czuję, jak pochylam się, by  być bliżej, wsłuchując się w  każde słowo.
 
@@ -399,7 +399,7 @@ W  końcu jestem w  stanie mówić i  gdy się odzywam, wraca bardziej znajome o
 –  Zatem, to  wszystko czyni Syn? Więc wszyscy jesteśmy mordercą, gwałcicielem, królem i  poetą?
 Jeremiasz uśmiecha się i  mówi z  łatwością, z  przekonaniem, jak nauczyciel, który jest pewien, że jego uczeń przynajmniej zaczyna rozumieć:
 
-–  Kiedy ktoś osiąga *pełną* świadomość tego, kim jest, wówczas *wszyscy* przybliżają się do  tej Jedności. Największy dar, jaki możesz ofiarować światu, to  twe własne pełne uświadomienie sobie tego, kim *jesteś*. Kiedy będziesz kochał wszystko, czym jesteś, wówczas tę miłość, tę akceptację przekażesz ludzkości, albowiem budząc się do  tego, kim jesteś, rozpoznasz, że *jesteś* wszystkim.
+–  Kiedy ktoś osiąga *pełną* świadomość tego, kim jest, wówczas wszyscy przybliżają się do  tej Jedności. Największy dar, jaki możesz ofiarować światu, to  twe własne pełne uświadomienie sobie tego, kim *jesteś*. Kiedy będziesz kochał wszystko, czym jesteś, wówczas tę miłość, tę akceptację przekażesz ludzkości, albowiem budząc się do  tego, kim jesteś, rozpoznasz, że *jesteś* wszystkim.
 
 Nie przerywając ani na  moment, Jeremiasz ciągnie dalej: – A  ty  masz te swoje cieniutkie granice, te drobne zasady, które mówią, czym jest życie. I  ponieważ to, co  otrzymujesz, nie wpasowuje się w  te zasady, bardzo trudno ci sobie z  tym poradzić. Nie pasuje to  do  pudełka. Musisz poszerzyć granice umysłu. Oto dlaczego mówimy ci, abyś *przyzwalał*. Pozwól temu być, nawet jeśli nie wpasowuje się to  w  twe obecne postrzeganie. To  poszerzy granice twego umysłu.
 
@@ -424,7 +424,7 @@ Nic nie mówię i  przytulam ją mocno i  długo, następnie wręczam jej taśm�
 
 Gdy słuchamy, widzę, że Kendra bardzo się wciągnęła, słuchając bacznie każdego słowa. Gdy nagranie dochodzi do  momentu o  Jeszule, czekając na  jej reakcję, czuję mocniejsze bicie serca:
 
-„Nie tyle masz kontakt z  Jeszuą, co  nim *jesteś*. To  jest twoje życie”.
+„Nie tyle masz kontakt z  Jeszuą, co nim *jesteś*. To  jest twoje życie”.
 
 Kendra zwraca się w  moją stronę, w  jej oczach widać zaskoczenie i  prośbę o  wyjaśnienie.
 

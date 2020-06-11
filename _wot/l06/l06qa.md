@@ -2,9 +2,9 @@
 title: "Lekcja 6. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center"> 
-## Lekcja 6
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead">
+# Lekcja 6
+## Pytania i odpowiedzi
 
 </div>
 
@@ -28,23 +28,23 @@ Nie czekaj na kogoś, kto da ci na to pozwolenie, ale uświadom sobie, że każd
 
 Zatem użyj każdej chwili, by decydować się być bezbronnym w stosunku do swego brata lub siostry.
 
-> *Boże, teraz naprawdę się ciebie boję!*
+> Boże, teraz naprawdę się ciebie boję!
 
-> *Czy wiesz, że w swym wnętrzu odczuwam obrzydzenie i widzę, jak mój umysł gada, że to ty jesteś tego przyczyną? Ale ze mnie głuptas.*
+> Czy wiesz, że w swym wnętrzu odczuwam obrzydzenie i widzę, jak mój umysł gada, że to ty jesteś tego przyczyną? Ale ze mnie głuptas.
 
-> *Czasem tak bardzo się boję, że nigdy nie będę wystarczająco dobry.*
+> Czasem tak bardzo się boję, że nigdy nie będę wystarczająco dobry.
 
 &hellip;cokolwiek by to nie było. Po prostu podejmij decyzję, by być bezbronnym. A zaczniesz zauważać, że gdy wybierasz stanie się przezroczystym dla siebie i innych, to zaczyna się dziać coś całkiem dziwnego. Ściśnięcie w żołądku, ucisk w klatce piersiowej, zaciśnięcie szczęk, atakujące myśli, osądy, ciemne stare rany, których -- jak się wydaje -- nie możesz uwolnić, wydają się rozpływać prawie niezauważalnie. Dlaczego? Ponieważ utrzymywał je właśnie lęk.
 
 A praktyka bezbronności -- możesz z niej zrobić zabawę. Możesz się przy tym świetnie bawić.
 
-> *Właśnie pozwoliłem, by pupą wyszły mi gazy! No cóż!*
+> Właśnie pozwoliłem, by pupą wyszły mi gazy! No cóż!
 
 Zacznij traktować swoją egzystencję jak żart. Zauważ wielkie poczucie humoru we wszystkim i bądź co do tego szczery.
 
 Gdy uświadomisz sobie, że wszystko, co się w tobie podnosi, jest doskonale neutralnym wydarzeniem, i gdy jesteś chętny, by się temu w sobie przyjrzeć, gdy jesteś chętny, by otworzyć się i powiedzieć:
 
-> *Oto jestem! Spójrz do mego wnętrza i patrz. Jeśli chcesz mnie nienawidzić, nienawidź. Jeśli chcesz mnie osądzić, osądzaj. Jeśli chcesz mnie kochać, kochaj.*
+> Oto jestem! Spójrz do mego wnętrza i patrz. Jeśli chcesz mnie nienawidzić, nienawidź. Jeśli chcesz mnie osądzić, osądzaj. Jeśli chcesz mnie kochać, kochaj.
 
 &hellip;to odkryjesz, że ta przeszkoda lęku, która była niczym żelazny szlaban, rozpuszcza się w słońcu twej Miłości.
 
@@ -52,11 +52,11 @@ Zatem bezbronność przenosi cię przez złudzenie lęku ku głębokiej miłośc
 
 Jeśli boisz się bezbronności, to po prostu czynisz dla siebie niemożliwym, by kiedykolwiek zasmakować pokoju poznania, że jesteś nietykalny dla tego świata. Zacznij zatem ćwiczyć bezbronność. Otwórz się mocno i odsłoń siebie światu, samemu sobie. I jeśli poczujesz, że wzbiera w tobie lęk, to przynajmniej znajdź tego, kogo zwiesz przyjacielem, i zapytaj go:
 
-> *Zrobiłbyś coś szalonego?*
+> Zrobiłbyś coś szalonego?
 
 Na co on odpowie: *A co takiego?*
 
-> *Czy pozwolisz mi stać się tak bezbronnym, jak to tylko możliwe? To mnie śmiertelnie przeraża, ale chcę wiedzieć, kim jestem.*
+> Czy pozwolisz mi stać się tak bezbronnym, jak to tylko możliwe? To mnie śmiertelnie przeraża, ale chcę wiedzieć, kim jestem.
 
 I widzisz, oni będą bardzo szczęśliwi, ponieważ to oznacza, że nie muszą niczego robić. Nie muszą cię naprawiać. Nie muszą dawać ci rad. Nie muszą robić nic, prócz *bycia ci świadkiem*. I w tym byciu świadkiem zapewniają ci przestrzeń, w której podejmujesz decyzję, by wybrać uzdrowienie poprzez stanie się doskonale bezbronnym.
 
@@ -80,7 +80,7 @@ Zatem zaprawdę pożegnam się z wami. Moi bracia i siostry, którzy są tu ze m
 
 Pamiętaj zatem, kim jesteś. I gdziekolwiek byś nie był w tej chwili, czemuż byś nie miał porzucić swej powagi? Po prostu po to, by się zabawić! I po prostu chwycić się myśli:
 
-> *Przebywam w Królestwie mego Ojca. A rządzi tu jedynie Miłość. Bogu dzięki!*
+> Przebywam w Królestwie mego Ojca. A rządzi tu jedynie Miłość. Bogu dzięki!
 
 [śmiech]
 

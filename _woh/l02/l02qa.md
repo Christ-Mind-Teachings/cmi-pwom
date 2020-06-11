@@ -2,9 +2,9 @@
 title: "Lekcja 2. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center"> 
-## Lekcja 2
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead"> 
+# Lekcja 2
+## Pytania i odpowiedzi
 </div>
 
 ## Pytanie 1
@@ -35,11 +35,11 @@ Zacznij przyglądać się tym ukształtowanym przez siebie przyzwyczajeniom, kt�
 
 A czego ja doświadczałem na pustyni przez czterdzieści dni i czterdzieści nocy? Lęku, chłodu, skwaru, nudy, zaprzątnięcia myślami, głodu, radości, ekstazy, zachwytu, wolności, doświadczeń poza ciałem, jasnowidzenia, jasnosłyszenia, nawiedzeń aniołów, odwiedzin istot, które powinny były wzbudzać we mnie przerażenie, a które wy nazwalibyście wężami i pająkami.
 
-Umiłowani przyjaciele, taka podróż stawia was w sytuacji, w której nie odrywacie się już od wszystkich tych rzeczy, które rozgrywają się w waszej świadomości na co dzień. Jest to czas *oczyszczenia*... Oczyszczenia dzięki temu, że nie ma możliwości *ucieczki* przed szczerym zauważeniem wszystkiego, co się dzieje w polu własnej świadomości. I tak pojawiły się we mnie nienawistne myśli do Boga. Pojawiły się we mnie myśli, by służyć szatanowi zamiast Bogu. Pojawiły się we mnie myśli i pragnienia odcięcia się od swych korzeni i zostania bardzo zamożnym kupcem otoczonym tak zwanymi „tańczącymi paniami". Jakąkolwiek myśl jesteś w stanie sobie wyobrazić -- pozytywną bądź negatywną -- zapewniam cię, że w okresie tych czterdziestu dni jakiś symbol tej właśnie myśli powstał również we mnie i doświadczałem go nawet w ciele na poziomie komórkowym. Pojawiło się we mnie zwątpienie w siebie, pojawił się gniew. Wszystko się pojawiło. Całe pole ludzkiej świadomości pojawiło się we mnie w ciągu tych czterdziestu dni i czterdziestu nocy.
+Umiłowani przyjaciele, taka podróż stawia was w sytuacji, w której nie odrywacie się już od wszystkich tych rzeczy, które rozgrywają się w waszej świadomości na co dzień. Jest to czas *oczyszczenia*&hellip; Oczyszczenia dzięki temu, że nie ma możliwości *ucieczki* przed szczerym zauważeniem wszystkiego, co się dzieje w polu własnej świadomości. I tak pojawiły się we mnie nienawistne myśli do Boga. Pojawiły się we mnie myśli, by służyć szatanowi zamiast Bogu. Pojawiły się we mnie myśli i pragnienia odcięcia się od swych korzeni i zostania bardzo zamożnym kupcem otoczonym tak zwanymi „tańczącymi paniami". Jakąkolwiek myśl jesteś w stanie sobie wyobrazić -- pozytywną bądź negatywną -- zapewniam cię, że w okresie tych czterdziestu dni jakiś symbol tej właśnie myśli powstał również we mnie i doświadczałem go nawet w ciele na poziomie komórkowym. Pojawiło się we mnie zwątpienie w siebie, pojawił się gniew. Wszystko się pojawiło. Całe pole ludzkiej świadomości pojawiło się we mnie w ciągu tych czterdziestu dni i czterdziestu nocy.
 
 A zatem cały ów okres był postem. I taki był cel odcięcia się od kontaktu z innymi, od wszystkich wygód, do których byłem przyzwyczajony. Byłem tylko ja z samym sobą. I przebywając ze sobą, nauczyłem się, że nigdy nie jestem sam. Myśli, które ty określiłbyś jako negatywne, zaczęły pojawiać się mniej więcej od końca piątego do około dwudziestego dnia. Potem to zaczęło się zmieniać, gdy zauważyłem, że mogę przestać utożsamiać się z tymi rzeczami. Nie musiałem ich osądzać. Mogłem zauważyć, że jest mi zimno i po prostu to zaakceptować.
 
-> *Ciału jest zimno. I co z tego? <br>Ciało jest głodne. I co z tego?* <br>*Pragnę zobaczyć się z przyjaciółmi i śpiewać. I co z tego?*
+> Ciału jest zimno. I co z tego? <br>Ciało jest głodne. I co z tego?* <br>*Pragnę zobaczyć się z przyjaciółmi i śpiewać. I co z tego?
 
 Obserwowałem pojawianie się tych rzeczy. I w pewnym momencie one jakby wiedziały, że nie ma już dla nich miejsca w moim umyśle. A więc ustąpiły.
 
@@ -53,11 +53,11 @@ Doświadczyłem wielu stanów błogości i ekstazy, wielu stanów przekroczenia 
 
 Usłyszałem wówczas, jak Głos mego Ojca przemówił do mnie w ten dzień, który ty określiłbyś jako trzydziesty siódmy. I głos ten wydobywał się wyraźnie z tego, co mnie otaczało i z głębi mnie, mówiąc:
 
-> *Tyś jest Mój Syn umiłowany, w tobie mam upodobanie.*
+> Tyś jest Mój Syn umiłowany, w tobie mam upodobanie.
 
 I nagle uświadomiłem sobie Prawdę, która jest zawsze prawdziwa:
 
-> *Bóg mnie kocha.*<br>*Nie ma potrzeby, bym czynił cokolwiek.*<br>*Jestem taki, jakim stworzył mnie mój Ojciec.*
+> Bóg mnie kocha.*<br>*Nie ma potrzeby, bym czynił cokolwiek.*<br>*Jestem taki, jakim stworzył mnie mój Ojciec.
 
 Opinie świata zniknęły z pola mojej świadomości, z mojego energetycznego pola, jeśli tak chciałbyś je nazwać. I zaczęło się we mnie w pełni ugruntowywać to, co mógłbyś nazwać *oświeconym stanem umysłu*. Nie utożsamiałem się już dłużej z synem Józefa. Utożsamiłem się z Synem Bożym.
 
@@ -71,7 +71,7 @@ Tak więc to jest streszczenie tego, czego doświadczyłem podczas mojej pielgrz
 
 To Ona -- jako dusza -- postanowiła pozwolić czy też zgodzić się na przyłączenie się do historii mojej inkarnacji na tym świecie. Została Ona zatem postawiona w sytuacji, w której miała się przyjrzeć w Sobie wszystkiemu, co nie jest Miłością, spojrzeć na nawyki wiążące się z rolą matki i wyjść ponad to, by służyć większej prawdzie. W tamtym wcieleniu udoskonaliła Ona swe własne przebudzenie, swe oddanie temu, co leży daleko poza osobową świadomością. Żyje Ona tak, jak ja żyję. I nigdy nie porzuciła *Drogi Serca* -- owej Drogi, która zostaje udoskonalona, gdy świadomość wie, że:
 
-> *Ja żyję, lecz nie ja, ale To, co jest Stworzeniem mego Ojca: sama Chrystusowa Świadomość żyje poprzez mnie*.
+> Ja żyję, lecz nie ja, ale To, co jest Stworzeniem mego Ojca: sama Chrystusowa Świadomość żyje poprzez mnie.
 
 Jest Ona nadzwyczaj aktywna w waszych aktualnych ramach czasowych. Mówi do *wielu*. Jej objawienia udokumentowane przez tych, których nazwalibyście ważnymi autorytetami Kościoła, nie są wymysłem czyjejś wyobraźni. I zaprawdę ich ilość będzie *rosła*. Przekazy, które daje Ona tym, z którymi chce się komunikować, wymagają, by podano je w nieco innej formie niż ta, za pomocą której ja formułuję mój przekaz dla was poprzez to medium. Dlaczego? Ponieważ mądry nauczyciel poznaje język ucznia, jego temperament, przestrzeń świadomości, w której on przebywa, następnie zaś przemawia w taki sposób, by można go było zrozumieć.
 
@@ -81,7 +81,7 @@ Wielu z tych, którzy twierdzą, że ją channelują, wcale tego nie robi. I je�
 
 W tych, którzy wcale nie przekazują wiadomości od Niej, ale chcieliby, abyś myślał, że tak jest, zawsze wyczujesz pewnego rodzaju ograniczenie, egotyczną energię, jakiś rodzaj lęku o przyszłość:
 
-> *Lepiej zrób to.*<br>*Wydarzy się to i to.*<br>*Niemożliwe jest uniknięcie tego.*
+> Lepiej zrób to.*<br>*Wydarzy się to i to.*<br>*Niemożliwe jest uniknięcie tego.
 
 Tego rodzaju wypowiedzi wcale nie pochodzą od Niej.
 

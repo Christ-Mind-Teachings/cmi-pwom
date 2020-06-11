@@ -2,8 +2,7 @@
 title: "Boska Kobiecość"
 ---
 
-<div markdown="1" align="center">
-
+<div markdown="1" class="chHead">
 # Boska Kobiecość
 
 ![znaczek]({{page.big-separator}})
@@ -39,11 +38,11 @@ W prawdzie Boska Matka i Chrystusowa świadomość są jednym i tym samym, albow
 
 Umiłowane przyjaciółki, *nastał* czas, by *kobiety* zaczęły wyrażać przebudzoną świadomość poprzez stanięcie w pozycji *autorytetu* na tej planecie. Czy można to uczynić? O tak. Zapewniam was, że jeśli pięćdziesiąt milionów waszych kobiet udałoby się na Kapitol [siedziba Kongresu Stanów Zjednoczonych -- przyp.tłum.] i po prostu usiadło tam, mówiąc:
 
-> *Przepraszamy, ale już dłużej nie pozwolimy na to, by przeszło jakiekolwiek prawo lub ustawa, która wspiera narzędzia wojny.*
+> Przepraszamy, ale już dłużej nie pozwolimy na to, by przeszło jakiekolwiek prawo lub ustawa, która wspiera narzędzia wojny.
 
 -- to szybko przyłączyłoby się do nich kolejnych pięćdziesiąt milionów. Wiele z tych osób *byłoby w formie mężczyznami*, którzy powiedzieliby:
 
-> *Tak, już najwyższa pora na to.*
+> Tak, już najwyższa pora na to.
 
 Chcemy tu powiedzieć przede wszystkim, że w tym przejściu, które *musi* nastąpić na ziemskim planie, zmiana tego typu będzie musiała zajść za pośrednictwem formy kobiecości. Dlaczego? Po prostu dlatego, że patriarchat, który miał zdecydowaną przewagę przez tak długi czas, jest utożsamiany z formą męską. Zatem nawet ten mężczyzna, który przebudził to, co kobiece i który „oba aspekty uczynił w sobie jednością", nadal jest postrzegany przez świat jako wyraz patriarchatu, a żeńska świadomość Chrystusowego umysłu niekoniecznie jest zauważana i wysłuchiwana. Zapewniam was zatem, że jeśli jedna z was powstałaby i naprawdę podjęła się służby jako mój kanał, zyskałoby to znacznie więcej zainteresowania mediów, dużo więcej uwagi niż wiele kanałów, które przebywają w męskiej formie, służąc mi w ten sposób.
 
@@ -65,7 +64,7 @@ Umiłowane przyjaciółki, choć raz przybyłem w formie mężczyzny, zrozumcie 
 
 Zatem przybywam, by zapytać was, czy teraz *jesteście* chętne, by zacząć spoglądać nieco głębiej, by z radością zobaczyć, co możecie razem stworzyć, co możecie stworzyć w waszych społecznościach, by sprowadzić łagodność Chrystusowej świadomości poprzez żeńską formę, tak by świat, który nadal wierzy w to, że ciała są prawdziwe, mógł spojrzeć na was i przypomnieć sobie:
 
-> *Oto jak wszystko powinno wyglądać na tej łagodnej i pięknej Ziemi.*
+> Oto jak wszystko powinno wyglądać na tej łagodnej i pięknej Ziemi.
 
 Czy jesteście chętne, by porzucić wartość, jaką nadałyście patriarchalnej świadomości? Czy *ty* jesteś chętna, by być wystarczająco zuchwałą, by zaprosić swe siostry do przyłączenia się do ciebie w najwyższej możliwej wizji we wszystkich królestwach stworzenia? Czy *ty* jesteś chętna, by czynić w *twoich* czasach to, co ja chętny byłem uczynić w *moich* -- spojrzeć w swą świadomość i nie pozwolić żadnej jej części, by kształtowana była przez idee, które przenikają powietrze patriarchalnej kultury, w której żyjesz?
 
@@ -77,7 +76,7 @@ I -- ponad wszystko inne -- radujcie się sobą, bawcie się ze sobą, *miłujci
 
 I to powiedziawszy, umiłowane przyjaciółki, choć to przesłanie jest krótkie, zapewniam was, że jak mogłybyście rzec, wiele zawiera się między jego początkiem a końcem. Wiedzcie zatem, że ja tańczę z wami. Wiedzcie, że pływam z wami. Wiedzcie, że będę z wami, gdy świętować będziecie ten krótki czas bycia razem. Gdziekolwiek bowiem serca zdecydowały się zebrać, by przypomnieć sobie prawdę, by świętować prawdę, by ucieleśniać prawdę i by uwolnić wszystko, co niepodobne jest prawdzie, gdzie kilkoro zbiera się w moje imię, ja jestem z nimi. A moje imię nie brzmi „Jeszua", tak jak waszymi nie są wasze nazwiska.
 
-> *Na imię mi Miłość. I tobie również.*
+> Na imię mi Miłość. I tobie również.
 
 Pozostańcie zatem w pokoju, umiłowane i święte siostry serca Chrystusowego, umiłowane Boskiej Matki.
 

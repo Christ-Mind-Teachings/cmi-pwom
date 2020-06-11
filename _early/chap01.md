@@ -68,7 +68,7 @@ Tak więc ten, który jest Pocieszycielem, zaczyna porządkować związki, spotk
 
 I za każdym razem, gdy dokonujesz prostego wyboru, by słuchać jedynie tego głosu, to -- jeśli możemy pożyczyć słowa z twego współczesnego świata -- robisz coś, co jest nazywane „kwantowym skokiem" w procesie uzdrawiania, w procesie rodzenia Chrystusa. Za każdym razem, gdy wybierasz *Miłość*, jest to cenniejsze niż całe złoto i srebro, jakie mogłaby kiedykolwiek zrodzić ta planeta. Ma to większą wartość niż całe wykształcenie, wszystkie udane kariery, wszystkie związki z dziewczynami i chłopakami, jakie mógłbyś tu kiedykolwiek mieć. Każda decyzja na rzecz *Miłości* ma większą wagę niż *wszystko*, co kiedykolwiek zrodził ten świat. Właśnie taka jest twoja *potęga*. Tym jest *moc*, która czeka w tobie, która czeka na twe zaproszenie.
 
-> *W tej właśnie chwili, choć ciało się trzęsie, w tej chwili, choć płyną łzy, w tej chwili, choć dostrzegam pojawiający się lęk przed stratą -- i tak wybiorę Miłość. I będę kochał łzy, będę kochał drżenie ciała, będę kochał lęk, będę kochał tego, który stoi przede mną, będę kochał źdźbło trawy, na którym stoję i będę kochał owego wielbiciela Boga we mnie, który chce się jedynie przebudzić.*
+> W tej właśnie chwili, choć ciało się trzęsie, w tej chwili, choć płyną łzy, w tej chwili, choć dostrzegam pojawiający się lęk przed stratą -- i tak wybiorę Miłość. I będę kochał łzy, będę kochał drżenie ciała, będę kochał lęk, będę kochał tego, który stoi przede mną, będę kochał źdźbło trawy, na którym stoję i będę kochał owego wielbiciela Boga we mnie, który chce się jedynie przebudzić.
 
 *Miłość*. Jest to jedyna moc, która istnieje w Stworzeniu. A *ty*, dokładnie tam, gdzie się znajdujesz, możesz podjąć prostą decyzję, by sprowadzić Miłość do swego środowiska. Możesz być kanałem przekazu. Twój kielich może być przeobfity. Właśnie ty możesz podjąć prostą decyzję, aby pozwolić na uzdrowienie.
 
@@ -122,7 +122,7 @@ Wyobraź sobie, że wchodzisz do jednego ze swych sklepów, podajesz sprzedawcy 
 
 Chcę się teraz z wami podzielić czymś bardzo, bardzo świętym i bardzo prawdziwym. Nie jest to jednak poważne, choć jest bardzo szczere. Posłuchaj uważnie. Kiedykolwiek dwa umysły postanawiają połączyć się w Miłości, już *nigdy* nie będą od siebie oddzielone. Innymi słowy, sen o oddzieleniu nigdy już nie opuści między nimi zasłony. Chrystus zaś *tęskni* za połączeniem się ze Sobą samym, objawiając się w każdej istocie.
 
-Dlatego też, gdy postanawiasz -- proszę, posłuchaj tego uważnie -- gdy jako zmartwychwstały Chrystus postanawiasz nauczać jedynie Miłości -- co nie oznacza, że dostaniesz instrukcję obsługi, która mówi ci, co robić, lecz oznacza jedynie, że zaczynasz od decyzji, że to jest prawdziwe, a następnie Duch Święty wypełnia puste miejsca... Gdy więc podejmujesz decyzję, by spojrzeć na tego sprzedawcę w sklepie, na swojego małżonka, na swoje dziecko, na przyjaciela lub na kogoś, kto po prostu nagle w tajemniczy sposób pojawia się w twoim umyśle lub w modlitwie, gdy podejmujesz decyzję, by spojrzeć na tę osobę z Miłością i pozwolić sobie zobaczyć Chrystusa, który w niej mieszka, to stajesz się połączony z tą istotą na wieki.
+Dlatego też, gdy postanawiasz -- proszę, posłuchaj tego uważnie -- gdy jako zmartwychwstały Chrystus postanawiasz nauczać jedynie Miłości -- co nie oznacza, że dostaniesz instrukcję obsługi, która mówi ci, co robić, lecz oznacza jedynie, że zaczynasz od decyzji, że to jest prawdziwe, a następnie Duch Święty wypełnia puste miejsca&hellip; Gdy więc podejmujesz decyzję, by spojrzeć na tego sprzedawcę w sklepie, na swojego małżonka, na swoje dziecko, na przyjaciela lub na kogoś, kto po prostu nagle w tajemniczy sposób pojawia się w twoim umyśle lub w modlitwie, gdy podejmujesz decyzję, by spojrzeć na tę osobę z Miłością i pozwolić sobie zobaczyć Chrystusa, który w niej mieszka, to stajesz się połączony z tą istotą na wieki.
 
 Gdy zaś się budzisz, są do ciebie posyłani uczniowie. I każdy z was ma mnóstwo istot w „poczekalni", czekających na twoją decyzję, by w końcu być Tym, kim naprawdę jesteś. Większości z nich jeszcze nie spotkałeś. I *większości* z nich *nigdy* nie spotkasz w fizycznej formie. 
 
@@ -154,7 +154,7 @@ I w chwilach, gdy stoisz lub siedzisz sam pod drzewem o poranku, kiedy to pierws
 
 Jeśli nie przyjmiesz niczego innego w naszym wspólnym czasie tego wieczoru, proszę, przyjmij to:
 
-> *Nie ma czegoś takiego, jak niewielki akt Miłości.*
+> Nie ma czegoś takiego, jak niewielki akt Miłości.
 
 Gdy trzymasz w ramionach nowo narodzone dziecko i rezygnujesz z postrzegania siebie i jego jako dwóch odrębnych istot, gdy trzymasz to dziecko i stwierdzasz, że masz w ramionach Chrystusa, a zatem pozostajesz w doskonałej komunikacji i zachowujesz jedną spokojną myśl: „Ukochane dziecko, teraz jest w porządku pamiętać, kim jesteś", to nie może już zaistnieć w świecie prześladowanie ani ukrzyżowanie, ponieważ narodził się Chrystus.
 
@@ -204,7 +204,7 @@ Miłość do siebie samego jest absolutnie konieczna, jeśli masz uzdrowić i po
 
 Albowiem nauczyciel Boży -- a tym właśnie jesteś -- i nawet nie wiedziałeś, na co się piszesz&hellip; Jedyną rzeczą, jaką musisz zrobić jako nauczyciel Boży, to przyjąć Pojednanie dla siebie samego.
 
-> *Ja jestem tym światłem. Ja jestem tą prawdą. Ja tym jestem. I kocham to, czym jestem, ponieważ jestem stworzeniem mego Ojca. A Ojciec stwarza jedynie to, co dobre, święte i piękne.*
+> Ja jestem tym światłem. Ja jestem tą prawdą. Ja tym jestem. I kocham to, czym jestem, ponieważ jestem stworzeniem mego Ojca. A Ojciec stwarza jedynie to, co dobre, święte i piękne.
 
 Jak bardzo jesteś chętny rozwijać w sobie zdolność przyjmowania tej prawdy? Albowiem w takim stopniu zrodzą się z tego owoce.
 

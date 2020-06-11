@@ -2,13 +2,11 @@
 title: "Święta chwila"
 ---
 
-<div markdown="1" align="center">
-
+<div markdown="1" class="chHead">
 # Święta chwila
 
 ![znaczek]({{page.big-separator}})
 {: .omit}
-
 </div>
 
 Teraz zaczynamy.
@@ -37,7 +35,7 @@ Miłość zatem nie skupia się na rezultatach. Miłość skupia się na Miłoś
 
 A jak by to było, gdybyś nauczył się patrzeć na każdy dzień nowymi oczami? Jak by to było, gdybyś spoglądał na każdy dzień jak na szansę, by dostrzec i odróżnić, na który z tych frontów przesuwa się twoja świadomość:
 
-> *Czy pobudza mnie lęk, czy też faktycznie jest to Miłość?*
+> Czy pobudza mnie lęk, czy też faktycznie jest to Miłość?
 
 Jak rozpoznać różnicę? Jeśli czujesz frustrację, niepokój, przygnębienie i tym podobne, i wreszcie dostrzegasz, że umysł jest skupiony na rezultatach, które postanowiłeś osiągnąć, ale ich nie osiągasz, i z tego wyłania się twoje odczuwanie, to wiesz, że przystąpiłeś do danego zadania z poziomu lęku.
 
@@ -51,7 +49,7 @@ Chcemy więc teraz podzielić się z tobą przesłaniem, które może przemieni�
 
 Kiedy budzisz się rano, masz przed sobą zadanie. Musisz podnieść głowę z poduszki, będziesz musiał postawić stopy na podłodze i zdecydować, w jakim kierunku te stopy poniosą ciało. Czyż nie tak? A jednak, jak często budziłeś się rano i natychmiast umysł angażował się w listę rzeczy do zrobienia i czasem bez twej wiedzy głos lęku stawał się głównym magnesem podnoszącym twoją głowę z poduszki, kładącym stopy na podłodze i sprawiającym, że pędzisz przez dzień przestraszony.
 
-> *Jeśli tego nie zrobię, to co oni sobie pomyślą? O mój Boże, a co z tamtym?*
+> Jeśli tego nie zrobię, to co oni sobie pomyślą? O mój Boże, a co z tamtym?
 
 I to się ciągnie bez końca.
 
@@ -59,7 +57,7 @@ Pewnego razu powiedziałem mojemu umiłowanemu bratu, że jedną z największych
 
 Brzmi to całkiem prosto, nieprawdaż? A więc rzucę ci pewne wyzwanie: Trzymaj przy swoim łóżku listę lub terminarz i kiedy wstaniesz rano, weźmiesz prysznic i zrobisz cokolwiek masz do zrobienia -- zaparzysz kawę lub wykonasz czternaście telefonów przez jedzeniem -- zatrzymaj się zanim wyjdziesz z domu i zapytaj:
 
-> *Czy zanim otworzyłem oczy tego ranka, pamiętałem, by trwać w Miłości?*
+> Czy zanim otworzyłem oczy tego ranka, pamiętałem, by trwać w Miłości?
 
 Notuj na bieżąco! Naprawdę spokorniejesz, ponieważ ta prosta czynność jest najtrudniejszą rzeczą do osiągnięcia: nauczyć się wybierać Miłość w tak trudnym do uchwycenia momencie, w którym każdego ranka świadomość zaczyna się skupiać na sferze fizycznej. Pamiętanie o Miłości *w tamtej chwili* jest niełatwym zadaniem, ale można coraz lepiej wyćwiczyć umysł, by dokonywał tego wyboru.
 
@@ -77,7 +75,7 @@ Przyjaciel nie potępia ani nie osądza. A zatem najwspanialszym stanem świadom
 
 Staraj się zatem w swojej świadomości pragnąć Królestwa bardziej niż czegokolwiek innego; bardziej niż jakiegokolwiek rezultatu, jaki mógłbyś sobie wyobrazić; bardziej niż wszelkiego bogactwa, sławy czy czegokolwiek. Ponad wszystko staraj się pielęgnować w sobie pełne pasji pragnienie uwolnienia ze swej świadomości czegokolwiek, co przeszkadza w jej praktyce szukania najpierw Królestwa. Dzięki temu nawet podczas twojego życia w tym fizycznym wymiarze, gdy twoje ciało porusza się po tej planecie i pojawiają się decyzje, rachunki do zapłacenia i cała reszta, twój umysł będzie coraz częściej reagował w ten oto sposób:
 
-> *Myślę, że po prostu przyjmę Miłość. Myślę, że po prostu przyjmę Miłość. Myślę, że po prostu będę nieprzerwanie pamiętał, że tylko Miłość jest prawdziwa.*
+> Myślę, że po prostu przyjmę Miłość. Myślę, że po prostu przyjmę Miłość. Myślę, że po prostu będę nieprzerwanie pamiętał, że tylko Miłość jest prawdziwa.
 
 Napij się owej życiodajnej, czystej wody, a potem przystąp do zadania, które jest przed tobą. Albowiem w ten sposób będziesz coraz wyraźniej słyszał przewodnictwo i mądrość Ducha Świętego.
 
@@ -93,7 +91,7 @@ Zaprawdę poproszę każdego z was, który słyszy teraz te słowa, abyście w t
 
 A potem zadaj sobie to proste pytanie:
 
-> *Czy chciałbym więcej czy mniej takich chwil?*
+> Czy chciałbym więcej czy mniej takich chwil?
 
 Jeśli odpowiedź brzmi: „więcej", to po prostu odpowiedz „tak" temu pragnieniu. Zaproś Ducha Świętego, aby w coraz większym stopniu władał twoją świadomością. Poproś Go, aby stał się magnesem, który przed podjęciem każdej decyzji przyciąga twoją uwagę do Siebie. Albowiem Duch Święty może przyjść do ciebie tylko w takim stopniu, w jakim Go zaprosisz.
 
@@ -113,7 +111,7 @@ Czy nie nadszedł czas, by promienieć jasnością, która uzdrowi wszelkie rany
 
 Ja tak naprawdę nie mogę się doczekać dnia, w którym życie Jezusa, syna Józefa zostanie całkowicie zapomniane przez wszystkich, ponieważ będą oni zbyt zajęci byciem Nim oraz świętowaniem życia i obecności Chrystusowego Umysłu między sobą. A wówczas, gdy moje imię się pojawi, to ktoś powie:
 
-> *Ach tak, był jakiś brat o tym imieniu. Chyba żył tutaj dawno temu. Wróćmy do tego, czym zajmujemy się w tej chwili.*
+> Ach tak, był jakiś brat o tym imieniu. Chyba żył tutaj dawno temu. Wróćmy do tego, czym zajmujemy się w tej chwili.
 
 To rzeczywiście byłoby coś odmiennego.
 
@@ -137,7 +135,7 @@ We wszystkich swych przedsięwzięciach nie staraj się więc osiągnąć rezult
 
 Zakończymy zatem to proste przesłanie jeszcze jednym ćwiczeniem. Gdy wieczorem będziesz przykładał głowę do poduszki i zauważysz, że zmęczenie ciała powoduje skupienie uwagi na odpływaniu świadomości -- gdy dusza faktycznie zaczyna wycofywać swoją uwagę ze sfery fizycznej i podróżować ku innym wymiarom podczas, gdy ciało śpi -- w tym okresie przejściowym, tuż przed odpłynięciem w stan snu, zapytaj siebie:
 
-> *Jak wiele Świętych Chwil pozwoliłem sobie dzisiaj doświadczyć?*
+> Jak wiele Świętych Chwil pozwoliłem sobie dzisiaj doświadczyć?
 
 Możesz być pewien, że będą takie chwile, kiedy twoją odpowiedzią będzie wielkie okrągłe zero. Pamiętasz takie dni? Czyż nie wydaje się wówczas, że świat jest bardzo przygnębiający? Pamiętaj jednak, że na zewnątrz możesz widzieć jedynie to, co już zobaczyłeś wewnątrz.
 
@@ -149,9 +147,9 @@ Pozwól, że przedstawię ci na to drobny dowód. Czy kiedykolwiek zastanawiałe
 
 No cóż, wyszło szydło z worka.
 
-Wyobraź sobie coś takiego&hellip; Wyobraź sobie, że po raz ostatni chodzisz po swojej Ziemi utożsamiony z workiem cząsteczek, które nazywasz ciałem. I wszystko w tobie jest skoncentrowane jedynie na tworzeniu takich układów odniesienia, w których między tobą a twoimi braćmi i siostrami może dojść do doświadczenia Świętej Chwili. Jedynie to sprawia, że podnosisz głowę z poduszki każdego ranka. Jak by to było żyć w ten sposób? Czyż nie warto się nad tym zastanowić? Jest w porządku, że miewałeś chwile, w których zdarzało ci się chcieć czegoś innego. I oto udowodniłeś sobie winę, deprawację, swoją porażkę; udowodniłeś sobie, że świat jest naprawdę złym miejscem i tym podobne rzeczy... To wszystko są jedynie filmy w kinie -- wiesz, jak w tych kinach, do których idziesz obejrzeć film i masz tam dziesięć lub dwanaście ekranów, a ty wybierasz, które obrazy będą wibrować w twoim systemie nerwowym. Wszystkie te wybory w umyśle są tylko filmami. Tylko filmami. Tylko filmami. Prędzej czy później zmęczysz się patrzeniem na ekran i odłożysz na bok popcorn. Rzucisz na podłogę serwetkę i wyjdziesz z kina, wyjdziesz na zewnątrz, wrócisz do Rzeczywistości.
+Wyobraź sobie coś takiego&hellip; Wyobraź sobie, że po raz ostatni chodzisz po swojej Ziemi utożsamiony z workiem cząsteczek, które nazywasz ciałem. I wszystko w tobie jest skoncentrowane jedynie na tworzeniu takich układów odniesienia, w których między tobą a twoimi braćmi i siostrami może dojść do doświadczenia Świętej Chwili. Jedynie to sprawia, że podnosisz głowę z poduszki każdego ranka. Jak by to było żyć w ten sposób? Czyż nie warto się nad tym zastanowić? Jest w porządku, że miewałeś chwile, w których zdarzało ci się chcieć czegoś innego. I oto udowodniłeś sobie winę, deprawację, swoją porażkę; udowodniłeś sobie, że świat jest naprawdę złym miejscem i tym podobne rzeczy&helllip; To wszystko są jedynie filmy w kinie -- wiesz, jak w tych kinach, do których idziesz obejrzeć film i masz tam dziesięć lub dwanaście ekranów, a ty wybierasz, które obrazy będą wibrować w twoim systemie nerwowym. Wszystkie te wybory w umyśle są tylko filmami. Tylko filmami. Tylko filmami. Prędzej czy później zmęczysz się patrzeniem na ekran i odłożysz na bok popcorn. Rzucisz na podłogę serwetkę i wyjdziesz z kina, wyjdziesz na zewnątrz, wrócisz do Rzeczywistości.
 
-A Rzeczywistość jest Obecnością Miłości. Wielką radością związku. Te chwile, w których dwa umysły się łączą -- i to jest oczywiście najwspanialsze, czego możecie dokonać -- gdziekolwiek dwóch lub więcej zbiera się w imię moje... Co to znaczyło? W wibracji rozpoznania, że tylko Święta Chwila ma jakąkolwiek wartość jako środek uzasadniający świętowanie i uwielbienie -- oznacza to Rzeczywistość Bożej Obecności.
+A Rzeczywistość jest Obecnością Miłości. Wielką radością związku. Te chwile, w których dwa umysły się łączą -- i to jest oczywiście najwspanialsze, czego możecie dokonać -- gdziekolwiek dwóch lub więcej zbiera się w imię moje&helllip; Co to znaczyło? W wibracji rozpoznania, że tylko Święta Chwila ma jakąkolwiek wartość jako środek uzasadniający świętowanie i uwielbienie -- oznacza to Rzeczywistość Bożej Obecności.
 
 Pomiędzy dniem dzisiejszym a dniem Bożego Narodzenia masz konkretną ilość dni, kiedy to będziesz rankiem podnosił głowę z poduszki i kładł ją na niej znowu wieczorem. A co, gdybyś poświęcił ów czas między chwilą obecną a dniem Bożego Narodzenia na to, aby przystąpić do ćwiczeń, które wam sugerowałem w trakcie tego spotkania? Podczas tych praktyk nauczysz się rozkoszować Świętymi Chwilami z twoimi braćmi i siostrami oraz z wielką żarliwością pragnąć poświęcać całą swoją uwagę na ich doświadczanie. Czyż to nie wprowadzi cię w Święta Bożego Narodzenia niepodobne do żadnych innych? Będziesz bowiem w stanie cieszyć się mądrością i głębią radości w takim stopniu, w jakim pozwoliłeś im rozwinąć się w swojej świadomości, podobnie jak wyćwiczyłeś się, aby nie zadowalać się tylko oglądaniem jakichś filmów.
 
@@ -179,7 +177,7 @@ No cóż, to zależy od ciebie! To zależy od ciebie!
 
 Bacz zatem uważnie na to, co zostało właśnie powiedziane -- że wyszukasz i poprzez swoje pragnienie przyciągniesz do siebie -- nie godząc się na nic mniejszego -- związki oparte na tym zobowiązaniu.
 
-> *No cóż, to dotyczy również mojego dziadka.*
+> No cóż, to dotyczy również mojego dziadka.
 
 Nie chodzi o to, że odrzucasz drugą osobę. Oznacza, że przyglądasz się mądrze temu, w co angażujesz swój czas i energię. Które ze związków w twoim życiu faktycznie się do tego nadają? Który z nich by się nadał, gdybyś tylko dał z siebie odrobinę i zaplanował spotkanie biznesowe poświęcone omówieniu tego, jak twój związek może być przemieniony i udoskonalony na tyle, aby pomagał wam we wzajemnym wspieraniu się w doświadczaniu Świętych Chwil? Możesz być pewny, że jeśli -- nawet w tej chwili -- pozwolisz sobie na uważne zbadanie wszystkich swoich związków, to zobaczysz natychmiast, którym -- być może -- powinieneś poświęcać mniej czasu i energii, a które przyniosą dużo dobrych owoców przy niewielkim wysiłku z twojej strony. Czy byłbyś chętny, aby to zrobić?
 
@@ -200,4 +198,3 @@ Jestem jedynie twoim przyjacielem i twoim bratem, i zapewniam cię, że nie jest
 Zaprawdę zatem Wesołych Świąt Bożego Narodzenia dla każdego z was.
 
 Amen.
-
