@@ -2,7 +2,7 @@
   "bid": "woh",
   "title": "Droga Serca",
   "image": "/public/img/wom/woh-toc.jpg",
-  "toc": "relaxed ordered",
+  "toc": "relaxed",
   "totalPages": 22,
   "note": "Make sure url's begin and end with '/'",
   "contents": [

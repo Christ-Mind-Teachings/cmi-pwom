@@ -7,7 +7,7 @@ footer:
   donate: false
   id: "CMI-PWOM"
   source: "WOM"
-  repohref: "https://github.com/rmercer33/cmi-pwom"
+  repohref: "https://github.com/Christ-Mind-Teachings/cmi-pwom"
 ---
 
 ## Witamy na Drodze Mistrzostwa

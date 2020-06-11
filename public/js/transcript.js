@@ -2478,7 +2478,6 @@ __webpack_require__.r(__webpack_exports__);
  //setLanguage(constants);
 
 $(document).ready(() => {
-  Object(www_modules_util_url__WEBPACK_IMPORTED_MODULE_0__["loadStart"])();
   Object(www_modules_language_lang__WEBPACK_IMPORTED_MODULE_13__["setLanguage"])(_constants__WEBPACK_IMPORTED_MODULE_14__["default"]);
   Object(www_modules_page_startup__WEBPACK_IMPORTED_MODULE_3__["initTranscriptPage"])();
   www_modules_user_netlify__WEBPACK_IMPORTED_MODULE_1__["default"].initialize();

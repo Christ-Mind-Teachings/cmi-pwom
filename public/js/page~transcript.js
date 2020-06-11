@@ -2014,15 +2014,17 @@ function bookmarkFeatureHandler() {
     let el = $(".transcript");
 
     if (el.hasClass("disable-selection") && el.hasClass("user")) {
-      //console.log("removing selection guard - user initiated")
-      el.removeClass("disable-selection user");
-      $(".toggle-bookmark-selection").text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_13__["getString"])("menu:m1"));
-      store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_creation_state, "enabled");
+      Object(_language_lang__WEBPACK_IMPORTED_MODULE_13__["getString"])("menu:m1", true).then(value => {
+        el.removeClass("disable-selection user");
+        $(".toggle-bookmark-selection").text(value);
+        store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_creation_state, "enabled");
+      });
     } else {
-      //console.log("adding selection guard - user initiated")
-      el.addClass("disable-selection user");
-      $(".toggle-bookmark-selection").text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_13__["getString"])("menu:m2"));
-      store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_creation_state, "disabled");
+      Object(_language_lang__WEBPACK_IMPORTED_MODULE_13__["getString"])("menu:m2", true).then(value => {
+        el.addClass("disable-selection user");
+        $(".toggle-bookmark-selection").text(value);
+        store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_creation_state, "disabled");
+      });
     }
   });
 }
@@ -5004,8 +5006,7 @@ function setLanguage(constants) {
   axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(url).then(response => {
     //console.log("language %o", response.data);
     language = response.data;
-    status = LOADED;
-    console.log("%s loaded", lang);
+    status = LOADED; //console.log("%s loaded", lang);
   }).catch(error => {
     status = FAILED;
     toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(`Failed to load language: ${lang}`);
@@ -5024,20 +5025,22 @@ function waitForReady(s, k) {
   return new Promise((resolve, reject) => {
     function wait(s, k, ms, max = 8, cnt = 0) {
       if (status === LOADING) {
-        if (cnt < max) {
+        if (cnt <= max) {
           setTimeout(() => wait(s, k, ms, max, cnt + 1), ms);
         } else {
-          console.log("terminating wait at count %s", cnt);
+          console.log("timeout waiting for language to load: '%s:%s'", s, k);
           resolve("timeout");
+          return;
         }
       } else {
-        //console.log("Language ready at wait count: %s", cnt);
+        //console.log("Language loaded at wait count: %s", cnt);
         resolve(keyValue(s, k));
+        return;
       }
-    } //if (language.hasOwnProperty("notReady")) {
-
+    }
 
     if (status == LOADING) {
+      //console.log("wait started for language to load: '%s:%s'", s, k);
       wait(s, k, 250);
     } else {
       resolve(keyValue(s, k));
@@ -5059,12 +5062,24 @@ function waitForReady(s, k) {
 
 
 function keyValue(s, k) {
+  let value;
+
   if (status === NOTLOADED) {
-    return "not loaded";
+    value = `not loaded(${s}:${k})`;
+    console.error(value);
+    return value;
   }
 
   if (status !== LOADED) {
-    return `${status === LOADING ? `loading(${s}:${k})` : `failed(${s}:${k})`}`;
+    if (status === LOADING) {
+      value = `loading(${s}:${k})`;
+      console.error(value);
+    } else {
+      value = `failed(${s}:${k})`;
+      console.error(value);
+    }
+
+    return value;
   }
 
   if (!language[s]) {
@@ -5446,11 +5461,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(scroll_into_view__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
 /*
-  NOTE: When an annotation is shared and seen on a computer with bookmarks there could be a conflict between the users
-        bookmarks and the shared bookmark. Not sure what to do in this case...
+  NOTE: When an annotation is shared and seen on a computer with bookmarks
+        there could be a conflict between the users bookmarks and the shared
+        bookmark. Not sure what to do in this case...
 
         An idea:
-        Disable highlighting annotations on the paragraph of the shared annotation:w
+        Disable highlighting annotations on the paragraph of the shared annotation.
 
         Approach:
         Load all bookmarks except that of a shared annotation.
@@ -5549,7 +5565,9 @@ function showAnnotation() {
     return false;
   }
 
-  let bookmarkId = teaching.keyInfo.genParagraphKey(pid);
+  let bookmarkId = teaching.keyInfo.genParagraphKey(pid); //show loading indicator
+
+  Object(_util_url__WEBPACK_IMPORTED_MODULE_0__["loadStart"])();
   /*
     fetch shared bookmark and wrap it in a raised segment
     - if user has a bookmark in the same paragraph as the shared annotation, it will not be highlighted so
@@ -5874,6 +5892,7 @@ function resetUrl() {
 
 function loadComplete() {
   $("#transcript-page-loading").removeClass("active");
+  resetUrl();
 } //show loading for long loading steps - like showing annotations
 
 function loadStart() {
@@ -5881,7 +5900,6 @@ function loadStart() {
 
   if (aInfo) {
     $("#transcript-page-loading").addClass("active");
-    resetUrl();
   }
 }
 /*
@@ -5935,7 +5953,6 @@ function showAnnotation() {
   let aInfo = getQueryString("as");
 
   if (aInfo) {
-    resetUrl();
     return aInfo;
   }
 
@@ -6991,9 +7008,9 @@ __webpack_require__.r(__webpack_exports__);
 const status = {
   lj: "Fri Jun  5 16:42:57 HST 2020",
   wos: "Fri Jun  5 16:42:57 HST 2020",
-  woh: "Fri Jun  5 16:42:57 HST 2020",
-  wot: "Fri Jun  5 16:42:57 HST 2020",
-  wok: "Fri Jun  5 16:42:57 HST 2020",
+  woh: "Wed Jun 10 13:57:49 HST 2020",
+  wot: "Wed Jun 10 13:59:45 HST 2020",
+  wok: "Wed Jun 10 13:59:36 HST 2020",
   early: "Fri Jun  5 16:42:57 HST 2020"
 };
 
@@ -8287,8 +8304,8 @@ __webpack_require__.r(__webpack_exports__);
 
 const noteInfo = {
   studyguide: {
-    url: `${_constants__WEBPACK_IMPORTED_MODULE_0__["default"].env === "standalone" ? "/" : _constants__WEBPACK_IMPORTED_MODULE_0__["default"].url_prefix}notes/studyGuide.html`,
-    title: "Study Suggestions"
+    url: `${_constants__WEBPACK_IMPORTED_MODULE_0__["default"].env === "standalone" ? "/notes/advice/" : "constants.url_prefix/notes/advice/"}`,
+    title: "Sugestie do praktyki"
   }
 };
 
