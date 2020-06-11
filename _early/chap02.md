@@ -35,7 +35,7 @@ Co to oznacza? Ścieżka przebudzenia wymaga dyscypliny -- i wiem dobrze, że wi
 
 Dyscyplina oznacza więc odwrócenie się od złudzenia, od pokusy porzucenia swego Chrystusostwa, i wzięcie pełnej odpowiedzialności.
 
-> Będę uczniem prawdy i nim wezmę oddech, spocznę u jej ołtarza. W swym wnętrzu będę rozwijał umiejętność oddawania każdej mej decyzji Pocieszycielowi, Duchowi Świętemu. Zdyscyplinuję swój umysł. Nauczę się być panem powierzonego mi królestwa* -- a królestwo to jest po prostu twym własnym umysłem, twoim polem świadomości... *A więc pole mego królestwa przeznaczę na rozwijanie tego, co przynosi owoc obfity; owoc, który zaofiaruję memu Stwórcy.
+> Będę uczniem prawdy i nim wezmę oddech, spocznę u jej ołtarza. W swym wnętrzu będę rozwijał umiejętność oddawania każdej mej decyzji Pocieszycielowi, Duchowi Świętemu. Zdyscyplinuję swój umysł. Nauczę się być panem powierzonego mi królestwa -- a królestwo to jest po prostu twym własnym umysłem, twoim polem świadomości&hellip; A więc pole mego królestwa przeznaczę na rozwijanie tego, co przynosi owoc obfity; owoc, który zaofiaruję memu Stwórcy.
 
 Jakie byłoby twoje życie, jeśli przed pojawieniem się jakiejkolwiek myśli pamiętałbyś o swoim najważniejszym pragnieniu, a zatem pamiętał o celu twego wcielenia? Jak wyglądałoby twoje życie, gdybyś był tak całkowicie zdyscyplinowany w swym umyśle, że twoje słowa odzwierciedlałyby jedynie miłujące myśli? I gdybyś tak bardzo pamiętał o swoim Stwórcy, że w obliczu jakiejkolwiek sytuacji, zanim cokolwiek wypowiesz lub uczynisz, pytałbyś w zaciszu swego wnętrza: *Ojcze, co chciałbyś, bym uczynił, by miłość mogła być szerzona i dawana?*
 

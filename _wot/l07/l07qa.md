@@ -2,9 +2,9 @@
 title: "Lekcja 7. Pytania i odpowiedzi"
 ---
 
-<div markdown="1" align="center"> 
-## Lekcja 7
-**Pytania i odpowiedzi**
+<div markdown="1" class="chHead">
+# Lekcja 7
+## Pytania i odpowiedzi
 
 </div>
 
@@ -22,7 +22,7 @@ I to tak naprawdę zabrało mnie ku głębszej wolności. Uświadomiłem sobie b
 
 Idea, by powrócić z Indii w celu rozpoczęcia mego posłannictwa, nie była moim pomysłem. Moim pomysłem było pozostać w pewnej dolinie w miejscu, które zwiecie Kaszmirem, i po prostu przebywać tam w stanie głębokiej modlitwy, póki moje ciało nie zniknie. Ale w tym stanie poddania przemówił Głos mego Ojca:
 
-> *Umiłowany Synu, są umysły, do których chciałbym poprzez ciebie dotrzeć. Powróć do swej ojczyzny.*
+> Umiłowany Synu, są umysły, do których chciałbym poprzez ciebie dotrzeć. Powróć do swej ojczyzny.
 
 Wstałem od modlitwy i rozpocząłem podróż.
 
@@ -30,23 +30,23 @@ Umiłowany przyjacielu, istnieje tylko jeden Guru -- Pocieszyciel, Duch Święty
 
 Zaprawdę wiele tradycji zbudowano w wyniku tego, że świadkami zdarzeń takich, jakie działy się przy mnie, były nieoświecone umysły. Byłem postrzegany jako Mesjasz, Święty Syn Boga. I inni wydawali się budzić i być uzdrawiani w mojej obecności. A nieoświecone umysły mówiły:
 
-> *No cóż, ja nie mógłbym siebie uzdrowić ani przebudzić. Zatem to Mesjasz musiał to dla nich uczynić.*
+> No cóż, ja nie mógłbym siebie uzdrowić ani przebudzić. Zatem to Mesjasz musiał to dla nich uczynić.
 
 W miarę upływu czasu w wielu kulturach postrzeganie to stało się teologią, przekonaniem, rytuałem, nauczaniem. I przechodziło z pokolenia na pokolenia bez podważania, aż doszło do tego, że w waszym świecie są nauczyciele, którzy -- tak, jak ja -- przechodzą przez swe własne stopnie przebudzenia i po prostu wierzą, że moc jest w *nich*. I czemużby nie? Jeśli tłumy oddały *im* tę moc, mówiąc:
 
-> *Nie możemy uwierzyć w to, że przebudzimy się sami. Przybędziemy więc, by zasiąść u twych stóp i doświadczyć oświecenia, a potem powiemy, że to ty dla nas uczyniłeś.*
+> Nie możemy uwierzyć w to, że przebudzimy się sami. Przybędziemy więc, by zasiąść u twych stóp i doświadczyć oświecenia, a potem powiemy, że to ty dla nas uczyniłeś.
 
 Czy widzicie, jak to zaczyna działać w umyśle, który nie jest jeszcze całkowicie wolny? Mówię wam jednoznacznie: *Nikt prócz CIEBIE nie ma mocy, by cię przebudzić!*
 
 Jeśli zaś postrzegasz siebie jako nieprzebudzonego, wydaje się, że jest to niezłym brzemieniem. Pamiętaj jednak, że oznacza to, że równie prawdziwe jest tego *przeciwieństwo*. Oznacza to, że *w żadnej sytuacji* nikt nie ma mocy, by *powstrzymać* cię od przebudzenia. W waszym świecie dużo łatwiej jest podjąć decyzję o przebudzeniu się przy okazji relacji z nieoświeconymi umysłami, niż szukać igły w stogu siana, niż żywić nadzieję na odnalezienie jednego oświeconego umysłu, który miałby moc, by cię zbawić. Zatem nie szukaj guru na zewnątrz siebie, ale zacznij używać czasu konstruktywnie. Zobacz, że każda chwila twego doświadczenia jest kolejną okazją, by rozpoznać Prawdę, która jest zawsze prawdziwa:
 
-> *Ach, mogę wybrać pokój! Jestem Jednym z Bogiem! Ciekawe, ile radości może dać wniesienie do tej chwili choćby odrobiny Miłości?*
+> Ach, mogę wybrać pokój! Jestem Jednym z Bogiem! Ciekawe, ile radości może dać wniesienie do tej chwili choćby odrobiny Miłości?
 
 Dzieje się to poprzez porzucenie złudzeń, chmur, które płyną po niebie umysłu i zdają się wkraczać w pole twej świadomości -- chmur osądu, chmur reagowania, chmur postrzegania potrzeby posiadania racji.
 
 Umiłowany przyjacielu, kiedykolwiek ponownie usłyszysz o kimś, kto głosi, że ma moc, by cię przebudzić, idź gdzie indziej. Zawróć, strzep pył ze swych sandałów. Nie jest on wart twego czasu. Gdy słyszysz o kimś, kto mówi:
 
-> *Jestem po prostu miłośnikiem Boga. Nic nie mogę uczynić za ciebie, poza przestawaniem z tobą w modlitwie, byśmy razem mogli być Prawdą, która wszystko wyzwala.*
+> Jestem po prostu miłośnikiem Boga. Nic nie mogę uczynić za ciebie, poza przestawaniem z tobą w modlitwie, byśmy razem mogli być Prawdą, która wszystko wyzwala.
 
 Do *tego* spiesz! I przybądź tam jako *równy*, bo takie jest Synostwo.
 

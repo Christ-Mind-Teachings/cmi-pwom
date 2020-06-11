@@ -43,7 +43,7 @@ Jak wiele razy potrafiłeś zrezygnować ze swoich idei na temat tego, czym jest
 
 Jak często w ciągu dnia spoczywasz w pokoju, który na wieki przekracza wszelkie pojmowanie, i pytasz tego, co niewidzialne:
 
-> *Po co to jest? Jaki jest sens i przeznaczenie tej chwili? Co chciałbyś, abym zobaczył w tym krześle, w tym deszczu, w tym bracie i tej siostrze?*
+> Po co to jest? Jaki jest sens i przeznaczenie tej chwili? Co chciałbyś, abym zobaczył w tym krześle, w tym deszczu, w tym bracie i tej siostrze?
 
 Powiadam wam bowiem, że ucho igielne znajduje się u źródła twojej własnej świadomości. Nie odnajdziesz drogi do duchowego życia na zewnątrz ciebie, lecz wewnątrz -- w samym rdzeniu wszystkiego, co wybudowałeś wokół prostoty niewinnej tajemnicy zwanej Stworzeniem.
 

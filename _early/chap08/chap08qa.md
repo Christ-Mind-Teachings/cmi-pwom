@@ -26,7 +26,7 @@ Prawie to zobaczyłeś!
 
 -- Jak mogę rozróżnić pomiędzy pytaniami z Miłości a pytaniami z lęku?
 
-To tak naprawdę bardzo łatwe. Pytania z Miłości w dosłownym znaczeniu wytwarzają w ciele fizycznym odczucie radości. Może ono być subtelne. Odczucie podekscytowania, poczucie zadziwienia, poczucie dobrostanu, odczucie szerzenia. Możesz nauczyć się rozróżniać jakość tego odczucia w komórkowej strukturze ciała. Pytania pochodzące z lęku tworzą dokładne tego przeciwieństwo: utratę żywotności, wrażenie złych przeczuć, zaciśnięcia, chłodu, ciemności. Zatem to bardzo dobra praktyka, zarówno dla ciebie, jak i dla wielu innych *--* na szczęście twoje pytanie posłuży wielu, nie tylko tobie...
+To tak naprawdę bardzo łatwe. Pytania z Miłości w dosłownym znaczeniu wytwarzają w ciele fizycznym odczucie radości. Może ono być subtelne. Odczucie podekscytowania, poczucie zadziwienia, poczucie dobrostanu, odczucie szerzenia. Możesz nauczyć się rozróżniać jakość tego odczucia w komórkowej strukturze ciała. Pytania pochodzące z lęku tworzą dokładne tego przeciwieństwo: utratę żywotności, wrażenie złych przeczuć, zaciśnięcia, chłodu, ciemności. Zatem to bardzo dobra praktyka, zarówno dla ciebie, jak i dla wielu innych *--* na szczęście twoje pytanie posłuży wielu, nie tylko tobie&hellip;
 
 Gdy siedzisz w medytacji i pozwalasz, by pojawiły się pytania, to gdy zaczynasz być zdyscyplinowany w swej świadomości i zauważać, co dzieje się w umyśle z chwili na chwilę, i gdy pojawiają się pytania, zatrzymaj się, spójrz na nie i zapytaj siebie:
 
@@ -120,7 +120,7 @@ Bycie Chrystusem w trójwymiarze to wyjątkowe doświadczenie. Trwa ono jedynie 
 
 -- Jest jedno pytanie, które wiąże się z tym dla mnie, czyli: jeśli bycie wibracją Chrystusa w 3D jest tak wspaniałe, jak to opisałeś, zatem bycie współ-stwarzającym Chrystusem w 3D to dopiero musi być zabawa. Zastanawiam się, czy to zdarzyło się kiedykolwiek w dotychczasowej historii 3D?
 
-Odpowiedź brzmi: nie. To nigdy nie wydarzyło się na tym świecie. Było wiele wspaniałych cywilizacji, ale każda, bez względu na to, jak odległa, a nawet przekraczająca tę, którą znasz... Jak to ujęliśmy wcześniej, twoja cywilizacja jest nadzwyczaj prymitywna w odniesieniu do niektórych, które powstały wcześniej... Ale w każdej z nich podtrzymywano myśl, że niektórzy mogli być Chrystusami, ale nie wszyscy. Oni po prostu trzymali się postrzegania, że musi istnieć hierarchia. Czy ma to dla ciebie sens?
+Odpowiedź brzmi: nie. To nigdy nie wydarzyło się na tym świecie. Było wiele wspaniałych cywilizacji, ale każda, bez względu na to, jak odległa, a nawet przekraczająca tę, którą znasz&hellip; Jak to ujęliśmy wcześniej, twoja cywilizacja jest nadzwyczaj prymitywna w odniesieniu do niektórych, które powstały wcześniej&hellip; Ale w każdej z nich podtrzymywano myśl, że niektórzy mogli być Chrystusami, ale nie wszyscy. Oni po prostu trzymali się postrzegania, że musi istnieć hierarchia. Czy ma to dla ciebie sens?
 
 Zatem myśl, która przenika, czy też tu schodzi, jest myślą o świecie, w którym wszystkie ciało-umysły manifestują pełnię Chrystusowej świadomości. Zaprawdę jest to drugie przyjście. Nie, to się nigdy dotąd nie wydarzyło, ale wydarzy się.
 

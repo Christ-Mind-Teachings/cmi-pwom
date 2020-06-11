@@ -82,7 +82,7 @@ Jestem tylko tobą.
 
 ## Pytanie 4
 
-***Pytanie*:** Tak, ja mam pytanie. Nie jestem pewien... No dobrze, zadam je.
+***Pytanie*:** Tak, ja mam pytanie. Nie jestem pewien&hellip; No dobrze, zadam je.
 
 ***Odpowiedź*:** Ten człowiek zwykł brać mnie na bok i zadawać pytania na osobności.
 

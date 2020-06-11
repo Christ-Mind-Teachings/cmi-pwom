@@ -169,7 +169,7 @@ Na tym opiera się stworzenie<br>
 mileniów złudzeń.
 </div>
 
-Nagle przez umysł zaczyna mi przepływać strumień obrazów. Indianie i kawaleria; drapacze chmur i korki drogowe; setki muzułmanów w pokłonie zwróconych w stronę Mekki; ksiądz w konfesjonale; święty Hindus z ciałem natartym popiołem; twarz mężczyzny za kratami; chaos na rynku giełdowym; nowożeńcy, których oczy wyrażają nadzieję, że ich entuzjazm będzie trwał wiecznie; stara kobieta wydająca ostatnie tchnienie...
+Nagle przez umysł zaczyna mi przepływać strumień obrazów. Indianie i kawaleria; drapacze chmur i korki drogowe; setki muzułmanów w pokłonie zwróconych w stronę Mekki; ksiądz w konfesjonale; święty Hindus z ciałem natartym popiołem; twarz mężczyzny za kratami; chaos na rynku giełdowym; nowożeńcy, których oczy wyrażają nadzieję, że ich entuzjazm będzie trwał wiecznie; stara kobieta wydająca ostatnie tchnienie&hellip;
 
 Odwracam głowę w stronę okna i prostuję ciało, aby powstrzymać natłok obrazów, które nie przychodzą jeden po drugim, lecz wydaje się, że pojawiają się wszystkie naraz.
 

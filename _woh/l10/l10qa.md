@@ -37,11 +37,11 @@ Ty określ skutki swego horoskopu urodzeniowego, a nie pozwalaj na to, by to on 
 
 Gdy więc spojrzałeś na swego przyjaciela i ujrzałeś krzyż, oznaczało to, że przyjaciel ów zaczął budzić się do świadomości tego, że tu nie chodzi o życie w nieświadomości, w którym sprawy wymiaru horyzontalnego określają, jakie będą twoje reakcje i wybory. Ale chodzi raczej o to, by w ciszy wniknąć do wnętrza, przyjąć wizję i przewodnictwo, a potem nauczyć się jak *przekładać* je na płaszczyzną horyzontalną.
 
-Ten krzyż jest również symbolem Chrystusowej Świadomości, która jest dokładnie Tym Umysłem, który jest oddany i zaangażowany -- ale nie w ucieczkę od stworzenia ku jakiejś bezforemnej otchłani, ale raczej w uzyskanie dostępu do Umysłu Boga, Miłości Boga i *zniesienia*, sprowadzenia ich na dół do umysłu -- do ludzkiego umysłu, ludzkiego ciała -- po to, by je poszerzyć, by tworzyć w nowy sposób... Nie w sposób przepełniony lękiem, nie w sposób skupiony na przetrwaniu, ale w sposób oparty na objawieniu, wizji i gotowości, by przyjąć doskonale nieograniczone Myśli Boga, oraz by je szerzyć.
+Ten krzyż jest również symbolem Chrystusowej Świadomości, która jest dokładnie Tym Umysłem, który jest oddany i zaangażowany -- ale nie w ucieczkę od stworzenia ku jakiejś bezforemnej otchłani, ale raczej w uzyskanie dostępu do Umysłu Boga, Miłości Boga i *zniesienia*, sprowadzenia ich na dół do umysłu -- do ludzkiego umysłu, ludzkiego ciała -- po to, by je poszerzyć, by tworzyć w nowy sposób&hellip; Nie w sposób przepełniony lękiem, nie w sposób skupiony na przetrwaniu, ale w sposób oparty na objawieniu, wizji i gotowości, by przyjąć doskonale nieograniczone Myśli Boga, oraz by je szerzyć.
 
 Możesz zacząć patrzeć w ten sposób na każdego. Po prostu dostrój się do jego serca, które jest jego centrum czy też podstawowym wzorcem wibracyjnym. Po czym zapytaj:
 
-> *Duchu Święty, czy przebudził się w nim Krzyż Światła? A jeśli tak, to w jakim stopniu?*
+> Duchu Święty, czy przebudził się w nim Krzyż Światła? A jeśli tak, to w jakim stopniu?
 
 I odkryjesz, że bardzo szybko możesz zacząć to widzieć. Wtedy zaś będziesz wiedział, komu poświęcić swoją energię, a komu nie. Nie z perspektywy osądu, lecz rozpoznając, że tego Krzyża nie możesz umieścić tam sam. Możesz jedynie nauczyć się rozpoznawać, czy przebudził się on w innych. I z tymi istotami będziesz chciał -- jak by to ująć -- tańczyć, jako ze swymi braćmi i siostrami na tej płaszczyźnie. Czy ma to dla ciebie sens?
 
@@ -67,13 +67,13 @@ Głęboką prawdą jest, że proces, poprzez który pozwalasz sobie przebudzić 
 
 Ale gdy na to spojrzysz i powiesz:
 
-> *O, znowu pojawiły się te energie. W tym przypadku zwykłem być bardzo osądzający. Zwykłem uciekać. Ale tym razem zostanę. Będę oddychał. Użyję tego jako okazji, by nauczać jedynie Miłości, by szerzyć przebaczenie, jakakolwiek miałaby być ta lekcja. Ponieważ mam do dyspozycji więcej siebie, mogę bezpiecznie objąć to, co kiedyś mnie pokonało.*
+> O, znowu pojawiły się te energie. W tym przypadku zwykłem być bardzo osądzający. Zwykłem uciekać. Ale tym razem zostanę. Będę oddychał. Użyję tego jako okazji, by nauczać jedynie Miłości, by szerzyć przebaczenie, jakakolwiek miałaby być ta lekcja. Ponieważ mam do dyspozycji więcej siebie, mogę bezpiecznie objąć to, co kiedyś mnie pokonało.
 
 Być może nie rozgryziesz całego tematu. A może ci się uda -- być może zamkniesz tę sprawę. A będziesz wiedział, że ją zamknąłeś, ponieważ gdy następnym razem pojawisz się znowu na tej spirali, a świat przedstawi ci tę starą energię, przejrzysz ją na wskroś. I nie będzie już absolutnie żadnych wzorców reakcji. Po prostu na to spojrzysz i powiesz:
 
-> *Ach tak, byłem tu już kiedyś, a teraz jest to dla mnie nudne.*
+> Ach tak, byłem tu już kiedyś, a teraz jest to dla mnie nudne.
 
-Nowy wzorzec po prostu cię poprowadzi -- wzorzec przebaczenia, wzorzec Miłości, wzorzec trwania w pokoju, bez względu na to, co zdaje się czynić świat. Gdy ktoś dokonuje na ciebie projekcji, co kiedyś być może budziło w tobie lęk, to teraz -- gdy pokazało się to na nowo, a ty zaliczyłeś swoją inicjację -- po prostu siedzisz i *patrzysz na wskroś* urojenia świadomości, w którym trwa twój brat lub twoja siostra. I widzisz w nich Chrystusa, i w ciszy ich błogosławisz, by samemu otrzymać błogosławieństwo.
+Nowy wzorzec po prostu cię poprowadzi -- wzorzec przebaczenia, wzorzec Miłości, wzorzec trwania w pokoju, bez względu na to, co zdaje się czynić świat. Gdy ktoś dokonuje na ciebie projekcji, co kiedyś być może budziło w tobie lęk, to teraz -- gdy pokazało się to na nowo, a ty zaliczyłeś swoją inicjację -- po prostu siedzisz i *patrzysz na wskroś* urojenia świadomości, w którym trwa twój brat lub twoja siostra. I widzisz w nich Chrystusa, i w ciszy ich błogosławisz, by samemu otrzymać błogosławieństwo.ś
 
 Istotą czasu są właśnie inicjacje. Czy czujesz, że wyczerpaliśmy temat?
 
