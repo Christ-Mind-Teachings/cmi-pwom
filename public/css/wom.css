@@ -1,5 +1,9 @@
 /* wom css */
 
+.page-introduction {
+  margin-bottom: 2em;
+}
+
 .transcript blockquote {
   font-style: italic;
 }
@@ -47,6 +51,11 @@
 
 .transcript.lj div.indent {
   margin-bottom: 1em;
+}
+
+.transcript.lj div.nindent {
+  margin-bottom: 1em;
+  margin-left: 3%;
 }
 
 .transcript.early div.indent {

@@ -13,13 +13,15 @@ footer:
 ## Witamy na Drodze Mistrzostwa
 {: .ui.header}
 
-Głównym nauczaniem *Drogi Mistrzostwa* jest ścieżka prowadząca do
-przebudzenia, opisana i dana w trzyletniej serii comiesięcznych lekcji
-przekazanych przez Jeszuę w formie channelingu w komunii z Jayemem.
-*Droga Mistrzostwa* zawiera, oprócz lekcji, odpowiedzi na wiele
+<div class="page-introduction" markdown="1">
+Droga Mistrzostwa jest ścieżką prowadząca do przebudzenia w Bogu.
+Została nam dana w trzyletniej serii comiesięcznych lekcji
+przekazywanych przez Jeszuę w formie ustnych przesłań w komunii z
+Jayemem. Droga Mistrzostwa zawiera, oprócz lekcji, odpowiedzi na wiele
 zadawanych Jeszule pytań, wiele dodatkowego materiału i wiele
-skutecznych ćwiczeń. Jest ona bardzo praktycznym, konkretnym
-przewodnikiem do wewnętrznej przemiany.
+skutecznych ćwiczeń, pomagających nam przyjąć Prawdę i pozwolić Bogu żyć
+nami w codziennym pielgrzymowaniu w Królestwie.
+</div>
 
 <div id="page-contents">
   <div class="ui three cards">
