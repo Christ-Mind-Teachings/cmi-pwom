@@ -2942,14 +2942,14 @@ function generateAnnotation(annotation, topics = []) {
   }
 }
 
-function generateBookmark(actualPid, bkmk, topics) {
+function generateBookmark(actualPid, bkmk, topics, label) {
   return `
     <div class="ui list">
       <div class="item">
         <i class="bookmark icon"></i>
         <div class="content">
           <div class="header">
-            Paragraph: ${actualPid}
+            ${label}: ${actualPid}
           </div>
           <div class="list">
             ${bkmk.map(annotation => `
@@ -3026,7 +3026,7 @@ function getNextPageUrl(pos, pageList, filterList, bookmarks) {
       let url = getBookmarkUrl(bookmarks, pageKey, pid); //it's possible the url was not found so check for that
 
       if (url) {
-        console.log("next url: %s", url);
+        //console.log("next url: %s", url);
         resolve(url);
         return;
       } else {
@@ -3035,9 +3035,8 @@ function getNextPageUrl(pos, pageList, filterList, bookmarks) {
     } else {
       //console.log("next url is null");
       resolve(null);
-    }
+    } //console.log("next url: null");
 
-    console.log("next url: null");
   });
 }
 
@@ -3080,11 +3079,11 @@ function getPrevPageUrl(pos, pageList, filterList, bookmarks) {
   return new Promise(resolve => {
     if (found) {
       let pageKey = pageList[pagePos];
-      let url = getBookmarkUrl(bookmarks, pageKey, pid);
-      console.log("prev url is %s", url);
+      let url = getBookmarkUrl(bookmarks, pageKey, pid); //console.log("prev url is %s", url);
+
       resolve(url);
     } else {
-      console.log("prev url is null");
+      //console.log("prev url is null");
       resolve(null);
     }
   });
@@ -3250,7 +3249,10 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
     return false;
   }
 
-  let html = generateBookmark(actualPid, paragraphBookmarks, topics);
+  Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("label:para", true).then(label => {
+    let html = generateBookmark(actualPid, paragraphBookmarks, topics, label);
+    $("#bookmark-content").html(html);
+  });
 
   if (filterTopics) {
     $("#filter-topics-section").removeClass("hide");
@@ -3259,8 +3261,8 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
     $("#filter-topics-section").addClass("hide");
   }
 
-  $(".bookmark-navigator-header-book").text($("#book-title").text());
-  $("#bookmark-content").html(html); //get links to next and previous bookmarks on the page
+  $(".bookmark-navigator-header-book").text($("#book-title").text()); //$("#bookmark-content").html(html);
+  //get links to next and previous bookmarks on the page
 
   let pageMarks = Object.keys(allBookmarks[pageKey]);
   let pos = pageMarks.indexOf(pidKey); //if topic filtering is enabled
@@ -3354,8 +3356,7 @@ function bookmarkManager(actualPid) {
         toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(_language_lang__WEBPACK_IMPORTED_MODULE_9__["__lang"]`${"fragment:f1"} ${actualPid} ${"fragment:f2"}`);
       }
     });
-  } else {
-    console.log(teaching.bm_list_store);
+  } else {//console.log(teaching.bm_list_store);
   }
 }
 /*
@@ -3393,14 +3394,13 @@ function clearSelectedAnnotation() {
     let guard = $("div.transcript.ui.disable-selection:not(.user)");
 
     if (guard.length > 0) {
-      console.log("removing selection guard");
+      //console.log("removing selection guard");
       guard.removeClass("disable-selection");
     }
   }
 }
 
-function scrollComplete(message, type) {
-  console.log(`${message}: ${type}`);
+function scrollComplete(message, type) {//console.log(`${message}: ${type}`);
 }
 
 function scrollIntoView(id, caller) {
@@ -7107,7 +7107,7 @@ function makeContents(contents, type) {
 
 
 function loadTOC() {
-  console.log("transcript page: loading toc");
+  //console.log("transcript page: loading toc");
   let book = $("#contents-modal-open").attr("data-book").toLowerCase();
   Object(_config_config__WEBPACK_IMPORTED_MODULE_1__["getConfig"])(book).then(contents => {
     $(".toc-image").attr("src", `${contents.image}`);
