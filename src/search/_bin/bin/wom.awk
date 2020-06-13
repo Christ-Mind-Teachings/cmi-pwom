@@ -14,6 +14,9 @@ function discardParagraph(p) {
   if (n = match(p,/[Tt]eraz zaczynamy\.$/) > 0) {
     return 3
   }
+  if (n = match(p,/^[Jj]ayem/) > 0) {
+    return 3
+  }
   if (n = match(p,/[Pp]ytania i odpowiedzi/) > 0) {
     return 3
   }
@@ -74,7 +77,7 @@ BEGIN {
   getline tmp
   next
 }
-$1 ~ /##/ {
+$1 ~ /#/ {
   # questions
   next
 }
@@ -122,6 +125,7 @@ $1 ~ /##/ {
       gsub(/\&rsquo;/, "", raw)
       # remove <br/> 
       gsub(/<br\/>/,"",raw)
+      gsub(/<br>/,"",raw)
       # remove <p></p> 
       gsub(/<\/?p[^>]*>/,"",raw)
       # remove <span></span> 

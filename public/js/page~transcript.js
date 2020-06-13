@@ -1152,7 +1152,7 @@ function getBookmarks() {
 
             }
 
-            bookmarks[key.pid] = b.bookmark;
+            bookmarks[key.paraKey] = b.bookmark;
           }); //store bookmarks in local storage
 
           if (Object.keys(bookmarks).length > 0) {
@@ -1285,7 +1285,7 @@ function buildBookmarkListFromServer(response, keyInfo) {
       bookmarks[keyParts.pageKey] = {};
     }
 
-    bookmarks[keyParts.pageKey][keyParts.pid] = b.bookmark;
+    bookmarks[keyParts.pageKey][keyParts.paraKey] = b.bookmark;
   });
   bookmarks.lastFetchDate = Date.now();
   bookmarks.lastBuildDate = Date.now();
@@ -2976,7 +2976,7 @@ function getBookmarkUrl(bookmarks, pageKey, pid) {
     url = `${bookmark[0].selectedText.url}?bkmk=${bookmark[0].rangeStart}`;
   } else {
     //we have a bookmark with no selected text, have to get the url in another way
-    url = `${teaching.url_prefix}${teaching.keyInfo.getUrl(pageKey)}?bkmk=${bookmark[0].rangeStart}`;
+    url = `${teaching.env === "integration" ? teaching.url_prefix : ""}${teaching.keyInfo.getUrl(pageKey)}?bkmk=${bookmark[0].rangeStart}`;
   } //console.log("url: %s", url);
 
 
@@ -3026,7 +3026,9 @@ function getNextPageUrl(pos, pageList, filterList, bookmarks) {
       let url = getBookmarkUrl(bookmarks, pageKey, pid); //it's possible the url was not found so check for that
 
       if (url) {
+        console.log("next url: %s", url);
         resolve(url);
+        return;
       } else {
         resolve(null);
       }
@@ -3034,6 +3036,8 @@ function getNextPageUrl(pos, pageList, filterList, bookmarks) {
       //console.log("next url is null");
       resolve(null);
     }
+
+    console.log("next url: null");
   });
 }
 
@@ -3076,11 +3080,11 @@ function getPrevPageUrl(pos, pageList, filterList, bookmarks) {
   return new Promise(resolve => {
     if (found) {
       let pageKey = pageList[pagePos];
-      let url = getBookmarkUrl(bookmarks, pageKey, pid); //console.log("prev url is %s", url);
-
+      let url = getBookmarkUrl(bookmarks, pageKey, pid);
+      console.log("prev url is %s", url);
       resolve(url);
     } else {
-      //console.log("prev url is null");
+      console.log("prev url is null");
       resolve(null);
     }
   });
@@ -3330,7 +3334,9 @@ function bookmarkManager(actualPid) {
 
 
       if (!getCurrentBookmark(pageKey, actualPid, bmList, bmModal, "both")) {
-        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(_language_lang__WEBPACK_IMPORTED_MODULE_9__["__lang"]`${"fragment:f1"} ${actualPid} ${"fragment:f2"}`);
+        Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("fragment:f1", true).then(value => {
+          toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(_language_lang__WEBPACK_IMPORTED_MODULE_9__["__lang"]`${value} ${actualPid} ${"fragment:f2"}`);
+        });
         return;
       } //init navigator controls
 
@@ -6439,6 +6445,35 @@ function getReservation(url) {
 
   return null;
 }
+
+function pageInfo(decodedKey, contents) {
+  let url = transcript.getUrl(decodedKey.key);
+  let info = contents.find(p => {
+    return url.startsWith(p.url);
+  });
+
+  if (!info) {
+    return {
+      title: "not found",
+      url: ""
+    };
+  }
+
+  if (info.url !== url) {
+    info = info.contents.find(p => {
+      return p.url === url;
+    });
+  }
+
+  if (!info) {
+    return {
+      title: "not found",
+      url: ""
+    };
+  }
+
+  return info;
+}
 /*
   Given a page key, return data from a config file
 
@@ -6448,6 +6483,7 @@ function getReservation(url) {
     pageKey: a key uniquely identifying a transcript page
     data: optional, data that will be added to the result, used for convenience
 */
+
 
 function getPageInfo(pageKey, data = false) {
   let decodedKey = transcript.decodeKey(pageKey);
@@ -6478,35 +6514,10 @@ function getPageInfo(pageKey, data = false) {
         info.title = Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:l2");
         info.url = "";
       } else {
+        let pi = pageInfo(decodedKey, data.contents);
         info.bookTitle = data.title;
-        let unit = data.contents[decodedKey.uid];
-
-        if (!unit) {
-          info.title = `${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("error:e5")}, pageKey: ${pageKey}, decodedKey: ${decodedKey}`;
-          info.title = "";
-        } else {
-          if (decodedKey.hasQuestions) {
-            let question; //this shouldn't happen but did once due to test data that got indexed and later
-            //deleted but the index remained and caused the code to fail. Took me a long time to
-            //find the problem.
-
-            if (decodedKey.qid >= unit.questions.length) {
-              console.log("invalid pageKey: %s, specifies out of range qid", pageKey);
-              console.log("decodedKey: %o", decodedKey);
-              question = unit.questions[unit.questions.length - 1];
-            } else {
-              question = unit.questions[decodedKey.qid];
-            }
-
-            info.title = unit.title;
-            info.subTitle = question.title;
-            info.url = question.url;
-          } else {
-            info.title = unit.title;
-            info.url = unit.url;
-          }
-        }
-
+        info.title = pi.title;
+        info.url = pi.url;
         resolve(info);
       }
     }).catch(error => {
@@ -6534,7 +6545,6 @@ function setEnv(constants) {
   env.prefix = constants.url_prefix;
   env.timingBase = `${constants.url_prefix}${env.timingBase}`;
   env.configUrl = env.configUrl.replace("/standalone", `${constants.url_prefix}/public`);
-  console.log("configUrl: %s", env.configUrl);
 }
 
 /***/ }),
@@ -6852,12 +6862,13 @@ function decodeKey(key) {
   let pageKeyString = pageKey.toString(10);
   let decodedKey = {
     error: false,
+    key: key,
     message: "ok",
     sid: 0,
     bookId: "",
     uid: 0,
     xid: 0,
-    pid: pid - 1
+    pid: pid ? pid - 1 : -1
   }; //error, invalid key length
 
   if (pageKeyString.length !== keyLength) {
@@ -6878,7 +6889,10 @@ function decodeKey(key) {
   let bid = parseInt(pageKeyString.substr(2, 2), 10);
   decodedKey.bookId = si.bookIds[bid];
   decodedKey.uid = parseInt(pageKeyString.substr(4, 3), 10);
-  decodedKey.xid = parseInt(pageKeyString.substr(7, 2), 10); //console.log("decodedKey: %o", decodedKey);
+  decodedKey.xid = parseInt(pageKeyString.substr(7, 2), 10); //search is off by 1, so decrement keys, watch for side effects
+  //decodedKey.uid = decodedKey.uid - 1;
+  //decodedKey.xid = decodedKey.xid - 1;
+  //console.log("decodedKey: %o", decodedKey);
 
   return decodedKey;
 }
@@ -6980,15 +6994,15 @@ module.exports = {
   books: ["lj", "wos", "woh", "wot", "wok", "early"],
   bookIds: ["xxx", "lj", "wos", "woh", "wot", "wok", "early"],
   contents: {
-    lj: ["xxx", "acknow", "reader", "forwd", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "eplg", "path"],
-    wos: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "aftwrd", "eplg", "prayer", "path"],
-    woh: ["xxx", "advice", "preface", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12", "path"],
+    lj: ["xxx", "acknow", "reader", "forwd", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "eplg"],
+    wos: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "aftwrd", "eplg", "prayer"],
+    woh: ["xxx", "preface", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12"],
     woh2: ["xxx", "/l01qa", "/l02qa", "/l06qa", "/l07qa", "/l08qa", "/l09qa", "/l10qa", "/l11qa", "/l12qa"],
-    wot: ["xxx", "advice", "preface", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12", "path"],
+    wot: ["xxx", "preface", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12"],
     wot2: ["xxx", "/l01qa", "/l06qa", "/l07qa", "/l09qa", "/l11qa"],
-    wok: ["xxx", "advice", "preface", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "path"],
+    wok: ["xxx", "preface", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11"],
     wok2: ["xxx", "/l02qa", "/l03qa", "/l04qa", "/l06qa", "/l10qa"],
-    early: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "path"],
+    early: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10"],
     early2: ["xxx", "/chap02qa", "/chap03qa", "/chap08qa", "/chap09qa"]
   }
 };
@@ -7324,7 +7338,7 @@ __webpack_require__.r(__webpack_exports__);
 const page = __webpack_require__(/*! ../_config/key */ "./src/js/modules/_config/key.js");
 
 const queryResultName = `search.${_constants__WEBPACK_IMPORTED_MODULE_3__["default"].sid}.result`;
-const url_prefix = _constants__WEBPACK_IMPORTED_MODULE_3__["default"].env === "standalone" ? "/" : _constants__WEBPACK_IMPORTED_MODULE_3__["default"].url_prefix;
+const url_prefix = _constants__WEBPACK_IMPORTED_MODULE_3__["default"].env === "standalone" ? "" : _constants__WEBPACK_IMPORTED_MODULE_3__["default"].url_prefix;
 const SCROLL_INTERVAL = 250;
 
 function scrollComplete(message, type) {
@@ -7661,7 +7675,7 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
     case SAVED_SEARCH:
       //arg1: source, arg2: query string, arg3: count
       $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("label:l6"));
-      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s3")} <em>${arg2}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s4")} <em>${arg1}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s5")} ${arg3} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s6")}</p>`);
+      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s3")} <em>${arg2}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s4")} <em>${arg1}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s5")} ${arg3} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s6")}</p>`);
       break;
 
     case SEARCH_RESULT:
@@ -7674,7 +7688,7 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
       }
 
       $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s7"));
-      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s3")} <em>${arg2}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s5")} ${arg3} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s7")}</p>`);
+      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s3")} <em>${arg2}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s5")} ${arg3} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s7")}</p>`);
       break;
 
     case SEARCH_ERROR:
@@ -7703,7 +7717,7 @@ function search(query) {
     if (response.data.count > 0) {
       Object(_show__WEBPACK_IMPORTED_MODULE_1__["showSearchResults"])(response.data, response.data.queryTransformed);
     } else {
-      toastr__WEBPACK_IMPORTED_MODULE_4___default.a.info(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s3")} "${response.data.queryTransformed}" ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("string:s9")}`);
+      toastr__WEBPACK_IMPORTED_MODULE_4___default.a.info(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s3")} "${response.data.queryTransformed}" ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s9")}`);
     }
 
     Object(www_modules_audit_audit__WEBPACK_IMPORTED_MODULE_5__["searchAudit"])(_constants__WEBPACK_IMPORTED_MODULE_7__["default"].sid.toUpperCase(), searchBody.query, response.data.count);
@@ -7825,7 +7839,7 @@ function makeList(bid, title, pageInfo, matchArray) {
                   <i class="search icon"></i>
                   <div class="content">
                     <div class="header">
-                      <a href="${pageInfo[m.pageKey].url}?srch=${h.location}">getString("search:s10") ${h.location.substr(1)}</a>
+                      <a href="${pageInfo[m.pageKey].url}?srch=${h.location}">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("search:s10")} ${h.location.substr(1)}</a>
                     </div>
                     <div class="description">
                       ${h.context}
@@ -8005,7 +8019,7 @@ function showSavedQuery() {
 
   $(".cmi-search-list").html(html);
   $(".search-message.header").text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("search:s11"));
-  $(".search-message-body").html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("string:s3")} <em>${queryResult.query}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("string:s5")} ${queryResult.count} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("string:s6")}</p>`);
+  $(".search-message-body").html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("search:s3")} <em>${queryResult.query}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("search:s5")} ${queryResult.count} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("search:s6")}</p>`);
   $("#search-results-header").html(`: <em>${queryResult.query}</em>`);
 }
 

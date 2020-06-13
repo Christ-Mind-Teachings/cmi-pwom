@@ -187,6 +187,31 @@ export function getReservation(url) {
   return null;
 }
 
+function pageInfo(decodedKey, contents) {
+
+  let url = transcript.getUrl(decodedKey.key);
+
+  let info = contents.find(p => {
+    return url.startsWith(p.url);
+  });
+
+  if (!info) {
+    return {title: "not found", url:""};
+  }
+
+  if (info.url !== url) {
+    info = info.contents.find(p => {
+      return p.url === url;
+    });
+  }
+
+  if (!info) {
+    return {title: "not found", url:""};
+  }
+
+  return info;
+}
+
 /*
   Given a page key, return data from a config file
 
@@ -224,38 +249,11 @@ export function getPageInfo(pageKey, data = false) {
           info.url = "";
         }
         else {
+          let pi = pageInfo(decodedKey, data.contents);
+
           info.bookTitle = data.title;
-
-          let unit = data.contents[decodedKey.uid];
-          if (!unit) {
-            info.title = `${getString("error:e5")}, pageKey: ${pageKey}, decodedKey: ${decodedKey}`;
-            info.title = "";
-          }
-          else {
-
-            if (decodedKey.hasQuestions) {
-              let question;
-
-              //this shouldn't happen but did once due to test data that got indexed and later
-              //deleted but the index remained and caused the code to fail. Took me a long time to
-              //find the problem.
-              if (decodedKey.qid >= unit.questions.length) {
-                console.log("invalid pageKey: %s, specifies out of range qid", pageKey);
-                console.log("decodedKey: %o", decodedKey);
-                question = unit.questions[unit.questions.length - 1];
-              }
-              else {
-                question = unit.questions[decodedKey.qid];
-              }
-              info.title = unit.title;
-              info.subTitle = question.title;
-              info.url = question.url;
-            }
-            else {
-              info.title = unit.title;
-              info.url = unit.url;
-            }
-          }
+          info.title = pi.title;
+          info.url = pi.url;
 
           resolve(info);
         }
@@ -285,7 +283,6 @@ export function setEnv(constants) {
   env.prefix = constants.url_prefix;
   env.timingBase = `${constants.url_prefix}${env.timingBase}`;
   env.configUrl = env.configUrl.replace("/standalone", `${constants.url_prefix}/public`);
-  console.log("configUrl: %s", env.configUrl);
 }
 
 

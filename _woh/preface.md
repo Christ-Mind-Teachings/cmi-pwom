@@ -48,6 +48,5 @@ Teraz wszystko zależy od ciebie. Niech Bóg cię błogosławi, abyś poznał pr
 
 Niech płyną potoki radości!
 
-Jayem<br>
-Maj, 2011 r.
+Jayem<br>Maj, 2011 r.
 

@@ -40,7 +40,7 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
     case SAVED_SEARCH:
       //arg1: source, arg2: query string, arg3: count
       $(uiSearchMessageHeader).text(getString("label:l6"));
-      $(uiSearchMessageBody).html(`<p>${getString("string:s3")} <em>${arg2}</em> ${getString("search:s4")} <em>${arg1}</em> ${getString("search:s5")} ${arg3} ${getString("search:s6")}</p>`);
+      $(uiSearchMessageBody).html(`<p>${getString("search:s3")} <em>${arg2}</em> ${getString("search:s4")} <em>${arg1}</em> ${getString("search:s5")} ${arg3} ${getString("search:s6")}</p>`);
       break;
     case SEARCH_RESULT:
       $(uiSearchInputIcon).removeClass("loading");
@@ -53,7 +53,7 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
       }
 
       $(uiSearchMessageHeader).text(getString("search:s7"));
-      $(uiSearchMessageBody).html(`<p>${getString("string:s3")} <em>${arg2}</em> ${getString("string:s5")} ${arg3} ${getString("string:s7")}</p>`);
+      $(uiSearchMessageBody).html(`<p>${getString("search:s3")} <em>${arg2}</em> ${getString("search:s5")} ${arg3} ${getString("search:s7")}</p>`);
       break;
     case SEARCH_ERROR:
       $(uiSearchInputIcon).removeClass("loading");
@@ -83,7 +83,7 @@ function search(query) {
         showSearchResults(response.data, response.data.queryTransformed);
       }
       else {
-        notify.info(`${getString("string:s3")} "${response.data.queryTransformed}" ${getString("string:s9")}`);
+        notify.info(`${getString("search:s3")} "${response.data.queryTransformed}" ${getString("search:s9")}`);
       }
       searchAudit(constants.sid.toUpperCase(), searchBody.query, response.data.count);
       document.getElementById("search-input-field").focus();

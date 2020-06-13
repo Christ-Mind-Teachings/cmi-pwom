@@ -30,7 +30,7 @@ function makeList(bid, title, pageInfo, matchArray) {
                   <i class="search icon"></i>
                   <div class="content">
                     <div class="header">
-                      <a href="${pageInfo[m.pageKey].url}?srch=${h.location}">getString("search:s10") ${h.location.substr(1)}</a>
+                      <a href="${pageInfo[m.pageKey].url}?srch=${h.location}">${getString("search:s10")} ${h.location.substr(1)}</a>
                     </div>
                     <div class="description">
                       ${h.context}
@@ -195,7 +195,7 @@ export function showSavedQuery() {
   $(".cmi-search-list").html(html);
 
   $(".search-message.header").text(getString("search:s11"));
-  $(".search-message-body").html(`<p>${getString("string:s3")} <em>${queryResult.query}</em> ${getString("string:s5")} ${queryResult.count} ${getString("string:s6")}</p>`);
+  $(".search-message-body").html(`<p>${getString("search:s3")} <em>${queryResult.query}</em> ${getString("search:s5")} ${queryResult.count} ${getString("search:s6")}</p>`);
   $("#search-results-header").html(`: <em>${queryResult.query}</em>`);
 }
 
