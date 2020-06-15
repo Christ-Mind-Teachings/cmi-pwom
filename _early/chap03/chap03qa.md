@@ -123,3 +123,4 @@ Niech błogosławiony zatem będzie ten Jeden, który lśni w jasności na wieki
 Daję mą miłość każdemu z was, gdyż w tobie widzę swoje odzwierciedlenie i poznaję Wielkość, Promienność, Piękno i Miłość, którą jest mój Ojciec. I nieustannie wychwalam mego Ojca.
 
 Amen.
+

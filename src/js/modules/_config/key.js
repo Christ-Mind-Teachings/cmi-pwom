@@ -278,12 +278,13 @@ function decodeKey(key) {
   let pageKeyString = pageKey.toString(10);
   let decodedKey = {
     error: false,
+    key: key,
     message: "ok",
     sid: 0,
     bookId: "",
     uid: 0,
     xid: 0,
-    pid: pid - 1
+    pid: pid ? pid - 1: -1
   };
 
   //error, invalid key length
@@ -306,6 +307,10 @@ function decodeKey(key) {
 
   decodedKey.uid = parseInt(pageKeyString.substr(4,3), 10);
   decodedKey.xid = parseInt(pageKeyString.substr(7,2), 10);
+
+  //search is off by 1, so decrement keys, watch for side effects
+  //decodedKey.uid = decodedKey.uid - 1;
+  //decodedKey.xid = decodedKey.xid - 1;
 
   //console.log("decodedKey: %o", decodedKey);
   return decodedKey;

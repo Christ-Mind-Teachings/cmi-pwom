@@ -10,7 +10,7 @@ import {getString} from "../_language/lang";
 const page = require("../_config/key");
 
 const queryResultName = `search.${constants.sid}.result`;
-const url_prefix = constants.env === "standalone"?"/":constants.url_prefix;
+const url_prefix = constants.env === "standalone"?"":constants.url_prefix;
 
 const SCROLL_INTERVAL = 250;
 

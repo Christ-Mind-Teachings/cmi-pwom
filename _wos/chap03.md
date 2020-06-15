@@ -159,8 +159,8 @@ Sługa daje<br>
 i dlatego też otrzymuje.
 
 Powiedziałem, <br>
-że przychodzę zgromadzić mych przyjaciół<br>	
-tam, gdzie ja jestem. 
+że przychodzę zgromadzić mych przyjaciół<br>
+tam, gdzie ja jestem.
 
 Zgromadź tych, którzy są ci dani,<br>
 i to wystarczy.<br>

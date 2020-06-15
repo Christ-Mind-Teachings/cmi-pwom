@@ -107,7 +107,7 @@ i na wieki.
 
 <p markdown="1" class="top"><span class="dropcaps">P</span>*rzebudzone* Serce<br>
 podobne jest temu,<br>
-kto dotarł na szczyt<br>	
+kto dotarł na szczyt<br>
 najwyższej góry.</p>
 
 Tutaj<br>

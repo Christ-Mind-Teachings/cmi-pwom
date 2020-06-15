@@ -57,12 +57,16 @@ BEGIN {
   }
   next
 }
+# a footnote
+/\[\^.*\]:/ {
+  next
+}
 # an image
 /^!\[/ {
   next
 }
 # a markdown class designation
-/^{:/ {
+/^{: .omit/ {
   omit = 1
   next
 }
@@ -108,6 +112,7 @@ $1 ~ /#/ {
     for (line in lines) {
       raw = lines[line]
       gsub(/\&hellip;/, "", raw)
+      gsub(/{: .center}/, "", raw)
       # remove <br/> 
       gsub(/<br\/>/,"",raw)
       # remove <br> 

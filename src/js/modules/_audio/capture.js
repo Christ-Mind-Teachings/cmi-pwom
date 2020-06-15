@@ -365,7 +365,7 @@ function restoreState() {
         //has not initiated timing
         let firstPid = $(".transcript p.cmiTranPara").first().attr("id");
         if (firstPid) {
-          console.log("first pid: %s", firstPid);
+          //console.log("first pid: %s", firstPid);
           autoCapture({id: firstPid, seconds: 0}, false);
         }
         else {
