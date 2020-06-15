@@ -234,6 +234,7 @@ Skutecznie zapomniałem o  sugestii Jeszuy. Wówczas mój wzrok pada na  Biblię
 
 „Cholera. Znów to  samo”. Znajome uczucie znów się pojawia. Wyciągam Biblię z  jej grobu. Kiedy otworzyłem ją ostatnim razem? Niepewnie ją kartkuję, aż w  końcu znajduję ewangelię Mateusza, rozdział 7, wersety 5–8 i  zaczynam czytać:
 
+<div markdown="1" class="nindent">
 „Obłudniku, wyrzuć najpierw belkę ze  swego oka, a  wtedy przejrzysz, ażeby usunąć drzazgę z  oka twego brata.
 
 Nie dawajcie psom tego, co  święte, i  nie rzucajcie swych pereł przed świnie, by  ich nie podeptały nogami, i  obróciwszy się, was nie poszarpały.
@@ -241,6 +242,8 @@ Nie dawajcie psom tego, co  święte, i  nie rzucajcie swych pereł przed świni
 Proście, a  będzie wam dane; szukajcie, a  znajdziecie; kołaczcie, a  otworzą wam.
 
 Albowiem każdy, kto prosi, otrzymuje; kto szuka, znajduje; a  kołaczącemu otworzą”.
+
+</div>
 
 Obie strony, każde słowo każdego wersetu jest w  kolorze czerwonym. Następnie słyszę Jego znajomy głos.
 
@@ -517,7 +520,7 @@ Zajrzyj do  Marka 4,9 i  zacznij czytać.
 
 I  znowu cały tekst jest wyróżniony czerwonym kolorem. Czy te „zbiegi okoliczności” się kiedyś skończą? Czy gdzieś po  drodze nie mógłby się zdarzyć jakiś błąd? Zaczynam sobie uświadamiać, że coś się tu  dzieje i  jeśli nie potrafię tego wytłumaczyć, to  będę musiał coś z  tym zrobić. Dlaczego to  zawsze wywołuje we  mnie dreszcze lęku?
 
-<div data-index="1" markdown="1" class="indent">
+<div markdown="1" class="nindent">
 „I  dodał: Kto ma uszy do słuchania, niechaj słucha!
 Wam dana jest tajemnica królestwa&hellip;”
 </div>
@@ -535,7 +538,7 @@ Zaczynam czytać przypowieść o  tym, jak Jezus uzdrowił człowieka w  szabat 
 
 Kontynuuję czytanie, aż dochodzę do  wersetu 23:
 
-<div data-index="1" markdown="1" class="indent">
+<div markdown="1" class="nindent">
 „ &hellip;aby wszyscy oddawali cześć Synowi, tak jak oddają cześć Ojcu.<br>
 Kto nie oddaje czci Synowi, nie oddaje czci Ojcu, który Go posłał”.
 </div>
