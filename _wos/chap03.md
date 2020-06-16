@@ -321,7 +321,7 @@ ma upodobanie!<br>
 *Ty* jesteś tym, w którym ja żyję<br>
 i ujawniam siebie światu!<br>
 *Ty*, drogi przyjacielu,<br>
-jesteś taki, jaki JA JESTEM!
+jesteś taki, jaki JAM JEST!
 
 W twej radości<br>
 słychać mój śmiech.<br>

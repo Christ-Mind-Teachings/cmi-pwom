@@ -1152,7 +1152,7 @@ function getBookmarks() {
 
             }
 
-            bookmarks[key.pid] = b.bookmark;
+            bookmarks[key.paraKey] = b.bookmark;
           }); //store bookmarks in local storage
 
           if (Object.keys(bookmarks).length > 0) {
@@ -1285,7 +1285,7 @@ function buildBookmarkListFromServer(response, keyInfo) {
       bookmarks[keyParts.pageKey] = {};
     }
 
-    bookmarks[keyParts.pageKey][keyParts.pid] = b.bookmark;
+    bookmarks[keyParts.pageKey][keyParts.paraKey] = b.bookmark;
   });
   bookmarks.lastFetchDate = Date.now();
   bookmarks.lastBuildDate = Date.now();
@@ -2942,14 +2942,14 @@ function generateAnnotation(annotation, topics = []) {
   }
 }
 
-function generateBookmark(actualPid, bkmk, topics) {
+function generateBookmark(actualPid, bkmk, topics, label) {
   return `
     <div class="ui list">
       <div class="item">
         <i class="bookmark icon"></i>
         <div class="content">
           <div class="header">
-            Paragraph: ${actualPid}
+            ${label}: ${actualPid}
           </div>
           <div class="list">
             ${bkmk.map(annotation => `
@@ -2976,7 +2976,7 @@ function getBookmarkUrl(bookmarks, pageKey, pid) {
     url = `${bookmark[0].selectedText.url}?bkmk=${bookmark[0].rangeStart}`;
   } else {
     //we have a bookmark with no selected text, have to get the url in another way
-    url = `${teaching.url_prefix}${teaching.keyInfo.getUrl(pageKey)}?bkmk=${bookmark[0].rangeStart}`;
+    url = `${teaching.env === "integration" ? teaching.url_prefix : ""}${teaching.keyInfo.getUrl(pageKey)}?bkmk=${bookmark[0].rangeStart}`;
   } //console.log("url: %s", url);
 
 
@@ -3026,14 +3026,17 @@ function getNextPageUrl(pos, pageList, filterList, bookmarks) {
       let url = getBookmarkUrl(bookmarks, pageKey, pid); //it's possible the url was not found so check for that
 
       if (url) {
+        //console.log("next url: %s", url);
         resolve(url);
+        return;
       } else {
         resolve(null);
       }
     } else {
       //console.log("next url is null");
       resolve(null);
-    }
+    } //console.log("next url: null");
+
   });
 }
 
@@ -3246,7 +3249,10 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
     return false;
   }
 
-  let html = generateBookmark(actualPid, paragraphBookmarks, topics);
+  Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("label:para", true).then(label => {
+    let html = generateBookmark(actualPid, paragraphBookmarks, topics, label);
+    $("#bookmark-content").html(html);
+  });
 
   if (filterTopics) {
     $("#filter-topics-section").removeClass("hide");
@@ -3255,8 +3261,8 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
     $("#filter-topics-section").addClass("hide");
   }
 
-  $(".bookmark-navigator-header-book").text($("#book-title").text());
-  $("#bookmark-content").html(html); //get links to next and previous bookmarks on the page
+  $(".bookmark-navigator-header-book").text($("#book-title").text()); //$("#bookmark-content").html(html);
+  //get links to next and previous bookmarks on the page
 
   let pageMarks = Object.keys(allBookmarks[pageKey]);
   let pos = pageMarks.indexOf(pidKey); //if topic filtering is enabled
@@ -3330,7 +3336,9 @@ function bookmarkManager(actualPid) {
 
 
       if (!getCurrentBookmark(pageKey, actualPid, bmList, bmModal, "both")) {
-        toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(_language_lang__WEBPACK_IMPORTED_MODULE_9__["__lang"]`${"fragment:f1"} ${actualPid} ${"fragment:f2"}`);
+        Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("fragment:f1", true).then(value => {
+          toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(_language_lang__WEBPACK_IMPORTED_MODULE_9__["__lang"]`${value} ${actualPid} ${"fragment:f2"}`);
+        });
         return;
       } //init navigator controls
 
@@ -3348,8 +3356,7 @@ function bookmarkManager(actualPid) {
         toastr__WEBPACK_IMPORTED_MODULE_5___default.a.info(_language_lang__WEBPACK_IMPORTED_MODULE_9__["__lang"]`${"fragment:f1"} ${actualPid} ${"fragment:f2"}`);
       }
     });
-  } else {
-    console.log(teaching.bm_list_store);
+  } else {//console.log(teaching.bm_list_store);
   }
 }
 /*
@@ -3387,14 +3394,13 @@ function clearSelectedAnnotation() {
     let guard = $("div.transcript.ui.disable-selection:not(.user)");
 
     if (guard.length > 0) {
-      console.log("removing selection guard");
+      //console.log("removing selection guard");
       guard.removeClass("disable-selection");
     }
   }
 }
 
-function scrollComplete(message, type) {
-  console.log(`${message}: ${type}`);
+function scrollComplete(message, type) {//console.log(`${message}: ${type}`);
 }
 
 function scrollIntoView(id, caller) {
@@ -7014,12 +7020,12 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "status", function() { return status; });
 const status = {
-  lj: "Fri Jun  5 16:42:57 HST 2020",
-  wos: "Fri Jun  5 16:42:57 HST 2020",
-  woh: "Wed Jun 10 13:57:49 HST 2020",
-  wot: "Wed Jun 10 13:59:45 HST 2020",
-  wok: "Wed Jun 10 13:59:36 HST 2020",
-  early: "Fri Jun  5 16:42:57 HST 2020"
+  lj: "czw  4 cze 13:47:26 2020 CEST",
+  wos: "czw  4 cze 13:47:43 2020 CEST",
+  woh: "czw 11 cze 22:46:39 2020 CEST",
+  wot: "czw 11 cze 22:46:39 2020 CEST",
+  wok: "czw 11 cze 22:46:39 2020 CEST",
+  early: "czw  4 cze 23:27:27 2020 CEST"
 };
 
 /***/ }),

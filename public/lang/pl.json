@@ -41,14 +41,14 @@
     "link": "Zobacz <a href='/acq/bookmark/'>pomoc tekstową o zakładkach </a> aby dowiedzieć się więcej."
   },
   "action": {
-    "submit": "Wyślij",
+    "submit": "Zapisz",
     "cancel": "Anuluj",
     "share": "Udostępnij",
     "delete": "Usuń",
     "edit": "Edytuj",
     "follow": "Śledź",
-    "prev": "Poprzedni",
-    "next": "Następny",
+    "prev": "Poprzednie",
+    "next": "Następne",
     "closewin": "Zamknij okno",
     "close": "Zamknij",
     "signout": "Wyloguj się",
