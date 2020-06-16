@@ -1143,7 +1143,12 @@ function getBookmarks() {
         if (response.data.response) {
           let bookmarks = {};
           response.data.response.forEach(b => {
-            let key = teaching.keyInfo.parseKey(b.id); //parson JSON to object
+            let key = teaching.keyInfo.parseKey(b.id); //parseKey return {pid, pageKey} or {paraKey, pageKey} so use paraKey.
+
+            if (!key.paraKey) {
+              key.paraKey = key.pid;
+            } //parson JSON to object
+
 
             for (let a of b.bookmark) {
               if (a.selectedText) {
@@ -1279,7 +1284,11 @@ function buildBookmarkListFromLocalStore(keyInfo) {
 function buildBookmarkListFromServer(response, keyInfo) {
   let bookmarks = {};
   response.data.response.forEach(b => {
-    let keyParts = teaching.keyInfo.parseKey(b.id);
+    let keyParts = teaching.keyInfo.parseKey(b.id); //parseKey return {pid, pageKey} or {paraKey, pageKey} so use paraKey.
+
+    if (!keyParts.paraKey) {
+      keyParts.paraKey = keyParts.pid;
+    }
 
     if (!bookmarks[keyParts.pageKey]) {
       bookmarks[keyParts.pageKey] = {};

@@ -104,6 +104,10 @@
   line-height: 1.2em;
  }
 
+.transcript.wos div.indent {
+  margin-bottom: 1.5em;
+}
+
 .transcript.wos div.indent p, .transcript.wos p.indent { 
   font-style: italic;
   margin-left: 3%;
