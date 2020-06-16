@@ -93,9 +93,11 @@ Albowiem to  są teraz moje słowa dla ciebie.
 
 Na głos. Powoli. W  porządku. Myślę, że to  jest jeden z  tych momentów, które z  pewnością miały nadejść, kiedy powiedziałem, że będę Mu ufał mimo wszystko.
 
+<div markdown="1" class="nindent">
 „Zanim ukształtowałem cię w  łonie matki, znałem cię,<br>
 nim przyszedłeś na  świat, uświęciłem cię,<br>
 prorokiem dla narodów ustanowiłem cię”.
+</div>
 
 Gdy zaczynam gwałtownie łapać powietrze i  czuję, że znajoma mi  nemezis uderza mnie mocno i  szybko w  brzuch, On znów mówi:
 
@@ -103,8 +105,10 @@ Gdy zaczynam gwałtownie łapać powietrze i  czuję, że znajoma mi  nemezis ud
 Teraz przeczytaj werset dziewiąty.
 </div>
 
+<div markdown="1" class="nindent">
 „I  wyciągnąwszy rękę, dotknął Pan moich ust i  rzekł mi: <br>
 «Oto kładę Moje słowa w  twoje usta».”
+</div>
 
 Mój umysł, oddech i  całe ciało zostają wtłoczone w  bezruch ciszy.
 
