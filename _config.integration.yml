@@ -1,15 +1,16 @@
 # CMI
-
-environment: integration
-destination: "../cmi-www/t/pwom"
+destination: "../cmi-www/_site/t/pwom"
 
 sourceId: 16
+environment: integration
+
 cmiTitle: "Nauki Umysłu Chrystusa"
+siteName: "Biblioteka Nauk Umysłu Chrystusa"
 
 # Setup
 title:        'Droga Mistrzostwa'
 tagline:      'Now, we begin...'
-description:  'A pathway of awakening from Jeshua through Jon Marc Hammer (Jayem)'
+description:  'Ścieżka przebudzenia dana przez Jeszuę w komunii z Jayemem (Jon Marc Hammer)'
 url:          'https://www.christmind.info/t/pwom'
 baseurl:      ''
 keywords:     "Christ Mind, Way of Mastery, Jeshua, Jayem, Way of the Heart, Way of Transformation, Way of Knowing"
@@ -33,11 +34,6 @@ encoding: utf-8
 
 # Build settings
 markdown: kramdown
-#plugins:
-#  - jekyll-sitemap
-
-#  - jekyll-feed
-
 
 # Collections for transcripts
 collections:
@@ -71,9 +67,9 @@ defaults:
       layout: transcript
       book: "Listy Jeszuy"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/tjl-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
-      little-separator: "/public/img/wom/little.jpg"
+      image: "/t/pwom/public/img/wom/tjl-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
+      little-separator: "/t/pwom/public/img/wom/little.jpg"
       image-width: 612
       image-height: 877
       bid: "LJ"
@@ -86,9 +82,9 @@ defaults:
       layout: transcript
       book: "Droga Sługi"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wos-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
-      little-separator: "/public/img/wom/little.jpg"
+      image: "/t/pwom/public/img/wom/wos-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
+      little-separator: "/t/pwom/public/img/wom/little.jpg"
       image-width: 612
       image-height: 877
       bid: "WOS"
@@ -101,8 +97,8 @@ defaults:
       layout: transcript
       book: "Droga Serca"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wos-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/wos-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "WOH"
@@ -115,8 +111,8 @@ defaults:
       layout: transcript
       book: "Droga Przemiany"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wot-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/wot-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "WOT"
@@ -129,8 +125,8 @@ defaults:
       layout: transcript
       book: "Droga Poznania"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wok-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/wok-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "WOK"
@@ -143,14 +139,14 @@ defaults:
       layout: transcript
       book: "Wczesne lata Drogi"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/early-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/early-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "EARLY"
       audio: false
 
 exclude: [
-  bin, standalone, moved.html, deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
+  bin, moved.html, deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
 ]
 

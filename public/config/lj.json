@@ -1,7 +1,9 @@
 {
   "bid": "lj",
   "title": "Listy Jeszuy",
-  "image": "/t/pwom/public/img/wom/tjlN-toc.jpg",
+  "image": "/t/pwom/public/img/wom/lj-toc.jpg",
+  "toc": "relaxed ordered",
+  "totalPages": 17,
   "contents": [
     {
       "title": "Podziękowania",

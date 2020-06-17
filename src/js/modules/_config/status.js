@@ -1,8 +1,8 @@
 export const status = {
-  lj: "czw  4 cze 13:47:26 2020 CEST",
-  wos: "czw  4 cze 13:47:43 2020 CEST",
-  woh: "czw 11 cze 22:46:39 2020 CEST",
-  wot: "czw 11 cze 22:46:39 2020 CEST",
-  wok: "czw 11 cze 22:46:39 2020 CEST",
-  early: "czw  4 cze 23:27:27 2020 CEST"
+  lj: "Tue Jun 16 17:50:09 HST 2020",
+  wos: "Tue Jun 16 17:52:44 HST 2020",
+  woh: "Tue Jun 16 17:46:12 HST 2020",
+  wot: "Tue Jun 16 17:56:59 HST 2020",
+  wok: "Tue Jun 16 17:57:23 HST 2020",
+  early: "Tue Jun 16 17:42:51 HST 2020"
 };

@@ -1,7 +1,9 @@
 {
   "bid": "wos",
   "title": "Droga Sługi",
-  "image": "/t/pwom/public/img/wom/wosN-toc.jpg",
+  "image": "/t/pwom/public/img/wom/wos-toc.jpg",
+  "toc": "relaxed ordered",
+  "totalPages": 8,
   "contents": [
     {
       "title": "Wstęp",
@@ -25,7 +27,7 @@
     },
     {
       "title": "Posłowie",
-      "url": "/t/pwom/wos/aftr/"
+      "url": "/t/pwom/wos/aftwrd/"
     },
     {
       "title": "Epilog",

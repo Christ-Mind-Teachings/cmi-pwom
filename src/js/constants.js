@@ -5,7 +5,7 @@
 const keyInfo = require("./modules/_config/key");
 import {getPageInfo} from "./modules/_config/config";
 
-let env = "standalone";
+let env = "integration";
 let sid = "pwom";
 let lang = "pl";
 let title = "Droga Mistrzostwa";

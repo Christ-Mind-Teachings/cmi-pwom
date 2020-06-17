@@ -1,0 +1,78 @@
+{
+  "bid": "early",
+  "title": "Wczesne lata Drogi Mistrzostwa, Tom 1",
+  "image": "/t/pwom/public/img/wom/early-toc.jpg",
+  "toc": "relaxed ordered",
+  "totalPages": 15,
+  "contents": [
+    {
+      "title": "Wstęp",
+      "url": "/t/pwom/early/intr/"
+    },
+    {
+      "title": "Miłość uzdrawia wszystko",
+      "url": "/t/pwom/early/chap01/"
+    },
+    {
+      "title": "Mistrzostwo komunikacji",
+      "url": "/t/pwom/early/chap02/",
+      "contents": [
+        {
+          "title": "Pytania i odpowiedzi",
+          "url": "/t/pwom/early/chap02/chap02qa/"
+        }
+      ]
+    },
+    {
+      "title": "Błogosławieństwo przebaczenia",
+      "url": "/t/pwom/early/chap03/",
+      "contents": [
+        {
+          "title": "Pytania i odpowiedzi",
+          "url": "/t/pwom/early/chap03/chap03qa/"
+        }
+      ]
+    },
+    {
+      "title": "Błogość niewiedzy",
+      "url": "/t/pwom/early/chap04/"
+    },
+    {
+      "title": "Święta chwila",
+      "url": "/t/pwom/early/chap05/"
+    },
+    {
+      "title": "Boska Kobiecość",
+      "url": "/t/pwom/early/chap06/"
+    },
+    {
+      "title": "Znaczenie Wnieobwstąpienia",
+      "url": "/t/pwom/early/chap07/"
+    },
+    {
+      "title": "Niebo na ziemi",
+      "url": "/t/pwom/early/chap08/",
+      "contents": [
+        {
+          "title": "Pytania i odpowiedzi",
+          "url": "/t/pwom/early/chap08/chap08qa/"
+        }
+      ]
+    },
+    {
+      "title": "Śmierć i zmiany na Ziemi",
+      "url": "/t/pwom/early/chap09/",
+      "contents": [
+        {
+          "title": "Pytania i odpowiedzi",
+          "url": "/t/pwom/early/chap09/chap09qa/"
+        }
+      ]
+    },
+    {
+      "title": "Chodź ze mną",
+      "url": "/t/pwom/early/chap10/"
+    }
+  ]
+}
+

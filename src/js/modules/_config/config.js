@@ -189,7 +189,7 @@ export function getReservation(url) {
 
 function pageInfo(decodedKey, contents) {
 
-  let url = transcript.getUrl(decodedKey.key);
+  let url = transcript.getUrl(decodedKey.key, true);
 
   let info = contents.find(p => {
     return url.startsWith(p.url);
