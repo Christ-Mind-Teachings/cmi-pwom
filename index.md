@@ -31,6 +31,22 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
 <div id="page-contents">
   <div class="ui three cards">
     <div class="card">
+      <a href="#" data-book="acq" animate class="toc-modal-open image">
+        {% if site.environment == "standalone" %}
+          <img src="/public/img/wom/acq-big.jpg">
+        {% else %}
+          <img src="/t/pwom/public/img/wom/acq-big.jpg">
+        {% endif %}
+      </a>
+      <div class="content">
+        <div class="description">
+          Learn about Droga Mistrzostwa
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui three cards">
+    <div class="card">
       <a href="#" data-book="lj" class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/lj-big.jpg">

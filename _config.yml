@@ -39,6 +39,9 @@ markdown: kramdown
 collections:
   notes:
     output: true
+  acq:
+    output: true
+    title: Get Acquainted
   lj:
     output: true
     title: Listy Jeszuy
@@ -59,6 +62,18 @@ collections:
     title: Wczesne lata Drogi,
 
 defaults:
+
+  - scope:
+      path: ""
+      type: acq
+    values:
+      layout: transcript
+      book: "Get Acquainted"
+      image: "/t/pwom/public/img/wom/acq-big.jpg"
+      image-width: 612
+      image-height: 792
+      bid: "acq"
+      audio: false
 
   - scope:
       path: ""

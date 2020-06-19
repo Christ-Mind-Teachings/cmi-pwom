@@ -1,0 +1,13 @@
+{
+  "bid": "acq",
+  "title": "Get Acquainted",
+  "image": "/t/pwom/public/img/wom/acq-toc.jpg",
+  "toc": "relaxed ordered",
+  "totalPages": 1,
+  "contents": [
+    {
+      "title": "Kontakt",
+      "url": "/t/pwom/acq/contact/"
+    }
+  ]
+}

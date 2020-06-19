@@ -122,9 +122,34 @@ function markSearchHits(searchHits, start, end, query, state) {
       el.innerHTML = content.replace(regex, "<mark class='hide-mark'>$1</mark>");
     }
 
+    //check if query not highlighted, if not, it could be because part of match is
+    //italic and the other part is not. Try again using text instead of html and
+    //add html for pid.
+    if (el.innerHTML === content) {
+      let text = el.textContent;
+      text = text.replace(/[\r\n]/gm," ");
+
+      //get span for id
+      let span = content.indexOf("</span>");
+      if (span > -1) {
+        let pnum = content.substring(0, span + 7);
+        text = text.replace(`(${id})`, pnum);
+        if (state === "show") {
+          el.innerHTML = text.replace(regex, "<mark class='show-mark'>$1</mark>");
+          console.log(content);
+          console.log(text);
+        }
+        else {
+          el.innerHTML = text.replace(regex, "<mark class='hide-mark'>$1</mark>");
+        }
+      }
+    }
+
     //test if query was highlighted
     if (el.innerHTML === content) {
       console.log("Regex did not match: \"%s\" for %s", query, id);
+      //console.log(content);
+      //console.log(text);
       markFailure++;
     }
   }

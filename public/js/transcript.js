@@ -2434,6 +2434,83 @@ function assignPlayerFeatures(timingData) {
 
 /***/ }),
 
+/***/ "./src/js/modules/_forms/contact.js":
+/*!******************************************!*\
+  !*** ./src/js/modules/_forms/contact.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var www_modules_user_netlify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! www/modules/_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/*
+  Set up submit handler for contact forms
+*/
+
+
+
+function createSubmitHandler($form) {
+  let userInfo = Object(www_modules_user_netlify__WEBPACK_IMPORTED_MODULE_1__["getUserInfo"])(); //init form fields for signed in users
+
+  if (userInfo) {
+    $form.form("set values", {
+      name: userInfo.name,
+      email: userInfo.email
+    });
+  } //submit handler
+
+
+  $form.submit(function (e) {
+    e.preventDefault(); //console.log("submit pressed");
+
+    let $form = $(this);
+    let formData = $form.form("get values");
+    let validationError = false; //form validation
+
+    if (formData.name.trim().length === 0) {
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.warning("Please enter your name.");
+      validationError = true;
+    }
+
+    if (formData.email.trim().length === 0) {
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.warning("Please enter your email address.");
+      validationError = true;
+    }
+
+    if (formData.message.trim().length === 0) {
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.warning("Please enter a message.");
+      validationError = true;
+    }
+
+    if (validationError) {
+      return false;
+    } //send to netlify
+
+
+    $.post($form.attr("action"), $form.serialize()).done(function () {
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.success("Thank you!");
+    }).fail(function (e) {
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.error("Sorry, there was a failure to communicate!");
+    });
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  initialize: function (formName) {
+    let $form = $(`form#${formName}`);
+
+    if ($form.length > 0) {
+      createSubmitHandler($form);
+      console.log("Form %s initialized.", formName);
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./src/js/transcript.js":
 /*!******************************!*\
   !*** ./src/js/transcript.js ***!
@@ -2456,8 +2533,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_audio_audio__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/_audio/audio */ "./src/js/modules/_audio/audio.js");
 /* harmony import */ var _modules_about_about__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/_about/about */ "./src/js/modules/_about/about.js");
 /* harmony import */ var _notes__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./notes */ "./src/js/notes.js");
-/* harmony import */ var www_modules_language_lang__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! www/modules/_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
+/* harmony import */ var _modules_forms_contact__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./modules/_forms/contact */ "./src/js/modules/_forms/contact.js");
+/* harmony import */ var www_modules_language_lang__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! www/modules/_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
 /* eslint no-console: off */
 //common modules
 
@@ -2475,16 +2553,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- //setLanguage(constants);
+
 
 $(document).ready(() => {
-  Object(www_modules_language_lang__WEBPACK_IMPORTED_MODULE_13__["setLanguage"])(_constants__WEBPACK_IMPORTED_MODULE_14__["default"]);
+  Object(www_modules_language_lang__WEBPACK_IMPORTED_MODULE_14__["setLanguage"])(_constants__WEBPACK_IMPORTED_MODULE_15__["default"]);
   Object(www_modules_page_startup__WEBPACK_IMPORTED_MODULE_3__["initTranscriptPage"])();
   www_modules_user_netlify__WEBPACK_IMPORTED_MODULE_1__["default"].initialize();
   www_modules_util_facebook__WEBPACK_IMPORTED_MODULE_2__["default"].initialize();
   _modules_about_about__WEBPACK_IMPORTED_MODULE_11__["default"].initialize();
   Object(www_modules_page_notes__WEBPACK_IMPORTED_MODULE_4__["initialize"])(_notes__WEBPACK_IMPORTED_MODULE_12__["noteInfo"]);
   Object(_setEnv__WEBPACK_IMPORTED_MODULE_5__["setRuntimeEnv"])();
+  _modules_forms_contact__WEBPACK_IMPORTED_MODULE_13__["default"].initialize("droga-mistrzostwa-kontakt");
   Object(_modules_config_config__WEBPACK_IMPORTED_MODULE_6__["loadConfig"])(Object(_modules_contents_toc__WEBPACK_IMPORTED_MODULE_9__["getBookId"])()).then(result => {
     _modules_search_search__WEBPACK_IMPORTED_MODULE_8__["default"].initialize();
     /*

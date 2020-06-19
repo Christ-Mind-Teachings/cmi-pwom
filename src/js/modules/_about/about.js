@@ -36,7 +36,7 @@ function createClickHandlers() {
     }
 
     if ($(this).hasClass("contact-me")) {
-      location.href = "/acq/contact/";
+      location.href = "/t/pwom/acq/contact/";
     }
 
     if ($(this).hasClass("profile-management")) {

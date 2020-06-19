@@ -6793,10 +6793,6 @@ function setTopicFilter(topic) {
 */
 //import indexOf from "lodash/indexOf";
 const sprintf = __webpack_require__(/*! sprintf-js */ "../cmi-www/node_modules/sprintf-js/src/sprintf.js").sprintf; //source id: each source has a unique id
-//WOM = 10
-//JSB = 11
-//ACIM = 12
-//RAJ = 13
 //WWW = 99 This is the Library
 
 
@@ -8277,7 +8273,7 @@ function createClickHandlers() {
     }
 
     if ($(this).hasClass("contact-me")) {
-      location.href = "/acq/contact/";
+      location.href = "/t/pwom/acq/contact/";
     }
 
     if ($(this).hasClass("profile-management")) {
@@ -9122,8 +9118,8 @@ module.exports = {
   sourceId: 16,
   sid: "pwom",
   prefix: "/t/pwom",
-  books: ["lj", "wos", "woh", "wot", "wok", "early"],
-  bookIds: ["xxx", "lj", "wos", "woh", "wot", "wok", "early"],
+  books: ["lj", "wos", "woh", "wot", "wok", "early", "acq"],
+  bookIds: ["xxx", "lj", "wos", "woh", "wot", "wok", "early", "acq"],
   contents: {
     lj: ["xxx", "acknow", "reader", "forwd", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "eplg"],
     wos: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "aftwrd", "eplg", "prayer"],
@@ -9134,7 +9130,8 @@ module.exports = {
     wok: ["xxx", "preface", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11"],
     wok2: ["xxx", "/l02qa", "/l03qa", "/l04qa", "/l06qa", "/l10qa"],
     early: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10"],
-    early2: ["xxx", "/chap02qa", "/chap03qa", "/chap08qa", "/chap09qa"]
+    early2: ["xxx", "/chap02qa", "/chap03qa", "/chap08qa", "/chap09qa"],
+    acq: ["xxx", "contact"]
   }
 };
 
@@ -9156,7 +9153,8 @@ const status = {
   woh: "Tue Jun 16 17:46:12 HST 2020",
   wot: "Tue Jun 16 17:56:59 HST 2020",
   wok: "Tue Jun 16 17:57:23 HST 2020",
-  early: "Tue Jun 16 17:42:51 HST 2020"
+  early: "Tue Jun 16 17:42:51 HST 2020",
+  acq: "Fri Jun 19 09:47:55 HST 2020"
 };
 
 /***/ }),
@@ -9589,11 +9587,36 @@ function markSearchHits(searchHits, start, end, query, state) {
       el.innerHTML = content.replace(regex, "<mark class='show-mark'>$1</mark>");
     } else {
       el.innerHTML = content.replace(regex, "<mark class='hide-mark'>$1</mark>");
+    } //check if query not highlighted, if not, it could be because part of match is
+    //italic and the other part is not. Try again using text instead of html and
+    //add html for pid.
+
+
+    if (el.innerHTML === content) {
+      let text = el.textContent;
+      text = text.replace(/[\r\n]/gm, " "); //get span for id
+
+      let span = content.indexOf("</span>");
+
+      if (span > -1) {
+        let pnum = content.substring(0, span + 7);
+        text = text.replace(`(${id})`, pnum);
+
+        if (state === "show") {
+          el.innerHTML = text.replace(regex, "<mark class='show-mark'>$1</mark>");
+          console.log(content);
+          console.log(text);
+        } else {
+          el.innerHTML = text.replace(regex, "<mark class='hide-mark'>$1</mark>");
+        }
+      }
     } //test if query was highlighted
 
 
     if (el.innerHTML === content) {
-      console.log("Regex did not match: \"%s\" for %s", query, id);
+      console.log("Regex did not match: \"%s\" for %s", query, id); //console.log(content);
+      //console.log(text);
+
       markFailure++;
     }
   }
