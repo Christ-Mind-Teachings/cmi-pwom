@@ -46,6 +46,11 @@ export default {
     e3: "Invalid configuration file",
     e4: "Configuration file error, didn't find url in file.",
     e5: "Title not found",
-    e6: "Failed to load configuration file"
+    e6: "Failed to load configuration file",
+    e7: "Please enter your name",
+    e8: "Please enter your email address",
+    e9: "Please enter a message",
+    e10: "Thank you!",
+    e11: "Sorry, there was a failure to communicate!"
   }
 }

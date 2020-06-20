@@ -8215,7 +8215,12 @@ __webpack_require__.r(__webpack_exports__);
     e3: "Niepoprawna konfiguracja pliku",
     e4: "Błąd konfiguracji pliku. Nie znaleziono adresu url.",
     e5: "Nie znaleziono tytułu",
-    e6: "Nie powiodło się wczytanie pliku konfiguracji"
+    e6: "Nie powiodło się wczytanie pliku konfiguracji",
+    e7: "Wprowadź proszę swoje imię",
+    e8: "Podaj proszę swój adres mailowy",
+    e9: "Proszę wpisać wiadomość",
+    e10: "Dziękuję",
+    e11: "Przepraszamy, nastąpił błąd komunikacji!"
   }
 });
 
@@ -9154,7 +9159,7 @@ const status = {
   wot: "Tue Jun 16 17:56:59 HST 2020",
   wok: "Tue Jun 16 17:57:23 HST 2020",
   early: "Tue Jun 16 17:42:51 HST 2020",
-  acq: "Fri Jun 19 09:47:55 HST 2020"
+  acq: "Sat Jun 20 09:12:57 HST 2020"
 };
 
 /***/ }),

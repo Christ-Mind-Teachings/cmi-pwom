@@ -2446,9 +2446,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var www_modules_user_netlify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! www/modules/_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
 /*
   Set up submit handler for contact forms
 */
+
 
 
 
@@ -2471,17 +2473,17 @@ function createSubmitHandler($form) {
     let validationError = false; //form validation
 
     if (formData.name.trim().length === 0) {
-      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.warning("Please enter your name.");
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.warning(Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("error:e7"));
       validationError = true;
     }
 
     if (formData.email.trim().length === 0) {
-      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.warning("Please enter your email address.");
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.warning(Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("error:e8"));
       validationError = true;
     }
 
     if (formData.message.trim().length === 0) {
-      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.warning("Please enter a message.");
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.warning(Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("error:e9"));
       validationError = true;
     }
 
@@ -2491,9 +2493,9 @@ function createSubmitHandler($form) {
 
 
     $.post($form.attr("action"), $form.serialize()).done(function () {
-      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.success("Thank you!");
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.success(Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("error:e10"));
     }).fail(function (e) {
-      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.error("Sorry, there was a failure to communicate!");
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("error:e11"));
     });
   });
 }

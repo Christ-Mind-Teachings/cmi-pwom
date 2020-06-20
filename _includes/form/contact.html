@@ -1,7 +1,7 @@
 {% comment %}
 usage: {% include form/contact.html name="form-name" %}
 {% endcomment %}
-<form name="{{include.name}}" id="{{include.name}}" action="/contact/" class="ui form" netlify>
+<form name="{{include.name}}" id="{{include.name}}" data-netlify-recaptcha="true" action="/contact/" class="ui form" netlify>
   <div class="required inline field">
     <label>{{site.data.lang.time.t11}}</label>
     <input name="name" placeholder="{{site.data.lang.time.t11}}" type="text">

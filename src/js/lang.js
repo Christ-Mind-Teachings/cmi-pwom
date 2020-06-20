@@ -46,6 +46,11 @@ export default {
     e3: "Niepoprawna konfiguracja pliku",
     e4: "Błąd konfiguracji pliku. Nie znaleziono adresu url.",
     e5: "Nie znaleziono tytułu",
-    e6: "Nie powiodło się wczytanie pliku konfiguracji"
+    e6: "Nie powiodło się wczytanie pliku konfiguracji",
+    e7: "Wprowadź proszę swoje imię",
+    e8: "Podaj proszę swój adres mailowy",
+    e9: "Proszę wpisać wiadomość",
+    e10: "Dziękuję",
+    e11: "Przepraszamy, nastąpił błąd komunikacji!"
   }
 }

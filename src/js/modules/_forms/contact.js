@@ -3,6 +3,7 @@
 */
 import notify from "toastr";
 import {getUserInfo} from "www/modules/_user/netlify";
+import {getString} from "../_language/lang";
 
 function createSubmitHandler($form) {
   let userInfo = getUserInfo();
@@ -26,15 +27,15 @@ function createSubmitHandler($form) {
 
     //form validation
     if (formData.name.trim().length === 0) {
-      notify.warning("Please enter your name.");
+      notify.warning(getString("error:e7"));
       validationError = true;
     }
     if (formData.email.trim().length === 0) {
-      notify.warning("Please enter your email address.");
+      notify.warning(getString("error:e8"));
       validationError = true;
     }
     if (formData.message.trim().length === 0) {
-      notify.warning("Please enter a message.");
+      notify.warning(getString("error:e9"));
       validationError = true;
     }
 
@@ -45,10 +46,10 @@ function createSubmitHandler($form) {
     //send to netlify
     $.post($form.attr("action"), $form.serialize())
       .done(function() {
-        notify.success("Thank you!");
+        notify.success(getString("error:e10"));
       })
       .fail(function(e) {
-        notify.error("Sorry, there was a failure to communicate!");
+        notify.error(getString("error:e11"));
       });
   });
 }

@@ -49,9 +49,9 @@ Dziękuję.
 
 Marek Konieczniak
 
-<hr/>
+---
 
-## Get In Touch
+## {{site.data.lang.header.h1}}
 
 {% include form/contact.html name="droga-mistrzostwa-kontakt" %}
 
