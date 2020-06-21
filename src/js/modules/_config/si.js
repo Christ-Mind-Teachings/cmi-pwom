@@ -16,6 +16,6 @@ module.exports = {
     wok2: ["xxx","/l02qa","/l03qa","/l04qa","/l06qa","/l10qa"],
     early: ["xxx","intr","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10"],
     early2: ["xxx","/chap02qa","/chap03qa","/chap08qa","/chap09qa"],
-    acq: ["xxx","contact"],
+    acq: ["xxx","path","advice","contact"],
   }
 };

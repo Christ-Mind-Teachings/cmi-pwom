@@ -15,14 +15,6 @@ footer:
 
 <div class="page-introduction" markdown="1">
 
-Droga Mistrzostwa jest ścieżką prowadząca do przebudzenia w Bogu.
-Została nam dana w trzyletniej serii comiesięcznych lekcji
-przekazywanych przez Jeszuę w formie ustnych przesłań w komunii z
-Jayemem. Droga Mistrzostwa zawiera, oprócz lekcji, odpowiedzi na wiele
-zadawanych Jeszule pytań, wiele dodatkowego materiału i wiele
-skutecznych ćwiczeń, pomagających nam przyjąć Prawdę i pozwolić Bogu żyć
-nami w codziennym pielgrzymowaniu w Królestwie.
-
 Wszystkie książki wchodzące w skład Drogi Mistrzostwa możesz kupić w
 sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju Chrystusa</a>.
 
@@ -40,7 +32,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
       </a>
       <div class="content">
         <div class="description">
-          Learn about Droga Mistrzostwa
+          Dowiedz się więcej o Drodze Mistrzostwa
         </div>
       </div>
     </div>

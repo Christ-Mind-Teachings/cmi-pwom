@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 const path = require("path");
-//const etp = require("extract-text-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+//const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const standalone_alias = {
   "semantic": "../vendor/semantic",
@@ -75,6 +75,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({filename: 'me-styles.css'})
+    //, new BundleAnalyzerPlugin()
   ]
 };
 

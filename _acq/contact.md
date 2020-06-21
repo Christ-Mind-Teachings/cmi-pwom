@@ -5,19 +5,20 @@ layout: transcript
 
 <img class="ui small left floated image" src="/t/pwom/public/img/cmi/marek.jpg">
 
-Witaj w Bibliotece Nauk Umysłu Chrystusa. Nazywam się Marek Konieczniak.
+Witaj w Bibliotece Nauk Umysłu Chrystusa.
 
-Moja podróż duchowa zaczęła się od *Kursu Cudów*. Prowadzony jego owocami,
-przeszedłem przez różne wspólnoty kościoła katolickiego, co było dla
-niezmiernie ważnym etapem mego życia. Ogromną pomoc dostałem od Bożych
-posłańców - świętych i mistyków: Mistrza Eckharta, św.Teresę z Avilla, czy
-św.Faustynę i wielu innych. Kolejnym z etapów była i jest *Droga Mistrzostwa*,
-którą sporo lat temu, zacząłem tłumaczyć dla siebie. Ostatecznie Bóg
-zaaranżował skrzyżowanie się moich ścieżek z drogą Rafała i Marysi
+Nazywam się Marek Konieczniak. *Kurs Cudów* był punktem zwrotnym na mojej
+ścieżce duchowej. Prowadzony przez Ducha Świętego, w trakcie studiowania i
+pracy z Kursem, przeszedłem przez różne wspólnoty kościoła katolickiego, co
+było dla niezmiernie ważnym etapem mego życia. Ogromną pomoc otrzymałem od
+Bożych posłańców - świętych i mistyków: Mistrza Eckharta, św.Teresę z Avilla
+czy św.Faustynę i wielu innych. Kolejnym z etapów była  *Droga Mistrzostwa*,
+którą tłumaczyłem dla siebie, jako część swojej pracy z tymi naukami. Następnie
+Bóg zaaranżował skrzyżowanie się moich ścieżek z drogą Rafała i Marysi
 Wereżyńskich, co w efekcie doprowadziło do wspólnego przetłumaczenia całości i
-wydania poprzez Wydawnictwo Pokoju Chrystusa.
+wydania poprzez [Wydawnictwo Pokoju Chrystusa](https://pokojchrystusa.pl)
 
-Splot różnych wydarzeń inspirowanyc Duchem sprawił, że Rick Mercer, twórca
+Splot różnych wydarzeń inspirowanych Duchem sprawił, że Rick Mercer, twórca
 *Biblioteki Nauk Umysłu Chrustusa* zgodził się rozszerzyć Bibliotekę o polskie
 wydanie *Drogi Mistrzostwa*.
 

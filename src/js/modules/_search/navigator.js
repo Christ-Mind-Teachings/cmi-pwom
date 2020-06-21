@@ -100,7 +100,9 @@ function markSearchHits(searchHits, start, end, query, state) {
   //Note: this regex wont find a string within a string - only finds
   //matches that begin on a word boundary
   //var regex = new RegExp("(?:^|\\b)(" + searchData.query + ")(?:$|\\b)", "gim");
-  let regex = new RegExp("(?:^|\\b)(" + query + ")(?:$|\\b|)", "gim");
+  //Regex below won't work for Polish
+  //let regex = new RegExp("(?:^|\\b)(" + query + ")(?:$|\\b|)", "gim");
+  let regex = new RegExp("(?:^|(?=[a-pr-uwy-zA-PR-UWY-ZąćęłńóśźżĄĆĘŁŃÓŚŹŻ]))(" + query + ")(?:$|\\b|)", "gim");
   for (let i = start; i <= end; i++) {
     let id = searchHits[i].location;
     let el = document.getElementById(id);

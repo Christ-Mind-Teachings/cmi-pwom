@@ -1,10 +1,18 @@
 {
   "bid": "acq",
-  "title": "Poznajmy się",
+  "title": "Poznaj Drogę",
   "image": "/t/pwom/public/img/wom/acq-toc.jpg",
   "toc": "relaxed ordered",
-  "totalPages": 1,
+  "totalPages": 3,
   "contents": [
+    {
+      "title": "Ścieżka Drogi Mistrzostwa",
+      "url": "/t/pwom/acq/path/"
+    },
+    {
+      "title": "Sugestie do praktyki",
+      "url": "/t/pwom/acq/advice/"
+    },
     {
       "title": "Kontakt",
       "url": "/t/pwom/acq/contact/"

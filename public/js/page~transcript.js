@@ -9136,7 +9136,7 @@ module.exports = {
     wok2: ["xxx", "/l02qa", "/l03qa", "/l04qa", "/l06qa", "/l10qa"],
     early: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10"],
     early2: ["xxx", "/chap02qa", "/chap03qa", "/chap08qa", "/chap09qa"],
-    acq: ["xxx", "contact"]
+    acq: ["xxx", "path", "advice", "contact"]
   }
 };
 
@@ -9159,7 +9159,7 @@ const status = {
   wot: "Tue Jun 16 17:56:59 HST 2020",
   wok: "Tue Jun 16 17:57:23 HST 2020",
   early: "Tue Jun 16 17:42:51 HST 2020",
-  acq: "Sat Jun 20 09:12:57 HST 2020"
+  acq: "Sun Jun 21 11:04:54 HST 2020"
 };
 
 /***/ }),
@@ -9571,8 +9571,10 @@ function markSearchHits(searchHits, start, end, query, state) {
   let markFailure = 0; //Note: this regex wont find a string within a string - only finds
   //matches that begin on a word boundary
   //var regex = new RegExp("(?:^|\\b)(" + searchData.query + ")(?:$|\\b)", "gim");
+  //Regex below won't work for Polish
+  //let regex = new RegExp("(?:^|\\b)(" + query + ")(?:$|\\b|)", "gim");
 
-  let regex = new RegExp("(?:^|\\b)(" + query + ")(?:$|\\b|)", "gim");
+  let regex = new RegExp("(?:^|(?=[a-pr-uwy-zA-PR-UWY-ZąćęłńóśźżĄĆĘŁŃÓŚŹŻ]))(" + query + ")(?:$|\\b|)", "gim");
 
   for (let i = start; i <= end; i++) {
     let id = searchHits[i].location;
