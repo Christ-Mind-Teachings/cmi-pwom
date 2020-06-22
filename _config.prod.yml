@@ -38,16 +38,45 @@ markdown: kramdown
 
 #  - jekyll-feed
 
+
 # Collections for transcripts
 collections:
+  notes:
+    output: true
+  acq:
+    output: true
+    title: Get Acquainted
   lj:
     output: true
     title: Listy Jeszuy
   wos:
     output: true
     title: Droga Sługi
+  woh:
+    output: true
+    title: Droga Serca
+  wot:
+    output: true
+    title: Droga Przemiany,
+  wok:
+    output: true
+    title: Droga Poznania,
+  early:
+    output: true
+    title: Wczesne lata Drogi,
 
 defaults:
+  - scope:
+      path: ""
+      type: acq
+    values:
+      layout: transcript
+      book: "Get Acquainted"
+      image: "/t/pwom/public/img/wom/acq-big.jpg"
+      image-width: 612
+      image-height: 792
+      bid: "acq"
+      audio: false
 
   - scope:
       path: ""
@@ -56,11 +85,11 @@ defaults:
       layout: transcript
       book: "Listy Jeszuy"
       publisher: "Droga Mistrzostwa"
-      big-separator: "/t/pwom/public/img/wom/big.jpg"
-      little-separator: "/t/pwom/public/img/wom/little.jpg"
-      image: "/t/pwom/public/img/wom/tjlN-big.jpg"
+      image: "/public/img/wom/tjl-big.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      little-separator: "/public/img/wom/little.jpg"
       image-width: 612
-      image-height: 938
+      image-height: 877
       bid: "LJ"
       audio: false
 
@@ -71,12 +100,68 @@ defaults:
       layout: transcript
       book: "Droga Sługi"
       publisher: "Droga Mistrzostwa"
-      image: "/t/pwom/public/img/wom/wosN-big.jpg"
-      big-separator: "/t/pwom/public/img/wom/big.jpg"
-      little-separator: "/t/pwom/public/img/wom/little.jpg"
+      image: "/public/img/wom/wos-big.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      little-separator: "/public/img/wom/little.jpg"
       image-width: 612
-      image-height: 938
+      image-height: 877
       bid: "WOS"
+      audio: false
+
+  - scope:
+      path: ""
+      type: woh
+    values:
+      layout: transcript
+      book: "Droga Serca"
+      publisher: "Droga Mistrzostwa"
+      image: "/public/img/wom/wos-big.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      image-width: 612
+      image-height: 877
+      bid: "WOH"
+      audio: true
+
+  - scope:
+      path: ""
+      type: wot
+    values:
+      layout: transcript
+      book: "Droga Przemiany"
+      publisher: "Droga Mistrzostwa"
+      image: "/public/img/wom/wot-big.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      image-width: 612
+      image-height: 877
+      bid: "WOT"
+      audio: true
+
+  - scope:
+      path: ""
+      type: wok
+    values:
+      layout: transcript
+      book: "Droga Poznania"
+      publisher: "Droga Mistrzostwa"
+      image: "/public/img/wom/wok-big.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      image-width: 612
+      image-height: 877
+      bid: "WOK"
+      audio: true
+
+  - scope:
+      path: ""
+      type: early
+    values:
+      layout: transcript
+      book: "Wczesne lata Drogi"
+      publisher: "Droga Mistrzostwa"
+      image: "/public/img/wom/early-big.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      image-width: 612
+      image-height: 877
+      bid: "EARLY"
       audio: false
 
 exclude: [

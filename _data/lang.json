@@ -1,4 +1,7 @@
 {
+  "header": {
+    "h1": "Kontakt"
+  },
   "footer": {
     "f1": "Kontakt",
     "f2": "Dokumentacja",
@@ -56,7 +59,7 @@
   },
   "form": {
     "f1": "Prześlij",
-    "f2": "Anulu",
+    "f2": "Anuluj",
     "f3": "Spis Treści"
   },
   "menu": {
@@ -69,10 +72,11 @@
     "m8": "Kontakt",
     "m9": "Zarządzaj listą adresów email",
     "m10": "Zarządzaj tematami",
-    "m11": "Zaloguj się/załóż konto"
+    "m11": "Zaloguj się/załóż konto",
+    "m12": "Ścieżka Drogi Mistrzostwa"
   },
   "pmenu": {
-    "p4": "Krotki przegląd"
+    "p4": "Krotki przegląd Drogi Mistrzostwa"
   },
   "tmenu": {
     "t1": "Pokaż zakładki",

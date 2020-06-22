@@ -1,8 +1,8 @@
 # CMI
-#destination: "../cmi-www/_site/t/pwom"
+destination: "../cmi-www/_site/t/pwom"
 
 sourceId: 16
-environment: standalone
+environment: integration
 
 cmiTitle: "Nauki Umysłu Chrystusa"
 siteName: "Biblioteka Nauk Umysłu Chrystusa"
@@ -82,9 +82,9 @@ defaults:
       layout: transcript
       book: "Listy Jeszuy"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/tjl-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
-      little-separator: "/public/img/wom/little.jpg"
+      image: "/t/pwom/public/img/wom/tjl-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
+      little-separator: "/t/pwom/public/img/wom/little.jpg"
       image-width: 612
       image-height: 877
       bid: "LJ"
@@ -97,9 +97,9 @@ defaults:
       layout: transcript
       book: "Droga Sługi"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wos-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
-      little-separator: "/public/img/wom/little.jpg"
+      image: "/t/pwom/public/img/wom/wos-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
+      little-separator: "/t/pwom/public/img/wom/little.jpg"
       image-width: 612
       image-height: 877
       bid: "WOS"
@@ -112,8 +112,8 @@ defaults:
       layout: transcript
       book: "Droga Serca"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wos-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/wos-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "WOH"
@@ -126,8 +126,8 @@ defaults:
       layout: transcript
       book: "Droga Przemiany"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wot-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/wot-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "WOT"
@@ -140,8 +140,8 @@ defaults:
       layout: transcript
       book: "Droga Poznania"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wok-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/wok-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "WOK"
@@ -154,8 +154,8 @@ defaults:
       layout: transcript
       book: "Wczesne lata Drogi"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/early-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/early-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "EARLY"

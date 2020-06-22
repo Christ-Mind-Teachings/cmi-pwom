@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 const path = require("path");
-//const etp = require("extract-text-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+//const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const standalone_alias = {
   "semantic": "../vendor/semantic",
@@ -12,6 +12,7 @@ const standalone_alias = {
   "jsb": path.resolve(__dirname, "../cmi-www/src/js"),
   "raj": path.resolve(__dirname, "../cmi-www/src/js"),
   "wom": path.resolve(__dirname, "../cmi-www/src/js"),
+  "pwom": path.resolve(__dirname, "../cmi-www/src/js"),
   "www": path.resolve(__dirname, "../cmi-www/src/js")
 };
 
@@ -24,6 +25,7 @@ const integration_alias = {
   "jsb": path.resolve(__dirname, "../cmi-jsb/src/js"),
   "raj": path.resolve(__dirname, "../cmi-raj/src/js"),
   "wom": path.resolve(__dirname, "../cmi-wom/src/js"),
+  "pwom": path.resolve(__dirname, "../cmi-pwom/src/js"),
   "www": path.resolve(__dirname, "../cmi-www/src/js")
 };
 
@@ -35,8 +37,8 @@ module.exports = {
   },
 
   resolve: {
-    alias: standalone_alias
-    //alias: integration_alias
+    //alias: standalone_alias
+    alias: integration_alias
   },
 
   entry: {
@@ -73,6 +75,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({filename: 'me-styles.css'})
+    //, new BundleAnalyzerPlugin()
   ]
 };
 

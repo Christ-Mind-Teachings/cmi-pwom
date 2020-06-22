@@ -150,3 +150,8 @@ a.item.__timer::after {
   content: " 👤";
 }
 
+/* acq/path.md */
+.ui.header.header-blue {
+  color: #0404a0;
+}
+

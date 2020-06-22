@@ -39,7 +39,7 @@ Jeszcze jedna uwaga: oto jedyna autoryzowana wersja tych Nauk, przekazana dokła
 
 Trzymasz w swych dłoniach Uniwersalny Klucz, ale klucz ten będzie użyteczny jedynie wtedy, gdy weźmiesz go w dłoń, włożysz do zamka swego serca oraz umysłu i przekręcisz go poprzez pełne zaangażowanie się w to, co zostało nam dane przez jednego z największych Mistrzów Nauczycieli kiedykolwiek posłanych przez Miłość po to, by Miłość rozpoznano ponownie w naszych śpiących duszach.
 
-Klucz ten spoczywa więc teraz w twych dłoniach – i nie stało się to przez przypadek. Jeszua powiedział, że nie trafi na to Dzieło nikt, w kim „nie dokonano już wszelkich koniecznych ku temu przygotowań”. Jeśli więc czytasz te słowa, łaska połączyła się z se- kretnym pragnieniem twej duszy i umieściła cię w tym miejscu, zaś Nauki te złożyła w twych dłoniach.
+Klucz ten spoczywa więc teraz w twych dłoniach – i nie stało się to przez przypadek. Jeszua powiedział, że nie trafi na to Dzieło nikt, w kim „nie dokonano już wszelkich koniecznych ku temu przygotowań”. Jeśli więc czytasz te słowa, łaska połączyła się z sekretnym pragnieniem twej duszy i umieściła cię w tym miejscu, zaś Nauki te złożyła w twych dłoniach.
 
 Teraz wszystko zależy od ciebie. Niech Bóg cię błogosławi, abyś poznał promienność Łaski, która kocha cię nieopisanie i doznał Spełnienia Duszy, podczas gdy Łaska działa poprzez ciebie, okrywając ten świat Miłością.
 

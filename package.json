@@ -9,7 +9,8 @@
     "updateConfiguration": "bin/updateConfiguration",
     "watch": "webpack --mode development --watch",
     "jekyll": "bundle exec jekyll s",
-    "start": "npm run jekyll & npm run watch",
+    "jekyll:integration": "bundle exec jekyll s --config ./_config.integration.yml",
+    "start": "npm run jekyll:integration & npm run watch",
     "d:jekyll": "JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml",
     "deploy:dev": "npm run d:webpack && npm run d:jekyll",
     "p:webpack": "webpack --mode production",
@@ -36,6 +37,7 @@
     "mini-css-extract-plugin": "^0.5.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.42.1",
+    "webpack-bundle-analyzer": "^3.8.0",
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {

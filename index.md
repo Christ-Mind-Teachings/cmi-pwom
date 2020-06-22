@@ -14,23 +14,36 @@ footer:
 {: .ui.header}
 
 <div class="page-introduction" markdown="1">
-Droga Mistrzostwa jest ścieżką prowadząca do przebudzenia w Bogu.
-Została nam dana w trzyletniej serii comiesięcznych lekcji
-przekazywanych przez Jeszuę w formie ustnych przesłań w komunii z
-Jayemem. Droga Mistrzostwa zawiera, oprócz lekcji, odpowiedzi na wiele
-zadawanych Jeszule pytań, wiele dodatkowego materiału i wiele
-skutecznych ćwiczeń, pomagających nam przyjąć Prawdę i pozwolić Bogu żyć
-nami w codziennym pielgrzymowaniu w Królestwie.
+
+Wszystkie książki wchodzące w skład Drogi Mistrzostwa możesz kupić w
+sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju Chrystusa</a>.
+
 </div>
 
 <div id="page-contents">
+  <div class="ui three cards">
+    <div class="card">
+      <a href="#" data-book="acq" animate class="toc-modal-open image">
+        {% if site.environment == "standalone" %}
+          <img src="/public/img/wom/acq-big.jpg">
+        {% else %}
+          <img src="/t/pwom/public/img/wom/acq-big.jpg">
+        {% endif %}
+      </a>
+      <div class="content">
+        <div class="description">
+          Dowiedz się więcej o Drodze Mistrzostwa
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="ui three cards">
     <div class="card">
       <a href="#" data-book="lj" class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/lj-big.jpg">
         {% else %}
-          <img src="/t/wom/public/img/wom/lj-big.jpg">
+          <img src="/t/pwom/public/img/wom/lj-big.jpg">
         {% endif %}
       </a>
       <div class="content">
@@ -44,7 +57,7 @@ nami w codziennym pielgrzymowaniu w Królestwie.
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/wos-big.jpg">
         {% else %}
-          <img src="/t/wom/public/img/wom/wos-big.jpg">
+          <img src="/t/pwom/public/img/wom/wos-big.jpg">
         {% endif %}
       </a>
       <div class="content">
@@ -58,7 +71,7 @@ nami w codziennym pielgrzymowaniu w Królestwie.
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/early-big.jpg">
         {% else %}
-          <img src="/t/wom/public/img/wom/early-big.jpg">
+          <img src="/t/pwom/public/img/wom/early-big.jpg">
         {% endif %}
       </a>
       <div class="content">
@@ -74,7 +87,7 @@ nami w codziennym pielgrzymowaniu w Królestwie.
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/woh-big.jpg">
         {% else %}
-          <img src="/t/wom/public/img/wom/woh-big.jpg">
+          <img src="/t/pwom/public/img/wom/woh-big.jpg">
         {% endif %}
       </a>
       <div class="content">
@@ -88,7 +101,7 @@ nami w codziennym pielgrzymowaniu w Królestwie.
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/wot-big.jpg">
         {% else %}
-          <img src="/t/wom/public/img/wom/wot-big.jpg">
+          <img src="/t/pwom/public/img/wom/wot-big.jpg">
         {% endif %}
       </a>
       <div class="content">
@@ -102,7 +115,7 @@ nami w codziennym pielgrzymowaniu w Królestwie.
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/wok-big.jpg">
         {% else %}
-          <img src="/t/wom/public/img/wom/wok-big.jpg">
+          <img src="/t/pwom/public/img/wom/wok-big.jpg">
         {% endif %}
       </a>
       <div class="content">

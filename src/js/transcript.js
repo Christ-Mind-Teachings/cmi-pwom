@@ -16,10 +16,10 @@ import toc, {getBookId} from "./modules/_contents/toc";
 import audio from "./modules/_audio/audio";
 import about from "./modules/_about/about";
 import { noteInfo } from "./notes";
+import contact from "./modules/_forms/contact";
 
 import {setLanguage} from "www/modules/_language/lang";
 import constants from "./constants";
-//setLanguage(constants);
 
 $(document).ready(() => {
 
@@ -30,6 +30,7 @@ $(document).ready(() => {
   about.initialize();
   initNotes(noteInfo);
   setRuntimeEnv();
+  contact.initialize("droga-mistrzostwa-kontakt");
 
   loadConfig(getBookId())
     .then((result) => {
