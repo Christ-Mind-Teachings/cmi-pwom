@@ -16,7 +16,8 @@ czy św.Faustynę i wielu innych. Kolejnym z etapów była  *Droga Mistrzostwa*,
 którą tłumaczyłem dla siebie, jako część swojej pracy z tymi naukami. Następnie
 Bóg zaaranżował skrzyżowanie się moich ścieżek z drogą Rafała i Marysi
 Wereżyńskich, co w efekcie doprowadziło do wspólnego przetłumaczenia całości i
-wydania poprzez [Wydawnictwo Pokoju Chrystusa](https://pokojchrystusa.pl)
+wydania wszystkich książek *Drogi* poprzez [Wydawnictwo Pokoju
+Chrystusa](https://pokojchrystusa.pl).
 
 Splot różnych wydarzeń inspirowanych Duchem sprawił, że Rick Mercer, twórca
 *Biblioteki Nauk Umysłu Chrustusa* zgodził się rozszerzyć Bibliotekę o polskie
