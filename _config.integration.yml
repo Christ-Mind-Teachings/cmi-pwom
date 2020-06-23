@@ -1,9 +1,9 @@
 # CMI
+
+environment: integration
 destination: "../cmi-www/_site/t/pwom"
 
 sourceId: 16
-environment: integration
-
 cmiTitle: "Nauki Umysłu Chrystusa"
 siteName: "Biblioteka Nauk Umysłu Chrystusa"
 
@@ -74,7 +74,7 @@ defaults:
       image-height: 792
       bid: "acq"
       audio: false
-
+      pnumToggle: false
   - scope:
       path: ""
       type: lj
@@ -162,6 +162,6 @@ defaults:
       audio: false
 
 exclude: [
-  bin, moved.html, deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
+  bin, standalone, moved.html, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
 ]
 

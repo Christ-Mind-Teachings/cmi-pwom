@@ -2580,11 +2580,6 @@ $(document).ready(() => {
 
     Object(www_modules_util_url__WEBPACK_IMPORTED_MODULE_0__["showParagraph"])();
     Object(_modules_bookmark_start__WEBPACK_IMPORTED_MODULE_7__["bookmarkStart"])("transcript");
-
-    if ($(".disable-paragraph-marker").length > 0) {
-      console.log("disable paragraph markers");
-      $(".toggle-paragraph-markers").eq(0).trigger("click");
-    }
   }).catch(error => {
     //report error to the user - somehow
     console.error(error);

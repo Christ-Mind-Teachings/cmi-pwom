@@ -165,8 +165,8 @@ export function transcriptDriver() {
   steps.push({
     element: "#masthead-title",
     popover: {
-      title: "Library of Christ Mind Teachings",
-      description: "This page is part of the Teachings of Christ Mind Library. Click this link to navigate to the Library's Home page.",
+      title: "Bibliotek Nauk Umysłu Chrystusa",
+      description: "Ta strona jest częścią Biblioteki Nauk Umysłu Chrystusa. Kliknij ten link, aby przejść do strony głównej Biblioteki.",
       position: "bottom"
     }
   });
@@ -174,8 +174,8 @@ export function transcriptDriver() {
   steps.push({
     element: "#src-title",
     popover: {
-      title: "Way of Mastery",
-      description: "This page comes from the Way of Mastery. Click this link to navigate to the Home page of the Way of Mastery.",
+      title: "Droga Mistrzostwa",
+      description: "Ta strona pochodzi z Drogi Mistrzostwa. Kliknij ten link, aby przejść do strony głównej Drogi Mistrzostwa.",
       position: "bottom"
     }
   });
@@ -183,8 +183,8 @@ export function transcriptDriver() {
   steps.push({
     element: "#book-title",
     popover: {
-      title: "Book Title",
-      description: "This identifies the book and chapter of the content on this page.",
+      title: "Tytuł książki",
+      description: "To identyfikuje książkę i rozdział treści z tej strony.",
       position: "bottom"
     }
   });
@@ -192,8 +192,8 @@ export function transcriptDriver() {
   steps.push({
     element: "#bookmark-dropdown-menu",
     popover: {
-      title: "Bookmarks",
-      description: "You can create a bookmark from highlighted text and associate the bookmark with one or more categories. Learn more about bookmarks by reading the documentation.",
+      title: "Zakładki",
+      description: "Możesz utworzyć zakładkę z zakreślonego tekstu i powiązać ją z jedną lub z większą liczbą kategorii.",
       position: "right"
     }
   });
@@ -202,8 +202,8 @@ export function transcriptDriver() {
     steps.push({
       element: ".search-modal-open",
       popover: {
-        title: "Search Through All Books",
-        description: "Find topics of interest by searching through all Way of Mastery books.",
+        title: "Szukaj we wszystkich książkach",
+        description: "Znajdź interesujące cię tematy, przeszukując wszystkie książki Drogi Mistrzostwa.",
         position: "bottom"
       }
     });
@@ -213,8 +213,8 @@ export function transcriptDriver() {
     steps.push({
       element: ".audio-player-toggle",
       popover: {
-        title: "Listen to the Audio",
-        description: "Click the speaker icon to display the audio player and listen along as you read.",
+        title: "Posłuchaj nagrania audio",
+        description: "Kliknij ikonę głośnika, aby wyświetlić odtwarzacz audio. Możesz czytać tekst jednocześnie go słuchając.",
         position: "bottom"
       }
     });
@@ -223,8 +223,8 @@ export function transcriptDriver() {
   steps.push({
     element: ".toggle-paragraph-markers",
     popover: {
-      title: "Show/Hide Paragraph Markers",
-      description: "Show or hide the markers that preceed each paragraph.",
+      title: "Pokaż/Ukryj znaczniki akapitów.",
+      description: "Pokaż lub ukryj znaczniki, które poprzedzają każdy akapit.",
       position: "bottom"
     }
   });
@@ -232,8 +232,8 @@ export function transcriptDriver() {
   steps.push({
     element: ".top-of-page",
     popover: {
-      title: "Go To Top of Page",
-      description: "Quickly jump to the top of the page.",
+      title: "Idź na górę strony",
+      description: "Przejdź szybko na górę strony.",
       position: "bottom"
     }
   });
@@ -242,8 +242,8 @@ export function transcriptDriver() {
   steps.push({
     element: "#contents-modal-open",
     popover: {
-      title: "Table of Contents",
-      description: "View the table of contents.",
+      title: "Spis treści",
+      description: "Zobacz spis treści.",
       position: "bottom"
     }
   });
@@ -251,8 +251,8 @@ export function transcriptDriver() {
   steps.push({
     element: ".previous-page",
     popover: {
-      title: "Previous Page",
-      description: "Go to the previous page. This will be disabled when the first page is displayed.",
+      title: "Poprzednia strona",
+      description: "Idź do poprzedniej strony. Zostanie to wyłączone, kiedy pierwsza strona zostanie wyświetlona.",
       position: "bottom"
     }
   });
@@ -260,8 +260,8 @@ export function transcriptDriver() {
   steps.push({
     element: ".next-page",
     popover: {
-      title: "Next Page",
-      description: "Go to the next page. This will be disabled when the last page is displayed.",
+      title: "Następna strona",
+      description: "Idź do następnej strony. Zostanie to wyłączone, kiedy ostatnia strona zostanie wyświetlona.",
       position: "bottom"
     }
   });
@@ -269,8 +269,8 @@ export function transcriptDriver() {
   steps.push({
       element: "#quick-links-dropdown-menu",
       popover: {
-        title: "Navigate to Another Teaching",
-        description: "Quickly jump to one of the other teachings in the Library.",
+        title: "Przejdź do kolejnych nauk",
+        description: "Szybko przejdź do kolejnych nauk Biblioteki.",
         position: "bottom"
       }
     });
@@ -278,8 +278,8 @@ export function transcriptDriver() {
   steps.push({
     element: "#about-dropdown-menu",
     popover: {
-      title: "Get Help",
-      description: "Learn how to use features of the Library.",
+      title: "Pomoc",
+      description: "Dowiedz się, jak używać funkcjonalności Biblioteki.",
       position: "bottom"
     }
   });
@@ -287,8 +287,8 @@ export function transcriptDriver() {
   steps.push({
     element: ".login-menu-option",
     popover: {
-      title: "Sign In/Sign Out",
-      description: "Create an account and sign in or sign out. When you sign in, bookmarks you create will be available on all devices you use to access the library.",
+      title: "Zaloguj się/Wyloguj się",
+      description: "Utwórz konto i zaloguj lub wyloguj się. Kiedy się zalogujesz, zakładki, które utworzysz, będą dostępne na wszystkich urządzeniach, jakich używasz do łączenia się z Biblioteką w internecie.",
       position: "bottom"
     }
   });

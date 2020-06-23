@@ -10,7 +10,7 @@
     "watch": "webpack --mode development --watch",
     "jekyll": "bundle exec jekyll s",
     "jekyll:integration": "bundle exec jekyll s --config ./_config.integration.yml",
-    "start": "npm run jekyll:integration & npm run watch",
+    "start": "npm run watch & npm run jekyll:integration",
     "d:jekyll": "JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml",
     "deploy:dev": "npm run d:webpack && npm run d:jekyll",
     "p:webpack": "webpack --mode production",

@@ -37,8 +37,8 @@ module.exports = {
   },
 
   resolve: {
-    alias: standalone_alias
-   // alias: integration_alias
+    //alias: standalone_alias
+    alias: integration_alias
   },
 
   entry: {

@@ -10,9 +10,9 @@ Witaj w Bibliotece Nauk Umysłu Chrystusa.
 Nazywam się Marek Konieczniak. *Kurs Cudów* był punktem zwrotnym na mojej
 ścieżce duchowej. Prowadzony przez Ducha Świętego, w trakcie studiowania i
 pracy z Kursem, przeszedłem przez różne wspólnoty kościoła katolickiego, co
-było dla niezmiernie ważnym etapem mego życia. Ogromną pomoc otrzymałem od
-Bożych posłańców - świętych i mistyków: Mistrza Eckharta, św.Teresę z Avilla
-czy św.Faustynę i wielu innych. Kolejnym z etapów była  *Droga Mistrzostwa*,
+było niezmiernie ważnym etapem mego życia. Ogromną pomoc otrzymałem od
+Bożych posłańców - świętych i mistyków: św.Augustyna, Mistrza Eckharta, św. Teresę z Avilla
+czy św. Faustynę i wielu, wielu innych. Kolejnym z etapów była  *Droga Mistrzostwa*,
 którą tłumaczyłem dla siebie, jako część swojej pracy z tymi naukami. Następnie
 Bóg zaaranżował skrzyżowanie się moich ścieżek z drogą Rafała i Marysi
 Wereżyńskich, co w efekcie doprowadziło do wspólnego przetłumaczenia całości i
