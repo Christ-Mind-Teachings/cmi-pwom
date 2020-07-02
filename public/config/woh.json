@@ -14,7 +14,8 @@
       "title": "Lekcja 1",
       "url": "/t/pwom/woh/l01/",
       "audio": "/woh/l01.mp3",
-      "timer": "markon46@gmail.com",
+      "timing": "/woh/l01.json",
+      "timer": "marek.konieczniak@pokojchrystusa.pl",
       "contents": [
         {
           "title": "Lekcja 1: Pytania i odpowiedzi",

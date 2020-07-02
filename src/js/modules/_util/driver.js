@@ -100,7 +100,7 @@ export function pageNavigationDriver() {
       element: ".bookmark-modal-open",
       popover: {
         title: "Lista zakładek",
-        description: "Wyświetl listę zakładek, jakie utworzyłeś i opcjonalnie możesz je filtrować tematami. Możesz szybko przejść do dowolnej zakładki. Możesz dowiedzieć się więcej o zakładkach z pomocy w języku angielskim.",
+        description: "Wyświetl listę zakładek, jakie utworzyłeś i opcjonalnie możesz je filtrować tematami. Możesz szybko przejść do dowolnej zakładki. Możesz dowiedzieć się więcej o zakładkach z instrukcji wideo.",
         position: "bottom"
       }
     },

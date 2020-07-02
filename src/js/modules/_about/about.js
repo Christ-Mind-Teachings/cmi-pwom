@@ -35,6 +35,10 @@ function createClickHandlers() {
       location.href = "/acq/video/";
     }
 
+    if ($(this).hasClass("polish-documentation")) {
+      location.href = "/t/pwom/acq/video/";
+    }
+
     if ($(this).hasClass("contact-me")) {
       location.href = "/t/pwom/acq/contact/";
     }

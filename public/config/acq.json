@@ -3,7 +3,7 @@
   "title": "Poznaj Drogę",
   "image": "/t/pwom/public/img/wom/acq-toc.jpg",
   "toc": "relaxed ordered",
-  "totalPages": 3,
+  "totalPages": 4,
   "contents": [
     {
       "title": "Ścieżka Drogi Mistrzostwa",
@@ -12,6 +12,10 @@
     {
       "title": "Sugestie do praktyki",
       "url": "/t/pwom/acq/advice/"
+    },
+    {
+      "title": "Wideo instrukcja",
+      "url": "/t/pwom/acq/video/"
     },
     {
       "title": "Kontakt",

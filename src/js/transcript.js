@@ -6,6 +6,7 @@ import auth from "www/modules/_user/netlify";
 import fb from "www/modules/_util/facebook";
 import {initTranscriptPage} from "www/modules/_page/startup";
 import {initialize as initNotes} from "www/modules/_page/notes";
+import {initialize as initVideo} from "www/modules/_video/acq";
 
 //teaching specific modules
 import {setRuntimeEnv} from "./setEnv";
@@ -31,6 +32,7 @@ $(document).ready(() => {
   initNotes(noteInfo);
   setRuntimeEnv();
   contact.initialize("droga-mistrzostwa-kontakt");
+  initVideo();
 
   loadConfig(getBookId())
     .then((result) => {

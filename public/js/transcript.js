@@ -1060,6 +1060,29 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "../cmi-www/src/js/modules/_video/acq.js":
+/*!***********************************************!*\
+  !*** ../cmi-www/src/js/modules/_video/acq.js ***!
+  \***********************************************/
+/*! exports provided: initialize */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initialize", function() { return initialize; });
+//initialize video in Get Acquainted Guide
+function initialize() {
+  //check if we're on acq.video page
+  if ($("#acq-video").length === 0) {
+    return;
+  } //embed all videos on page
+
+
+  $(".ui.embed").embed();
+}
+
+/***/ }),
+
 /***/ "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js!../cmi-audio/dist/capture/capture.css":
 /*!*****************************************************************************************************************************************!*\
   !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js!../cmi-audio/dist/capture/capture.css ***!
@@ -2527,19 +2550,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var www_modules_util_facebook__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! www/modules/_util/facebook */ "../cmi-www/src/js/modules/_util/facebook.js");
 /* harmony import */ var www_modules_page_startup__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! www/modules/_page/startup */ "../cmi-www/src/js/modules/_page/startup.js");
 /* harmony import */ var www_modules_page_notes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! www/modules/_page/notes */ "../cmi-www/src/js/modules/_page/notes.js");
-/* harmony import */ var _setEnv__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./setEnv */ "./src/js/setEnv.js");
-/* harmony import */ var _modules_config_config__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/_config/config */ "./src/js/modules/_config/config.js");
-/* harmony import */ var _modules_bookmark_start__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/_bookmark/start */ "./src/js/modules/_bookmark/start.js");
-/* harmony import */ var _modules_search_search__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/_search/search */ "./src/js/modules/_search/search.js");
-/* harmony import */ var _modules_contents_toc__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/_contents/toc */ "./src/js/modules/_contents/toc.js");
-/* harmony import */ var _modules_audio_audio__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/_audio/audio */ "./src/js/modules/_audio/audio.js");
-/* harmony import */ var _modules_about_about__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/_about/about */ "./src/js/modules/_about/about.js");
-/* harmony import */ var _notes__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./notes */ "./src/js/notes.js");
-/* harmony import */ var _modules_forms_contact__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./modules/_forms/contact */ "./src/js/modules/_forms/contact.js");
-/* harmony import */ var www_modules_language_lang__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! www/modules/_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
+/* harmony import */ var www_modules_video_acq__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! www/modules/_video/acq */ "../cmi-www/src/js/modules/_video/acq.js");
+/* harmony import */ var _setEnv__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./setEnv */ "./src/js/setEnv.js");
+/* harmony import */ var _modules_config_config__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/_config/config */ "./src/js/modules/_config/config.js");
+/* harmony import */ var _modules_bookmark_start__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/_bookmark/start */ "./src/js/modules/_bookmark/start.js");
+/* harmony import */ var _modules_search_search__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/_search/search */ "./src/js/modules/_search/search.js");
+/* harmony import */ var _modules_contents_toc__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/_contents/toc */ "./src/js/modules/_contents/toc.js");
+/* harmony import */ var _modules_audio_audio__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/_audio/audio */ "./src/js/modules/_audio/audio.js");
+/* harmony import */ var _modules_about_about__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./modules/_about/about */ "./src/js/modules/_about/about.js");
+/* harmony import */ var _notes__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./notes */ "./src/js/notes.js");
+/* harmony import */ var _modules_forms_contact__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./modules/_forms/contact */ "./src/js/modules/_forms/contact.js");
+/* harmony import */ var www_modules_language_lang__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! www/modules/_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
 /* eslint no-console: off */
 //common modules
+
 
 
 
@@ -2558,28 +2583,29 @@ __webpack_require__.r(__webpack_exports__);
 
 
 $(document).ready(() => {
-  Object(www_modules_language_lang__WEBPACK_IMPORTED_MODULE_14__["setLanguage"])(_constants__WEBPACK_IMPORTED_MODULE_15__["default"]);
+  Object(www_modules_language_lang__WEBPACK_IMPORTED_MODULE_15__["setLanguage"])(_constants__WEBPACK_IMPORTED_MODULE_16__["default"]);
   Object(www_modules_page_startup__WEBPACK_IMPORTED_MODULE_3__["initTranscriptPage"])();
   www_modules_user_netlify__WEBPACK_IMPORTED_MODULE_1__["default"].initialize();
   www_modules_util_facebook__WEBPACK_IMPORTED_MODULE_2__["default"].initialize();
-  _modules_about_about__WEBPACK_IMPORTED_MODULE_11__["default"].initialize();
-  Object(www_modules_page_notes__WEBPACK_IMPORTED_MODULE_4__["initialize"])(_notes__WEBPACK_IMPORTED_MODULE_12__["noteInfo"]);
-  Object(_setEnv__WEBPACK_IMPORTED_MODULE_5__["setRuntimeEnv"])();
-  _modules_forms_contact__WEBPACK_IMPORTED_MODULE_13__["default"].initialize("droga-mistrzostwa-kontakt");
-  Object(_modules_config_config__WEBPACK_IMPORTED_MODULE_6__["loadConfig"])(Object(_modules_contents_toc__WEBPACK_IMPORTED_MODULE_9__["getBookId"])()).then(result => {
-    _modules_search_search__WEBPACK_IMPORTED_MODULE_8__["default"].initialize();
+  _modules_about_about__WEBPACK_IMPORTED_MODULE_12__["default"].initialize();
+  Object(www_modules_page_notes__WEBPACK_IMPORTED_MODULE_4__["initialize"])(_notes__WEBPACK_IMPORTED_MODULE_13__["noteInfo"]);
+  Object(_setEnv__WEBPACK_IMPORTED_MODULE_6__["setRuntimeEnv"])();
+  _modules_forms_contact__WEBPACK_IMPORTED_MODULE_14__["default"].initialize("droga-mistrzostwa-kontakt");
+  Object(www_modules_video_acq__WEBPACK_IMPORTED_MODULE_5__["initialize"])();
+  Object(_modules_config_config__WEBPACK_IMPORTED_MODULE_7__["loadConfig"])(Object(_modules_contents_toc__WEBPACK_IMPORTED_MODULE_10__["getBookId"])()).then(result => {
+    _modules_search_search__WEBPACK_IMPORTED_MODULE_9__["default"].initialize();
     /*
       result of 0 indicates no contents config found
       - toc, and audio depend on config file
     */
 
     if (result !== 0) {
-      _modules_contents_toc__WEBPACK_IMPORTED_MODULE_9__["default"].initialize("transcript");
-      _modules_audio_audio__WEBPACK_IMPORTED_MODULE_10__["default"].initialize();
+      _modules_contents_toc__WEBPACK_IMPORTED_MODULE_10__["default"].initialize("transcript");
+      _modules_audio_audio__WEBPACK_IMPORTED_MODULE_11__["default"].initialize();
     }
 
     Object(www_modules_util_url__WEBPACK_IMPORTED_MODULE_0__["showParagraph"])();
-    Object(_modules_bookmark_start__WEBPACK_IMPORTED_MODULE_7__["bookmarkStart"])("transcript");
+    Object(_modules_bookmark_start__WEBPACK_IMPORTED_MODULE_8__["bookmarkStart"])("transcript");
   }).catch(error => {
     //report error to the user - somehow
     console.error(error);
