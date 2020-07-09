@@ -2130,6 +2130,7 @@ __webpack_require__.r(__webpack_exports__);
   share: "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest/share",
   acol: "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest/acol/access",
   user: "https://93e93isn03.execute-api.us-east-1.amazonaws.com/latest/user",
+  quote: "https://4pu1259y54.execute-api.us-east-1.amazonaws.com/latest",
   audit: "https://93e93isn03.execute-api.us-east-1.amazonaws.com/latest",
   topicsEndPoint: "https://93e93isn03.execute-api.us-east-1.amazonaws.com/latest",
   bookmarkApi: "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest"
@@ -3414,17 +3415,21 @@ function buildBookmarkListFromServer(response, keyInfo) {
   return bookmarks;
 }
 /*
-  Persist annotation
-    - in local storage and to server if user is signed in
+  Persist annotation in dynamodb
 
-  args: annotation
+  args pageKey and addToLocalStorage are passed by topicmanager.js, otherwise
+  they are not used.
 */
 
 
-function postAnnotation(annotation) {
+function postAnnotation(annotation, pageKey, addToLocalStorage = true) {
   //console.log("annotation: ", annotation);
-  const pageKey = teaching.keyInfo.genPageKey();
-  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])(); //the annotation creation data; aka annotationId, aid
+  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])();
+
+  if (!pageKey) {
+    pageKey = teaching.keyInfo.genPageKey();
+  } //the annotation creation data; aka annotationId, aid
+
 
   let now = Date.now(); //post to server
 
@@ -3434,14 +3439,23 @@ function postAnnotation(annotation) {
 
     if (serverAnnotation.selectedText) {
       delete serverAnnotation.selectedText.wrap;
+    } //modified is added by topicmgr.js
+
+
+    if (serverAnnotation.modified) {
+      delete serverAnnotation.modified;
+    } //selectedText is already stringified when called by topicmgr.js
+
+
+    if (typeof serverAnnotation.selectedText !== "string") {
+      if (serverAnnotation.selectedText && !serverAnnotation.selectedText.aid) {
+        serverAnnotation.selectedText.aid = now.toString(10);
+      } //convert selectedText to JSON
+
+
+      serverAnnotation.selectedText = JSON.stringify(serverAnnotation.selectedText);
     }
 
-    if (serverAnnotation.selectedText && !serverAnnotation.selectedText.aid) {
-      serverAnnotation.selectedText.aid = now.toString(10);
-    } //convert selectedText to JSON
-
-
-    serverAnnotation.selectedText = JSON.stringify(serverAnnotation.selectedText);
     let postBody = {
       userId: userInfo.userId,
       bookmarkId: teaching.keyInfo.genParagraphKey(serverAnnotation.rangeStart, pageKey),
@@ -3453,10 +3467,10 @@ function postAnnotation(annotation) {
       if (data.data.message !== "OK") {
         console.error("not OK message: %s", data.data.message);
         toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error(data.data.message);
-      } else {
-        //store locally
-        storeAnnotation(annotation, now);
-      }
+      } //store locally
+      else if (addToLocalStorage) {
+          storeAnnotation(annotation, now);
+        }
     }).catch(err => {
       console.error(`Error saving annotation: ${err}`);
       toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_10__["getString"])("error:e1")); //if error and this is a new annotation we need to remove the highlight from the page
@@ -7274,11 +7288,12 @@ function __lang(strings, ...values) {
 /*!************************************************!*\
   !*** ../cmi-www/src/js/modules/_link/setup.js ***!
   \************************************************/
-/*! exports provided: getLinkHref, createLinkListener */
+/*! exports provided: getUrl, getLinkHref, createLinkListener */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getUrl", function() { return getUrl; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getLinkHref", function() { return getLinkHref; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createLinkListener", function() { return createLinkListener; });
 const {
@@ -7355,7 +7370,6 @@ function getUrl(source, key) {
 
   return url;
 }
-
 function getLinkHref(link) {
   let url = getUrl(link.desc.source, link.key);
 
@@ -7596,7 +7610,9 @@ function initStickyMenu() {
 
   $(".main.menu  .ui.dropdown").dropdown({
     on: "hover"
-  });
+  }); // enable tabs on source pages
+
+  $(".source-features > .menu .item").tab();
 }
 function initAnimation(selector = "[data-book]") {
   let delay = 0.2;
@@ -9203,9 +9219,9 @@ __webpack_require__.r(__webpack_exports__);
 const status = {
   lj: "Tue Jun 16 17:50:09 HST 2020",
   wos: "Tue Jun 16 17:52:44 HST 2020",
-  woh: "Mon Jun 29 11:01:56 HST 2020",
-  wot: "Tue Jun 16 17:56:59 HST 2020",
-  wok: "Tue Jun 16 17:57:23 HST 2020",
+  woh: "Sun Jul  5 22:31:36 HST 2020",
+  wot: "Tue Jul  7 16:30:14 HST 2020",
+  wok: "Wed Jul  8 22:27:03 HST 2020",
   early: "Mon Jun 22 13:10:53 HST 2020",
   acq: "Mon Jun 29 23:12:23 HST 2020"
 };

@@ -12,97 +12,131 @@
     {
       "title": "Lekcja 1",
       "audio": "/wot/l01.mp3",
+      "timing": "/wot/l01.json",
       "url": "/t/pwom/wot/l01/",
+      "timer": "anettadylewska@interia.pl",
       "contents": [
         {
           "title": "Lekcja 1: Pytania i odpowiedzi",
           "audio": "/wot/l01qa.mp3",
-          "url": "/t/pwom/wot/l01/l01qa/"
+          "timing": "/wot/l01qa.json",
+          "url": "/t/pwom/wot/l01/l01qa/",
+          "timer": "anettadylewska@interia.pl"
         }
       ]
     },
     {
       "title": "Lekcja 2",
       "audio": "/wot/l02.mp3",
-      "url": "/t/pwom/wot/l02/"
+      "timing": "/wot/l02.json",
+      "url": "/t/pwom/wot/l02/",
+      "timer": "anettadylewska@interia.pl"
     },
     {
       "title": "Lekcja 3",
       "audio": "/wot/l03.mp3",
-      "url": "/t/pwom/wot/l03/"
+      "timing": "/wot/l03.json",
+      "url": "/t/pwom/wot/l03/",
+      "timer": "anettadylewska@interia.pl"
     },
     {
       "title": "Lekcja 4",
       "audio": "/wot/l04.mp3",
-      "url": "/t/pwom/wot/l04/"
+      "timing": "/wot/l04.json",
+      "url": "/t/pwom/wot/l04/",
+      "timer": "anettadylewska@interia.pl"
     },
     {
       "title": "Lekcja 5",
       "audio": "/wot/l05.mp3",
-      "url": "/t/pwom/wot/l05/"
+      "timing": "/wot/l05.json",
+      "url": "/t/pwom/wot/l05/",
+       "timer": "karina64@wp.pl"
     },
     {
       "title": "Lekcja 6",
       "audio": "/wot/l06.mp3",
+      "timing": "/wot/l06.json",
       "url": "/t/pwom/wot/l06/",
+      "timer": "karina64@wp.pl",
       "contents": [
         {
           "title": "Lekcja 6: Pytania i odpowiedzi",
           "audio": "/wot/l06qa.mp3",
-          "url": "/t/pwom/wot/l06/l06qa/"
+          "timing": "/wot/l06qa.json",
+          "url": "/t/pwom/wot/l06/l06qa/",
+           "timer": "karina64@wp.pl"
         }
       ]
     },
     {
       "title": "Lekcja 7",
       "audio": "/wot/l07.mp3",
+      "timing": "/wot/l07.json",
       "url": "/t/pwom/wot/l07/",
+      "timer": "karina64@wp.pl",
       "contents": [
         {
           "title": "Lekcja 7: Pytania i odpowiedzi",
           "audio": "/wot/l07qa.mp3",
-          "url": "/t/pwom/wot/l07/l07qa/"
+          "timing": "/wot/l07qa.json",
+          "url": "/t/pwom/wot/l07/l07qa/",
+          "timer": "karina64@wp.pl"
         }
       ]
     },
     {
       "title": "Lekcja 8",
       "audio": "/wot/l08.mp3",
-      "url": "/t/pwom/wot/l08/"
+      "timing": "/wot/l08.json",
+      "url": "/t/pwom/wot/l08/",
+      "timer": "karina64@wp.pl"
     },
     {
       "title": "Lekcja 9",
       "audio": "/wot/l09.mp3",
       "url": "/t/pwom/wot/l09/",
+      "timing": "/wot/l09.json",
+      "timer": "anettadylewska@interia.pl",
       "contents": [
         {
           "title": "Lekcja 9: Pytania i odpowiedzi",
           "audio": "/wot/l09qa.mp3",
-          "url": "/t/pwom/wot/l09/l09qa/"
+          "timing": "/wot/l09qa.json",
+          "url": "/t/pwom/wot/l09/l09qa/",
+          "timer": "anettadylewska@interia.pl"
         }
       ]
     },
     {
       "title": "Lekcja 10",
       "audio": "/wot/l10.mp3",
-      "url": "/t/pwom/wot/l10/"
+      "timing": "/wot/l10.json",
+      "url": "/t/pwom/wot/l10/",
+      "timer": "anettadylewska@interia.pl"
     },
     {
       "title": "Lekcja 11",
       "audio": "/wot/l11.mp3",
+      "timing": "/wot/l11.json",
       "url": "/t/pwom/wot/l11/",
+      "timer": "anettadylewska@interia.pl",
       "contents": [
         {
           "title": "Lekcja 11: Pytania i odpowiedzi",
           "audio": "/wot/l11qa.mp3",
-          "url": "/t/pwom/wot/l11/l11qa/"
+          "timing": "/wot/l11qa.json",
+          "url": "/t/pwom/wot/l11/l11qa/",
+          "timer": "anettadylewska@interia.pl"
         }
       ]
     },
     {
       "title": "Lekcja 12",
       "audio": "/wot/l12.mp3",
-      "url": "/t/pwom/wot/l12/"
+      "timing": "/wot/l12.json",
+      "url": "/t/pwom/wot/l12/",
+      "timer": "anettadylewska@interia.pl"
     }
   ]
 }

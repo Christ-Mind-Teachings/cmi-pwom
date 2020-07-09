@@ -142,6 +142,7 @@
   margin-left: 20px;
  }
 
+/* Timing is complete, these are no longer needed.
 a.item.__timing::after {
   content: " 🕙";
 }
@@ -149,6 +150,7 @@ a.item.__timing::after {
 a.item.__timer::after {
   content: " 👤";
 }
+*/
 
 /* acq/path.md */
 .ui.header.header-blue {

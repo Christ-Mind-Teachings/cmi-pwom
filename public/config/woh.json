@@ -20,7 +20,9 @@
         {
           "title": "Lekcja 1: Pytania i odpowiedzi",
           "url": "/t/pwom/woh/l01/l01qa/",
-          "audio": "/woh/l01qa.mp3"
+          "audio": "/woh/l01qa.mp3",
+          "timing": "/woh/l01qa.json",
+          "timer": "karina64@wp.pl"
         }
       ]
     },
@@ -28,38 +30,52 @@
       "title": "Lekcja 2",
       "url": "/t/pwom/woh/l02/",
       "audio": "/woh/l02.mp3",
+      "timing": "/woh/l02.json",
+      "timer": "karina64@wp.pl",
       "contents": [
         {
           "title": "Lekcja 2: Pytania i odpowiedzi",
           "url": "/t/pwom/woh/l02/l02qa/",
-          "audio": "/woh/l01qa.mp3"
+          "audio": "/woh/l02qa.mp3",
+          "timing": "/woh/l02qa.json",
+          "timer": "karina64@wp.pl"
         }
       ]
     },
     {
       "title": "Lekcja 3",
       "url": "/t/pwom/woh/l03/",
-      "audio": "/woh/l03.mp3"
+      "audio": "/woh/l03.mp3",
+      "timing": "/woh/l03.json",
+      "timer": "karina64@wp.pl"
     },
     {
       "title": "Lekcja 4",
       "url": "/t/pwom/woh/l04/",
-      "audio": "/woh/l04.mp3"
+      "audio": "/woh/l04.mp3",
+      "timing": "/woh/l04.json",
+      "timer": "karina64@wp.pl"
     },
     {
       "title": "Lekcja 5",
       "url": "/t/pwom/woh/l05/",
-      "audio": "/woh/l05.mp3"
+      "audio": "/woh/l05.mp3",
+      "timing": "/woh/l05.json",
+      "timer": "karina64@wp.pl"
     },
     {
       "title": "Lekcja 6",
       "url": "/t/pwom/woh/l06/",
       "audio": "/woh/l06.mp3",
+      "timing": "/woh/l06.json",
+      "timer": "karina64@wp.pl",
       "contents": [
         {
           "title": "Lekcja 6: Pytania i odpowiedzi",
           "url": "/t/pwom/woh/l06/l06qa/",
-          "audio": "/woh/l06qa.mp3"
+          "timing": "/woh/l06qa.json",
+          "audio": "/woh/l06qa.mp3",
+          "timer": "karina64@wp.pl"
         }
       ]
     },
@@ -67,11 +83,15 @@
       "title": "Lekcja 7",
       "url": "/t/pwom/woh/l07/",
       "audio": "/woh/l07.mp3",
+      "timing": "/woh/l07.json",
+      "timer": "karina64@wp.pl",
       "contents": [
         {
           "title": "Lekcja 7: Pytania i odpowiedzi",
           "url": "/t/pwom/woh/l07/l07qa/",
-          "audio": "/woh/l07qa.mp3"
+          "audio": "/woh/l07qa.mp3",
+          "timing": "/woh/l07qa.json",
+          "timer": "karina64@wp.pl"
         }
       ]
     },
@@ -79,22 +99,31 @@
       "title": "Lekcja 8",
       "url": "/t/pwom/woh/l08/",
       "audio": "/woh/l08.mp3",
+      "timing": "/woh/l08.json",
+      "timer": "karina64@wp.pl",
       "contents": [
         {
           "title": "Lekcja 8: Pytania i odpowiedzi",
           "url": "/t/pwom/woh/l08/l08qa/",
-          "audio": "/woh/l08qa.mp3"
+          "audio": "/woh/l08qa.mp3",
+          "timing": "/woh/l08qa.json",
+          "timer": "karina64@wp.pl"
         }
       ]
     },
     {
       "title": "Lekcja 9",
       "url": "/t/pwom/woh/l09/",
+      "timing": "/woh/l09.json",
       "audio": "/woh/l09.mp3",
+      "timer": "karina64@wp.pl",
       "contents": [
         {
           "title": "Lekcja 9: Pytania i odpowiedzi",
-          "url": "/t/pwom/woh/l09/l09qa/"
+          "audio": "/woh/l09qa.mp3",
+          "timing": "/woh/l09qa.json",
+          "url": "/t/pwom/woh/l09/l09qa/",
+          "timer": "karina64@wp.pl"
         }
       ]
     },
@@ -102,11 +131,15 @@
       "title": "Lekcja 10",
       "url": "/t/pwom/woh/l10/",
       "audio": "/woh/l10.mp3",
+      "timing": "/woh/l10.json",
+      "timer": "karina64@wp.pl",
       "contents": [
         {
           "title": "Lekcja 10: Pytania i odpowiedzi",
           "audio": "/woh/l10qa.mp3",
-          "url": "/t/pwom/woh/l10/l10qa/"
+          "url": "/t/pwom/woh/l10/l10qa/",
+          "timing": "/woh/l10qa.json",
+          "timer": "karina64@wp.pl"
         }
       ]
     },
@@ -114,23 +147,31 @@
       "title": "Lekcja 11",
       "audio": "/woh/l11.mp3",
       "url": "/t/pwom/woh/l11/",
+      "timing": "/woh/l11.json",
+      "timer": "karina64@wp.pl",
       "contents": [
         {
           "title": "Lekcja 11: Pytania i odpowiedzi",
           "audio": "/woh/l11qa.mp3",
-          "url": "/t/pwom/woh/l11/l11qa/"
+          "timing": "/woh/l11qa.json",
+          "url": "/t/pwom/woh/l11/l11qa/",
+          "timer": "karina64@wp.pl"
         }
       ]
     },
     {
       "title": "Lekcja 12",
       "audio": "/woh/l12.mp3",
+      "timing": "/woh/l12.json",
       "url": "/t/pwom/woh/l12/",
+      "timer": "karina64@wp.pl",
       "contents": [
         {
           "title": "Lekcja 12: Pytania i odpowiedzi",
           "audio": "/woh/l12qa.mp3",
-          "url": "/t/pwom/woh/l12/l12qa/"
+          "timing": "/woh/l12qa.json",
+          "url": "/t/pwom/woh/l12/l12qa/",
+          "timer": "karina64@wp.pl"
         }
       ]
     }

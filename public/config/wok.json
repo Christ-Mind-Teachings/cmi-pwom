@@ -12,15 +12,22 @@
     {
       "title": "Lekcja 1",
       "audio": "/wok/l01.mp3",
+      "timing": "/wok/l01.json",
+      "timer": "karina64@wp.pl",
       "url": "/t/pwom/wok/l01/"
     },
     {
       "title": "Lekcja 2",
       "audio": "/wok/l02.mp3",
+      "timing": "/wok/l02.json",
+      "note": "Incomplete data, there is data for 80 of 81 paragraphs",
+      "timer": "karina64@wp.pl",
       "url": "/t/pwom/wok/l02/",
       "contents": [
         {
           "title": "Lekcja 2. Pytania i odpowiedzi",
+          "timer": "karina64@wp.pl",
+          "timing": "/wok/l02qa.json",
           "audio": "/wok/l02qa.mp3",
           "url": "/t/pwom/wok/l02/l02qa/"
         }
@@ -29,11 +36,15 @@
     {
       "title": "Lekcja 3",
       "audio": "/wok/l03.mp3",
+      "timing": "/wok/l03.json",
+      "timer": "karina64@wp.pl",
       "url": "/t/pwom/wok/l03/",
       "contents": [
         {
           "title": "Lekcja 3. Pytania i odpowiedzi",
           "audio": "/wok/l03qa.mp3",
+          "timing": "/wok/l03qa.json",
+          "timer": "karina64@wp.pl",
           "url": "/t/pwom/wok/l03/l03qa/"
         }
       ]
@@ -41,10 +52,14 @@
     {
       "title": "Lekcja 4",
       "audio": "/wok/l04.mp3",
+      "timing": "/wok/l04.json",
+      "timer": "karina64@wp.pl",
       "url": "/t/pwom/wok/l04/",
       "contents": [
         {
           "title": "Lekcja 4. Pytania i odpowiedzi",
+          "timer": "karina64@wp.pl",
+          "timing": "/wok/l04qa.json",
           "audio": "/wok/l04qa.mp3",
           "url": "/t/pwom/wok/l04/l04qa/"
         }
@@ -53,16 +68,22 @@
     {
       "title": "Lekcja 5",
       "audio": "/wok/l05.mp3",
+      "timing": "/wok/l05.json",
+      "timer": "karina64@wp.pl",
       "url": "/t/pwom/wok/l05/"
     },
     {
       "title": "Lekcja 6",
       "audio": "/wok/l06.mp3",
+      "timing": "/wok/l06.json",
+      "timer": "karina64@wp.pl",
       "url": "/t/pwom/wok/l06/",
       "contents": [
         {
           "title": "Lekcja 6. Pytania i odpowiedzi",
           "audio": "/wok/l06qa.mp3",
+          "timing": "/wok/l06qa.json",
+          "timer": "karina64@wp.pl",
           "url": "/t/pwom/wok/l06/l06qa/"
         }
       ]
@@ -70,26 +91,36 @@
     {
       "title": "Lekcja 7",
       "audio": "/wok/l07.mp3",
+      "timing": "/wok/l07.json",
+      "timer": "karina64@wp.pl",
       "url": "/t/pwom/wok/l07/"
     },
     {
       "title": "Lekcja 8",
       "audio": "/wok/l08.mp3",
+      "timing": "/wok/l08.json",
+      "timer": "karina64@wp.pl",
       "url": "/t/pwom/wok/l08/"
     },
     {
       "title": "Lekcja 9",
       "audio": "/wok/l09.mp3",
+      "timing": "/wok/l09.json",
+      "timer": "karina64@wp.pl",
       "url": "/t/pwom/wok/l09/"
     },
     {
       "title": "Lekcja 10",
       "audio": "/wok/l10.mp3",
+      "timing": "/wok/l10.json",
       "url": "/t/pwom/wok/l10/",
+      "timer": "anettadylewska@interia.pl",
       "contents": [
         {
           "title": "Lekcja 10. Pytania i odpowiedzi",
           "audio": "/wok/l10qa.mp3",
+          "timing": "/wok/l10qa.json",
+          "timer": "anettadylewska@interia.pl",
           "url": "/t/pwom/wok/l10/l10qa/"
         }
       ]
@@ -97,7 +128,9 @@
     {
       "title": "Lekcja 11",
       "audio": "/wok/l11.mp3",
-      "url": "/t/pwom/wok/l11/"
+      "timing": "/wok/l11.json",
+      "url": "/t/pwom/wok/l11/",
+      "timer": "anettadylewska@interia.pl"
     }
   ]
 }
