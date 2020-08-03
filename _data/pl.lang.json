@@ -91,6 +91,13 @@
     "t10": "Poprzednia strona",
     "t11": "Następna strona",
     "t12": "Kopiuj klucz strony"
+  },
+  "quotes": {
+    "q1": "Udostępnij mailem",
+    "q2": "Share to Facebook",
+    "q3": "Display Another Quote",
+    "q4": "From",
+    "q5": "Prześlij"
   }
 }
 

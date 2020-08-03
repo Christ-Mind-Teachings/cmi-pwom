@@ -12,6 +12,9 @@ let title = "Droga Mistrzostwa";
 let bucket = "assets.christmind.info";
 
 export default {
+  sourceId: 16,
+  quoteManagerId: "3f7f14c0d7a13eb2e5a05f3c981f33fb",
+  quoteManagerName: "CMI",
   env: env,                      //sa or prod, sa=standalone
   lang: lang,
   sid: sid,

@@ -1029,37 +1029,6 @@ var require;var require;/*!
 
 /***/ }),
 
-/***/ "../cmi-www/src/js/modules/_util/facebook.js":
-/*!***************************************************!*\
-  !*** ../cmi-www/src/js/modules/_util/facebook.js ***!
-  \***************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/*
-  facebook sdk support
-*/
-/* harmony default export */ __webpack_exports__["default"] = ({
-  initialize: () => {
-    $.ajax({
-      url: "//connect.facebook.net/en_US/sdk.js",
-      dataType: "script",
-      cache: true,
-      success: function () {
-        FB.init({
-          appId: "448658485318107",
-          xfbml: true,
-          version: "v3.0"
-        });
-      }
-    });
-  }
-});
-
-/***/ }),
-
 /***/ "../cmi-www/src/js/modules/_video/acq.js":
 /*!***********************************************!*\
   !*** ../cmi-www/src/js/modules/_video/acq.js ***!

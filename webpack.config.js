@@ -1,6 +1,7 @@
 const webpack = require("webpack");
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 //const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const standalone_alias = {
@@ -74,8 +75,9 @@ module.exports = {
     ]
   },
   plugins: [
-    new MiniCssExtractPlugin({filename: 'me-styles.css'})
-    //, new BundleAnalyzerPlugin()
+    new MiniCssExtractPlugin({filename: 'me-styles.css'}),
+    new CleanWebpackPlugin()
+    //new BundleAnalyzerPlugin({analyzerPort: 8816})
   ]
 };
 

@@ -90,5 +90,12 @@
     "t10": "Previous Page",
     "t11": "Next Page",
     "t12": "Copy Page Key"
+  },
+  "quotes": {
+    "q1": "Share by Email",
+    "q2": "Share to Facebook",
+    "q3": "Display Another Quote",
+    "q4": "From",
+    "q5": "Send Mail"
   }
 }

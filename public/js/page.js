@@ -155,6 +155,605 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "../cmi-www/src/js/modules/_db/quote.js":
+/*!**********************************************!*\
+  !*** ../cmi-www/src/js/modules/_db/quote.js ***!
+  \**********************************************/
+/*! exports provided: getQuoteIds, getQuote */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getQuoteIds", function() { return getQuoteIds; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getQuote", function() { return getQuote; });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
+
+
+
+/*
+ * Get all quoteId's for userId and key
+ *  where key is the first two or more positions of the page key
+ *  ie, 10: WOM, etc
+ */
+
+function getQuoteIds(userId, key) {
+  let url = `${_globals__WEBPACK_IMPORTED_MODULE_2__["default"].quote}/getKeys/${userId}/${key}`;
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(url).then(resp => {
+      resolve(resp.data.response);
+      return;
+    }).catch(err => {
+      console.error(err);
+      reject(err);
+      return;
+    });
+  });
+}
+/*
+ * Get Quote by userId and quoteId
+ */
+
+function getQuote(userId, quoteId) {
+  let url = `${_globals__WEBPACK_IMPORTED_MODULE_2__["default"].quote}/quote/${userId}/${quoteId}`;
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(url).then(resp => {
+      resolve(resp.data.quote);
+    }).catch(err => {
+      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error("Network error: failed to get quote");
+      reject(err);
+    });
+  });
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_topics/events.js":
+/*!***************************************************!*\
+  !*** ../cmi-www/src/js/modules/_topics/events.js ***!
+  \***************************************************/
+/*! exports provided: initQuoteDisplay */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initQuoteDisplay", function() { return initQuoteDisplay; });
+/* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var _randomQuote__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./randomQuote */ "../cmi-www/src/js/modules/_topics/randomQuote.js");
+/* harmony import */ var _share__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./share */ "../cmi-www/src/js/modules/_topics/share.js");
+/* harmony import */ var _db_quote__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_db/quote */ "../cmi-www/src/js/modules/_db/quote.js");
+/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles */ "../cmi-www/src/js/modules/_topics/styles.js");
+
+
+
+
+
+const quoteMessageSelector = "#quote-modal-message";
+let currentQuote;
+
+function showLoading() {
+  $("#quote-modal-more").addClass("loading");
+}
+
+function cancelLoading() {
+  $("#quote-modal-more").removeClass("loading");
+}
+
+function generateOption(item) {
+  let userInfo = item.userInfo;
+  return `
+      <option value="${userInfo.userId}">${userInfo.userName}</option>
+  `;
+}
+
+function buildSelectList(quoteArray) {
+  return `
+    <label>Quote Sources</label>
+    <select name="quote-source-list" id="user-quote-source-select" class="search ui dropdown">
+      ${quoteArray.map(item => `${generateOption(item)}`).join("")}
+    </select>
+  `;
+}
+
+function showQuote(q) {
+  //persist for shareByEmail
+  currentQuote = q;
+  let quote = q.quote;
+
+  if (!q.quote) {
+    cancelLoading();
+    return;
+  }
+
+  if (!quote.includes("<p>")) {
+    quote = `<p>${quote}</p>`;
+  }
+
+  let html = `
+    <blockquote>
+      ${quote}
+      <footer>
+        <a href="${q.url}" title="Go to the source" target="_blank">
+          ~ ${q.citation}
+        </a>
+      </footer>
+    </blockquote>
+    `;
+  $("#quote-modal-content").html(html).attr("class", `content ${Object(_styles__WEBPACK_IMPORTED_MODULE_4__["getRandomStyle"])()}`);
+  cancelLoading();
+}
+
+function initSelect(qm) {
+  let select = buildSelectList(qm.getInternalQuoteArray());
+  $("#user-quote-select").html(select);
+  $("#user-quote-source-select").on("change", function (e) {
+    qm.use($(this).val());
+  });
+}
+
+function loadQuotes(qm, constants, userInfo) {
+  let systemQuoteIds = Object(_db_quote__WEBPACK_IMPORTED_MODULE_3__["getQuoteIds"])(constants.quoteManagerId, constants.sourceId);
+
+  if (userInfo && userInfo.userId !== constants.quoteManagerId) {
+    let userQuoteIds = Object(_db_quote__WEBPACK_IMPORTED_MODULE_3__["getQuoteIds"])(userInfo.userId, constants.sourceId);
+    Promise.all([systemQuoteIds, userQuoteIds]).then(responses => {
+      let q0 = new _randomQuote__WEBPACK_IMPORTED_MODULE_1__["RandomQuotes"](constants.quoteManagerName, constants.quoteManagerId, constants.sourceId);
+      q0.qIds = responses[0];
+      qm.addQuotes(q0);
+
+      if (responses[1].length > 0) {
+        let q1 = new _randomQuote__WEBPACK_IMPORTED_MODULE_1__["RandomQuotes"](userInfo.name, userInfo.userId, constants.sourceId);
+        q1.qIds = responses[1];
+        qm.addQuotes(q1); //use system quotes to start
+
+        qm.use(constants.quoteManagerId); //build quote select list
+
+        initSelect(qm);
+      }
+    });
+  } else {
+    systemQuoteIds.then(ids => {
+      let q = new _randomQuote__WEBPACK_IMPORTED_MODULE_1__["RandomQuotes"](constants.quoteManagerName, constants.quoteManagerId, constants.sourceId);
+      q.qIds = ids;
+      qm.addQuotes(q);
+    });
+  }
+
+  return qm;
+}
+
+function initQuoteDisplay(selector, constants) {
+  let qm = new _randomQuote__WEBPACK_IMPORTED_MODULE_1__["QuoteManager"](); //must be signed in to share
+
+  let userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_0__["getUserInfo"])(); //quote modal settings
+
+  $("#quote-modal").modal({
+    allowMultiple: true,
+    dimmerSettings: {
+      opacity: 0.3
+    },
+    blurring: true,
+    autofocus: false,
+    centered: true,
+    duration: 400,
+    closable: false,
+    observeChanges: true,
+    transition: "fade up",
+    // Share by email
+    onApprove: function () {
+      return false;
+    },
+    //More button
+    onDeny: function () {
+      return true;
+    }
+  }); //if we're not in development add share to facebook button
+
+  if (location.origin.includes("christmind")) {
+    $("#quote-modal-facebook").removeClass("hidden");
+  } //share available only to signed in users
+
+
+  if (userInfo) {
+    //initialize quote share
+    Object(_share__WEBPACK_IMPORTED_MODULE_2__["initShareByEmail"])(constants); //share modal settings
+
+    $("#share-modal").modal({
+      allowMultiple: true,
+      dimmerSettings: {
+        opacity: 0.3
+      },
+      blurring: true,
+      centered: true,
+      duration: 400,
+      closable: false,
+      transition: "fade up",
+      onApprove: function () {
+        console.log("send email");
+        return Object(_share__WEBPACK_IMPORTED_MODULE_2__["submitEmail"])(currentQuote);
+      },
+      onDeny: function () {
+        console.log("cancel send email");
+        return true;
+      }
+    });
+    $("#share-modal").modal("attach events", "#quote-modal-share"); //show email share button
+
+    $("#quote-modal-share").removeClass("hidden");
+  }
+
+  qm = loadQuotes(qm, constants, userInfo); //get another quote
+
+  $("#quote-modal-more").on("click", function (e) {
+    showLoading();
+    qm.getRandomQuote().then(quote => {
+      showQuote(quote);
+    });
+  }); //share quote to FB
+
+  $("#quote-modal-facebook").on("click", function (e) {
+    let q = currentQuote;
+    let options = {
+      method: "share",
+      hashtag: "#christmind",
+      quote: `${q.quote}\n${q.citation}`,
+      href: `${location.origin.includes("localhost") ? "https://www.christmind.info" : location.origin}${q.url}`
+    };
+    FB.ui(options, function () {});
+  }); //quote button click handler
+
+  $(selector).on("click", function (e) {
+    qm.getRandomQuote().then(quote => {
+      showQuote(quote);
+    });
+    $("#quote-modal").modal("show");
+    showLoading();
+  });
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_topics/message.js":
+/*!****************************************************!*\
+  !*** ../cmi-www/src/js/modules/_topics/message.js ***!
+  \****************************************************/
+/*! exports provided: displayWarning, displaySuccess */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "displayWarning", function() { return displayWarning; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "displaySuccess", function() { return displaySuccess; });
+/*
+ * Display a message in a modal. The modal must have a 
+ * <div class="ui message"></div>
+ */
+
+/*
+ * Display a warning message for duration seconds
+ */
+function displayWarning(selector, message, duration = 0) {
+  $(selector).removeClass("positive").addClass("warning").text(message);
+
+  if (duration > 0) {
+    setTimeout(() => {
+      $(selector).addClass("hidden").removeClass("warning");
+    }, duration * 1000);
+  }
+}
+/*
+ * Display a success message for duration seconds
+ */
+
+function displaySuccess(selector, message, duration = 5) {
+  $(selector).removeClass("hidden").addClass("positive").text(message);
+
+  if (duration > 0) {
+    setTimeout(() => {
+      $(selector).addClass("hidden").removeClass("positive");
+    }, duration * 1000);
+  }
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_topics/randomQuote.js":
+/*!********************************************************!*\
+  !*** ../cmi-www/src/js/modules/_topics/randomQuote.js ***!
+  \********************************************************/
+/*! exports provided: QuoteManager, RandomQuotes */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "QuoteManager", function() { return QuoteManager; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RandomQuotes", function() { return RandomQuotes; });
+/* harmony import */ var _db_quote__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_db/quote */ "../cmi-www/src/js/modules/_db/quote.js");
+
+
+function _getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+/*
+ * Manages quotes from more than one user
+ *  - Quotes of type RandomQuotes are managed
+ */
+
+
+class QuoteManager {
+  constructor() {
+    this.quotes = [];
+    this.ptr = -1;
+  }
+
+  getRandomQuote() {
+    return this.quotes[this.ptr].getRandomQuote();
+  }
+
+  getInternalQuoteArray() {
+    return this.quotes;
+  }
+
+  addQuotes(userQuotes) {
+    let length = this.quotes.push(userQuotes);
+    this.ptr = length - 1;
+  } //use quotes from userId
+
+
+  use(userId) {
+    let index = this.quotes.findIndex(q => {
+      return q.user === userId;
+    });
+
+    if (index > -1) {
+      this.ptr = index;
+    } else {
+      throw new Error(`User: ${userId} not found.`);
+    }
+  }
+
+}
+class RandomQuotes {
+  constructor(userName, userId, sourceId) {
+    this.quoteIds = [];
+    this.usedIds = [];
+    this.quotes = {};
+    this.userName = userName;
+    this.userId = userId;
+    this.sourceId = sourceId;
+  }
+
+  set qIds(idArray) {
+    this.quoteIds = idArray;
+  }
+
+  get user() {
+    return this.userId;
+  }
+
+  get userInfo() {
+    return {
+      userName: this.userName,
+      userId: this.userId
+    };
+  }
+
+  _resetUsed() {
+    this.quoteIds = this.usedIds;
+    this.usedIds = [];
+  }
+
+  markAsUsed(idx) {
+    this.usedIds.push(this.quoteIds[idx]);
+    this.quoteIds.splice(idx, 1);
+  }
+
+  getRandomQuote() {
+    return new Promise((resolve, reject) => {
+      if (this.quoteIds.length === 0) {
+        if (this.usedIds.length === 0) {
+          resolve({}); //no quotes
+
+          return;
+        }
+
+        this._resetUsed();
+      }
+
+      let idx = _getRandomInt(this.quoteIds.length);
+
+      let key = this.quoteIds[idx];
+
+      if (this.quotes[key]) {
+        this.markAsUsed(idx);
+        resolve(this.quotes[key]);
+        return;
+      }
+
+      Object(_db_quote__WEBPACK_IMPORTED_MODULE_0__["getQuote"])(this.userId, key).then(quote => {
+        this.quotes[key] = quote;
+        this.markAsUsed(idx);
+        resolve(quote);
+      });
+    });
+  }
+
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_topics/share.js":
+/*!**************************************************!*\
+  !*** ../cmi-www/src/js/modules/_topics/share.js ***!
+  \**************************************************/
+/*! exports provided: initShareByEmail, submitEmail */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initShareByEmail", function() { return initShareByEmail; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "submitEmail", function() { return submitEmail; });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
+/* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var _message__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./message */ "../cmi-www/src/js/modules/_topics/message.js");
+
+
+
+
+
+const quoteMessageSelector = "#quote-modal-message";
+const shareMessageSelector = "#share-modal .message";
+let shareInfo = {};
+let sid;
+function initShareByEmail(constants) {
+  sid = constants.sid;
+  loadEmailList();
+}
+
+function resetSendIndicator() {
+  $("#quote-modal-share").addClass("loading blue").removeClass("red");
+}
+
+function setSendSuccess() {
+  $("#quote-modal-share > i").removeClass("paper plane");
+  $("#quote-modal-share > i").addClass("thumbs up");
+  $("#quote-modal-share").removeClass("loading");
+  setTimeout(() => {
+    $("#quote-modal-share > i").removeClass("thumbs up");
+    $("#quote-modal-share > i").addClass("paper plane");
+  }, 2 * 1000);
+}
+
+function setSendFailure() {
+  $("#quote-modal-share > i").removeClass("paper plane");
+  $("#quote-modal-share > i").addClass("thumbs down");
+  $("#quote-modal-share").removeClass("loading blue").addClass("red");
+  setTimeout(() => {
+    $("#quote-modal-share > i").removeClass("thumbs down");
+    $("#quote-modal-share > i").addClass("paper plane");
+  }, 2 * 1000);
+}
+
+function submitEmail(q) {
+  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_2__["getUserInfo"])();
+  let formData = $("#email-modal-share-form").form("get values");
+
+  if (formData.mailList.length === 0 && formData.emailAddresses.length === 0) {
+    Object(_message__WEBPACK_IMPORTED_MODULE_4__["displayWarning"])(shareMessageSelector, Object(_language_lang__WEBPACK_IMPORTED_MODULE_3__["getString"])("error:e9")); //don't close email address window
+
+    return false;
+  }
+
+  shareInfo.to = "";
+
+  if (formData.mailList.length > 0) {
+    shareInfo.to = formData.mailList.join(",");
+  }
+
+  if (formData.emailAddresses.length > 0) {
+    if (shareInfo.to.length > 0) {
+      shareInfo.to = `${shareInfo.to}, ${formData.emailAddresses}`;
+    } else {
+      shareInfo.to = formData.emailAddresses;
+    }
+  }
+
+  shareInfo.senderName = userInfo.name;
+  shareInfo.senderEmail = userInfo.email;
+  shareInfo.sid = sid;
+  shareInfo.citation = q.citation;
+  shareInfo.quote = q.quote;
+  shareInfo.url = `${location.origin}${q.url}`; //console.log("shareInfo: %o", shareInfo);
+  // start loading indicator
+
+  resetSendIndicator();
+  axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(_globals__WEBPACK_IMPORTED_MODULE_1__["default"].share, shareInfo).then(response => {
+    if (response.status === 200) {
+      setSendSuccess();
+    } else {
+      setSendFailure();
+      console.log("post message; %s", response.data.message);
+    }
+  }).catch(error => {
+    setSendFailure();
+    console.error("share error: %s", error);
+  });
+  return true;
+} //generate the option element of a select statement
+
+function generateOption(item) {
+  return `<option value="${item.address}">${item.first} ${item.last}</option>`;
+}
+
+function makeMaillistSelect(maillist) {
+  return `
+    <label>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_3__["getString"])("label:listnames")}</label>
+    <select name="mailList" id="maillist-modal-address-list" multiple="" class="search ui dropdown">
+      <option value="">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_3__["getString"])("label:selectaddress")}</option>
+      ${maillist.map(item => `${generateOption(item)}`).join("")}
+    </select>
+  `;
+}
+/*
+  Called by initShareByEmail()
+  - load only when user signed in, fail silently, it's not an error
+*/
+
+
+function loadEmailList() {
+  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_2__["getUserInfo"])();
+
+  if (!userInfo) {
+    return;
+  }
+
+  let maillist = [];
+  let api = `${userInfo.userId}/maillist`;
+  axios__WEBPACK_IMPORTED_MODULE_0___default()(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/${api}`).then(response => {
+    maillist = response.data.maillist;
+    let selectHtml = makeMaillistSelect(maillist);
+    $("#maillist-modal-select").html(selectHtml);
+    $("#maillist-modal-address-list.dropdown").dropdown();
+  }).catch(err => {
+    notify.error(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_3__["getString"])("error:e10")}: ${err}`);
+  });
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_topics/styles.js":
+/*!***************************************************!*\
+  !*** ../cmi-www/src/js/modules/_topics/styles.js ***!
+  \***************************************************/
+/*! exports provided: getRandomStyle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getRandomStyle", function() { return getRandomStyle; });
+function _getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+/*
+  "carbon-fibre",
+  "dark-paths",
+  "folk-pattern",
+*/
+
+
+const styles = ["silver-diagonal", "wax-diagonal", "violet-diagonal", "double-bubble", "diamond", "full-bloom", "leaves", "terrazzo", "pow-star", "repeated-square", "triangle-mosaic"];
+function getRandomStyle() {
+  return styles[_getRandomInt(styles.length)];
+}
+
+/***/ }),
+
 /***/ "./src/js/page.js":
 /*!************************!*\
   !*** ./src/js/page.js ***!
@@ -169,15 +768,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var www_modules_page_notes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! www/modules/_page/notes */ "../cmi-www/src/js/modules/_page/notes.js");
 /* harmony import */ var www_modules_util_url__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! www/modules/_util/url */ "../cmi-www/src/js/modules/_util/url.js");
 /* harmony import */ var www_modules_language_lang__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! www/modules/_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
-/* harmony import */ var _modules_bookmark_start__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/_bookmark/start */ "./src/js/modules/_bookmark/start.js");
-/* harmony import */ var _modules_search_search__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/_search/search */ "./src/js/modules/_search/search.js");
-/* harmony import */ var _modules_contents_toc__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/_contents/toc */ "./src/js/modules/_contents/toc.js");
-/* harmony import */ var _modules_about_about__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/_about/about */ "./src/js/modules/_about/about.js");
-/* harmony import */ var _notes__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./notes */ "./src/js/notes.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
-/* harmony import */ var _setEnv__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./setEnv */ "./src/js/setEnv.js");
+/* harmony import */ var www_modules_util_facebook__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! www/modules/_util/facebook */ "../cmi-www/src/js/modules/_util/facebook.js");
+/* harmony import */ var www_modules_topics_events__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! www/modules/_topics/events */ "../cmi-www/src/js/modules/_topics/events.js");
+/* harmony import */ var _modules_bookmark_start__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/_bookmark/start */ "./src/js/modules/_bookmark/start.js");
+/* harmony import */ var _modules_search_search__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/_search/search */ "./src/js/modules/_search/search.js");
+/* harmony import */ var _modules_contents_toc__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/_contents/toc */ "./src/js/modules/_contents/toc.js");
+/* harmony import */ var _modules_about_about__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/_about/about */ "./src/js/modules/_about/about.js");
+/* harmony import */ var _notes__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./notes */ "./src/js/notes.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
+/* harmony import */ var _setEnv__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./setEnv */ "./src/js/setEnv.js");
 /* eslint no-console: off */
 //common modules
+
+
 
 
 
@@ -193,14 +796,17 @@ __webpack_require__.r(__webpack_exports__);
 
 $(document).ready(() => {
   Object(www_modules_page_startup__WEBPACK_IMPORTED_MODULE_1__["initStickyMenu"])();
-  Object(www_modules_language_lang__WEBPACK_IMPORTED_MODULE_4__["setLanguage"])(_constants__WEBPACK_IMPORTED_MODULE_10__["default"]);
-  Object(_setEnv__WEBPACK_IMPORTED_MODULE_11__["setRuntimeEnv"])();
-  Object(_modules_bookmark_start__WEBPACK_IMPORTED_MODULE_5__["bookmarkStart"])("page");
-  _modules_search_search__WEBPACK_IMPORTED_MODULE_6__["default"].initialize();
+  Object(www_modules_language_lang__WEBPACK_IMPORTED_MODULE_4__["setLanguage"])(_constants__WEBPACK_IMPORTED_MODULE_12__["default"]);
+  Object(_setEnv__WEBPACK_IMPORTED_MODULE_13__["setRuntimeEnv"])();
+  Object(_modules_bookmark_start__WEBPACK_IMPORTED_MODULE_7__["bookmarkStart"])("page");
+  _modules_search_search__WEBPACK_IMPORTED_MODULE_8__["default"].initialize();
   www_modules_user_netlify__WEBPACK_IMPORTED_MODULE_0__["default"].initialize();
-  _modules_contents_toc__WEBPACK_IMPORTED_MODULE_7__["default"].initialize("page");
-  Object(www_modules_page_notes__WEBPACK_IMPORTED_MODULE_2__["initialize"])(_notes__WEBPACK_IMPORTED_MODULE_9__["noteInfo"]);
-  _modules_about_about__WEBPACK_IMPORTED_MODULE_8__["default"].initialize();
+  _modules_contents_toc__WEBPACK_IMPORTED_MODULE_9__["default"].initialize("page");
+  Object(www_modules_page_notes__WEBPACK_IMPORTED_MODULE_2__["initialize"])(_notes__WEBPACK_IMPORTED_MODULE_11__["noteInfo"]);
+  _modules_about_about__WEBPACK_IMPORTED_MODULE_10__["default"].initialize(); //support for quote display and sharing
+
+  www_modules_util_facebook__WEBPACK_IMPORTED_MODULE_5__["default"].initialize();
+  Object(www_modules_topics_events__WEBPACK_IMPORTED_MODULE_6__["initQuoteDisplay"])("#show-quote-button", _constants__WEBPACK_IMPORTED_MODULE_12__["default"]);
   Object(www_modules_page_startup__WEBPACK_IMPORTED_MODULE_1__["initAnimation"])();
   Object(www_modules_util_url__WEBPACK_IMPORTED_MODULE_3__["showTOC"])();
 });

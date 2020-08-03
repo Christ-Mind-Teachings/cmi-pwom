@@ -21,18 +21,47 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
 </div>
 
 <div id="page-contents">
-  <div class="ui three cards">
-    <div class="card">
-      <a href="#" data-book="acq" animate class="toc-modal-open image">
-        {% if site.environment == "standalone" %}
-          <img src="/public/img/wom/acq-big.jpg">
-        {% else %}
-          <img src="/t/pwom/public/img/wom/acq-big.jpg">
-        {% endif %}
-      </a>
-      <div class="content">
-        <div class="description">
-          Dowiedz się więcej o Drodze Mistrzostwa
+  <div class="ui equal width grid source-acq-section">
+    <div class="five wide column">
+      <div class="ui card">
+        <a href="#" data-book="acq" animate class="toc-modal-open image">
+          {% if site.environment == "standalone" %}
+            <img src="/public/img/wom/acq-big.jpg">
+          {% else %}
+            <img src="/t/pwom/public/img/wom/acq-big.jpg">
+          {% endif %}
+        </a>
+        <div class="content">
+          <div class="description">
+            Dowiedz się więcej o Drodze Mistrzostwa
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column source-features">
+      <div class="ui top attached tabular menu">
+        <a class="active item" data-tab="first">Cytaty</a>
+        <a class="item" data-tab="second">Wybierz cytat</a>
+      </div>
+      <div class="ui bottom attached active tab segment" data-tab="first">
+        <div class="box">
+          <p>
+            Wybierz losowy cytat z Drogi Mistrzostwa i otwórz serce na jego przesłanie.
+          </p>
+        </div>
+      </div>
+      <div class="ui bottom attached tab segment" data-tab="second">
+        <div class="ui form">
+          <div class="fields">
+            <div class="field">
+              <label>Zainspiruj się</label>
+              <button id="show-quote-button" class="ui primary button">
+                <i class="quote left icon"></i>
+                Przeczytaj cytat
+              </button> 
+            </div>
+            <div id="user-quote-select" class="field"></div>
+          </div>
         </div>
       </div>
     </div>

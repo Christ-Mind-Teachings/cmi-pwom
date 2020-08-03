@@ -2126,6 +2126,7 @@ __webpack_require__.r(__webpack_exports__);
 */
 /* harmony default export */ __webpack_exports__["default"] = ({
   acolManager: "rmercer33+acol@gmail.com",
+  cmiUserId: "05399539cca9ac38db6db36f5c770ff1",
   sources: "/public/config/sources.json",
   share: "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest/share",
   acol: "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest/acol/access",
@@ -3425,43 +3426,49 @@ function buildBookmarkListFromServer(response, keyInfo) {
 function postAnnotation(annotation, pageKey, addToLocalStorage = true) {
   //console.log("annotation: ", annotation);
   const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])();
+  let calledByTopicMgr = true;
 
   if (!pageKey) {
     pageKey = teaching.keyInfo.genPageKey();
-  } //the annotation creation data; aka annotationId, aid
+    calledByTopicMgr = false;
+  } //the annotation creation data; aka creationDate, annotationId, aid
 
 
   let now = Date.now(); //post to server
 
   if (userInfo) {
     //this is critical, things get messed up if we don't do this
-    let serverAnnotation = lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_5___default()(annotation);
-
-    if (serverAnnotation.selectedText) {
-      delete serverAnnotation.selectedText.wrap;
-    } //modified is added by topicmgr.js
-
+    let serverAnnotation = lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_5___default()(annotation); //modified is added by topicmgr.js
 
     if (serverAnnotation.modified) {
       delete serverAnnotation.modified;
-    } //selectedText is already stringified when called by topicmgr.js
-
-
-    if (typeof serverAnnotation.selectedText !== "string") {
-      if (serverAnnotation.selectedText && !serverAnnotation.selectedText.aid) {
-        serverAnnotation.selectedText.aid = now.toString(10);
-      } //convert selectedText to JSON
-
-
-      serverAnnotation.selectedText = JSON.stringify(serverAnnotation.selectedText);
     }
 
-    let postBody = {
-      userId: userInfo.userId,
-      bookmarkId: teaching.keyInfo.genParagraphKey(serverAnnotation.rangeStart, pageKey),
-      annotationId: serverAnnotation.creationDate ? serverAnnotation.creationDate : now,
-      annotation: serverAnnotation
-    }; //console.log("posting: %o", serverAnnotation);
+    if (serverAnnotation.selectedText) {
+      delete serverAnnotation.selectedText.wrap; //selectedText is already stringified when called by topicmgr.js
+
+      if (typeof serverAnnotation.selectedText !== "string") {
+        if (!serverAnnotation.selectedText.aid) {
+          serverAnnotation.selectedText.aid = now.toString(10);
+        } //convert selectedText to JSON
+
+
+        serverAnnotation.selectedText = JSON.stringify(serverAnnotation.selectedText);
+      }
+    }
+
+    let postBody = {}; // if pageKey passed we're called from topicmgr.js
+
+    if (calledByTopicMgr) {
+      postBody.userId = userInfo.userId;
+      postBody.bookmarkId = pageKey;
+      postBody.annotationId = serverAnnotation.creationDate ? serverAnnotation.creationDate : now, postBody.annotation = serverAnnotation;
+    } else {
+      postBody.userId = userInfo.userId;
+      postBody.bookmarkId = teaching.keyInfo.genParagraphKey(serverAnnotation.rangeStart, pageKey);
+      postBody.annotationId = serverAnnotation.creationDate ? serverAnnotation.creationDate : now, postBody.annotation = serverAnnotation;
+    } //console.log("posting: %o", serverAnnotation);
+
 
     axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_8__["default"].bookmarkApi}/bookmark/annotation`, postBody).then(data => {
       if (data.data.message !== "OK") {
@@ -5002,10 +5009,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- //const transcript = require("../_config/key");
-//const bm_modal_store = "bm.www.modal";
-//const bm_list_store = "bm.www.list";
-//teaching specific constants
+ //teaching specific constants
 
 let teaching = {};
 let shareEventListenerCreated = false;
@@ -5610,6 +5614,7 @@ function initShareDialog(source) {
       text = annotation.text().replace(/\n/, " ");
     }
 
+    console.log("share text: %s", text);
     let srcTitle = $("#src-title").text();
     let bookTitle = $("#book-title").text();
     let citation = `~ ${srcTitle}: ${bookTitle}`;
@@ -7653,6 +7658,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! scroll-into-view */ "../cmi-www/node_modules/scroll-into-view/scrollIntoView.js");
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(scroll_into_view__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_6__);
 /*
   NOTE: When an annotation is shared and seen on a computer with bookmarks
         there could be a conflict between the users bookmarks and the shared
@@ -7667,6 +7674,7 @@ __webpack_require__.r(__webpack_exports__);
         When the close button is pressed then add the omitted bookmark
 
 */
+
 
 
 
@@ -7711,12 +7719,13 @@ function initCloseHandler() {
 function wrapRange(annotation) {
   let rangeArray = [annotation.rangeStart, annotation.rangeEnd];
   let numericRange = rangeArray.map(r => parseInt(r.substr(1), 10));
-  let annotationRange = lodash_range__WEBPACK_IMPORTED_MODULE_3___default()(numericRange[0], numericRange[1] + 1);
+  let annotationRange = lodash_range__WEBPACK_IMPORTED_MODULE_3___default()(numericRange[0], numericRange[1] + 1); //${annotation.Comment?annotation.Comment:getString("annotate:m7")}
+
   let header = `
     <h4 class="ui header">
       <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("action:close")}" class="share-annotation-close small window close icon"></i>
       <div class="content">
-        ${annotation.Comment ? annotation.Comment : Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("annotate:m7")}
+        ${annotation.Comment ? annotation.Comment : ""}
       </div>
     </h4>
   `;
@@ -7773,6 +7782,8 @@ function showAnnotation() {
     if (!response.Item) {
       // console.log("bookmark not found");
       Object(_bookmark_selection__WEBPACK_IMPORTED_MODULE_2__["highlightSkippedAnnotations"])();
+      Object(_util_url__WEBPACK_IMPORTED_MODULE_0__["loadComplete"])();
+      toastr__WEBPACK_IMPORTED_MODULE_6___default.a.warning("Requested Bookmark was not found");
       return;
     }
 
@@ -8018,6 +8029,37 @@ function manageState(state) {
 
 /***/ }),
 
+/***/ "../cmi-www/src/js/modules/_util/facebook.js":
+/*!***************************************************!*\
+  !*** ../cmi-www/src/js/modules/_util/facebook.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/*
+  facebook sdk support
+*/
+/* harmony default export */ __webpack_exports__["default"] = ({
+  initialize: () => {
+    $.ajax({
+      url: "//connect.facebook.net/en_US/sdk.js",
+      dataType: "script",
+      cache: true,
+      success: function () {
+        FB.init({
+          appId: "448658485318107",
+          xfbml: true,
+          version: "v3.0"
+        });
+      }
+    });
+  }
+});
+
+/***/ }),
+
 /***/ "../cmi-www/src/js/modules/_util/url.js":
 /*!**********************************************!*\
   !*** ../cmi-www/src/js/modules/_util/url.js ***!
@@ -8190,6 +8232,9 @@ let lang = "pl";
 let title = "Droga Mistrzostwa";
 let bucket = "assets.christmind.info";
 /* harmony default export */ __webpack_exports__["default"] = ({
+  sourceId: 16,
+  quoteManagerId: "3f7f14c0d7a13eb2e5a05f3c981f33fb",
+  quoteManagerName: "CMI",
   env: env,
   //sa or prod, sa=standalone
   lang: lang,
