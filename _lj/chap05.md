@@ -112,7 +112,7 @@ I  ja  ciebie też, umiłowany przyjacielu.
 Teraz zaczynamy.
 
 Cierpliwie czekam, aż poddasz<br>
-ostatni slawek swego oporu.<br>
+ostatni skrawek swego oporu.<br>
 Cierpliwie czekam.
 
 Chodź do  Mnie<br>

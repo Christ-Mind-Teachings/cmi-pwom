@@ -55,7 +55,10 @@
     "s1": "Select recipients from the dropdown list and/or enter email addresses in the field below.",
     "s2": "Enter Email Address(es)",
     "s3": "Comma delimited list",
-    "s4": "Hang on a sec"
+    "s4": "Hang on a sec",
+    "s5": "Share to Facebook",
+    "s6": "Share by Email",
+    "s7": "Display Another Quote"
   },
   "form": {
     "f1": "Submit",

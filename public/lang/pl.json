@@ -40,6 +40,9 @@
     "item2": "Klikając na numer akapitu np.(p21)",
     "link": "Zobacz <a href='/acq/bookmark/'>pomoc tekstową o zakładkach </a> aby dowiedzieć się więcej."
   },
+  "quote": {
+    "g2s": "Idź do źródła"
+  },
   "action": {
     "submit": "Zapisz",
     "cancel": "Anuluj",

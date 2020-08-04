@@ -226,6 +226,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _share__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./share */ "../cmi-www/src/js/modules/_topics/share.js");
 /* harmony import */ var _db_quote__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_db/quote */ "../cmi-www/src/js/modules/_db/quote.js");
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles */ "../cmi-www/src/js/modules/_topics/styles.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+
 
 
 
@@ -276,7 +278,7 @@ function showQuote(q) {
     <blockquote>
       ${quote}
       <footer>
-        <a href="${q.url}" title="Go to the source" target="_blank">
+        <a href="${q.url}" title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("quote:g2s")}" target="_blank">
           ~ ${q.citation}
         </a>
       </footer>

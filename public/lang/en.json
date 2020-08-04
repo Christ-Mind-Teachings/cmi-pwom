@@ -40,6 +40,9 @@
     "item2": "Clicking on the paragraph number, eg: (p21)",
     "link": "See <a href='/acq/bookmark/'>the Bookmark documentation</a> for more information."
   },
+  "quote": {
+    "g2s": "Go to the source"
+  },
   "action": {
     "submit": "Submit",
     "cancel": "Cancel",

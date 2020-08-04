@@ -55,7 +55,10 @@
     "s1": "Wybierz odbiorców z listy rozwijalnej i/lub wprowadź adresy email w poniższym polu.",
     "s2": "Wprowadź adres/adresy email",
     "s3": "Lista elementów przedzielana przecinkami",
-    "s4": "Poczekaj chwilkę"
+    "s4": "Poczekaj chwilkę",
+    "s5": "Udostępnij na Facebooku",
+    "s6": "Udostępnij mailem",
+    "s7": "Wyświetl następny cytat"
   },
   "form": {
     "f1": "Prześlij",
@@ -97,7 +100,7 @@
     "q2": "Share to Facebook",
     "q3": "Display Another Quote",
     "q4": "From",
-    "q5": "Prześlij"
+    "q5": "Wyślij"
   }
 }
 
