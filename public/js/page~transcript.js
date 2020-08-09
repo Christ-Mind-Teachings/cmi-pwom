@@ -6258,13 +6258,17 @@ function generateOption(item) {
 }
 
 function makeMaillistSelect(maillist) {
-  return `
-    <label>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:listnames")}</label>
-    <select name="mailList" id="maillist-address-list" multiple="" class="search ui dropdown">
-      <option value="">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:selectaddress")}</option>
-      ${maillist.map(item => `${generateOption(item)}`).join("")}
-    </select>
-  `;
+  let listnames = Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:listnames", true);
+  let selectAddress = Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:selectaddress", true);
+  return Promise.all([listnames, selectAddress]).then(values => {
+    return `
+      <label>${values[0]}</label>
+      <select name="mailList" id="maillist-address-list" multiple="" class="search ui dropdown">
+        <option value="">${values[1]}</option>
+        ${maillist.map(item => `${generateOption(item)}`).join("")}
+      </select>
+    `;
+  });
 }
 /*
   Called by initShareByEmail()
@@ -6283,7 +6287,8 @@ function loadEmailList() {
   let api = `${userInfo.userId}/maillist`;
   axios__WEBPACK_IMPORTED_MODULE_0___default()(`${_globals__WEBPACK_IMPORTED_MODULE_2__["default"].user}/${api}`).then(response => {
     maillist = response.data.maillist;
-    let selectHtml = makeMaillistSelect(maillist);
+    return makeMaillistSelect(maillist);
+  }).then(selectHtml => {
     $("#maillist-select").html(selectHtml);
     $("#maillist-address-list.dropdown").dropdown();
   }).catch(err => {
@@ -7167,7 +7172,7 @@ function setLanguage(constants) {
 
 function waitForReady(s, k) {
   return new Promise((resolve, reject) => {
-    function wait(s, k, ms, max = 8, cnt = 0) {
+    function wait(s, k, ms, max = 10, cnt = 0) {
       if (status === LOADING) {
         if (cnt <= max) {
           setTimeout(() => wait(s, k, ms, max, cnt + 1), ms);
@@ -7905,6 +7910,7 @@ function prodUserInfo() {
     };
   }
 
+  console.error("getUserInfo: user not signed in");
   return null;
 }
 
@@ -7995,15 +8001,17 @@ function manageState(state) {
      * if user already logged in, change icon to log out
      */
     netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.on("init", user => {
-      //userInfo = user;
+      console.log("on init fired: %o", user);
       manageState("init");
     });
     netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.on("login", login => {
+      console.log("on login fired: %o", login);
       userInfo = login;
       setAsSignedIn();
       manageState("login");
     });
     netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.on("logout", () => {
+      console.log("on lougout fired");
       setAsSignedOut();
       userInfo = null;
       location.href = "/";
@@ -8022,8 +8030,7 @@ function manageState(state) {
       }
     }); //init authentication
 
-    netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.init({//container: "#netlify-modal"
-    });
+    netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.init({});
   }
 });
 
