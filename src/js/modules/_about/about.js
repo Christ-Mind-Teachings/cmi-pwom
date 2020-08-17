@@ -42,7 +42,9 @@ function createClickHandlers() {
     if ($(this).hasClass("contact-me")) {
       location.href = "/t/pwom/acq/contact/";
     }
+  });
 
+  $(".login-menu-option-account").on("click", "div.item", function(e) {
     if ($(this).hasClass("profile-management")) {
       location.href = "/profile/email/";
     }
@@ -50,7 +52,6 @@ function createClickHandlers() {
     if ($(this).hasClass("topic-management")) {
       location.href = "/profile/topicMgt/";
     }
-
   });
 
   //quick links

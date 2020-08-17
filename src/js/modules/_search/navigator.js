@@ -3,15 +3,13 @@
 */
 
 import scroll from "scroll-into-view";
-import store from "store";
+import {storeGet} from "www/modules/_util/store";
 import notify from "toastr";
 import constants from "../../constants";
 import {getString} from "../_language/lang";
+
 const page = require("../_config/key");
-
-const queryResultName = `search.${constants.sid}.result`;
 const url_prefix = constants.env === "standalone"?"":constants.url_prefix;
-
 const SCROLL_INTERVAL = 250;
 
 function scrollComplete(message, type) {
@@ -238,7 +236,7 @@ function findPositions(pid, pageKey, flat) {
 }
 
 function initControls(pid) {
-  let lastSearch = store.get(queryResultName);
+  let lastSearch = storeGet("srchResults");
 
   if (!lastSearch) {
     notify.warning(getString("notify:n9"));

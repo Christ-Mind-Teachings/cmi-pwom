@@ -58,7 +58,9 @@
     "s4": "Hang on a sec",
     "s5": "Share to Facebook",
     "s6": "Share by Email",
-    "s7": "Display Another Quote"
+    "s7": "Display Another Quote",
+    "s8": "Add a message to send with the quote.",
+    "s9": "Your message. (optional)"
   },
   "form": {
     "f1": "Submit",

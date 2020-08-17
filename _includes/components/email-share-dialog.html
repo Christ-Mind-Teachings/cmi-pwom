@@ -1,12 +1,15 @@
 <div class="hide email-share-dialog-wrapper">
   <div class="email-share-dialog ui raised padded green segment">
-    <div class="email-share-loader ui centered active inline loader"></div>
     <p>{{site.data.lang.share.s1}}</p>
     <form name="emailshare" id="email-share-form" class="ui form">
       <div id="maillist-select" class="field"></div>
       <div class="field">
         <label>{{site.data.lang.share.s2}}</label>
         <input type="text" name="emailAddresses" placeholder="{{site.data.lang.share.s3}}">
+      </div>
+      <div class="field">
+        <label>{{site.data.lang.share.s8}}</label>
+        <textarea type="text" name="emailMessage" rows="2" placeholder="{{site.data.lang.share.s9}}"></textarea>
       </div>
       <div class="fields">
         <button class="ui button" type="submit">{{site.data.lang.form.f1}}</button>

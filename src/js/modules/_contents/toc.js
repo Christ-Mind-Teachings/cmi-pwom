@@ -131,10 +131,8 @@ function highlightCurrentTranscript(bid, max = 1) {
   let page = location.pathname;
   let $el = $(`.toc-list a[href='${page}']`);
 
-  //remove href to deactivate link for current page and
-  //scroll into middle of viewport
+  //remove href to deactivate link for current page
   $el.addClass("current-unit").removeAttr("href");
-  scroll($el.get(0));
 
   nextPrev($el, max);
 }
@@ -153,10 +151,19 @@ export default {
    * or local storage
    */
   initialize: function(env) {
-    //dialog settings
+
+    //modal dialog settings
     $(uiTocModal).modal({
       dimmerSettings: {opacity: uiModalOpacity},
-      observeChanges: true
+      observeChanges: true,
+      onVisible: function() {
+        let $el = $(".toc-list a.current-unit");
+        scroll($el.get(0), {
+          isScrollable: function(target, defaultIsScrollable) {
+            return defaultIsScrollable(target) || target.className.includes('scrolling');
+          }
+        });
+      }
     });
 
     //load toc once for transcript pages
