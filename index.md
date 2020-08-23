@@ -24,7 +24,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
   <div class="ui equal width grid source-acq-section">
     <div class="five wide column">
       <div class="ui card">
-        <a href="#" data-book="acq" animate class="toc-modal-open image">
+        <a id="book-acq" href="#" data-book="acq" animate class="toc-modal-open image">
           {% if site.environment == "standalone" %}
             <img src="/public/img/wom/acq-big.jpg">
           {% else %}
@@ -43,14 +43,14 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
         <a class="active item" data-tab="first">Cytaty</a>
         <a class="item" data-tab="second">Wybierz cytat</a>
       </div>
-      <div class="ui bottom attached active tab segment" data-tab="first">
+      <div id="news-tab-content" class="ui bottom attached active tab segment" data-tab="first">
         <div class="box">
           <p>
             Wybierz losowy cytat z Drogi Mistrzostwa i otwórz serce na jego przesłanie.
           </p>
         </div>
       </div>
-      <div class="ui bottom attached tab segment" data-tab="second">
+      <div id="quote-tab-content" class="ui bottom attached tab segment" data-tab="second">
         <div class="ui form">
           <div class="fields">
             <div class="field">
@@ -68,7 +68,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
   </div>
   <div class="ui three cards">
     <div class="card">
-      <a href="#" data-book="lj" class="toc-modal-open image">
+      <a id="book-lj" href="#" data-book="lj" class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/lj-big.jpg">
         {% else %}
@@ -82,7 +82,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
       </div>
     </div>
     <div class="card">
-      <a href="#" data-book="wos" class="toc-modal-open image">
+      <a id="book-wos" href="#" data-book="wos" class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/wos-big.jpg">
         {% else %}
@@ -96,7 +96,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
       </div>
     </div>
     <div class="card">
-      <a href="#" data-book="early" class="toc-modal-open image">
+      <a id="book-early" href="#" data-book="early" class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/early-big.jpg">
         {% else %}
@@ -112,7 +112,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
   </div>
   <div class="ui three cards">
     <div class="card">
-      <a href="#" data-book="woh" class="toc-modal-open image">
+      <a id="book-woh" href="#" data-book="woh" class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/woh-big.jpg">
         {% else %}
@@ -126,7 +126,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
       </div>
     </div>
     <div class="card">
-      <a href="#" data-book="wot" class="toc-modal-open image">
+      <a id="book-wot" href="#" data-book="wot" class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/wot-big.jpg">
         {% else %}
@@ -140,7 +140,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
       </div>
     </div>
     <div class="card">
-      <a href="#" data-book="wok" class="toc-modal-open image">
+      <a id="book-wok" href="#" data-book="wok" class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/wok-big.jpg">
         {% else %}

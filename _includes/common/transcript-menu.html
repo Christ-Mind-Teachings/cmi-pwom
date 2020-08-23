@@ -24,30 +24,26 @@
         <i class="search icon"></i>
       </span>
     </a>
-    <a class="audio-player-toggle hide item" >
+    <a id="audio-player-menu-option" class="audio-player-toggle hide item" >
       <span data-position="bottom center" data-tooltip="{{site.data.lang.tmenu.t6}}">
         <i class="volume up icon"></i></a>
       </span>
     </a>
     {% unless page.pnumToggle == false %}
-    <a href="#" class="toggle-paragraph-markers item">
+    <a id="pnum-toggle-menu-option" href="#" class="toggle-paragraph-markers item">
       <span data-position="bottom center" data-tooltip="{{site.data.lang.tmenu.t7}}">
-        <i class="paragraph icon"></i>
+        <i class="icons">
+          <i class="paragraph icon"></i>
+          <i class="paragraph-corner-icon hide corner close icon"></i>
+        </i>
       </span>
     </a>
     {% endunless %}
-    <a href="#" class="top-of-page item">
+    <a id="jump-to-top-menu-option" href="#" class="top-of-page item">
       <span data-position="bottom center" data-tooltip="{{site.data.lang.tmenu.t8}}">
         <i class="level up icon"></i>
       </span>
     </a>
-    {% comment %}
-    {% if page.bid == "Questions" %}
-    <a href="#" data-book="{{page.contents | downcase}}" class="item toc-modal-open">
-    {% else %}
-    <a href="#" data-book="{{page.bid | downcase}}" class="item toc-modal-open">
-    {% endif %}
-    {% endcomment %}
     <a href="#" id="contents-modal-open" data-book="{{page.bid | downcase}}" class="item toc-modal-open">
       <span data-position="bottom center" data-tooltip="{{site.data.lang.tmenu.t9}}">
         <i class="align justify icon"></i>
@@ -77,12 +73,12 @@
         <div class="contact-me item">{{site.data.lang.menu.m8}}</div>
       </div>
     </a>
-    <a href="#" class="login-menu-option-guest ui right floated item">
+    <a id="login-guest-menu-option" href="#" class="login-menu-option-guest ui right floated item">
       <span data-position="bottom center" data-tooltip="{{site.data.lang.menu.m11}}">
         <i class="red sign in icon"></i>
       </span>
     </a>
-    <a href="#" class="login-menu-option-account hide dropdown ui right floated item">
+    <a id="login-account-menu-option" href="#" class="login-menu-option-account hide dropdown ui right floated item">
       <span data-position="left center" data-tooltip="Sign Out">
         <i class="green sign out icon"></i>
       </span>

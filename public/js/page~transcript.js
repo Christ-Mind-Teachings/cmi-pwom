@@ -2134,8 +2134,301 @@ __webpack_require__.r(__webpack_exports__);
   quote: "https://4pu1259y54.execute-api.us-east-1.amazonaws.com/latest",
   audit: "https://93e93isn03.execute-api.us-east-1.amazonaws.com/latest",
   topicsEndPoint: "https://93e93isn03.execute-api.us-east-1.amazonaws.com/latest",
-  bookmarkApi: "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest"
+  bookmarkApi: "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest",
+  user2: "https://kkdlxunoe7.execute-api.us-east-1.amazonaws.com/latest"
 });
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_ajax/annotation.js":
+/*!*****************************************************!*\
+  !*** ../cmi-www/src/js/modules/_ajax/annotation.js ***!
+  \*****************************************************/
+/*! exports provided: getAnnotations, updateAnnotation, postAnnotation, getAnnotation, deleteAnnotation */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getAnnotations", function() { return getAnnotations; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "updateAnnotation", function() { return updateAnnotation; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "postAnnotation", function() { return postAnnotation; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getAnnotation", function() { return getAnnotation; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "deleteAnnotation", function() { return deleteAnnotation; });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
+/* harmony import */ var lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/cloneDeep */ "../cmi-www/node_modules/lodash/cloneDeep.js");
+/* harmony import */ var lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+/*
+ * Format paraKey so it contains 3 decimal positions
+ */
+
+function formatKey(key) {
+  if (typeof key !== "string") {
+    key = key.toString(10);
+  }
+
+  let decimalPos = key.indexOf("."); //invalid key, but return it anyway.
+
+  if (decimalPos === -1) {
+    return `${key}.001`;
+  }
+
+  let intPart = key.substr(0, decimalPos);
+  let decimalPart = key.substr(decimalPos + 1);
+  let padding = decimalPart.length === 2 ? "0" : decimalPart.length === 1 ? "00" : "";
+  return `${intPart}.${decimalPart}${padding}`;
+}
+/*
+ * Get array of annotations from server, add a numeric pid to each item, and
+ * parse stringified selectedText.
+ *
+ * Return array of annotations.
+ * {
+ *   annotation: {
+ *     Comment: <string>,
+ *     rangeStart: <string>,
+ *     rangeEnd: <string>,
+ *     [selectedText]: <object>,
+ *     [aid]: <string>
+ *     topicList: [{value, topic},...],
+ *     userId: <string>,
+ *     creationDate: <string>
+ *   }, 
+ *   userId: <string>,
+ *   paraKey: <string>,
+ *   creationDate: <string>,
+ *   pid: <number>
+ * }
+ */
+
+
+function getAnnotations(userId, key) {
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/queryAnnotation/${userId}/${key}`).then(response => {
+      let bmList = response.data.response;
+      bmList.forEach(b => {
+        //numeric pid, not representative of key
+        // - used to find annotations for a given paragraph
+        b.pid = parseInt(b.annotation.rangeStart.substring(1), 10); //add userId and creationDate to annotation, this is used by the
+        //bookmark navigator
+
+        b.annotation.userId = b.userId;
+        b.annotation.creationDate = b.creationDate; //parse selectedText JSON object
+
+        if (b.annotation.selectedText) {
+          b.annotation.selectedText = JSON.parse(b.annotation.selectedText);
+        }
+      }); //sort bookmarks by numeric pid
+
+      bmList.sort((a, b) => {
+        return a.paraKey - b.paraKey;
+      });
+      resolve(bmList);
+    }).catch(err => {
+      reject(err);
+    });
+  });
+}
+/*
+ * Called by topicmanager
+ */
+
+function updateAnnotation(bookmark) {
+  let clone = lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_2___default()(bookmark);
+
+  if (clone.annotation.selectedText) {
+    if (typeof clone.annotation.selectedText !== "string") {
+      //convert selectedText to JSON
+      clone.annotation.selectedText = JSON.stringify(clone.annotation.selectedText);
+    }
+  }
+
+  return postAnnotation(clone.userId, clone.paraKey, clone.creationDate, clone.annotation);
+}
+/*
+ * Save annotation to DynamoDb
+ */
+
+function postAnnotation(userId, paraKey, creationDate, annotation) {
+  if (typeof creationDate !== "string") {
+    creationDate = creationDate.toString(10);
+  }
+
+  if (typeof paraKey !== "string") {
+    paraKey = paraKey.toString(10);
+  }
+
+  let body = {
+    userId: userId,
+    paraKey: paraKey,
+    creationDate: creationDate,
+    annotation: annotation
+  };
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/annotation`, body).then(response => {
+      resolve(response.data.response);
+    }).catch(err => {
+      reject(err);
+    });
+  });
+}
+/*
+ * Get annotation from server, add userId and creationDate to the annotation,
+ * parse stringified selectedText.
+ *
+ * Return annotation only.
+ */
+
+function getAnnotation(userId, paraKey, creationDate) {
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/annotation/${userId}/${formatKey(paraKey)}/${creationDate}`).then(response => {
+      console.log("getAnnotation: %o", response);
+      let r = response.data.response; //annotation not found
+
+      if (!r.userId) {
+        resolve({});
+        return;
+      }
+
+      r.annotation.userId = r.userId;
+      r.annotation.creationDate = r.creationDate;
+
+      if (r.annotation.selectedText) {
+        r.annotation.selectedText = JSON.parse(r.annotation.selectedText);
+      }
+
+      resolve(r.annotation);
+    }).catch(err => {
+      reject(err);
+    });
+  });
+}
+/*
+ * Delete annotation
+ */
+
+function deleteAnnotation(userId, paraKey, creationDate) {
+  if (typeof creationDate !== "string") {
+    creationDate.toString(10);
+  }
+
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.delete(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/annotation/${userId}/${formatKey(paraKey)}/${creationDate}`).then(response => {
+      resolve(response.data.response);
+    }).catch(err => {
+      reject(err);
+    });
+  });
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_ajax/share.js":
+/*!************************************************!*\
+  !*** ../cmi-www/src/js/modules/_ajax/share.js ***!
+  \************************************************/
+/*! exports provided: getMailList, putMailList, sendMail */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getMailList", function() { return getMailList; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "putMailList", function() { return putMailList; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sendMail", function() { return sendMail; });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
+
+
+function getMailList(userId) {
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/mailList/${userId}`).then(response => {
+      resolve(response.data.mailList);
+    }).catch(err => {
+      reject(err);
+    });
+  });
+}
+function putMailList(userId, list) {
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/mailList`, list).then(response => {
+      resolve(response.data.response);
+    }).catch(err => {
+      reject(err);
+    });
+  });
+}
+function sendMail(mailInfo) {
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(_globals__WEBPACK_IMPORTED_MODULE_1__["default"].share, mailInfo).then(response => {
+      if (response.status === 200) {
+        resolve("success");
+      } else {
+        resolve(response.data.message);
+      }
+    }).catch(error => {
+      reject(error);
+    });
+  });
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_ajax/topics.js":
+/*!*************************************************!*\
+  !*** ../cmi-www/src/js/modules/_ajax/topics.js ***!
+  \*************************************************/
+/*! exports provided: getTopicList, putTopicList */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getTopicList", function() { return getTopicList; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "putTopicList", function() { return putTopicList; });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
+
+
+/**
+ * @param {string} userId - md5 hash of userId
+ * @param {string} sourceId - two digit source identifier
+ * @return {array} topics - topicList
+ *
+ */
+
+function getTopicList(userId, sourceId) {
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/topicList/${userId}/${sourceId}`).then(response => {
+      let topics = response.data.topics;
+      resolve(topics);
+    }).catch(err => {
+      reject(err);
+    });
+  });
+}
+/*
+ * Save topicList to DynamoDb
+ */
+
+function putTopicList(userId, sourceId, topicList) {
+  let body = {
+    userId: userId,
+    sourceId: sourceId,
+    topicList: topicList
+  };
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/topicList`, body).then(response => {
+      resolve(response.data.response);
+    }).catch(err => {
+      reject(err);
+    });
+  });
+}
 
 /***/ }),
 
@@ -2213,22 +2506,11 @@ __webpack_require__.r(__webpack_exports__);
  //teaching specific constants, assigned at initialization
 
 let teaching = {};
-var warningIssued = false;
-
-function warnNotSignedIn() {
-  let userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])();
-
-  if (!userInfo && !warningIssued) {
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.options.timeOut = "10000";
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.success(Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m1"));
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.warning(Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m2"));
-    warningIssued = true;
-  }
-}
 
 function getAnnotationForm() {
   let form = _language_lang__WEBPACK_IMPORTED_MODULE_7__["__lang"]`
     <form name="annotation" id="annotation-form" class="ui form">
+      <input class="hidden-field" type="text" readonly="" name="status">
       <input class="hidden-field" type="text" readonly="" name="creationDate">
       <input class="hidden-field" type="text" name="aid" readonly>
       <input class="hidden-field" type="text" readonly="" name="rangeStart">
@@ -2517,7 +2799,7 @@ function genExtrasItem(item) {
 
 function generateComment(comment) {
   if (!comment) {
-    return Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m6");
+    return Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m7");
   } else {
     return comment;
   }
@@ -2539,6 +2821,7 @@ function initializeForm(pid, aid, annotation) {
 
   if (!annotation) {
     form.form("set values", {
+      status: "new",
       rangeStart: pid,
       rangeEnd: pid,
       aid: aid
@@ -2557,6 +2840,7 @@ function initializeForm(pid, aid, annotation) {
     }
 
     form.form("set values", {
+      status: "update",
       rangeStart: annotation.rangeStart,
       rangeEnd: annotation.rangeEnd,
       aid: annotation.aid,
@@ -2612,10 +2896,8 @@ function editAnnotation(pid, aid, annotation) {
     }
   } else {
     $(`#${pid}`).addClass("annotation-edit");
-  } //console.log("editAnnotation");
+  } //.disable-selection will prevent text selection during annotation creation/edit
 
-
-  warnNotSignedIn(); //.disable-selection will prevent text selection during annotation creation/edit
 
   addSelectionGuard();
   $(".annotation-edit").wrapAll(wrapper);
@@ -2638,15 +2920,11 @@ function noteHandler() {
       return;
     }
 
-    let bookmarkData = Object(_bmnet__WEBPACK_IMPORTED_MODULE_0__["getBookmark"])(pid);
+    let bkmrk = _bookmark__WEBPACK_IMPORTED_MODULE_2__["localStore"].getItem(pid); //we found a note - so edit it
 
-    if (bookmarkData.bookmark) {
-      let annotation = bookmarkData.bookmark.find(value => typeof value.aid === "undefined"); //we found a note - so edit it
-
-      if (annotation) {
-        editAnnotation(pid, undefined, annotation);
-        return;
-      }
+    if (bkmrk) {
+      editAnnotation(pid, undefined, bkmrk.annotation);
+      return;
     } //disable text selection while annotation form is open
 
 
@@ -2671,18 +2949,13 @@ function hoverNoteHandler() {
     let aid = $(this).data("aid");
     let pid = $(this).parent("p").attr("id"); //bookmark wont be found if it is still being created
 
-    let bookmarkData = Object(_bmnet__WEBPACK_IMPORTED_MODULE_0__["getBookmark"])(pid);
+    let bkmrk = _bookmark__WEBPACK_IMPORTED_MODULE_2__["localStore"].getItem(pid, aid);
 
-    if (!bookmarkData.bookmark) {
+    if (!bkmrk) {
       return;
     }
 
-    let annotation = bookmarkData.bookmark.find(value => value.creationDate === aid); //sometimes the annotation won't be found because it is being created, so just return
-
-    if (!annotation) {
-      return;
-    }
-
+    let annotation = bkmrk.annotation;
     let topicList = generateHorizontalList(annotation.topicList);
     let comment = generateComment(annotation.Comment);
     let extraHtml = generateExtraList(annotation);
@@ -2703,7 +2976,8 @@ function hoverNoteHandler() {
   });
 }
 /*
- * Highlighted text hover; show popup
+ * Show popup containing info about the bookmark when mouse hovers over
+ * selectedText.
  */
 
 
@@ -2712,7 +2986,13 @@ function hoverHandler() {
     e.preventDefault();
     let aid = $(this).attr("data-annotation-id");
     let pid = $(this).parent("p").attr("id");
-    let realAid = $(this).data("aid"); //disable hover if highlights are hidden
+    let realAid = $(this).data("aid"); //don't know why this happens
+
+    if (!pid) {
+      console.log("hoverHandler: pid not found");
+      return;
+    } //disable hover if highlights are hidden
+
 
     if ($(".transcript").hasClass("hide-bookmark-highlights")) {
       $(this).popup("hide").popup("destroy");
@@ -2747,21 +3027,16 @@ function hoverHandler() {
     if ($(this).hasClass("shared")) {
       $(this).popup("hide").popup("destroy");
       return;
-    } //bookmark wont be found if it is still being created
+    } //get bookmark from local store
 
 
-    let bookmarkData = Object(_bmnet__WEBPACK_IMPORTED_MODULE_0__["getBookmark"])(pid);
+    let bkmrk = _bookmark__WEBPACK_IMPORTED_MODULE_2__["localStore"].getItem(pid, aid); //sometimes the annotation won't be found because it is being created, so just return
 
-    if (!bookmarkData.bookmark) {
+    if (!bkmrk) {
       return;
     }
 
-    let annotation = bookmarkData.bookmark.find(value => value.aid === aid); //sometimes the annotation won't be found because it is being created, so just return
-
-    if (!annotation) {
-      return;
-    }
-
+    let annotation = bkmrk.annotation;
     let topicList = generateHorizontalList(annotation.topicList);
     let comment = generateComment(annotation.Comment);
     let extraHtml = generateExtraList(annotation);
@@ -2850,9 +3125,8 @@ function editHandler() {
     $(this).popup("hide"); //show this highlight, all others are hidden
 
     $(this).addClass("show");
-    let bookmarkData = Object(_bmnet__WEBPACK_IMPORTED_MODULE_0__["getBookmark"])(pid);
-    let annotation = bookmarkData.bookmark.find(value => value.aid === aid);
-    editAnnotation(pid, aid, annotation);
+    let bkmrk = _bookmark__WEBPACK_IMPORTED_MODULE_2__["localStore"].getItem(pid, aid);
+    editAnnotation(pid, aid, bkmrk.annotation);
   });
 }
 /*
@@ -2907,8 +3181,9 @@ function submitHandler() {
     unwrap(); //remove class "show" added when form was displayed
 
     $(`[data-annotation-id="${formData.aid}"]`).removeClass("show"); //this is a note annotation, no selected text, add page title to formData
+    //if ($(".transcript .annotation-edit").hasClass("annotation-note")) {
 
-    if ($(".transcript .annotation-edit").hasClass("annotation-note")) {
+    if ($(".transcript .annotation-edit").hasClass("note-style-bookmark")) {
       formData.bookTitle = $("#book-title").text();
     } //get links from annotation
 
@@ -2959,8 +3234,8 @@ function shareHandler() {
     let formData = getFormData();
     unwrap(); //remove class "show" added when form was displayed
 
-    $(`[data-annotation-id="${formData.aid}"]`).removeClass("show");
-    _bookmark__WEBPACK_IMPORTED_MODULE_2__["annotation"].cancel(formData);
+    $(`[data-annotation-id="${formData.aid}"]`).removeClass("show"); //annotation.cancel(formData);
+
     $(".transcript .annotation-edit").removeClass("annotation-edit");
     let userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])();
 
@@ -2979,7 +3254,13 @@ function shareHandler() {
 
     if (annotation_id.length > 0) {
       aid = $(`[data-annotation-id="${annotation_id}"]`).attr("data-aid");
-      $(`[data-annotation-id="${annotation_id}"]`).addClass("show");
+      $(`[data-annotation-id="${annotation_id}"]`).addClass("show"); //aid is undefined when new annotations are shared, the real aid is the annotation
+      //creationDate. If aid is undefined try to get the creationDate from local store
+
+      if (!aid) {
+        aid = _bookmark__WEBPACK_IMPORTED_MODULE_2__["localStore"].getCreationDate(annotation_id);
+        $(`[data-annotation-id="${annotation_id}"]`).attr("data-aid", aid);
+      }
     } else {
       aid = $(`#${pid} > span.pnum`).attr("data-aid");
     }
@@ -3099,7 +3380,6 @@ function getUserInput(highlight) {
 
 
   addSelectionGuard();
-  warnNotSignedIn();
   $(`#${highlight.pid}`).addClass("annotation-edit");
   $(".annotation-edit").wrapAll(wrapper); //$(".annotate-wrapper").prepend(form);
 
@@ -3157,31 +3437,22 @@ function getTopicList(pid, aid, data) {
 /*!****************************************************!*\
   !*** ../cmi-www/src/js/modules/_bookmark/bmnet.js ***!
   \****************************************************/
-/*! exports provided: netInit, getBookmark, fetchBookmark, default */
+/*! exports provided: netInit, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "netInit", function() { return netInit; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getBookmark", function() { return getBookmark; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fetchBookmark", function() { return fetchBookmark; });
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! store */ "../cmi-www/node_modules/store/dist/store.legacy.js");
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
-/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var lodash_isEqual__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/isEqual */ "../cmi-www/node_modules/lodash/isEqual.js");
-/* harmony import */ var lodash_isEqual__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_isEqual__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var lodash_findIndex__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash/findIndex */ "../cmi-www/node_modules/lodash/findIndex.js");
-/* harmony import */ var lodash_findIndex__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_findIndex__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _ajax_annotation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_ajax/annotation */ "../cmi-www/src/js/modules/_ajax/annotation.js");
+/* harmony import */ var _ajax_topics__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_ajax/topics */ "../cmi-www/src/js/modules/_ajax/topics.js");
+/* harmony import */ var _util_store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../_util/store */ "../cmi-www/src/js/modules/_util/store.js");
+/* harmony import */ var _bookmark__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./bookmark */ "../cmi-www/src/js/modules/_bookmark/bookmark.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash/cloneDeep */ "../cmi-www/node_modules/lodash/cloneDeep.js");
 /* harmony import */ var lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
-/* harmony import */ var _selection__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./selection */ "../cmi-www/src/js/modules/_bookmark/selection.js");
-/* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
-/* harmony import */ var _bookmark__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./bookmark */ "../cmi-www/src/js/modules/_bookmark/bookmark.js");
-/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
 /*
   Bookmark data implementation
 
@@ -3202,292 +3473,68 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
- //const transcript = require("../_config/key");
-//const bm_list_store = "bm.www.list";
-//const bm_topic_list = "bm.www.topics";
-
 var teaching = {};
 function netInit(constants) {
   teaching = constants;
 }
 /*
-  Get bookmark for paragraph pid from local storage. All bookmarks for the page
-  are loaded by getBookmarks() and stored locally. We don't need to fetch them again.
-
-  args:
-    pid: paragraph id
-
-  Bookmarks are keyed by pageKey and paragraphId. Paragraph Id's start from zero
-  but are incremented by one to form the key.
-*/
-
-function getBookmark(pid) {
-  const pageKey = teaching.keyInfo.genPageKey();
-  const bookmarks = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(pageKey);
-
-  if (bookmarks && pid) {
-    //generate id
-    let id = parseInt(pid.substr(1), 10) + 1;
-
-    if (bookmarks[id]) {
-      return {
-        bookmark: bookmarks[id]
-      };
-    }
-  } //no bookmark found
-
-
-  return {};
-}
-/*
-  if user not logged in get bookmarks from local storage
-  otherwise get them from the server and store them locally
-*/
-
-function getBookmarks() {
-  let pageKey = teaching.keyInfo.genPageKey();
-  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])();
-  return new Promise((resolve, reject) => {
-    //get bookmarks from server
-    if (userInfo) {
-      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_8__["default"].bookmarkApi}/bookmark/query/${userInfo.userId}/${pageKey}`).then(response => {
-        //convert to local data structure and store locally
-        if (response.data.response) {
-          let bookmarks = {};
-          response.data.response.forEach(b => {
-            let key = teaching.keyInfo.parseKey(b.id); //parseKey return {pid, pageKey} or {paraKey, pageKey} so use paraKey.
-
-            if (!key.paraKey) {
-              key.paraKey = key.pid;
-            } //parson JSON to object
-
-
-            for (let a of b.bookmark) {
-              if (a.selectedText) {
-                a.selectedText = JSON.parse(a.selectedText);
-              } //console.log("a: %o", a);
-
-            }
-
-            bookmarks[key.paraKey] = b.bookmark;
-          }); //store bookmarks in local storage
-
-          if (Object.keys(bookmarks).length > 0) {
-            store__WEBPACK_IMPORTED_MODULE_1___default.a.set(pageKey, bookmarks);
-          }
-
-          resolve(bookmarks);
-        }
-      }).catch(err => {
-        reject(err);
-      });
-    } else {
-      //get from local storage
-      const bookmarks = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(pageKey);
-      resolve(bookmarks);
-    }
-  });
-}
-/*
-  if user not logged in get bookmarks from local storage
-  otherwise get them from the server and store them locally
-*/
-
-
-function queryBookmarks(key) {
-  const retentionTime = 1000 * 60 * 60 * 8; //eight hours of milliseconds
-
-  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])();
-  const keyInfo = teaching.keyInfo.getKeyInfo();
-  return new Promise((resolve, reject) => {
-    //get bookmarks from server
-    if (userInfo) {
-      //set if bookmarks are already in local storage
-      let bookmarkList = getBookmarkList(keyInfo); //don't query database - just return from local storage
-
-      if (bookmarkList) {
-        let expireDate = bookmarkList.lastFetchDate + retentionTime; //if list has not expired or been invalidated resolve and return
-        //otherwise query the server
-
-        if (Date.now() < expireDate) {
-          if (bookmarkList.lastBuildDate > 0) {
-            resolve(bookmarkList);
-            return;
-          }
-        }
-      } //get from the server
-
-
-      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_8__["default"].bookmarkApi}/bookmark/query/${userInfo.userId}/${key}`).then(response => {
-        //convert to local data structure and store locally
-        if (response.data.response) {
-          //console.log("bookmarks: %o", response.data.response);
-          //convert selectedText from JSON to object
-          for (let b of response.data.response) {
-            for (let a of b.bookmark) {
-              if (a.selectedText) {
-                a.selectedText = JSON.parse(a.selectedText);
-              } //console.log("a: %o", a);
-
-            }
-          }
-
-          let bookmarks = buildBookmarkListFromServer(response, keyInfo);
-          resolve(bookmarks);
-        }
-      }).catch(err => {
-        reject(err);
-        return;
-      });
-    } else {
-      let bookmarks = buildBookmarkListFromLocalStore(keyInfo);
-      resolve(bookmarks);
-    }
-  });
-}
-
-function storeBookmarkList(bookmarks, keyInfo) {
-  store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_list_store, bookmarks);
-}
-
-function getBookmarkList(keyInfo) {
-  return store__WEBPACK_IMPORTED_MODULE_1___default.a.get(teaching.bm_list_store);
-}
-/*
-  This is for users not signed in
-  Build BookmarkList from locally stored bookmarks. Once built, we only
-  rebuild it if it has been invalidated by the modification or creation of
-  a bookmark
-*/
-
-
-function buildBookmarkListFromLocalStore(keyInfo) {
-  //check if the list needs to be rebuilt
-  const list = getBookmarkList(keyInfo);
-
-  if (list) {
-    if (list.lastBuildDate > 0) {
-      return list;
-    }
-  }
-
-  let sid = parseInt(keyInfo.sourceId, 10);
-  let bookmarks = {}; //build expected structure from local storage
-
-  store__WEBPACK_IMPORTED_MODULE_1___default.a.each((value, key) => {
-    if (key.startsWith(sid)) {
-      if (!bookmarks[key]) {
-        bookmarks[key] = {};
-      }
-
-      bookmarks[key] = value;
-    }
-  });
-  bookmarks.lastBuildDate = Date.now();
-  storeBookmarkList(bookmarks, keyInfo);
-  return bookmarks;
-}
-/*
-  Build Bookmark list from data returned from server
-  - this is for users signed in
-*/
-
-
-function buildBookmarkListFromServer(response, keyInfo) {
-  let bookmarks = {};
-  response.data.response.forEach(b => {
-    let keyParts = teaching.keyInfo.parseKey(b.id); //parseKey return {pid, pageKey} or {paraKey, pageKey} so use paraKey.
-
-    if (!keyParts.paraKey) {
-      keyParts.paraKey = keyParts.pid;
-    }
-
-    if (!bookmarks[keyParts.pageKey]) {
-      bookmarks[keyParts.pageKey] = {};
-    }
-
-    bookmarks[keyParts.pageKey][keyParts.paraKey] = b.bookmark;
-  });
-  bookmarks.lastFetchDate = Date.now();
-  bookmarks.lastBuildDate = Date.now();
-  storeBookmarkList(bookmarks, keyInfo);
-  return bookmarks;
-}
-/*
-  Persist annotation in dynamodb
-
-  args pageKey and addToLocalStorage are passed by topicmanager.js, otherwise
-  they are not used.
-*/
-
+ * Persist annotation to DynamoDb
+ *
+ * Args:
+ *  annotation: required
+ *  pageKey: passed by topicmanager.js only
+ *  addToLocalStorage: passed as false by topicmanager
+ *
+ * LocalStorage is updated when addToLocalStorage = true, otherwise
+ * not. It's not needed when called by topicmanager.
+ *
+ * New annotations are recognized when annotation.creationDdate is null
+ */
 
 function postAnnotation(annotation, pageKey, addToLocalStorage = true) {
-  //console.log("annotation: ", annotation);
   const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])();
-  let calledByTopicMgr = true;
+  let calledByTopicMgr = true; //the annotation creation data; aka creationDate, annotationId, aid
+
+  let now = Date.now(); //this is critical, things get messed up if we don't do this
+
+  let serverAnnotation = lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_5___default()(annotation); //modified is added by topicmgr.js
+
+  if (serverAnnotation.modified) {
+    delete serverAnnotation.modified;
+  }
+
+  if (serverAnnotation.selectedText) {
+    delete serverAnnotation.selectedText.wrap; //selectedText is already stringified when called by topicmgr.js
+
+    if (typeof serverAnnotation.selectedText !== "string") {
+      if (!serverAnnotation.selectedText.aid) {
+        serverAnnotation.selectedText.aid = now.toString(10);
+      } //convert selectedText to JSON
+
+
+      serverAnnotation.selectedText = JSON.stringify(serverAnnotation.selectedText);
+    }
+  }
+
+  let creationDate = serverAnnotation.creationDate ? serverAnnotation.creationDate : now;
 
   if (!pageKey) {
-    pageKey = teaching.keyInfo.genPageKey();
-    calledByTopicMgr = false;
-  } //the annotation creation data; aka creationDate, annotationId, aid
-
-
-  let now = Date.now(); //post to server
-
-  if (userInfo) {
-    //this is critical, things get messed up if we don't do this
-    let serverAnnotation = lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_5___default()(annotation); //modified is added by topicmgr.js
-
-    if (serverAnnotation.modified) {
-      delete serverAnnotation.modified;
-    }
-
-    if (serverAnnotation.selectedText) {
-      delete serverAnnotation.selectedText.wrap; //selectedText is already stringified when called by topicmgr.js
-
-      if (typeof serverAnnotation.selectedText !== "string") {
-        if (!serverAnnotation.selectedText.aid) {
-          serverAnnotation.selectedText.aid = now.toString(10);
-        } //convert selectedText to JSON
-
-
-        serverAnnotation.selectedText = JSON.stringify(serverAnnotation.selectedText);
-      }
-    }
-
-    let postBody = {}; // if pageKey passed we're called from topicmgr.js
-
-    if (calledByTopicMgr) {
-      postBody.userId = userInfo.userId;
-      postBody.bookmarkId = pageKey;
-      postBody.annotationId = serverAnnotation.creationDate ? serverAnnotation.creationDate : now, postBody.annotation = serverAnnotation;
-    } else {
-      postBody.userId = userInfo.userId;
-      postBody.bookmarkId = teaching.keyInfo.genParagraphKey(serverAnnotation.rangeStart, pageKey);
-      postBody.annotationId = serverAnnotation.creationDate ? serverAnnotation.creationDate : now, postBody.annotation = serverAnnotation;
-    } //console.log("posting: %o", serverAnnotation);
-
-
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_8__["default"].bookmarkApi}/bookmark/annotation`, postBody).then(data => {
-      if (data.data.message !== "OK") {
-        console.error("not OK message: %s", data.data.message);
-        toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error(data.data.message);
-      } //store locally
-      else if (addToLocalStorage) {
-          storeAnnotation(annotation, now);
-        }
-    }).catch(err => {
-      console.error(`Error saving annotation: ${err}`);
-      toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_10__["getString"])("error:e1")); //if error and this is a new annotation we need to remove the highlight from the page
-
-      console.log("postBody", postBody);
-    });
-  } else {
-    //store locally
-    storeAnnotation(annotation, now);
+    pageKey = teaching.keyInfo.genParagraphKey(serverAnnotation.rangeStart);
   }
+
+  Object(_ajax_annotation__WEBPACK_IMPORTED_MODULE_0__["postAnnotation"])(userInfo.userId, pageKey, creationDate, serverAnnotation).then(resp => {
+    if (addToLocalStorage) {
+      if (serverAnnotation.selectedText) {
+        serverAnnotation.selectedText = JSON.parse(serverAnnotation.selectedText);
+      }
+
+      _bookmark__WEBPACK_IMPORTED_MODULE_3__["localStore"].addItem(userInfo.userId, pageKey, creationDate, serverAnnotation);
+    }
+  }).catch(err => {
+    console.error(`Error saving annotation: ${err}`);
+    toastr__WEBPACK_IMPORTED_MODULE_4___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("error:e1"));
+  });
+  return creationDate;
 }
 /*
   Delete the annotation 'creationDate' for bookmark 'pid'
@@ -3495,70 +3542,18 @@ function postAnnotation(annotation, pageKey, addToLocalStorage = true) {
 
 
 function deleteAnnotation(pid, creationDate) {
-  const pageKey = teaching.keyInfo.genPageKey();
-  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])(); //delete annotation from server
+  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])();
+  return new Promise(async (resolve, reject) => {
+    const paraKey = teaching.keyInfo.genParagraphKey(pid);
 
-  if (userInfo) {
-    let bookmarkId = teaching.keyInfo.genParagraphKey(pid, pageKey);
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.delete(`${_globals__WEBPACK_IMPORTED_MODULE_8__["default"].bookmarkApi}/bookmark/annotation/${userInfo.userId}/${bookmarkId}/${creationDate}`).then(() => {
-      console.log("deleted annotation: %s/%s/%s", userInfo.userId, bookmarkId, creationDate);
-    }).catch(err => {
-      throw new Error(err);
-    });
-  }
-
-  return deleteLocalAnnotation(pid, creationDate);
-}
-/*
-  Fetch requested bookmark from server
-*/
-
-
-function fetchBookmark(bookmarkId, userId) {
-  return new Promise((resolve, reject) => {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_8__["default"].bookmarkApi}/bookmark/${userId}/${bookmarkId}`).then(response => {
-      if (response.data.response.Item) {
-        for (let a of response.data.response.Item.bookmark) {
-          if (a.selectedText) {
-            a.selectedText = JSON.parse(a.selectedText);
-          }
-        }
-      }
-
-      resolve(response.data.response);
-    }).catch(err => {
+    try {
+      let response = await Object(_ajax_annotation__WEBPACK_IMPORTED_MODULE_0__["deleteAnnotation"])(userInfo.userId, paraKey, creationDate);
+      let result = _bookmark__WEBPACK_IMPORTED_MODULE_3__["localStore"].deleteItem(userInfo.userId, paraKey, creationDate);
+      resolve(result.remaining);
+    } catch (err) {
       reject(err);
-    });
+    }
   });
-}
-/*
-  When user is signed in the bookmark has been returned from the server
-  and saved to local storage. We get the bookmark from there rather than
-  having to go back to the server.
-
-  We get the bookmark from local storage when the user is not signed in also.
-*/
-
-function getAnnotation(pid, aid) {
-  const pageKey = teaching.keyInfo.genPageKey();
-  let data;
-  let annotation; //remove the 'p' in pid
-
-  pid = parseInt(pid.substr(1), 10) + 1;
-  data = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(pageKey);
-
-  if (!data) {
-    throw new Error("Expected bookmark data not found in local storage");
-  }
-
-  if (!data[pid]) {
-    throw new Error(`Expected annotations not found for pid ${pid}`);
-  } //filter requested annotation from array
-
-
-  annotation = data[pid].filter(a => a.creationDate === aid); //return requested annotation
-
-  return annotation[0];
 }
 /*
   Fetch Indexing topics
@@ -3571,218 +3566,35 @@ function getAnnotation(pid, aid) {
 
 function fetchTopics() {
   const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])();
-  let topics = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(teaching.bm_topic_list); //keep topics in cache for 2 hours
+  let topics = Object(_util_store__WEBPACK_IMPORTED_MODULE_2__["storeGet"])("bmTopics"); //keep topics in cache for 2 hours
 
   const retentionTime = 60 * 1000 * 60 * 2;
   return new Promise((resolve, reject) => {
-    //topics stored only in local store for users not signed in
-    if (!userInfo) {
-      //no topics created yet
-      if (!topics) {
-        topics = {
-          lastFetchDate: 0,
-          topics: []
-        };
-        store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_topic_list, topics);
-      }
-
+    if (topics && topics.lastFetchDate + retentionTime > Date.now()) {
       resolve(topics);
       return;
-    } //user signed in
-    else if (topics && topics.lastFetchDate + retentionTime > Date.now()) {
-        //return topics from cache
-        resolve(topics);
-        return;
-      }
+    }
 
-    let sourceId = teaching.keyInfo.getKeyInfo().sourceId.toString(10); //user signed in, we need to get topics from server
+    let sourceId = teaching.sourceId.toString(10); //user signed in, we need to get topics from server
 
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_8__["default"].topicsEndPoint}/user/${userInfo.userId}/topics/${sourceId}`).then(topicInfo => {
-      //console.log("topicInfo.data: ", topicInfo.data);
-      topicInfo.data.lastFetchDate = Date.now();
-      store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_topic_list, topicInfo.data);
-      resolve(topicInfo.data);
+    Object(_ajax_topics__WEBPACK_IMPORTED_MODULE_1__["getTopicList"])(userInfo.userId, sourceId).then(topicList => {
+      let topicInfo = {
+        lastFetchDate: Date.now(),
+        topics: topicList
+      };
+      Object(_util_store__WEBPACK_IMPORTED_MODULE_2__["storeSet"])("bmTopics", topicInfo);
+      resolve(topicInfo);
     }).catch(error => {
       console.error("Error fetching topicList: ", error);
       reject(error);
     });
   });
 }
-/*
-  add new topics to topic-list in application store and sort
-  write topics to database if user signed in
-*/
-
-
-function addToTopicList(newTopics) {
-  let topics = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(teaching.bm_topic_list);
-  let concatTopics = topics.topics.concat(newTopics); //improve sort
-
-  concatTopics.sort((a, b) => {
-    let aValue, bValue; //objects have value and topic keys, sort them by topic
-    // Note: all topics are now objects
-
-    aValue = a.topic.toLowerCase();
-    bValue = b.topic.toLowerCase();
-
-    if (aValue < bValue) {
-      return -1;
-    }
-
-    if (aValue > bValue) {
-      return 1;
-    }
-
-    return 0;
-  });
-  topics.topics = concatTopics;
-  store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_topic_list, topics); //add topics to server if user signed in
-
-  let userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_6__["getUserInfo"])();
-
-  if (userInfo) {
-    let postBody = {
-      userId: userInfo.userId,
-      sourceId: teaching.keyInfo.getKeyInfo().sourceId,
-      topicList: newTopics
-    }; //console.log("newTopics: %o", newTopics);
-
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_8__["default"].topicsEndPoint}/user/topics`, postBody).then(response => {//console.log("addToTopicList: %o", response.data);
-    }).catch(err => {//console.error("addToTopicList error: %o", err);
-    });
-  }
-
-  return topics;
-}
-/*
-  Called when a bookmark has been created, modified or deleted. We check if the bookmark
-  list exists and if it was created before a bookmark was modified. If so, the list needs
-  to be rebuilt.
-*/
-
-
-function inValidateBookmarkList() {
-  const keyInfo = teaching.keyInfo.getKeyInfo();
-  let bmList = getBookmarkList(keyInfo);
-
-  if (bmList) {
-    //console.log("invalidating bmList");
-    bmList.lastBuildDate = 0;
-    storeBookmarkList(bmList, keyInfo);
-  }
-}
-/*
-  store annotation locally
-  - if bmList_<source> exists in local store set lastBuildDate = 0 to indicate
-    it needs to be recreated.
-*/
-
-
-function storeAnnotation(annotation, creationDate) {
-  const pageKey = teaching.keyInfo.genPageKey(); //make annotation key
-
-  let pid = parseInt(annotation.rangeStart.substr(1), 10) + 1; //get bookmark for page
-
-  let data = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(pageKey); //modified/edited bookmark when it has a creationDate attribute
-
-  if (annotation.creationDate) {
-    //convert bookmark.creationDate to number
-    annotation.creationDate = parseInt(annotation.creationDate, 10);
-
-    if (!data[pid]) {
-      throw new Error(`Expected bookmark ${pid} not found.`);
-    } //find the index of the annotation in the bookmark
-
-
-    let index = lodash_findIndex__WEBPACK_IMPORTED_MODULE_4___default()(data[pid], a => a.creationDate === annotation.creationDate);
-
-    if (index === -1) {
-      throw new Error(`Did not find annotation ${annotation.creationDate} for pid ${pid}`);
-    } //annotation was not modified so return
-
-
-    if (lodash_isEqual__WEBPACK_IMPORTED_MODULE_3___default()(data[pid][index], annotation)) {
-      return;
-    } else {
-      data[pid][index] = annotation;
-    }
-  } //new annotation
-  else {
-      let type;
-      annotation.creationDate = creationDate; //add creation date to the selectedText attribute of new annotations
-
-      if (annotation.selectedText) {
-        type = "highlight";
-        annotation.selectedText.aid = creationDate.toString(10); //add data-aid to new highlite so that it can be edited with a click
-
-        Object(_selection__WEBPACK_IMPORTED_MODULE_7__["updateSelectedText"])(annotation.selectedText.id, annotation.selectedText.aid);
-      } else {
-        type = "note";
-      } //if annotation has links, add linkify icon so it can be clicked
-
-
-      if (annotation.links) {
-        Object(_bookmark__WEBPACK_IMPORTED_MODULE_9__["setQuickLinks"])(annotation, type);
-      }
-
-      if (!data) {
-        data = {
-          [pid]: [annotation]
-        };
-      } else {
-        if (data[pid]) {
-          data[pid].push(annotation);
-        } else {
-          data[pid] = [annotation];
-        }
-      }
-    }
-
-  store__WEBPACK_IMPORTED_MODULE_1___default.a.set(pageKey, data);
-  inValidateBookmarkList();
-}
-/*
-  delete local annotation
-
-  args:
-    pid: paragraph id
-    aid: annotation id
-*/
-
-
-function deleteLocalAnnotation(pid, aid) {
-  const pageKey = teaching.keyInfo.genPageKey(); //make annotation id
-
-  pid = parseInt(pid.substr(1), 10) + 1;
-  let data = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(pageKey);
-
-  if (!data) {
-    throw new Error("Expected bookmark data not found in local storage");
-  }
-
-  let annotations = data[pid]; //user pressed delete on an annotation that was not created yet
-
-  if (!annotations) {
-    return;
-  } //filter deleted annotation from array
-
-
-  data[pid] = annotations.filter(a => a.creationDate !== parseInt(aid, 10));
-  store__WEBPACK_IMPORTED_MODULE_1___default.a.set(pageKey, data); //bookmark has been deleted invalidate bookmark list so it is rebuilt
-
-  inValidateBookmarkList(); //return number of annotations remaining for paragraph
-
-  return data[pid].length;
-}
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  addToTopicList: addToTopicList,
   fetchTopics: fetchTopics,
-  getAnnotation: getAnnotation,
   deleteAnnotation: deleteAnnotation,
-  postAnnotation: postAnnotation,
-  getBookmarks: getBookmarks,
-  queryBookmarks: queryBookmarks
+  postAnnotation: postAnnotation
 });
 
 /***/ }),
@@ -3791,33 +3603,44 @@ function deleteLocalAnnotation(pid, aid) {
 /*!*******************************************************!*\
   !*** ../cmi-www/src/js/modules/_bookmark/bookmark.js ***!
   \*******************************************************/
-/*! exports provided: getTeachingInfo, setQuickLinks, annotation, default */
+/*! exports provided: localStore, getTeachingInfo, processBookmark, setQuickLinks, annotation, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "localStore", function() { return localStore; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getTeachingInfo", function() { return getTeachingInfo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "processBookmark", function() { return processBookmark; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setQuickLinks", function() { return setQuickLinks; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "annotation", function() { return annotation; });
-/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
-/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! store */ "../cmi-www/node_modules/store/dist/store.legacy.js");
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _bmnet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./bmnet */ "../cmi-www/src/js/modules/_bookmark/bmnet.js");
-/* harmony import */ var lodash_differenceWith__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/differenceWith */ "../cmi-www/node_modules/lodash/differenceWith.js");
-/* harmony import */ var lodash_differenceWith__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_differenceWith__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash/cloneDeep */ "../cmi-www/node_modules/lodash/cloneDeep.js");
-/* harmony import */ var lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var lodash_startCase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash/startCase */ "../cmi-www/node_modules/lodash/startCase.js");
-/* harmony import */ var lodash_startCase__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash_startCase__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _util_url__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../_util/url */ "../cmi-www/src/js/modules/_util/url.js");
-/* harmony import */ var _navigator__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./navigator */ "../cmi-www/src/js/modules/_bookmark/navigator.js");
-/* harmony import */ var _list__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./list */ "../cmi-www/src/js/modules/_bookmark/list.js");
-/* harmony import */ var _topics__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./topics */ "../cmi-www/src/js/modules/_bookmark/topics.js");
-/* harmony import */ var _selection__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./selection */ "../cmi-www/src/js/modules/_bookmark/selection.js");
-/* harmony import */ var _annotate__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./annotate */ "../cmi-www/src/js/modules/_bookmark/annotate.js");
-/* harmony import */ var _link_setup__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../_link/setup */ "../cmi-www/src/js/modules/_link/setup.js");
-/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var _ajax_annotation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_ajax/annotation */ "../cmi-www/src/js/modules/_ajax/annotation.js");
+/* harmony import */ var _ajax_topics__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_ajax/topics */ "../cmi-www/src/js/modules/_ajax/topics.js");
+/* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var _util_store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_util/store */ "../cmi-www/src/js/modules/_util/store.js");
+/* harmony import */ var _localStore__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./localStore */ "../cmi-www/src/js/modules/_bookmark/localStore.js");
+/* harmony import */ var _util_sanitize__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../_util/sanitize */ "../cmi-www/src/js/modules/_util/sanitize.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _bmnet__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./bmnet */ "../cmi-www/src/js/modules/_bookmark/bmnet.js");
+/* harmony import */ var lodash_differenceWith__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lodash/differenceWith */ "../cmi-www/node_modules/lodash/differenceWith.js");
+/* harmony import */ var lodash_differenceWith__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(lodash_differenceWith__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lodash/cloneDeep */ "../cmi-www/node_modules/lodash/cloneDeep.js");
+/* harmony import */ var lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var lodash_startCase__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! lodash/startCase */ "../cmi-www/node_modules/lodash/startCase.js");
+/* harmony import */ var lodash_startCase__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(lodash_startCase__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _util_url__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../_util/url */ "../cmi-www/src/js/modules/_util/url.js");
+/* harmony import */ var _navigator__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./navigator */ "../cmi-www/src/js/modules/_bookmark/navigator.js");
+/* harmony import */ var _list__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./list */ "../cmi-www/src/js/modules/_bookmark/list.js");
+/* harmony import */ var _topics__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./topics */ "../cmi-www/src/js/modules/_bookmark/topics.js");
+/* harmony import */ var _selection__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./selection */ "../cmi-www/src/js/modules/_bookmark/selection.js");
+/* harmony import */ var _annotate__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./annotate */ "../cmi-www/src/js/modules/_bookmark/annotate.js");
+/* harmony import */ var _util_cmi__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../_util/cmi */ "../cmi-www/src/js/modules/_util/cmi.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+
+
+
+
+
 
 
 
@@ -3833,14 +3656,115 @@ __webpack_require__.r(__webpack_exports__);
 
  //teaching specific constants, assigned at initialization
 
-let teaching = {};
+let teaching = {}; //manages bookmark store for bookmarks on page
+
+let localStore;
 function getTeachingInfo() {
   return teaching;
+}
+let counter = new Map();
+
+function getCount(pid) {
+  let count = counter.get(pid);
+
+  if (typeof count === "undefined") {
+    counter.set(pid, 0);
+    return 0;
+  } else {
+    count += 1;
+    counter.set(pid, count);
+    return count;
+  }
+}
+
+function loadSelectedTextBookmark(bm, sharePid) {
+  $(`#p${bm.pid} > span.pnum`).addClass("has-bookmark");
+  Object(_selection__WEBPACK_IMPORTED_MODULE_15__["markSelection"])(bm.annotation.selectedText, getCount(bm.pid), sharePid);
+  addTopicsAsClasses(bm.annotation);
+  setQuickLinks(bm.annotation, "highlight");
+}
+
+function loadNoteStyleBookmark(bm) {
+  addNoteHighlight(bm.pid, bm.annotation);
+  setQuickLinks(bm.annotation, "note");
+}
+
+function loadBookmark(bm, sharePid) {
+  let type = bm.annotation.selectedText ? "selectedText" : "note";
+  type === "selectedText" ? loadSelectedTextBookmark(bm) : loadNoteStyleBookmark(bm);
+}
+
+function createSelectedTextBookmark(bm, count) {
+  $(`#p${bm.pid} > span.pnum`).addClass("has-bookmark");
+  Object(_selection__WEBPACK_IMPORTED_MODULE_15__["markSelection"])(bm.annotation.selectedText, count);
+  addTopicsAsClasses(bm.annotation);
+  setQuickLinks(bm.annotation, "highlight"); //add creationDate
+
+  $(`[data-annotation-id="${bm.annotation.aid}"]`).attr("data-aid", bm.creationDate);
+}
+
+function createNoteStyleBookmark(bm) {
+  addNoteHighlight(bm.pid, bm.annotation);
+  setQuickLinks(bm.annotation, "note"); //add creationDate
+
+  $(`#${bm.annotation.rangeStart} > span.pnum`).attr("data-aid", bm.creationDate);
+}
+
+function deleteSelectedTextBookmark(bm) {
+  Object(_selection__WEBPACK_IMPORTED_MODULE_15__["deleteSelection"])(bm.annotation.aid);
+}
+
+function deleteNoteStyleBookmark(bm) {
+  removeNoteHighlight(bm);
+}
+
+function createBookmark(bm, count) {
+  let type = bm.annotation.selectedText ? "selectedText" : "note";
+  type === "selectedText" ? createSelectedTextBookmark(bm, count) : createNoteStyleBookmark(bm);
+}
+
+function deleteBookmark(bm, remainingCount) {
+  let type = bm.annotation.selectedText ? "selectedText" : "note";
+  type === "selectedText" ? deleteSelectedTextBookmark(bm) : deleteNoteStyleBookmark(bm);
+
+  if (bm.annotation.links) {
+    $(`i[data-link-aid="${bm.creationDate}"]`).remove();
+  }
+
+  if (remainingCount === 0) {
+    $(`#${bm.annotation.rangeStart} > span.pnum`).removeClass("has-bookmark");
+  }
+}
+/**
+ * Process each bookmark loaded, created, updated, or deleted
+ * - process includes highlighting selected text and note paragraphs,
+ *   setting quick links and filtering by topic
+ */
+
+
+function processBookmark(status, bm, arg) {
+  switch (status) {
+    case "loaded":
+      loadBookmark(bm, arg);
+      break;
+
+    case "created":
+      createBookmark(bm, arg);
+      break;
+
+    case "updated":
+      Object(_selection__WEBPACK_IMPORTED_MODULE_15__["updateSelectionTopicList"])(bm.annotation);
+      break;
+
+    case "deleted":
+      deleteBookmark(bm, arg);
+      break;
+  }
 }
 
 function formatLink(link) {
   let raw = JSON.parse(link.link);
-  let href = Object(_link_setup__WEBPACK_IMPORTED_MODULE_12__["getLinkHref"])(raw);
+  let href = getLinkHref(raw);
   let display = `${raw.desc.source}:${raw.desc.book}:${raw.desc.unit}`; //WOM has questions
 
   if (raw.desc.question) {
@@ -3859,18 +3783,19 @@ function generateLinkList(links) {
       ${formatLink(item)}
     `).join("")}
   `;
-} //add bookmark topics to bookmark selected text to support
-//selective display of highlight based on topic
+} // --------------- begin Bookmark DOM -------------------------
+
+/**
+ * Add classes to selectedText bookmarks for each topic
+ *
+ * @param <object> - the annotation
+ */
 
 
 function addTopicsAsClasses(bookmark) {
   if (bookmark.topicList && bookmark.topicList.length > 0) {
     let topicList = bookmark.topicList.reduce((result, topic) => {
-      if (typeof topic === "object") {
-        return `${result} ${topic.value}`;
-      }
-
-      return `${result} ${topic}`;
+      return `${result} ${topic.value}`;
     }, "");
     $(`[data-annotation-id="${bookmark.aid}"]`).addClass(topicList);
   }
@@ -3896,6 +3821,29 @@ function addNoteHighlight(pid, bm) {
     start++;
   } while (start <= end);
 }
+
+function removeNoteHighlight(bm) {
+  //remove mark from paragraph
+  $(`#${bm.annotation.rangeStart} > span.pnum`).removeClass("has-annotation"); //remove all paragraphs in bookmark with class .note-style-bookmark
+
+  let end = parseInt(bm.annotation.rangeEnd.substr(1), 10);
+  let start = parseInt(bm.annotation.rangeStart.substr(1), 10);
+  let pid = start;
+
+  do {
+    $(`#p${start}`).removeClass("note-style-bookmark");
+
+    if (start === pid) {
+      $(`#p${start}`).removeClass("note-style-bookmark-start");
+    }
+
+    if (start === end) {
+      $(`#p${start}`).removeClass("note-style-bookmark-end");
+    }
+
+    start++;
+  } while (start <= end);
+}
 /*
   Add linkify icon after bookmark so user can click to view links
 */
@@ -3903,9 +3851,10 @@ function addNoteHighlight(pid, bm) {
 
 function setQuickLinks(bm, type) {
   if (bm.links) {
-    $(`[data-aid="${bm.creationDate}"]`).after(`<i data-link-aid="${bm.creationDate}" data-type="${type}" class="small bm-link-list linkify icon"></i>`);
+    $(`[data-aid="${bm.creationDate}"]`).eq(-1).after(`<i data-link-aid="${bm.creationDate}" data-type="${type}" class="small bm-link-list linkify icon"></i>`);
   }
-}
+} // --------------- end Bookmark DOM -------------------------
+
 /*
   Bookmark link click handler. Links are placed on both note and selected text
   bookmarks. When clicked, get the bookmark and display a list of links defined
@@ -3920,26 +3869,21 @@ function initBmLinkHandler() {
     let aid;
 
     if (type === "note") {
-      aid = parseInt($(this).prev("span").attr("data-aid"), 10);
+      //aid = parseInt($(this).prev("span").attr("data-aid"), 10);
+      aid = $(this).prev("span").attr("data-aid");
     } else if (type === "highlight") {
-      aid = parseInt($(this).prev("mark").attr("data-aid"), 10);
-    } //console.log("bookmark type: %s, pid: %s, aid: %s", type, pid, aid);
-    //bookmark wont be found if it is still being created
+      //aid = parseInt($(this).prev("mark").attr("data-annotation-id"), 10);
+      aid = $(this).prev("mark").attr("data-annotation-id");
+    } //bookmark wont be found if it is still being created
 
 
-    let bookmarkData = Object(_bmnet__WEBPACK_IMPORTED_MODULE_2__["getBookmark"])(pid);
+    let bkmrk = localStore.getItem(pid, aid); //sometimes the annotation won't be found because it is being created, so just return
 
-    if (!bookmarkData.bookmark) {
+    if (!bkmrk) {
       return;
     }
 
-    let annotation = bookmarkData.bookmark.find(value => value.creationDate === aid); //sometimes the annotation won't be found because it is being created, so just return
-
-    if (!annotation) {
-      return;
-    }
-
-    let linkList = generateLinkList(annotation.links);
+    let linkList = generateLinkList(bkmrk.annotation.links);
     $(".bm-link-list-popup").html(linkList);
     $(this).popup({
       popup: ".bm-link-info.popup",
@@ -3949,62 +3893,12 @@ function initBmLinkHandler() {
   });
 }
 /*
-  Highlight all annotations with selected text
-  ** except for paragraph of a shared annotation 0 sharePid
-*/
-
-
-function getPageBookmarks(sharePid) {
-  //identify paragraphs with bookmarks
-  _bmnet__WEBPACK_IMPORTED_MODULE_2__["default"].getBookmarks().then(response => {
-    if (response) {
-      //mark each paragraph containing bookmarks
-      for (let id in response) {
-        let hasBookmark = false; //let hasAnnotation = false;
-
-        let pid = id - 1;
-        let count = 0;
-
-        for (const bm of response[id]) {
-          if (bm.selectedText) {
-            Object(_selection__WEBPACK_IMPORTED_MODULE_10__["markSelection"])(bm.selectedText, count, sharePid);
-            addTopicsAsClasses(bm);
-            setQuickLinks(bm, "highlight");
-            _topics__WEBPACK_IMPORTED_MODULE_9__["default"].add(bm);
-            count++;
-            hasBookmark = true;
-          } else {
-            addNoteHighlight(pid, bm);
-            setQuickLinks(bm, "note");
-          }
-        }
-
-        if (hasBookmark) {
-          $(`#p${pid} > span.pnum`).addClass("has-bookmark");
-        }
-        /*
-        if (hasAnnotation) {
-          $(`#p${pid} > span.pnum`).addClass("has-annotation");
-        }
-        */
-
-      }
-
-      _topics__WEBPACK_IMPORTED_MODULE_9__["default"].bookmarksLoaded();
-    }
-  }).catch(error => {
-    console.error(error);
-    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_13__["getString"])("error:e2"));
-  });
-}
-/*
   Clean up form values and prepare to send to API
 */
 
 
 function createAnnotation(formValues) {
-  //console.log("createAnnotation");
-  let annotation = lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_4___default()(formValues);
+  let annotation = lodash_cloneDeep__WEBPACK_IMPORTED_MODULE_9___default()(formValues);
   annotation.rangeStart = annotation.rangeStart.trim();
   annotation.rangeEnd = annotation.rangeEnd.trim();
 
@@ -4015,10 +3909,14 @@ function createAnnotation(formValues) {
 
   if (annotation.Comment === "") {
     delete annotation.Comment;
+  } else {
+    annotation.Comment = Object(_util_sanitize__WEBPACK_IMPORTED_MODULE_5__["purify"])(annotation.Comment);
   }
 
   if (annotation.Note === "") {
     delete annotation.Note;
+  } else {
+    annotation.Note = Object(_util_sanitize__WEBPACK_IMPORTED_MODULE_5__["purify"])(annotation.Note);
   }
 
   if (annotation.creationDate === "") {
@@ -4028,7 +3926,7 @@ function createAnnotation(formValues) {
   if (annotation.aid === "") {
     delete annotation.aid;
   } else {
-    annotation.selectedText = Object(_selection__WEBPACK_IMPORTED_MODULE_10__["getSelection"])(annotation.aid);
+    annotation.selectedText = Object(_selection__WEBPACK_IMPORTED_MODULE_15__["getSelection"])(annotation.aid);
 
     if (annotation.creationDate) {
       annotation.selectedText.aid = annotation.creationDate.toString(10);
@@ -4040,13 +3938,13 @@ function createAnnotation(formValues) {
   if (annotation.topicList.length === 0) {
     delete annotation.topicList;
   } //keep track of topics added or deleted
+  //updateSelectionTopicList(annotation);
 
 
-  Object(_selection__WEBPACK_IMPORTED_MODULE_10__["updateSelectionTopicList"])(annotation);
   delete annotation.newTopics;
   delete annotation.hasAnnotation; //persist the bookmark
 
-  _bmnet__WEBPACK_IMPORTED_MODULE_2__["default"].postAnnotation(annotation);
+  _bmnet__WEBPACK_IMPORTED_MODULE_7__["default"].postAnnotation(annotation);
 }
 /*
   new topics entered on the annotation form are formatted
@@ -4078,7 +3976,7 @@ function formatNewTopics({
   topics = topics.replace(/,*$/, "");
   let newTopicArray = topics.split(",");
   newTopicArray = newTopicArray.map(t => t.trim());
-  newTopicArray = newTopicArray.map(t => lodash_startCase__WEBPACK_IMPORTED_MODULE_5___default()(t));
+  newTopicArray = newTopicArray.map(t => lodash_startCase__WEBPACK_IMPORTED_MODULE_10___default()(t));
   newTopicArray = newTopicArray.map(t => {
     if (/ /.test(t)) {
       return {
@@ -4103,19 +4001,39 @@ function formatNewTopics({
 
 function addToTopicList(newTopics, formValues) {
   //Check for new topics already in topic list
-  _bmnet__WEBPACK_IMPORTED_MODULE_2__["default"].fetchTopics().then(response => {
+  _bmnet__WEBPACK_IMPORTED_MODULE_7__["default"].fetchTopics().then(topicList => {
     //remove duplicate topics from and return the rest in difference[]
-    let newUniqueTopics = lodash_differenceWith__WEBPACK_IMPORTED_MODULE_3___default()(newTopics, response.topics, (n, t) => {
-      if (!t.value) {
-        return t === n.value;
-      }
-
+    let newUniqueTopics = lodash_differenceWith__WEBPACK_IMPORTED_MODULE_8___default()(newTopics, topicList.topics, (n, t) => {
       return t.value === n.value;
     }); //these are the new topics
 
     if (newUniqueTopics.length > 0) {
       //add new topics to topic list
-      _bmnet__WEBPACK_IMPORTED_MODULE_2__["default"].addToTopicList(newUniqueTopics); //add new topics to this annotations topicList
+      let newTopicList = topicList.topics.concat(newUniqueTopics); //sort topic list
+
+      newTopicList.sort((a, b) => {
+        let aValue, bValue; //objects have value and topic keys, sort them by topic
+
+        aValue = a.topic.toLowerCase();
+        bValue = b.topic.toLowerCase();
+
+        if (aValue < bValue) {
+          return -1;
+        }
+
+        if (aValue > bValue) {
+          return 1;
+        }
+
+        return 0;
+      }); //update local storage
+
+      topicList.topics = newTopicList;
+      Object(_util_store__WEBPACK_IMPORTED_MODULE_3__["storeSet"])("bmTopics", topicList);
+      let userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_2__["getUserInfo"])();
+      let sourceId = `${teaching.sourceId}`; //write the new list to the db
+
+      Object(_ajax_topics__WEBPACK_IMPORTED_MODULE_1__["putTopicList"])(userInfo.userId, sourceId, newTopicList); //add new topics to this annotations topicList
 
       formValues.topicList = formValues.topicList.concat(newUniqueTopics); //add newTopics to formValues for posting to server
 
@@ -4124,7 +4042,6 @@ function addToTopicList(newTopics, formValues) {
       createAnnotation(formValues);
     }
   }).catch(err => {
-    //error
     throw new Error(`bookmark.js:addToTopicList() error: ${err}`);
   });
 } //toggle selected text highlights
@@ -4151,21 +4068,39 @@ function highlightHandler() {
 
 
 function bookmarkFeatureHandler() {
-  $("#bookmark-toggle-disable-selection").on("click", function (e) {
+  $("#bookmark-toggle-disable-selection").on("click", function (e, show) {
     e.preventDefault();
+    let showMessage = true;
+
+    if (show !== "undefined") {
+      showMessage = show === "false" ? false : true;
+    }
+
     let el = $(".transcript");
 
     if (el.hasClass("disable-selection") && el.hasClass("user")) {
-      Object(_language_lang__WEBPACK_IMPORTED_MODULE_13__["getString"])("menu:m1", true).then(value => {
+      Object(_language_lang__WEBPACK_IMPORTED_MODULE_18__["getString"])("menu:m1", true).then(value => {
         el.removeClass("disable-selection user");
         $(".toggle-bookmark-selection").text(value);
-        store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_creation_state, "enabled");
+        $("#bookmark-dropdown-menu > span  i.bookmark-corner-icon").addClass("hide");
+
+        if (showMessage) {
+          toastr__WEBPACK_IMPORTED_MODULE_6___default.a.success("Bookmark Creation Enabled");
+        }
+
+        Object(_util_store__WEBPACK_IMPORTED_MODULE_3__["storeSet"])("bmCreation", "enabled");
       });
     } else {
-      Object(_language_lang__WEBPACK_IMPORTED_MODULE_13__["getString"])("menu:m2", true).then(value => {
+      Object(_language_lang__WEBPACK_IMPORTED_MODULE_18__["getString"])("menu:m2", true).then(value => {
         el.addClass("disable-selection user");
         $(".toggle-bookmark-selection").text(value);
-        store__WEBPACK_IMPORTED_MODULE_1___default.a.set(teaching.bm_creation_state, "disabled");
+        $("#bookmark-dropdown-menu > span  i.bookmark-corner-icon").removeClass("hide");
+
+        if (showMessage) {
+          toastr__WEBPACK_IMPORTED_MODULE_6___default.a.success("Bookmark Creation Disabled");
+        }
+
+        Object(_util_store__WEBPACK_IMPORTED_MODULE_3__["storeSet"])("bmCreation", "disabled");
       });
     }
   });
@@ -4173,15 +4108,49 @@ function bookmarkFeatureHandler() {
 /*
  * The bookmark feature is initially enabled. Check local storage to see if
  * it has been disabled by the user. If so, disable it on page load.
+ *
+ * If the user has not set bookmark creation default it to disabled. I think
+ * many users may want to copy text but can't because the bookmark dialog displays
+ * on text selection. They don't try to figure out why and stop using the site.
  */
 
 
 function initializeBookmarkFeatureState() {
-  let state = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(teaching.bm_creation_state);
+  let state = Object(_util_store__WEBPACK_IMPORTED_MODULE_3__["storeGet"])("bmCreation");
 
-  if (state && state === "disabled") {
-    //console.log("triggering selection guard disable");
-    $("#bookmark-toggle-disable-selection").trigger("click");
+  if (state && state === "enabled") {
+    return;
+  } //set to disabled
+
+
+  $("#bookmark-toggle-disable-selection").trigger("click", "false");
+}
+/**
+ * Get and activate annotations for the current page.
+ *
+ * @params {string} sharePid - is not null when bookmark is shared on page.
+ */
+
+
+async function getPageBookmarks(sharePid) {
+  let pageKey = teaching.keyInfo.genPageKey();
+  let userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_2__["getUserInfo"])();
+
+  if (!userInfo) {
+    return;
+  }
+
+  try {
+    //query annotations from database
+    let bmList = await Object(_ajax_annotation__WEBPACK_IMPORTED_MODULE_0__["getAnnotations"])(userInfo.userId, pageKey); //store annotations locally
+
+    localStore = new _localStore__WEBPACK_IMPORTED_MODULE_4__["BookmarkLocalStore"](bmList, sharePid);
+
+    if (bmList.length > 0) {
+      Object(_topics__WEBPACK_IMPORTED_MODULE_14__["bookmarksLoaded"])();
+    }
+  } catch (err) {
+    console.error(err); //Notify error 
   }
 }
 /*
@@ -4190,23 +4159,25 @@ function initializeBookmarkFeatureState() {
 
 
 function initTranscriptPage(sharePid, constants) {
-  //get existing bookmarks for page
+  //bookmarks are supported only for signed in users
+  if (!Object(_user_netlify__WEBPACK_IMPORTED_MODULE_2__["getUserInfo"])()) return; //get existing bookmarks for page
+
   getPageBookmarks(sharePid); //add support for text selection
 
-  Object(_selection__WEBPACK_IMPORTED_MODULE_10__["initialize"])(constants); //show/hide bookmark highlights
+  Object(_selection__WEBPACK_IMPORTED_MODULE_15__["initialize"])(constants); //show/hide bookmark highlights
 
   highlightHandler(); //disable/enable bookmark creation feature
 
   bookmarkFeatureHandler();
   initializeBookmarkFeatureState(); //setup bookmark link listener
 
-  Object(_link_setup__WEBPACK_IMPORTED_MODULE_12__["createLinkListener"])(_annotate__WEBPACK_IMPORTED_MODULE_11__["getLink"]);
+  createLinkListener(_annotate__WEBPACK_IMPORTED_MODULE_16__["getLink"]);
   initBmLinkHandler(); //setup bookmark navigator if requested
 
-  let pid = Object(_util_url__WEBPACK_IMPORTED_MODULE_6__["showBookmark"])();
+  let pid = Object(_util_url__WEBPACK_IMPORTED_MODULE_11__["showBookmark"])();
 
   if (pid) {
-    Object(_navigator__WEBPACK_IMPORTED_MODULE_7__["initNavigator"])(pid, teaching);
+    Object(_navigator__WEBPACK_IMPORTED_MODULE_12__["initNavigator"])(pid, teaching);
   }
 }
 
@@ -4224,49 +4195,6 @@ const annotation = {
     } else {
       //post the bookmark
       createAnnotation(formData);
-    } //mark paragraph as having bookmark
-
-
-    if (!formData.aid) {
-      //bookmark has no selected text
-      $(`#${formData.rangeStart} > span.pnum`).addClass("has-annotation"); //mark all paragraphs in bookmark with class .note-style-bookmark
-
-      let end = parseInt(formData.rangeEnd.substr(1), 10);
-      let start = parseInt(formData.rangeStart.substr(1), 10);
-      let pid = start;
-
-      do {
-        $(`#p${start}`).addClass("note-style-bookmark");
-
-        if (start === pid) {
-          $(`#p${start}`).addClass("note-style-bookmark-start");
-        }
-
-        if (start === end) {
-          $(`#p${start}`).addClass("note-style-bookmark-end");
-        }
-
-        start++;
-      } while (start <= end);
-    } else {
-      $(`#${formData.rangeStart} > span.pnum`).addClass("has-bookmark"); //this is a new annotation
-
-      if (formData.creationDate === "") {
-        let bookmarks = Object(_bmnet__WEBPACK_IMPORTED_MODULE_2__["getBookmark"])(formData.rangeStart);
-        let annotationCount = 0;
-
-        if (bookmarks.bookmark && bookmarks.bookmark.length > 0) {
-          annotationCount = bookmarks.bookmark.reduce((count, annotation) => {
-            if (annotation.aid && annotation.aid !== formData.aid) {
-              count = count + 1;
-            }
-
-            return count;
-          }, 0);
-        }
-
-        Object(_selection__WEBPACK_IMPORTED_MODULE_10__["updateHighlightColor"])(formData.aid, annotationCount);
-      }
     }
   },
 
@@ -4274,60 +4202,84 @@ const annotation = {
   cancel(formData) {
     //no creationDate means a new annotation that hasn't been stored
     if (!formData.creationDate && formData.aid) {
-      Object(_selection__WEBPACK_IMPORTED_MODULE_10__["deleteNewSelection"])(formData.aid);
+      Object(_selection__WEBPACK_IMPORTED_MODULE_15__["deleteNewSelection"])(formData.aid);
     }
   },
 
   //delete annotation
-  delete(formData) {
+  async delete(formData) {
     //if annotation has selected text unwrap and delete it
-    if (formData.aid) {
-      Object(_selection__WEBPACK_IMPORTED_MODULE_10__["deleteSelection"])(formData.aid);
-    } else {
-      //remove mark from paragraph
-      $(`#${formData.rangeStart} > span.pnum`).removeClass("has-annotation"); //remove all paragraphs in bookmark with class .note-style-bookmark
 
+    /*
+    if (formData.aid) {
+      deleteSelection(formData.aid);
+    }
+    else {
+      //remove mark from paragraph
+      $(`#${formData.rangeStart} > span.pnum`).removeClass("has-annotation");
+       //remove all paragraphs in bookmark with class .note-style-bookmark
       let end = parseInt(formData.rangeEnd.substr(1), 10);
       let start = parseInt(formData.rangeStart.substr(1), 10);
       let pid = start;
-
       do {
         $(`#p${start}`).removeClass("note-style-bookmark");
-
         if (start === pid) {
           $(`#p${start}`).removeClass("note-style-bookmark-start");
         }
-
         if (start === end) {
           $(`#p${start}`).removeClass("note-style-bookmark-end");
         }
-
         start++;
-      } while (start <= end);
-    } //if annotation has links, remove the linkify icon
-
-
+      } while(start <= end);
+    }
+     //if annotation has links, remove the linkify icon
     if (formData.links) {
       $(`i[data-link-aid="${formData.creationDate}"]`).remove();
-    } //mark as having no annotations if all have been deleted
-
-
-    let remainingAnnotations = _bmnet__WEBPACK_IMPORTED_MODULE_2__["default"].deleteAnnotation(formData.rangeStart, formData.creationDate);
-
-    if (remainingAnnotations === 0) {
-      $(`#${formData.rangeStart} > span.pnum`).removeClass("has-bookmark");
-    } //delete topics from the page topic list
-
-
-    _topics__WEBPACK_IMPORTED_MODULE_9__["default"].delete(formData);
+    }
+    */
+    //mark as having no annotations if all have been deleted
+    try {
+      await _bmnet__WEBPACK_IMPORTED_MODULE_7__["default"].deleteAnnotation(formData.rangeStart, formData.creationDate);
+      /*
+      if (remainingAnnotations === 0) {
+        $(`#${formData.rangeStart} > span.pnum`).removeClass("has-bookmark");
+      }
+      */
+    } catch (err) {
+      throw new Error(err);
+    }
   }
 
 };
+
+function getLinkHref(link) {
+  let url = Object(_util_cmi__WEBPACK_IMPORTED_MODULE_17__["getUrlByPageKey"])(link.key);
+
+  if (location.pathname === url) {
+    return `#${link.desc.pid}`;
+  }
+
+  return `${url}?v=${link.desc.pid}`;
+}
+
+function createLinkListener(getLink) {
+  $(".transcript").on("click", "td.follow-link-item", function (e) {
+    e.preventDefault(); //get link info
+
+    let index = $(this).parent("tr").attr("data-index");
+    let linkInfo = getLink(index); //build url
+
+    let link = JSON.parse(linkInfo.link); //console.log("url: %s", url);
+
+    location.href = getLinkHref(link);
+  });
+}
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   initialize: function (pid, constants) {
     teaching = constants; //provide teaching constants to bmnet
 
-    Object(_bmnet__WEBPACK_IMPORTED_MODULE_2__["netInit"])(teaching);
+    Object(_bmnet__WEBPACK_IMPORTED_MODULE_7__["netInit"])(teaching);
 
     if ($(".transcript").length) {
       //this is a transcript page
@@ -4335,7 +4287,7 @@ const annotation = {
     } //initialize bookmark list modal - available on all pages
 
 
-    _list__WEBPACK_IMPORTED_MODULE_8__["default"].initialize(constants);
+    _list__WEBPACK_IMPORTED_MODULE_13__["default"].initialize(constants);
   }
 });
 
@@ -4419,61 +4371,47 @@ function createInstance(selector) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _bmnet__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bmnet */ "../cmi-www/src/js/modules/_bookmark/bmnet.js");
-/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
-/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var lodash_flatten__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/flatten */ "../cmi-www/node_modules/lodash/flatten.js");
-/* harmony import */ var lodash_flatten__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_flatten__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var lodash_uniqWith__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/uniqWith */ "../cmi-www/node_modules/lodash/uniqWith.js");
-/* harmony import */ var lodash_uniqWith__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_uniqWith__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! store */ "../cmi-www/node_modules/store/dist/store.legacy.js");
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var _ajax_annotation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_ajax/annotation */ "../cmi-www/src/js/modules/_ajax/annotation.js");
+/* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var _util_store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../_util/store */ "../cmi-www/src/js/modules/_util/store.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var lodash_flatten__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash/flatten */ "../cmi-www/node_modules/lodash/flatten.js");
+/* harmony import */ var lodash_flatten__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_flatten__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var lodash_uniqWith__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash/uniqWith */ "../cmi-www/node_modules/lodash/uniqWith.js");
+/* harmony import */ var lodash_uniqWith__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash_uniqWith__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
 /*
-  Display list of bookmarks for user/source and allow for filtering by topic
-*/
+ * _bookmark/list.js
+ *
+ * Manaage bookmark display modal dialog.
+ *
+ * Query bookmarks by sourceId and format data for display in
+ * sorted order by book, chapter, and paragraph.
+ *
+ * Bookmarks are stored in local storage to avoid having to query
+ * each time list is displayed unless bookmarks have been added,
+ * deleted, or updated.
+ *
+ * Stored bookmarks are used by _bookmark/navigator.js to navigate
+ * through the list of bookmarks.
+ *
+ * Requires that _includes/componetns/bookmark-modal.html is included
+ * on page. Modal open on click of .bookmark.ui.modal.
+ *
+ */
 
 
 
 
 
- //import {getSourceId, getKeyInfo} from "../_config/key";
-//const transcript = require("../_config/key");
-//import {getPageInfo} from "../_config/config";
+
 
 const uiBookmarkModal = ".bookmark.ui.modal";
 const uiOpenBookmarkModal = ".bookmark-modal-open";
 const uiModalOpacity = 0.5; //teaching specific constants
 
-let teaching = {};
-
-function bookmarkModalState(option, modalInfo) {
-  const name = teaching.bm_modal_key;
-  let info;
-
-  switch (option) {
-    case "get":
-      info = store__WEBPACK_IMPORTED_MODULE_4___default.a.get(name);
-
-      if (!info) {
-        info = {
-          modal: {
-            filter: false
-          }
-        };
-      }
-
-      return info;
-
-    case "set":
-      store__WEBPACK_IMPORTED_MODULE_4___default.a.set(name, modalInfo);
-      break;
-
-    default:
-      throw new Error("Invalid value for 'option' argument: use 'set' or 'get'");
-  }
-} //generate the option element of a select statement
-
+let teaching = {}; //generate the option element of a select statement
 
 function generateOption(topic) {
   if (typeof topic === "object") {
@@ -4488,7 +4426,7 @@ function makeTopicSelect(topics) {
   return `
     <label>Filter Topic(s)</label>
     <select name="topicList" id="bookmark-topic-list" multiple="" class="search ui dropdown">
-      <option value="">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("label:selecttopic")}</option>
+      <option value="">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("label:selecttopic")}</option>
       ${topics.map(topic => `${generateOption(topic)}`).join("")}
     </select>
   `;
@@ -4496,7 +4434,7 @@ function makeTopicSelect(topics) {
 
 function generateHorizontalList(listArray) {
   if (!listArray || listArray.length === 0) {
-    return Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("annotate:m13");
+    return Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("annotate:m13");
   }
 
   return `
@@ -4517,7 +4455,7 @@ function generateParagraphList(pid, bkmk, url, pTopicList) {
         <i class="bookmark icon"></i>
         <div class="content">
           <div class="header">
-            <a href="${url}?bkmk=${pid}">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("label:para")}: ${pid}</a>
+            <a href="${url}?bkmk=${pid}">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("label:para")}: ${pid}</a>
           </div>
         </div>
       </div> <!-- item: ${pid} -->
@@ -4536,7 +4474,7 @@ function generateParagraphList(pid, bkmk, url, pTopicList) {
       <i class="bookmark icon"></i>
       <div class="content">
         <div class="header">
-          <a href="${url}?bkmk=${pid}">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("label:para")}: ${pid}</a>
+          <a href="${url}?bkmk=${pid}">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("label:para")}: ${pid}</a>
         </div>
         <div class="list">
           ${bkmk.map(annotation => `
@@ -4547,7 +4485,7 @@ function generateParagraphList(pid, bkmk, url, pTopicList) {
                   ${generateHorizontalList(annotation.topicList)}
                 </div>
                 <div class="description">
-                  ${annotation.Comment ? annotation.Comment : Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("annotate:m7")}
+                  ${annotation.Comment ? annotation.Comment : Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("annotate:m7")}
                 </div>
               </div>
             </div> <!-- item: ${annotation.rangeStart}/${annotation.rangeEnd} -->
@@ -4602,7 +4540,7 @@ function generateBookmarksForBookPages(pages) {
 
 function generateBookmarkList(books) {
   if (books.length === 0) {
-    return _language_lang__WEBPACK_IMPORTED_MODULE_5__["__lang"]`
+    return _language_lang__WEBPACK_IMPORTED_MODULE_6__["__lang"]`
       <h2 class="ui center aligned icon header">
         <i class="circular bookmark icon"></i>
         ${"bmlist:header"}
@@ -4698,7 +4636,7 @@ function combinePages(pages) {
             }
           }); //collect all topics used for modal dropdown select control
 
-          let uniqueArray = lodash_uniqWith__WEBPACK_IMPORTED_MODULE_3___default()(lodash_flatten__WEBPACK_IMPORTED_MODULE_2___default()(tpl), (a, b) => {
+          let uniqueArray = lodash_uniqWith__WEBPACK_IMPORTED_MODULE_5___default()(lodash_flatten__WEBPACK_IMPORTED_MODULE_4___default()(tpl), (a, b) => {
             if (a.value === b.value) {
               return true;
             }
@@ -4711,7 +4649,7 @@ function combinePages(pages) {
       }
     });
   });
-  let flatTopics = lodash_flatten__WEBPACK_IMPORTED_MODULE_2___default()(allTopics);
+  let flatTopics = lodash_flatten__WEBPACK_IMPORTED_MODULE_4___default()(allTopics);
   let sortedFlatTopics = flatTopics.sort((a, b) => {
     if (a.value < b.value) {
       return -1;
@@ -4721,7 +4659,7 @@ function combinePages(pages) {
 
     return 0;
   });
-  let allUniqueTopics = lodash_uniqWith__WEBPACK_IMPORTED_MODULE_3___default()(sortedFlatTopics, (a, b) => {
+  let allUniqueTopics = lodash_uniqWith__WEBPACK_IMPORTED_MODULE_5___default()(sortedFlatTopics, (a, b) => {
     if (a.value === b.value) {
       return true;
     }
@@ -4741,7 +4679,12 @@ function combinePages(pages) {
 function restoreModalState() {
   let {
     modal
-  } = bookmarkModalState("get");
+  } = Object(_util_store__WEBPACK_IMPORTED_MODULE_2__["storeGet"])("bmModal", {
+    modal: {
+      filter: false
+    }
+  }); //bookmarkModalState("get");
+
   let form = $("#bookmark-filter-form");
   console.log("modal: ", modal);
 
@@ -4764,7 +4707,12 @@ function filterResetHandler() {
       $(this).removeClass("hide-bookmark-item");
     }); //keep track of the state of the bookmark Modal
 
-    let bookmarkModalInfo = bookmarkModalState("get"); //update book title to reflect number of bookmarks
+    let bookmarkModalInfo = Object(_util_store__WEBPACK_IMPORTED_MODULE_2__["storeGet"])("bmModal", {
+      modal: {
+        filter: false
+      }
+    }); //bookmarkModalState("get");
+    //update book title to reflect number of bookmarks
 
     $("[data-bid]").each(function () {
       let bid = $(this).data("bid");
@@ -4772,7 +4720,7 @@ function filterResetHandler() {
     });
     bookmarkModalInfo["modal"].filter = false;
     delete bookmarkModalInfo["modal"].topics;
-    bookmarkModalState("set", bookmarkModalInfo);
+    Object(_util_store__WEBPACK_IMPORTED_MODULE_2__["storeSet"])("bmModal", bookmarkModalInfo); //bookmarkModalState("set", bookmarkModalInfo);
   });
 }
 
@@ -4801,7 +4749,12 @@ function filterSubmitHandler() {
       }
     }); //keep track of the state of the bookmark Modal
 
-    let bookmarkModalInfo = bookmarkModalState("get");
+    let bookmarkModalInfo = Object(_util_store__WEBPACK_IMPORTED_MODULE_2__["storeGet"])("bmModal", {
+      modal: {
+        filter: false
+      }
+    }); //bookmarkModalState("get");
+
     let fullTopic = topics.map(t => {
       return {
         value: t,
@@ -4813,7 +4766,7 @@ function filterSubmitHandler() {
       bookmarkModalInfo["modal"].filter = true;
       bookmarkModalInfo["modal"].topics = topics;
       bookmarkModalInfo["modal"].fullTopic = fullTopic;
-      bookmarkModalState("set", bookmarkModalInfo);
+      Object(_util_store__WEBPACK_IMPORTED_MODULE_2__["storeSet"])("bmModal", bookmarkModalInfo); //bookmarkModalState("set", bookmarkModalInfo);
     }
 
     $("[data-bid]").each(function () {
@@ -4897,7 +4850,12 @@ function populateModal(bookmarks) {
     $("#bookmark-modal-topic-select").html(select);
     $("#bookmark-topic-list").dropdown();
     $("#bookmark-modal-loading").removeClass("active").addClass("disabled");
-    let bookmarkModalInfo = bookmarkModalState("get"); //get number of bookmarks for each book
+    let bookmarkModalInfo = Object(_util_store__WEBPACK_IMPORTED_MODULE_2__["storeGet"])("bmModal", {
+      modal: {
+        filter: false
+      }
+    }); //bookmarkModalState("get");
+    //get number of bookmarks for each book
 
     $("[data-bid]").each(function () {
       let info = {};
@@ -4910,7 +4868,8 @@ function populateModal(bookmarks) {
     }); //only do this the first time 
 
     if (initialCall) {
-      bookmarkModalState("set", bookmarkModalInfo);
+      Object(_util_store__WEBPACK_IMPORTED_MODULE_2__["storeSet"])("bmModal", bookmarkModalInfo); //bookmarkModalState("set", bookmarkModalInfo);
+
       openCloseHandler();
       filterSubmitHandler();
       filterResetHandler(); //restore past state if needed
@@ -4922,6 +4881,73 @@ function populateModal(bookmarks) {
   });
 }
 /*
+ * Build bookmark list:
+ *  { pageKey: {pid: [], pid2:[] }
+ *
+ *  Store result in local storage
+ */
+
+
+function buildBookmarkListFromServer(response) {
+  let bookmarks = {};
+  response.forEach(b => {
+    let [pageKey, pKey] = b.paraKey.split(".");
+    pKey = parseInt(pKey, 10) + "";
+
+    if (!bookmarks[pageKey]) {
+      bookmarks[pageKey] = {};
+    }
+
+    if (!bookmarks[pageKey][pKey]) {
+      bookmarks[pageKey][pKey] = [];
+    }
+
+    bookmarks[pageKey][pKey].push(b.annotation);
+  });
+  bookmarks.lastFetchDate = Date.now();
+  bookmarks.lastBuildDate = Date.now();
+  Object(_util_store__WEBPACK_IMPORTED_MODULE_2__["storeSet"])("bmList", bookmarks);
+  return bookmarks;
+}
+/*
+ * Query db for bookmarks by sourceId. Check for valid list of bookmarks in
+ * local storage first. If not found go to database.
+ */
+
+
+async function queryBookmarks(key) {
+  const retentionTime = 1000 * 60 * 60 * 8; //eight hours of milliseconds
+
+  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_1__["getUserInfo"])(); //check for bookmarks stored in local storage
+
+  let bookmarkList = Object(_util_store__WEBPACK_IMPORTED_MODULE_2__["storeGet"])("bmList", {
+    modal: {
+      filter: false
+    }
+  }); //getBookmarkList();
+
+  if (bookmarkList) {
+    let expireDate = bookmarkList.lastFetchDate + retentionTime; //if list has not expired or been invalidated resolve and return
+    //otherwise query the server
+
+    if (Date.now() < expireDate) {
+      if (bookmarkList.lastBuildDate > 0) {
+        populateModal(bookmarkList);
+        return;
+      }
+    }
+  }
+
+  try {
+    let bmList = await Object(_ajax_annotation__WEBPACK_IMPORTED_MODULE_0__["getAnnotations"])(userInfo.userId, key);
+    let bookmarks = buildBookmarkListFromServer(bmList);
+    populateModal(bookmarks);
+  } catch (err) {
+    console.error(err);
+    toastr__WEBPACK_IMPORTED_MODULE_3___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e4"));
+  }
+}
+/*
   We query bookmarks just once per day and whenever bookmarks have changed
 */
 
@@ -4930,13 +4956,7 @@ function initList() {
   const {
     sourceId
   } = teaching.keyInfo.getKeyInfo();
-  _bmnet__WEBPACK_IMPORTED_MODULE_0__["default"].queryBookmarks(sourceId).then(response => {
-    console.log("calling populateModal()");
-    populateModal(response);
-  }).catch(err => {
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("error:e4"));
-    console.error("Error getting bookmarks for: %s from server", sourceId, err);
-  });
+  queryBookmarks(sourceId);
 }
 
 function initBookmarkModal() {
@@ -4973,6 +4993,429 @@ function initBookmarkModal() {
 
 /***/ }),
 
+/***/ "../cmi-www/src/js/modules/_bookmark/localStore.js":
+/*!*********************************************************!*\
+  !*** ../cmi-www/src/js/modules/_bookmark/localStore.js ***!
+  \*********************************************************/
+/*! exports provided: BookmarkLocalStore */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BookmarkLocalStore", function() { return BookmarkLocalStore; });
+/* harmony import */ var _util_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_util/store */ "../cmi-www/src/js/modules/_util/store.js");
+/* harmony import */ var lodash_difference__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/difference */ "../cmi-www/node_modules/lodash/difference.js");
+/* harmony import */ var lodash_difference__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_difference__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _topics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./topics */ "../cmi-www/src/js/modules/_bookmark/topics.js");
+/* harmony import */ var _bookmark__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./bookmark */ "../cmi-www/src/js/modules/_bookmark/bookmark.js");
+/*
+ * Local storage for bookmarks on page. 
+ *
+ * All bookmarks on current page are added when the page is loaded and this
+ * cache is kept up to date with bookmark updates, deletions and creations.
+ *
+ * The local store is referenced for display of popup when cursor is hovered over
+ * bookmarks on the page, when a bookmark is edited or shared.
+ *
+ * We don't use the browsers local store because we don't need to persist bookmarks
+ * accross pages.
+ */
+
+
+
+
+class BookmarkLocalStore {
+  /**
+   * Add list of bookmarks on page to this.list and add the topics for each
+   * bookmark to the topics Map. Increment count to record the number of references
+   * to each topic.
+   *
+   * @constructor
+   * @param {array} bmList - array of bookmarks on page
+   */
+  constructor(bmList, sharePid) {
+    this.list = bmList;
+    this.topics = new Map();
+    this.topicsModified = false;
+    this.sharePid = sharePid; //load topics from bmList in to topic Map
+
+    this._initTopics();
+  }
+  /**
+   * Add topic to Map if not present, set count to 1. If present
+   * increment count by 1.
+   *
+   * @params <object> newTopic - {value: "topicNospaces", topic: "might have spaces"}
+   */
+
+
+  _incrementTopic(newTopic, initializing = false) {
+    //get number of topics before updating
+    let size = this.topics.size;
+    let key = newTopic.value; //if newTopic is not in topics, add it and set count to 1
+
+    if (!this.topics.has(key)) {
+      newTopic.count = 1;
+      this.topics.set(key, newTopic);
+      this.topicsModified = true;
+    } else {
+      let savedTopic = this.topics.get(key);
+      savedTopic.count += 1;
+      this.topics.set(key, savedTopic);
+    } //this is the first topic on the page so we
+    //need to initialize topics modal (for filtering page topics)
+
+
+    if (size === 0 && !initializing) {
+      Object(_topics__WEBPACK_IMPORTED_MODULE_2__["bookmarksLoaded"])();
+    }
+  }
+  /**
+   * Decrement or remove topic from topic Map
+   * @param {object} - topic
+   * @returns {boolean} {remainingCount: <number>, modified: <boolean>}
+   */
+
+
+  _decrementTopic(topic) {
+    let key = topic.value;
+    let modified = false; //unexpected
+
+    if (!this.topics.has(key)) {
+      return;
+    }
+
+    let trackedTopicValue = this.topics.get(key); //no more bookmarks on page with this topic
+
+    if (trackedTopicValue.count === 1) {
+      this.topics.delete(key);
+      this.topicsModified = true;
+    } else {
+      //decrement count and store value
+      trackedTopicValue.count -= 1;
+      this.topics.set(key, trackedTopicValue);
+    } //if the last topic on the page has been deleted remove
+    //access to topic filter
+
+
+    if (this.topics.size === 0) {
+      Object(_topics__WEBPACK_IMPORTED_MODULE_2__["noMoreBookmarks"])();
+    }
+  }
+  /*
+   * Load bookmark topics into Map. This is used to selectively
+   * display bookmarks on page by given topic. Load topics only
+   * for selectedText annotations.
+   */
+
+
+  _initTopics() {
+    this.list.forEach(b => {
+      Object(_bookmark__WEBPACK_IMPORTED_MODULE_3__["processBookmark"])("loaded", b, this.sharePid);
+
+      if (!b.annotation.selectedText) {
+        return;
+      }
+
+      if (b.annotation.topicList && b.annotation.topicList.length > 0) {
+        b.annotation.topicList.forEach(topic => {
+          this._incrementTopic(topic, true);
+        });
+      }
+    });
+    this.topicsModified = true;
+  }
+  /*
+   * A list of bookmarks, formated for display in the bookmark modal,
+   * is stored in the browsers local storage. When bookmarks are added,
+   * updated or deleted this list must be recreated.
+   *
+   * This invalidates the list because it knows about all bookmark changes.
+   */
+
+
+  _invalidateBmList() {
+    let bmList = Object(_util_store__WEBPACK_IMPORTED_MODULE_0__["storeGet"])("bmList"); //this is not expected
+
+    if (!bmList) return; //invalidate list
+
+    bmList.lastBuildDate = 0;
+    Object(_util_store__WEBPACK_IMPORTED_MODULE_0__["storeSet"])("bmList", bmList);
+    return;
+  }
+  /*
+   * Returns unique topics used by page annotations
+   */
+
+
+  getTopics() {
+    return this.topics;
+  }
+  /**
+   * Get state of topic array
+   *
+   * @returns {boolean} true if topics have be added or removed
+   */
+
+
+  get topicRefreshNeeded() {
+    return this.topicsModified;
+  }
+  /*
+   * Set state of topic refresh needed flag
+   */
+
+
+  set topicRefreshNeeded(value) {
+    this.topicsModified = value;
+  }
+  /*
+   * Find the bookmark with aid and return its creationDate
+   */
+
+
+  getCreationDate(aid) {
+    let bkmrk = this.list.find(b => {
+      if (b.annotation.aid && b.annotation.aid === aid) {
+        return true;
+      }
+
+      return false;
+    });
+
+    if (bkmrk) {
+      return bkmrk.creationDate;
+    } //return undefined
+
+
+    return bkmrk;
+  }
+  /**
+   * Get bookmark for pid with aid.
+   *
+   * Only annotations with selectedText have aid. Note style
+   * annotation don't but they do have creationDate so check
+   * aid against creationDate if annotation.aid is not present.
+   *
+   * @param {string} pid - paragraph Id starting with "p"
+   * @param {string} aid - uuid, only present with selectedText
+   * @return {object} - or undefined 
+   */
+
+
+  getItem(pid, aid) {
+    let id = parseInt(pid.substr(1), 10); //get array of bookmarks for pid
+
+    let bms = this.list.filter(b => {
+      return b.pid === id;
+    });
+    let bm = bms.find(b => {
+      if (aid) {
+        if (b.annotation.aid) {
+          return b.annotation.aid === aid;
+        }
+
+        return b.annotation.creationDate == aid;
+      }
+
+      return typeof b.annotation.aid === "undefined";
+    });
+    return bm;
+  }
+  /**
+   * Add or update annotation to the list. Update topic Map
+   * accordingly.
+   *
+   * @param {string} - userId
+   * @param {string} - paraKey
+   * @param {string} - creationDate
+   * @param {object} - annotation (the bookmark)
+   */
+
+
+  addItem(userId, paraKey, creationDate, annotation) {
+    let pid = annotation.rangeStart;
+    let id = parseInt(pid.substr(1), 10);
+
+    if (annotation.status === "new") {
+      annotation.creationDate = creationDate;
+      let bkmrk = {
+        userId: userId,
+        paraKey: `${paraKey}`,
+        creationDate: `${creationDate}`,
+        pid: id,
+        annotation: annotation
+      };
+      this.list.push(bkmrk); //add topics to topic Map for selectedText bookmarks
+
+      if (bkmrk.annotation.selectedText && bkmrk.annotation.topicList) {
+        bkmrk.annotation.topicList.forEach(i => {
+          this._incrementTopic(i);
+        });
+      } //item has been added so invalidate bmList
+
+
+      this._invalidateBmList(); //get number of bookmarks on paragraph
+
+
+      let bms = this.list.filter(b => {
+        return b.pid === id;
+      }); //process new bookmark
+
+      Object(_bookmark__WEBPACK_IMPORTED_MODULE_3__["processBookmark"])("created", bkmrk, bms.length - 1);
+    } else {
+      //this is an update
+      let pKey = `${paraKey}`;
+      let cDate = `${creationDate}`;
+      let index = this.list.findIndex(i => {
+        return i.paraKey === pKey && i.creationDate === cDate;
+      });
+      if (index === -1) throw new Error("localStore: addItem:update: bookmark to update not found in list"); //update topic Map if needed
+
+      if (annotation.selectedText) {
+        let newTopicList = [];
+        let oldTopicList = [];
+
+        if (annotation.topicList) {
+          let newTL = annotation.topicList.reduce((result, topic) => {
+            return `${result} ${topic.value}`;
+          }, "");
+          newTL = newTL.trim();
+          newTopicList = newTL.split(" ");
+        }
+
+        if (this.list[index].annotation.topicList) {
+          let oldTL = this.list[index].annotation.topicList.reduce((result, topic) => {
+            return `${result} ${topic.value}`;
+          }, "");
+          oldTL = oldTL.trim();
+          oldTopicList = oldTL.split(" ");
+        }
+
+        let addedTopics = lodash_difference__WEBPACK_IMPORTED_MODULE_1___default()(newTopicList, oldTopicList);
+        let deletedTopics = lodash_difference__WEBPACK_IMPORTED_MODULE_1___default()(oldTopicList, newTopicList); //add topics is any have been added
+
+        addedTopics.forEach(i => {
+          //find topic in new annotation
+          let topic = annotation.topicList.find(t => {
+            return t.value === i;
+          });
+
+          this._incrementTopic(topic);
+        }); //delete topics if any have been deleted
+
+        deletedTopics.forEach(i => {
+          //find topic in old annotation
+          let topic = this.list[index].annotation.topicList.find(t => {
+            return t.value === i;
+          });
+
+          this._decrementTopic(topic);
+        });
+      } //update annotation in local store
+
+
+      this.list[index].annotation = annotation; //process updated bookmark
+
+      Object(_bookmark__WEBPACK_IMPORTED_MODULE_3__["processBookmark"])("updated", this.list[index]);
+    }
+  }
+  /**
+   * Delete bookmark from list
+   *
+   * @param {string} userId
+   * @param {string} paraKey
+   * @param {string} creationDate
+   * @return {object} {remainingCount: null || number left, modified: boolean}
+   *
+   */
+
+
+  deleteItem(userId, paraKey, creationDate) {
+    if (typeof paraKey !== "string") {
+      paraKey = `${paraKey}`;
+    }
+
+    if (typeof creationDate !== "string") {
+      creationDate = `${creationDate}`;
+    }
+
+    let index = this.list.findIndex(i => {
+      if (i.userId === userId && i.paraKey === paraKey && i.creationDate === creationDate) {
+        return true;
+      }
+
+      return false;
+    }); //if item found, delete it from local store and get count remaining
+    //bookmarks on paragraph
+
+    let topicsModified = false;
+
+    if (index > -1) {
+      let bkmrk = this.list[index];
+      let pid = bkmrk.pid; //delete topics from topic Map
+
+      if (this.list[index].annotation.topicList) {
+        this.list[index].annotation.topicList.forEach(i => {
+          topicsModified = this._decrementTopic(i) || topicsModified;
+        });
+      } //delete item
+
+
+      this.list.splice(index, 1); //item has been deleted so invalidate bmList
+
+      this._invalidateBmList(); //get remaining bookmarks on paragraph
+
+
+      let bms = this.list.filter(b => {
+        return b.pid === pid;
+      }); //process deleted bookmark
+
+      Object(_bookmark__WEBPACK_IMPORTED_MODULE_3__["processBookmark"])("deleted", bkmrk, bms.length);
+      return {
+        remainingCount: bms.length,
+        modified: topicsModified
+      };
+    }
+
+    return {
+      remainingCount: null,
+      modified: topicsModified
+    };
+  }
+  /*
+   * Return the number of bookmarks for pid and exclude
+   * bookmark with aid from the count.
+   *
+   * @param {string} pid - paragraph Id
+   * @param {string} aid - annotation to exclude from count
+   * @return {number}
+   */
+
+
+  itemCount(pid, aid) {
+    if (!aid) {
+      return 0;
+    }
+
+    let id = parseInt(pid.substr(1), 10);
+    let bms = this.list.filter(b => {
+      return b.pid === id;
+    });
+    let count = bms.reduce((count, b) => {
+      if (b.annotation.aid && b.annotation.aid !== aid) {
+        count = count + 1;
+      }
+
+      return count;
+    }, 0);
+    return count;
+  }
+
+}
+
+/***/ }),
+
 /***/ "../cmi-www/src/js/modules/_bookmark/navigator.js":
 /*!********************************************************!*\
   !*** ../cmi-www/src/js/modules/_bookmark/navigator.js ***!
@@ -4984,14 +5427,13 @@ function initBookmarkModal() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initShareDialog", function() { return initShareDialog; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initNavigator", function() { return initNavigator; });
-/* harmony import */ var lodash_intersection__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/intersection */ "../cmi-www/node_modules/lodash/intersection.js");
-/* harmony import */ var lodash_intersection__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_intersection__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/intersectionWith */ "../cmi-www/node_modules/lodash/intersectionWith.js");
-/* harmony import */ var lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var lodash_range__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/range */ "../cmi-www/node_modules/lodash/range.js");
-/* harmony import */ var lodash_range__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_range__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! store */ "../cmi-www/node_modules/store/dist/store.legacy.js");
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _util_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_util/store */ "../cmi-www/src/js/modules/_util/store.js");
+/* harmony import */ var lodash_intersection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/intersection */ "../cmi-www/node_modules/lodash/intersection.js");
+/* harmony import */ var lodash_intersection__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_intersection__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/intersectionWith */ "../cmi-www/node_modules/lodash/intersectionWith.js");
+/* harmony import */ var lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var lodash_range__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/range */ "../cmi-www/node_modules/lodash/range.js");
+/* harmony import */ var lodash_range__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_range__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! scroll-into-view */ "../cmi-www/node_modules/scroll-into-view/scrollIntoView.js");
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(scroll_into_view__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
@@ -5049,15 +5491,11 @@ function generateAnnotation(annotation, topics = []) {
 
 
   let topicList = annotation.topicList.map(topic => {
-    if (typeof topic === "object") {
-      return topic.value;
-    }
-
-    return topic;
+    return topic.value;
   });
 
   if (topics.length > 0) {
-    match = lodash_intersection__WEBPACK_IMPORTED_MODULE_0___default()(topicList, topics);
+    match = lodash_intersection__WEBPACK_IMPORTED_MODULE_1___default()(topicList, topics);
   }
 
   if (topics.length === 0 || match.length > 0) {
@@ -5142,7 +5580,7 @@ function getNextPageUrl(pos, pageList, filterList, bookmarks) {
           break outer;
         } else {
           //compare the filter topic (a) with bookmark topics ({value, topic})
-          let match = lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_1___default()(filterList, pageMarks[pid][a].topicList || [], (a, b) => {
+          let match = lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_2___default()(filterList, pageMarks[pid][a].topicList || [], (a, b) => {
             if (a === b.value) {
               return true;
             }
@@ -5198,7 +5636,7 @@ function getPrevPageUrl(pos, pageList, filterList, bookmarks) {
           found = true;
           break outer;
         } else {
-          let match = lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_1___default()(filterList, pageMarks[pid][a].topicList || [], (a, b) => {
+          let match = lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_2___default()(filterList, pageMarks[pid][a].topicList || [], (a, b) => {
             if (a === b.value) {
               return true;
             }
@@ -5283,7 +5721,7 @@ function getPreviousPid(currentPos, pageMarks, pageBookmarks, topics) {
 
       for (let i = 0; i < bookmark.length; i++) {
         if (bookmark[i].topicList && bookmark[i].topicList.length > 0) {
-          let inter = lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_1___default()(bookmark[i].topicList, topics, (a, b) => {
+          let inter = lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_2___default()(bookmark[i].topicList, topics, (a, b) => {
             if (a.value === b) {
               return true;
             }
@@ -5335,7 +5773,7 @@ function getNextPid(currentPos, pageMarks, pageBookmarks, topics) {
 
       for (let i = 0; i < bookmark.length; i++) {
         if (bookmark[i].topicList && bookmark[i].topicList.length > 0) {
-          let inter = lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_1___default()(bookmark[i].topicList, topics, (a, b) => {
+          let inter = lodash_intersectionWith__WEBPACK_IMPORTED_MODULE_2___default()(bookmark[i].topicList, topics, (a, b) => {
             if (a.value === b) {
               return true;
             }
@@ -5446,8 +5884,8 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
 function bookmarkManager(actualPid) {
   let sourceId = teaching.keyInfo.getSourceId();
   let pageKey = teaching.keyInfo.genPageKey().toString(10);
-  let bmList = store__WEBPACK_IMPORTED_MODULE_3___default.a.get(teaching.bm_list_store);
-  let bmModal = store__WEBPACK_IMPORTED_MODULE_3___default.a.get(teaching.bm_modal_store);
+  let bmList = Object(_util_store__WEBPACK_IMPORTED_MODULE_0__["storeGet"])("bmList");
+  let bmModal = Object(_util_store__WEBPACK_IMPORTED_MODULE_0__["storeGet"])("bmModal");
 
   if (bmList) {
     //store globally
@@ -5511,8 +5949,8 @@ function bookmarkManager(actualPid) {
 
 function updateNavigator(pid, update) {
   //console.log("updateNavigator, pid: %s, update: %s", pid, update);
-  let bmList = store__WEBPACK_IMPORTED_MODULE_3___default.a.get(teaching.bm_list_store);
-  let bmModal = store__WEBPACK_IMPORTED_MODULE_3___default.a.get(teaching.bm_modal_store);
+  let bmList = Object(_util_store__WEBPACK_IMPORTED_MODULE_0__["storeGet"])("bmList");
+  let bmModal = Object(_util_store__WEBPACK_IMPORTED_MODULE_0__["storeGet"])("bmModal");
   getCurrentBookmark(gPageKey, pid, bmList, bmModal, update);
 }
 /*
@@ -5553,6 +5991,43 @@ function scrollIntoView(id, caller) {
     scrollComplete(`scroll from bookmark navigator ${caller}(${id})`, type);
   });
 }
+/**
+ * Format bookmark text to share by email or Facebook.
+ *
+ * @param {string} channel - either 'email' or 'facebook'
+ * @param {string} text - the text to format
+ * @returns {string} the formatted text
+ */
+
+
+function formatToShare(channel, text) {
+  let separator = channel === "email" ? "@@" : "\n\n"; //remove unwanted characters
+
+  text = text.replace(/[^\x20-\x7E]/g, " "); //replace multiple spaces with one
+
+  text = text.replace(/ {2,}/g, " "); //insert separator characters in front of paragraph numbers
+
+  text = text.replace(/\(p\d*\)/g, m => {
+    return `${separator}${m}`;
+  }); //split into array to remove a empty first element
+
+  let pArray = text.split(separator);
+
+  if (pArray[0].length === 0) {
+    pArray.shift();
+  } //wrap paragraphs with <p></p> and join
+
+
+  if (channel === "email") {
+    text = pArray.reduce((current, p) => {
+      return `${current}\n<p>${p}</p>`;
+    }, "");
+  } else {
+    text = pArray.join("\n");
+  }
+
+  return text;
+}
 /*
   Click handler for FB and email share dialog. This can be called from this
   module when the bookmark navigator is active or from annotate.js when
@@ -5563,8 +6038,7 @@ function scrollIntoView(id, caller) {
 function initShareDialog(source) {
   if (shareEventListenerCreated) {
     return;
-  } //console.log("initShareDialog(%s)", source);
-  //share icon click handler
+  } //share icon click handler
 
 
   $(".transcript").on("click", ".selected-annotation-wrapper .share-annotation", function (e) {
@@ -5606,15 +6080,17 @@ function initShareDialog(source) {
       return;
     }
 
-    pid = $(".selected-annotation-wrapper p").attr("id"); //no highlighted text so grab the whole paragraph
+    pid = $(".selected-annotation-wrapper p").attr("id"); //this is a Note style annotation because it has no selectedText
+    // - get the text of all <p> siblings to .selected-annotation-wrapper
 
     if (annotation.length === 0) {
-      text = $(`#${pid}`).text().replace(/\n/, " ");
+      text = $(".selected-annotation-wrapper > p").text();
+      text = formatToShare(channel, text);
     } else {
       text = annotation.text().replace(/\n/, " ");
-    }
+    } //console.log("share text: %s", text);
 
-    console.log("share text: %s", text);
+
     let srcTitle = $("#src-title").text();
     let bookTitle = $("#book-title").text();
     let citation = `~ ${srcTitle}: ${bookTitle}`;
@@ -5720,7 +6196,7 @@ function initClickListeners() {
 
     let url = `https://${location.hostname}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
     let numericRange = rangeArray.map(r => parseInt(r.substr(1), 10));
-    let annotationRange = lodash_range__WEBPACK_IMPORTED_MODULE_2___default()(numericRange[0], numericRange[1] + 1);
+    let annotationRange = lodash_range__WEBPACK_IMPORTED_MODULE_3___default()(numericRange[0], numericRange[1] + 1);
     let header;
 
     if (userInfo.userId === "xxx") {
@@ -5794,14 +6270,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initialize", function() { return initialize; });
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! uuid */ "../cmi-www/node_modules/uuid/dist/esm-browser/index.js");
-/* harmony import */ var _annotate__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./annotate */ "../cmi-www/src/js/modules/_bookmark/annotate.js");
-/* harmony import */ var lodash_isFinite__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/isFinite */ "../cmi-www/node_modules/lodash/isFinite.js");
-/* harmony import */ var lodash_isFinite__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_isFinite__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var lodash_difference__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash/difference */ "../cmi-www/node_modules/lodash/difference.js");
-/* harmony import */ var lodash_difference__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_difference__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _topics__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./topics */ "../cmi-www/src/js/modules/_bookmark/topics.js");
+/* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! uuid */ "../cmi-www/node_modules/uuid/dist/esm-browser/index.js");
+/* harmony import */ var _annotate__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./annotate */ "../cmi-www/src/js/modules/_bookmark/annotate.js");
+/* harmony import */ var lodash_isFinite__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash/isFinite */ "../cmi-www/node_modules/lodash/isFinite.js");
+/* harmony import */ var lodash_isFinite__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_isFinite__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var lodash_difference__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash/difference */ "../cmi-www/node_modules/lodash/difference.js");
+/* harmony import */ var lodash_difference__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash_difference__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+
 
 
 const textPosition = __webpack_require__(/*! dom-anchor-text-position */ "../cmi-www/node_modules/dom-anchor-text-position/index.js");
@@ -5809,7 +6286,6 @@ const textPosition = __webpack_require__(/*! dom-anchor-text-position */ "../cmi
 const textQuote = __webpack_require__(/*! dom-anchor-text-quote */ "../cmi-www/node_modules/dom-anchor-text-quote/index.js");
 
 const wrapRange = __webpack_require__(/*! wrap-range-text */ "../cmi-www/node_modules/wrap-range-text/index.js"); //const uuid = require("uuid/v4");
-
 
 
 
@@ -5844,77 +6320,56 @@ function highlightSkippedAnnotations() {
   }
 }
 /*
-  add or update selected text class list with topics
-*/
+ * Add or remove topic classes to html for highlighted annotation
+ * topics.
+ */
 
 function updateSelectionTopicList(annotation) {
   let topicList; //annotation has no selected text
 
   if (!annotation.aid) {
     return;
-  } //if annotation.topicList exists convert it to a string
+  } //if no topics and annotation has been updated, check if topic
+  //classes exist, delete if so
 
 
-  if (annotation.topicList && annotation.topicList.length > 0) {
-    topicList = annotation.topicList.reduce((result, topic) => {
-      return `${result} ${topic.value}`;
-    }, "");
-  } else {
+  if (!annotation.topicList || annotation.topicList.length === 0) {
+    //don't need to do anything for new annotations
+    if (annotation.status === "new") {
+      return;
+    } //check for topic classes
+
+
+    let existingClasses = $(`[data-annotation-id="${annotation.aid}"]`).attr("class");
+    let classArray = existingClasses.split(" ");
+    $(`[data-annotation-id="${annotation.aid}"]`).attr("class", `${classArray[0]} ${classArray[1]}`);
     return;
-  }
+  } //convert annotation topics to a space delimited string
 
-  let topicListArray = [];
 
-  if (topicList) {
-    topicList = topicList.trim();
-    topicListArray = topicList.split(" ");
-  } //get existing classes and convert to an array
+  topicList = annotation.topicList.reduce((result, topic) => {
+    return `${result} ${topic.value}`;
+  }, ""); //split topic string into an array
 
+  topicList = topicList.trim();
+  let topicListArray = topicList.split(" "); //get class attr for annotation and convert to an array
 
   let existingClasses = $(`[data-annotation-id="${annotation.aid}"]`).attr("class");
-  let classArray = existingClasses.split(" "); //remove bookmmark-selected-text
+  let classArray = existingClasses.split(" "); //add first two classes of classArray to topicListArray, these are non topic classes
 
-  let bstIndex = classArray.findIndex(item => item === "bookmark-selected-text");
-
-  if (bstIndex > -1) {
-    classArray.splice(bstIndex, 1);
-  } //remove colorClass
-
-
-  let ccIndex = classArray.findIndex(item => item.startsWith("colorClass"));
-
-  if (ccIndex > -1) {
-    classArray.splice(ccIndex, 1);
-  } //classes have been added or deleted
+  if (classArray.length === 1) {
+    topicListArray.unshift(classArray[0]);
+  } else {
+    topicListArray.unshift(classArray[1]);
+    topicListArray.unshift(classArray[0]);
+  } //create class list from topicListArray
 
 
-  let deletedTopics = lodash_difference__WEBPACK_IMPORTED_MODULE_4___default()(classArray, topicListArray);
-  let addedTopics = lodash_difference__WEBPACK_IMPORTED_MODULE_4___default()(topicListArray, classArray); //console.log("deletedTopics: %o", deletedTopics);
-  //console.log("addedTopics: %o", addedTopics);
-  //remove deleted topics
+  topicList = topicListArray.reduce((result, topic) => {
+    return `${result} ${topic}`;
+  }, ""); //update class list
 
-  if (deletedTopics.length > 0) {
-    let dt = deletedTopics.join(" ");
-    $(`[data-annotation-id="${annotation.aid}"]`).removeClass(dt); //track page topics
-
-    _topics__WEBPACK_IMPORTED_MODULE_5__["default"].deleteTopics(deletedTopics);
-  } //add added topics
-
-
-  if (addedTopics.length > 0) {
-    let at = addedTopics.join(" ");
-    $(`[data-annotation-id="${annotation.aid}"]`).addClass(at); //track page topics
-    //get object topics from annotation
-
-    let addedObjectTopics = annotation.topicList.filter(topic => {
-      let found = addedTopics.find(item => {
-        return item === topic.value;
-      });
-      return found !== undefined;
-    });
-    _topics__WEBPACK_IMPORTED_MODULE_5__["default"].addTopics(addedObjectTopics);
-  } //topics.report();
-
+  $(`[data-annotation-id="${annotation.aid}"]`).attr("class", topicList);
 }
 /*
   if the annotation is new then remove the highlight and
@@ -5934,7 +6389,11 @@ function deleteNewSelection(id) {
   } //remove highlight
 
 
-  highlite.wrap.unwrap(); //delete the annotation
+  if (highlite.wrap) {
+    highlite.wrap.unwrap();
+  } else {} //console.log("deleteNewSelection: no wrap() in selection");
+  //delete the annotation
+
 
   delete pageAnnotations[id];
 }
@@ -5954,7 +6413,10 @@ function deleteSelection(id) {
   } //remove highlight
 
 
-  highlite.wrap.unwrap(); //delete the annotation
+  if (highlite.wrap) {
+    highlite.wrap.unwrap();
+  } //delete the annotation
+
 
   delete pageAnnotations[id];
 }
@@ -5981,7 +6443,7 @@ function markSelection(annotation, sequence = 0, sharePid = null) {
     highlight(annotation, node);
     updateHighlightColor(annotation.id, sequence);
   } else if (sharePid) {
-    console.log("highlight of %s skipped due to share", sharePid);
+    //console.log("highlight of %s skipped due to share", sharePid);
     skippedAnnotations.push(annotation.id);
   }
 
@@ -6021,7 +6483,7 @@ function highlight(annotation, toNode = document.body) {
               range = textPosition.toRange(toNode, selector);
               annotation.wrap = wrapRange(mark, range);
             } catch (err) {
-              console.log("adjusting selector.end");
+              //console.log("adjusting selector.end");
               selector.end--;
               range = textPosition.toRange(toNode, selector);
               annotation.wrap = wrapRange(mark, range);
@@ -6048,8 +6510,9 @@ function getSelectedText(range, fromNode = document.body) {
     type: "Annotation",
     title: $("#book-title").text(),
     url: location.pathname,
-    pid: range.startContainer.parentNode.id,
-    id: Object(uuid__WEBPACK_IMPORTED_MODULE_1__["v4"])(),
+    pid: fromNode.id,
+    //pid: range.startContainer.parentNode.id,
+    id: Object(uuid__WEBPACK_IMPORTED_MODULE_2__["v4"])(),
     target: {
       type: "SpecificResource",
       source: location.href,
@@ -6065,11 +6528,15 @@ function getSelectedText(range, fromNode = document.body) {
 
 function initialize(constants) {
   $("div.transcript.ui").on("mouseup", function (e) {
-    e.preventDefault(); //ignore text selection when disabled by user or when annotation is 
+    e.preventDefault(); //bookmarks enabled only for signed in users
+
+    if (!Object(_user_netlify__WEBPACK_IMPORTED_MODULE_1__["getUserInfo"])()) {
+      return;
+    } //ignore text selection when disabled by user or when annotation is 
     //being created
 
+
     if ($(this).hasClass("disable-selection")) {
-      //console.log("selection prevented by selection guard");
       return;
     }
 
@@ -6077,91 +6544,69 @@ function initialize(constants) {
       return;
     }
 
-    let selObj = document.getSelection(); //console.log("selection: %o", selObj);
-    //Safari calls this function twice for each selection, the second time
+    let selObj = document.getSelection(); //Safari calls this function twice for each selection, the second time
     //rangeCount === 0 and type == "None"
 
     if (selObj.rangeCount === 0) {
-      //console.log("selObj.rangeCount === 0)");
       return;
     }
 
     if (selObj.getRangeAt(0).collapsed) {
-      //console.log("range collapsed");
       return;
     }
 
-    let range = selObj.getRangeAt(0);
-    processSelection(range);
+    processSelection(selObj);
   }); //init annotation input, edit, and delete
 
-  Object(_annotate__WEBPACK_IMPORTED_MODULE_2__["initialize"])(constants);
+  Object(_annotate__WEBPACK_IMPORTED_MODULE_3__["initialize"])(constants);
 }
 /*
   create annotation from selected text
 */
 
-function processSelection(range) {
-  //console.log("range: %o", range);
-  //check for overlap with other highlighted text
-  let startParent = range.startContainer.parentElement.localName;
-  let endParent = range.endContainer.parentElement.localName;
+function processSelection(selection) {
+  let range = selection.getRangeAt(0); //new from user2
 
-  if (startParent === "span") {
-    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e6"));
-    console.log("selection includes <p>");
-    return;
-  }
-
-  if (startParent === "mark" || endParent === "mark") {
-    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e7"));
-    console.log("overlapping selections");
-
-    if (location.hostname === "localhost") {
-      debugger;
-    }
+  if (range.commonAncestorContainer.nodeName === "DIV") {
+    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e8")); //console.log("multi paragraph selection: start: %s, end: %s", rangeStart, rangeEnd);
 
     return;
   }
 
-  let rangeStart = range.startContainer.parentElement.id; //let rangeStart = range.commonAncestorContainer.id;
+  if (range.startContainer.parentElement.localName === "span") {
+    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e6")); //console.log("selection includes <p>");
 
-  let rangeEnd = range.endContainer.parentElement.id; //the range must start with a transcript paragraph, one whose id = "p<number>" or an <em> found
-  //within a paragraph
-
-  if (!rangeStart) {
-    console.log("selection parent element: %s", range.startContainer.parentElement.nodeName);
     return;
-  }
-
-  if (!rangeStart.startsWith("p")) {
-    console.log("range does not start with <p>");
-    return;
-  }
-
-  let pid = parseInt(rangeStart.substr(1), 10);
-
-  if (!lodash_isFinite__WEBPACK_IMPORTED_MODULE_3___default()(pid)) {
-    console.log("Pid: %s !isFinite()");
-    return;
-  } //not sure how to handl text selected across paragraphs, so disallow it.
+  } //get the paragraph node for the range
 
 
-  if (rangeStart !== rangeEnd) {
-    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e8"));
-    console.log("multi paragraph selection: start: %s, end: %s", rangeStart, rangeEnd);
-    return;
-  }
+  let pNode = range.startContainer;
 
-  let node = document.getElementById(rangeStart); //create annotation
+  while (pNode.nodeName !== "P") {
+    pNode = pNode.parentElement;
+  } //let node = document.getElementById(rangeStart);
+  //let node = document.getElementById(pNode.id);
+  //create annotation
 
-  let selectedText = getSelectedText(range, node);
+
+  let selectedText = getSelectedText(range, pNode);
 
   if (selectedText) {
-    highlight(selectedText, node); //persist annotation
+    //check if selection contains any part of another selection
+    let highlightedText = pNode.getElementsByTagName("mark");
+
+    for (let ht of highlightedText) {
+      if (selection.containsNode(ht, true)) {
+        toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("error:e7")); //console.log("overlapping selections");
+
+        return;
+      }
+    }
+
+    highlight(selectedText, pNode); //persist annotation
 
     pageAnnotations[selectedText.id] = selectedText;
-    Object(_annotate__WEBPACK_IMPORTED_MODULE_2__["getUserInput"])(selectedText);
+    Object(_annotate__WEBPACK_IMPORTED_MODULE_3__["getUserInput"])(selectedText);
   }
 }
 
@@ -6178,13 +6623,12 @@ function processSelection(range) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initShareByEmail", function() { return initShareByEmail; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "shareByEmail", function() { return shareByEmail; });
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
-/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
-/* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
-/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! toastr */ "../cmi-www/node_modules/toastr/toastr.js");
+/* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var _ajax_share__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_ajax/share */ "../cmi-www/src/js/modules/_ajax/share.js");
+/* harmony import */ var _util_sanitize__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_util/sanitize */ "../cmi-www/src/js/modules/_util/sanitize.js");
 
 
 
@@ -6192,18 +6636,32 @@ __webpack_require__.r(__webpack_exports__);
  //teaching specific constants
 
 let teaching = {};
-let shareInfo = {}; //load email list and setup submit and cancel listeners
+let shareInfo = {};
+/*
+ * format message to wrap pargraphs in <p> tags
+ */
+
+function formatMessage(message) {
+  message = message.replace(/\n/g, "@@");
+  message = message.replace(/@@*/g, "@@");
+  let mArray = message.split("@@");
+  message = mArray.reduce((current, p) => {
+    return `${current}<p>${Object(_util_sanitize__WEBPACK_IMPORTED_MODULE_4__["purify"])(p)}</p>`;
+  }, "");
+  return message;
+} //load email list and setup submit and cancel listeners
+
 
 function initShareByEmail(constants) {
   teaching = constants;
   loadEmailList(); //submit
 
-  $("form[name='emailshare']").on("submit", function (e) {
+  $("form[name='emailshare']").on("submit", async function (e) {
     e.preventDefault();
-    const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_3__["getUserInfo"])();
+    const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_1__["getUserInfo"])();
 
     if (!userInfo) {
-      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.warning(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("annotate:m14"));
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.warning(Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("annotate:m14"));
       $(".email-share-dialog-wrapper").addClass("hide");
       return;
     }
@@ -6211,7 +6669,7 @@ function initShareByEmail(constants) {
     let formData = $("#email-share-form").form("get values");
 
     if (formData.mailList.length === 0 && formData.emailAddresses.length === 0) {
-      toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("error:e9"));
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("error:e9"));
       return;
     }
 
@@ -6231,19 +6689,26 @@ function initShareByEmail(constants) {
 
     shareInfo.senderName = userInfo.name;
     shareInfo.senderEmail = userInfo.email;
-    shareInfo.sid = teaching.sid; //console.log("shareInfo: %o", shareInfo);
-    //hide form not sure if this will work
+    shareInfo.sid = teaching.sid;
+
+    if (formData.emailMessage) {
+      shareInfo.message = formatMessage(formData.emailMessage);
+    } //hide form not sure if this will work
+
 
     $(".email-share-dialog-wrapper").addClass("hide");
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(_globals__WEBPACK_IMPORTED_MODULE_2__["default"].share, shareInfo).then(response => {
-      if (response.status === 200) {
-        toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:emailsent"));
+
+    try {
+      let result = await Object(_ajax_share__WEBPACK_IMPORTED_MODULE_3__["sendMail"])(shareInfo);
+
+      if (result === "success") {
+        toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("action:emailsent"));
       } else {
-        toastr__WEBPACK_IMPORTED_MODULE_1___default.a.info(response.data.message);
+        toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info(response.data.message);
       }
-    }).catch(error => {
-      console.error("share error: %s", error);
-    });
+    } catch (err) {
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.error(err);
+    }
   }); //cancel
 
   $("form[name='emailshare'] .email-share-cancel").on("click", function (e) {
@@ -6258,17 +6723,13 @@ function generateOption(item) {
 }
 
 function makeMaillistSelect(maillist) {
-  let listnames = Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:listnames", true);
-  let selectAddress = Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("label:selectaddress", true);
-  return Promise.all([listnames, selectAddress]).then(values => {
-    return `
-      <label>${values[0]}</label>
-      <select name="mailList" id="maillist-address-list" multiple="" class="search ui dropdown">
-        <option value="">${values[1]}</option>
-        ${maillist.map(item => `${generateOption(item)}`).join("")}
-      </select>
-    `;
-  });
+  return `
+    <label>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("label:listnames")}</label>
+    <select name="mailList" id="maillist-address-list" multiple="" class="search ui dropdown">
+      <option value="">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("label:selectaddress")}</option>
+      ${maillist.map(item => `${generateOption(item)}`).join("")}
+    </select>
+  `;
 }
 /*
   Called by initShareByEmail()
@@ -6276,24 +6737,18 @@ function makeMaillistSelect(maillist) {
 */
 
 
-function loadEmailList() {
-  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_3__["getUserInfo"])();
+async function loadEmailList() {
+  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_1__["getUserInfo"])();
+  if (!userInfo) return;
 
-  if (!userInfo) {
-    return;
-  }
-
-  let maillist = [];
-  let api = `${userInfo.userId}/maillist`;
-  axios__WEBPACK_IMPORTED_MODULE_0___default()(`${_globals__WEBPACK_IMPORTED_MODULE_2__["default"].user}/${api}`).then(response => {
-    maillist = response.data.maillist;
-    return makeMaillistSelect(maillist);
-  }).then(selectHtml => {
+  try {
+    let mailList = await Object(_ajax_share__WEBPACK_IMPORTED_MODULE_3__["getMailList"])(userInfo.userId);
+    let selectHtml = makeMaillistSelect(mailList);
     $("#maillist-select").html(selectHtml);
     $("#maillist-address-list.dropdown").dropdown();
-  }).catch(err => {
-    toastr__WEBPACK_IMPORTED_MODULE_1___default.a.error(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("error:e10")}: ${err}`);
-  });
+  } catch (err) {
+    toastr__WEBPACK_IMPORTED_MODULE_0___default.a.error(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("error:e10")}: ${err}`);
+  }
 }
 /*
 */
@@ -6315,43 +6770,41 @@ function shareByEmail(quote, citation, url) {
 /*!*****************************************************!*\
   !*** ../cmi-www/src/js/modules/_bookmark/topics.js ***!
   \*****************************************************/
-/*! exports provided: default */
+/*! exports provided: bookmarksLoaded, noMoreBookmarks */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "bookmarksLoaded", function() { return bookmarksLoaded; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "noMoreBookmarks", function() { return noMoreBookmarks; });
 /* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var _bookmark__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./bookmark */ "../cmi-www/src/js/modules/_bookmark/bookmark.js");
 /*
-  Keeps track of topics used by page annotations that have selectedText
-
-  The list of topics is added to the bookmark menu option on transcript pages
-  and allows the user to show only highlighted text of the selected topic.
-
-  When the user selects a topic, the class .topic-filter-active is added to .transcript
-  and the class .show is added to each highlight containing the selected topic. This works
-  because each highlight contains a class that corresponds to each topic the annotation 
-  contains.
+ * Keeps track of topics used by page annotations that have selectedText
+ *
+ * The list of topics is added to the bookmark menu option on transcript pages
+ * and allows the user to show only highlighted text of the selected topic.
+ *
+ * When the user selects a topic, the class .topic-filter-active is added to .transcript
+ * and the class .show is added to each highlight containing the selected topic. This works
+ * because each highlight contains a class that corresponds to each topic the annotation 
+ * contains.
 */
 
-let topics = new Map();
-let listRefreshNeeded = true;
-let deletedKeys = [];
+
 const uiPageTopicsModal = "#page-topics-modal";
 const uiOpenPageTopicsModal = "#page-topics-modal-open";
 const uiModalOpacity = 0.5; //generate the option element of a select statement
 
 function generateOption(topic) {
-  if (typeof topic === "object") {
-    return `<option value="${topic.value}">${topic.topic}</option>`;
-  }
-
-  return `<option value="${topic}">${topic}</option>`;
+  return `<option value="${topic.value}">${topic.topic}</option>`;
 } //generate select html for Topics
 
 
 function makeTopicSelect(topics) {
   return `
     <select name="pageTopicList" id="page-topics-topic-list" class="search ui dropdown">
+      <option value="">Choose a topic</option>
       ${topics.map(topic => `${generateOption(topic)}`).join("")}
     </select>
   `;
@@ -6366,7 +6819,7 @@ function formatTopic(topic) {
 }
 
 function makeTopicSelectElement() {
-  let topicMap = getTopics();
+  let topicMap = _bookmark__WEBPACK_IMPORTED_MODULE_1__["localStore"].getTopics();
   let topicKeys = Array.from(topicMap.keys());
   let topics = topicKeys.map(key => {
     return topicMap.get(key);
@@ -6393,13 +6846,14 @@ function getTopics() {
 */
 
 
-function makeTopicList(topicMap) {
+function makeTopicList() {
+  let topicMap = _bookmark__WEBPACK_IMPORTED_MODULE_1__["localStore"].getTopics();
   let topicKeys = Array.from(topicMap.keys());
   let topics = topicKeys.map(key => {
     let t = topicMap.get(key);
     return t.topic;
   });
-  listRefreshNeeded = false;
+  _bookmark__WEBPACK_IMPORTED_MODULE_1__["localStore"].topicRefreshNeeded = false;
 
   if (topics.length === 0) {
     return `<div class='ntf item'>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_0__["getString"])("annotate:m15")}</div>`;
@@ -6481,183 +6935,49 @@ function topicSelectHandler() {
   });
 }
 /*
-  If topics have been added or deleted from the topic list then
-  the dropdown menu option needs to be updated
-*/
+ * Initialize topics modal for filter topics on page
+ */
 
 
-function updateTopicList() {
-  /*
-  if (listRefreshNeeded) {
-    let html = makeTopicList(topics);
-    $("#topic-menu-select").html(html);
-  }
-  */
-  //check if there is a topic filter on a deleted key, if so, clear
-  //the filter
-  if (deletedKeys.length > 0) {
-    let activeFilter = $("#topic-menu-item").prev(".header").attr("data-filter"); //no active filter
-
-    if (activeFilter === "none") {
-      return;
-    }
-
-    let found = deletedKeys.reduce((fnd, item) => {
-      if (item.topic === activeFilter) {
-        return fnd + 1;
-      }
-
-      return fnd;
-    }, 0); //reset the filter
-
-    if (found > 0) {
-      //console.log("active filter topic has been deleted: %o", deletedKeys);
-      //remove filter indication from .transcript
-      $(".transcript").removeClass("topic-filter-active"); //reset header text to indicate filter has cleared
-
-      $("#topic-menu-item").prev(".header").text(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_0__["getString"])("label:topicfilter")}: None`);
-      $("#topic-menu-item").prev(".header").attr("data-filter", "none");
-    }
-  }
-}
-/*
-  Keep track of topics on the page. If we have a untracted topic add it
-  to 'topic' and set count to 1. If the topic is already tracked just 
-  increment the count
-
-  All topics look like this: {value: "nospaces", topic: "might have spaces"}
-*/
-
-
-function increment(newTopic) {
-  let key = newTopic.value; //if newTopic is not in topics, add it and set count to 1
-
-  if (!topics.has(key)) {
-    newTopic.count = 1;
-    topics.set(key, newTopic);
-    listRefreshNeeded = true;
-  } else {
-    //otherwise increment the count
-    let savedTopic = topics.get(key);
-    savedTopic.count += 1;
-    topics.set(key, savedTopic);
-  }
-}
-/*
-  Decrement count for tracked topic
-*/
-
-
-function decrement(trackedTopic) {
-  let key = trackedTopic;
-
-  if (typeof key === "object") {
-    key = key.value;
-  }
-
-  if (!topics.has(key)) {
-    throw new Error(`Unexpected error: topic ${key} not found in topic Map`);
-  } else {
-    let trackedTopicValue = topics.get(key); //no more bookmarks on page with this topic
-
-    if (trackedTopicValue.count === 1) {
-      topics.delete(key);
-      listRefreshNeeded = true;
-      deletedKeys.push(trackedTopicValue);
-    } else {
-      //decrement count and store value
-      trackedTopicValue.count -= 1;
-      topics.set(key, trackedTopicValue);
-    }
-  }
-}
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  //add topics from an annotation - this happens when bookmarks are loaded
-  //and before the topicList is rendered
-  add(annotation) {
-    if (!annotation.selectedText) {
-      return;
-    }
-
-    if (annotation.topicList && annotation.topicList.length > 0) {
-      annotation.topicList.forEach(topic => {
-        increment(topic);
-      });
-    }
-  },
-
-  delete(formData) {
-    if (!formData.topicList) {
-      return;
-    }
-
-    if (formData.topicList && formData.topicList.length > 0) {
-      formData.topicList.forEach(topic => {
-        decrement(topic);
-      });
-      updateTopicList();
-    }
-  },
-
-  addTopics(topicArray) {
-    //console.log("addTopics()");
-    topicArray.forEach(topic => {
-      increment(topic);
-    });
-    updateTopicList();
-  },
-
-  deleteTopics(topicArray) {
-    topicArray.forEach(topic => {
-      decrement(topic);
-    });
-    updateTopicList();
-  },
-
-  //generate topic select list and setup listeners
-  bookmarksLoaded() {
+let initialized = false;
+function bookmarksLoaded() {
+  if (!initialized) {
     initPageTopicsModal();
-    /*
-    let html = makeTopicList(topics);
-    $("#topic-menu-select").html(html);
-     //init click handler
-    topicSelectHandler();
-    */
-  },
-
-  //given a topic value return the topic.topic
-  getTopic(value) {
-    let t = topics.get(value);
-
-    if (t) {
-      return t.topic;
-    }
-
-    return null;
-  },
-
-  report() {
-    for (var [key, value] of topics) {
-      console.log("%s: %s", key, value);
-    }
+    initialized = true;
+    return;
   }
 
-});
+  $("#bookmark-filter-wrapper").removeClass("hide");
+}
+/*
+ * Hide topics modal, no mor topics on page
+ */
+
+function noMoreBookmarks() {
+  $("#bookmark-filter-wrapper").addClass("hide");
+}
 /*
   Get topic select element for page-topic-modal
 */
 
 function getTopicList() {
-  if (!listRefreshNeeded) return;
+  if (!_bookmark__WEBPACK_IMPORTED_MODULE_1__["localStore"].topicRefreshNeeded) return;
   let selectHtml = makeTopicSelectElement();
   $("#page-topics-modal-topic-select").html(selectHtml);
   $("#page-topics-topic-list").dropdown();
   $("#page-topics-modal-loading").removeClass("active").addClass("disabled");
-  listRefreshNeeded = false;
+  _bookmark__WEBPACK_IMPORTED_MODULE_1__["localStore"].topicRefreshNeeded = false;
 }
+/*
+ * Called by bookmark.js after bookmarks have been loaded on 
+ * transcript page.
+ */
+
 
 function initPageTopicsModal() {
+  //show topic filter options
+  $("#bookmark-filter-wrapper").removeClass("hide"); //init topic filter modal dialog
+
   $(uiPageTopicsModal).modal({
     dimmerSettings: {
       opacity: uiModalOpacity
@@ -6688,7 +7008,6 @@ function initPageTopicsModal() {
 
 
 function filterSubmitHandler() {
-  //apply topic filter
   $("#page-topics-filter-submit").on("click", function (e) {
     e.preventDefault();
     let form = $("#page-topics-filter-form");
@@ -6698,35 +7017,6 @@ function filterSubmitHandler() {
       value: filterTopic,
       topic: topicTopic
     });
-    /*
-    let bookmarkItems = $(".cmi-bookmark-list .bookmark-item");
-    bookmarkItems.each(function() {
-      let classList = $(this).attr("class");
-      if (classList.match(topicRegExp)) {
-        //the bookmark could be hidden from a previous filter, so just remove the class
-        //in case it's there
-        $(this).removeClass("hide-bookmark-item");
-      }
-      else {
-        $(this).addClass("hide-bookmark-item");
-      }
-    });
-     //keep track of the state of the bookmark Modal
-    let bookmarkModalInfo = bookmarkModalState("get");
-     //if we have data we're initializing and so we don't need to save state
-    if (!data) {
-      bookmarkModalInfo["modal"].filter = true;
-      bookmarkModalInfo["modal"].topics = topics;
-      bookmarkModalState("set", bookmarkModalInfo);
-    }
-     $("[data-bid]").each(function() {
-      let bid = $(this).data("bid");
-      let filtered = $(`[data-bid="${bid}"] .bookmark-item.hide-bookmark-item`).length;
-      let remaining = bookmarkModalInfo[bid].count - filtered;
-       //update title to reflect number of bookmarks shown after filter applied
-      $(`.${bid}-header`).html(`${bookmarkModalInfo[bid].header} (<span class="bookmark-filter-color">${remaining}</span>/${bookmarkModalInfo[bid].count})`);
-    });
-    */
   });
 }
 /*
@@ -6745,12 +7035,13 @@ function filterResetHandler() {
       $(`mark.bookmark-selected-text.${currentFilter}`).removeClass("show");
     }
 
-    $(".transcript").removeClass("topic-filter-active"); //clear active filter from menu
+    $(".transcript").removeClass("topic-filter-active");
+    $("#page-topics-topic-list").dropdown("clear"); //clear active filter from menu
 
     $("#current-topic-filter").html(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_0__["getString"])("label:topicfilter")}: None`);
     $("#current-topic-filter").attr("data-filter", ""); //mark bookmark icon green - no filter applied
 
-    $("#bookmark-dropdown-menu > span > i").eq(0).removeClass("yellow").addClass("green"); //close the modal
+    $("#bookmark-dropdown-menu > span  i.bookmark-icon").eq(0).removeClass("yellow").addClass("green"); //close the modal
     //$(uiPageTopicsModal).modal("hide");
   });
 }
@@ -6782,315 +7073,10 @@ function setTopicFilter(topic) {
   $("#current-topic-filter").html(`Topic Filter: <span class="red">${topic.topic}</span>`);
   $("#current-topic-filter").attr("data-filter", topic.value); //mark bookmark icon as yellow - filter is applied
 
-  $("#bookmark-dropdown-menu > span > i").eq(0).removeClass("green").addClass("yellow"); //close the modal
+  $("#bookmark-dropdown-menu > span i.bookmark-icon").eq(0).removeClass("green").addClass("yellow"); //close the modal
 
   $(uiPageTopicsModal).modal("hide");
 }
-
-/***/ }),
-
-/***/ "../cmi-www/src/js/modules/_config/key.js":
-/*!************************************************!*\
-  !*** ../cmi-www/src/js/modules/_config/key.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*
-  WWW: Transcript keys
-  - first item starts with 1, not 0
-  - a numeric value that represents a specific transcript and represents
-    a specific logical ordering.
-
-  - The integer part of the key represent a transcript and the decimal part
-    a paragraph within the transcript.
-  - The paragraphId is increased by 1 and divided by 1000
-
-  key format: ssbbuuu.ppp
-  where: ss: source Id
-         bb: book Id
-        uuu: unit Id
-        ppp: paragraph number - not positional
-
-  NOTE: This module is used by code running in the browser and Node so the
-        common.js module system is used
-*/
-//import indexOf from "lodash/indexOf";
-const sprintf = __webpack_require__(/*! sprintf-js */ "../cmi-www/node_modules/sprintf-js/src/sprintf.js").sprintf; //source id: each source has a unique id
-//WWW = 99 This is the Library
-
-
-const sourceId = 99;
-const sid = "www";
-const prefix = ""; //length of pageKey excluding decimal portion
-
-const keyLength = 7; // books (bid)
-
-const books = ["acq", "profile"];
-const bookIds = ["xxx", ...books];
-const profile = ["xxx", "email", "topicMgt"];
-const acq = ["xxx", "welcome", "overview", "quick", "bookmark", "search", "audio", "accounts", "profile", "video", "email", "tech", "contact"];
-const contents = {
-  acq: acq,
-  profile: profile
-};
-
-function splitUrl(url) {
-  let u = url; //remove leading "/"
-
-  u = url.substr(1); //remove trailing '/' if it exists
-
-  if (u[u.length - 1] === "/") {
-    u = u.substr(0, u.length - 1);
-  }
-
-  return u.split("/");
-}
-/*
-  return the position of unit in the bid array
-*/
-
-
-function getUnitId(bid, unit) {
-  if (contents[bid]) {
-    return contents[bid].indexOf(unit);
-  } else {
-    throw new Error(`unexpected bookId: ${bid}`);
-  }
-}
-
-function getSourceId() {
-  return sourceId;
-}
-
-function getKeyInfo() {
-  return {
-    sourceId: sourceId,
-    keyLength: keyLength
-  };
-}
-/*
-  parse bookmarkId into pageKey and paragraphId
-  - pid=0 indicates no paragraph id
-*/
-
-
-function parseKey(key) {
-  const keyInfo = getKeyInfo();
-  let keyString = key;
-  let pid = 0;
-
-  if (typeof keyString === "number") {
-    keyString = key.toString(10);
-  }
-
-  let decimalPos = keyString.indexOf("."); //if no decimal key doesn't include paragraph id
-
-  if (decimalPos > -1) {
-    let decimalPart = keyString.substr(decimalPos + 1); //append 0's if decimal part < 3
-
-    switch (decimalPart.length) {
-      case 1:
-        decimalPart = `${decimalPart}00`;
-        break;
-
-      case 2:
-        decimalPart = `${decimalPart}0`;
-        break;
-    }
-
-    pid = parseInt(decimalPart, 10);
-  }
-
-  let pageKey = parseInt(keyString.substr(0, keyInfo.keyLength), 10);
-  return {
-    pid,
-    pageKey
-  };
-}
-/*
-  Convert url into key
-  returns -1 for non-transcript url
-
-  key format: ssbuuIqq.ppp
-  where: ss: source Id
-         bb: book Id
-        uuu: unit Id
-        ppp: paragraph number - not positional
-*/
-
-
-function genPageKey(url = location.pathname) {
-  let key = {
-    sid: sourceId,
-    bid: 0,
-    uid: 0,
-    qid: 0
-  };
-  let parts = splitUrl(url); //key.bid = indexOf(bookIds, parts[0]);
-
-  key.bid = bookIds.indexOf(parts[0]);
-
-  if (key.bid === -1) {
-    return -1;
-  }
-
-  key.uid = getUnitId(parts[0], parts[1]);
-
-  if (key.bid === -1) {
-    return -1;
-  }
-
-  let compositeKey = sprintf("%02s%02s%03s", key.sid, key.bid, key.uid);
-  let numericKey = parseInt(compositeKey, 10);
-  return numericKey;
-}
-/*
-  genParagraphKey(paragraphId, key: url || pageKey)
-
-  args:
-    pid: a string representing a transcript paragraph, starts as "p0"..."pnnn"
-         - it's converted to number and incremented by 1 then divided by 1000
-        pid can also be a number so then we just increment it and divide by 1000
-
-    key: either a url or pageKey returned from genPageKey(), if key
-   is a string it is assumed to be a url
-*/
-
-
-function genParagraphKey(pid, key = location.pathname) {
-  let numericKey = key;
-  let pKey;
-
-  if (typeof pid === "string") {
-    pKey = (parseInt(pid.substr(1), 10) + 1) / 1000;
-  } else {
-    pKey = (pid + 1) / 1000;
-  } //if key is a string it represents a url
-
-
-  if (typeof key === "string") {
-    numericKey = genPageKey(key);
-  }
-
-  let paragraphKey = numericKey + pKey;
-  return paragraphKey;
-}
-/*
-  key format: ssbuuIqq.ppp
-  where: ss: source Id
-         bb: book Id
-        uuu: unit Id
-        ppp: paragraph number - not positional
-*/
-
-
-function decodeKey(key) {
-  let {
-    pid,
-    pageKey
-  } = parseKey(key);
-  let pageKeyString = pageKey.toString(10);
-  let decodedKey = {
-    error: 0,
-    message: "ok",
-    sid: sourceId,
-    bookId: "",
-    uid: 0,
-    pid: pid - 1
-  }; //error, invalid key length
-
-  if (pageKeyString.length !== keyLength) {
-    decodedKey.error = true;
-    decodedKey.message = `Integer portion of key should have a length of ${keyLength}, key is: ${pageKeyString}`;
-    return decodedKey;
-  }
-
-  let bid = parseInt(pageKeyString.substr(2, 2), 10);
-  decodedKey.bookId = bookIds[bid]; //subtract 1 from key value to get index
-
-  decodedKey.uid = parseInt(pageKeyString.substr(4, 3), 10) - 1;
-  return decodedKey;
-}
-
-function getBooks() {
-  return books;
-}
-/*
-  Return the number of chapters in the book (bid).
-  Subtract one from length because of 'xxx' (fake chapter)
-*/
-
-
-function getNumberOfUnits(bid) {
-  if (contents[bid]) {
-    return contents[bid].length - 1;
-  } else {
-    throw new Error(`getNumberOfUnits() unexpected bookId: ${bid}`);
-  }
-}
-/*
- * Convert page key to url
- */
-
-
-function getUrl(key) {
-  let decodedKey = decodeKey(key);
-  let unit = "invalid";
-
-  if (decodedKey.error) {
-    return "/invalid/key/";
-  }
-
-  if (contents[decodedKey.bookId]) {
-    unit = contents[decodedKey.bookId][decodedKey.uid + 1];
-  }
-
-  return `/${decodedKey.bookId}/${unit}/`;
-}
-/*
-  Describe key in terms of source:book:unit:p
-*/
-
-
-function describeKey(key) {
-  let decodedKey = decodeKey(key, false);
-
-  if (decodedKey.error) {
-    return {
-      key: key,
-      error: true,
-      source: sid
-    };
-  }
-
-  let info = {
-    key: key,
-    source: sid,
-    book: decodedKey.bookId,
-    unit: contents[decodedKey.bookId][decodedKey.uid]
-  };
-
-  if (decodedKey.pid > -1) {
-    info.pid = `p${decodedKey.pid}`;
-  }
-
-  return info;
-}
-
-module.exports = {
-  getNumberOfUnits: getNumberOfUnits,
-  getBooks: getBooks,
-  getSourceId: getSourceId,
-  getKeyInfo: getKeyInfo,
-  parseKey: parseKey,
-  getUnitId: getUnitId,
-  genPageKey: genPageKey,
-  genParagraphKey: genParagraphKey,
-  decodeKey: decodeKey,
-  getUrl: getUrl,
-  describeKey: describeKey
-};
 
 /***/ }),
 
@@ -7172,7 +7158,7 @@ function setLanguage(constants) {
 
 function waitForReady(s, k) {
   return new Promise((resolve, reject) => {
-    function wait(s, k, ms, max = 10, cnt = 0) {
+    function wait(s, k, ms, max = 8, cnt = 0) {
       if (status === LOADING) {
         if (cnt <= max) {
           setTimeout(() => wait(s, k, ms, max, cnt + 1), ms);
@@ -7287,120 +7273,16 @@ function __lang(strings, ...values) {
 
     return t;
   });
-  return strings.reduce((result, string, i) => {
-    return `${result}${string}${tokens[i] || ""}`;
+  let newString = strings.reduce((result, string, i) => {
+    let token = tokens[i];
+
+    if (typeof token === "undefined") {
+      token = "";
+    }
+
+    return `${result}${string}${token}`;
   }, "");
-}
-
-/***/ }),
-
-/***/ "../cmi-www/src/js/modules/_link/setup.js":
-/*!************************************************!*\
-  !*** ../cmi-www/src/js/modules/_link/setup.js ***!
-  \************************************************/
-/*! exports provided: getUrl, getLinkHref, createLinkListener */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getUrl", function() { return getUrl; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getLinkHref", function() { return getLinkHref; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createLinkListener", function() { return createLinkListener; });
-const {
-  getUrl: www_getUrl
-} = __webpack_require__(/*! ../_config/key */ "../cmi-www/src/js/modules/_config/key.js");
-
-const {
-  getUrl: acim_getUrl
-} = __webpack_require__(/*! acim/modules/_config/key */ "../cmi-acim/src/js/modules/_config/key.js");
-
-const {
-  getUrl: oe_getUrl
-} = __webpack_require__(/*! oe/modules/_config/key */ "../cmi-oe/src/js/modules/_config/key.js");
-
-const {
-  getUrl: acol_getUrl
-} = __webpack_require__(/*! acol/modules/_config/key */ "../cmi-acol/src/js/modules/_config/key.js");
-
-const {
-  getUrl: jsb_getUrl
-} = __webpack_require__(/*! jsb/modules/_config/key */ "../cmi-jsb/src/js/modules/_config/key.js");
-
-const {
-  getUrl: raj_getUrl
-} = __webpack_require__(/*! raj/modules/_config/key */ "../cmi-raj/src/js/modules/_config/key.js");
-
-const {
-  getUrl: wom_getUrl
-} = __webpack_require__(/*! wom/modules/_config/key */ "../cmi-wom/src/js/modules/_config/key.js");
-
-const {
-  getUrl: pwom_getUrl
-} = __webpack_require__(/*! pwom/modules/_config/key */ "./src/js/modules/_config/key.js");
-
-function getUrl(source, key) {
-  let url;
-
-  switch (source) {
-    case "acol":
-      url = acol_getUrl(key, true);
-      break;
-
-    case "acim":
-      url = acim_getUrl(key, true);
-      break;
-
-    case "acimoe":
-      url = oe_getUrl(key, true);
-      break;
-
-    case "jsb":
-      url = jsb_getUrl(key, true);
-      break;
-
-    case "raj":
-      url = raj_getUrl(key, true);
-      break;
-
-    case "wom":
-      url = wom_getUrl(key, true);
-      break;
-
-    case "pwom":
-      url = pwom_getUrl(key, true);
-      break;
-
-    case "www":
-      url = www_getUrl(key, true);
-      break;
-
-    default:
-      url = "/invalid/source";
-  }
-
-  return url;
-}
-function getLinkHref(link) {
-  let url = getUrl(link.desc.source, link.key);
-
-  if (location.pathname === url) {
-    return `#${link.desc.pid}`;
-  }
-
-  return `${url}?v=${link.desc.pid}`;
-}
-function createLinkListener(getLink) {
-  $(".transcript").on("click", "td.follow-link-item", function (e) {
-    e.preventDefault(); //get link info
-
-    let index = $(this).parent("tr").attr("data-index");
-    let linkInfo = getLink(index); //build url
-
-    let link = JSON.parse(linkInfo.link); //let url = getUrl(link.desc.source, link.key);
-    //console.log("url: %s", url);
-
-    location.href = getLinkHref(link);
-  });
+  return newString;
 }
 
 /***/ }),
@@ -7499,13 +7381,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initStickyMenu", function() { return initStickyMenu; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initAnimation", function() { return initAnimation; });
 /* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! gsap */ "../cmi-www/node_modules/gsap/index.js");
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! store */ "../cmi-www/node_modules/store/dist/store.legacy.js");
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _util_store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_util/store */ "../cmi-www/src/js/modules/_util/store.js");
 
 
-let storeKey = "pnDisplayState:";
-function initTranscriptPage() {
-  storeKey = `${storeKey}${$("body").attr("sourceId")}`;
+let storeKey;
+function initTranscriptPage(key) {
+  //local storage key to save paragraph number display state
+  storeKey = key;
   initStickyMenu();
   labelParagraphs();
   setParagraphNumberDisplayState();
@@ -7564,25 +7446,27 @@ function createParagraphNumberToggleListener() {
 
     if (el.hasClass("hide-pnum")) {
       el.removeClass("hide-pnum");
-      store__WEBPACK_IMPORTED_MODULE_1___default.a.set(storeKey, "on");
-      setParagraphNumberDisplayColor("on");
+      Object(_util_store__WEBPACK_IMPORTED_MODULE_1__["storeSet"])(storeKey, "on");
+      setParagraphNumberDisplay("on");
     } else {
       el.addClass("hide-pnum");
-      store__WEBPACK_IMPORTED_MODULE_1___default.a.set(storeKey, "off");
-      setParagraphNumberDisplayColor("off");
+      Object(_util_store__WEBPACK_IMPORTED_MODULE_1__["storeSet"])(storeKey, "off");
+      setParagraphNumberDisplay("off");
     }
   });
 }
 
-function setParagraphNumberDisplayColor(state) {
-  let color = state === "on" ? "green" : "red";
-  let oldColor = state === "on" ? "red" : "green";
-  $(".toggle-paragraph-markers > span > .paragraph.icon").removeClass(oldColor).addClass(color);
+function setParagraphNumberDisplay(state) {
+  if (state === "on") {
+    $(".toggle-paragraph-markers > span .paragraph-corner-icon").addClass("hide");
+  } else {
+    $(".toggle-paragraph-markers > span .paragraph-corner-icon").removeClass("hide");
+  }
 }
 
 function setParagraphNumberDisplayState() {
   let toggleAvailable = $(".toggle-paragraph-markers").length === 0 ? false : true;
-  let state = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(storeKey);
+  let state = Object(_util_store__WEBPACK_IMPORTED_MODULE_1__["storeGet"])(storeKey);
   let el = $(".transcript.ui.text.container");
   let current = el.hasClass("hide-pnum") ? "off" : "on"; //if toggle menu option not available set page to hide paragraph numbers and return
 
@@ -7594,7 +7478,7 @@ function setParagraphNumberDisplayState() {
 
   if (!state) {
     state = current;
-    store__WEBPACK_IMPORTED_MODULE_1___default.a.set(storeKey, state);
+    Object(_util_store__WEBPACK_IMPORTED_MODULE_1__["storeSet"])(storeKey, state);
   }
 
   if (state !== current) {
@@ -7605,7 +7489,7 @@ function setParagraphNumberDisplayState() {
     }
   }
 
-  setParagraphNumberDisplayColor(state);
+  setParagraphNumberDisplay(state);
 }
 /*
   Fix main menu to top of page when scrolled
@@ -7656,7 +7540,7 @@ function initAnimation(selector = "[data-book]") {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _util_url__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_util/url */ "../cmi-www/src/js/modules/_util/url.js");
-/* harmony import */ var _bookmark_bmnet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_bookmark/bmnet */ "../cmi-www/src/js/modules/_bookmark/bmnet.js");
+/* harmony import */ var _ajax_annotation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_ajax/annotation */ "../cmi-www/src/js/modules/_ajax/annotation.js");
 /* harmony import */ var _bookmark_selection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../_bookmark/selection */ "../cmi-www/src/js/modules/_bookmark/selection.js");
 /* harmony import */ var lodash_range__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/range */ "../cmi-www/node_modules/lodash/range.js");
 /* harmony import */ var lodash_range__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_range__WEBPACK_IMPORTED_MODULE_3__);
@@ -7698,8 +7582,7 @@ let sharedAnnotation;
 */
 
 function clearSharedAnnotation() {
-  console.log("clearSharedAnnotation"); //unwrap shared annotation
-
+  //unwrap shared annotation
   if (sharedAnnotation.selectedText) {
     sharedAnnotation.selectedText.wrap.unwrap();
   } //remove wrapper
@@ -7748,80 +7631,77 @@ function wrapRange(annotation) {
     }
   });
 }
-/*
-  Display annotation requested by query parameter "as"
-  ?as=pid:annotationId:userId
+/**
+  Display shared annotation requested by query parameter "as" ?as=pid:annotationId:userId. This
+  is called when the user click 'To The Source' on a shared quote or FB post. The annotation
+  could have been created by anyone.
+
+  @returns {promise} pid - resolves to pid number when sharing requested, false otherwise
 */
 
 
 function showAnnotation() {
-  let info = Object(_util_url__WEBPACK_IMPORTED_MODULE_0__["showAnnotation"])();
+  return new Promise(async (resolve, reject) => {
+    let info = Object(_util_url__WEBPACK_IMPORTED_MODULE_0__["showAnnotation"])();
 
-  if (!info) {
-    return false;
-  }
+    if (!info) {
+      resolve(false);
+      return;
+    }
 
-  let [pid, aid, uid] = decodeURIComponent(info).split(":"); //make sure pid exists
+    let [pid, aid, uid] = decodeURIComponent(info).split(":"); //make sure pid exists
 
-  if (!pid) {
-    return false;
-  }
+    if (!pid) {
+      resolve(false);
+      return;
+    }
 
-  if ($(`#${pid}`).length === 0) {
-    // console.log("invalid pid: %s", pid);
-    return false;
-  }
+    if ($(`#${pid}`).length === 0) {
+      resolve(false);
+      return;
+    }
 
-  let bookmarkId = teaching.keyInfo.genParagraphKey(pid); //show loading indicator
+    let paraKey = teaching.keyInfo.genParagraphKey(pid); //show loading indicator
 
-  Object(_util_url__WEBPACK_IMPORTED_MODULE_0__["loadStart"])();
-  /*
-    fetch shared bookmark and wrap it in a raised segment
-    - if user has a bookmark in the same paragraph as the shared annotation, it will not be highlighted so
-      if we fail to get the bookmark or can't find the shared annotation we need to highlight the users
-      annotations for the paragraph before returning
-  */
+    Object(_util_url__WEBPACK_IMPORTED_MODULE_0__["loadStart"])();
+    /*
+      fetch shared bookmark and wrap it in a raised segment
+      - if user has a bookmark in the same paragraph as the shared annotation, it will not be highlighted so
+        if we fail to get the bookmark or can't find the shared annotation we need to highlight the users
+        annotations for the paragraph before returning
+    */
 
-  Object(_bookmark_bmnet__WEBPACK_IMPORTED_MODULE_1__["fetchBookmark"])(bookmarkId, uid).then(response => {
-    //bookmark not found
-    if (!response.Item) {
-      // console.log("bookmark not found");
-      Object(_bookmark_selection__WEBPACK_IMPORTED_MODULE_2__["highlightSkippedAnnotations"])();
+    try {
+      const annotation = await Object(_ajax_annotation__WEBPACK_IMPORTED_MODULE_1__["getAnnotation"])(uid, paraKey, aid);
+
+      if (!annotation.userId) {
+        Object(_bookmark_selection__WEBPACK_IMPORTED_MODULE_2__["highlightSkippedAnnotations"])();
+        Object(_util_url__WEBPACK_IMPORTED_MODULE_0__["loadComplete"])();
+        toastr__WEBPACK_IMPORTED_MODULE_6___default.a.warning("Requested Bookmark was not found");
+        resolve(false);
+        return;
+      }
+
+      let node = document.getElementById(annotation.rangeStart);
+
+      if (annotation.selectedText) {
+        Object(_bookmark_selection__WEBPACK_IMPORTED_MODULE_2__["highlight"])(annotation.selectedText, node);
+      }
+
+      $(`[data-aid="${aid}"]`).addClass("shared");
+      wrapRange(annotation);
+      sharedAnnotation = annotation;
+      initCloseHandler();
       Object(_util_url__WEBPACK_IMPORTED_MODULE_0__["loadComplete"])();
-      toastr__WEBPACK_IMPORTED_MODULE_6___default.a.warning("Requested Bookmark was not found");
+    } catch (err) {
+      Object(_util_url__WEBPACK_IMPORTED_MODULE_0__["loadComplete"])();
+      console.error(err);
+      resolve(false);
       return;
     }
 
-    let bookmark = response.Item.bookmark; // console.log("bookmark from fetch: %o", bookmark);
-
-    let annotation = bookmark.find(a => a.creationDate.toString(10) === aid);
-
-    if (!annotation) {
-      // console.log("annotation not found");
-      Object(_bookmark_selection__WEBPACK_IMPORTED_MODULE_2__["highlightSkippedAnnotations"])();
-      return;
-    } // console.log("annotation: %o", annotation);
-
-
-    let node = document.getElementById(annotation.rangeStart);
-
-    if (annotation.selectedText) {
-      Object(_bookmark_selection__WEBPACK_IMPORTED_MODULE_2__["highlight"])(annotation.selectedText, node);
-    }
-
-    $(`[data-aid="${aid}"]`).addClass("shared");
-    wrapRange(annotation);
-    sharedAnnotation = annotation;
-    initCloseHandler(); //console.log("sharing pid: %s", pid);
-    //stop page loading indicator
-
-    Object(_util_url__WEBPACK_IMPORTED_MODULE_0__["loadComplete"])();
-  }).catch(err => {
-    //stop page loading indicator
-    Object(_util_url__WEBPACK_IMPORTED_MODULE_0__["loadComplete"])();
-    console.error(err);
+    resolve(pid);
   });
-  return pid;
 }
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -7857,47 +7737,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-let login_state_key = "login.state";
+let login_state_key = "cmi.login.state";
 let userInfo;
-let testUsers = {
-  "rick": {
-    email: "rmercer33@gmail.com",
-    userId: md5__WEBPACK_IMPORTED_MODULE_1___default()("rmercer33@gmail.com"),
-    name: "Rick Mercer",
-    roles: ["acol", "timer", "editor"]
-  },
-  "julie": {
-    email: "julief8@me.com",
-    userId: md5__WEBPACK_IMPORTED_MODULE_1___default()("julief8@me.com"),
-    name: "Julie Franklin",
-    roles: ["timer", "editor"]
-  },
-  "yodi": {
-    email: "yodi@yodith.com",
-    userId: md5__WEBPACK_IMPORTED_MODULE_1___default()("yodi@yodith.com"),
-    name: "Yodi Debebe",
-    roles: ["timer"]
-  },
-  "hettie": {
-    email: "hcmercer@gmail.com",
-    userId: md5__WEBPACK_IMPORTED_MODULE_1___default()("hcmercer@gmail.com"),
-    name: "Hettie Mercer",
-    roles: []
-  }
-};
-
-function devUserInfo() {
-  let user = Object(_util_url__WEBPACK_IMPORTED_MODULE_3__["getUser"])();
-
-  if (user && testUsers[user]) {
-    return testUsers[user];
-  } else {
-    //use rick
-    return testUsers["rick"];
-  }
-
-  return null;
-}
 
 function prodUserInfo() {
   if (userInfo) {
@@ -7910,7 +7751,6 @@ function prodUserInfo() {
     };
   }
 
-  console.error("getUserInfo: user not signed in");
   return null;
 }
 
@@ -7926,14 +7766,23 @@ function setAsSignedIn() {
   let userInfo = getUserInfo(); //change sign-in icon to sign-out and change color from red to green
 
   Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:signout", true).then(resp => {
-    $(".login-menu-option > span").html("<i class='green sign out icon'></i>").attr("data-tooltip", `${resp}: ${userInfo.name}`);
+    /*
+    $(".login-menu-option > span")
+      .html("<i class='green sign out icon'></i>")
+      .attr("data-tooltip", `${resp}: ${userInfo.name}`);
+    */
+    $(".login-menu-option-guest").addClass("hide");
+    $(".login-menu-option-account").removeClass("hide");
+    $(".account-signout-option").text(`Sign out: ${userInfo.name}`);
   }); //change bookmark menu icon to green from red
 
   $(".main.menu a > span > i.bookmark.icon").addClass("green").removeClass("red"); //add color to menu background to further indicate signed in status
 
   $(".main.menu .ui.text.container").addClass("signed-in"); //reveal profile-management menu option
 
-  $(".hide.profile-management.item").removeClass("hide");
+  $(".hide.profile-management.item").removeClass("hide"); //show menu options for account holders
+
+  $(".requires-signin").removeClass("hide");
 }
 /*
   Modify menubar icons "bookmark" and "sign in" to
@@ -7944,17 +7793,25 @@ function setAsSignedIn() {
 function setAsSignedOut() {
   //change sign-in icon to sign-out and change color from red to green
   Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:signin", true).then(resp => {
-    $(".login-menu-option > span").html("<i class='red sign in icon'></i>").attr("data-tooltip", resp);
+    /*
+    $(".login-menu-option > span")
+      .html("<i class='red sign in icon'></i>")
+      .attr("data-tooltip", resp);
+    */
+    $(".login-menu-option-guest").removeClass("hide");
+    $(".login-menu-option-account").addClass("hide");
   }); //change bookmark menu icon to green from red
 
   $(".main.menu a > span > i.bookmark.icon").addClass("red").removeClass("green"); //removed signed-in class
 
   $(".main.menu .ui.text.container").removeClass("signed-in"); //hide profile-management menu option
 
-  $(".profile-management.item").addClass("hide");
+  $(".profile-management.item").addClass("hide"); //hide account users menu options
+
+  $(".requires-signin").addClass("hide");
 }
 /*
-  ACOL restricts access to some contents based on the "acol" user role. When the user
+  ACOL restricts access to some content based on the "acol" user role. When the user
   logs in, redirect them to the acol home page if they are currently viewing an acol
   transcript page. This will ensure that the TOC will give them access to all content.
 
@@ -7978,6 +7835,8 @@ function manageState(state) {
 
     case "login":
       if (currentState === "dialog") {
+        //refresh the page after login
+        //location.href = location.href;
         //if user has "acol" role, refresh page to enable access to all content
         if (userInfo.app_metadata.roles && userInfo.app_metadata.roles.find(r => r === "acol")) {
           //if user is on an acol transcript page
@@ -8001,17 +7860,15 @@ function manageState(state) {
      * if user already logged in, change icon to log out
      */
     netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.on("init", user => {
-      console.log("on init fired: %o", user);
+      //userInfo = user;
       manageState("init");
     });
     netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.on("login", login => {
-      console.log("on login fired: %o", login);
       userInfo = login;
       setAsSignedIn();
       manageState("login");
     });
     netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.on("logout", () => {
-      console.log("on lougout fired");
       setAsSignedOut();
       userInfo = null;
       location.href = "/";
@@ -8019,20 +7876,504 @@ function manageState(state) {
     netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.on("error", err => {
       console.error("user.on('error'): ", err);
     });
-    $(".login-menu-option").on("click", e => {
-      e.preventDefault();
+    $(".login-menu-option-account > .menu > .account-signout-option").on("click", e => {
+      e.preventDefault(); //console.log("user signout");
 
-      if (userInfo) {
-        netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.logout();
-      } else {
-        manageState("dialog");
-        netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.open();
-      }
+      netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.logout();
+    });
+    /*
+     * User Sign In
+     */
+
+    $(".login-menu-option-guest").on("click", e => {
+      //console.log("user sign in");
+      e.preventDefault();
+      manageState("dialog");
+      netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.open();
     }); //init authentication
 
-    netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.init({});
+    netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.init({//container: "#netlify-modal"
+    });
   }
 });
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_util/cmi.js":
+/*!**********************************************!*\
+  !*** ../cmi-www/src/js/modules/_util/cmi.js ***!
+  \**********************************************/
+/*! exports provided: getUrlByPageKey, getBookmarkText, fetchConfiguration */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getUrlByPageKey", function() { return getUrlByPageKey; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getBookmarkText", function() { return getBookmarkText; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fetchConfiguration", function() { return fetchConfiguration; });
+/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./store */ "../cmi-www/src/js/modules/_util/store.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+const acimKey = __webpack_require__(/*! acim/modules/_config/key */ "../cmi-acim/src/js/modules/_config/key.js");
+
+const oeKey = __webpack_require__(/*! oe/modules/_config/key */ "../cmi-oe/src/js/modules/_config/key.js");
+
+const acolKey = __webpack_require__(/*! acol/modules/_config/key */ "../cmi-acol/src/js/modules/_config/key.js");
+
+const rajKey = __webpack_require__(/*! raj/modules/_config/key */ "../cmi-raj/src/js/modules/_config/key.js");
+
+const jsbKey = __webpack_require__(/*! jsb/modules/_config/key */ "../cmi-jsb/src/js/modules/_config/key.js");
+
+const womKey = __webpack_require__(/*! wom/modules/_config/key */ "../cmi-wom/src/js/modules/_config/key.js");
+
+const pwomKey = __webpack_require__(/*! pwom/modules/_config/key */ "./src/js/modules/_config/key.js");
+
+const ACIMSOURCEID = "12";
+const OESOURCEID = "15";
+const ACOLSOURCEID = "14";
+const RAJSOURCEID = "13";
+const WOMSOURCEID = "10";
+const PWOMSOURCEID = "16";
+const JSBSOURCEID = "11";
+/**
+ * Get the url for the page identified by "key"
+ *
+ * @param {string} key - the page key (paraKey)
+ * @returns {string} the url of the page
+ */
+
+function getUrlByPageKey(key) {
+  if (typeof key !== "string") {
+    key = `${key}`;
+  }
+
+  if (key.startsWith(ACIMSOURCEID)) {
+    return acimKey.getUrl(key, true);
+  }
+
+  if (key.startsWith(OESOURCEID)) {
+    return oeKey.getUrl(key, true);
+  }
+
+  if (key.startsWith(ACOLSOURCEID)) {
+    return acolKey.getUrl(key, true);
+  }
+
+  if (key.startsWith(JSBSOURCEID)) {
+    return jsbKey.getUrl(key, true);
+  }
+
+  if (key.startsWith(RAJSOURCEID)) {
+    return rajKey.getUrl(key, true);
+  }
+
+  if (key.startsWith(WOMSOURCEID)) {
+    return womKey.getUrl(key, true);
+  }
+
+  if (key.startsWith(PWOMSOURCEID)) {
+    return pwomKey.getUrl(key, true);
+  }
+
+  throw new Error(`getUrlByPageKey(${key}): invalid key`);
+} //transcript Node cache used by getBookmarkText()
+
+let htmlCache = {};
+
+function getNoteTranscript(id, url) {
+  if (htmlCache[id]) {
+    return Promise.resolve(htmlCache[id]);
+  }
+
+  const config = {
+    responseType: "document"
+  };
+  return axios__WEBPACK_IMPORTED_MODULE_1___default.a.get(url, config).then(response => {
+    let transcriptNode = response.data.getElementsByClassName("transcript")[0];
+    htmlCache[id] = transcriptNode;
+    return Promise.resolve(transcriptNode);
+  });
+}
+
+function getBookmarkText(bookmarks) {
+  let promises = bookmarks.map(bm => {
+    if (bm.annotation.selectedText) {
+      if (!bm.mgr) {
+        bm.mgr = {};
+        let st = bm.annotation.selectedText;
+        bm.mgr.title = st.title;
+        bm.mgr.url = st.url;
+        bm.mgr.pid = st.pid;
+        bm.mgr.content = [{
+          pid: st.pid,
+          text: st.target.selector[1].exact
+        }];
+        bm.mgr.comment = bm.annotation.Comment;
+        bm.mgr.note = bm.annotation.Note;
+        bm.mgr.type = "selected";
+      }
+
+      return Promise.resolve(bm);
+    } //Note style bookmark
+    else if (!bm.mgr) {
+        let url = getUrlByPageKey(bm.paraKey);
+        bm.mgr = {};
+        bm.mgr.type = "note";
+        bm.mgr.title = bm.annotation.bookTitle;
+        bm.mgr.url = url;
+        bm.mgr.pid = bm.annotation.rangeStart;
+        bm.mgr.comment = bm.annotation.Comment;
+        bm.mgr.note = bm.annotation.Note; //get 'document' response from axios
+
+        return getNoteTranscript(bm.paraKey, url).then(resp => {
+          let paragraphs = resp.getElementsByTagName("p");
+          let rangeStart = parseInt(bm.annotation.rangeStart.substring(1), 10);
+          let rangeEnd = parseInt(bm.annotation.rangeEnd.substring(1), 10);
+          bm.mgr.content = [];
+
+          for (let p = rangeStart; p <= rangeEnd; p++) {
+            if (paragraphs[p]) {
+              bm.mgr.content.push({
+                pid: `p${p}`,
+                text: paragraphs[p].textContent
+              });
+            } else {
+              bm.mgr.content.push({
+                pid: `p${p}`,
+                text: "no data for paragraph"
+              });
+            }
+          }
+
+          return Promise.resolve(bm);
+        });
+      } else {
+        return Promise.resolve(bm);
+      }
+  });
+  return promises;
+}
+/**
+  We use book level configuration that is loaded by request via AJAX. Once
+  loaded the config is persisted in local storage. A check is made for
+  configuration data loaded from local storage to determine if the data needs to
+  be reloaded.
+
+  @params {string} url - The url of the config file
+  @params {string} lsKey - local storage key (cfgwoh)
+  @returns {Promise} The config file
+*/
+
+function fetchConfiguration(url, lsKey, configStatus) {
+  return new Promise((resolve, reject) => {
+    let cfg = Object(_store__WEBPACK_IMPORTED_MODULE_0__["storeGet"])(lsKey); //if config in local storage check if we need to get a fresh copy
+
+    if (cfg && !refreshNeeded(cfg, configStatus)) {
+      resolve(cfg);
+      return;
+    } //get config from server
+
+
+    axios__WEBPACK_IMPORTED_MODULE_1___default.a.get(url).then(response => {
+      response.data.saveDate = configStatus[response.data.bid];
+      Object(_store__WEBPACK_IMPORTED_MODULE_0__["storeSet"])(lsKey, response.data);
+      resolve(response.data);
+    }).catch(err => {
+      console.error(err);
+      reject(err);
+    });
+  });
+}
+/*
+  The status constains the save date for each config file. We compare that to the saveDate
+  in the locally stored config file. If it's different or doesn't exist we need to get
+  a new version.
+
+  return: true - get a new version
+          false - use the one we've got
+*/
+
+function refreshNeeded(cfg, configStatus) {
+  let lastSaveDate = configStatus[cfg.bid];
+
+  if (!cfg.saveDate) {
+    cfg.saveDate = lastSaveDate;
+    return true; //refresh needed
+  }
+
+  if (cfg.saveDate === lastSaveDate) {
+    return false; //no refresh needed
+  } else {
+    //config file has changed, refresh needed
+    cfg.saveDate = lastSaveDate;
+    return true;
+  }
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_util/driver.js":
+/*!*************************************************!*\
+  !*** ../cmi-www/src/js/modules/_util/driver.js ***!
+  \*************************************************/
+/*! exports provided: runFeatureIntro, pageNavigationDriver, transcriptDriver */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "runFeatureIntro", function() { return runFeatureIntro; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageNavigationDriver", function() { return pageNavigationDriver; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "transcriptDriver", function() { return transcriptDriver; });
+/* harmony import */ var driver_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! driver.js */ "../cmi-www/node_modules/driver.js/dist/driver.min.js");
+/* harmony import */ var driver_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(driver_js__WEBPACK_IMPORTED_MODULE_0__);
+
+function runFeatureIntro(stepArray, options) {
+  //filter out array elements that are not visible on the page
+  let validSteps = stepArray.filter(i => {
+    //don't filter elements that start with "!"
+    if (i.element[0] === "!") {
+      i.element = i.element.substring(1);
+      return true;
+    }
+
+    let element = i.element.substring(1);
+    let el = document.getElementById(element);
+    let result = el ? el.offsetParent !== null : false;
+    if (!result) console.log(`${i.element} filtered from stepArray`);
+    return result;
+  });
+
+  if (validSteps.length === 0) {
+    console.log("no steps in requested feature introduction");
+    return;
+  }
+
+  if (!options) {
+    options = {
+      allowClose: false,
+      opacity: 0.5
+    };
+  }
+
+  const driver = new driver_js__WEBPACK_IMPORTED_MODULE_0___default.a(options);
+  driver.defineSteps(validSteps);
+  driver.start();
+}
+/**
+ * Generic feature tour for CMI pages
+ */
+
+function pageNavigationDriver(sourceTitle) {
+  let steps = [{
+    element: "#masthead-title",
+    popover: {
+      title: "Navigation and Features",
+      description: "On every page you can click here to display the Library's main page to see all available teachings.",
+      position: "bottom"
+    }
+  }, {
+    element: "#page-menu",
+    popover: {
+      title: "The Menu",
+      description: "This is the page menu, it will stick to the top when the page is scrolled (when the tour is over) so it is always available. The menu on other pages is similar but may contain additional features.",
+      position: "bottom"
+    }
+  }, {
+    element: "#bookmark-dropdown-menu",
+    popover: {
+      title: "List Bookmarks",
+      description: "Display a list of bookmarks you have created and optionally filter by topic. You can quickly jump to any bookmark. Learn more about bookmarks <a href='/acq/bookmark/'>in the documentation.</a>",
+      position: "bottom"
+    }
+  }, {
+    element: "#search-modal-open",
+    popover: {
+      title: "Search Through All Books",
+      description: `Find topics of interest by searching through all <em>${sourceTitle}</em> books. Follow a search match to use the Search Navigator to visit the results directly in the transcript.`,
+      position: "bottom"
+    }
+  }, {
+    element: "#quick-links-dropdown-menu",
+    popover: {
+      title: "Navigate to Another Teaching",
+      description: "Quickly jump to one of the other teachings in the Library.",
+      position: "bottom"
+    }
+  }, {
+    element: "#help-menu",
+    popover: {
+      title: "Get Help and Learn About",
+      description: "Learn about the teaching and using the features of the site.",
+      position: "bottom"
+    }
+  }, {
+    element: "#login-guest-menu-option",
+    popover: {
+      title: "Create an Account or Sign In",
+      description: "Create an account and sign in to the site. It's free and allows you to create bookmarks that you can share via Facebook and keep synchronized between devices.",
+      position: "left"
+    }
+  }, {
+    element: "#login-account-menu-option",
+    popover: {
+      title: "Sign Out and Access Profile",
+      description: "A dropdown menu that allows you to sign out and to access account holder features.",
+      position: "left"
+    }
+  }];
+  runFeatureIntro(steps);
+}
+/**
+ * Generic tour for transcript pages
+ */
+
+function transcriptDriver(sourceTitle) {
+  let steps = [];
+  steps.push({
+    element: "#masthead-title",
+    popover: {
+      title: "Library of Christ Mind Teachings",
+      description: `Click this link to navigate away from <em>${sourceTitle}</em> to the Library's Home page.`,
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#transcript-header",
+    popover: {
+      title: "Page Title",
+      description: "This title identifies the teaching and transcript found on the page.",
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#src-title",
+    popover: {
+      title: `${sourceTitle}`,
+      description: `This page is part of <em>${sourceTitle}</em>. Click this link to navigate to ${sourceTitle} Home page.`,
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#book-title",
+    popover: {
+      title: "Book Title",
+      description: "This identifies the book and chapter of the content on this page.",
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#bookmark-dropdown-menu",
+    popover: {
+      title: "Bookmarks",
+      description: `You can create a bookmark from highlighted text and associate the bookmark with
+      one or more topics. Bookmark creation is disabled when the icon looks like this
+      <i class="icons"> <i class="bookmark green icon"></i><i class="corner close icon"></i></i>
+      . Learn more about bookmarks <a href='/acq/bookmarks/'>in the documentation.</a>`,
+      position: "right"
+    }
+  });
+  steps.push({
+    element: "#search-modal-open",
+    popover: {
+      title: "Search Through All Books",
+      description: `Find topics of interest by searching through all ${sourceTitle} books.`,
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#audio-player-menu-option",
+    popover: {
+      title: "Listen to the Audio",
+      description: "Click the speaker icon to display the audio player and listen along as you read. Hide the player by clicking the icon again.",
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#pnum-toggle-menu-option",
+    popover: {
+      title: "Show/Hide Paragraph Markers",
+      description: `Show or hide the markers that preceed each paragraph. Markers are hidden when the icon looks
+      like this: <i class="icons"><i class="paragraph icon"></i><i class="corner close icon"></i></i>`,
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#jump-to-top-menu-option",
+    popover: {
+      title: "Go To Top of Page",
+      description: "Quickly jump to the top of the page.",
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#contents-modal-open",
+    popover: {
+      title: "Table of Contents",
+      description: "View the table of contents and quickly jump to another transcript in the book.",
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#toc-previous-page",
+    popover: {
+      title: "Previous Page",
+      description: "Go to the previous page. This is disabled when the first page is displayed.",
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#toc-next-page",
+    popover: {
+      title: "Next Page",
+      description: "Go to the next page. This is disabled when the last page is displayed.",
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#quick-links-dropdown-menu",
+    popover: {
+      title: "Navigate to Another Teaching",
+      description: "Quickly jump to one of the other teachings in the Library.",
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#about-dropdown-menu",
+    popover: {
+      title: "Get Help",
+      description: "Learn how to use features of the Library.",
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#login-guest-menu-option",
+    popover: {
+      title: "Create an Account or Sign In",
+      description: "Create an account and sign in to the site. It's free and allows you to create bookmarks that you can share via Facebook and keep synchronized between devices.",
+      position: "left"
+    }
+  });
+  steps.push({
+    element: "#login-account-menu-option",
+    popover: {
+      title: "Sign Out and Access Profile",
+      description: "A dropdown menu that allows you to sign out and to access account holder features.",
+      position: "left"
+    }
+  });
+  steps.push({
+    element: "#transcript-menu",
+    popover: {
+      title: "Contact Me",
+      description: "If you have ideas, encounter errors or difficulty using this site, please let me know by <a href='/acq/contact'>using the Contact Form.</a> Thanks!",
+      position: "bottom-center"
+    }
+  });
+  runFeatureIntro(steps);
+}
 
 /***/ }),
 
@@ -8058,12 +8399,97 @@ __webpack_require__.r(__webpack_exports__);
         FB.init({
           appId: "448658485318107",
           xfbml: true,
-          version: "v3.0"
+          version: "v3.1"
         });
       }
     });
   }
 });
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_util/sanitize.js":
+/*!***************************************************!*\
+  !*** ../cmi-www/src/js/modules/_util/sanitize.js ***!
+  \***************************************************/
+/*! exports provided: purify */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "purify", function() { return purify; });
+/* harmony import */ var dompurify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! dompurify */ "../cmi-www/node_modules/dompurify/dist/purify.js");
+/* harmony import */ var dompurify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(dompurify__WEBPACK_IMPORTED_MODULE_0__);
+
+function purify(dirty) {
+  return dompurify__WEBPACK_IMPORTED_MODULE_0___default.a.sanitize(dirty, {
+    SAFE_FOR_JQUERY: true
+  });
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_util/store.js":
+/*!************************************************!*\
+  !*** ../cmi-www/src/js/modules/_util/store.js ***!
+  \************************************************/
+/*! exports provided: storeSet, storeGet, storeInit */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "storeSet", function() { return storeSet; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "storeGet", function() { return storeGet; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "storeInit", function() { return storeInit; });
+/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! store */ "../cmi-www/node_modules/store/dist/store.legacy.js");
+/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_0__);
+/*
+ * Store data in local storage. Keys are limited to those found
+ * in source constants file.
+ */
+
+let keys = new Map();
+/*
+ * Get key from keys and throw if not found
+ */
+
+function getKey(key) {
+  const storeKey = keys.get(key);
+
+  if (!storeKey) {
+    throw new Error(`store: key not found: ${key}`);
+  }
+
+  return storeKey;
+}
+/*
+ * Set value for key in local storage
+ */
+
+
+function storeSet(key, value) {
+  store__WEBPACK_IMPORTED_MODULE_0___default.a.set(getKey(key), value);
+}
+/*
+ * Get value for key from local storage
+ */
+
+function storeGet(key, defaultValue) {
+  let value = store__WEBPACK_IMPORTED_MODULE_0___default.a.get(getKey(key));
+  return value || defaultValue;
+}
+/*
+ * Load 'keys' with acceptable keys for local storage
+ * based on the 'store' object in the argument 'config'
+ */
+
+function storeInit(config) {
+  let sid = config.sid;
+
+  for (const key in config.store) {
+    keys.set(key, `${sid}.${config.store[key]}`);
+  }
+}
 
 /***/ }),
 
@@ -8239,33 +8665,35 @@ let lang = "pl";
 let title = "Droga Mistrzostwa";
 let bucket = "assets.christmind.info";
 /* harmony default export */ __webpack_exports__["default"] = ({
-  sourceId: 16,
-  quoteManagerId: "3f7f14c0d7a13eb2e5a05f3c981f33fb",
-  quoteManagerName: "CMI",
   env: env,
-  //sa or prod, sa=standalone
   lang: lang,
   sid: sid,
   title: title,
-  audioBase: `https://s3.amazonaws.com/${bucket}/${sid}/audio`,
-  searchEndpoint: `https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/latest/${sid}`,
-  bm_modal_key: `bm.${sid}.modal`,
-  //list
-  bm_creation_state: `bm.${sid}.creation`,
-  //bookmark
-  bm_list_store: `bm.${sid}.list`,
-  //bmnet
-  bm_topic_list: `bm.${sid}.topics`,
-  //bmnet
-  bm_modal_store: `bm.${sid}.modal`,
-  //navigator
-  configStore: `config.${sid}.`,
   url_prefix: `/t/${sid}`,
   //navigator
   getPageInfo: _modules_config_config__WEBPACK_IMPORTED_MODULE_0__["getPageInfo"],
   //list
-  keyInfo: keyInfo //list, bmnet
-
+  keyInfo: keyInfo,
+  sourceId: 16,
+  quoteManagerId: "3f7f14c0d7a13eb2e5a05f3c981f33fb",
+  quoteManagerName: "CMI",
+  audioBase: `https://s3.amazonaws.com/${bucket}/${sid}/audio`,
+  searchEndpoint: `https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/latest/${sid}`,
+  store: {
+    bmList: "bm.list",
+    bmCreation: "bm.creation",
+    bmTopics: "bm.topics",
+    bmModal: "bm.modal",
+    srchResults: "srch.results",
+    pnDisplay: "pn.display",
+    cfgacq: "cfg.acq",
+    cfgwoh: "cfg.woh",
+    cfgwot: "cfg.wot",
+    cfgwok: "cfg.wok",
+    cfgwos: "cfg.wos",
+    cfglj: "cfg.lj",
+    cfgearly: "cfg.early"
+  }
 });
 
 /***/ }),
@@ -8363,7 +8791,6 @@ function createClickHandlers() {
     e.preventDefault();
 
     if ($(this).hasClass("page-tour")) {
-      console.log("pageDriver");
       Object(_util_driver__WEBPACK_IMPORTED_MODULE_0__["pageDriver"])();
     }
 
@@ -8396,7 +8823,8 @@ function createClickHandlers() {
     if ($(this).hasClass("contact-me")) {
       location.href = "/t/pwom/acq/contact/";
     }
-
+  });
+  $(".login-menu-option-account").on("click", "div.item", function (e) {
     if ($(this).hasClass("profile-management")) {
       location.href = "/profile/email/";
     }
@@ -8458,7 +8886,9 @@ function bookmarkStart(page) {
   let pid;
 
   if (page === "transcript") {
-    pid = www_modules_share_share__WEBPACK_IMPORTED_MODULE_2__["default"].initialize(_constants__WEBPACK_IMPORTED_MODULE_3__["default"]); //get page info and set as heading under '?' menu option
+    www_modules_share_share__WEBPACK_IMPORTED_MODULE_2__["default"].initialize(_constants__WEBPACK_IMPORTED_MODULE_3__["default"]).then(pid => {
+      www_modules_bookmark_bookmark__WEBPACK_IMPORTED_MODULE_0__["default"].initialize(pid, _constants__WEBPACK_IMPORTED_MODULE_3__["default"]);
+    }); //get page info and set as heading under '?' menu option
 
     let key = _constants__WEBPACK_IMPORTED_MODULE_3__["default"].keyInfo.genPageKey();
     Object(_config_config__WEBPACK_IMPORTED_MODULE_4__["getPageInfo"])(key).then(info => {
@@ -8472,9 +8902,10 @@ function bookmarkStart(page) {
       title = `${title}<br/>${info.title}`;
       $("#transcript-page-info").html(title);
     });
+  } else {
+    www_modules_bookmark_bookmark__WEBPACK_IMPORTED_MODULE_0__["default"].initialize(pid, _constants__WEBPACK_IMPORTED_MODULE_3__["default"]);
   }
 
-  www_modules_bookmark_bookmark__WEBPACK_IMPORTED_MODULE_0__["default"].initialize(pid, _constants__WEBPACK_IMPORTED_MODULE_3__["default"]);
   Object(www_modules_bookmark_shareByEmail__WEBPACK_IMPORTED_MODULE_1__["initShareByEmail"])(_constants__WEBPACK_IMPORTED_MODULE_3__["default"]);
 }
 
@@ -8496,8 +8927,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getReservation", function() { return getReservation; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getPageInfo", function() { return getPageInfo; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setEnv", function() { return setEnv; });
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! store */ "./node_modules/store/dist/store.legacy.js");
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var www_modules_util_cmi__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! www/modules/_util/cmi */ "../cmi-www/src/js/modules/_util/cmi.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
@@ -8525,39 +8955,12 @@ let env = {
   //prefix for non standalone url's
   timingBase: "/public/timing",
   //location of audio timing files
-  configUrl: "/standalone/config",
-  //location of book config files
-  configStore: "config." //location of configuration files
+  configUrl: "/standalone/config" //location of book config files
 
 };
 /*
- * The status contains the save date for each config file. We compare that to the saveDate
- * in the locally stored config file. If it's different or doesn't exist we need to get
- * a new version.
- *
- * return: true - get a new version
- *         false - use the one we've got
- */
-
-function refreshNeeded(cfg) {
-  let saveDate = _status__WEBPACK_IMPORTED_MODULE_3__["status"][cfg.bid];
-
-  if (cfg.saveDate && cfg.saveDate === saveDate) {
-    return false;
-  }
-
-  cfg.saveDate = saveDate;
-  return true;
-} //get config file
-
-
-function requestConfiguration(url) {
-  return axios__WEBPACK_IMPORTED_MODULE_1___default.a.get(url);
-}
-/*
   Fetch audio timing data
 */
-
 
 function fetchTimingData(url) {
   return new Promise((resolve, reject) => {
@@ -8568,82 +8971,56 @@ function fetchTimingData(url) {
     });
   });
 }
-/*
-  We use book level configuration that is loaded by request via AJAX. Once
-  loaded the config is persisted in local storage. A check is made for
-  configuration data loaded from storage to determine if the data needs to
-  be reloaded. This is indicated using Define-webpack-plugin to set the timestamp
-  of configurations that have changed.
-
-  args:
-    book: the book identifier, woh, wot, etc
-    assign: when true, assign global variable 'config' to retrieved data
-*/
+/**
+ * Get the configuration file for 'book'. If it's not found in
+ * the cache (local storage) then get it from the server and 
+ * save it in cache.
+ *
+ * @param {string} book - the book identifier
+ * @param {boolean} assign - true if the config is to be assigned to global config variable
+ * @returns {promise}
+ */
 
 function getConfig(book, assign = true) {
+  let lsKey = `cfg${book}`;
+  let url = `${env.configUrl}/${book}.json`;
   return new Promise((resolve, reject) => {
-    let cfg = store__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${env.configStore}${book}`);
-    let url; //if config in local storage check if we need to get a fresh copy
-
-    if (cfg && !refreshNeeded(cfg)) {
+    Object(www_modules_util_cmi__WEBPACK_IMPORTED_MODULE_0__["fetchConfiguration"])(url, lsKey, _status__WEBPACK_IMPORTED_MODULE_3__["status"]).then(resp => {
       if (assign) {
-        config = cfg;
+        config = resp;
       }
 
-      resolve(cfg);
-      return;
-    } //get config from server
-
-
-    url = `${env.configUrl}/${book}.json`;
-    requestConfiguration(url).then(response => {
-      //add save date before storing
-      response.data.saveDate = _status__WEBPACK_IMPORTED_MODULE_3__["status"][response.data.bid];
-      store__WEBPACK_IMPORTED_MODULE_0___default.a.set(`${env.configStore}${book}`, response.data);
-
-      if (assign) {
-        config = response.data;
-      }
-
-      resolve(response.data);
-    }).catch(() => {
-      config = null;
-      toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error(`getString("error:e3")}: ${url}`);
-      reject(`Config file: ${url} is not valid JSON`);
+      resolve(resp);
+    }).catch(err => {
+      reject(err);
     });
   });
 }
-/*
-  For transcript pages; load the configuration file.
-  For non-transcript pages; configuration is loaded by getConfig()
-
-  This is the same as getConfig() except it doesn't resolve passing the data
-  but a message indicating source of the configuration file
-*/
+/**
+ * Load the configuration file for 'book'. If it's not found in
+ * the cache (local storage) then get it from the server and 
+ * save it in cache.
+ *
+ * @param {string} book - the book identifier
+ * @returns {promise}
+ */
 
 function loadConfig(book) {
+  let lsKey = `cfg${book}`;
+  let url = `${env.configUrl}/${book}.json`; //"book" is a single page, no configuration
+
+  if (!book) {
+    return Promise.resolve(false);
+  }
+
   return new Promise((resolve, reject) => {
-    let cfg = store__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${env.configStore}${book}`);
-    let url; //if config in local storage check if we need to get a fresh copy
-
-    if (cfg && !refreshNeeded(cfg)) {
-      config = cfg;
-      resolve("config read from cache");
-      return;
-    } //get config from server
-
-
-    url = `${env.configUrl}/${book}.json`;
-    requestConfiguration(url).then(response => {
-      //add save date before storing
-      response.data.saveDate = _status__WEBPACK_IMPORTED_MODULE_3__["status"][response.data.bid];
-      store__WEBPACK_IMPORTED_MODULE_0___default.a.set(`${env.configStore}${book}`, response.data);
-      config = response.data;
-      resolve("config fetched from server");
+    Object(www_modules_util_cmi__WEBPACK_IMPORTED_MODULE_0__["fetchConfiguration"])(url, lsKey, _status__WEBPACK_IMPORTED_MODULE_3__["status"]).then(resp => {
+      config = resp;
+      resolve(true);
     }).catch(error => {
       config = null;
-      toastr__WEBPACK_IMPORTED_MODULE_2___default.a.error(`getString("error:e3")}: ${url}`);
-      reject(`Config file: ${url} is not valid JSON`);
+      console.error(error);
+      reject(error);
     });
   });
 }
@@ -9425,11 +9802,9 @@ function nextPrev($el, max) {
 
 function highlightCurrentTranscript(bid, max = 1) {
   let page = location.pathname;
-  let $el = $(`.toc-list a[href='${page}']`); //remove href to deactivate link for current page and
-  //scroll into middle of viewport
+  let $el = $(`.toc-list a[href='${page}']`); //remove href to deactivate link for current page
 
   $el.addClass("current-unit").removeAttr("href");
-  scroll_into_view__WEBPACK_IMPORTED_MODULE_0___default()($el.get(0));
   nextPrev($el, max);
 }
 /*
@@ -9446,12 +9821,20 @@ function getBookId() {
    * or local storage
    */
   initialize: function (env) {
-    //dialog settings
+    //modal dialog settings
     $(uiTocModal).modal({
       dimmerSettings: {
         opacity: uiModalOpacity
       },
-      observeChanges: true
+      observeChanges: true,
+      onVisible: function () {
+        let $el = $(".toc-list a.current-unit");
+        scroll_into_view__WEBPACK_IMPORTED_MODULE_0___default()($el.get(0), {
+          isScrollable: function (target, defaultIsScrollable) {
+            return defaultIsScrollable(target) || target.className.includes('scrolling');
+          }
+        });
+      }
     }); //load toc once for transcript pages
 
     if (env === "transcript") {
@@ -9570,8 +9953,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initNavigator", function() { return initNavigator; });
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! scroll-into-view */ "./node_modules/scroll-into-view/scrollIntoView.js");
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(scroll_into_view__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! store */ "./node_modules/store/dist/store.legacy.js");
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var www_modules_util_store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! www/modules/_util/store */ "../cmi-www/src/js/modules/_util/store.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../constants */ "./src/js/constants.js");
@@ -9587,7 +9969,6 @@ __webpack_require__.r(__webpack_exports__);
 
 const page = __webpack_require__(/*! ../_config/key */ "./src/js/modules/_config/key.js");
 
-const queryResultName = `search.${_constants__WEBPACK_IMPORTED_MODULE_3__["default"].sid}.result`;
 const url_prefix = _constants__WEBPACK_IMPORTED_MODULE_3__["default"].env === "standalone" ? "" : _constants__WEBPACK_IMPORTED_MODULE_3__["default"].url_prefix;
 const SCROLL_INTERVAL = 250;
 
@@ -9825,7 +10206,7 @@ function findPositions(pid, pageKey, flat) {
 }
 
 function initControls(pid) {
-  let lastSearch = store__WEBPACK_IMPORTED_MODULE_1___default.a.get(queryResultName);
+  let lastSearch = Object(www_modules_util_store__WEBPACK_IMPORTED_MODULE_1__["storeGet"])("srchResults");
 
   if (!lastSearch) {
     toastr__WEBPACK_IMPORTED_MODULE_2___default.a.warning(Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("notify:n9"));
@@ -10081,8 +10462,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _config_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_config/config */ "./src/js/modules/_config/config.js");
 /* harmony import */ var lodash_uniq__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/uniq */ "./node_modules/lodash/uniq.js");
 /* harmony import */ var lodash_uniq__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_uniq__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! store */ "./node_modules/store/dist/store.legacy.js");
-/* harmony import */ var store__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(store__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var www_modules_util_store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! www/modules/_util/store */ "../cmi-www/src/js/modules/_util/store.js");
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../constants */ "./src/js/constants.js");
 /* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
 
@@ -10092,8 +10472,6 @@ __webpack_require__.r(__webpack_exports__);
  //this needs to use require because it is also used by a node app and node doesn't support import
 
 const womInfo = __webpack_require__(/*! ../_config/key */ "./src/js/modules/_config/key.js");
-
-const queryResultName = `search.${_constants__WEBPACK_IMPORTED_MODULE_3__["default"].sid}.result`;
 
 function getUnitName(pageInfo, unitInfo) {
   return pageInfo[unitInfo.pageKey].title;
@@ -10267,7 +10645,7 @@ function saveQueryResults(queryString, matchCount, titleArray, pageInfo, data, o
     }
   }
 
-  store__WEBPACK_IMPORTED_MODULE_2___default.a.set(queryResultName, {
+  Object(www_modules_util_store__WEBPACK_IMPORTED_MODULE_2__["storeSet"])("srchResults", {
     query: queryString,
     count: matchCount,
     titleArray: titleArray,
@@ -10279,7 +10657,7 @@ function saveQueryResults(queryString, matchCount, titleArray, pageInfo, data, o
 
 
 function showSavedQuery() {
-  const queryResult = store__WEBPACK_IMPORTED_MODULE_2___default.a.get(queryResultName);
+  const queryResult = Object(www_modules_util_store__WEBPACK_IMPORTED_MODULE_2__["storeGet"])("srchResults");
 
   if (!queryResult) {
     return;
@@ -10316,6 +10694,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "transcriptDriver", function() { return transcriptDriver; });
 /* harmony import */ var driver_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! driver.js */ "./node_modules/driver.js/dist/driver.min.js");
 /* harmony import */ var driver_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(driver_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var www_modules_util_driver__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! www/modules/_util/driver */ "../cmi-www/src/js/modules/_util/driver.js");
+
 
 function pageDriver() {
   const driver = new driver_js__WEBPACK_IMPORTED_MODULE_0___default.a({
@@ -10333,42 +10713,42 @@ function pageDriver() {
       position: "bottom"
     }
   }, {
-    element: "[data-book='woh']",
+    element: "#book-woh",
     popover: {
       title: "Droga Serca",
       description: "Pierwsza z trzech książek, które tworzą trzyletni proces duchowej ścieżki przebudzenia.",
       position: "top"
     }
   }, {
-    element: "[data-book='wot']",
+    element: "#book-wot",
     popover: {
       title: "Droga Przemiany",
       description: "Drugi rok comiesięcznych lekcji prowadzących do przemiany serca i umysłu.",
       position: "top"
     }
   }, {
-    element: "[data-book='wok']",
+    element: "#book-wok",
     popover: {
       title: "Droga Poznania",
       description: "Ostatni tom, który zamyka trylogię <em>Drogi Mistrzostwa</em>.",
       position: "top"
     }
   }, {
-    element: "[data-book='tjl']",
+    element: "#book-lj",
     popover: {
       title: "Listy Jeszuy",
       description: "Opowieść Jayema o pojawieniu się Jeszuy w jego życiu i danych mu naukach nazwanych Listami Jeszuy.",
       position: "top"
     }
   }, {
-    element: "[data-book='wos']",
+    element: "#book-wos",
     popover: {
       title: "Droga Sługi",
       description: "Poetycki opis podróży przebudzenia, od narodzenia do rozpoznania siebie jako sługi, który kroczy przebudzony w służbie dla wszystkich swych sióstr i braci.",
       position: "top"
     }
   }, {
-    element: "[data-book='early']",
+    element: "#book-early",
     popover: {
       title: "Wczesne lata",
       description: "Zbiór przesłań danych przed powstaniem <em>Drogi Serca</em>, pierwszej części trylogii <em>Drogi Mistrzostwa</em>.",
@@ -10378,14 +10758,7 @@ function pageDriver() {
   driver.start();
 }
 function pageNavigationDriver() {
-  const driver = new driver_js__WEBPACK_IMPORTED_MODULE_0___default.a({
-    allowClose: false,
-    opacity: 0.5,
-    onReset: () => {
-      $("#bookmark-dropdown-menu").dropdown("hide");
-    }
-  });
-  driver.defineSteps([{
+  let steps = [{
     element: "#masthead-title",
     popover: {
       title: "Nawigacja i funkcjonalności",
@@ -10400,14 +10773,14 @@ function pageNavigationDriver() {
       position: "bottom"
     }
   }, {
-    element: ".bookmark-modal-open",
+    element: "#bookmark-modal-open",
     popover: {
       title: "Lista zakładek",
       description: "Wyświetl listę zakładek, jakie utworzyłeś i opcjonalnie możesz je filtrować tematami. Możesz szybko przejść do dowolnej zakładki. Możesz dowiedzieć się więcej o zakładkach z instrukcji wideo.",
       position: "bottom"
     }
   }, {
-    element: ".search-modal-open",
+    element: "#search-modal-open",
     popover: {
       title: "Szukaj we wszystkich książkach",
       description: "Możesz wyszukiwać interesujące cię tematy we wszystkich książkach Drogi Mistrzostwa.",
@@ -10428,33 +10801,23 @@ function pageNavigationDriver() {
       position: "bottom"
     }
   }, {
-    element: ".login-menu-option",
+    element: "#login-guest-menu-option",
     popover: {
       title: "Zaloguj się/Załóż konto",
       description: "Załóż konto i zaloguj się do strony. Konto jest darmowe i pozwala tworzyć własne zakładki ( zaznaczone fragmenty tekstu). Możesz dzielić się tak utworzonymi zakładkami na Facebooku.",
       position: "left"
     }
   }, {
-    element: "[data-book='wot']",
+    element: "#login-account-menu-option",
     popover: {
-      title: "Pokaż spis treści",
-      description: "Kliknij na dowolny obrazek książki, aby wyświetlić spis treści.",
+      title: "Zaloguj się/Załóż konto",
+      description: "Załóż konto i zaloguj się do strony. Konto jest darmowe i pozwala tworzyć własne zakładki ( zaznaczone fragmenty tekstu). Możesz dzielić się tak utworzonymi zakładkami na Facebooku.",
       position: "left"
     }
-  }]);
-  driver.start();
+  }];
+  Object(www_modules_util_driver__WEBPACK_IMPORTED_MODULE_1__["runFeatureIntro"])(steps);
 }
 function transcriptDriver() {
-  const driver = new driver_js__WEBPACK_IMPORTED_MODULE_0___default.a({
-    allowClose: false,
-    opacity: 0.5
-    /*
-    onReset: () => {
-      $("#bookmark-dropdown-menu").dropdown("hide");
-    }
-    */
-
-  });
   let steps = [];
   steps.push({
     element: "#masthead-title",
@@ -10488,31 +10851,24 @@ function transcriptDriver() {
       position: "right"
     }
   });
-
-  if ($(".search-modal-open").length > 0) {
-    steps.push({
-      element: ".search-modal-open",
-      popover: {
-        title: "Szukaj we wszystkich książkach",
-        description: "Znajdź interesujące cię tematy, przeszukując wszystkie książki Drogi Mistrzostwa.",
-        position: "bottom"
-      }
-    });
-  }
-
-  if (!$(".audio-player-toggle").hasClass("hide")) {
-    steps.push({
-      element: ".audio-player-toggle",
-      popover: {
-        title: "Posłuchaj nagrania audio",
-        description: "Kliknij ikonę głośnika, aby wyświetlić odtwarzacz audio. Możesz czytać tekst jednocześnie go słuchając.",
-        position: "bottom"
-      }
-    });
-  }
-
   steps.push({
-    element: ".toggle-paragraph-markers",
+    element: "#search-modal-open",
+    popover: {
+      title: "Szukaj we wszystkich książkach",
+      description: "Znajdź interesujące cię tematy, przeszukując wszystkie książki Drogi Mistrzostwa.",
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#audio-player-menu-option",
+    popover: {
+      title: "Posłuchaj nagrania audio",
+      description: "Kliknij ikonę głośnika, aby wyświetlić odtwarzacz audio. Możesz czytać tekst jednocześnie go słuchając.",
+      position: "bottom"
+    }
+  });
+  steps.push({
+    element: "#pnum-toggle-menu-option",
     popover: {
       title: "Pokaż/Ukryj znaczniki akapitów.",
       description: "Pokaż lub ukryj znaczniki, które poprzedzają każdy akapit.",
@@ -10520,7 +10876,7 @@ function transcriptDriver() {
     }
   });
   steps.push({
-    element: ".top-of-page",
+    element: "#jump-to-top-menu-option",
     popover: {
       title: "Idź na górę strony",
       description: "Przejdź szybko na górę strony.",
@@ -10536,7 +10892,7 @@ function transcriptDriver() {
     }
   });
   steps.push({
-    element: ".previous-page",
+    element: "#toc-previous-page",
     popover: {
       title: "Poprzednia strona",
       description: "Idź do poprzedniej strony. Zostanie to wyłączone, kiedy pierwsza strona zostanie wyświetlona.",
@@ -10544,7 +10900,7 @@ function transcriptDriver() {
     }
   });
   steps.push({
-    element: ".next-page",
+    element: "#toc-next-page",
     popover: {
       title: "Następna strona",
       description: "Idź do następnej strony. Zostanie to wyłączone, kiedy ostatnia strona zostanie wyświetlona.",
@@ -10567,16 +10923,30 @@ function transcriptDriver() {
       position: "bottom"
     }
   });
-  steps.push({
-    element: ".login-menu-option",
-    popover: {
-      title: "Zaloguj się/Wyloguj się",
-      description: "Utwórz konto i zaloguj lub wyloguj się. Kiedy się zalogujesz, zakładki, które utworzysz, będą dostępne na wszystkich urządzeniach, jakich używasz do łączenia się z Biblioteką w internecie.",
-      position: "bottom"
-    }
-  });
-  driver.defineSteps(steps);
-  driver.start();
+
+  if (!$("#login-guest-menu-option").hasClass("hide")) {
+    steps.push({
+      element: "#login-guest-menu-option",
+      popover: {
+        title: "Zaloguj się/Wyloguj się",
+        description: "Utwórz konto i zaloguj lub wyloguj się. Kiedy się zalogujesz, zakładki, które utworzysz, będą dostępne na wszystkich urządzeniach, jakich używasz do łączenia się z Biblioteką w internecie.",
+        position: "bottom"
+      }
+    });
+  }
+
+  if (!$("#login-account-menu-option").hasClass("hide")) {
+    steps.push({
+      element: "#login-account-menu-option",
+      popover: {
+        title: "Zaloguj się/Wyloguj się",
+        description: "Utwórz konto i zaloguj lub wyloguj się. Kiedy się zalogujesz, zakładki, które utworzysz, będą dostępne na wszystkich urządzeniach, jakich używasz do łączenia się z Biblioteką w internecie.",
+        position: "bottom"
+      }
+    });
+  }
+
+  Object(www_modules_util_driver__WEBPACK_IMPORTED_MODULE_1__["runFeatureIntro"])(steps);
 }
 
 /***/ }),

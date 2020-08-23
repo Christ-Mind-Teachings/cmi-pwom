@@ -1,4 +1,5 @@
 import Driver from "driver.js";
+import {runFeatureIntro} from "www/modules/_util/driver";
 
 export function pageDriver() {
   const driver = new Driver({
@@ -19,7 +20,7 @@ export function pageDriver() {
       }
     },
     {
-      element: "[data-book='woh']",
+      element: "#book-woh",
       popover: {
         title: "Droga Serca",
         description: "Pierwsza z trzech książek, które tworzą trzyletni proces duchowej ścieżki przebudzenia.",
@@ -27,7 +28,7 @@ export function pageDriver() {
       }
     },
     {
-      element: "[data-book='wot']",
+      element: "#book-wot",
       popover: {
         title: "Droga Przemiany",
         description: "Drugi rok comiesięcznych lekcji prowadzących do przemiany serca i umysłu.",
@@ -35,7 +36,7 @@ export function pageDriver() {
       }
     },
     {
-      element: "[data-book='wok']",
+      element: "#book-wok",
       popover: {
         title: "Droga Poznania",
         description: "Ostatni tom, który zamyka trylogię <em>Drogi Mistrzostwa</em>.",
@@ -43,7 +44,7 @@ export function pageDriver() {
       }
     },
     {
-      element: "[data-book='tjl']",
+      element: "#book-lj",
       popover: {
         title: "Listy Jeszuy",
         description: "Opowieść Jayema o pojawieniu się Jeszuy w jego życiu i danych mu naukach nazwanych Listami Jeszuy.",
@@ -51,7 +52,7 @@ export function pageDriver() {
       }
     },
     {
-      element: "[data-book='wos']",
+      element: "#book-wos",
       popover: {
         title: "Droga Sługi",
         description: "Poetycki opis podróży przebudzenia, od narodzenia do rozpoznania siebie jako sługi, który kroczy przebudzony w służbie dla wszystkich swych sióstr i braci.",
@@ -59,7 +60,7 @@ export function pageDriver() {
       }
     },
     {
-      element: "[data-book='early']",
+      element: "#book-early",
       popover: {
         title: "Wczesne lata",
         description: "Zbiór przesłań danych przed powstaniem <em>Drogi Serca</em>, pierwszej części trylogii <em>Drogi Mistrzostwa</em>.",
@@ -72,14 +73,7 @@ export function pageDriver() {
 }
 
 export function pageNavigationDriver() {
-  const driver = new Driver({
-    allowClose: false,
-    opacity: 0.5,
-    onReset: () => {
-      $("#bookmark-dropdown-menu").dropdown("hide");
-    }
-  });
-  driver.defineSteps([
+  let steps = [
     {
       element: "#masthead-title",
       popover: {
@@ -97,7 +91,7 @@ export function pageNavigationDriver() {
       }
     },
     {
-      element: ".bookmark-modal-open",
+      element: "#bookmark-modal-open",
       popover: {
         title: "Lista zakładek",
         description: "Wyświetl listę zakładek, jakie utworzyłeś i opcjonalnie możesz je filtrować tematami. Możesz szybko przejść do dowolnej zakładki. Możesz dowiedzieć się więcej o zakładkach z instrukcji wideo.",
@@ -105,7 +99,7 @@ export function pageNavigationDriver() {
       }
     },
     {
-      element: ".search-modal-open",
+      element: "#search-modal-open",
       popover: {
         title: "Szukaj we wszystkich książkach",
         description: "Możesz wyszukiwać interesujące cię tematy we wszystkich książkach Drogi Mistrzostwa.",
@@ -129,7 +123,7 @@ export function pageNavigationDriver() {
       }
     },
     {
-      element: ".login-menu-option",
+      element: "#login-guest-menu-option",
       popover: {
         title: "Zaloguj się/Załóż konto",
         description: "Załóż konto i zaloguj się do strony. Konto jest darmowe i pozwala tworzyć własne zakładki ( zaznaczone fragmenty tekstu). Możesz dzielić się tak utworzonymi zakładkami na Facebooku.",
@@ -137,28 +131,19 @@ export function pageNavigationDriver() {
       }
     },
     {
-      element: "[data-book='wot']",
+      element: "#login-account-menu-option",
       popover: {
-        title: "Pokaż spis treści",
-        description: "Kliknij na dowolny obrazek książki, aby wyświetlić spis treści.",
+        title: "Zaloguj się/Załóż konto",
+        description: "Załóż konto i zaloguj się do strony. Konto jest darmowe i pozwala tworzyć własne zakładki ( zaznaczone fragmenty tekstu). Możesz dzielić się tak utworzonymi zakładkami na Facebooku.",
         position: "left"
       }
     }
-  ]);
+  ];
 
-  driver.start();
+  runFeatureIntro(steps);
 }
 
 export function transcriptDriver() {
-  const driver = new Driver({
-    allowClose: false,
-    opacity: 0.5
-    /*
-    onReset: () => {
-      $("#bookmark-dropdown-menu").dropdown("hide");
-    }
-    */
-  });
 
   let steps = [];
 
@@ -198,30 +183,26 @@ export function transcriptDriver() {
     }
   });
 
-  if ($(".search-modal-open").length > 0) {
-    steps.push({
-      element: ".search-modal-open",
-      popover: {
-        title: "Szukaj we wszystkich książkach",
-        description: "Znajdź interesujące cię tematy, przeszukując wszystkie książki Drogi Mistrzostwa.",
-        position: "bottom"
-      }
-    });
-  }
-
-  if (!$(".audio-player-toggle").hasClass("hide")) {
-    steps.push({
-      element: ".audio-player-toggle",
-      popover: {
-        title: "Posłuchaj nagrania audio",
-        description: "Kliknij ikonę głośnika, aby wyświetlić odtwarzacz audio. Możesz czytać tekst jednocześnie go słuchając.",
-        position: "bottom"
-      }
-    });
-  }
+  steps.push({
+    element: "#search-modal-open",
+    popover: {
+      title: "Szukaj we wszystkich książkach",
+      description: "Znajdź interesujące cię tematy, przeszukując wszystkie książki Drogi Mistrzostwa.",
+      position: "bottom"
+    }
+  });
 
   steps.push({
-    element: ".toggle-paragraph-markers",
+    element: "#audio-player-menu-option",
+    popover: {
+      title: "Posłuchaj nagrania audio",
+      description: "Kliknij ikonę głośnika, aby wyświetlić odtwarzacz audio. Możesz czytać tekst jednocześnie go słuchając.",
+      position: "bottom"
+    }
+  });
+
+  steps.push({
+    element: "#pnum-toggle-menu-option",
     popover: {
       title: "Pokaż/Ukryj znaczniki akapitów.",
       description: "Pokaż lub ukryj znaczniki, które poprzedzają każdy akapit.",
@@ -230,7 +211,7 @@ export function transcriptDriver() {
   });
 
   steps.push({
-    element: ".top-of-page",
+    element: "#jump-to-top-menu-option",
     popover: {
       title: "Idź na górę strony",
       description: "Przejdź szybko na górę strony.",
@@ -249,7 +230,7 @@ export function transcriptDriver() {
   });
 
   steps.push({
-    element: ".previous-page",
+    element: "#toc-previous-page",
     popover: {
       title: "Poprzednia strona",
       description: "Idź do poprzedniej strony. Zostanie to wyłączone, kiedy pierwsza strona zostanie wyświetlona.",
@@ -258,7 +239,7 @@ export function transcriptDriver() {
   });
 
   steps.push({
-    element: ".next-page",
+    element: "#toc-next-page",
     popover: {
       title: "Następna strona",
       description: "Idź do następnej strony. Zostanie to wyłączone, kiedy ostatnia strona zostanie wyświetlona.",
@@ -284,16 +265,28 @@ export function transcriptDriver() {
     }
   });
 
-  steps.push({
-    element: ".login-menu-option",
-    popover: {
-      title: "Zaloguj się/Wyloguj się",
-      description: "Utwórz konto i zaloguj lub wyloguj się. Kiedy się zalogujesz, zakładki, które utworzysz, będą dostępne na wszystkich urządzeniach, jakich używasz do łączenia się z Biblioteką w internecie.",
-      position: "bottom"
-    }
-  });
+  if (!$("#login-guest-menu-option").hasClass("hide")) {
+    steps.push({
+      element: "#login-guest-menu-option",
+      popover: {
+        title: "Zaloguj się/Wyloguj się",
+        description: "Utwórz konto i zaloguj lub wyloguj się. Kiedy się zalogujesz, zakładki, które utworzysz, będą dostępne na wszystkich urządzeniach, jakich używasz do łączenia się z Biblioteką w internecie.",
+        position: "bottom"
+      }
+    });
+  }
 
-  driver.defineSteps(steps);
-  driver.start();
+  if (!$("#login-account-menu-option").hasClass("hide")) {
+    steps.push({
+      element: "#login-account-menu-option",
+      popover: {
+        title: "Zaloguj się/Wyloguj się",
+        description: "Utwórz konto i zaloguj lub wyloguj się. Kiedy się zalogujesz, zakładki, które utworzysz, będą dostępne na wszystkich urządzeniach, jakich używasz do łączenia się z Biblioteką w internecie.",
+        position: "bottom"
+      }
+    });
+  }
+
+  runFeatureIntro(steps);
 }
 
