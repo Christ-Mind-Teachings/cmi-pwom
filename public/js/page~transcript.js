@@ -2128,14 +2128,8 @@ __webpack_require__.r(__webpack_exports__);
   acolManager: "rmercer33+acol@gmail.com",
   cmiUserId: "05399539cca9ac38db6db36f5c770ff1",
   sources: "/public/config/sources.json",
-  share: "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest/share",
-  acol: "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest/acol/access",
-  user: "https://93e93isn03.execute-api.us-east-1.amazonaws.com/latest/user",
-  quote: "https://4pu1259y54.execute-api.us-east-1.amazonaws.com/latest",
-  audit: "https://93e93isn03.execute-api.us-east-1.amazonaws.com/latest",
-  topicsEndPoint: "https://93e93isn03.execute-api.us-east-1.amazonaws.com/latest",
-  bookmarkApi: "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest",
-  user2: "https://kkdlxunoe7.execute-api.us-east-1.amazonaws.com/latest"
+  user: "https://kkdlxunoe7.execute-api.us-east-1.amazonaws.com/latest",
+  search: "https://x5rigstpd2.execute-api.us-east-1.amazonaws.com/latest"
 });
 
 /***/ }),
@@ -2208,7 +2202,7 @@ function formatKey(key) {
 
 function getAnnotations(userId, key) {
   return new Promise((resolve, reject) => {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/queryAnnotation/${userId}/${key}`).then(response => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/queryAnnotation/${userId}/${key}`).then(response => {
       let bmList = response.data.response;
       bmList.forEach(b => {
         //numeric pid, not representative of key
@@ -2269,7 +2263,7 @@ function postAnnotation(userId, paraKey, creationDate, annotation) {
     annotation: annotation
   };
   return new Promise((resolve, reject) => {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/annotation`, body).then(response => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/annotation`, body).then(response => {
       resolve(response.data.response);
     }).catch(err => {
       reject(err);
@@ -2285,7 +2279,7 @@ function postAnnotation(userId, paraKey, creationDate, annotation) {
 
 function getAnnotation(userId, paraKey, creationDate) {
   return new Promise((resolve, reject) => {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/annotation/${userId}/${formatKey(paraKey)}/${creationDate}`).then(response => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/annotation/${userId}/${formatKey(paraKey)}/${creationDate}`).then(response => {
       console.log("getAnnotation: %o", response);
       let r = response.data.response; //annotation not found
 
@@ -2317,7 +2311,7 @@ function deleteAnnotation(userId, paraKey, creationDate) {
   }
 
   return new Promise((resolve, reject) => {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.delete(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/annotation/${userId}/${formatKey(paraKey)}/${creationDate}`).then(response => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.delete(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/annotation/${userId}/${formatKey(paraKey)}/${creationDate}`).then(response => {
       resolve(response.data.response);
     }).catch(err => {
       reject(err);
@@ -2346,7 +2340,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function getMailList(userId) {
   return new Promise((resolve, reject) => {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/mailList/${userId}`).then(response => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/mailList/${userId}`).then(response => {
       resolve(response.data.mailList);
     }).catch(err => {
       reject(err);
@@ -2355,7 +2349,7 @@ function getMailList(userId) {
 }
 function putMailList(userId, list) {
   return new Promise((resolve, reject) => {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/mailList`, list).then(response => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/mailList`, list).then(response => {
       resolve(response.data.response);
     }).catch(err => {
       reject(err);
@@ -2364,7 +2358,7 @@ function putMailList(userId, list) {
 }
 function sendMail(mailInfo) {
   return new Promise((resolve, reject) => {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(_globals__WEBPACK_IMPORTED_MODULE_1__["default"].share, mailInfo).then(response => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/share`, mailInfo).then(response => {
       if (response.status === 200) {
         resolve("success");
       } else {
@@ -2403,7 +2397,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function getTopicList(userId, sourceId) {
   return new Promise((resolve, reject) => {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/topicList/${userId}/${sourceId}`).then(response => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/topicList/${userId}/${sourceId}`).then(response => {
       let topics = response.data.topics;
       resolve(topics);
     }).catch(err => {
@@ -2422,7 +2416,7 @@ function putTopicList(userId, sourceId, topicList) {
     topicList: topicList
   };
   return new Promise((resolve, reject) => {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user2}/topicList`, body).then(response => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(`${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/topicList`, body).then(response => {
       resolve(response.data.response);
     }).catch(err => {
       reject(err);
@@ -3503,7 +3497,12 @@ function postAnnotation(annotation, pageKey, addToLocalStorage = true) {
     delete serverAnnotation.modified;
   }
 
+  let wrapFunction;
+
   if (serverAnnotation.selectedText) {
+    //don't save wrap() to db but we do need it so save it and put
+    //it back before we save it to local store
+    wrapFunction = serverAnnotation.selectedText.wrap;
     delete serverAnnotation.selectedText.wrap; //selectedText is already stringified when called by topicmgr.js
 
     if (typeof serverAnnotation.selectedText !== "string") {
@@ -3526,6 +3525,10 @@ function postAnnotation(annotation, pageKey, addToLocalStorage = true) {
     if (addToLocalStorage) {
       if (serverAnnotation.selectedText) {
         serverAnnotation.selectedText = JSON.parse(serverAnnotation.selectedText);
+
+        if (wrapFunction) {
+          serverAnnotation.selectedText.wrap = wrapFunction;
+        }
       }
 
       _bookmark__WEBPACK_IMPORTED_MODULE_3__["localStore"].addItem(userInfo.userId, pageKey, creationDate, serverAnnotation);
@@ -4079,7 +4082,7 @@ function bookmarkFeatureHandler() {
     let el = $(".transcript");
 
     if (el.hasClass("disable-selection") && el.hasClass("user")) {
-      Object(_language_lang__WEBPACK_IMPORTED_MODULE_18__["getString"])("menu:m1", true).then(value => {
+      Object(_language_lang__WEBPACK_IMPORTED_MODULE_18__["getString"])("menu:m1", true, "Disable Bookmark Creation").then(value => {
         el.removeClass("disable-selection user");
         $(".toggle-bookmark-selection").text(value);
         $("#bookmark-dropdown-menu > span  i.bookmark-corner-icon").addClass("hide");
@@ -4091,7 +4094,7 @@ function bookmarkFeatureHandler() {
         Object(_util_store__WEBPACK_IMPORTED_MODULE_3__["storeSet"])("bmCreation", "enabled");
       });
     } else {
-      Object(_language_lang__WEBPACK_IMPORTED_MODULE_18__["getString"])("menu:m2", true).then(value => {
+      Object(_language_lang__WEBPACK_IMPORTED_MODULE_18__["getString"])("menu:m2", true, "Enable Bookmark Creation").then(value => {
         el.addClass("disable-selection user");
         $(".toggle-bookmark-selection").text(value);
         $("#bookmark-dropdown-menu > span  i.bookmark-corner-icon").removeClass("hide");
@@ -6723,13 +6726,19 @@ function generateOption(item) {
 }
 
 function makeMaillistSelect(maillist) {
-  return `
-    <label>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("label:listnames")}</label>
-    <select name="mailList" id="maillist-address-list" multiple="" class="search ui dropdown">
-      <option value="">${Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("label:selectaddress")}</option>
-      ${maillist.map(item => `${generateOption(item)}`).join("")}
-    </select>
-  `;
+  return new Promise((resolve, reject) => {
+    let listnames = Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("label:listnames", true);
+    let selectaddress = Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("label:selectaddress", true);
+    Promise.all([listnames, selectaddress]).then(resp => {
+      resolve(`
+        <label>${resp[0]}</label>
+        <select name="mailList" id="maillist-address-list" multiple="" class="search ui dropdown">
+          <option value="">${resp[1]}</option>
+          ${maillist.map(item => `${generateOption(item)}`).join("")}
+        </select>
+      `);
+    });
+  });
 }
 /*
   Called by initShareByEmail()
@@ -6743,7 +6752,7 @@ async function loadEmailList() {
 
   try {
     let mailList = await Object(_ajax_share__WEBPACK_IMPORTED_MODULE_3__["getMailList"])(userInfo.userId);
-    let selectHtml = makeMaillistSelect(mailList);
+    let selectHtml = await makeMaillistSelect(mailList);
     $("#maillist-select").html(selectHtml);
     $("#maillist-address-list.dropdown").dropdown();
   } catch (err) {
@@ -6754,11 +6763,12 @@ async function loadEmailList() {
 */
 
 
-function shareByEmail(quote, citation, url) {
+function shareByEmail(quote, citation, url, bmId) {
   shareInfo = {
     citation,
     quote,
-    url
+    url,
+    bmId
   }; //show input form
 
   $(".hide.email-share-dialog-wrapper").removeClass("hide");
@@ -7156,26 +7166,30 @@ function setLanguage(constants) {
  * to change. Bail if it doens't change.
  */
 
-function waitForReady(s, k) {
+function waitForReady(s, k, timeoutValue) {
   return new Promise((resolve, reject) => {
     function wait(s, k, ms, max = 8, cnt = 0) {
       if (status === LOADING) {
         if (cnt <= max) {
           setTimeout(() => wait(s, k, ms, max, cnt + 1), ms);
         } else {
-          console.log("timeout waiting for language to load: '%s:%s'", s, k);
-          resolve("timeout");
+          console.error("timeout waiting for language to load: '%s:%s'", s, k);
+
+          if (timeoutValue) {
+            resolve(timeoutValue);
+          } else {
+            resolve("timeout");
+          }
+
           return;
         }
       } else {
-        //console.log("Language loaded at wait count: %s", cnt);
         resolve(keyValue(s, k));
         return;
       }
     }
 
     if (status == LOADING) {
-      //console.log("wait started for language to load: '%s:%s'", s, k);
       wait(s, k, 250);
     } else {
       resolve(keyValue(s, k));
@@ -7241,7 +7255,7 @@ function keyValue(s, k) {
 */
 
 
-function getString(key, wait = false) {
+function getString(key, wait = false, timeoutValue) {
   if (typeof key !== "string") {
     return null;
   }
@@ -7249,7 +7263,7 @@ function getString(key, wait = false) {
   let [s, k] = key.split(":");
 
   if (wait) {
-    return waitForReady(s, k);
+    return waitForReady(s, k, timeoutValue);
   }
 
   return keyValue(s, k);
@@ -7765,7 +7779,7 @@ function getUserInfo(name) {
 function setAsSignedIn() {
   let userInfo = getUserInfo(); //change sign-in icon to sign-out and change color from red to green
 
-  Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:signout", true).then(resp => {
+  Object(_language_lang__WEBPACK_IMPORTED_MODULE_4__["getString"])("action:signout", true, "Sign Out").then(resp => {
     /*
     $(".login-menu-option > span")
       .html("<i class='green sign out icon'></i>")
@@ -7773,7 +7787,7 @@ function setAsSignedIn() {
     */
     $(".login-menu-option-guest").addClass("hide");
     $(".login-menu-option-account").removeClass("hide");
-    $(".account-signout-option").text(`Sign out: ${userInfo.name}`);
+    $(".account-signout-option").text(`${resp}: ${userInfo.name}`);
   }); //change bookmark menu icon to green from red
 
   $(".main.menu a > span > i.bookmark.icon").addClass("green").removeClass("red"); //add color to menu background to further indicate signed in status
@@ -8141,13 +8155,13 @@ function runFeatureIntro(stepArray, options) {
 
     let element = i.element.substring(1);
     let el = document.getElementById(element);
-    let result = el ? el.offsetParent !== null : false;
-    if (!result) console.log(`${i.element} filtered from stepArray`);
+    let result = el ? el.offsetParent !== null : false; //if (!result) console.log(`${i.element} filtered from stepArray`);
+
     return result;
   });
 
   if (validSteps.length === 0) {
-    console.log("no steps in requested feature introduction");
+    //console.log("no steps in requested feature introduction");
     return;
   }
 
@@ -10701,9 +10715,10 @@ function pageDriver() {
   const driver = new driver_js__WEBPACK_IMPORTED_MODULE_0___default.a({
     allowClose: false,
     opacity: 0.5,
-    onHighlightStarted: el => {
-      console.log("highlighting %o", el);
-    }
+    doneBtnText: 'Skończone',
+    closeBtnText: 'Zamknąć',
+    nextBtnText: 'Kolejny',
+    prevBtnText: 'Poprzedni'
   });
   driver.defineSteps([{
     element: "#source-homepage",
@@ -10773,7 +10788,7 @@ function pageNavigationDriver() {
       position: "bottom"
     }
   }, {
-    element: "#bookmark-modal-open",
+    element: "#bookmark-dropdown-menu",
     popover: {
       title: "Lista zakładek",
       description: "Wyświetl listę zakładek, jakie utworzyłeś i opcjonalnie możesz je filtrować tematami. Możesz szybko przejść do dowolnej zakładki. Możesz dowiedzieć się więcej o zakładkach z instrukcji wideo.",
@@ -10815,7 +10830,15 @@ function pageNavigationDriver() {
       position: "left"
     }
   }];
-  Object(www_modules_util_driver__WEBPACK_IMPORTED_MODULE_1__["runFeatureIntro"])(steps);
+  let options = {
+    allowClose: false,
+    opacity: 0.5,
+    doneBtnText: 'Skończone',
+    closeBtnText: 'Zamknąć',
+    nextBtnText: 'Kolejny',
+    prevBtnText: 'Poprzedni'
+  };
+  Object(www_modules_util_driver__WEBPACK_IMPORTED_MODULE_1__["runFeatureIntro"])(steps, options);
 }
 function transcriptDriver() {
   let steps = [];
@@ -10946,7 +10969,15 @@ function transcriptDriver() {
     });
   }
 
-  Object(www_modules_util_driver__WEBPACK_IMPORTED_MODULE_1__["runFeatureIntro"])(steps);
+  let options = {
+    allowClose: false,
+    opacity: 0.5,
+    doneBtnText: 'Skończone',
+    closeBtnText: 'Zamknąć',
+    nextBtnText: 'Kolejny',
+    prevBtnText: 'Poprzedni'
+  };
+  Object(www_modules_util_driver__WEBPACK_IMPORTED_MODULE_1__["runFeatureIntro"])(steps, options);
 }
 
 /***/ }),

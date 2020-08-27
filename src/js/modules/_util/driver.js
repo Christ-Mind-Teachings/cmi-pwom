@@ -5,9 +5,10 @@ export function pageDriver() {
   const driver = new Driver({
     allowClose: false,
     opacity: 0.5,
-    onHighlightStarted: (el) => {
-      console.log("highlighting %o", el);
-    }
+    doneBtnText: 'Skończone',
+    closeBtnText: 'Zamknąć',
+    nextBtnText: 'Kolejny',
+    prevBtnText: 'Poprzedni'
   });
 
   driver.defineSteps([
@@ -91,7 +92,7 @@ export function pageNavigationDriver() {
       }
     },
     {
-      element: "#bookmark-modal-open",
+      element: "#bookmark-dropdown-menu",
       popover: {
         title: "Lista zakładek",
         description: "Wyświetl listę zakładek, jakie utworzyłeś i opcjonalnie możesz je filtrować tematami. Możesz szybko przejść do dowolnej zakładki. Możesz dowiedzieć się więcej o zakładkach z instrukcji wideo.",
@@ -140,7 +141,16 @@ export function pageNavigationDriver() {
     }
   ];
 
-  runFeatureIntro(steps);
+  let options = {
+    allowClose: false,
+    opacity: 0.5,
+    doneBtnText: 'Skończone',
+    closeBtnText: 'Zamknąć',
+    nextBtnText: 'Kolejny',
+    prevBtnText: 'Poprzedni'
+  };
+
+  runFeatureIntro(steps, options);
 }
 
 export function transcriptDriver() {
@@ -287,6 +297,15 @@ export function transcriptDriver() {
     });
   }
 
-  runFeatureIntro(steps);
+  let options = {
+    allowClose: false,
+    opacity: 0.5,
+    doneBtnText: 'Skończone',
+    closeBtnText: 'Zamknąć',
+    nextBtnText: 'Kolejny',
+    prevBtnText: 'Poprzedni'
+  };
+
+  runFeatureIntro(steps, options);
 }
 
