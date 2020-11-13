@@ -2129,7 +2129,7 @@ __webpack_require__.r(__webpack_exports__);
   cmiUserId: "05399539cca9ac38db6db36f5c770ff1",
   sources: "/public/config/sources.json",
   user: "https://kkdlxunoe7.execute-api.us-east-1.amazonaws.com/latest",
-  search: "https://x5rigstpd2.execute-api.us-east-1.amazonaws.com/latest"
+  search: "https://x5rigstpd2.execute-api.us-east-1.amazonaws.com/latest/search"
 });
 
 /***/ }),
@@ -2321,6 +2321,34 @@ function deleteAnnotation(userId, paraKey, creationDate) {
 
 /***/ }),
 
+/***/ "../cmi-www/src/js/modules/_ajax/search.js":
+/*!*************************************************!*\
+  !*** ../cmi-www/src/js/modules/_ajax/search.js ***!
+  \*************************************************/
+/*! exports provided: searchSource */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "searchSource", function() { return searchSource; });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
+
+
+function searchSource(parms) {
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(_globals__WEBPACK_IMPORTED_MODULE_1__["default"].search, parms).then(response => {
+      resolve(response.data);
+    }).catch(error => {
+      console.error("search error: %o", error);
+      reject(error);
+    });
+  });
+}
+
+/***/ }),
+
 /***/ "../cmi-www/src/js/modules/_ajax/share.js":
 /*!************************************************!*\
   !*** ../cmi-www/src/js/modules/_ajax/share.js ***!
@@ -2422,47 +2450,6 @@ function putTopicList(userId, sourceId, topicList) {
       reject(err);
     });
   });
-}
-
-/***/ }),
-
-/***/ "../cmi-www/src/js/modules/_audit/audit.js":
-/*!*************************************************!*\
-  !*** ../cmi-www/src/js/modules/_audit/audit.js ***!
-  \*************************************************/
-/*! exports provided: searchAudit */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "searchAudit", function() { return searchAudit; });
-/* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
-
-
-
-function searchAudit(source, query, count, error) {
-  const api = `${_globals__WEBPACK_IMPORTED_MODULE_0__["default"].audit}/audit/search`;
-  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_2__["getUserInfo"])();
-  const body = {
-    userId: "guest",
-    count: count,
-    query: query,
-    source: source
-  };
-
-  if (userInfo) {
-    body.userId = userInfo.email;
-  }
-
-  if (error) {
-    body.error = error;
-  } //disable audit
-
-
-  if (false) {}
 }
 
 /***/ }),
@@ -3259,34 +3246,34 @@ function shareHandler() {
       aid = $(`#${pid} > span.pnum`).attr("data-aid");
     }
 
-    let url = `https://${location.hostname}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
+    let url = `${location.origin}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
     let annotationRange = lodash_range__WEBPACK_IMPORTED_MODULE_3___default()(numericRange[0], numericRange[1] + 1);
     let header2;
 
     if (userInfo.userId === "xxx") {
       header2 = `
         <h4 class="ui left floated header">
-          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m11")}" class="red window close outline small icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("annotate:m11")}" class="red window close outline icon"></i>
           <div class="content">
             ${formData.Comment}
           </div>
         </h4>
         <h4 class="ui right floated header">
-          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:closewin")}" class="share-annotation window close small icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:closewin")}" class="share-annotation window close icon"></i>
         </h4>
       `;
     } else {
       header2 = `
         <h4 class="ui left floated header">
-          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:fbshare")}" class="share-annotation facebook small icon"></i>
-          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:emailshare")}" class="share-annotation envelope outline small icon"></i>
-          <i data-clipboard-text="${url}" title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:cp2clip")}" class="share-annotation linkify small icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:fbshare")}" class="share-annotation facebook icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:emailshare")}" class="share-annotation envelope outline icon"></i>
+          <i data-clipboard-text="${url}" title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:cp2clip")}" class="share-annotation linkify icon"></i>
           <div class="content">
             ${formData.Comment}
           </div>
         </h4>
         <h4 class="ui right floated header">
-          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:closewin")}" class="share-annotation window close small icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_7__["getString"])("action:closewin")}" class="share-annotation window close icon"></i>
         </h4>
       `;
     }
@@ -3757,6 +3744,7 @@ function processBookmark(status, bm, arg) {
 
     case "updated":
       Object(_selection__WEBPACK_IMPORTED_MODULE_15__["updateSelectionTopicList"])(bm.annotation);
+      updateNoteHighlight(bm);
       break;
 
     case "deleted":
@@ -3802,6 +3790,52 @@ function addTopicsAsClasses(bookmark) {
     }, "");
     $(`[data-annotation-id="${bookmark.aid}"]`).addClass(topicList);
   }
+}
+/*
+ * Remove note highlight and add it back in case the range
+ * has changed in the updated bookmark
+ */
+
+
+function updateNoteHighlight(bm) {
+  //return in not a note style bookmark
+  if (bm.annotation.selectedText) {
+    return;
+  }
+
+  let start = parseInt(bm.annotation.rangeStart.substr(1), 10);
+  let end = parseInt(bm.annotation.rangeEnd.substr(1), 10);
+  let pid = start;
+  let done = false; //remove current highlight
+
+  do {
+    $(`#p${start}`).removeClass("note-style-bookmark");
+    $(`#p${start}`).removeClass("note-style-bookmark-start");
+
+    if ($(`#p${start}`).hasClass("note-style-bookmark-end")) {
+      $(`#p${start}`).removeClass("note-style-bookmark-end");
+      done = true;
+    }
+
+    start++;
+  } while (!done); //add new highlight
+
+
+  start = pid;
+
+  do {
+    $(`#p${start}`).addClass("note-style-bookmark");
+
+    if (start === pid) {
+      $(`#p${start}`).addClass("note-style-bookmark-start");
+    }
+
+    if (start === end) {
+      $(`#p${start}`).addClass("note-style-bookmark-end");
+    }
+
+    start++;
+  } while (start <= end);
 }
 
 function addNoteHighlight(pid, bm) {
@@ -3929,7 +3963,9 @@ function createAnnotation(formValues) {
   if (annotation.aid === "") {
     delete annotation.aid;
   } else {
-    annotation.selectedText = Object(_selection__WEBPACK_IMPORTED_MODULE_15__["getSelection"])(annotation.aid);
+    annotation.selectedText = Object(_selection__WEBPACK_IMPORTED_MODULE_15__["getSelection"])(annotation.aid); //make sure rangeEnd === rangeStart for selected text bookmarks
+
+    annotation.rangeEnd = annotation.rangeStart;
 
     if (annotation.creationDate) {
       annotation.selectedText.aid = annotation.creationDate.toString(10);
@@ -3940,9 +3976,7 @@ function createAnnotation(formValues) {
 
   if (annotation.topicList.length === 0) {
     delete annotation.topicList;
-  } //keep track of topics added or deleted
-  //updateSelectionTopicList(annotation);
-
+  }
 
   delete annotation.newTopics;
   delete annotation.hasAnnotation; //persist the bookmark
@@ -6197,7 +6231,7 @@ function initClickListeners() {
       aid = $(`#${pid} > span.pnum`).attr("data-aid");
     }
 
-    let url = `https://${location.hostname}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
+    let url = `${location.origin}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
     let numericRange = rangeArray.map(r => parseInt(r.substr(1), 10));
     let annotationRange = lodash_range__WEBPACK_IMPORTED_MODULE_3___default()(numericRange[0], numericRange[1] + 1);
     let header;
@@ -6205,7 +6239,7 @@ function initClickListeners() {
     if (userInfo.userId === "xxx") {
       header = `
         <h4 class="ui header">
-          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("annotate:m11")}" class="red window close outline small icon"></i>
+          <i title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_9__["getString"])("annotate:m11")}" class="red window close outline icon"></i>
           <div class="content">
             ${$(this).text()}
           </div>
@@ -6214,9 +6248,9 @@ function initClickListeners() {
     } else {
       header = _language_lang__WEBPACK_IMPORTED_MODULE_9__["__lang"]`
         <h4 class="ui header">
-          <i title="${"action:fbshare"}" class="share-annotation facebook small icon"></i>
-          <i title="${"action:emailshare"}" class="share-annotation envelope outline small icon"></i>
-          <i data-clipboard-text="${url}" title="${"action:cp2clip"}" class="share-annotation linkify small icon"></i>
+          <i title="${"action:fbshare"}" class="share-annotation facebook icon"></i>
+          <i title="${"action:emailshare"}" class="share-annotation envelope outline icon"></i>
+          <i data-clipboard-text="${url}" title="${"action:cp2clip"}" class="share-annotation linkify icon"></i>
           <div class="content">
             ${$(this).text()}
           </div>
@@ -6652,12 +6686,34 @@ function formatMessage(message) {
     return `${current}<p>${Object(_util_sanitize__WEBPACK_IMPORTED_MODULE_4__["purify"])(p)}</p>`;
   }, "");
   return message;
+}
+/*
+ * Format recipientArray into a string of email addresses and
+ * a structure of recipient variables per Mailgun
+ */
+
+
+function formatRecipientInfo(recipientArray) {
+  let addresses = [];
+  let info = {};
+  recipientArray.forEach(i => {
+    let [email, first, last] = i.split(":");
+    addresses.push(email);
+    info[email] = {
+      first: first === "" ? "No First Name" : first,
+      last: last === "" ? "No Last Name" : last
+    };
+  });
+  return {
+    to: addresses.join(","),
+    variables: JSON.stringify(info)
+  };
 } //load email list and setup submit and cancel listeners
 
 
 function initShareByEmail(constants) {
-  teaching = constants;
-  loadEmailList(); //submit
+  teaching = constants; //loadEmailList();
+  //submit
 
   $("form[name='emailshare']").on("submit", async function (e) {
     e.preventDefault();
@@ -6679,7 +6735,9 @@ function initShareByEmail(constants) {
     shareInfo.to = "";
 
     if (formData.mailList.length > 0) {
-      shareInfo.to = formData.mailList.join(",");
+      let info = formatRecipientInfo(formData.mailList);
+      shareInfo.to = info.to;
+      shareInfo.variables = info.variables;
     }
 
     if (formData.emailAddresses.length > 0) {
@@ -6696,7 +6754,7 @@ function initShareByEmail(constants) {
 
     if (formData.emailMessage) {
       shareInfo.message = formatMessage(formData.emailMessage);
-    } //hide form not sure if this will work
+    } //hide form
 
 
     $(".email-share-dialog-wrapper").addClass("hide");
@@ -6722,8 +6780,17 @@ function initShareByEmail(constants) {
 } //generate the option element of a select statement
 
 function generateOption(item) {
-  return `<option value="${item.address}">${item.first} ${item.last}</option>`;
+  return `<option value="${item.address}:${item.first}:${item.last}">${item.first} ${item.last}</option>`;
 }
+/*
+ * Call getString() with second arg 'true' so that it returns a promise. This was necessary
+ * because the language file might not have been loaded when getString() was called.
+ *
+ * This is no longer necessary since we don't call this on page load anymore, just when the
+ * user requests sharing by email. I didn't change the code to remove promises though, but I
+ * could since they are no longer needed.
+ */
+
 
 function makeMaillistSelect(maillist) {
   return new Promise((resolve, reject) => {
@@ -6743,6 +6810,8 @@ function makeMaillistSelect(maillist) {
 /*
   Called by initShareByEmail()
   - load only when user signed in, fail silently, it's not an error
+
+  NOTE: WE DON'T CALL THIS ANYMORE. THE CODE has been added to shareByEmail()
 */
 
 
@@ -6760,18 +6829,34 @@ async function loadEmailList() {
   }
 }
 /*
+ * Show mail list dialog when sharing by email. Load mail list if
+ * not already loaded
 */
 
 
-function shareByEmail(quote, citation, url, bmId) {
+let mailListLoaded = false;
+async function shareByEmail(quote, citation, url) {
+  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_1__["getUserInfo"])();
   shareInfo = {
     citation,
     quote,
-    url,
-    bmId
-  }; //show input form
-
+    url
+  };
   $(".hide.email-share-dialog-wrapper").removeClass("hide");
+
+  if (!mailListLoaded) {
+    try {
+      $(".email-share-loader").addClass("active");
+      let mailList = await Object(_ajax_share__WEBPACK_IMPORTED_MODULE_3__["getMailList"])(userInfo.userId);
+      let selectHtml = await makeMaillistSelect(mailList);
+      $("#maillist-select").html(selectHtml);
+      $("#maillist-address-list.dropdown").dropdown();
+      mailListLoaded = true;
+      $(".email-share-loader").removeClass("active");
+    } catch (err) {
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.error(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("error:e10")}: ${err}`);
+    }
+  }
 }
 
 /***/ }),
@@ -7168,7 +7253,7 @@ function setLanguage(constants) {
 
 function waitForReady(s, k, timeoutValue) {
   return new Promise((resolve, reject) => {
-    function wait(s, k, ms, max = 8, cnt = 0) {
+    function wait(s, k, ms, max = 10, cnt = 0) {
       if (status === LOADING) {
         if (cnt <= max) {
           setTimeout(() => wait(s, k, ms, max, cnt + 1), ms);
@@ -7513,7 +7598,11 @@ function setParagraphNumberDisplayState() {
 function initStickyMenu() {
   // fix main menu to page on passing
   $(".main.menu").visibility({
-    type: "fixed"
+    type: "fixed",
+    onFixed: function (el) {//console.log("menu is fixed");
+    },
+    onUnfixed: function (el) {//console.log("menu is un fixed");
+    }
   }); // show dropdown on hover
 
   $(".main.menu  .ui.dropdown").dropdown({
@@ -7868,13 +7957,10 @@ function manageState(state) {
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   initialize: function () {
-    //console.log("Init user authentication");
-
     /*
      * if user already logged in, change icon to log out
      */
     netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.on("init", user => {
-      //userInfo = user;
       manageState("init");
     });
     netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.on("login", login => {
@@ -7906,8 +7992,7 @@ function manageState(state) {
       netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.open();
     }); //init authentication
 
-    netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.init({//container: "#netlify-modal"
-    });
+    netlify_identity_widget__WEBPACK_IMPORTED_MODULE_0___default.a.init({});
   }
 });
 
@@ -9642,7 +9727,7 @@ module.exports = {
     wok: ["xxx", "preface", "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11"],
     wok2: ["xxx", "/l02qa", "/l03qa", "/l04qa", "/l06qa", "/l10qa"],
     early: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10"],
-    early2: ["xxx", "/chap02qa", "/chap03qa", "/chap08qa", "/chap09qa"],
+    early2: ["xxx", "/chap01qa", "/chap02qa", "/chap03qa", "/chap08qa", "/chap09qa"],
     acq: ["xxx", "path", "advice", "video", "contact"]
   }
 };
@@ -9665,7 +9750,7 @@ const status = {
   woh: "Sun Jul  5 22:31:36 HST 2020",
   wot: "Tue Jul  7 16:30:14 HST 2020",
   wok: "Wed Jul  8 22:27:03 HST 2020",
-  early: "Mon Jun 22 13:10:53 HST 2020",
+  early: "Thu Nov  5 13:06:17 HST 2020",
   acq: "Mon Jun 29 23:12:23 HST 2020"
 };
 
@@ -10298,17 +10383,14 @@ function initNavigator(requestedPid) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var www_modules_ajax_search__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! www/modules/_ajax/search */ "../cmi-www/src/js/modules/_ajax/search.js");
 /* harmony import */ var _show__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./show */ "./src/js/modules/_search/show.js");
 /* harmony import */ var www_modules_util_url__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! www/modules/_util/url */ "../cmi-www/src/js/modules/_util/url.js");
 /* harmony import */ var _navigator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./navigator */ "./src/js/modules/_search/navigator.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! toastr */ "./node_modules/toastr/toastr.js");
 /* harmony import */ var toastr__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(toastr__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var www_modules_audit_audit__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! www/modules/_audit/audit */ "../cmi-www/src/js/modules/_audit/audit.js");
-/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../constants */ "./src/js/constants.js");
-
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../_language/lang */ "./src/js/modules/_language/lang.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../constants */ "./src/js/constants.js");
 
 
 
@@ -10340,14 +10422,14 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
       $(uiSearchInputIcon).addClass("loading");
       $(uiSearchString).attr("disabled", true);
       $(uiSearchMessage).addClass("purple");
-      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s1"));
-      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s2")} <em>${arg2}</em></p>`);
+      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s1"));
+      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s2")} <em>${arg2}</em></p>`);
       break;
 
     case SAVED_SEARCH:
       //arg1: source, arg2: query string, arg3: count
-      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("label:l6"));
-      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s3")} <em>${arg2}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s4")} <em>${arg1}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s5")} ${arg3} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s6")}</p>`);
+      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("label:l6"));
+      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s3")} <em>${arg2}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s4")} <em>${arg1}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s5")} ${arg3} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s6")}</p>`);
       break;
 
     case SEARCH_RESULT:
@@ -10359,15 +10441,15 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
         $(uiSearchString).val("");
       }
 
-      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s7"));
-      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s3")} <em>${arg2}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s5")} ${arg3} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s7")}</p>`);
+      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s7"));
+      $(uiSearchMessageBody).html(`<p>${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s3")} <em>${arg2}</em> ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s5")} ${arg3} ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s7")}</p>`);
       break;
 
     case SEARCH_ERROR:
       $(uiSearchInputIcon).removeClass("loading");
       $(uiSearchString).attr("disabled", false);
       $(uiSearchMessage).removeClass("purple").addClass("negative");
-      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s8"));
+      $(uiSearchMessageHeader).text(Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s8"));
       $(uiSearchMessageBody).html(`<p>${arg1}</p>`);
       break;
 
@@ -10377,28 +10459,28 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
 } //run query
 
 
-function search(query) {
+async function search(query) {
   let searchBody = {
+    source: "pwom",
     query: query,
     width: 30
   };
-  axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(_constants__WEBPACK_IMPORTED_MODULE_7__["default"].searchEndpoint, searchBody).then(response => {
-    //console.log("search response: %o", response);
-    displaySearchMessage(SEARCH_RESULT, "", `"${response.data.queryTransformed}"`, response.data.count);
 
-    if (response.data.count > 0) {
-      Object(_show__WEBPACK_IMPORTED_MODULE_1__["showSearchResults"])(response.data, response.data.queryTransformed);
+  try {
+    let result = await Object(www_modules_ajax_search__WEBPACK_IMPORTED_MODULE_0__["searchSource"])(searchBody);
+    displaySearchMessage(SEARCH_RESULT, "", `"${result.queryTransformed}"`, result.count);
+
+    if (result.count > 0) {
+      Object(_show__WEBPACK_IMPORTED_MODULE_1__["showSearchResults"])(result, result.queryTransformed);
     } else {
-      toastr__WEBPACK_IMPORTED_MODULE_4___default.a.info(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s3")} "${response.data.queryTransformed}" ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_6__["getString"])("search:s9")}`);
+      toastr__WEBPACK_IMPORTED_MODULE_4___default.a.info(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s3")} "${result.queryTransformed}" ${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("search:s9")}`);
     }
 
-    Object(www_modules_audit_audit__WEBPACK_IMPORTED_MODULE_5__["searchAudit"])(_constants__WEBPACK_IMPORTED_MODULE_7__["default"].sid.toUpperCase(), searchBody.query, response.data.count);
     document.getElementById("search-input-field").focus();
-  }).catch(error => {
+  } catch (error) {
     console.error("search error: %o", error);
     displaySearchMessage(SEARCH_ERROR, error.message);
-    Object(www_modules_audit_audit__WEBPACK_IMPORTED_MODULE_5__["searchAudit"])(_constants__WEBPACK_IMPORTED_MODULE_7__["default"].sid.toUpperCase(), searchBody.query, 0, error.message);
-  });
+  }
 }
 
 function initTranscriptPage() {

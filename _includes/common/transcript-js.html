@@ -10,11 +10,10 @@ jekyll.environment reflects the webpack mode used. This is valid only in
 'integration' since 'standalone' is always development.
 {% endcomment %}
 
-
 {% if include.type == "standalone" %}
-  <!-- standalone -->
-  <script src="/standalone/vendor/jquery/jquery.min.js"></script>
-  <script src="/standalone/vendor/semantic/semantic.min.js"></script>
+  <!-- standalone ({{site.semantic}})  -->
+  <script src="/standalone/vendor/jquery/jquery.js"></script>
+  <script src="/standalone/vendor/{{site.semantic}}/semantic.js"></script>
 
   <script src="/public/js/vendors~page~transcript.js"></script>
   <script src="/public/js/vendors~transcript.js"></script>
@@ -22,16 +21,18 @@ jekyll.environment reflects the webpack mode used. This is valid only in
   <script src="/public/js/transcript.js"></script>
 {% else %}
   <!-- integration -->
-  <script src="/public/vendor/jquery/jquery.min.js"></script>
-  <script src="/public/vendor/semantic/semantic.min.js"></script>
 
   {% if jekyll.environment == "production" %}
-    <!-- PWOM transcript Webpack production -->
+    <!-- PWOM transcript Webpack production ({{site.semantic}})  -->
+    <script src="/public/vendor/jquery/jquery.min.js"></script>
+    <script src="/public/vendor/{{site.semantic}}/semantic.min.js"></script>
     <script src="/t/pwom/public/js/vendors~page~transcript.js"></script>
     <script src="/t/pwom/public/js/vendors~transcript.js"></script>
     <script src="/t/pwom/public/js/transcript.js"></script>
   {% else %}
-    <!-- PWOM transcript Webpack development -->
+    <!-- PWOM transcript Webpack development ({{site.semantic}})  -->
+    <script src="/public/vendor/jquery/jquery.js"></script>
+    <script src="/public/vendor/{{site.semantic}}/semantic.js"></script>
     <script src="/t/pwom/public/js/vendors~page~transcript.js"></script>
     <script src="/t/pwom/public/js/vendors~transcript.js"></script>
     <script src="/t/pwom/public/js/page~transcript.js"></script>

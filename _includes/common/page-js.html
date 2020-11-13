@@ -11,23 +11,25 @@ jekyll.environment reflects the webpack mode used. This is valid only in
 {% endcomment %}
 
 {% if include.type == "standalone" %}
-  <!-- JS for standalone development -->
-  <script src="/standalone/vendor/jquery/jquery.min.js"></script>
-  <script src="/standalone/vendor/semantic/semantic.min.js"></script>
+  <!-- JS for standalone development ({{site.semantic}})  -->
+  <script src="/standalone/vendor/jquery/jquery.js"></script>
+  <script src="/standalone/vendor/{{site.semantic}}/semantic.js"></script>
 
   <script src="/public/js/vendors~page~transcript.js"></script>
   <script src="/public/js/page~transcript.js"></script>
   <script src="/public/js/page.js"></script>
 {% else %}
-  <script src="/public/vendor/jquery/jquery.min.js"></script>
-  <script src="/public/vendor/semantic/semantic.min.js"></script>
   <!-- JS for production (integration) -->
   {% if jekyll.environment == "production" %}
-    <!-- PWOM page Webpack production -->
+    <!-- PWOM page Webpack production ({{site.semantic}})  -->
+    <script src="/public/vendor/jquery/jquery.min.js"></script>
+    <script src="/public/vendor/{{site.semantic}}/semantic.min.js"></script>
     <script src="/t/pwom/public/js/vendors~page~transcript.js"></script>
     <script src="/t/pwom/public/js/page.js"></script>
   {% else %}
-    <!-- PWOM page Webpack development -->
+    <!-- PWOM page Webpack development ({{site.semantic}})  -->
+    <script src="/public/vendor/jquery/jquery.js"></script>
+    <script src="/public/vendor/{{site.semantic}}/semantic.js"></script>
     <script src="/t/pwom/public/js/vendors~page~transcript.js"></script>
     <script src="/t/pwom/public/js/page~transcript.js"></script>
     <script src="/t/pwom/public/js/page.js"></script>
