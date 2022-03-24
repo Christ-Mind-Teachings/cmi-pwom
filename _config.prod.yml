@@ -63,6 +63,9 @@ collections:
   early:
     output: true
     title: Wczesne lata Drogi,
+  early2:
+    output: true
+    title: Wczesne lata Drogi2,
 
 defaults:
 
@@ -162,6 +165,20 @@ defaults:
       image-width: 612
       image-height: 877
       bid: "EARLY"
+      audio: false
+
+  - scope:
+      path: ""
+      type: early2
+    values:
+      layout: transcript
+      book: "Wczesne lata Drogi2"
+      publisher: "Droga Mistrzostwa"
+      image: "/t/pwom/public/img/wom/early2-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
+      image-width: 612
+      image-height: 877
+      bid: "EARLY2"
       audio: false
 
 exclude: [

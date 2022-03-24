@@ -1,0 +1,52 @@
+{
+  "bid": "early2",
+  "title": "Wczesne lata Drogi Mistrzostwa, Tom 2",
+  "image": "/t/pwom/public/img/wom/early2-toc.jpg",
+  "toc": "relaxed ordered",
+  "totalPages": 10,
+  "contents": [
+    {
+      "title": "Postanów widzieć",
+      "url": "/t/pwom/early2/chap01/",
+      "contents": [
+        {
+          "title": "Pytania i odpowiedzi",
+          "url": "/t/pwom/early2/chap01/chap01qa/"
+        }
+      ]
+    },
+    {
+      "title": "Stań się mistrzem czasu",
+      "url": "/t/pwom/early2/chap02/"
+    },
+    {
+      "title": "Zdecyduj się być Chrystusem",
+      "url": "/t/pwom/early2/chap03/"
+    },
+    {
+      "title": "Uzdrawianie",
+      "url": "/t/pwom/early2/chap04/"
+    },
+    {
+      "title": "Duch Święty",
+      "url": "/t/pwom/early2/chap05/"
+    },
+    {
+      "title": "Przebudzenie",
+      "url": "/t/pwom/early2/chap06/"
+    },
+    {
+      "title": "Radość I",
+      "url": "/t/pwom/early2/chap07/"
+    },
+    {
+      "title": "Radość II",
+      "url": "/t/pwom/early2/chap08/"
+    },
+    {
+      "title": "Łaska jako Rzeczywistość",
+      "url": "/t/pwom/early2/chap09/"
+    }
+  ]
+}
+

@@ -30,6 +30,7 @@
 .transcript.wot .chHead,
 .transcript.woh .chHead,
 .transcript.early .chHead,
+.transcript.early2 .chHead,
 .transcript.wos .chHead,
 .transcript.lj .chHead {
   text-align: center;
@@ -58,7 +59,8 @@
   margin-left: 3%;
 }
 
-.transcript.early div.indent {
+.transcript.early div.indent,
+.transcript.early2 div.indent {
   margin-left: 3%;
   margin-bottom: 1em;
 }

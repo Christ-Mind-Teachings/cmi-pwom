@@ -1140,15 +1140,471 @@ module.exports = {
   sourceId: 17,
   sid: "col",
   prefix: "/t/col",
-  books: ["book1", "book2", "book3", "book4", "book5", "acq"],
-  bookIds: ["xxx", "book1", "book2", "book3", "book4", "book5", "acq"],
+  books: ["book1", "book2", "book3", "book4", "book5", "book6", "acq"],
+  bookIds: ["xxx", "book1", "book2", "book3", "book4", "book5", "book6", "acq"],
   contents: {
     book1: ["xxx", "message", "foreword", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap19", "chap20", "chap21", "final", "appendix", "clarifications"],
     book2: ["xxx", "message", "prelude", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap19", "chap20", "chap21", "final", "clarifications"],
     book3: ["xxx", "origin", "prelude", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap19", "chap20", "chap21", "final", "clarifications"],
     book4: ["xxx", "origin", "description", "prelude", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap19", "chap20", "chap21", "final", "clarifications"],
     book5: ["xxx", "origin", "description", "prelude", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap19", "chap20", "chap21", "final", "clarifications"],
+    book6: ["xxx", "message", "prelude", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap19", "chap20", "chap21", "final", "clarifications"],
     acq: ["xxx", "about", "origin", "description", "amazon"]
+  }
+};
+
+/***/ }),
+
+/***/ "../cmi-ftcm/src/js/modules/_config/key.js":
+/*!*************************************************!*\
+  !*** ../cmi-ftcm/src/js/modules/_config/key.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+  Transcript keys
+  - a numeric value that represents a specific transcript and represents
+    a specific logical ordering.
+  - first item starts with 1
+
+  - The integer part of the key represent a transcript and the decimal part
+    a paragraph within the transcript.
+  - The paragraphId is increased by 1 and divided by 1000
+
+  key format: ssbbuuuxx.ppp
+  where: ss: source Id
+         bb: book Id
+        uuu: unit Id
+         xx: subunit
+        ppp: paragraph number - not positional
+
+  Limits:
+    The Library of Christ Mind Teachings is limited to
+       99 Sources
+       99 Books per source
+      999 Units (chapters) per book
+       99 Unique Subunits per book
+      999 Paragraphs per unit or subunit
+
+  Example: url's
+      [/t/sourceId]/bookId/unitId/subunitId/
+      - /t/sourceId is omitted in standalone mode
+
+  NOTE: This module is used by code running in the browser and Node so the
+        common.js module system is used
+*/
+const si = __webpack_require__(/*! ./si */ "../cmi-ftcm/src/js/modules/_config/si.js");
+
+const sprintf = __webpack_require__(/*! sprintf-js */ "../cmi-ftcm/node_modules/sprintf-js/src/sprintf.js").sprintf;
+
+const keyLength = 9; //length of pageKey excluding decimal portion
+
+/*
+ * The argument is the page url. Use the book id (bid)
+ * to find the position of the page in the contents array.
+ */
+
+function getUnitId(...urlArray) {
+  let bid = getBook(urlArray);
+  let {
+    unit,
+    subunit
+  } = getUnitInfo(urlArray);
+
+  if (si.contents[bid]) {
+    return si.contents[bid].indexOf(unit);
+  }
+
+  throw new Error(`unexpected bookId: ${bid}`);
+}
+/*
+ * Get the position of the subunit from the bid2 array.
+ * Return -1 if not found,
+ *         0 if there is no subunit
+ */
+
+
+function getSubunitId(...urlArray) {
+  let bid = getBook(urlArray);
+  let {
+    unit,
+    subunit
+  } = getUnitInfo(urlArray);
+  let level2 = `${bid}2`;
+
+  if (!subunit) {
+    return 0;
+  }
+
+  if (si.contents[level2]) {
+    return si.contents[level2].indexOf(`/${subunit}`);
+  }
+
+  throw new Error(`unexpected bookId: ${level2}`);
+}
+/*
+ * The url will be either:
+ * Integration: /t/pid/bid/uid/[xid/] or
+ * Standalone:  /bid/uid/[xid/]
+ *
+ * Return object containing unit and subunit from url
+ */
+
+
+function getUnitInfo(urlArray) {
+  //set values for integration
+  let uidPos = 3;
+  let subunit;
+
+  if (urlArray[0] !== "t") {
+    uidPos = 1;
+  } //check for subunit in url
+
+
+  if (urlArray.length === uidPos + 2) {
+    subunit = urlArray[uidPos + 1];
+  }
+
+  return {
+    unit: urlArray[uidPos],
+    subunit: subunit
+  };
+}
+/*
+ * Return the number of chapters in the book (bid).
+ * Subtract one from length because of 'xxx' (fake chapter)
+*/
+
+
+function getNumberOfUnits(bid) {
+  if (si.contents[bid]) {
+    return si.contents[bid].length - 1;
+  }
+
+  throw new Error(`getNumberOfUnits() unexpected bookId: ${bid}`);
+}
+/*
+ * Split url into an array. Strip leading and trailing
+ * '/' characters first so we don't get empty elements
+ * in the array.
+ */
+
+
+function splitUrl(url) {
+  let u = url; //remove leading
+
+  u = url.substr(1); //remove trailing '/' if it exists
+
+  if (u[u.length - 1] === "/") {
+    u = u.substr(0, u.length - 1);
+  }
+
+  return u.split("/");
+}
+
+function getSourceId() {
+  return si.sourceId;
+}
+
+function getKeyInfo() {
+  return {
+    sourceId: si.sourceId,
+    keyLength: keyLength
+  };
+}
+/*
+ * Parse key into page part and paragraph part. The two are
+ * still part of the key.
+ *
+ * - a paraKey = 0 represent no paraKey in argument.
+ */
+
+
+function parseKey(key) {
+  const keyInfo = getKeyInfo();
+  let keyString = key;
+  let paraKey = 0;
+
+  if (typeof keyString === "number") {
+    keyString = key.toString(10);
+  }
+
+  let decimalPos = keyString.indexOf("."); //if no decimal key doesn't include paragraph id
+
+  if (decimalPos > -1) {
+    let decimalPart = keyString.substr(decimalPos + 1); //append 0's if decimal part < 3
+
+    switch (decimalPart.length) {
+      case 1:
+        decimalPart = `${decimalPart}00`;
+        break;
+
+      case 2:
+        decimalPart = `${decimalPart}0`;
+        break;
+    }
+
+    paraKey = parseInt(decimalPart, 10);
+  }
+
+  let pageKey = parseInt(keyString.substr(0, keyInfo.keyLength), 10); //console.log("parseKey: %o", {paraKey, pageKey});
+
+  return {
+    paraKey,
+    pageKey
+  };
+}
+/*
+ * Get bid (book id) from url.
+ *
+ * We could be running in standalone or integration mode. Integration
+ * mode is indicated by urlArray[0] == 't'
+ *
+ * The url is in this format: [t/sid]/bid/uid/suid, where [t/sid]
+ * are present only in integration mode
+ */
+
+
+function getBook(urlArray) {
+  if (urlArray[0] === "t") {
+    return urlArray[2];
+  }
+
+  return urlArray[0];
+}
+/*
+  Convert url into key
+  returns -1 for non-transcript url
+
+  key format: ssbbuuuxx.ppp
+  where: ss: source Id
+         bb: book Id
+        uuu: unit Id
+         xx: subunit Id
+        ppp: paragraph number - not positional
+*/
+
+
+function genPageKey(url = location.pathname) {
+  let key = {
+    sid: si.sourceId,
+    bid: 0,
+    uid: 0,
+    xid: 0
+  };
+  let parts = splitUrl(url); //make sure we have a valid book
+
+  key.bid = si.bookIds.indexOf(getBook(parts));
+
+  if (key.bid === -1) {
+    return -1;
+  } //get the unitId of the page, return if invalid
+
+
+  key.uid = getUnitId(...parts);
+
+  if (key.uid === -1) {
+    return -1;
+  } //get the subunitId
+
+
+  key.xid = getSubunitId(...parts);
+
+  if (key.xid === -1) {
+    return -1;
+  }
+
+  let compositeKey = sprintf("%02s%02s%03s%02s", key.sid, key.bid, key.uid, key.xid);
+  let numericKey = parseInt(compositeKey, 10);
+  return numericKey;
+}
+/*
+ * genParagraphKey(paragraphId, key: url || pageKey)
+ *
+ * args:
+ *   pid: a string representing a transcript paragraph, starts as "p0"..."pnnn"
+ *        - it's converted to number and incremented by 1 then divided by 1000
+ *       pid can also be a number so then we just increment it and divide by 1000
+ *
+ *   key: either a url or pageKey returned from genPageKey(), if key
+ *   is a string it is assumed to be a url
+ */
+
+
+function genParagraphKey(pid, key = location.pathname) {
+  let numericKey = key;
+  let pKey;
+
+  if (typeof pid === "string") {
+    pKey = (parseInt(pid.substr(1), 10) + 1) / 1000;
+  } else {
+    pKey = (pid + 1) / 1000;
+  } //if key is a string it represents a url
+
+
+  if (typeof key === "string") {
+    numericKey = genPageKey(key);
+  }
+
+  let paragraphKey = numericKey + pKey;
+  return paragraphKey;
+}
+/*
+  key format: ssbbuuuxx.ppp
+  where: ss: source Id
+         bb: book Id
+        uuu: unit Id
+         xx: subunit Id
+        ppp: paragraph number - not positional
+*/
+
+
+function decodeKey(key) {
+  // let {pid, pageKey} = parseKey(key);
+  let {
+    paraKey: pid,
+    pageKey
+  } = parseKey(key);
+  let pageKeyString = pageKey.toString(10);
+  let decodedKey = {
+    error: false,
+    key: key,
+    message: "ok",
+    sid: 0,
+    bookId: "",
+    uid: 0,
+    xid: 0,
+    pid: pid ? pid - 1 : -1
+  }; //error, invalid key length
+
+  if (pageKeyString.length !== keyLength) {
+    decodedKey.error = true;
+    decodedKey.message = `Integer portion of key should have a length of ${keyLength}, key is: ${pageKeyString}`;
+    return decodedKey;
+  } //check for valid sourceId
+
+
+  decodedKey.sid = parseInt(pageKeyString.substr(0, 2), 10);
+
+  if (decodedKey.sid !== si.sourceId) {
+    decodedKey.error = true;
+    decodedKey.message = `Invalid sourceId: ${decodedKey.sid}, expecting: ${si.sourceId}`;
+    return decodedKey;
+  }
+
+  let bid = parseInt(pageKeyString.substr(2, 2), 10);
+  decodedKey.bookId = si.bookIds[bid];
+  decodedKey.uid = parseInt(pageKeyString.substr(4, 3), 10);
+  decodedKey.xid = parseInt(pageKeyString.substr(7, 2), 10); //search is off by 1, so decrement keys, watch for side effects
+  //decodedKey.uid = decodedKey.uid - 1;
+  //decodedKey.xid = decodedKey.xid - 1;
+  //console.log("decodedKey: %o", decodedKey);
+
+  return decodedKey;
+}
+/*
+ * Convert page key to url
+ */
+
+
+function getUrl(key, withPrefix = false) {
+  let decodedKey = decodeKey(key);
+  let unit;
+  let subunit;
+  let url = "/invalid/key/";
+
+  if (decodedKey.error) {
+    return url;
+  }
+
+  if (si.contents[decodedKey.bookId]) {
+    unit = si.contents[decodedKey.bookId][decodedKey.uid];
+
+    if (decodedKey.xid > 0) {
+      subunit = si.contents[`${decodedKey.bookId}2`][decodedKey.xid];
+      url = `/${decodedKey.bookId}/${unit}${subunit}/`;
+    } else {
+      url = `/${decodedKey.bookId}/${unit}/`;
+    }
+
+    if (withPrefix) {
+      return `${si.prefix}${url}`;
+    }
+  }
+
+  return url;
+}
+
+function getBooks() {
+  return si.books;
+}
+/*
+  Describe key in terms of source:book:unit:p
+*/
+
+
+function describeKey(key) {
+  let decodedKey = decodeKey(key, false);
+
+  if (decodedKey.error) {
+    return {
+      key: key,
+      error: true,
+      source: si.sid
+    };
+  }
+
+  let info = {
+    key: key,
+    source: si.sid,
+    book: decodedKey.bookId,
+    unit: si.contents[decodedKey.bookId][decodedKey.uid] //subunit is a carry over from WOM. It's not used here
+    //,subunit: si.contents[`${decodedKey.bookId}`][decodedKey.xid]
+
+  };
+
+  if (decodedKey.pid > -1) {
+    info.pid = `p${decodedKey.pid}`;
+  } //console.log("describeKey: %o", info);
+
+
+  return info;
+}
+
+module.exports = {
+  getNumberOfUnits: getNumberOfUnits,
+  getBooks: getBooks,
+  getSourceId: getSourceId,
+  getKeyInfo: getKeyInfo,
+  parseKey: parseKey,
+  getUnitId: getUnitId,
+  genPageKey: genPageKey,
+  genParagraphKey: genParagraphKey,
+  decodeKey: decodeKey,
+  getUrl: getUrl,
+  describeKey: describeKey
+};
+
+/***/ }),
+
+/***/ "../cmi-ftcm/src/js/modules/_config/si.js":
+/*!************************************************!*\
+  !*** ../cmi-ftcm/src/js/modules/_config/si.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+  sourceId: 18,
+  sid: "ftcm",
+  prefix: "/t/ftcm",
+  books: ["book1", "book2", "acq"],
+  bookIds: ["xxx", "book1", "book2", "acq"],
+  contents: {
+    book1: ["xxx", "foreword", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "epilog"],
+    book2: ["xxx", "foreword", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "epilog"],
+    acq: ["xxx", "about", "amazon"]
   }
 };
 
@@ -2255,7 +2711,7 @@ const bookIds = ["xxx", ...books];
 const acq = ["xxx", "welcome", "wom", "web"];
 const tjl = ["xxx", "ack", "foreword", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "epilogue"];
 const wos = ["xxx", "foreword", "preface", "chap01", "chap02", "chap03", "chap04", "afterwords", "epilog", "prayer"];
-const early = ["xxx", "ble", "c2s", "hoe", "ign", "com", "dbc", "dth", "fem", "gar", "hea", "hoi", "hsp", "joy1", "joy2", "lht", "moa", "mot", "wak", "wlk"];
+const early = ["xxx", "ble", "c2s", "hoe", "ign", "com", "dbc", "dth", "fem", "gar", "hea", "hoi", "hsp", "joy1", "joy2", "lht", "moa", "mot", "wak", "wlk", "illusions", "easter", "freedom", "purpose", "pow", "toc", "light", "peace", "perception", "seeking", "shr", "doorway", "holyr", "teach"];
 const topics = ["xxx", "jeshua", "woh", "wohexercises", "wot", "wotexercises", "wok", "wokexercises", "god", "creation", "christmind", "christ", "creator", "purpose", "forgiveness", "selflove", "karma"];
 const contents = {
   acq: acq,
@@ -7278,6 +7734,7 @@ function highlight(annotation, toNode = document.body) {
             } catch (err) {
               console.error("highlight catch bloc: err: %o", err);
               console.log("annotation: %o", annotation);
+              return false;
               /*
               selector.end--;
               range = textPosition.toRange(toNode, selector);
@@ -7289,6 +7746,8 @@ function highlight(annotation, toNode = document.body) {
           break;
       }
     }
+
+    return true;
   }
 }
 
@@ -7397,9 +7856,15 @@ function processSelection(selection) {
 
         return;
       }
-    }
+    } //if highlight fails notify user and return without 
+    //creating annotation
 
-    highlight(selectedText, pNode); //persist annotation
+
+    if (!highlight(selectedText, pNode)) {
+      toastr__WEBPACK_IMPORTED_MODULE_0___default.a.info("Failed to highlight text. Try a shorter selection.");
+      return;
+    } //persist annotation
+
 
     pageAnnotations[selectedText.id] = selectedText;
     Object(_annotate__WEBPACK_IMPORTED_MODULE_3__["getUserInput"])(selectedText);
@@ -8795,6 +9260,8 @@ const pwomKey = __webpack_require__(/*! pwom/modules/_config/key */ "./src/js/mo
 
 const colKey = __webpack_require__(/*! col/modules/_config/key */ "../cmi-col/src/js/modules/_config/key.js");
 
+const ftcmKey = __webpack_require__(/*! ftcm/modules/_config/key */ "../cmi-ftcm/src/js/modules/_config/key.js");
+
 const WOMSOURCEID = "10";
 const JSBSOURCEID = "11";
 const ACIMSOURCEID = "12";
@@ -8803,6 +9270,7 @@ const ACOLSOURCEID = "14";
 const OESOURCEID = "15";
 const PWOMSOURCEID = "16";
 const COLSOURCEID = "17";
+const FTCMSOURCEID = "18";
 /**
  * Get the url for the page identified by "key"
  *
@@ -8845,6 +9313,10 @@ function getUrlByPageKey(key) {
 
   if (key.startsWith(COLSOURCEID)) {
     return colKey.getUrl(key, true);
+  }
+
+  if (key.startsWith(FTCMSOURCEID)) {
+    return ftcmKey.getUrl(key, true);
   }
 
   throw new Error(`getUrlByPageKey(${key}): invalid key`);
@@ -9366,7 +9838,7 @@ function storeInit(config) {
 /*!**********************************************!*\
   !*** ../cmi-www/src/js/modules/_util/url.js ***!
   \**********************************************/
-/*! exports provided: loadComplete, loadStart, showParagraph, showTOC, showTopicBookmark, showBookmark, showSearchMatch, showAnnotation, getUser */
+/*! exports provided: loadComplete, loadStart, showParagraph, isReadOnly, setBackgroundColor, showTOC, showSearch, showQuotes, showTopicBookmark, showBookmark, showSearchMatch, showAnnotation, getUser */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9374,7 +9846,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "loadComplete", function() { return loadComplete; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "loadStart", function() { return loadStart; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "showParagraph", function() { return showParagraph; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isReadOnly", function() { return isReadOnly; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setBackgroundColor", function() { return setBackgroundColor; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "showTOC", function() { return showTOC; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "showSearch", function() { return showSearch; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "showQuotes", function() { return showQuotes; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "showTopicBookmark", function() { return showTopicBookmark; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "showBookmark", function() { return showBookmark; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "showSearchMatch", function() { return showSearchMatch; });
@@ -9384,16 +9860,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var scroll_into_view__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(scroll_into_view__WEBPACK_IMPORTED_MODULE_0__);
  //timeout interval before calling scroll
 
-const INTERVAL = 250; // get query string from window.location unless the arg 'qString' is not
-// null, in that case it represents the query string
+const INTERVAL = 250; //save auery string for subsequent calls
 
-function getQueryString(key, qString) {
-  let queryString;
+let qString = "";
+/*
+ * Get query string from url and store it incase url is reset
+ */
 
-  if (qString) {
-    queryString = qString.substring(1);
+function getQueryString(key) {
+  let queryString = window.location.search.substring(1);
+
+  if (queryString.length === 0) {
+    queryString = qString;
   } else {
-    queryString = window.location.search.substring(1);
+    qString = queryString;
   }
 
   let vars = queryString.split("&");
@@ -9456,6 +9936,27 @@ function showParagraph() {
   }
 }
 /*
+ * When url contains 'ro=<something>' we don't load audio or bookmarks
+ */
+
+function isReadOnly() {
+  let value = getQueryString("ro");
+
+  if (value) {
+    resetUrl();
+    return true;
+  }
+
+  return false;
+}
+function setBackgroundColor() {
+  let value = getQueryString("bc");
+
+  if (value) {
+    return value;
+  }
+}
+/*
   Check for query string containing ?tocbook. This is a request to display
   the table of contents for the specified book
 */
@@ -9465,6 +9966,36 @@ function showTOC() {
 
   if (book) {
     $(`[data-book="${book}"]`).trigger("click");
+  }
+}
+/*
+ * Open search dialog on page load.
+ * - Intended for teaching home page
+ */
+
+function showSearch() {
+  let show = getQueryString("search");
+  console.log("showSearch %s", show);
+
+  if (show) {
+    resetUrl();
+    $("#search-modal-open").trigger("click");
+  }
+}
+/*
+ * Open quote dialog on page load
+ * - Must be used on home pages
+ */
+
+function showQuotes() {
+  let show = getQueryString("quotes");
+  console.log("showQuotes %s", show);
+
+  if (show) {
+    resetUrl();
+    setTimeout(() => {
+      $("#show-quote-button").trigger("click");
+    }, 500);
   }
 }
 function showTopicBookmark() {
@@ -9576,7 +10107,8 @@ let bucket = "assets.christmind.info";
     cfgwok: "cfg.wok",
     cfgwos: "cfg.wos",
     cfglj: "cfg.lj",
-    cfgearly: "cfg.early"
+    cfgearly: "cfg.early",
+    cfgearly2: "cfg.early2"
   }
 });
 
@@ -10500,8 +11032,8 @@ module.exports = {
   sourceId: 16,
   sid: "pwom",
   prefix: "/t/pwom",
-  books: ["lj", "wos", "woh", "wot", "wok", "early", "acq"],
-  bookIds: ["xxx", "lj", "wos", "woh", "wot", "wok", "early", "acq"],
+  books: ["lj", "wos", "woh", "wot", "wok", "early", "early2", "acq"],
+  bookIds: ["xxx", "lj", "wos", "woh", "wot", "wok", "early", "early2", "acq"],
   contents: {
     lj: ["xxx", "acknow", "reader", "forwd", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "eplg"],
     wos: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "aftwrd", "eplg", "prayer"],
@@ -10513,6 +11045,8 @@ module.exports = {
     wok2: ["xxx", "/l02qa", "/l03qa", "/l04qa", "/l06qa", "/l10qa"],
     early: ["xxx", "intr", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10"],
     early2: ["xxx", "/chap01qa", "/chap02qa", "/chap03qa", "/chap08qa", "/chap09qa"],
+    early2: ["xxx", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09"],
+    early22: ["xxx", "/chap01qa"],
     acq: ["xxx", "path", "advice", "video", "contact"]
   }
 };
@@ -10530,13 +11064,14 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "status", function() { return status; });
 const status = {
-  lj: "Tue Jun 16 17:50:09 HST 2020",
-  wos: "Tue Jun 16 17:52:44 HST 2020",
-  woh: "Sun Jul  5 22:31:36 HST 2020",
-  wot: "Tue Jul  7 16:30:14 HST 2020",
-  wok: "Wed Jul  8 22:27:03 HST 2020",
-  early: "Thu Nov  5 13:06:17 HST 2020",
-  acq: "Mon Jun 29 23:12:23 HST 2020"
+  lj: "Wed Jan 26 12:53:49 HST 2022",
+  wos: "Wed Jan 26 12:53:49 HST 2022",
+  woh: "Wed Jan 26 12:53:49 HST 2022",
+  wot: "Wed Jan 26 12:53:49 HST 2022",
+  wok: "Wed Jan 26 12:53:49 HST 2022",
+  early: "Wed Jan 26 12:53:49 HST 2022",
+  early2: "Tue Mar 22 16:08:48 HST 2022",
+  acq: "Wed Jan 26 12:53:49 HST 2022"
 };
 
 /***/ }),
@@ -10856,8 +11391,19 @@ const page = __webpack_require__(/*! ../_config/key */ "./src/js/modules/_config
 const url_prefix = _constants__WEBPACK_IMPORTED_MODULE_3__["default"].env === "standalone" ? "" : _constants__WEBPACK_IMPORTED_MODULE_3__["default"].url_prefix;
 const SCROLL_INTERVAL = 250;
 
-function scrollComplete(message, type) {
-  console.log(`${message}: ${type}`);
+function scrollComplete(message, type) {} //console.log(`${message}: ${type}`);
+
+/**
+ * Remove <mark> highlighting search terms when search navigator closes
+ */
+
+
+function clearMarks() {
+  let marks = document.querySelectorAll("mark.show-mark");
+
+  for (let mark of marks) {
+    mark.outerHTML = mark.innerHTML;
+  }
 }
 
 function scrollIntoView(id, caller) {
@@ -11035,6 +11581,7 @@ function initClickListeners(matches) {
     e.preventDefault();
     $(".search-navigator-wrapper").addClass("hide-search-navigator");
     $(".transcript").removeClass("search-navigator-active");
+    clearMarks();
   });
 }
 /*

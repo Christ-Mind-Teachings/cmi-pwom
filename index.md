@@ -95,6 +95,8 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
         </div>
       </div>
     </div>
+  </div>
+  <div class="ui three cards">
     <div class="card">
       <a id="book-early" href="#" data-book="early" class="toc-modal-open image">
         {% if site.environment == "standalone" %}
@@ -106,6 +108,20 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
       <div class="content">
         <div class="description">
           Wczesne lata, Tom 1
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <a id="book-early2" href="#" data-book="early2" class="toc-modal-open image">
+        {% if site.environment == "standalone" %}
+          <img src="/public/img/wom/early2-big.jpg">
+        {% else %}
+          <img src="/t/pwom/public/img/wom/early2-big.jpg">
+        {% endif %}
+      </a>
+      <div class="content">
+        <div class="description">
+          Wczesne lata, Tom 2
         </div>
       </div>
     </div>
