@@ -1,105 +1,936 @@
-!function(t){function e(e){for(var n,r,s=e[0],l=e[1],c=e[2],d=0,u=[];d<s.length;d++)r=s[d],Object.prototype.hasOwnProperty.call(o,r)&&o[r]&&u.push(o[r][0]),o[r]=0;for(n in l)Object.prototype.hasOwnProperty.call(l,n)&&(t[n]=l[n]);for(p&&p(e);u.length;)u.shift()();return i.push.apply(i,c||[]),a()}function a(){for(var t,e=0;e<i.length;e++){for(var a=i[e],n=!0,s=1;s<a.length;s++){var l=a[s];0!==o[l]&&(n=!1)}n&&(i.splice(e--,1),t=r(r.s=a[0]))}return t}var n={},o={1:0},i=[];function r(e){if(n[e])return n[e].exports;var a=n[e]={i:e,l:!1,exports:{}};return t[e].call(a.exports,a,a.exports,r),a.l=!0,a.exports}r.m=t,r.c=n,r.d=function(t,e,a){r.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:a})},r.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},r.t=function(t,e){if(1&e&&(t=r(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var a=Object.create(null);if(r.r(a),Object.defineProperty(a,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var n in t)r.d(a,n,function(e){return t[e]}.bind(null,n));return a},r.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return r.d(e,"a",e),e},r.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},r.p="/public/js";var s=window.webpackJsonp=window.webpackJsonp||[],l=s.push.bind(s);s.push=e,s=s.slice();for(var c=0;c<s.length;c++)e(s[c]);var p=l;i.push([499,0]),a()}({0:function(t,e,a){"use strict";a.d(e,"c",(function(){return h})),a.d(e,"b",(function(){return m})),a.d(e,"a",(function(){return b}));var n=a(6),o=a.n(n),i=a(3),r=a.n(i);const[s,l,c,p]=[0,1,2,3];let d=s,u={notReady:!0};function h(t){let e,a="en";d!==c?(d=l,t.lang&&(a=t.lang),e=`/public/lang/${a}.json`,"en"!==a&&"integration"===t.env&&(e=`${t.url_prefix}${e}`),o.a.get(e).then(t=>{u=t.data,d=c}).catch(t=>{d=p,r.a.error("Failed to load language: "+a),console.error("language load failed: %o",t)})):r.a.warning("language already loaded")}function f(t,e){let a;return d===s?(a=`not loaded(${t}:${e})`,console.error(a),a):d!==c?(d===l?(a=`loading(${t}:${e})`,console.error(a)):(a=`failed(${t}:${e})`,console.error(a)),a):u[t]?e?u[t][e]?u[t][e]:null:u[t]:null}function m(t,e=!1,a){if("string"!=typeof t)return null;let[n,o]=t.split(":");return e?function(t,e,a){return new Promise((n,o)=>{d==l?function t(e,o,i,r=10,s=0){if(d===l)return s<=r?void setTimeout(()=>t(e,o,i,r,s+1),i):(console.error("timeout waiting for language to load: '%s:%s'",e,o),void n(a||"timeout"));n(f(e,o))}(t,e,250):n(f(t,e))})}(n,o,a):f(n,o)}function b(t,...e){const a=e.map(t=>{let e=m(t);return e||t});return t.reduce((t,e,n)=>{let o=a[n];return void 0===o&&(o=""),`${t}${e}${o}`},"")}},10:function(t,e,a){"use strict";a.d(e,"a",(function(){return h})),a.d(e,"c",(function(){return f})),a.d(e,"f",(function(){return m})),a.d(e,"b",(function(){return b})),a.d(e,"e",(function(){return g})),a.d(e,"d",(function(){return k})),a.d(e,"g",(function(){return $}));var n=a(25),o=a(75),i=a.n(o),r=a(8),s=a.n(r);const l={lj:"Wed Jan 26 12:53:49 HST 2022",wos:"Wed Jan 26 12:53:49 HST 2022",woh:"Wed Jan 26 12:53:49 HST 2022",wot:"Wed Jan 26 12:53:49 HST 2022",wok:"Wed Jan 26 12:53:49 HST 2022",early:"Wed Jan 26 12:53:49 HST 2022",early2:"Tue Mar 22 16:08:48 HST 2022",acq:"Wed Jan 26 12:53:49 HST 2022"};var c=a(2);const p=a(16);let d,u={SID:0,BID:0,UID:1,environment:"",prefix:"",timingBase:"/public/timing",configUrl:"/standalone/config"};function h(t){return new Promise((e,a)=>{i.a.get(`${u.timingBase}${t}`).then(t=>{e(t.data)}).catch(t=>{a(t)})})}function f(t,e=!0){let a="cfg"+t,o=`${u.configUrl}/${t}.json`;return new Promise((t,i)=>{Object(n.a)(o,a,l).then(a=>{e&&(d=a),t(a)}).catch(t=>{i(t)})})}function m(t){let e="cfg"+t,a=`${u.configUrl}/${t}.json`;return t?new Promise((t,o)=>{Object(n.a)(a,e,l).then(e=>{d=e,t(!0)}).catch(t=>{d=null,console.error(t),o(t)})}):Promise.resolve(!1)}function b(t){if(!d)throw new Error("Configuration has not been initialized");let e=d.contents.find(e=>t.startsWith(e.url));return e?(e.url!==t&&(e=e.contents.find(e=>e.url===t)),e?(e.audioBase=u.audioBase,e):(s.a.error(Object(c.a)("error:e4")),{})):(s.a.error(Object(c.a)("error:e4")),{})}function g(t){let e=b(t);return e.timer?e.timer:null}function k(t,e=!1){let a=p.decodeKey(t),n={pageKey:t,source:u.title,bookId:a.bookId};return e&&(n.data=e),new Promise((e,o)=>{if(-1===t)return n.bookTitle=Object(c.a)("label:l1"),n.title=Object(c.a)("label:l2"),n.url="",void e(n);f(a.bookId,!1).then(t=>{if(t){let o=function(t,e){let a=p.getUrl(t.key,!0),n=e.find(t=>a.startsWith(t.url));return n?(n.url!==a&&(n=n.contents.find(t=>t.url===a)),n||{title:"not found",url:""}):{title:"not found",url:""}}(a,t.contents);n.bookTitle=t.title,n.title=o.title,n.url=o.url,e(n)}else n.bookTitle=Object(c.a)("label:l1"),n.title=Object(c.a)("label:l2"),n.url=""}).catch(t=>{o(t)})})}function $(t){u.configStore=t.configStore,u.title=t.title,u.audioBase=t.audioBase,u.environment=t.env,"standalone"!==t.env&&(u.SID+=1,u.BID+=2,u.UID+=2,u.prefix=t.url_prefix,u.timingBase=`${t.url_prefix}${u.timingBase}`,u.configUrl=u.configUrl.replace("/standalone",t.url_prefix+"/public"))}},11:function(t,e,a){"use strict";a.d(e,"a",(function(){return c})),a.d(e,"b",(function(){return p})),a.d(e,"e",(function(){return d})),a.d(e,"g",(function(){return u})),a.d(e,"h",(function(){return h})),a.d(e,"d",(function(){return f})),a.d(e,"f",(function(){return m})),a.d(e,"c",(function(){return b}));var n=a(13),o=a.n(n);let i="";function r(t){let e=window.location.search.substring(1);0===e.length?e=i:i=e;let a=e.split("&");for(let e=0;e<a.length;e++){let n=a[e].split("=");if(n[0]===t)return n[1]}return null}function s(t,e){o()(document.getElementById(t),{align:{top:.2}},t=>{})}function l(){history.replaceState({},document.title,location.origin+location.pathname)}function c(){$("#transcript-page-loading").removeClass("active"),l()}function p(){r("as")&&$("#transcript-page-loading").addClass("active")}function d(){let t=r("v");t&&(setTimeout(s,250,t,"showParagraph"),l())}function u(){let t=r("tocbook");t&&$(`[data-book="${t}"]`).trigger("click")}function h(){let t=r("tnav"),e=r("topic");return t?(l(),{pid:t,topic:e}):null}function f(){let t=r("bkmk");return t?(l(),t):null}function m(){let t=r("srch");return t?(l(),t):null}function b(){let t=r("as");return t||null}},12:function(t,e,a){"use strict";var n=a(80),o=a.n(n),i=a(3),r=a.n(i),s=a(0),l=new Map;function c(t){var e,a=new o.a(t);return(e=a).on("success",t=>{t.text.indexOf("tocbook")>-1?($(".toc.modal > .message").html(`<p>${Object(s.b)("clip:url")}</p>`),setTimeout(()=>{$(".toc.modal > .message > p").remove()},2e3)):r.a.info(Object(s.b)("clip:link")),t.clearSelection()}),e.on("error",()=>{r.a.info(Object(s.b)("error:e3"))}),a}e.a={register:function(t){let e=l.get(t);return e||(e=c(t),l.set(t,e)),e},destroy:function(t){let e=l.get(t);e&&(e.destroy(),l.delete(t))}}},16:function(t,e,a){const n=a(86),o=a(133).sprintf;function i(...t){let e=c(t),{unit:a,subunit:o}=r(t);if(n.contents[e])return n.contents[e].indexOf(a);throw new Error("unexpected bookId: "+e)}function r(t){let e,a=3;return"t"!==t[0]&&(a=1),t.length===a+2&&(e=t[a+1]),{unit:t[a],subunit:e}}function s(){return{sourceId:n.sourceId,keyLength:9}}function l(t){const e=s();let a=t,n=0;"number"==typeof a&&(a=t.toString(10));let o=a.indexOf(".");if(o>-1){let t=a.substr(o+1);switch(t.length){case 1:t+="00";break;case 2:t+="0"}n=parseInt(t,10)}return{paraKey:n,pageKey:parseInt(a.substr(0,e.keyLength),10)}}function c(t){return"t"===t[0]?t[2]:t[0]}function p(t=location.pathname){let e={sid:n.sourceId,bid:0,uid:0,xid:0},a=function(t){let e=t;return e=t.substr(1),"/"===e[e.length-1]&&(e=e.substr(0,e.length-1)),e.split("/")}(t);if(e.bid=n.bookIds.indexOf(c(a)),-1===e.bid)return-1;if(e.uid=i(...a),-1===e.uid)return-1;if(e.xid=function(...t){let e=c(t),{unit:a,subunit:o}=r(t),i=e+"2";if(!o)return 0;if(n.contents[i])return n.contents[i].indexOf("/"+o);throw new Error("unexpected bookId: "+i)}(...a),-1===e.xid)return-1;let s=o("%02s%02s%03s%02s",e.sid,e.bid,e.uid,e.xid);return parseInt(s,10)}function d(t){let{pid:e,pageKey:a}=l(t),o=a.toString(10),i={error:!1,key:t,message:"ok",sid:0,bookId:"",uid:0,xid:0,pid:e?e-1:-1};if(9!==o.length)return i.error=!0,i.message="Integer portion of key should have a length of 9, key is: "+o,i;if(i.sid=parseInt(o.substr(0,2),10),i.sid!==n.sourceId)return i.error=!0,i.message=`Invalid sourceId: ${i.sid}, expecting: ${n.sourceId}`,i;let r=parseInt(o.substr(2,2),10);return i.bookId=n.bookIds[r],i.uid=parseInt(o.substr(4,3),10),i.xid=parseInt(o.substr(7,2),10),i}t.exports={getNumberOfUnits:function(t){if(n.contents[t])return n.contents[t].length-1;throw new Error("getNumberOfUnits() unexpected bookId: "+t)},getBooks:function(){return n.books},getSourceId:function(){return n.sourceId},getKeyInfo:s,parseKey:l,getUnitId:i,genPageKey:p,genParagraphKey:function(t,e=location.pathname){let a,n=e;return a="string"==typeof t?(parseInt(t.substr(1),10)+1)/1e3:(t+1)/1e3,"string"==typeof e&&(n=p(e)),n+a},decodeKey:d,getUrl:function(t,e=!1){let a,o,i=d(t),r="/invalid/key/";return i.error?r:n.contents[i.bookId]&&(a=n.contents[i.bookId][i.uid],i.xid>0?(o=n.contents[i.bookId+"2"][i.xid],r=`/${i.bookId}/${a}${o}/`):r=`/${i.bookId}/${a}/`,e)?`${n.prefix}${r}`:r},describeKey:function(t){let e=d(t);if(e.error)return{key:t,error:!0,source:n.sid};let a={key:t,source:n.sid,book:e.bookId,unit:n.contents[e.bookId][e.uid],subunit:n.contents[e.bookId+"2"][e.xid]};return e.pid>-1&&(a.pid="p"+e.pid),a}}},2:function(t,e,a){"use strict";a.d(e,"a",(function(){return o}));var n={label:{key:"Klucz",l1:"Nieznany tytuł książki",l2:"Tytuł nieznany",l3:"Spis treści",l4:"Szukaj",l5:"z",l6:"Last Search Result"},notify:{n1:"Kliknięcie jest ignorowane, gdy audio nie jest odtwarzane.",n2:"Uwaga! Dane znaczników czasu zostaną utracone, jeśli zamkniesz okno bez wysłania danych.",n3:"Twoje dane zostaną utracone",n4:"Dziękuję! Przesłanie danych powiodło się.",n5:"Przykro mi, przesłanie danych nie powiodło się.",n6:"Przywrócono częściowe dane znaczników czasu. Możesz kontynuować od miejsca, w którym skończyłeś.",n7:"Sesja wprowadzania znaczników czasu jest niezakończona. Zacznij wprowadzać znaczniki w miejscu, gdzie poprzednio skończyłeś.",n8:"Sesja wprowadzania znaczników czasu jest kompletna, jednak dane nie zostały przekazane. Proszę prześlij nam dane.",n9:"Wyszukiwanie nie dało żadnych rezultatów.",n10:"Brak rezultatów wyszukiwania w",n11:"Wyróżnienie nie powiodło się.",n12:"wyniki wyszukiwania"},search:{s1:"Wyszukiwanie rozpoczęte...",s2:"Szukanie",s3:"Szukaj",s4:"z",s5:"znalezione",s6:"dopasowania",s7:"Rezultaty wyszukiwania",s8:"Błąd wyszukiwania",s9:"nie znaleziono żadnych dopasowań",s10:"Akapit",s11:"Rezultaty ostatniego wyszukiwania"},html:{h1:"Niech to..! Przesłanie danych nie powiodło się.",h2:"Aby przesłać dane ponownie, spróbuj odświeżyć stronę albo ponów próbę za jakiś czas. Dane nie zostaną utracone. Ten formularz zostanie wyświetlony następnym razem, gdy odwiedzisz stronę."},error:{e1:"Nieoczekiwana liczba punktów danych w istniejącym zbiorze danych znaczników czasu. Skontaktuj się proszę z Rick'iem. Nie można wprowadzać znaczników czasu dopóki problem nie zostanie rozwiązany.",e2:"Nie powiodło się wczytanie znaczników czasu pliku audio",e3:"Niepoprawna konfiguracja pliku",e4:"Błąd konfiguracji pliku. Nie znaleziono adresu url.",e5:"Nie znaleziono tytułu",e6:"Nie powiodło się wczytanie pliku konfiguracji",e7:"Wprowadź proszę swoje imię",e8:"Podaj proszę swój adres mailowy",e9:"Proszę wpisać wiadomość",e10:"Dziękuję",e11:"Przepraszamy, nastąpił błąd komunikacji!"}};a(8);function o(t){if("string"!=typeof t)return null;let[e,a]=t.split(":");return n[e]?a?n[e][a]?n[e][a]:null:n[e]:null}},21:function(t,e,a){"use strict";a.d(e,"a",(function(){return i}));var n=a(76),o=a.n(n);function i(t){return o.a.sanitize(t,{SAFE_FOR_JQUERY:!0})}},23:function(t,e,a){"use strict";a.d(e,"a",(function(){return r})),a.d(e,"b",(function(){return s}));var n=a(6),o=a.n(n),i=a(9);function r(t){return new Promise((e,a)=>{o.a.get(`${i.a.user}/mailList/${t}`).then(t=>{e(t.data.mailList)}).catch(t=>{a(t)})})}function s(t){return console.log("mailInfo: %o",t),new Promise((e,a)=>{o.a.post(i.a.user+"/share",t).then(t=>{200===t.status?e("success"):e(t.data.message)}).catch(t=>{a(t)})})}},25:function(t,e,a){"use strict";a.d(e,"b",(function(){return m})),a.d(e,"a",(function(){return b}));var n=a(4),o=a(6),i=a.n(o);const r=a(87),s=a(88),l=a(89),c=a(90),p=a(91),d=a(92),u=a(16),h=a(93),f=a(95);function m(t){if("string"!=typeof t&&(t=""+t),t.startsWith("12"))return r.getUrl(t,!0);if(t.startsWith("15"))return s.getUrl(t,!0);if(t.startsWith("14"))return l.getUrl(t,!0);if(t.startsWith("11"))return p.getUrl(t,!0);if(t.startsWith("13"))return c.getUrl(t,!0);if(t.startsWith("10"))return d.getUrl(t,!0);if(t.startsWith("16"))return u.getUrl(t,!0);if(t.startsWith("17"))return h.getUrl(t,!0);if(t.startsWith("18"))return f.getUrl(t,!0);throw new Error(`getUrlByPageKey(${t}): invalid key`)}function b(t,e,a){return new Promise((o,r)=>{let s=Object(n.a)(e);!s||function(t,e){let a=e[t.bid];if(!t.saveDate)return t.saveDate=a,!0;return t.saveDate!==a&&(t.saveDate=a,!0)}(s,a)?i.a.get(t).then(t=>{t.data.saveDate=a[t.data.bid],Object(n.c)(e,t.data),o(t.data)}).catch(t=>{console.error(t),r(t)}):o(s)})}},4:function(t,e,a){"use strict";a.d(e,"c",(function(){return s})),a.d(e,"a",(function(){return l})),a.d(e,"b",(function(){return c}));var n=a(14),o=a.n(n);let i=new Map;function r(t){const e=i.get(t);if(!e)throw new Error("store: key not found: "+t);return e}function s(t,e){o.a.set(r(t),e)}function l(t,e){return o.a.get(r(t))||e}function c(t){let e=t.sid;for(const a in t.store)i.set(a,`${e}.${t.store[a]}`)}},40:function(t,e,a){"use strict";a.d(e,"c",(function(){return r})),a.d(e,"b",(function(){return l})),a.d(e,"a",(function(){return c}));var n=a(27),o=a(4);let i;function r(t){i=t,l(),function(){var t=$(".transcript p");if(0===t.length)return;t.each((function(t){$(this).hasClass("omit")?0:$(this).parents("div.footnotes").length>0||($(this).attr("id","p"+t).addClass("cmiTranPara").prepend(`<span class='pnum'>(p${t})&nbsp;</span>`))}))}(),function(){let t=0!==$(".toggle-paragraph-markers").length,e=Object(o.a)(i),a=$(".transcript.ui.text.container"),n=a.hasClass("hide-pnum")?"off":"on";if(!t)return void $(".transcript.ui.text.container").addClass("hide-pnum");e||(e=n,Object(o.c)(i,e));e!==n&&("on"===e?a.removeClass("hide-pnum"):a.addClass("hide-pnum"));s(e)}(),$(".toggle-paragraph-markers").on("click",(function(t){t.preventDefault();let e=$(".transcript.ui.text.container");e.hasClass("hide-pnum")?(e.removeClass("hide-pnum"),Object(o.c)(i,"on"),s("on")):(e.addClass("hide-pnum"),Object(o.c)(i,"off"),s("off"))}))}function s(t){"on"===t?$(".toggle-paragraph-markers > span .paragraph-corner-icon").addClass("hide"):$(".toggle-paragraph-markers > span .paragraph-corner-icon").removeClass("hide")}function l(){$(".main.menu").visibility({type:"fixed",onFixed:function(t){},onUnfixed:function(t){}}),$(".main.menu  .ui.dropdown").dropdown({on:"hover"}),$(".source-features > .menu .item").tab()}function c(t="[data-book]"){$("#page-contents").on("mouseover",t,(function(t){n.a.to($(this),.2,{className:"+=gsap-hover"}),n.a.to($(this),.2,{scale:"1.1"})})),$("#page-contents").on("mouseout",t,(function(t){n.a.to($(this),.2,{className:"-=gsap-hover"}),n.a.to($(this),.2,{scale:"1.0"})}))}},41:function(t,e,a){"use strict";a.d(e,"b",(function(){return u}));var n=a(18),o=a.n(n),i=a(10),r=a(12),s=a(2);const l=Object(s.a)("label:l3");function c(t){return t.timing?" __timing":t.timer?" __timer":""}function p(t,e){var a={counter:0},n="ui list";return e&&(n=`${n} ${e}`),`\n    <div class="${n}">\n      ${t.map(t=>`\n        <div class="item">\n          <a data-lid="${++a.counter}" class="item${c(t)}" href="${t.url}">${t.title}</a>\n          ${t.contents?function(t,e){return`\n    <div class="list">\n      ${t.map(t=>`<a data-lid="${++e.counter}" class="item${c(t)}" href="${t.url}">${t.title}</a>`).join("")}\n    </div>\n  `}(t.contents,a):""}\n        </div>\n      `).join("")}\n    </div>\n  `}function d(){let t=$("#contents-modal-open").attr("data-book").toLowerCase();Object(i.c)(t).then(t=>{$(".toc-image").attr("src",""+t.image),$(".toc-title").html(`${l}: <em>${t.title}</em>`),$(".toc-list").html(p(t.contents,t.toc||"")),function(t,e=1){let a=location.pathname,n=$(`.toc-list a[href='${a}']`);n.addClass("current-unit").removeAttr("href"),function(t,e){let a,n,o=e,i=-1,r=-1,s=t.attr("data-lid"),l=parseInt(s,10);1===l?$("#toc-previous-page").addClass("disabled"):($("#toc-previous-page").removeClass("disabled"),i=l-1);l===o?$("#toc-next-page").addClass("disabled"):($("#toc-next-page").removeClass("disabled"),r=l+1);i>-1&&(a=$(`a[data-lid="${i}"]`).attr("href"),n=$(`a[data-lid="${i}"]`).text(),$("#toc-previous-page > span").attr("data-tooltip",""+n),$("#toc-previous-page").attr("href",""+a));r>-1&&(a=$(`a[data-lid="${r}"]`).attr("href"),n=$(`a[data-lid="${r}"]`).text(),$("#toc-next-page > span").attr("data-tooltip",""+n),$("#toc-next-page").attr("href",""+a))}(n,e)}(t.bid,t.totalPages)}).catch(t=>{console.error(t),$(".toc-image").attr("src","/public/img/cmi/toc_modal.png"),$(".toc-title").html("${tocString}: <em>Error</em>"),$(".toc-list").html(`<p>Error: ${t.message}</p>`),$(".toc.ui.modal").modal("show")})}function u(){return $(".toc-modal-open").attr("data-book")}e.a={initialize:function(t){$(".toc.ui.modal").modal({dimmerSettings:{opacity:.5},observeChanges:!0,onVisible:function(){let t=$(".toc-list a.current-unit");o()(t.get(0),{isScrollable:function(t,e){return e(t)||t.className.includes("scrolling")}})}}),"transcript"===t&&d(),$(".toc-modal-open").on("click",e=>{e.preventDefault();let a=$(e.currentTarget).attr("data-book").toLowerCase();"transcript"!==t?Object(i.c)(a).then(t=>{let e=`${location.origin}${location.pathname}?tocbook=${a}`;$(".toc-image").attr("src",""+t.image),$(".toc-title").html(`<i data-clipboard-text="${e}" title="Copy to Clipboard" class="tiny share alternate icon toc-share"></i>&nbsp;${l}: <em>${t.title}</em>`),$(".toc-list").html(p(t.contents,t.toc||"")),$(".toc.ui.modal").modal("show"),r.a.register(".share.icon.toc-share")}).catch(t=>{$(".toc-image").attr("src","/public/img/cmi/toc_modal.png"),$(".toc-title").html("${tocString}: <em>Error</em>"),$(".toc-list").html(`<p>${Object(s.a)("error:e6")} ${a}.json`),$(".toc.ui.modal").modal("show")}):$(".toc.ui.modal").modal("show")})}}},499:function(t,e,a){t.exports=a(501)},5:function(t,e,a){"use strict";a.d(e,"b",(function(){return d}));var n=a(15),o=a.n(n),i=a(74),r=a.n(i),s=a(14),l=a.n(s),c=(a(11),a(0));let p;function d(t){return p?{email:p.email,userId:r()(p.email),name:p.user_metadata.full_name,roles:p.app_metadata.roles,avatar_url:p.user_metadata.avatar_url}:null}function u(t){let e=l.a.get("cmi.login.state")||"init";switch(t){case"init":case"dialog":l.a.set("cmi.login.state",t);break;case"login":"dialog"===e&&p.app_metadata.roles&&p.app_metadata.roles.find(t=>"acol"===t)&&location.pathname.startsWith("/t/acol/")&&"/t/acol/"!==location.pathname&&(location.href="/t/acol/"),l.a.set("cmi.login.state",t)}}e.a={initialize:function(){o.a.on("init",t=>{u("init")}),o.a.on("login",t=>{p=t,function(){let t=d();Object(c.b)("action:signout",!0,"Sign Out").then(e=>{$(".login-menu-option-guest").addClass("hide"),$(".login-menu-option-account").removeClass("hide"),$(".account-signout-option").text(`${e}: ${t.name}`)}),$(".main.menu a > span > i.bookmark.icon").addClass("green").removeClass("red"),$(".main.menu .ui.text.container").addClass("signed-in"),$(".hide.profile-management.item").removeClass("hide"),$(".requires-signin").removeClass("hide")}(),u("login")}),o.a.on("logout",()=>{Object(c.b)("action:signin",!0).then(t=>{$(".login-menu-option-guest").removeClass("hide"),$(".login-menu-option-account").addClass("hide")}),$(".main.menu a > span > i.bookmark.icon").addClass("red").removeClass("green"),$(".main.menu .ui.text.container").removeClass("signed-in"),$(".profile-management.item").addClass("hide"),$(".requires-signin").addClass("hide"),p=null,location.href="/"}),o.a.on("error",t=>{console.error("user.on('error'): ",t)}),$(".login-menu-option-account > .menu > .account-signout-option").on("click",t=>{t.preventDefault(),o.a.logout()}),$(".login-menu-option-guest").on("click",t=>{t.preventDefault(),u("dialog"),o.a.open()}),o.a.init({})}}},501:function(t,e,a){"use strict";a.r(e);var n=a(4),o=a(5),i=a(40),r=a(53),s=a(11),l=a(0),c=a(52),p=a(6),d=a.n(p),u=a(9);function h(t,e){let a=`${u.a.user}/quoteKeys/${t}/${e}`;return new Promise((t,e)=>{d.a.get(a).then(e=>{t(e.data.keys)}).catch(t=>{console.error(t),e(t)})})}class f{constructor(){this.quotes=[],this.ptr=-1}getRandomQuote(){return-1===this.ptr?Promise.resolve({citation:"It should be okay now",quote:"Waiting for Quotes to download. Please click the 'Display Another Quote' button to continue.",url:""}):this.quotes[this.ptr].getRandomQuote()}getInternalQuoteArray(){return this.quotes}addQuotes(t){let e=this.quotes.push(t);this.ptr=e-1}use(t){let e=this.quotes.findIndex(e=>e.user===t);if(!(e>-1))throw new Error(`User: ${t} not found.`);this.ptr=e}}class m{constructor(t,e,a){this.quoteIds=[],this.usedIds=[],this.quotes={},this.userName=t,this.userId=e,this.sourceId=a}set qIds(t){this.quoteIds=t}get user(){return this.userId}get userInfo(){return{userName:this.userName,userId:this.userId}}_resetUsed(){this.quoteIds=this.usedIds,this.usedIds=[]}markAsUsed(t){this.usedIds.push(this.quoteIds[t]),this.quoteIds.splice(t,1)}getRandomQuote(){return new Promise((t,e)=>{if(0===this.quoteIds.length){if(0===this.usedIds.length)return void t({});this._resetUsed()}let a=(n=this.quoteIds.length,Math.floor(Math.random()*Math.floor(n)));var n;let o=this.quoteIds[a];if(this.quotes[o])return this.markAsUsed(a),void t(this.quotes[o]);(function(t,e){let[a,n]=e.split(":"),o=`${u.a.user}/quote/${t}/${a}/${n}`;return new Promise((t,e)=>{d.a.get(o).then(e=>{t(e.data.quote)}).catch(t=>{notify.error("Network error: failed to get quote"),e(t)})})})(this.userId,o).then(e=>{this.quotes[o]=e,this.markAsUsed(a),t(e)})})}}var b=a(23);var g=a(21);let k,v={};function y(t){k=t.sid,async function(){const t=Object(o.b)();if(!t)return;t.userId;try{let e=await Object(b.a)(t.userId),a=await function(t){return new Promise((e,a)=>{let n=Object(l.b)("label:listnames",!0),o=Object(l.b)("label:selectaddress",!0);Promise.all([n,o]).then(a=>{e(`\n        <label>${a[0]}</label>\n        <select name="mailList" id="maillist-modal-address-list" multiple="" class="search ui dropdown">\n          <option value="">${a[1]}</option>\n          ${t.map(t=>""+function(t){return`<option value="${t.address}:${t.first}:${t.last}">${t.first} ${t.last}</option>`}(t)).join("")}\n        </select>\n      `)})})}(e);$("#maillist-modal-select").html(a),$("#maillist-modal-address-list.dropdown").dropdown()}catch(t){notify.error(`${Object(l.b)("error:e10")}: ${t}`)}}()}function w(){$("#quote-modal-share > i").removeClass("paper plane"),$("#quote-modal-share > i").addClass("thumbs down"),$("#quote-modal-share").removeClass("loading blue").addClass("red"),setTimeout(()=>{$("#quote-modal-share > i").removeClass("thumbs down"),$("#quote-modal-share > i").addClass("paper plane")},2e3)}function x(t){const e=Object(o.b)();let a=$("#email-modal-share-form").form("get values");if(0===a.mailList.length&&0===a.emailAddresses.length)return function(t,e,a=0){$(t).removeClass("positive").addClass("warning").text(e),a>0&&setTimeout(()=>{$(t).addClass("hidden").removeClass("warning")},1e3*a)}("#share-modal .message",Object(l.b)("error:e9")),!1;if(v.to="",a.mailList.length>0){let t=function(t){let e=[],a={};return t.forEach(t=>{let[n,o,i]=t.split(":");e.push(n),a[n]={first:""===o?"No First Name":o,last:""===i?"No Last Name":i}}),{to:e.join(","),variables:JSON.stringify(a)}}(a.mailList);v.to=t.to,v.variables=t.variables}return a.emailAddresses.length>0&&(v.to.length>0?v.to=`${v.to}, ${a.emailAddresses}`:v.to=a.emailAddresses),v.senderName=e.name,v.senderEmail=e.email,v.sid=k,v.citation="~ "+t.citation,v.quote=t.quote,v.url=`${location.origin}${t.url}`,a.emailMessage&&(v.message=function(t){let e=(t=(t=t.replace(/\n/g,"@@")).replace(/@@*/g,"@@")).split("@@");return t=e.reduce((t,e)=>`${t}<p>${Object(g.a)(e)}</p>`,"")}(a.emailMessage)),$("#quote-modal-share").addClass("loading blue").removeClass("red"),Object(b.b)(v).then(t=>{"success"===t?($("#quote-modal-share > i").removeClass("paper plane"),$("#quote-modal-share > i").addClass("thumbs up"),$("#quote-modal-share").removeClass("loading"),setTimeout(()=>{$("#quote-modal-share > i").removeClass("thumbs up"),$("#quote-modal-share > i").addClass("paper plane")},2e3)):(w(),console.log("post message; %s",t))}).catch(t=>{w(),console.error("share error: %s",t)}),!0}const I=["silver-diagonal","wax-diagonal","violet-diagonal","double-bubble","diamond","full-bloom","leaves","terrazzo","pow-star","repeated-square","triangle-mosaic"];function j(){return I[(t=I.length,Math.floor(Math.random()*Math.floor(t)))];var t}let z;function C(){$("#quote-modal-more").addClass("loading")}function O(t){z=t;let e=t.quote;t.quote||(t.citation="Make Your Own Quotes",t.url="/acq/quotes",e="No quotes have been defined yet. Did you know you can define your own? See documentation at the link below."),e.includes("<p>")||(e=`<p>${e}</p>`);let a=`\n    <blockquote>\n      ${e}\n      <footer>\n        <a href="${t.url}" title="${Object(l.b)("quote:g2s")}" target="_blank">\n          ~ ${t.citation}\n        </a>\n      </footer>\n    </blockquote>\n    `;$("#quote-modal-content").html(a).attr("class","content "+j()),$("#quote-modal-more").removeClass("loading")}function q(t,e,a){let n=h(e.quoteManagerId,e.sourceId);if(a&&a.userId!==e.quoteManagerId){let o=h(a.userId,e.sourceId);Promise.all([n,o]).then(n=>{let o=new m(e.quoteManagerName,e.quoteManagerId,e.sourceId);if(o.qIds=n[0],t.addQuotes(o),n[1].length>0){let o=new m("My Quotes",a.userId,e.sourceId);o.qIds=n[1],t.addQuotes(o),t.use(e.quoteManagerId),function(t){let e=`\n    <label>Quote Sources</label>\n    <select name="quote-source-list" id="user-quote-source-select" class="search ui dropdown">\n      ${t.getInternalQuoteArray().map(t=>""+function(t){let e=t.userInfo;return`\n      <option value="${e.userId}">${e.userName}</option>\n  `}(t)).join("")}\n    </select>\n  `;$("#user-quote-select").html(e),$("#user-quote-source-select").on("change",(function(e){t.use($(this).val())}))}(t)}})}else n.then(a=>{let n=new m(e.quoteManagerName,e.quoteManagerId,e.sourceId);n.qIds=a,t.addQuotes(n)});return t}var S=a(56),T=a(57),D=a(41),L=a(58),K=a(55),P=a(7),E=a(54);$(document).ready(()=>{Object(n.b)(P.a),Object(i.b)(),Object(l.c)(P.a),Object(E.a)(),Object(S.a)("page"),T.a.initialize(),o.a.initialize(),D.a.initialize("page"),Object(r.a)(K.a),L.a.initialize(),c.a.initialize(),function(t,e){let a=new f,n=Object(o.b)();$("#quote-modal").modal({allowMultiple:!0,dimmerSettings:{opacity:.3},blurring:!0,autofocus:!1,centered:!0,duration:400,closable:!1,observeChanges:!0,transition:"fade up",onApprove:function(){return!1},onDeny:function(){return!0}}),location.origin.includes("christmind")&&$("#quote-modal-facebook").removeClass("hidden"),n&&(y(e),$("#share-modal").modal({allowMultiple:!0,dimmerSettings:{opacity:.3},blurring:!0,centered:!0,duration:400,closable:!1,transition:"fade up",onApprove:function(){return console.log("send email"),x(z)},onDeny:function(){return console.log("cancel send email"),!0}}),$("#share-modal").modal("attach events","#quote-modal-share"),$("#quote-modal-share").removeClass("hidden")),a=q(a,e,n),$("#quote-modal-more").on("click",(function(t){C(),a.getRandomQuote().then(t=>{O(t)})})),$("#quote-modal-facebook").on("click",(function(t){let e=z,a={method:"share",hashtag:"#christmind",quote:`${e.quote}\n${e.citation}`,href:`${location.origin.includes("localhost")?"https://www.christmind.info":location.origin}${e.url}`};FB.ui(a,(function(){}))})),$(t).on("click",(function(t){a.getRandomQuote().then(t=>{O(t)}),$("#quote-modal").modal("show"),C()}))}("#show-quote-button",P.a),Object(i.a)(),Object(s.g)()})},52:function(t,e,a){"use strict";e.a={initialize:()=>{$.ajax({url:"//connect.facebook.net/en_US/sdk.js",dataType:"script",cache:!0,success:function(){FB.init({appId:"448658485318107",xfbml:!0,version:"v3.1"})}})}}},53:function(t,e,a){"use strict";a.d(e,"a",(function(){return s}));var n=a(6),o=a.n(n);let i;function r(t){const e=i[t];i.__current__!==t&&(e.title&&$(".notes.modal .notes-title").text(e.title),e.image&&$(".notes.modal .notes-image").attr("src",e.image),e.content&&$(".notes.modal .notes-content").html(e.content)),i.__current__=t,$(".notes.ui.modal").modal("show")}function s(t={}){i=t,i.__current__="__nonote",$(".notes.ui.modal").modal({dimmerSettings:{opacity:.5},observeChanges:!0}),$(".notes-modal-open").on("click",t=>{t.preventDefault();let e=$(t.currentTarget).attr("data-note");i[e]?i[e].contents?r(e):o()({method:"get",url:i[e].url,responseType:"text"}).then(t=>{i[e].content=t.data,r(e)}).catch(t=>{console.error("Error fetching note: %s",e,t)}):console.log("Note %s not found in notes configuration",e)})}},54:function(t,e,a){"use strict";a.d(e,"a",(function(){return i}));var n=a(7),o=a(10);function i(){return Object(o.g)(n.a),n.a.env}},55:function(t,e,a){"use strict";a.d(e,"a",(function(){return o}));var n=a(7);const o={studyguide:{url:""+("standalone"===n.a.env?"/notes/advice/":n.a.url_prefix+"/notes/advice/"),title:"Sugestie do praktyki"},path:{url:""+("standalone"===n.a.env?"/notes/path/":n.a.url_prefix+"/notes/path/"),title:"Ścieżka Drogi Mistrzostwa"}}},56:function(t,e,a){"use strict";a.d(e,"a",(function(){return xe}));var n=a(6),o=a.n(n),i=a(9),r=a(22),s=a.n(r);function l(t){"string"!=typeof t&&(t=t.toString(10));let e=t.indexOf(".");if(-1===e)return t+".001";let a=t.substr(0,e),n=t.substr(e+1);return`${a}.${n}${2===n.length?"0":1===n.length?"00":""}`}function c(t,e,a=""){return new Promise((n,r)=>{o.a.get(`${i.a.user}/queryAnnotation/${t}/${e}`).then(t=>{let e=t.data.response;e.forEach(t=>{t.pid=parseInt(t.annotation.rangeStart.substring(1),10),t.annotation.userId=t.userId,t.annotation.creationDate=t.creationDate,t.annotation.selectedText&&(t.annotation.selectedText=JSON.parse(t.annotation.selectedText))}),a.length>0&&(e=e.filter(t=>{if(t.annotation.topicList){return t.annotation.topicList.findIndex(t=>t.value===a)>-1}return!1})),e.sort((t,e)=>t.paraKey-e.paraKey),n(e)}).catch(t=>{r(t)})})}function p(t,e,a,n){"string"!=typeof a&&(a=a.toString(10)),"string"!=typeof e&&(e=e.toString(10));let r={userId:t,paraKey:e,creationDate:a,annotation:n};return new Promise((t,e)=>{o.a.post(i.a.user+"/annotation",r).then(e=>{t(e.data.response)}).catch(t=>{e(t)})})}var d=a(5),u=a(4),h=a(33),f=a.n(h),m=a(0);let b=!1;function g(){if(!b)return $("#bookmark-filter-wrapper").removeClass("hide"),$("#page-topics-modal").modal({dimmerSettings:{opacity:.5},autofocus:!1,centered:!0,duration:400,inverted:!0,observeChanges:!0,transition:"horizontal flip",onShow:function(){!function(){if(!Yt.topicRefreshNeeded)return;let t=function(){let t=Yt.getTopics(),e=Array.from(t.keys()).map(e=>t.get(e));return e.sort((t,e)=>t.value<e.value?-1:t.value>e.value?1:0),function(t){return`\n    <select name="pageTopicList" id="page-topics-topic-list" class="search ui dropdown">\n      <option value="">Choose a topic</option>\n      ${t.map(t=>""+function(t){return`<option value="${t.value}">${t.topic}</option>`}(t)).join("")}\n    </select>\n  `}(e)}();$("#page-topics-modal-topic-select").html(t),$("#page-topics-topic-list").dropdown(),$("#page-topics-modal-loading").removeClass("active").addClass("disabled"),Yt.topicRefreshNeeded=!1}()},onVisible:function(){},onHidden:function(){}}),$("#page-topics-modal-open").on("click",t=>{t.preventDefault(),$("#page-topics-modal").modal("show")}),$("#page-topics-filter-submit").on("click",(function(t){t.preventDefault();let e=$("#page-topics-filter-form").form("get value","pageTopicList");!function(t){if($(".transcript").hasClass("topic-filter-active")){let e=$("#current-topic-filter").attr("data-filter");if(e===t.value)return;$("mark.bookmark-selected-text."+e).removeClass("show")}else $(".transcript").addClass("topic-filter-active");$("mark.bookmark-selected-text."+t.value).addClass("show"),$("#current-topic-filter").html(`Topic Filter: <span class="red">${t.topic}</span>`),$("#current-topic-filter").attr("data-filter",t.value),$("#bookmark-dropdown-menu > span i.bookmark-icon").eq(0).removeClass("green").addClass("yellow"),$("#page-topics-modal").modal("hide")}({value:e,topic:$(`#page-topics-topic-list > [value='${e}']`).text()})})),$(".page-topics-filter-reset").on("click",(function(t){if(t.preventDefault(),$(".transcript").hasClass("topic-filter-active")){let t=$("#current-topic-filter").attr("data-filter");$("mark.bookmark-selected-text."+t).removeClass("show")}$(".transcript").removeClass("topic-filter-active"),$("#page-topics-topic-list").dropdown("clear"),$("#current-topic-filter").html(Object(m.b)("label:topicfilter")+": None"),$("#current-topic-filter").attr("data-filter",""),$("#bookmark-dropdown-menu > span  i.bookmark-icon").eq(0).removeClass("yellow").addClass("green")})),void(b=!0);$("#bookmark-filter-wrapper").removeClass("hide")}class k{constructor(t,e){this.list=t,this.topics=new Map,this.topicsModified=!1,this.sharePid=e,this._initTopics()}_incrementTopic(t,e=!1){let a=this.topics.size,n=t.value;if(this.topics.has(n)){let t=this.topics.get(n);t.count+=1,this.topics.set(n,t)}else t.count=1,this.topics.set(n,t),this.topicsModified=!0;0!==a||e||g()}_decrementTopic(t){let e=t.value;if(!this.topics.has(e))return;let a=this.topics.get(e);1===a.count?(this.topics.delete(e),this.topicsModified=!0):(a.count-=1,this.topics.set(e,a)),0===this.topics.size&&$("#bookmark-filter-wrapper").addClass("hide")}_initTopics(){this.list.forEach(t=>{ie("loaded",t,this.sharePid),t.annotation.selectedText&&t.annotation.topicList&&t.annotation.topicList.length>0&&t.annotation.topicList.forEach(t=>{this._incrementTopic(t,!0)})}),this.topicsModified=!0}_invalidateBmList(){let t=Object(u.a)("bmList");t&&(t.lastBuildDate=0,Object(u.c)("bmList",t))}getTopics(){return this.topics}get topicRefreshNeeded(){return this.topicsModified}set topicRefreshNeeded(t){this.topicsModified=t}getCreationDate(t){let e=this.list.find(e=>!(!e.annotation.aid||e.annotation.aid!==t));return e?e.creationDate:e}getItem(t,e){let a=parseInt(t.substr(1),10);return this.list.filter(t=>t.pid===a).find(t=>e?t.annotation.aid?t.annotation.aid===e:t.annotation.creationDate==e:void 0===t.annotation.aid)}addItem(t,e,a,n){let o=n.rangeStart,i=parseInt(o.substr(1),10);if("number"==typeof e&&(e=function(t){let e=""+t,a=e.indexOf(".");if(a>-1){switch(e.substring(a+1).length){case 1:e+="00";break;case 2:e+="0"}}return e}(e)),"new"===n.status){n.creationDate=a;let o={userId:t,paraKey:""+e,creationDate:""+a,pid:i,annotation:n};this.list.push(o),o.annotation.selectedText&&o.annotation.topicList&&o.annotation.topicList.forEach(t=>{this._incrementTopic(t)}),this._invalidateBmList(),ie("created",o,this.list.filter(t=>t.pid===i).length-1)}else{let t=""+e,o=""+a,i=this.list.findIndex(e=>e.paraKey===t&&e.creationDate===o);if(-1===i)throw new Error("localStore: addItem:update: bookmark to update not found in list");if(n.selectedText){let t=[],e=[];if(n.topicList){let e=n.topicList.reduce((t,e)=>`${t} ${e.value}`,"");e=e.trim(),t=e.split(" ")}if(this.list[i].annotation.topicList){let t=this.list[i].annotation.topicList.reduce((t,e)=>`${t} ${e.value}`,"");t=t.trim(),e=t.split(" ")}let a=f()(t,e),o=f()(e,t);a.forEach(t=>{let e=n.topicList.find(e=>e.value===t);this._incrementTopic(e)}),o.forEach(t=>{let e=this.list[i].annotation.topicList.find(e=>e.value===t);this._decrementTopic(e)})}this.list[i].annotation=n,ie("updated",this.list[i])}}deleteItem(t,e,a){"string"!=typeof e&&(e=""+e),"string"!=typeof a&&(a=""+a);let n=this.list.findIndex(n=>n.userId===t&&n.paraKey===e&&n.creationDate===a),o=!1;if(n>-1){let t=this.list[n],e=t.pid;this.list[n].annotation.topicList&&this.list[n].annotation.topicList.forEach(t=>{o=this._decrementTopic(t)||o}),this.list.splice(n,1),this._invalidateBmList();let a=this.list.filter(t=>t.pid===e);return ie("deleted",t,a.length),{remainingCount:a.length,modified:o}}return{remainingCount:null,modified:o}}itemCount(t,e){if(!e)return 0;let a=parseInt(t.substr(1),10);return this.list.filter(t=>t.pid===a).reduce((t,a)=>(a.annotation.aid&&a.annotation.aid!==e&&(t+=1),t),0)}}var v=a(21),y=a(3),w=a.n(y),x={};var I={fetchTopics:function(){const t=Object(d.b)();let e=Object(u.a)("bmTopics");return new Promise((a,n)=>{if(e&&e.lastFetchDate+72e5>Date.now())return void a(e);let r=x.sourceId.toString(10);(function(t,e){return new Promise((a,n)=>{o.a.get(`${i.a.user}/topicList/${t}/${e}`).then(t=>{let e=t.data.topics;a(e)}).catch(t=>{n(t)})})})(t.userId,r).then(t=>{let e={lastFetchDate:Date.now(),topics:t};Object(u.c)("bmTopics",e),a(e)}).catch(t=>{console.error("Error fetching topicList: ",t),n(t)})})},deleteAnnotation:function(t,e){const a=Object(d.b)();return new Promise(async(n,r)=>{const s=x.keyInfo.genParagraphKey(t);try{await function(t,e,a){return"string"!=typeof a&&a.toString(10),new Promise((n,r)=>{o.a.delete(`${i.a.user}/annotation/${t}/${l(e)}/${a}`).then(t=>{n(t.data.response)}).catch(t=>{r(t)})})}(a.userId,s,e);n(Yt.deleteItem(a.userId,s,e).remaining)}catch(t){r(t)}})},postAnnotation:function(t,e,a=!0){const n=Object(d.b)();let o,i=Date.now(),r=s()(t);r.modified&&delete r.modified,r.selectedText&&(o=r.selectedText.wrap,delete r.selectedText.wrap,"string"!=typeof r.selectedText&&(r.selectedText.aid||(r.selectedText.aid=i.toString(10)),r.selectedText=JSON.stringify(r.selectedText)));let l=r.creationDate?r.creationDate:i;return e||(e=x.keyInfo.genParagraphKey(r.rangeStart)),p(n.userId,e,l,r).then(t=>{if(a){r.selectedText&&(r.selectedText=JSON.parse(r.selectedText),o&&(r.selectedText.wrap=o));try{Yt.addItem(n.userId,e,l,r)}catch(t){console.error("Error saving annotation to localStore: "+t)}}}).catch(t=>{console.error("Error saving annotation: "+t),w.a.error(Object(m.b)("error:e1"))}),l}},j=a(77),z=a.n(j),C=a(78),O=a.n(C),q=a(11),S=a(79),T=a.n(S),D=a(26),L=a.n(D),K=a(17),P=a.n(K),E=a(13),N=a.n(E),B=a(23);let M={},U={};function _(t){M=t,$("form[name='emailshare']").on("submit",(async function(t){t.preventDefault();const e=Object(d.b)();if(!e)return w.a.warning(Object(m.b)("annotate:m14")),void $(".email-share-dialog-wrapper").addClass("hide");let a=$("#email-share-form").form("get values");if(0!==a.mailList.length||0!==a.emailAddresses.length){if(U.to="",a.mailList.length>0){let t=function(t){let e=[],a={};return t.forEach(t=>{let[n,o,i]=t.split(":");e.push(n),a[n]={first:""===o?"No First Name":o,last:""===i?"No Last Name":i}}),{to:e.join(","),variables:JSON.stringify(a)}}(a.mailList);U.to=t.to,U.variables=t.variables}a.emailAddresses.length>0&&(U.to.length>0?U.to=`${U.to}, ${a.emailAddresses}`:U.to=a.emailAddresses),U.senderName=e.name,U.senderEmail=e.email,U.sid=M.sid,a.emailMessage&&(U.message=function(t){let e=(t=(t=t.replace(/\n/g,"@@")).replace(/@@*/g,"@@")).split("@@");return t=e.reduce((t,e)=>`${t}<p>${Object(v.a)(e)}</p>`,"")}(a.emailMessage)),$(".email-share-dialog-wrapper").addClass("hide");try{"success"===await Object(B.b)(U)?w.a.info(Object(m.b)("action:emailsent")):w.a.info(response.data.message)}catch(t){w.a.error(t)}}else w.a.info(Object(m.b)("error:e9"))})),$("form[name='emailshare'] .email-share-cancel").on("click",(function(t){t.preventDefault(),$(".email-share-dialog-wrapper").addClass("hide")}))}function A(t){return new Promise((e,a)=>{let n=Object(m.b)("label:listnames",!0),o=Object(m.b)("label:selectaddress",!0);Promise.all([n,o]).then(a=>{e(`\n        <label>${a[0]}</label>\n        <select name="mailList" id="maillist-address-list" multiple="" class="search ui dropdown">\n          <option value="">${a[1]}</option>\n          ${t.map(t=>""+function(t){return`<option value="${t.address}:${t.first}:${t.last}">${t.first} ${t.last}</option>`}(t)).join("")}\n        </select>\n      `)})})}let R=!1;var W=a(12);let Q,J={},H=!1;function F(t){return t&&0!==t.length?`\n    <div class="ui horizontal bulleted list">\n      ${t.map(t=>`\n        <div class="item">\n          <em>${"object"==typeof t?t.topic:t}</em>\n        </div>\n      `).join("")}\n    </div>\n  `:Object(m.b)("annotate:m13")}function Z(t,e,a,n){return`\n    <div class="ui list">\n      <div class="item">\n        <i class="bookmark icon"></i>\n        <div class="content">\n          <div class="header">\n            ${n}: ${t}\n          </div>\n          <div class="list">\n            ${e.map(t=>`\n              ${function(t,e=[]){let a;t.topicList||(t.topicList=[]);let n=t.topicList.map(t=>t.value);return e.length>0&&(a=T()(n,e)),0===e.length||a.length>0?`\n      <div class="item"> \x3c!-- item: ${t.rangeStart}/${t.rangeEnd} --\x3e\n        <i class="right triangle icon"></i>\n        <div class="content">\n          <div class="header">\n            ${F(t.topicList)}\n          </div>\n          <div class="description">\n            <button class="annotation-item ui icon basic button" data-range="${t.rangeStart}/${t.rangeEnd}" data-aid="${t.aid}" data-creationDate="${t.creationDate}" >\n              <i class="share square icon"></i>\n              ${t.Comment?t.Comment:Object(m.b)("annotate:m7")}\n            </button>\n            \x3c!--\n            <a title="Click to share" data-aid="${t.aid}" data-creationDate="${t.creationDate}" class="annotation-item" data-range="${t.rangeStart}/${t.rangeEnd}">\n              ${t.Comment?t.Comment:Object(m.b)("annotate:m7")}\n            </a>\n            --\x3e\n          </div>\n        </div>\n      </div> \x3c!-- item: ${t.rangeStart}/${t.rangeEnd} --\x3e\n    `:`\x3c!-- annotation filtered: ${e.join(" ")} --\x3e`}(t,a)}\n            `).join("")}\n          </div>\n        </div>\n      </div>\n    </div>\n `}function V(t,e,a,n){let o,i=t[e][a];return o=i[0].selectedText?n.length>0?`${i[0].selectedText.url}?tnav=${i[0].rangeStart}&topic=${n}`:`${i[0].selectedText.url}?bkmk=${i[0].rangeStart}`:n.length>0?`${"integration"===J.env?J.url_prefix:""}${J.keyInfo.getUrl(e)}?tnav=${i[0].rangeStart}&topic=${n}`:`${"integration"===J.env?J.url_prefix:""}${J.keyInfo.getUrl(e)}?bkmk=${i[0].rangeStart}`,o}function Y(t,e,a,n){let o=Object.keys(e),i=o.indexOf("lastFetchDate");if(i>-1&&o.splice(i,1),i=o.indexOf(t),-1===i)return Promise.reject("bookmark not found");let r=function(t,e,a,n,o){if(t>e.length)return Promise.resolve(null);let i,r,s=!1;t:for(i=t;i<e.length;i++){let t=n[e[i]];for(r in t)for(let e=0;e<t[r].length;e++){if(!a||0===a.length){s=!0;break t}if(L()(a,t[r][e].topicList||[],(t,e)=>t===e.value).length>0){s=!0;break t}}}return new Promise(t=>{if(s){let a=e[i],s=V(n,a,r,o);if(s)return void t(s);t(null)}else t(null)})}(i+1,o,a?a.modal.topics:a,e,n),s=function(t,e,a,n,o){if(t<0)return Promise.resolve(null);let i,r,s=!1;t:for(i=t;i>=0;i--){let t=n[e[i]];for(r in t)for(let e=0;e<t[r].length;e++){if(!a||0===a.length){s=!0;break t}if(L()(a,t[r][e].topicList||[],(t,e)=>t===e.value).length>0){s=!0;break t}}}return new Promise(t=>{if(s){let a=e[i];t(V(n,a,r,o))}else t(null)})}(i-1,o,a?a.modal.topics:a,e,n);return Promise.all([s,r])}function G(t,e,a,n,o){let i,r,s=[];n&&n.modal.filter&&(s=n.modal.topics,r=F(n.modal.fullTopic)),i=(parseInt(e.substr(1),10)+1).toString(10);let l=a[t][i];if(!l)return!1;Object(m.b)("label:para",!0).then(t=>{let a=Z(e,l,s,t);$("#bookmark-content").html(a)}),r?($("#filter-topics-section").removeClass("hide"),$(".bookmark-navigator-filter").html(r)):$("#filter-topics-section").addClass("hide"),$(".bookmark-navigator-header-book").text($("#book-title").text());let c,p,d=Object.keys(a[t]),u=d.indexOf(i);if(c=function(t,e,a,n){if(t<1)return null;if(0===n.length)return"p"+(parseInt(e[t-1],10)-1).toString(10);for(let o=t-1;o>=0;o--){let t=a[e[o]];for(let a=0;a<t.length;a++)if(t[a].topicList&&t[a].topicList.length>0){if(L()(t[a].topicList,n,(t,e)=>t.value===e).length>0)return"p"+(parseInt(e[o],10)-1).toString(10)}}return null}(u,d,a[t],s),p=function(t,e,a,n){if(t+1===e.length)return null;if(0===n.length)return"p"+(parseInt(e[t+1],10)-1).toString(10);for(let o=t+1;o<e.length;o++){let t=a[e[o]];for(let a=0;a<t.length;a++)if(t[a].topicList&&t[a].topicList.length>0){if(L()(t[a].topicList,n,(t,e)=>t.value===e).length>0)return"p"+(parseInt(e[o],10)-1).toString(10)}}return null}(u,d,a[t],s),$(".bookmark-navigator .current-bookmark").attr("data-pid",""+e),Object(m.b)("action:prev",!0).then(t=>{c?($(".bookmark-navigator .previous-bookmark").attr("data-pid",c),$(".bookmark-navigator .previous-bookmark").removeClass("inactive"),$(".bookmark-navigator .previous-bookmark").html(`<i class="up arrow icon"></i> ${t} (${c})`)):($(".bookmark-navigator .previous-bookmark").addClass("inactive"),$(".bookmark-navigator .previous-bookmark").html("<i class='up arrow icon'></i>"+t))}),Object(m.b)("action:next",!0).then(t=>{p?($(".bookmark-navigator .next-bookmark").attr("data-pid",p),$(".bookmark-navigator .next-bookmark").removeClass("inactive"),$(".bookmark-navigator .next-bookmark").html(`<i class="down arrow icon"></i> ${t} (${p})`)):($(".bookmark-navigator .next-bookmark").addClass("inactive"),$(".bookmark-navigator .next-bookmark").html("<i class='down arrow icon'></i> "+t))}),"topic"===o){let{rangeStart:t,rangeEnd:e,creationDate:a}=l[0];!function(t,e,a,n){let o=parseInt(e.substr(1),10),i=parseInt(a.substr(1),10);$(".topic-navigator").unwrap(),$(".topic-navigator").removeClass("topic-navigator");for(let t=o;t<=i;t++){let e=$("#p"+t);e.parent().is("blockquote")?e.parent().addClass("topic-navigator"):e.addClass("topic-navigator")}$(".topic-navigator").wrapAll("<div class='navigator-highlight' />")}(0,t,e)}return!0}function X(t,e,a){let n,o;"bookmark"===a?(n=Object(u.a)("bmList"),o=Object(u.a)("bmModal")):(n=Object(u.a)("topicList"),o=null),G(Q,t,n,o,a)}function tt(){let t=$(".selected-annotation");if(t.length>0){$(".selected-annotation-wrapper > .header").remove(),t.unwrap().removeClass("selected-annotation"),$(".bookmark-selected-text.show").removeClass("show");let e=$("div.transcript.ui.disable-selection:not(.user)");e.length>0&&e.removeClass("disable-selection")}}function et(t,e){N()(document.getElementById(t),{align:{top:.2}},t=>{})}function at(t){H||($(".transcript").on("click",".selected-annotation-wrapper .share-annotation",(function(t){t.preventDefault();let e,a,n,o=$(".selected-annotation-wrapper mark.show");if($(this).hasClass("close"))return void tt();if(e=Object(d.b)(),!e)return void w.a.info(Object(m.b)("annotate:m14"));let i,r=$(".selected-annotation-wrapper i[data-clipboard-text]").attr("data-clipboard-text"),s=r.indexOf("undefined");if($(this).hasClass("facebook"))i="facebook";else if($(this).hasClass("envelope"))i="email";else if($(this).hasClass("linkify"))return s>-1?void w.a.error(Object(m.b)("error:e5")):void(i="clipboard");a=$(".selected-annotation-wrapper p").attr("id"),0===o.length?(n=$(".selected-annotation-wrapper > p").text(),n=function(t,e){let a="email"===t?"@@":"\n\n",n=(e=(e=(e=e.replace(/[^\x20-\x7E]/g," ")).replace(/ {2,}/g," ")).replace(/\(p\d*\)/g,t=>`${a}${t}`)).split(a);return 0===n[0].length&&n.shift(),e="email"===t?n.reduce((t,e)=>`${t}\n<p>${e}</p>`,""):n.join("\n")}(i,n)):n=o.text().replace(/\n/," ");let l=`~ ${$("#src-title").text()}: ${$("#book-title").text()}`;if("facebook"===i){if(s>-1)return void w.a.error(Object(m.b)("error:e5"));let t={method:"share",hashtag:"#christmind",quote:`${n}\n${l}`,href:r};FB.ui(t,(function(){}))}else if("email"===i){if(s>-1)return void w.a.error(Object(m.b)("error:e5"));!async function(t,e,a){const n=Object(d.b)();if(U={citation:e,quote:t,url:a},$(".hide.email-share-dialog-wrapper").removeClass("hide"),!R)try{$(".email-share-loader").addClass("active");let t=await Object(B.a)(n.userId),e=await A(t);$("#maillist-select").html(e),$("#maillist-address-list.dropdown").dropdown(),R=!0,$(".email-share-loader").removeClass("active")}catch(t){w.a.error(`${Object(m.b)("error:e10")}: ${t}`)}}(n,l,r)}})),H=!0)}function nt(t,e){$(".bookmark-navigator .previous-bookmark").on("click",(function(e){e.preventDefault(),tt();let a=$(this).attr("data-pid");N()(document.getElementById(a),{align:{top:.2}},t=>{}),X(a,0,t)})),$(".bookmark-navigator .next-bookmark").on("click",(function(e){e.preventDefault(),tt();let a=$(this).attr("data-pid");N()(document.getElementById(a),{align:{top:.2}},t=>{}),X(a,0,t)})),$(".bookmark-navigator .current-bookmark").on("click",(function(t){t.preventDefault();let e=$(this).attr("data-pid");N()(document.getElementById(e),{align:{top:.2}},t=>{})})),$(".bookmark-navigator .close-window").on("click",(function(a){a.preventDefault(),tt(),$(".bookmark-navigator-wrapper").addClass("hide-bookmark-navigator"),$(".transcript").removeClass("bookmark-navigator-active"),"topic"===t&&($(".topic-navigator").unwrap(),$(".topic-navigator").removeClass("topic-navigator")),"topic"===t&&Object(d.b)()&&ue(!1,e)})),$(".bookmark-navigator").on("click",".annotation-item",(function(e){e.preventDefault();let a=Object(d.b)();if("topic"===t&&!a)return;tt(),a||(a={userId:"xxx"});let n,o=$(this).attr("data-aid"),i=$(this).attr("data-range").split("/"),r=i[0];"undefined"!==o?(n=$(`[data-annotation-id='${o}']`).attr("data-aid"),$(`[data-annotation-id="${n}"]`).addClass("show")):n=$(`#${r} > span.pnum`).attr("data-aid"),n||(n=$(this).attr("data-creationDate"));let s,l=`${location.origin}${location.pathname}?as=${r}:${n}:${a.userId}`,c=i.map(t=>parseInt(t.substr(1),10)),p=P()(c[0],c[1]+1);s="xxx"===a.userId?`\n        <h4 class="ui header">\n          <i title="${Object(m.b)("annotate:m11")}" class="red window close outline icon"></i>\n          <div class="content">\n            ${$(this).text()}\n          </div>\n        </h4>\n      `:m.a`
-        <h4 class="ui header">
-          <i title="${"action:fbshare"}" class="share-annotation facebook icon"></i>
-          <i title="${"action:emailshare"}" class="share-annotation envelope outline icon"></i>
-          <i data-clipboard-text="${l}" title="${"action:cp2clip"}" class="share-annotation linkify icon"></i>
-          <div class="content">
-            ${$(this).text()}
-          </div>
-        </h4>
-      `;for(let t=0;t<p.length;t++)$("#p"+p[t]).addClass("selected-annotation");$(".selected-annotation").wrapAll("<div class='selected-annotation-wrapper ui raised segment'></div>"),$(".selected-annotation-wrapper").prepend(s),"xxx"!==a.userId&&W.a.register(".share-annotation.linkify")})),at()}function ot(t,e){J=e,function(t){J.keyInfo.getSourceId();let e=J.keyInfo.genPageKey().toString(10),a=Object(u.a)("bmList"),n=Object(u.a)("bmModal");a&&(Q=e,Y(e,a,n,"").then(o=>{null!==o[0]?$(".bookmark-navigator .previous-page").attr({href:o[0]}):$(".bookmark-navigator .previous-page").addClass("inactive").removeAttr("href"),null!==o[1]?$(".bookmark-navigator .next-page").attr({href:o[1]}):$(".bookmark-navigator .next-page").addClass("inactive").removeAttr("href"),G(e,t,a,n,"bookmark")?(nt("bookmark"),$(".transcript").addClass("bookmark-navigator-active"),$(".bookmark-navigator-wrapper").removeClass("hide-bookmark-navigator"),setTimeout(et,250,t,"bookmarkManager")):Object(m.b)("fragment:f1",!0).then(e=>{w.a.info(m.a`${e} ${t} ${"fragment:f2"}`)})}).catch(e=>{console.error(e),"bookmark not found"===e&&Object(m.b)("fragment:f1",!0).then(e=>{w.a.info(`${e} ${t} ${Object(m.b)("fragment:f2")}`)})}))}(t)}function it(t,e){J=e,function(t,e){J.keyInfo.getSourceId();let a=J.keyInfo.genPageKey().toString(10),n=Object(u.a)("topicList");if(n){let o=Object.keys(n[a]),i=n[a][o[0]][0].topicList.find(e=>e.value===t.topic);console.log("keys: %o, topiclist: %o",o,i),i&&$(".bookmark-navigator").prepend(`<h4 class="ui header"><div class="content">Topic: ${i.topic}</div></h4>`),Q=a,Y(a,n,null,t.topic).then(o=>{null!==o[0]?$(".bookmark-navigator .previous-page").attr({href:o[0]}):$(".bookmark-navigator .previous-page").addClass("inactive").removeAttr("href"),null!==o[1]?$(".bookmark-navigator .next-page").attr({href:o[1]}):$(".bookmark-navigator .next-page").addClass("inactive").removeAttr("href"),G(a,t.pid,n,null,"topic")?(nt("topic",e),$(".transcript").addClass("bookmark-navigator-active"),$(".bookmark-navigator-wrapper").removeClass("hide-bookmark-navigator"),setTimeout(et,250,t.pid,"bookmarkTopicManager")):Object(m.b)("fragment:f1",!0).then(t=>{w.a.info(m.a`${t} ${actualPid} ${"fragment:f2"}`)})}).catch(t=>{console.error(t),"bookmark not found"===t&&Object(m.b)("fragment:f1",!0).then(t=>{w.a.info(`${t} ${actualPid} ${Object(m.b)("fragment:f2")}`)})})}}(t,e)}var rt=a(42),st=a.n(rt),lt=a(43),ct=a.n(lt);let pt={};function dt(t,e,a,n){if(0===e.length)return`\n      <div class="bookmark-item item"> \x3c!-- ${t} --\x3e\n        <i class="bookmark icon"></i>\n        <div class="content">\n          <div class="header">\n            <a href="${a}?bkmk=${t}">${Object(m.b)("label:para")}: ${t}</a>\n          </div>\n        </div>\n      </div> \x3c!-- item: ${t} --\x3e\n    `;return`\n    <div class="${n.reduce((t,e)=>"object"==typeof e?`${t} ${e.value}`:`${t} ${e}`,"")} bookmark-item item"> \x3c!-- ${t} --\x3e\n      <i class="bookmark icon"></i>\n      <div class="content">\n        <div class="header">\n          <a href="${a}?bkmk=${t}">${Object(m.b)("label:para")}: ${t}</a>\n        </div>\n        <div class="list">\n          ${e.map(t=>{return`\n            <div class="item"> \x3c!-- item: ${t.rangeStart}/${t.rangeEnd} --\x3e\n              <i class="right triangle icon"></i>\n              <div class="content">\n                <div class="header">\n                  ${e=t.topicList,e&&0!==e.length?`\n    <div class="ui horizontal bulleted list">\n      ${e.map(t=>`\n        <div class="item">\n          <em>${"object"==typeof t?t.topic:t}</em>\n        </div>\n      `).join("")}\n    </div>\n  `:Object(m.b)("annotate:m13")}\n                </div>\n                <div class="description">\n                  ${t.Comment?t.Comment:Object(m.b)("annotate:m7")}\n                </div>\n              </div>\n            </div> \x3c!-- item: ${t.rangeStart}/${t.rangeEnd} --\x3e\n          `;var e}).join("")}\n        </div>\n      </div>\n    </div> \x3c!-- item: ${t} --\x3e\n  `}function ut(t){return`\n    ${t.map(t=>`\n      <div class="item"> \x3c!-- item: ${t.title} --\x3e\n        <i class="file icon"></i>\n        <div class="content">\n          <div class="header">\n            ${function(t){let e=""+t.title;return t.subTitle&&(e=`${e}: ${t.subTitle}`),e}(t)}\n          </div>\n          <div class="list">\n            ${function(t,e){let a="";for(let n in t)if(!n.startsWith("tpList")){a+=dt("p"+(parseInt(n,10)-1).toString(10),t[n],e,t["tpList"+n])}return a}(t.bookmarks,t.url)}\n          </div>\n        </div>\n      </div>\n    `).join("")}\n  `}function ht(t){let e,a=!0,n=[],o=$(".cmi-bookmark-list").attr("data-lbd");if(o){if(o=parseInt(o,10),o===t.lastBuildDate)return;a=!1}$(".cmi-bookmark-list").attr("data-lbd",t.lastBuildDate);for(let e in t)"lastFetchDate"!==e&&"lastBuildDate"!==e&&n.push(pt.getPageInfo(e,t[e]));Promise.all(n).then(t=>{let{bookArray:n,topics:o}=function(t){let e={},a=[];t.forEach(t=>{e[t.bookId]||(e[t.bookId]={},e[t.bookId].bookId=t.bookId,e[t.bookId].bookTitle=t.bookTitle,t.subTitle&&(e[t.bookId].subTitle=t.subTitle),e[t.bookId].pages=[]);let a={pageKey:t.pageKey,title:t.title,url:t.url,bookmarks:t.data};t.subTitle&&(a.subTitle=t.subTitle),e[t.bookId].pages.push(a)}),t.forEach(t=>{e[t.bookId]&&(a.push(e[t.bookId]),delete e[t.bookId])});let n=[];a.forEach(t=>{t.pages.forEach(t=>{for(let e in t.bookmarks)if(t.bookmarks[e].length>0){let a=t.bookmarks[e].map(t=>t.topicList?t.topicList:[]),o=ct()(st()(a),(t,e)=>t.value===e.value);t.bookmarks["tpList"+e]=o,n.push(o)}})});let o=st()(n).sort((t,e)=>t.value<e.value?-1:t.value>e.value?1:0),i=ct()(o,(t,e)=>t.value===e.value);return{bookArray:a,topics:i}}(t);var i;e=0===(i=n).length?m.a`
-      <h2 class="ui center aligned icon header">
-        <i class="circular bookmark icon"></i>
-        ${"bmlist:header"}
-      </h2>
-      <p>
-        ${"bmlist:intro"}
-      </p>
-      <ul>
-        <li>${"bmlist:item1"}</li>
-        <li>${"bmlist:item2"}</li>
-      </ul>
-      <p>
-        ${"bmlist:link"}
-      </p>
-    `:`\n    ${i.map(t=>`\n      <div data-bid="${t.bookId}" class="item"> \x3c!-- item: ${t.bookId} --\x3e\n        <div class="right floated content">\n          <div data-book="${t.bookId}" class="green ui small button">Open</div>\n        </div>\n        <i class="book icon"></i>\n        <div class="content">\n          <div class="${t.bookId}-header header">\n            ${t.bookTitle}\n          </div>\n          <div id="${t.bookId}-list" class="hide-bookmarks list">\n            ${ut(t.pages)}\n          </div>\n        </div>\n      </div> \x3c!-- item: ${t.bookId} --\x3e\n    `).join("")}\n  `,$(".cmi-bookmark-list").html(e);let r=function(t){return`\n    <label>Filter Topic(s)</label>\n    <select name="topicList" id="bookmark-topic-list" multiple="" class="search ui dropdown">\n      <option value="">${Object(m.b)("label:selecttopic")}</option>\n      ${t.map(t=>""+function(t){return"object"==typeof t?`<option value="${t.value}">${t.topic}</option>`:`<option value="${t}">${t}</option>`}(t)).join("")}\n    </select>\n  `}(o);$("#bookmark-modal-topic-select").html(r),$("#bookmark-topic-list").dropdown(),$("#bookmark-modal-loading").removeClass("active").addClass("disabled");let s=Object(u.a)("bmModal",{modal:{filter:!1}});$("[data-bid]").each((function(){let t={},e=$(this).data("bid");t.count=$(`[data-bid="${e}"] .bookmark-item`).length,t.header=$(`.${e}-header`).text().trim(),$(`.${e}-header`).text(`${t.header} (${t.count})`),s[e]=t})),a&&(Object(u.c)("bmModal",s),$(".cmi-bookmark-list").on("click","[data-book]",(function(t){t.stopPropagation();let e=$(this).attr("data-book"),a=$(`#${e}-list`);a.hasClass("hide-bookmarks")?(a.removeClass("hide-bookmarks"),$(this).text("Close").removeClass("green").addClass("yellow")):(a.removeClass("yellow").addClass("green hide-bookmarks"),$(this).text("Open").removeClass("yellow").addClass("green"))})),$(".bookmark-filter-submit").on("click",(function(t,e){t.preventDefault();let a=$("#bookmark-filter-form").form("get value","topicList"),n=new RegExp(`\\b(${a.join("|")})\\b`);if(0===a.length)return;$(".cmi-bookmark-list .bookmark-item").each((function(){$(this).attr("class").match(n)?$(this).removeClass("hide-bookmark-item"):$(this).addClass("hide-bookmark-item")}));let o=Object(u.a)("bmModal",{modal:{filter:!1}}),i=a.map(t=>({value:t,topic:$(`#bookmark-topic-list > [value='${t}']`).text()}));e||(o.modal.filter=!0,o.modal.topics=a,o.modal.fullTopic=i,Object(u.c)("bmModal",o)),$("[data-bid]").each((function(){let t=$(this).data("bid"),e=$(`[data-bid="${t}"] .bookmark-item.hide-bookmark-item`).length,a=o[t].count-e;$(`.${t}-header`).html(`${o[t].header} (<span class="bookmark-filter-color">${a}</span>/${o[t].count})`)}))})),$(".bookmark-filter-reset").on("click",(function(t){t.preventDefault(),$("#bookmark-filter-form").form("clear"),$(".cmi-bookmark-list .hide-bookmark-item.bookmark-item").each((function(){$(this).removeClass("hide-bookmark-item")}));let e=Object(u.a)("bmModal",{modal:{filter:!1}});$("[data-bid]").each((function(){let t=$(this).data("bid");$(`.${t}-header`).text(`${e[t].header} (${e[t].count})`)})),e.modal.filter=!1,delete e.modal.topics,Object(u.c)("bmModal",e)})),function(){let{modal:t}=Object(u.a)("bmModal",{modal:{filter:!1}}),e=$("#bookmark-filter-form");console.log("modal: ",t),t.filter&&(e.form("set value","topicList",t.topics),$(".bookmark-filter-submit").trigger("click",{init:!0}))}())}).catch(t=>{console.error(t)})}async function ft(t){const e=Object(d.b)();let a=Object(u.a)("bmList",{modal:{filter:!1}});if(a){let t=a.lastFetchDate+288e5;if(Date.now()<t&&a.lastBuildDate>0)return void ht(a)}try{ht(function(t){let e={};return t.forEach(t=>{let[a,n]=t.paraKey.split(".");n=parseInt(n,10)+"",e[a]||(e[a]={}),e[a][n]||(e[a][n]=[]),e[a][n].push(t.annotation)}),e.lastFetchDate=Date.now(),e.lastBuildDate=Date.now(),Object(u.c)("bmList",e),e}(await c(e.userId,t)))}catch(t){console.error(t),w.a.error(Object(m.b)("error:e4"))}}function mt(){$(".bookmark.ui.modal").modal({dimmerSettings:{opacity:.5},autofocus:!1,centered:!0,duration:400,inverted:!0,observeChanges:!0,transition:"horizontal flip",onShow:function(){!function(){const{sourceId:t}=pt.keyInfo.getKeyInfo();ft(t)}()},onVisible:function(){},onHidden:function(){}}),$(".bookmark-modal-open").on("click",t=>{t.preventDefault(),$(".bookmark.ui.modal").modal("show")})}var bt=function(t){pt=t,mt()},gt=a(502);let kt={};function $t(){return m.a`
-    <form name="annotation" id="annotation-form" class="ui form">
-      <input class="hidden-field" type="text" readonly="" name="status">
-      <input class="hidden-field" type="text" readonly="" name="creationDate">
-      <input class="hidden-field" type="text" name="aid" readonly>
-      <input class="hidden-field" type="text" readonly="" name="rangeStart">
-      <div class="fields">
-        <div class="three wide field">
-          <input id="rangeEnd" type="text" name="rangeEnd" maxlength="4" placeholder="${"label:end"}">
-        </div>
-        <div id="available-topics" class="twelve wide field"></div>
-        </div>
-      </div>
-      <div class="field">
-        <input type="text" name="Comment" placeholder="${"label:comment"}">
-      </div>
-      <div class="field">
-        <input type="text" name="newTopics" placeholder="${"label:newtopic"}">
-      </div>
-      <div class="field">
-        <textarea name="Note" placeholder="${"label:notes"}" rows="3"></textarea>
-      </div>
-      <div class="fields">
-        <button class="annotation-submit ui green button" type="submit">${"action:submit"}</button>
-        <button class="annotation-cancel ui red basic button">${"action:cancel"}</button>
-        <button class="annotation-share ui green disabled basic button">${"action:share"}</button>
-        <button class="annotation-note ui blue basic button">${"label:links"}</button>
-        <div class="twelve wide field">
-          <button class="annotation-delete ui red disabled right floated button">${"action:delete"}</button>
-        </div>
-      </div>
-    </form>
-    <div class="note-and-links hide">
-      <table id="bookmark-link-table" class="ui selectable celled table">
-        <thead>
-          <tr>
-            <th></th>
-            <th></th>
-            <th>${"label:linkref"}</th>
-            <th>${"label:link"}</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody id="bookmark-link-list">
-        </tbody>
-      </table>
-      <form name="linkForm" id="link-form" class="ui form">
-        <div class="fields">
-          <div class="ten wide field">
-            <input required type="text" placeholder="${"label:linknote"}" name="reference">
-          </div>
-          <div class="five wide field">
-            <input required type="text" placeholder="${"label:link"}" name="link">
-          </div>
-          <button title="add or update" data-index="-1" type="submit" class="green ui icon button">
-            <i class="plus circle icon"></i>
-          </button>
-          <button title="clear fields" type="reset" class="yellow ui icon button">
-            <i class="minus circle icon"></i>
-          </button>
-        </div>
-      </form>
-    </div>
-  `}let vt=[];function yt(t){return vt[t]}function wt(t){$("#link-form [type='submit']").data("index",t)}function xt(t){let e=JSON.parse(t),a=`${e.desc.source}:${e.desc.book}:${e.desc.unit}`;return a=e.desc.question?`${a}:${e.desc.question}:${e.desc.pid}`:`${a}:${e.desc.pid}`,a}function It(){$(".transcript").on("submit","#link-form",(function(t){t.preventDefault();let e=function(){let t=$("#link-form [type='submit']").data("index");return parseInt(t,10)}(),a=-1===e?"new":"edit",n=$("#link-form").form("get values");if(!function(t,e){let a,n=kt.keyInfo.genParagraphKey(t);try{a=JSON.parse(e)}catch(t){return w.a.error(Object(m.b)("annotate:m3")),!1}return a.aid&&a.desc&&a.key&&a.userId?a.key!==n||(w.a.error(Object(m.b)("annotate:m5")),!1):(w.a.error(Object(m.b)("annotate:m4")),!1)}($(".annotate-wrapper p.cmiTranPara").attr("id"),n.link))return;let o=xt(n.link);if("new"===a){vt.push({reference:n.reference,link:n.link,deleted:!1});let t=function(t,e){return m.a`
-    <tr data-index="${e}">
-      <td title="${"action:delete"}" class="delete-link-item"><i class="red trash alternate icon"></i></td>
-      <td title="${"action:edit"}" class="edit-link-item"><i class="yellow pencil alternate icon"></i></td>
-      <td data-name="reference">${t.reference}</td>
-      <td data-name="link">${t.link}</td>
-      <td title="${"action:follow"}" class="follow-link-item"><i class="green share icon"></i></td>
-    </tr>
-  `}({reference:n.reference,link:o},vt.length-1);$("#bookmark-link-list").append(t)}else vt[e]={reference:n.reference,link:n.link,deleted:!1},$(`tr[data-index="${e}"] > td[data-name="reference"]`).text(vt[e].reference),$(`tr[data-index="${e}"] > td[data-name="link"]`).text(o),wt(-1);$("#link-form").form("clear")})),$(".transcript").on("click","#bookmark-link-list td.delete-link-item",(function(t){t.stopPropagation(),t.preventDefault();let e=$(this).parent(),a=parseInt(e.attr("data-index"),10);vt[a].deleted=!0,e.remove()})),$(".transcript").on("click","#bookmark-link-list td.edit-link-item",(function(t){t.stopPropagation(),t.preventDefault();let e=parseInt($(this).parent().attr("data-index"),10);$("#link-form").form("set values",vt[e]),wt(e)}))}const jt='\n  <div class="annotate-wrapper ui raised segment"></div>';function zt(t){return t&&0!==t.length?`\n    ${t.map(t=>`\n      <div class="item">\n        <em>${t.topic}</em>\n      </div>\n    `).join("")}\n  `:`\n      <div class="item">\n        <em>${Object(m.b)("annotate:m6")}</em>\n      </div>\n    `}function Ct(t){let e=[];return t.Note&&e.push("N"),t.links&&e.push("L"+t.links.length),0===e.length?'\n      <div class="item">\n        <i class="bookmark outline icon"></i>\n      </div>\n    ':`\n    ${e.map(t=>`\n      <div class="item">\n        ${function(t){let e;if("N"===t)e="<i class='align justify icon'></i>";else if(t.startsWith("L")){let a=t.substr(1);e=`<i class="linkify icon"></i>[${a}]`}return""+e}(t)}\n      </div>\n    `).join("")}\n  `}function Ot(t){return t||Object(m.b)("annotate:m7")}function qt(t,e,a){let n=$("#annotation-form");$("#link-form");if(vt=[],a){let t=[];if(a.topicList&&(t=a.topicList.map(t=>t.value)),a.links){vt=a.links;let t=`\n    ${vt.map((t,e)=>m.a`
-      <tr data-index="${e}">
-        <td title="${"action:delete"}" class="delete-link-item"><i class="red trash alternate icon"></i></td>
-        <td title="${"action:edit"}" class="edit-link-item"><i class="yellow pencil alternate icon"></i></td>
-        <td data-name="reference">${t.reference}</td>
-        <td data-name="link">${xt(t.link)}</td>
-        <td title="${"action:follow"}" class="follow-link-item"><i class="green share icon"></i></td>
-      </tr>
-    `).join("")}\n  `;$("#bookmark-link-list").html(t)}n.form("set values",{status:"update",rangeStart:a.rangeStart,rangeEnd:a.rangeEnd,aid:a.aid,creationDate:a.creationDate,Comment:a.Comment,Note:a.Note,topicList:t})}else n.form("set values",{status:"new",rangeStart:t,rangeEnd:t,aid:e});document.getElementById("rangeEnd").focus()}function St(){return $("#annotation-form").form("get values")}function Tt(t){let e=$(".transcript .annotation-edit");if(e.length>0){let a=e.first(1).attr("id");return t!==a&&w.a.info(m.a`${"annotate:m8"} ${a}. ${"annotate:m9"}`),!0}return!1}function Dt(){return!!$(".transcript").hasClass("bookmark-navigator-active")&&(w.a.info(Object(m.b)("annotate:m10")),!0)}function Lt(t,e,a){let n=parseInt(a.rangeStart.substr(1),10),o=parseInt(a.rangeEnd.substr(1),10);if(n!==o){let t=P()(n,o+1);for(let e=0;e<t.length;e++)$("#p"+t[e]).addClass("annotation-edit")}else $("#"+t).addClass("annotation-edit");Et(),$(".annotation-edit").wrapAll(jt),$(".annotate-wrapper").prepend($t()),$(".annotation-delete.disabled").removeClass("disabled"),$(".annotation-share.disabled").removeClass("disabled"),Mt(t,e,a)}function Kt(t,e){let a=kt.keyInfo.genParagraphKey(t),n=kt.keyInfo.describeKey(a),o={userId:Object(d.b)().userId,key:a,aid:e,desc:n};return JSON.stringify(o)}function Pt(){let t=$("div.transcript.ui.disable-selection:not(.user)");t.length>0&&t.removeClass("disable-selection")}function Et(){let t=$("div.transcript.ui");t.hasClass("disable-selection")||t.addClass("disable-selection")}function Nt(t){kt=t||Gt,$(".transcript").on("submit","#annotation-form",(function(t){t.preventDefault(),Pt();let e=St();if(e.topicList.length>0){let t=e.topicList.map(t=>({value:t,topic:$(`#annotation-topic-list > [value='${t}']`).text()}));e.topicList=t}Bt(),$(`[data-annotation-id="${e.aid}"]`).removeClass("show"),$(".transcript .annotation-edit").hasClass("note-style-bookmark")&&(e.bookTitle=$("#book-title").text());let a=vt.filter(t=>!1===t.deleted);a.length>0?e.links=a:vt.filter(t=>!0===t.deleted).length>0&&e.creationDate.length>0&&$(`i[data-link-aid="${e.creationDate}"]`).remove(),he.submit(e),$(".transcript .annotation-edit").removeClass("annotation-edit annotation-note")})),$(".transcript").on("click","#annotation-form .annotation-cancel",(function(t){t.preventDefault(),Pt();let e=St();Bt(),$(`[data-annotation-id="${e.aid}"]`).removeClass("show"),he.cancel(e),$(".transcript .annotation-edit").removeClass("annotation-edit")})),$(".transcript").on("click","#annotation-form .annotation-share",(function(t){t.preventDefault();let e=St();Bt(),$(`[data-annotation-id="${e.aid}"]`).removeClass("show"),$(".transcript .annotation-edit").removeClass("annotation-edit");let a=Object(d.b)();a||(a={userId:"xxx"});let n,o=e.aid,i=[e.rangeStart,e.rangeEnd],r=i.map(t=>parseInt(t.substr(1),10)),s=i[0];o.length>0?(n=$(`[data-annotation-id="${o}"]`).attr("data-aid"),$(`[data-annotation-id="${o}"]`).addClass("show"),n||(n=Yt.getCreationDate(o),$(`[data-annotation-id="${o}"]`).attr("data-aid",n))):n=$(`#${s} > span.pnum`).attr("data-aid");let l,c=`${location.origin}${location.pathname}?as=${s}:${n}:${a.userId}`,p=P()(r[0],r[1]+1);l="xxx"===a.userId?`\n        <h4 class="ui left floated header">\n          <i title="${Object(m.b)("annotate:m11")}" class="red window close outline icon"></i>\n          <div class="content">\n            ${e.Comment}\n          </div>\n        </h4>\n        <h4 class="ui right floated header">\n          <i title="${Object(m.b)("action:closewin")}" class="share-annotation window close icon"></i>\n        </h4>\n      `:`\n        <h4 class="ui left floated header">\n          <i title="${Object(m.b)("action:fbshare")}" class="share-annotation facebook icon"></i>\n          <i title="${Object(m.b)("action:emailshare")}" class="share-annotation envelope outline icon"></i>\n          <i data-clipboard-text="${c}" title="${Object(m.b)("action:cp2clip")}" class="share-annotation linkify icon"></i>\n          <div class="content">\n            ${e.Comment}\n          </div>\n        </h4>\n        <h4 class="ui right floated header">\n          <i title="${Object(m.b)("action:closewin")}" class="share-annotation window close icon"></i>\n        </h4>\n      `;for(let t=0;t<p.length;t++)0===t?$("#p"+p[t]).addClass("selected-annotation clearBoth"):$("#p"+p[t]).addClass("selected-annotation");$(".selected-annotation").wrapAll("<div class='selected-annotation-wrapper ui clearing raised segment'></div>"),$(".selected-annotation-wrapper").prepend(l),"xxx"!==a.userId&&W.a.register(".share-annotation.linkify")})),at(),$(".transcript").on("click","#annotation-form .annotation-delete",(function(t){t.preventDefault(),Pt();let e=St();Bt();let a=vt;a.length>0&&(e.links=a),he.delete(e),$(".transcript .annotation-edit").removeClass("annotation-edit")})),$(".transcript").on("click","[data-annotation-id]",(function(t){t.preventDefault();let e=$(this).attr("data-annotation-id"),a=$(this).parent("p").attr("id");void 0===a&&(a=$(this).parents("p").attr("id")),Tt(a)||Dt()||$(".transcript").hasClass("hide-bookmark-highlights")||$(".transcript").hasClass("topic-filter-active")&&!$(this).hasClass("show")||$(this).hasClass("shared")||($(this).popup("hide"),$(this).addClass("show"),Lt(a,e,Yt.getItem(a,e).annotation))})),$(".transcript").on("click","p.cmiTranPara > span.pnum",(function(t){t.preventDefault();let e=$(this).parent("p").attr("id");if(Tt()||Dt())return;let a=Yt.getItem(e);a?Lt(e,void 0,a.annotation):(Et(),$("#"+e).addClass("annotation-edit annotation-note"),$(".annotation-edit").wrapAll(jt),$(".annotate-wrapper").prepend($t()),Mt(e))})),$(".transcript").on("mouseenter","[data-annotation-id]",(function(t){t.preventDefault();let e=$(this).attr("data-annotation-id"),a=$(this).parent("p").attr("id"),n=$(this).data("aid");if(!a)return void console.log("hoverHandler: pid not found");if($(".transcript").hasClass("hide-bookmark-highlights"))return void $(this).popup("hide").popup("destroy");if($(".transcript").hasClass("topic-filter-active")&&!$(this).hasClass("show"))return void $(this).popup("hide").popup("destroy");if($("#"+a).hasClass("annotation-edit"))return void $(`#${a} [data-annotation-id]`).each((function(){$(this).popup("hide").popup("destroy")}));if($("#"+a).hasClass("selected-annotation"))return void $(`#${a} [data-annotation-id]`).each((function(){$(this).popup("hide").popup("destroy")}));if($(this).hasClass("shared"))return void $(this).popup("hide").popup("destroy");let o=Yt.getItem(a,e);if(!o)return;let i=o.annotation,r=zt(i.topicList),s=Ot(i.Comment),l=Ct(i);$(".annotation-information .topic-list").html(r),$(".annotation-information .range").html(`${Object(m.b)("label:range")}: ${i.rangeStart}/${i.rangeEnd}`),$(".annotation-information .description").html(""+s),$(".annotation-information .extra").html(l),$(this).popup({popup:".annotation-information.popup",hoverable:!0}).popup("show");let c=Kt(a,n);$("#popup-button").attr("data-clipboard-text",c),W.a.register("#popup-button"),$("#popup-button").focus()})),$(".transcript").on("click","#annotation-form .annotation-note",(function(t){t.preventDefault(),console.log("note button clicked");let e=$(".note-and-links");e.hasClass("hide")?e.removeClass("hide"):e.addClass("hide")})),It(),$("body").on("click","#popup-button",(function(t){$("mark.visible").popup("hide"),$(".pnum.has-annotation.visible").popup("hide")})),$(".transcript").on("mouseenter",".has-annotation",(function(t){if(t.preventDefault(),$(".transcript").hasClass("hide-bookmark-highlights"))return void $(this).popup("hide").popup("destroy");let e=$(this).data("aid"),a=$(this).parent("p").attr("id"),n=Yt.getItem(a,e);if(!n)return;let o=n.annotation,i=zt(o.topicList),r=Ot(o.Comment),s=Ct(o);$(".annotation-information .topic-list").html(i),$(".annotation-information .range").html(`${Object(m.b)("label:range")}: ${o.rangeStart}/${o.rangeEnd}`),$(".annotation-information .description").html(""+r),$(".annotation-information .extra").html(s),$(this).popup({popup:".annotation-information.popup",hoverable:!0}).popup("show");let l=Kt(a,e);$("#popup-button").attr("data-clipboard-text",l),W.a.register("#popup-button"),$("#popup-button").focus()}))}function Bt(){$(".annotate-wrapper > form").remove(),$(".annotate-wrapper > .note-and-links").remove(),$(".annotation-edit").unwrap()}function Mt(t,e,a){I.fetchTopics().then(n=>{let o=function(t){return`\n    <select name="topicList" id="annotation-topic-list" multiple="" class="search ui dropdown">\n      <option value="">${Object(m.b)("label:selecttopic")}</option>\n      ${t.map(t=>""+function(t){return"object"==typeof t?`<option value="${t.value}">${t.topic}</option>`:`<option value="${t}">${t}</option>`}(t)).join("")}\n    </select>\n  `}(n.topics);$("#available-topics").html(o),$("select.dropdown").dropdown(),qt(t,e,a)}).catch(t=>{console.error("topic fetch error: ",t),w.a.error(`${Object(m.b)("annotate:m12")}: ${t}`)})}a(181);const Ut=a(113),_t=a(179),At=a(180);let Rt={},Wt=[];function Qt(){let t,e=0;if(0!==Wt.length)for(let a of Wt){let n=Rt[a];t||(t=document.getElementById(n.pid)),Ft(n,t),Jt(n.id,e),e+=1}}function Jt(t,e){$(`[data-annotation-id="${t}"]`).addClass(["colorClass1","colorClass2","colorClass3","colorClass4","colorClass5","colorClass6"][e%6])}function Ht(t,e=0,a=null){let n=document.getElementById(t.pid);a&&a===t.pid?a&&Wt.push(t.id):(Ft(t,n),Jt(t.id,e)),Rt[t.id]=t}function Ft(t,e=document.body){var a=t.id;if(t.target.source){for(var n=t.target.selector,o=0;o<n.length;o++){var i=n[o];switch(i.type){case"TextPositionSelector":if(0===document.querySelectorAll(`[data-annotation-id="${a}"]`).length){var r,s=document.createElement("mark");s.dataset.annotationId=a,t.aid&&(s.dataset.aid=t.aid),s.classList.add("bookmark-selected-text");try{r=Ut.toRange(e,i),t.wrap=At(s,r)}catch(e){return console.error("highlight catch bloc: err: %o",e),console.log("annotation: %o",t),!1}}}}return!0}}function Zt(t){$("div.transcript.ui").on("mouseup",(function(t){if(t.preventDefault(),!Object(d.b)())return;if($(this).hasClass("disable-selection"))return;if(document.getSelection().isCollapsed)return;let e=document.getSelection();0!==e.rangeCount&&(e.getRangeAt(0).collapsed||function(t){let e=t.getRangeAt(0);if("DIV"===e.commonAncestorContainer.nodeName)return void w.a.info(Object(m.b)("error:e8"));if("span"===e.startContainer.parentElement.localName)return void w.a.info(Object(m.b)("error:e6"));let a=e.startContainer;for(;"P"!==a.nodeName;)a=a.parentElement;let n=function(t,e=document.body){if(t.collapsed)return null;var a=Ut.fromRange(e,t);Object.assign(a,{type:"TextPositionSelector"});var n=_t.fromRange(e,t);return Object.assign(n,{type:"TextQuoteSelector"}),{type:"Annotation",title:$("#book-title").text(),url:location.pathname,pid:e.id,id:Object(gt.a)(),target:{type:"SpecificResource",source:location.href,selector:[a,n]}}}(e,a);if(n){let e=a.getElementsByTagName("mark");for(let a of e)if(t.containsNode(a,!0))return void w.a.info(Object(m.b)("error:e7"));if(!Ft(n,a))return void w.a.info("Failed to highlight text. Try a shorter selection.");Rt[n.id]=n,Tt((o=n).pid)||Dt()?he.cancel({aid:o.id}):(Et(),$("#"+o.pid).addClass("annotation-edit"),$(".annotation-edit").wrapAll(jt),$(".annotate-wrapper").prepend($t()),Mt(o.pid,o.id),$(`[data-annotation-id="${o.id}"]`).addClass("show"))}var o}(e))})),Nt(t)}var Vt=a(25);let Yt,Gt={};let Xt=new Map;function te(t,e){$(`#p${t.pid} > span.pnum`).addClass("has-bookmark"),Ht(t.annotation.selectedText,function(t){let e=Xt.get(t);return void 0===e?(Xt.set(t,0),0):(e+=1,Xt.set(t,e),e)}(t.pid),e),se(t.annotation),ce(t.annotation,"highlight")}function ee(t,e){"selectedText"===(t.annotation.selectedText?"selectedText":"note")?te(t):function(t){le(t.pid,t.annotation),ce(t.annotation,"note")}(t)}function ae(t){!function(t){if(!t)return;let e=Rt[t];e&&(e.wrap&&e.wrap.unwrap(),delete Rt[t])}(t.annotation.aid)}function ne(t){!function(t){$(`#${t.annotation.rangeStart} > span.pnum`).removeClass("has-annotation");let e=parseInt(t.annotation.rangeEnd.substr(1),10),a=parseInt(t.annotation.rangeStart.substr(1),10),n=a;do{$("#p"+a).removeClass("note-style-bookmark"),a===n&&$("#p"+a).removeClass("note-style-bookmark-start"),a===e&&$("#p"+a).removeClass("note-style-bookmark-end"),a++}while(a<=e)}(t)}function oe(t,e){"selectedText"===(t.annotation.selectedText?"selectedText":"note")?function(t,e){$(`#p${t.pid} > span.pnum`).addClass("has-bookmark"),Ht(t.annotation.selectedText,e),se(t.annotation),ce(t.annotation,"highlight"),$(`[data-annotation-id="${t.annotation.aid}"]`).attr("data-aid",t.creationDate)}(t,e):function(t){le(t.pid,t.annotation),ce(t.annotation,"note"),$(`#${t.annotation.rangeStart} > span.pnum`).attr("data-aid",t.creationDate)}(t)}function ie(t,e,a){switch(t){case"loaded":ee(e);break;case"created":oe(e,a);break;case"updated":!function(t){let e;if(!t.aid)return;if(!t.topicList||0===t.topicList.length){if("new"===t.status)return;let e=$(`[data-annotation-id="${t.aid}"]`).attr("class").split(" ");return void $(`[data-annotation-id="${t.aid}"]`).attr("class",`${e[0]} ${e[1]}`)}e=t.topicList.reduce((t,e)=>`${t} ${e.value}`,""),e=e.trim();let a=e.split(" "),n=$(`[data-annotation-id="${t.aid}"]`).attr("class").split(" ");1===n.length||a.unshift(n[1]),a.unshift(n[0]),e=a.reduce((t,e)=>`${t} ${e}`,""),$(`[data-annotation-id="${t.aid}"]`).attr("class",e)}(e.annotation),function(t){if(t.annotation.selectedText)return;let e=parseInt(t.annotation.rangeStart.substr(1),10),a=parseInt(t.annotation.rangeEnd.substr(1),10),n=e,o=!1;do{$("#p"+e).removeClass("note-style-bookmark"),$("#p"+e).removeClass("note-style-bookmark-start"),$("#p"+e).hasClass("note-style-bookmark-end")&&($("#p"+e).removeClass("note-style-bookmark-end"),o=!0),e++}while(!o);e=n;do{$("#p"+e).addClass("note-style-bookmark"),e===n&&$("#p"+e).addClass("note-style-bookmark-start"),e===a&&$("#p"+e).addClass("note-style-bookmark-end"),e++}while(e<=a)}(e);break;case"deleted":!function(t,e){"selectedText"===(t.annotation.selectedText?"selectedText":"note")?ae(t):ne(t),t.annotation.links&&$(`i[data-link-aid="${t.creationDate}"]`).remove(),0===e&&$(`#${t.annotation.rangeStart} > span.pnum`).removeClass("has-bookmark")}(e,a)}}function re(t){return`\n    ${t.map(t=>`\n      ${function(t){let e=JSON.parse(t.link),a=fe(e),n=`${e.desc.source}:${e.desc.book}:${e.desc.unit}`;return n=e.desc.question?`${n}:${e.desc.question}:${e.desc.pid}`:`${n}:${e.desc.pid}`,`<a class="item" href="${a}">${t.reference}[${n}]</a>`}(t)}\n    `).join("")}\n  `}function se(t){if(t.topicList&&t.topicList.length>0){let e=t.topicList.reduce((t,e)=>`${t} ${e.value}`,"");$(`[data-annotation-id="${t.aid}"]`).addClass(e)}}function le(t,e){$(`#p${t} > span.pnum`).addClass("has-annotation").attr("data-aid",e.creationDate);let a=parseInt(e.rangeEnd.substr(1),10),n=t;do{$("#p"+n).addClass("note-style-bookmark"),n===t&&$("#p"+n).addClass("note-style-bookmark-start"),n===a&&$("#p"+n).addClass("note-style-bookmark-end"),n++}while(n<=a)}function ce(t,e){t.links&&$(`[data-aid="${t.creationDate}"]`).eq(-1).after(`<i data-link-aid="${t.creationDate}" data-type="${e}" class="small bm-link-list linkify icon"></i>`)}function pe(t){let e=s()(t);var a;if(e.rangeStart=e.rangeStart.trim(),e.rangeEnd=e.rangeEnd.trim(),e.rangeEnd.startsWith("p")||(e.rangeEnd="p"+e.rangeEnd),""===e.Comment?delete e.Comment:e.Comment=Object(v.a)(e.Comment),""===e.Note?delete e.Note:e.Note=Object(v.a)(e.Note),""===e.creationDate&&delete e.creationDate,""===e.aid?delete e.aid:(e.selectedText=(a=e.aid,Rt[a]),e.rangeEnd=e.rangeStart,e.creationDate&&(e.selectedText.aid=e.creationDate.toString(10)),delete e.textId),0===e.topicList.length&&delete e.topicList,delete e.newTopics,delete e.hasAnnotation,"update"===e.status){Yt.getItem(e.rangeStart,e.aid).annotation.topicList.forEach(t=>{if(t.summary){let a=e.topicList.find(e=>e.value===t.value);a&&(a.summary=t.summary)}})}I.postAnnotation(e)}function de(t,e){I.fetchTopics().then(a=>{let n=z()(t,a.topics,(t,e)=>e.value===t.value);if(n.length>0){let t=a.topics.concat(n);t.sort((t,e)=>{let a,n;return a=t.topic.toLowerCase(),n=e.topic.toLowerCase(),a<n?-1:a>n?1:0}),a.topics=t,Object(u.c)("bmTopics",a);let r=Object(d.b)(),s=""+Gt.sourceId;!function(t,e,a){let n={userId:t,sourceId:e,topicList:a};new Promise((t,e)=>{o.a.post(i.a.user+"/topicList",n).then(e=>{t(e.data.response)}).catch(t=>{e(t)})})}(r.userId,s,t),e.topicList=e.topicList.concat(n),e.newTopics=n,pe(e)}}).catch(t=>{throw new Error("bookmark.js:addToTopicList() error: "+t)})}function ue(t,e){!async function(t){let e=Gt.keyInfo.genPageKey(),a=Object(d.b)();if(a)try{let n=await c(a.userId,e);Yt=new k(n,t),n.length>0&&g()}catch(t){console.error(t)}}(t),Zt(e),$(".toggle-bookmark-highlight").on("click",(function(t){t.preventDefault();let e=$(".transcript");e.hasClass("hide-bookmark-highlights")?(e.removeClass("hide-bookmark-highlights"),$(".toggle-bookmark-highlight").text("Hide Highlighted Text")):(e.addClass("hide-bookmark-highlights"),$(".toggle-bookmark-highlight").text("Show Highlighted Text"))})),$("#bookmark-toggle-disable-selection").on("click",(function(t,e){t.preventDefault();let a=!0;"undefined"!==e&&(a="false"!==e);let n=$(".transcript");n.hasClass("disable-selection")&&n.hasClass("user")?Object(m.b)("menu:m1",!0,"Disable Bookmark Creation").then(t=>{n.removeClass("disable-selection user"),$(".toggle-bookmark-selection").text(t),$("#bookmark-dropdown-menu > span  i.bookmark-corner-icon").addClass("hide"),a&&w.a.success("Bookmark Creation Enabled"),Object(u.c)("bmCreation","enabled")}):Object(m.b)("menu:m2",!0,"Enable Bookmark Creation").then(t=>{n.addClass("disable-selection user"),$(".toggle-bookmark-selection").text(t),$("#bookmark-dropdown-menu > span  i.bookmark-corner-icon").removeClass("hide"),a&&w.a.success("Bookmark Creation Disabled"),Object(u.c)("bmCreation","disabled")})})),function(){let t=Object(u.a)("bmCreation");t&&"enabled"===t||$("#bookmark-toggle-disable-selection").trigger("click","false")}(),function(t){$(".transcript").on("click","td.follow-link-item",(function(e){e.preventDefault();let a=$(this).parent("tr").attr("data-index"),n=t(a),o=JSON.parse(n.link);location.href=fe(o)}))}(yt),$(".transcript").on("click",".bm-link-list.linkify",(function(t){t.preventDefault();let e,a=$(this).attr("data-type"),n=$(this).parent("p").attr("id");"note"===a?e=$(this).prev("span").attr("data-aid"):"highlight"===a&&(e=$(this).prev("mark").attr("data-annotation-id"));let o=Yt.getItem(n,e);if(!o)return;let i=re(o.annotation.links);$(".bm-link-list-popup").html(i),$(this).popup({popup:".bm-link-info.popup",hoverable:!0,on:"click"}).popup("show")}))}const he={submit(t){let e=function({newTopics:t}){let e=t.replace(/[^a-zA-Z0-9ąćęłńóśźżĄĆĘŁŃÓŚŹŻ, ]/g,"");if(!e||""===e)return[];e=e.replace(/^,*/,""),e=e.replace(/,*$/,"");let a=e.split(",");return a=a.map(t=>t.trim()),a=a.map(t=>O()(t)),a=a.map(t=>/ /.test(t)?{value:t.replace(/ /g,""),topic:t}:{value:t,topic:t}),a}(t);e.length>0?de(e,t):pe(t)},cancel(t){!t.creationDate&&t.aid&&function(t){if(!t)return;let e=Rt[t];e.aid||(e.wrap&&e.wrap.unwrap(),delete Rt[t])}(t.aid)},async delete(t){try{await I.deleteAnnotation(t.rangeStart,t.creationDate)}catch(t){throw new Error(t)}}};function fe(t){let e=Object(Vt.b)(t.key);return location.pathname===e?"#"+t.desc.pid:`${e}?v=${t.desc.pid}`}var me=function(t,e){Gt=e,function(t){x=t}(Gt),$(".transcript").length&&function(t,e){let a=Object(q.h)();if(a&&it(a,e),!Object(d.b)())return;a||ue(t,e);let n=Object(q.d)();n&&ot(n,e)}(t,e),bt(e)};let be,ge={};function ke(){$(".share-annotation-close").on("click",(function(t){t.preventDefault(),be.selectedText&&be.selectedText.wrap.unwrap(),$("#shared-annotation-wrapper > .header").remove(),$(".shared-selected-annotation").unwrap(),$(".selected-annotation").removeClass("shared-selected-annotation"),$(".bookmark-selected-text.shared").removeClass("shared"),Qt()}))}function $e(){return new Promise(async(t,e)=>{let a=Object(q.c)();if(!a)return void t(!1);let[n,r,s]=decodeURIComponent(a).split(":");if(!n)return void t(!1);if(0===$("#"+n).length)return void t(!1);let c=ge.keyInfo.genParagraphKey(n);Object(q.b)();try{const e=await function(t,e,a){return new Promise((n,r)=>{o.a.get(`${i.a.user}/annotation/${t}/${l(e)}/${a}`).then(t=>{console.log("getAnnotation: %o",t);let e=t.data.response;e.userId?(e.annotation.userId=e.userId,e.annotation.creationDate=e.creationDate,e.annotation.selectedText&&(e.annotation.selectedText=JSON.parse(e.annotation.selectedText)),n(e.annotation)):n({})}).catch(t=>{r(t)})})}(s,c,r);if(!e.userId)return Qt(),Object(q.a)(),w.a.warning("Requested Bookmark was not found"),void t(!1);let a=document.getElementById(e.rangeStart);e.selectedText&&Ft(e.selectedText,a),$(`[data-aid="${r}"]`).addClass("shared"),function(t){let e=[t.rangeStart,t.rangeEnd].map(t=>parseInt(t.substr(1),10)),a=P()(e[0],e[1]+1),n=`\n    <h4 class="ui header">\n      <i title="${Object(m.b)("action:close")}" class="share-annotation-close small window close icon"></i>\n      <div class="content">\n        ${t.Comment?t.Comment:""}\n      </div>\n    </h4>\n  `;for(let t=0;t<a.length;t++)$("#p"+a[t]).addClass("shared-selected-annotation");$(".shared-selected-annotation").wrapAll("<div id='shared-annotation-wrapper' class='ui raised segment'></div>"),$("#shared-annotation-wrapper").prepend(n),N()(document.getElementById("shared-annotation-wrapper"),{align:{top:.2}})}(e),be=e,ke(),Object(q.a)()}catch(e){return Object(q.a)(),console.error(e),void t(!1)}t(n)})}var ve=function(t){return ge=t,$e()},ye=a(7),we=a(10);function xe(t){if("transcript"===t){ve(ye.a).then(t=>{me(t,ye.a)});let t=ye.a.keyInfo.genPageKey();Object(we.d)(t).then(t=>{let e=`${t.source}<br/>${t.bookTitle}`;t.subTitle&&(e=`${e}<br/>${t.subTitle}`),e=`${e}<br/>${t.title}`,$("#transcript-page-info").html(e)})}else me(void 0,ye.a);_(ye.a)}},57:function(t,e,a){"use strict";var n=a(6),o=a.n(n),i=a(9);var r=a(10),s=a(81),l=a.n(s),c=a(4),p=a(7),d=a(2);const u=a(16);function h(t,e,a,n){return`\n    <h3>${e[t]} (${n.length})</h3>\n    <div class="ui list">\n      ${n.map(t=>`\n        <div class="item">\n          <i class="book icon"></i>\n          <div class="content">\n            <div class="header">\n              ${function(t,e){return t[e.pageKey].title}(a,t)} (${t.m.length})\n            </div>\n            <div class="list">\n              ${t.m.map(e=>`\n                <div class="item">\n                  <i class="search icon"></i>\n                  <div class="content">\n                    <div class="header">\n                      <a href="${a[t.pageKey].url}?srch=${e.location}">${Object(d.a)("search:s10")} ${e.location.substr(1)}</a>\n                    </div>\n                    <div class="description">\n                      ${e.context}\n                    </div>\n                  </div>\n                  </div> \x3c!-- item --\x3e\n              `).join("")}\n            </div> \x3c!-- list --\x3e\n          </div>\n        </div>\n      `).join("")}\n    </div> \x3c!-- ui list --\x3e\n  `}function f(t){let e=u.getKeyInfo().keyLength,a=[],n=0;for(const o of t)a[n]?a[n].unit!==o.unit?(n++,a[n]={unit:o.unit,book:o.book,pageKey:o.key.substr(0,e),m:[{location:o.location,context:o.context}]}):a[n].m.push({location:o.location,context:o.context}):a[n]={unit:o.unit,book:o.book,pageKey:o.key.substr(0,e),m:[{location:o.location,context:o.context}]};return a}function m(t){let e=u.getKeyInfo().keyLength,a=t.map(t=>t.key.substr(0,e));return l()(a)}function b(t,e){const a=u.getBooks();let n=[];for(let e=0;e<a.length;e++){let o=a[e];if(t[o]){let e=m(t[o]);for(const t of e)n.push(Object(r.d)(t))}}Promise.all(n).then(n=>{let o="",i={},r={};for(const t of n){let{bookTitle:e,title:a,subTitle:n,url:o}=t;n&&(a=`${a}: ${n}`),i[t.pageKey]={title:a,url:o},r[t.bookId]||(r[t.bookId]=e)}let s={};for(let e of a)t[e]&&(s[e]=f(t[e]),o+=h(e,r,i,s[e]));$(".cmi-search-list").html(o),$("#search-results-header").html(`: <em>${e}</em>`),function(t,e,a,n,o,i){const r=u.getBooks();let s=u.getKeyInfo().keyLength;if(0===e)return;let l=[];for(const t of r)if(i[t])for(const e of i[t]){let t={key:e.key.substr(0,s),url:`/${e.book}/${e.unit}/`,location:e.location};l.push(t)}Object(c.c)("srchResults",{query:t,count:e,titleArray:a,pageInfo:n,data:o,flat:l})}(e,t.count,r,i,s,t)}).catch(t=>{console.error("Error: %s",t.message)})}var g=a(11),k=a(18),v=a.n(k),y=a(8),w=a.n(y);const x=a(16),I="standalone"===p.a.env?"":p.a.url_prefix;function j(t,e){v()(document.getElementById(t),{align:{top:.2}},t=>{})}class z{constructor(t,e,a,n){this.query=t,this.start=e,this.end=a,this.count=a-e+1,this.hits=n}setStart(t,e){this.current=t;let a=this.hits[t].location;e?setTimeout(j,250,a,"setStart(first)"):j(a),this.setTitle()}setTitle(){let t=this.current-this.start+1,e=`${Object(d.a)("label:l4")} <em>${this.query}</em> (${t} ${Object(d.a)("label:l5")} ${this.count})`;$(".search-navigator-header-query").html(e)}setPrevious(){if(this.start===this.end)return;let t=this.current-1;t<this.start&&(t=this.end),this.setStart(t)}setNext(){if(this.start===this.end)return;let t=this.current+1;t>this.end&&(t=this.start),this.setStart(t)}showCurrent(){let t=this.hits[this.current].location;v()(document.getElementById(t),{align:{top:.2}})}}function C(t){$(".search-navigator .previous-match").on("click",(function(e){e.preventDefault(),t.setPrevious()})),$(".search-navigator .next-match").on("click",(function(e){e.preventDefault(),t.setNext()})),$(".search-navigator .current-match").on("click",(function(e){e.preventDefault(),t.showCurrent()})),$(".search-navigator .close-window").on("click",(function(t){t.preventDefault(),$(".search-navigator-wrapper").addClass("hide-search-navigator"),$(".transcript").removeClass("search-navigator-active"),function(){let t=document.querySelectorAll("mark.show-mark");for(let e of t)e.outerHTML=e.innerHTML}()}))}function O(t){let e=Object(c.a)("srchResults");if(!e)return void w.a.warning(Object(d.a)("notify:n9"));let a=x.genPageKey(),n=a.toString(10),o=x.decodeKey(a).bookId,i=e.titleArray[o];if(!e.pageInfo[a])return void w.a.warning(`${Object(d.a)("notify:n10")} ${t}`);let r,s=function(t,e,a){let n={current:-1,prev:-1,start:-1,end:-1,next:-1},o=!1;for(let i=0;i<a.length;i++)if(a[i].key===e)a[i].location===t&&(n.current=i),o?n.end=i:(n.start=i,n.end=i,o=!0,i>0&&(n.prev=i-1));else if(o){n.next=i;break}return n}(t,n,e.flat);if(-1===s.current)return void w.a.warning(`${Object(d.a)("notify:n10")} ${t}`);s.prev>-1?(r=`${I}${e.flat[s.prev].url}?srch=${e.flat[s.prev].location}`,$(".search-navigator .previous-page").attr("href",r)):$(".search-navigator .previous-page").addClass("inactive"),s.next>-1?(r=`${I}${e.flat[s.next].url}?srch=${e.flat[s.next].location}`,$(".search-navigator .next-page").attr("href",r)):$(".search-navigator .next-page").addClass("inactive"),s.start===s.end&&($(".search-navigator .previous-match").addClass("inactive"),$(".search-navigator .next-match").addClass("inactive")),$(".search-navigator-header-book").text(`${i} - ${e.pageInfo[a].title}`);let l=new z(e.query,s.start,s.end,e.flat);l.setStart(s.current,!0);let p=function(t,e,a,n,o){let i=0,r=new RegExp("(?:^|(?=[a-pr-uwy-zA-PR-UWY-ZąćęłńóśźżĄĆĘŁŃÓŚŹŻ]))("+n+")(?:$|\\b|)","gim");for(let s=e;s<=a;s++){let e=t[s].location,a=document.getElementById(e);if(!a){i++;continue}let l=a.innerHTML;if(l=l.replace(/[\r\n]/gm," "),a.innerHTML="show"===o?l.replace(r,"<mark class='show-mark'>$1</mark>"):l.replace(r,"<mark class='hide-mark'>$1</mark>"),a.innerHTML===l){let t=a.textContent;t=t.replace(/[\r\n]/gm," ");let n=l.indexOf("</span>");if(n>-1){let i=l.substring(0,n+7);t=t.replace(`(${e})`,i),"show"===o?(a.innerHTML=t.replace(r,"<mark class='show-mark'>$1</mark>"),console.log(l),console.log(t)):a.innerHTML=t.replace(r,"<mark class='hide-mark'>$1</mark>")}}a.innerHTML===l&&(console.log('Regex did not match: "%s" for %s',n,e),i++)}return i}(e.flat,s.start,s.end,e.query,"show");p&&w.a.info(`${Object(d.a)("notify:n11")} ${p} ${Object(d.a)("notify:n12")}`),C(l),$(".transcript").addClass("search-navigator-active"),$(".search-navigator-wrapper").removeClass("hide-search-navigator")}const q=Symbol("searching"),S=Symbol("search_result"),T=Symbol("search_error"),D=Symbol("saved_search");function L(t,e,a,n){switch(t){case q:$("#search .ui.icon.input").addClass("loading"),$("#search input").attr("disabled",!0),$(".ui.search.message").addClass("purple"),$(".search-message.header").text(Object(d.a)("search:s1")),$(".search-message-body").html(`<p>${Object(d.a)("search:s2")} <em>${a}</em></p>`);break;case D:$(".search-message.header").text(Object(d.a)("label:l6")),$(".search-message-body").html(`<p>${Object(d.a)("search:s3")} <em>${a}</em> ${Object(d.a)("search:s4")} <em>${e}</em> ${Object(d.a)("search:s5")} ${n} ${Object(d.a)("search:s6")}</p>`);break;case S:$("#search .ui.icon.input").removeClass("loading"),$("#search input").attr("disabled",!1),$(".ui.search.message").removeClass("purple").removeClass("negative"),n>0&&$("#search input").val(""),$(".search-message.header").text(Object(d.a)("search:s7")),$(".search-message-body").html(`<p>${Object(d.a)("search:s3")} <em>${a}</em> ${Object(d.a)("search:s5")} ${n} ${Object(d.a)("search:s7")}</p>`);break;case T:$("#search .ui.icon.input").removeClass("loading"),$("#search input").attr("disabled",!1),$(".ui.search.message").removeClass("purple").addClass("negative"),$(".search-message.header").text(Object(d.a)("search:s8")),$(".search-message-body").html(`<p>${e}</p>`)}}async function K(t){let e={source:"pwom",query:t,width:30};try{let t=await(a=e,new Promise((t,e)=>{o.a.post(i.a.search,a).then(e=>{t(e.data)}).catch(t=>{console.error("search error: %o",t),e(t)})}));L(S,"",`"${t.queryTransformed}"`,t.count),t.count>0?b(t,t.queryTransformed):w.a.info(`${Object(d.a)("search:s3")} "${t.queryTransformed}" ${Object(d.a)("search:s9")}`),document.getElementById("search-input-field").focus()}catch(t){console.error("search error: %o",t),L(T,t.message)}var a}function P(){let t=Object(g.f)();t&&O(t)}function E(){$(".search.ui.modal").modal({dimmerSettings:{opacity:.5},observeChanges:!0,onShow:function(){0===$(".cmi-search-list > h3").length&&function(){const t=Object(c.a)("srchResults");if(!t)return;const e=u.getBooks();let a="";for(let n of e)t.data[n]&&(a+=h(n,t.titleArray,t.pageInfo,t.data[n]));$(".cmi-search-list").html(a),$(".search-message.header").text(Object(d.a)("search:s11")),$(".search-message-body").html(`<p>${Object(d.a)("search:s3")} <em>${t.query}</em> ${Object(d.a)("search:s5")} ${t.count} ${Object(d.a)("search:s6")}</p>`),$("#search-results-header").html(`: <em>${t.query}</em>`)}()}}),$(".search-modal-open").on("click",t=>{t.preventDefault(),$(".search.ui.modal").modal("show")}),$("#search").submit((function(t){t.preventDefault();var e=$("#search .source").text(),a=$("#search input").val();0!==a.length&&(L(q,e,a),K(a))}))}e.a={initialize:function(){$(".transcript").length&&P(),E()}}},58:function(t,e,a){"use strict";var n=a(83),o=a.n(n),i=a(84),r=a.n(i);function s(t,e){let a=t.filter(t=>{if("!"===t.element[0])return t.element=t.element.substring(1),!0;let e=t.element.substring(1),a=document.getElementById(e);return!!a&&null!==a.offsetParent});if(0===a.length)return;e||(e={allowClose:!1,opacity:.5});const n=new r.a(e);n.defineSteps(a),n.start()}var l=a(16),c=a.n(l),p=a(12),d=a(2);function u(){$("#help-menu").on("click","div.item",(function(t){t.preventDefault(),$(this).hasClass("page-tour")&&function(){const t=new o.a({allowClose:!1,opacity:.5,doneBtnText:"Skończone",closeBtnText:"Zamknąć",nextBtnText:"Kolejny",prevBtnText:"Poprzedni"});t.defineSteps([{element:"#source-homepage",popover:{title:"Droga Mistrzostwa",description:"Oto główna strona wszystkich nauk <em>Drogi Mistrzostwa</em> umieszczonych w niniejszej Bibliotece. Trzy książki posiadają ścieżkę dźwiekową i można je czytać jednocześnie słuchając.<br><br>Kliknij na obrazek książki, aby zobaczyć spis treści&hellip;",position:"bottom"}},{element:"#book-woh",popover:{title:"Droga Serca",description:"Pierwsza z trzech książek, które tworzą trzyletni proces duchowej ścieżki przebudzenia.",position:"top"}},{element:"#book-wot",popover:{title:"Droga Przemiany",description:"Drugi rok comiesięcznych lekcji prowadzących do przemiany serca i umysłu.",position:"top"}},{element:"#book-wok",popover:{title:"Droga Poznania",description:"Ostatni tom, który zamyka trylogię <em>Drogi Mistrzostwa</em>.",position:"top"}},{element:"#book-lj",popover:{title:"Listy Jeszuy",description:"Opowieść Jayema o pojawieniu się Jeszuy w jego życiu i danych mu naukach nazwanych Listami Jeszuy.",position:"top"}},{element:"#book-wos",popover:{title:"Droga Sługi",description:"Poetycki opis podróży przebudzenia, od narodzenia do rozpoznania siebie jako sługi, który kroczy przebudzony w służbie dla wszystkich swych sióstr i braci.",position:"top"}},{element:"#book-early",popover:{title:"Wczesne lata",description:"Zbiór przesłań danych przed powstaniem <em>Drogi Serca</em>, pierwszej części trylogii <em>Drogi Mistrzostwa</em>.",position:"top"}}]),t.start()}(),$(this).hasClass("page-navtour")&&s([{element:"#masthead-title",popover:{title:"Nawigacja i funkcjonalności",description:"Droga Mistrzostwa jest częśćią Biblioteki Nauk Umysłu Chrystusa. Na każdej stronie możesz kliknąć w tym miejscu, aby wyświetlić główną stronę Biblioteki z wszystkimi dostępnymi naukami.",position:"bottom"}},{element:"#page-menu",popover:{title:"Menu",description:"To jest menu strony. Jest ono zawsze widoczne i dostępne, gdy przewijasz stronę w dół czytając lub przeszukując tekst. Menu na innych stronach jest podobne, lecz może mieć dodatkowe funkcjonalności.",position:"bottom"}},{element:"#bookmark-dropdown-menu",popover:{title:"Lista zakładek",description:"Wyświetl listę zakładek, jakie utworzyłeś i opcjonalnie możesz je filtrować tematami. Możesz szybko przejść do dowolnej zakładki. Możesz dowiedzieć się więcej o zakładkach z instrukcji wideo.",position:"bottom"}},{element:"#search-modal-open",popover:{title:"Szukaj we wszystkich książkach",description:"Możesz wyszukiwać interesujące cię tematy we wszystkich książkach Drogi Mistrzostwa.",position:"bottom"}},{element:"#quick-links-dropdown-menu",popover:{title:"Przejdź do innych nauk Biblioteki",description:"Szybko przejdź do innych nauk zebranych w Bibliotece.",position:"bottom"}},{element:"#help-menu",popover:{title:"Pomoc oraz informacje",description:"Dowiedz się więcej na temat nauk oraz funkcjonalności strony.",position:"bottom"}},{element:"#login-guest-menu-option",popover:{title:"Zaloguj się/Załóż konto",description:"Załóż konto i zaloguj się do strony. Konto jest darmowe i pozwala tworzyć własne zakładki ( zaznaczone fragmenty tekstu). Możesz dzielić się tak utworzonymi zakładkami na Facebooku.",position:"left"}},{element:"#login-account-menu-option",popover:{title:"Zaloguj się/Załóż konto",description:"Załóż konto i zaloguj się do strony. Konto jest darmowe i pozwala tworzyć własne zakładki ( zaznaczone fragmenty tekstu). Możesz dzielić się tak utworzonymi zakładkami na Facebooku.",position:"left"}}],{allowClose:!1,opacity:.5,doneBtnText:"Skończone",closeBtnText:"Zamknąć",nextBtnText:"Kolejny",prevBtnText:"Poprzedni"}),$(this).hasClass("transcript-tour")&&function(){let t=[];t.push({element:"#masthead-title",popover:{title:"Bibliotek Nauk Umysłu Chrystusa",description:"Ta strona jest częścią Biblioteki Nauk Umysłu Chrystusa. Kliknij ten link, aby przejść do strony głównej Biblioteki.",position:"bottom"}}),t.push({element:"#src-title",popover:{title:"Droga Mistrzostwa",description:"Ta strona pochodzi z Drogi Mistrzostwa. Kliknij ten link, aby przejść do strony głównej Drogi Mistrzostwa.",position:"bottom"}}),t.push({element:"#book-title",popover:{title:"Tytuł książki",description:"To identyfikuje książkę i rozdział treści z tej strony.",position:"bottom"}}),t.push({element:"#bookmark-dropdown-menu",popover:{title:"Zakładki",description:"Możesz utworzyć zakładkę z zakreślonego tekstu i powiązać ją z jedną lub z większą liczbą kategorii.",position:"right"}}),t.push({element:"#search-modal-open",popover:{title:"Szukaj we wszystkich książkach",description:"Znajdź interesujące cię tematy, przeszukując wszystkie książki Drogi Mistrzostwa.",position:"bottom"}}),t.push({element:"#audio-player-menu-option",popover:{title:"Posłuchaj nagrania audio",description:"Kliknij ikonę głośnika, aby wyświetlić odtwarzacz audio. Możesz czytać tekst jednocześnie go słuchając.",position:"bottom"}}),t.push({element:"#pnum-toggle-menu-option",popover:{title:"Pokaż/Ukryj znaczniki akapitów.",description:"Pokaż lub ukryj znaczniki, które poprzedzają każdy akapit.",position:"bottom"}}),t.push({element:"#jump-to-top-menu-option",popover:{title:"Idź na górę strony",description:"Przejdź szybko na górę strony.",position:"bottom"}}),t.push({element:"#contents-modal-open",popover:{title:"Spis treści",description:"Zobacz spis treści.",position:"bottom"}}),t.push({element:"#toc-previous-page",popover:{title:"Poprzednia strona",description:"Idź do poprzedniej strony. Zostanie to wyłączone, kiedy pierwsza strona zostanie wyświetlona.",position:"bottom"}}),t.push({element:"#toc-next-page",popover:{title:"Następna strona",description:"Idź do następnej strony. Zostanie to wyłączone, kiedy ostatnia strona zostanie wyświetlona.",position:"bottom"}}),t.push({element:"#quick-links-dropdown-menu",popover:{title:"Przejdź do kolejnych nauk",description:"Szybko przejdź do kolejnych nauk Biblioteki.",position:"bottom"}}),t.push({element:"#about-dropdown-menu",popover:{title:"Pomoc",description:"Dowiedz się, jak używać funkcjonalności Biblioteki.",position:"bottom"}}),$("#login-guest-menu-option").hasClass("hide")||t.push({element:"#login-guest-menu-option",popover:{title:"Zaloguj się/Wyloguj się",description:"Utwórz konto i zaloguj lub wyloguj się. Kiedy się zalogujesz, zakładki, które utworzysz, będą dostępne na wszystkich urządzeniach, jakich używasz do łączenia się z Biblioteką w internecie.",position:"bottom"}}),$("#login-account-menu-option").hasClass("hide")||t.push({element:"#login-account-menu-option",popover:{title:"Zaloguj się/Wyloguj się",description:"Utwórz konto i zaloguj lub wyloguj się. Kiedy się zalogujesz, zakładki, które utworzysz, będą dostępne na wszystkich urządzeniach, jakich używasz do łączenia się z Biblioteką w internecie.",position:"bottom"}}),s(t,{allowClose:!1,opacity:.5,doneBtnText:"Skończone",closeBtnText:"Zamknąć",nextBtnText:"Kolejny",prevBtnText:"Poprzedni"})}(),$(this).hasClass("about-src")&&(location.href="/about/"),$(this).hasClass("read-documentation")&&(location.href="/acq/quick/"),$(this).hasClass("view-documentation")&&(location.href="/acq/video/"),$(this).hasClass("polish-documentation")&&(location.href="/t/pwom/acq/video/"),$(this).hasClass("contact-me")&&(location.href="/t/pwom/acq/contact/")})),$(".login-menu-option-account").on("click","div.item",(function(t){$(this).hasClass("profile-management")&&(location.href="/profile/email/"),$(this).hasClass("topic-management")&&(location.href="/profile/topicMgt/")})),$("#quick-links").on("click","div.item",(function(t){t.preventDefault();let e=$(this).attr("data-href");location.href=e}))}e.a={initialize(){if(u(),$(".copy-page-key").length>0){let t=c.a.genPageKey();$(".copy-page-key").attr("data-clipboard-text",t).text(`${Object(d.a)("label:key")}: ${t}`),p.a.register(".copy-page-key")}}}},7:function(t,e,a){"use strict";var n=a(10);const o=a(16);let i="pwom";e.a={env:"integration",lang:"pl",sid:i,title:"Droga Mistrzostwa",url_prefix:"/t/pwom",getPageInfo:n.d,keyInfo:o,sourceId:16,quoteManagerId:"3f7f14c0d7a13eb2e5a05f3c981f33fb",quoteManagerName:"CMI",audioBase:"https://s3.amazonaws.com/assets.christmind.info/pwom/audio",searchEndpoint:"https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/latest/pwom",store:{bmList:"bm.list",bmCreation:"bm.creation",bmTopics:"bm.topics",bmModal:"bm.modal",srchResults:"srch.results",pnDisplay:"pn.display",cfgacq:"cfg.acq",cfgwoh:"cfg.woh",cfgwot:"cfg.wot",cfgwok:"cfg.wok",cfgwos:"cfg.wos",cfglj:"cfg.lj",cfgearly:"cfg.early",cfgearly2:"cfg.early2"}}},86:function(t,e){t.exports={sourceId:16,sid:"pwom",prefix:"/t/pwom",books:["lj","wos","woh","wot","wok","early","early2","acq"],bookIds:["xxx","lj","wos","woh","wot","wok","early","early2","acq"],contents:{lj:["xxx","acknow","reader","forwd","intr","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","eplg"],wos:["xxx","intr","chap01","chap02","chap03","chap04","aftwrd","eplg","prayer"],woh:["xxx","preface","l01","l02","l03","l04","l05","l06","l07","l08","l09","l10","l11","l12"],woh2:["xxx","/l01qa","/l02qa","/l06qa","/l07qa","/l08qa","/l09qa","/l10qa","/l11qa","/l12qa"],wot:["xxx","preface","l01","l02","l03","l04","l05","l06","l07","l08","l09","l10","l11","l12"],wot2:["xxx","/l01qa","/l06qa","/l07qa","/l09qa","/l11qa"],wok:["xxx","preface","l01","l02","l03","l04","l05","l06","l07","l08","l09","l10","l11"],wok2:["xxx","/l02qa","/l03qa","/l04qa","/l06qa","/l10qa"],early:["xxx","intr","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10"],early2:["xxx","/chap01qa","/chap02qa","/chap03qa","/chap08qa","/chap09qa"],early2:["xxx","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09"],early22:["xxx","/chap01qa"],acq:["xxx","path","advice","video","contact"]}}},87:function(t,e,a){const n=a(134).sprintf,o=["preface","text","workbook","manual","acq"],i=["xxx",...o],r={acq:["xxx","welcome","acim","web","raj"],preface:["xxx","preface"],text:["xxx","chap0100","chap0101","chap0102","chap0200","chap0201","chap0202","chap0203","chap0204","chap0205","chap0300","chap0301","chap0302","chap0303","chap0304","chap0305","chap0306","chap0307","chap0308","chap0400","chap0401","chap0402","chap0403","chap0404","chap0405","chap0406","chap0407","chap0408","chap0500","chap0501","chap0502","chap0503","chap0504","chap0505","chap0506","chap0507","chap0508","chap0600","chap0601","chap0602","chap0603","chap0604","chap0700","chap0701","chap0702","chap0703","chap0704","chap0705","chap0706","chap0707","chap0708","chap0709","chap0710","chap0711","chap0800","chap0801","chap0802","chap0803","chap0804","chap0805","chap0806","chap0807","chap0808","chap0809","chap0810","chap0900","chap0901","chap0902","chap0903","chap0904","chap0905","chap0906","chap0907","chap0908","chap0909","chap0910","chap1000","chap1001","chap1002","chap1003","chap1004","chap1005","chap1006","chap1007","chap1100","chap1101","chap1102","chap1103","chap1104","chap1105","chap1106","chap1107","chap1108","chap1109","chap1200","chap1201","chap1202","chap1203","chap1204","chap1205","chap1206","chap1300","chap1301","chap1302","chap1303","chap1304","chap1305","chap1306","chap1307","chap1308","chap1400","chap1401","chap1402","chap1403","chap1404","chap1405","chap1406","chap1500","chap1501","chap1502","chap1503","chap1504","chap1505","chap1506","chap1507","chap1508","chap1509","chap1510","chap1600","chap1601","chap1602","chap1603","chap1604","chap1605","chap1606","chap1607","chap1700","chap1701","chap1702","chap1703","chap1704","chap1705","chap1706","chap1707","chap1708","chap1800","chap1801","chap1802","chap1803","chap1804","chap1805","chap1806","chap1807","chap1808","chap1809","chap1810","chap1900","chap1901","chap1902","chap1903","chap1904","chap1905","chap1906","chap1907","chap1908","chap1909","chap1910","chap1911","chap2000","chap2001","chap2002","chap2003","chap2004","chap2005","chap2006","chap2007","chap2008","chap2100","chap2101","chap2102","chap2103","chap2104","chap2105","chap2106","chap2107","chap2108","chap2200","chap2201","chap2202","chap2203","chap2204","chap2205","chap2206","chap2300","chap2301","chap2302","chap2303","chap2304","chap2400","chap2401","chap2402","chap2403","chap2404","chap2405","chap2406","chap2407","chap2500","chap2501","chap2502","chap2503","chap2504","chap2505","chap2506","chap2507","chap2508","chap2509","chap2600","chap2601","chap2602","chap2603","chap2604","chap2605","chap2606","chap2607","chap2608","chap2609","chap2610","chap2700","chap2701","chap2702","chap2703","chap2704","chap2705","chap2706","chap2707","chap2708","chap2800","chap2801","chap2802","chap2803","chap2804","chap2805","chap2806","chap2807","chap2900","chap2901","chap2902","chap2903","chap2904","chap2905","chap2906","chap2907","chap2908","chap2909","chap3000","chap3001","chap3002","chap3003","chap3004","chap3005","chap3006","chap3007","chap3008","chap3100","chap3101","chap3102","chap3103","chap3104","chap3105","chap3106","chap3107"],workbook:["xxx","introp1","l001","l002","l003","l004","l005","l006","l007","l008","l009","l010","l011","l012","l013","l014","l015","l016","l017","l018","l019","l020","l021","l022","l023","l024","l025","l026","l027","l028","l029","l030","l031","l032","l033","l034","l035","l036","l037","l038","l039","l040","l041","l042","l043","l044","l045","l046","l047","l048","l049","l050","review1","l051","l052","l053","l054","l055","l056","l057","l058","l059","l060","l061","l062","l063","l064","l065","l066","l067","l068","l069","l070","l071","l072","l073","l074","l075","l076","l077","l078","l079","l080","review2","l081","l082","l083","l084","l085","l086","l087","l088","l089","l090","l091","l092","l093","l094","l095","l096","l097","l098","l099","l100","l101","l102","l103","l104","l105","l106","l107","l108","l109","l110","review3","l111","l112","l113","l114","l115","l116","l117","l118","l119","l120","l121","l122","l123","l124","l125","l126","l127","l128","l129","l130","l131","l132","l133","l134","l135","l136","l137","l138","l139","l140","review4","l141","l142","l143","l144","l145","l146","l147","l148","l149","l150","l151","l152","l153","l154","l155","l156","l157","l158","l159","l160","l161","l162","l163","l164","l165","l166","l167","l168","l169","l170","review5","l171","l172","l173","l174","l175","l176","l177","l178","l179","l180","intro181","l181","l182","l183","l184","l185","l186","l187","l188","l189","l190","l191","l192","l193","l194","l195","l196","l197","l198","l199","l200","review6","l201","l202","l203","l204","l205","l206","l207","l208","l209","l210","l211","l212","l213","l214","l215","l216","l217","l218","l219","l220","introp2","forgiveness","l221","l222","l223","l224","l225","l226","l227","l228","l229","l230","salvation","l231","l232","l233","l234","l235","l236","l237","l238","l239","l240","world","l241","l242","l243","l244","l245","l246","l247","l248","l249","l250","sin","l251","l252","l253","l254","l255","l256","l257","l258","l259","l260","body","l261","l262","l263","l264","l265","l266","l267","l268","l269","l270","christ","l271","l272","l273","l274","l275","l276","l277","l278","l279","l280","holyspirit","l281","l282","l283","l284","l285","l286","l287","l288","l289","l290","realworld","l291","l292","l293","l294","l295","l296","l297","l298","l299","l300","secondcoming","l301","l302","l303","l304","l305","l306","l307","l308","l309","l310","lastjudgement","l311","l312","l313","l314","l315","l316","l317","l318","l319","l320","creation","l321","l322","l323","l324","l325","l326","l327","l328","l329","l330","ego","l331","l332","l333","l334","l335","l336","l337","l338","l339","l340","miracle","l341","l342","l343","l344","l345","l346","l347","l348","l349","l350","whatami","l351","l352","l353","l354","l355","l356","l357","l358","l359","l360","final","l361","epilog"],manual:["xxx","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","chap16","chap17","chap18","chap19","chap20","chap21","chap22","chap23","chap24","chap25","chap26","chap27","chap28","chap29","chap30","chap31"]};function s(){return{sourceId:12,keyLength:7}}function l(t){const e={sourceId:12,keyLength:7};let a=t,n=0;"number"==typeof a&&(a=t.toString(10));let o=a.indexOf(".");if(o>-1){let t=a.substr(o+1);switch(t.length){case 1:t+="00";break;case 2:t+="0"}n=parseInt(t,10)}return{pid:n,pageKey:parseInt(a.substr(0,e.keyLength),10)}}function c(t=location.pathname){let e={sid:12,bid:0,uid:0},a=function(t){let e=t;return e=t.substr(1),"/"===e[e.length-1]&&(e=e.substr(0,e.length-1)),e.split("/")}(t);if(e.bid=i.indexOf(a[2]),-1===e.bid)return-1;if(e.uid=function(t,e,a,n,o){if(o&&(n=o),r[a])return r[a].indexOf(n);throw new Error("unexpected bookId: "+a)}(...a),-1===e.uid)return-1;let o=n("%02s%01s%04s",e.sid,e.bid,e.uid);return parseInt(o,10)}function p(t){let{pid:e,pageKey:a}=l(t),n=a.toString(10),o={error:!1,message:"ok",sid:0,bookId:"",uid:0,pid:e-1};if(7!==n.length)return o.error=!0,o.message="Integer portion of key should have a length of 7, key is: "+n,o;if(o.sid=parseInt(n.substr(0,2),10),12!==o.sid)return o.error=!0,o.message=`Invalid sourceId: ${o.sid}, expecting: 12`,o;let r=parseInt(n.substr(2,1),10);return o.bookId=i[r],o.uid=parseInt(n.substr(3,4),10),o}t.exports={getNumberOfUnits:function(t){if(r[t])return r[t].length-1;throw new Error("getNumberOfUnits() unexpected bookId: "+t)},getBooks:function(){return o},getSourceId:function(){return 12},getKeyInfo:s,parseKey:l,genPageKey:c,genParagraphKey:function(t,e=location.pathname){let a,n=e;return a="string"==typeof t?(parseInt(t.substr(1),10)+1)/1e3:(t+1)/1e3,"string"==typeof e&&(n=c(e)),n+a},decodeKey:p,getUrl:function(t,e=!1){let a=p(t),n="invalid";if(a.error)return"/invalid/key/";if(r[a.bookId]&&(n=r[a.bookId][a.uid],"text"===a.bookId)){let t=n.substr(4,2);n=`${t}/${n}`}return e?`/t/acim/${a.bookId}/${n}/`:`/${a.bookId}/${n}/`},describeKey:function(t){let e=p(t);if(e.error)return{key:t,error:!0,source:"acim"};let a={key:t,source:"acim",book:e.bookId,unit:r[e.bookId][e.uid]};return e.pid>-1&&(a.pid="p"+e.pid),a}}},88:function(t,e,a){const n=a(135).sprintf,o=["text","workbook","manual","acq"],i=["xxx",...o],r={acq:["xxx","welcome","acim","cims","formats","contact","timers"],text:["xxx","forward","intro","chap0101","chap0102","chap0201","chap0202","chap0203","chap0204","chap0205","chap0206","chap0301","chap0302","chap0303","chap0304","chap0305","chap0306","chap0307","chap0308","chap0309","chap0401","chap0402","chap0403","chap0404","chap0405","chap0406","chap0407","chap0408","chap0409","chap0501","chap0502","chap0503","chap0504","chap0505","chap0506","chap0507","chap0508","chap0509","chap0601","chap0602","chap0603","chap0604","chap0605","chap0701","chap0702","chap0703","chap0704","chap0705","chap0706","chap0707","chap0708","chap0709","chap0710","chap0711","chap0712","chap0801","chap0802","chap0803","chap0804","chap0805","chap0806","chap0807","chap0808","chap0809","chap0810","chap0811","chap0901","chap0902","chap0903","chap0904","chap0905","chap0906","chap0907","chap0908","chap0909","chap0910","chap0911","chap1001","chap1002","chap1003","chap1004","chap1005","chap1006","chap1007","chap1008","chap1101","chap1102","chap1103","chap1104","chap1105","chap1106","chap1107","chap1108","chap1109","chap1110","chap1201","chap1202","chap1203","chap1204","chap1205","chap1206","chap1207","chap1301","chap1302","chap1303","chap1304","chap1305","chap1306","chap1307","chap1308","chap1309","chap1401","chap1402","chap1403","chap1404","chap1405","chap1406","chap1407","chap1501","chap1502","chap1503","chap1504","chap1505","chap1506","chap1507","chap1508","chap1509","chap1510","chap1511","chap1601","chap1602","chap1603","chap1604","chap1605","chap1606","chap1607","chap1608","chap1701","chap1702","chap1703","chap1704","chap1705","chap1706","chap1707","chap1708","chap1709","chap1801","chap1802","chap1803","chap1804","chap1805","chap1806","chap1807","chap1808","chap1809","chap1810","chap1811","chap1901","chap1902","chap1903","chap1904","chap1905","chap2001","chap2002","chap2003","chap2004","chap2005","chap2006","chap2007","chap2008","chap2009","chap2101","chap2102","chap2103","chap2104","chap2105","chap2106","chap2107","chap2108","chap2109","chap2201","chap2202","chap2203","chap2204","chap2205","chap2206","chap2207","chap2301","chap2302","chap2303","chap2304","chap2305","chap2401","chap2402","chap2403","chap2404","chap2405","chap2406","chap2407","chap2408","chap2501","chap2502","chap2503","chap2504","chap2505","chap2506","chap2507","chap2508","chap2509","chap2510","chap2601","chap2602","chap2603","chap2604","chap2605","chap2606","chap2607","chap2608","chap2609","chap2610","chap2611","chap2701","chap2702","chap2703","chap2704","chap2705","chap2706","chap2707","chap2708","chap2709","chap2801","chap2802","chap2803","chap2804","chap2805","chap2806","chap2807","chap2808","chap2901","chap2902","chap2903","chap2904","chap2905","chap2906","chap2907","chap2908","chap2909","chap2910","chap3001","chap3002","chap3003","chap3004","chap3005","chap3006","chap3007","chap3008","chap3009","chap3101","chap3102","chap3103","chap3104","chap3105","chap3106","chap3107","chap3108"],workbook:["xxx","introp1","l001","l002","l003","l004","l005","l006","l007","l008","l009","l010","l011","l012","l013","l014","l015","l016","l017","l018","l019","l020","l021","l022","l023","l024","l025","l026","l027","l028","l029","l030","l031","l032","l033","l034","l035","l036","l037","l038","l039","l040","l041","l042","l043","l044","l045","l046","l047","l048","l049","l050","review1","l051","l052","l053","l054","l055","l056","l057","l058","l059","l060","l061","l062","l063","l064","l065","l066","l067","l068","l069","l070","l071","l072","l073","l074","l075","l076","l077","l078","l079","l080","review2","l081","l082","l083","l084","l085","l086","l087","l088","l089","l090","l091","l092","l093","l094","l095","l096","l097","l098","l099","l100","l101","l102","l103","l104","l105","l106","l107","l108","l109","l110","review3","l111","l112","l113","l114","l115","l116","l117","l118","l119","l120","l121","l122","l123","l124","l125","l126","l127","l128","l129","l130","l131","l132","l133","l134","l135","l136","l137","l138","l139","l140","review4","l141","l142","l143","l144","l145","l146","l147","l148","l149","l150","l151","l152","l153","l154","l155","l156","l157","l158","l159","l160","l161","l162","l163","l164","l165","l166","l167","l168","l169","l170","review5","l171","l172","l173","l174","l175","l176","l177","l178","l179","l180","intro181","l181","l182","l183","l184","l185","l186","l187","l188","l189","l190","l191","l192","l193","l194","l195","l196","l197","l198","l199","l200","review6","l201","l202","l203","l204","l205","l206","l207","l208","l209","l210","l211","l212","l213","l214","l215","l216","l217","l218","l219","l220","introp2","forgiveness","l221","l222","l223","l224","l225","l226","l227","l228","l229","l230","salvation","l231","l232","l233","l234","l235","l236","l237","l238","l239","l240","world","l241","l242","l243","l244","l245","l246","l247","l248","l249","l250","sin","l251","l252","l253","l254","l255","l256","l257","l258","l259","l260","body","l261","l262","l263","l264","l265","l266","l267","l268","l269","l270","christ","l271","l272","l273","l274","l275","l276","l277","l278","l279","l280","holyspirit","l281","l282","l283","l284","l285","l286","l287","l288","l289","l290","realworld","l291","l292","l293","l294","l295","l296","l297","l298","l299","l300","secondcoming","l301","l302","l303","l304","l305","l306","l307","l308","l309","l310","lastjudgement","l311","l312","l313","l314","l315","l316","l317","l318","l319","l320","creation","l321","l322","l323","l324","l325","l326","l327","l328","l329","l330","ego","l331","l332","l333","l334","l335","l336","l337","l338","l339","l340","miracle","l341","l342","l343","l344","l345","l346","l347","l348","l349","l350","whatami","l351","l352","l353","l354","l355","l356","l357","l358","l359","l360","final","l361","l362","l363","l364","l365","epilog"],manual:["xxx","intro","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","chap16","chap17","chap18","chap19","chap20","chap21","chap22","chap23","chap24","chap25","chap26","chap27","chap28","chap29"]};function s(t,e,a,n,o){if(o&&(n=o),r[a])return r[a].indexOf(n);throw new Error("unexpected bookId: "+a)}function l(){return{sourceId:15,keyLength:7}}function c(t){const e={sourceId:15,keyLength:7};let a=t,n=0;"number"==typeof a&&(a=t.toString(10));let o=a.indexOf(".");if(o>-1){let t=a.substr(o+1);switch(t.length){case 1:t+="00";break;case 2:t+="0"}n=parseInt(t,10)}return{pid:n,pageKey:parseInt(a.substr(0,e.keyLength),10)}}function p(t=location.pathname){let e={sid:15,bid:0,uid:0},a=function(t){let e=t;return e=t.substr(1),"/"===e[e.length-1]&&(e=e.substr(0,e.length-1)),e.split("/")}(t);if(e.bid=i.indexOf(a[2]),-1===e.bid)return-1;if(e.uid=s(...a),-1===e.uid)return-1;let o=n("%02s%01s%04s",e.sid,e.bid,e.uid);return parseInt(o,10)}function d(t){let{pid:e,pageKey:a}=c(t),n=a.toString(10),o={error:!1,message:"ok",sid:0,bookId:"",uid:0,pid:e-1};if(7!==n.length)return o.error=!0,o.message="Integer portion of key should have a length of 7, key is: "+n,o;if(o.sid=parseInt(n.substr(0,2),10),15!==o.sid)return o.error=!0,o.message=`Invalid sourceId: ${o.sid}, expecting: 15`,o;let r=parseInt(n.substr(2,1),10);return o.bookId=i[r],o.uid=parseInt(n.substr(3,4),10),o}t.exports={getNumberOfUnits:function(t){if(r[t])return r[t].length-1;throw new Error("getNumberOfUnits() unexpected bookId: "+t)},getBooks:function(){return o},getSourceId:function(){return 15},getKeyInfo:l,parseKey:c,getUnitId:s,genPageKey:p,genParagraphKey:function(t,e=location.pathname){let a,n=e;return a="string"==typeof t?(parseInt(t.substr(1),10)+1)/1e3:(t+1)/1e3,"string"==typeof e&&(n=p(e)),n+a},decodeKey:d,getUrl:function(t,e=!1){let a=d(t),n="invalid";if(a.error)return"/invalid/key/";if(r[a.bookId]&&(n=r[a.bookId][a.uid],"text"===a.bookId)){let t=n.substr(4,2);n=`${t}/${n}`}return e?`/t/acimoe/${a.bookId}/${n}/`:`/${a.bookId}/${n}/`},describeKey:function(t){let e=d(t);if(e.error)return{key:t,error:!0,source:"acimoe"};let a={key:t,source:"acimoe",book:e.bookId,unit:r[e.bookId][e.uid]};return e.pid>-1&&(a.pid="p"+e.pid),a}}},89:function(t,e,a){const n=a(136).sprintf,o=["course","treatise","dialog","acq"],i=["xxx",...o],r={course:["xxx","intro","prelude","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","chap16","chap17","chap18","chap19","chap20","chap21","chap22","chap23","chap24","chap25","chap26","chap27","chap28","chap29","chap30","chap31","chap32","learning1"],treatise:["xxx","t1chap01","t1chap02","t1chap03","t1chap04","t1chap05","t1chap06","t1chap07","t1chap08","t1chap09","t1chap10","t2chap01","t2chap02","t2chap03","t2chap04","t2chap05","t2chap06","t2chap07","t2chap08","t2chap09","t2chap10","t2chap11","t2chap12","t2chap13","t3chap01","t3chap02","t3chap03","t3chap04","t3chap05","t3chap06","t3chap07","t3chap08","t3chap09","t3chap10","t3chap11","t3chap12","t3chap13","t3chap14","t3chap15","t3chap16","t3chap17","t3chap18","t3chap19","t3chap20","t3chap21","t3chap22","t4chap01","t4chap02","t4chap03","t4chap04","t4chap05","t4chap06","t4chap07","t4chap08","t4chap09","t4chap10","t4chap11","t4chap12","learning2"],dialog:["xxx","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","chap16","chap17","day01","day02","day03","day04","day05","day06","day07","day08","day09","day10","day11","day12","day13","day14","day15","day16","day17","day18","day19","day20","day21","day22","day23","day24","day25","day26","day27","day28","day29","day30","day31","day32","day33","day34","day35","day36","day37","day38","day39","day40","epilog","learning3","dialog"],acq:["xxx","welcome","book","access"]};function s(t,e){if(r[t])return r[t].indexOf(e);throw new Error("unexpected bookId: "+t)}function l(){return{sourceId:14,keyLength:7}}function c(t){const e={sourceId:14,keyLength:7};let a=t,n=0;"number"==typeof a&&(a=t.toString(10));let o=a.indexOf(".");if(o>-1){let t=a.substr(o+1);switch(t.length){case 1:t+="00";break;case 2:t+="0"}n=parseInt(t,10)}return{pid:n,pageKey:parseInt(a.substr(0,e.keyLength),10)}}function p(t=location.pathname){let e={sid:14,bid:0,uid:0,qid:0},a=function(t){let e=t;return e=t.substr(1),"/"===e[e.length-1]&&(e=e.substr(0,e.length-1)),e.split("/")}(t);if(e.bid=i.indexOf(a[2]),-1===e.bid)return-1;if(e.uid=s(a[2],a[3]),-1===e.bid)return-1;let o=n("%02s%02s%03s",e.sid,e.bid,e.uid);return parseInt(o,10)}function d(t,e=!0){let{pid:a,pageKey:n}=c(t),o=n.toString(10),r={error:0,message:"ok",sid:14,bookId:"",uid:0,pid:a-1};if(7!==o.length)return r.error=!0,r.message="Integer portion of key should have a length of 7, key is: "+o,r;let s=parseInt(o.substr(2,2),10);return r.bookId=i[s],r.uid=e?parseInt(o.substr(4,3),10)-1:parseInt(o.substr(4,3),10),r}t.exports={getNumberOfUnits:function(t){if(r[t])return r[t].length-1;throw new Error("getNumberOfUnits() unexpected bookId: "+t)},getBooks:function(){return o},getSourceId:function(){return 14},getKeyInfo:l,parseKey:c,getUnitId:s,getUrl:function(t,e=!1){let a=d(t,!1),n="invalid";return a.error?"/invalid/key/":(r[a.bookId]&&(n=r[a.bookId][a.uid]),e?`/t/acol/${a.bookId}/${n}/`:`/${a.bookId}/${n}/`)},genPageKey:p,genParagraphKey:function(t,e=location.pathname){let a,n=e;return a="string"==typeof t?(parseInt(t.substr(1),10)+1)/1e3:(t+1)/1e3,"string"==typeof e&&(n=p(e)),n+a},decodeKey:d,describeKey:function(t){let e=d(t,!1);if(e.error)return{key:t,error:!0,source:"acol"};let a={key:t,source:"acol",book:e.bookId,unit:r[e.bookId][e.uid]};return e.pid>-1&&(a.pid="p"+e.pid),a}}},9:function(t,e,a){"use strict";e.a={acolManager:"rmercer33+acol@gmail.com",cmiUserId:"05399539cca9ac38db6db36f5c770ff1",sources:"/public/config/sources.json",user:"https://kkdlxunoe7.execute-api.us-east-1.amazonaws.com/latest",acol:"https://kkdlxunoe7.execute-api.us-east-1.amazonaws.com/latest/acol/access",search:"https://x5rigstpd2.execute-api.us-east-1.amazonaws.com/latest/search"}},90:function(t,e,a){const n=a(137).sprintf,o=["yaa","grad","sg2002","sg2003","sg2004","sg2005","sg2006","sg2007","sg2008","sg2009","sg2010","sg2011","sg2012","sg2013","sg2014","sg2015","sg2016","sg2017","sg2018","acq"],i=["xxx",...o],r={acq:["xxx","welcome","raj","download","web"],yaa:["xxx","acknowledgments","foreword","020782","020882","020982","021082","021182a","021182b","021282","021382","021482","021682","021782","021882a","021882b","021882c","021982","022082","022182a","022182b","022382a","022382b","022382c","022482","022582","022682a","022682b","022682c","022782","022882","030182a","030182b","030282","030382","030482a","030482b","030582a","030582b","030682a","030682b","030682c","030682d","030682e","030882","030982","031082a","031082b","031082c","031182","031382","031582","031982","032982","033082","042782","042882","042982","043082","050182","050282","050382","050782","050982","051082a","051082b","051082c","051182","051582","051782","052882","053082","060382","061082","061282","061482","061982","062182","afterword"],grad:["xxx","g000002","g000003","g010491","g010591","g011491","g011591","g011691","g011891","g012091","g012591","g012791","g020291","g020591","g020691","g021291","g021391","g021491","g022091","g022591","g030291","g030891","g031491","g031991","g032091","g032191","g032291","g032591","g032991"],sg2002:["xxx","061202","073102","080702","081402","082802","090402","091102","091802","092502","100202","101002","101702","102402","103102","110702","112102","120502","121202","121902"],sg2003:["xxx","010203","010903","011603","012303","020603","021303","022003","022703","030603","031303","032003","032703","040303","041003","042403","050103","051103","051803","052503","060103","060803","061503","062203","062903","070603","071303","072003","072703","080303","081003","081703","082403","083103","090703","091403","092103","092803","101203","101903","102603","110203","110903","111603","112303","120703","121403","122103"],sg2004:["xxx","011104","011804","012504","020104","020804","021504","022204","030704","031404","032804","040404","041104","041804","042504","050204","050904","051604","052304","053004","061304","062004","062704","071104","071804","072504","080104","080804","081504","082204","090504","091204","091904","092604","100304","101004","101704","102404","110704","112104","112804","120504","121204","121904"],sg2005:["xxx","010205","011605","012305","013005","021305","022005","030605","031305","032705","040305","041005","041705","042405","050105","050805","052205","060505","061205","061905","070305","071005","071705","072405","080705","081405","082105","082805","090405","091105","091805","100205","100905","101605","102305","110605","111305","112005","120405","121105","121805"],sg2006:["xxx","010806","011506","012206","012906","021206","022606","030406","031106","031906","040106","041506","042906","050606","052006","052706","060306","061006","061806","062406","070106","071506","073006","080506","081206","082006","090206","090906","092306","100706","101406","102106","102806","111106","111806","120206"],sg2007:["xxx","081807","082507","090907","091607","092207","100607","101407","102707","110307","111007","111807","120807","121607"],sg2008:["xxx","012008","012708","021008","021708","022408","030208","030908","032508","033008","040608","041308","042008","050408","051808","052508","060108","060808","061508","062208","070608","071308","072708","081708","083108","090708","091408","092108","100508","101908","102608","110208","110908","112308"],sg2009:["xxx","010309","011009","011709","012409","020709","022809","031409","032809","040409","041209","042509","050909","052409","053109","060709","061309","062009","071109","071809","072509","080109","080809","082909","090509","091209","091909","092709","101009","102409","103109","111409","112209","112809","120509","121909"],sg2010:["xxx","010210","011610","013010","020610","021310","030610","032010","032710","040310","041010","050110","051510","052910","060510","061210","061910","070310","071010","071710","072410","080710","082810","090410","091110","092510","100210","100910","101610","102310","110610","111310","112010","112710","120410","121810"],sg2011:["xxx","010111","010811","011511","012211","020511","021611","021911","031211","032011","032611","040311","040911","041611","042311","043011","050711","051411","052211","060411","061211","061811","062611","070911","071611","073011","080611","082011","082711","090311","091711","092411","100111","101511","102311","110511","111311","112611","120411","121111","122011"],sg2012:["xxx","010712","012212","020512","021212","021812","032412","033112","040812","041512","042212","042912","051212","052012","060312","061712","072212","072912","080412","081112","081812","082712","090812","091612","092312","093012","100812","101412","102112","110512","111212"],sg2013:["xxx","042713","050413","051113","052013","052813","060213","060913","062513","063013","070713","071413","072113","080413","081113","082513","090113","090813","091513","092313","100613","101513","102013","102713","110313","112413","122213","123013"],sg2014:["xxx","010614","011414","012814","020914","022414","030914","041314","061614","062914","091514"],sg2015:["xxx","041815","042515","050315","050915","051715","060715","061415","062115","062815","070515","071315","072115","080115","082315","091315","100215","102115","110115"],sg2016:["xxx","070316","071616","080216"],sg2017:["xxx","040817","041617","042317","043017","051217","060917","071117","072317","092317","100117","101717","120417"],sg2018:["xxx","013118","031118","081918","082918"]};function s(t,e){if(r[t])return r[t].indexOf(e);throw new Error("unexpected bookId: "+t)}function l(){return{sourceId:13,keyLength:7}}function c(t){const e={sourceId:13,keyLength:7};let a=t,n=0;"number"==typeof a&&(a=t.toString(10));let o=a.indexOf(".");if(o>-1){let t=a.substr(o+1);switch(t.length){case 1:t+="00";break;case 2:t+="0"}n=parseInt(t,10)}return{pid:n,pageKey:parseInt(a.substr(0,e.keyLength),10)}}function p(t=location.pathname){let e={sid:13,bid:0,uid:0,qid:0},a=function(t){let e=t;return e=t.substr(1),"/"===e[e.length-1]&&(e=e.substr(0,e.length-1)),e.split("/")}(t);if(e.bid=i.indexOf(a[2]),-1===e.bid)return-1;if(e.uid=s(a[2],a[3]),-1===e.bid)return-1;let o=n("%02s%02s%03s",e.sid,e.bid,e.uid);return parseInt(o,10)}function d(t){let{pid:e,pageKey:a}=c(t),n=a.toString(10),o={error:0,message:"ok",sid:13,bookId:"",uid:0,pid:e-1};if(7!==n.length)return o.error=!0,o.message="Integer portion of key should have a length of 7, key is: "+n,o;let r=parseInt(n.substr(2,2),10);return o.bookId=i[r],o.uid=parseInt(n.substr(4,3),10)-1,o}t.exports={getNumberOfUnits:function(t){if(r[t])return r[t].length-1;throw new Error("getNumberOfUnits() unexpected bookId: "+t)},getBooks:function(){return o},getUrl:function(t,e=!1){let a=d(t),n="invalid";return a.error?"/invalid/key/":(r[a.bookId]&&(n=r[a.bookId][a.uid+1]),e?`/t/raj/${a.bookId}/${n}/`:`/${a.bookId}/${n}/`)},getSourceId:function(){return 13},getKeyInfo:l,parseKey:c,getUnitId:s,genPageKey:p,genParagraphKey:function(t,e=location.pathname){let a,n=e;return a="string"==typeof t?(parseInt(t.substr(1),10)+1)/1e3:(t+1)/1e3,"string"==typeof e&&(n=p(e)),n+a},decodeKey:d,describeKey:function(t){let e=d(t);if(e.error)return{key:t,error:!0,source:"raj"};let a={key:t,source:"raj",book:e.bookId,unit:r[e.bookId][e.uid+1]};return e.pid>-1&&(a.pid="p"+e.pid),a}}},91:function(t,e,a){const n=a(138).sprintf,o=["til","acq"],i=["xxx",...o],r={acq:["xxx","welcome"],til:["xxx","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","chap16","chap17","chap18","chap18"]};function s(){return{sourceId:11,keyLength:8}}function l(t){const e={sourceId:11,keyLength:8};let a=t,n=0;"number"==typeof a&&(a=t.toString(10));let o=a.indexOf(".");if(o>-1){let t=a.substr(o+1);switch(t.length){case 1:t+="00";break;case 2:t+="0"}n=parseInt(t,10)}return{pid:n,pageKey:parseInt(a.substr(0,e.keyLength),10)}}function c(t=location.pathname){let e={sid:11,bid:0,uid:0,hasQuestions:0,qid:0},a=function(t){let e=t;return e=t.substr(1),"/"===e[e.length-1]&&(e=e.substr(0,e.length-1)),e.split("/")}(t);if(e.bid=i.indexOf(a[2]),-1===e.bid)return-1;if(e.uid=function(t,e){if(r[t])return r[t].indexOf(e);throw new Error("unexpected bookId: "+t)}(a[2],a[3]),-1===e.bid)return-1;5===a.length&&(e.hasQuestions=1,e.qid=parseInt(a[4].substr(1),10));let o=n("%02s%01s%02s%1s%02s",e.sid,e.bid,e.uid,e.hasQuestions,e.qid);return parseInt(o,10)}function p(t){let{pid:e,pageKey:a}=l(t),n=a.toString(10),o={error:0,message:"ok",sid:11,bookId:"",uid:0,hasQuestions:!1,qid:0,pid:e-1};if(8!==n.length)return o.error=!0,o.message="Integer portion of key should have a length of 8, key is: "+n,o;let r=parseInt(n.substr(2,1),10);return o.bookId=i[r],o.uid=parseInt(n.substr(3,2),10)-1,o.hasQuestions="1"===n.substr(5,1),o.qid=parseInt(n.substr(6,2),10)-1,o}t.exports={getNumberOfUnits:function(t){if(r[t])return r[t].length-1;throw new Error("getNumberOfUnits() unexpected bookId: "+t)},getUrl:function(t,e=!1){let a=p(t),n="invalid";return a.error?"/invalid/key/":(r[a.bookId]&&(n=r[a.bookId][a.uid+1]),e?`/t/jsb/${a.bookId}/${n}/`:`/${a.bookId}/${n}/`)},getBooks:function(){return o},getSourceId:function(){return 11},getKeyInfo:s,parseKey:l,genPageKey:c,genParagraphKey:function(t,e=location.pathname){let a,n=e;return a="string"==typeof t?(parseInt(t.substr(1),10)+1)/1e3:(t+1)/1e3,"string"==typeof e&&(n=c(e)),n+a},decodeKey:p,describeKey:function(t){let e=p(t);if(e.error)return{key:t,error:!0,source:"jsb"};let a={key:t,source:"jsb",book:e.bookId,unit:r[e.bookId][e.uid+1]};return e.pid>-1&&(a.pid="p"+e.pid),a}}},92:function(t,e,a){const n=a(139).sprintf,o=["tjl","wos","early","woh","wot","wok","acq","topics"],i=["xxx",...o],r={acq:["xxx","welcome","wom","web"],tjl:["xxx","ack","foreword","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","epilogue"],wos:["xxx","foreword","preface","chap01","chap02","chap03","chap04","afterwords","epilog","prayer"],early:["xxx","ble","c2s","hoe","ign","com","dbc","dth","fem","gar","hea","hoi","hsp","joy1","joy2","lht","moa","mot","wak","wlk","illusions","easter","freedom","purpose","pow","toc","light","peace","perception","seeking","shr","doorway","holyr","teach"],topics:["xxx","jeshua","woh","wohexercises","wot","wotexercises","wok","wokexercises","god","creation","christmind","christ","creator","purpose","forgiveness","selflove","karma"]};function s(t,e){if("woh"===t||"wot"===t||"wok"===t)return n("l%02s",e);if(r[t])return r[t][e];throw new Error("unexpected bookId: "+t)}function l(){return{sourceId:10,keyLength:8}}function c(t){const e={sourceId:10,keyLength:8};let a=t,n=0;"number"==typeof a&&(a=t.toString(10));let o=a.indexOf(".");if(o>-1){let t=a.substr(o+1);switch(t.length){case 1:t+="00";break;case 2:t+="0"}n=parseInt(t,10)}return{pid:n,pageKey:parseInt(a.substr(0,e.keyLength),10)}}function p(t=location.pathname){let e={sid:10,bid:0,uid:0,hasQuestions:0,qid:0},a=function(t){let e=t;return e=t.substr(1),"/"===e[e.length-1]&&(e=e.substr(0,e.length-1)),e.split("/")}(t);if(e.bid=i.indexOf(a[2]),-1===e.bid)return-1;if(e.uid=function(t,e,a=!1){if("woh"===t||"wot"===t||"wok"===t)return parseInt(e.substr(1),10);if(r[t])return r[t].indexOf(e);throw new Error("unexpected bookId: "+t)}(a[2],a[3]),-1===e.bid)return-1;5===a.length&&(e.hasQuestions=1,e.qid=parseInt(a[4].substr(1),10));let o=n("%02s%01s%02s%1s%02s",e.sid,e.bid,e.uid,e.hasQuestions,e.qid);return parseInt(o,10)}function d(t,e=!0){let{pid:a,pageKey:n}=c(t),o=n.toString(10),r={error:0,message:"ok",sid:10,bookId:"",uid:0,hasQuestions:!1,qid:0,pid:a-1};if(8!==o.length)return r.error=!0,r.message="Integer portion of key should have a length of 8, key is: "+o,r;let s=parseInt(o.substr(2,1),10);return r.bookId=i[s],e?(r.uid=parseInt(o.substr(3,2),10)-1,r.qid=parseInt(o.substr(6,2),10)-1):(r.uid=parseInt(o.substr(3,2),10),r.qid=parseInt(o.substr(6,2),10)),r.hasQuestions="1"===o.substr(5,1),r}t.exports={getBooks:function(){return o},getSourceId:function(){return 10},getKeyInfo:l,getUrl:function(t,e=!1){let a,n=d(t,!1),o="invalid",i="/"+n.bookId;return n.error?"/invalid/key/":(o=s(n.bookId,n.uid),i=`${i}/${o}/`,n.hasQuestions&&(a="q"+n.qid,i=`${i}${a}/`),e?"/t/wom"+i:i)},parseKey:c,genPageKey:p,genParagraphKey:function(t,e=location.pathname){let a,n=e;return a="string"==typeof t?(parseInt(t.substr(1),10)+1)/1e3:(t+1)/1e3,"string"==typeof e&&(n=p(e)),n+a},decodeKey:d,describeKey:function(t){let e=d(t,!1);if(e.error)return{key:t,error:!0,source:"wom"};let a={key:t,source:"wom",book:e.bookId};return a.unit=s(e.bookId,e.uid),e.hasQuestions&&(a.question="q"+e.qid),e.pid>-1&&(a.pid="p"+e.pid),a}}},93:function(t,e,a){const n=a(94),o=a(140).sprintf;function i(...t){let e=c(t),{unit:a,subunit:o}=r(t);if(n.contents[e])return n.contents[e].indexOf(a);throw new Error("unexpected bookId: "+e)}function r(t){let e,a=3;return"t"!==t[0]&&(a=1),t.length===a+2&&(e=t[a+1]),{unit:t[a],subunit:e}}function s(){return{sourceId:n.sourceId,keyLength:9}}function l(t){const e=s();let a=t,n=0;"number"==typeof a&&(a=t.toString(10));let o=a.indexOf(".");if(o>-1){let t=a.substr(o+1);switch(t.length){case 1:t+="00";break;case 2:t+="0"}n=parseInt(t,10)}return{paraKey:n,pageKey:parseInt(a.substr(0,e.keyLength),10)}}function c(t){return"t"===t[0]?t[2]:t[0]}function p(t=location.pathname){let e={sid:n.sourceId,bid:0,uid:0,xid:0},a=function(t){let e=t;return e=t.substr(1),"/"===e[e.length-1]&&(e=e.substr(0,e.length-1)),e.split("/")}(t);if(e.bid=n.bookIds.indexOf(c(a)),-1===e.bid)return-1;if(e.uid=i(...a),-1===e.uid)return-1;if(e.xid=function(...t){let e=c(t),{unit:a,subunit:o}=r(t),i=e+"2";if(!o)return 0;if(n.contents[i])return n.contents[i].indexOf("/"+o);throw new Error("unexpected bookId: "+i)}(...a),-1===e.xid)return-1;let s=o("%02s%02s%03s%02s",e.sid,e.bid,e.uid,e.xid);return parseInt(s,10)}function d(t){let{pid:e,pageKey:a}=l(t),o=a.toString(10),i={error:!1,key:t,message:"ok",sid:0,bookId:"",uid:0,xid:0,pid:e?e-1:-1};if(9!==o.length)return i.error=!0,i.message="Integer portion of key should have a length of 9, key is: "+o,i;if(i.sid=parseInt(o.substr(0,2),10),i.sid!==n.sourceId)return i.error=!0,i.message=`Invalid sourceId: ${i.sid}, expecting: ${n.sourceId}`,i;let r=parseInt(o.substr(2,2),10);return i.bookId=n.bookIds[r],i.uid=parseInt(o.substr(4,3),10),i.xid=parseInt(o.substr(7,2),10),i}t.exports={getNumberOfUnits:function(t){if(n.contents[t])return n.contents[t].length-1;throw new Error("getNumberOfUnits() unexpected bookId: "+t)},getBooks:function(){return n.books},getSourceId:function(){return n.sourceId},getKeyInfo:s,parseKey:l,getUnitId:i,genPageKey:p,genParagraphKey:function(t,e=location.pathname){let a,n=e;return a="string"==typeof t?(parseInt(t.substr(1),10)+1)/1e3:(t+1)/1e3,"string"==typeof e&&(n=p(e)),n+a},decodeKey:d,getUrl:function(t,e=!1){let a,o,i=d(t),r="/invalid/key/";return i.error?r:n.contents[i.bookId]&&(a=n.contents[i.bookId][i.uid],i.xid>0?(o=n.contents[i.bookId+"2"][i.xid],r=`/${i.bookId}/${a}${o}/`):r=`/${i.bookId}/${a}/`,e)?`${n.prefix}${r}`:r},describeKey:function(t){let e=d(t);if(e.error)return{key:t,error:!0,source:n.sid};let a={key:t,source:n.sid,book:e.bookId,unit:n.contents[e.bookId][e.uid],subunit:n.contents[e.bookId+"2"][e.xid]};return e.pid>-1&&(a.pid="p"+e.pid),a}}},94:function(t,e){t.exports={sourceId:17,sid:"col",prefix:"/t/col",books:["book1","book2","book3","book4","book5","book6","acq"],bookIds:["xxx","book1","book2","book3","book4","book5","book6","acq"],contents:{book1:["xxx","message","foreword","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","chap16","chap17","chap18","chap19","chap20","chap21","final","appendix","clarifications"],book2:["xxx","message","prelude","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","chap16","chap17","chap18","chap19","chap20","chap21","final","clarifications"],book3:["xxx","origin","prelude","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","chap16","chap17","chap18","chap19","chap20","chap21","final","clarifications"],book4:["xxx","origin","description","prelude","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","chap16","chap17","chap18","chap19","chap20","chap21","final","clarifications"],book5:["xxx","origin","description","prelude","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","chap16","chap17","chap18","chap19","chap20","chap21","final","clarifications"],book6:["xxx","message","prelude","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","chap16","chap17","chap18","chap19","chap20","chap21","final","clarifications"],acq:["xxx","about","origin","description","amazon"]}}},95:function(t,e,a){const n=a(96),o=a(141).sprintf;function i(...t){let e=c(t),{unit:a,subunit:o}=r(t);if(n.contents[e])return n.contents[e].indexOf(a);throw new Error("unexpected bookId: "+e)}function r(t){let e,a=3;return"t"!==t[0]&&(a=1),t.length===a+2&&(e=t[a+1]),{unit:t[a],subunit:e}}function s(){return{sourceId:n.sourceId,keyLength:9}}function l(t){const e=s();let a=t,n=0;"number"==typeof a&&(a=t.toString(10));let o=a.indexOf(".");if(o>-1){let t=a.substr(o+1);switch(t.length){case 1:t+="00";break;case 2:t+="0"}n=parseInt(t,10)}return{paraKey:n,pageKey:parseInt(a.substr(0,e.keyLength),10)}}function c(t){return"t"===t[0]?t[2]:t[0]}function p(t=location.pathname){let e={sid:n.sourceId,bid:0,uid:0,xid:0},a=function(t){let e=t;return e=t.substr(1),"/"===e[e.length-1]&&(e=e.substr(0,e.length-1)),e.split("/")}(t);if(e.bid=n.bookIds.indexOf(c(a)),-1===e.bid)return-1;if(e.uid=i(...a),-1===e.uid)return-1;if(e.xid=function(...t){let e=c(t),{unit:a,subunit:o}=r(t),i=e+"2";if(!o)return 0;if(n.contents[i])return n.contents[i].indexOf("/"+o);throw new Error("unexpected bookId: "+i)}(...a),-1===e.xid)return-1;let s=o("%02s%02s%03s%02s",e.sid,e.bid,e.uid,e.xid);return parseInt(s,10)}function d(t){let{paraKey:e,pageKey:a}=l(t),o=a.toString(10),i={error:!1,key:t,message:"ok",sid:0,bookId:"",uid:0,xid:0,pid:e?e-1:-1};if(9!==o.length)return i.error=!0,i.message="Integer portion of key should have a length of 9, key is: "+o,i;if(i.sid=parseInt(o.substr(0,2),10),i.sid!==n.sourceId)return i.error=!0,i.message=`Invalid sourceId: ${i.sid}, expecting: ${n.sourceId}`,i;let r=parseInt(o.substr(2,2),10);return i.bookId=n.bookIds[r],i.uid=parseInt(o.substr(4,3),10),i.xid=parseInt(o.substr(7,2),10),i}t.exports={getNumberOfUnits:function(t){if(n.contents[t])return n.contents[t].length-1;throw new Error("getNumberOfUnits() unexpected bookId: "+t)},getBooks:function(){return n.books},getSourceId:function(){return n.sourceId},getKeyInfo:s,parseKey:l,getUnitId:i,genPageKey:p,genParagraphKey:function(t,e=location.pathname){let a,n=e;return a="string"==typeof t?(parseInt(t.substr(1),10)+1)/1e3:(t+1)/1e3,"string"==typeof e&&(n=p(e)),n+a},decodeKey:d,getUrl:function(t,e=!1){let a,o,i=d(t),r="/invalid/key/";return i.error?r:n.contents[i.bookId]&&(a=n.contents[i.bookId][i.uid],i.xid>0?(o=n.contents[i.bookId+"2"][i.xid],r=`/${i.bookId}/${a}${o}/`):r=`/${i.bookId}/${a}/`,e)?`${n.prefix}${r}`:r},describeKey:function(t){let e=d(t);if(e.error)return{key:t,error:!0,source:n.sid};let a={key:t,source:n.sid,book:e.bookId,unit:n.contents[e.bookId][e.uid]};return e.pid>-1&&(a.pid="p"+e.pid),a}}},96:function(t,e){t.exports={sourceId:18,sid:"ftcm",prefix:"/t/ftcm",books:["book1","book2","acq"],bookIds:["xxx","book1","book2","acq"],contents:{book1:["xxx","foreword","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","epilog"],book2:["xxx","foreword","chap01","chap02","chap03","chap04","chap05","chap06","chap07","chap08","chap09","chap10","chap11","chap12","chap13","chap14","chap15","epilog"],acq:["xxx","about","amazon"]}}}});
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// install a JSONP callback for chunk loading
+/******/ 	function webpackJsonpCallback(data) {
+/******/ 		var chunkIds = data[0];
+/******/ 		var moreModules = data[1];
+/******/ 		var executeModules = data[2];
+/******/
+/******/ 		// add "moreModules" to the modules object,
+/******/ 		// then flag all "chunkIds" as loaded and fire callback
+/******/ 		var moduleId, chunkId, i = 0, resolves = [];
+/******/ 		for(;i < chunkIds.length; i++) {
+/******/ 			chunkId = chunkIds[i];
+/******/ 			if(Object.prototype.hasOwnProperty.call(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 				resolves.push(installedChunks[chunkId][0]);
+/******/ 			}
+/******/ 			installedChunks[chunkId] = 0;
+/******/ 		}
+/******/ 		for(moduleId in moreModules) {
+/******/ 			if(Object.prototype.hasOwnProperty.call(moreModules, moduleId)) {
+/******/ 				modules[moduleId] = moreModules[moduleId];
+/******/ 			}
+/******/ 		}
+/******/ 		if(parentJsonpFunction) parentJsonpFunction(data);
+/******/
+/******/ 		while(resolves.length) {
+/******/ 			resolves.shift()();
+/******/ 		}
+/******/
+/******/ 		// add entry modules from loaded chunk to deferred list
+/******/ 		deferredModules.push.apply(deferredModules, executeModules || []);
+/******/
+/******/ 		// run deferred modules when all chunks ready
+/******/ 		return checkDeferredModules();
+/******/ 	};
+/******/ 	function checkDeferredModules() {
+/******/ 		var result;
+/******/ 		for(var i = 0; i < deferredModules.length; i++) {
+/******/ 			var deferredModule = deferredModules[i];
+/******/ 			var fulfilled = true;
+/******/ 			for(var j = 1; j < deferredModule.length; j++) {
+/******/ 				var depId = deferredModule[j];
+/******/ 				if(installedChunks[depId] !== 0) fulfilled = false;
+/******/ 			}
+/******/ 			if(fulfilled) {
+/******/ 				deferredModules.splice(i--, 1);
+/******/ 				result = __webpack_require__(__webpack_require__.s = deferredModule[0]);
+/******/ 			}
+/******/ 		}
+/******/
+/******/ 		return result;
+/******/ 	}
+/******/
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// object to store loaded and loading chunks
+/******/ 	// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 	// Promise = chunk loading, 0 = chunk loaded
+/******/ 	var installedChunks = {
+/******/ 		"page": 0
+/******/ 	};
+/******/
+/******/ 	var deferredModules = [];
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "/public/js";
+/******/
+/******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
+/******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
+/******/ 	jsonpArray.push = webpackJsonpCallback;
+/******/ 	jsonpArray = jsonpArray.slice();
+/******/ 	for(var i = 0; i < jsonpArray.length; i++) webpackJsonpCallback(jsonpArray[i]);
+/******/ 	var parentJsonpFunction = oldJsonpFunction;
+/******/
+/******/
+/******/ 	// add entry module to deferred list
+/******/ 	deferredModules.push([1,"vendors~page~transcript","page~transcript"]);
+/******/ 	// run deferred modules when ready
+/******/ 	return checkDeferredModules();
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "../cmi-www/src/js/modules/_ajax/quotes.js":
+/*!*************************************************!*\
+  !*** ../cmi-www/src/js/modules/_ajax/quotes.js ***!
+  \*************************************************/
+/*! exports provided: getQuoteIds, getQuote, getQuoteData, putQuote, deleteQuote */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getQuoteIds", function() { return getQuoteIds; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getQuote", function() { return getQuote; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getQuoteData", function() { return getQuoteData; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "putQuote", function() { return putQuote; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "deleteQuote", function() { return deleteQuote; });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../cmi-www/node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../globals */ "../cmi-www/src/js/globals.js");
+
+
+/*
+ * Get all quoteId's for userId and key
+ *  where key is the first two or more positions of the page key
+ *  ie, 10: WOM, etc
+ */
+
+function getQuoteIds(userId, key) {
+  let url = `${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/quoteKeys/${userId}/${key}`;
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(url).then(resp => {
+      resolve(resp.data.keys);
+      return;
+    }).catch(err => {
+      console.error(err);
+      reject(err);
+      return;
+    });
+  });
+}
+/**
+ * Get Quote by userId and quoteId
+ *
+ * @param {string} userId - md5 hash of users email address
+ * @param {string} quoteId - the paragraph key and creationDate delimited by ":"
+ * @returns {object} The requested quote
+ */
+
+function getQuote(userId, quoteId) {
+  let [paraKey, creationDate] = quoteId.split(":");
+  let url = `${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/quote/${userId}/${paraKey}/${creationDate}`;
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(url).then(resp => {
+      resolve(resp.data.quote);
+    }).catch(err => {
+      notify.error("Network error: failed to get quote");
+      reject(err);
+    });
+  });
+}
+/*
+ * Get quote data from database. What returns doesn not contain a formatted
+ * url of the source.
+ */
+
+function getQuoteData(userId, paraKey, creationDate) {
+  let url = `${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/quoteData/${userId}/${paraKey}/${creationDate}`;
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(url).then(resp => {
+      resolve(resp.data.quote);
+    }).catch(err => {
+      reject(err);
+    });
+  });
+}
+function putQuote(quote) {
+  let url = `${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/quote`;
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(url, quote).then(resp => {
+      resolve(resp.data.response);
+    }).catch(err => {
+      reject(err);
+    });
+  });
+}
+function deleteQuote(userId, paraKey, creationDate) {
+  let url = `${_globals__WEBPACK_IMPORTED_MODULE_1__["default"].user}/quote/${userId}/${paraKey}/${creationDate}`;
+  return new Promise((resolve, reject) => {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.delete(url).then(resp => {
+      resolve(resp.data.response);
+    }).catch(err => {
+      reject(err);
+    });
+  });
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_topics/events.js":
+/*!***************************************************!*\
+  !*** ../cmi-www/src/js/modules/_topics/events.js ***!
+  \***************************************************/
+/*! exports provided: initQuoteDisplay */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initQuoteDisplay", function() { return initQuoteDisplay; });
+/* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var _randomQuote__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./randomQuote */ "../cmi-www/src/js/modules/_topics/randomQuote.js");
+/* harmony import */ var _share__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./share */ "../cmi-www/src/js/modules/_topics/share.js");
+/* harmony import */ var _ajax_quotes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_ajax/quotes */ "../cmi-www/src/js/modules/_ajax/quotes.js");
+/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles */ "../cmi-www/src/js/modules/_topics/styles.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+
+
+
+
+
+
+const quoteMessageSelector = "#quote-modal-message";
+let currentQuote;
+
+function showLoading() {
+  $("#quote-modal-more").addClass("loading");
+}
+
+function cancelLoading() {
+  $("#quote-modal-more").removeClass("loading");
+}
+
+function generateOption(item) {
+  let userInfo = item.userInfo;
+  return `
+      <option value="${userInfo.userId}">${userInfo.userName}</option>
+  `;
+}
+
+function buildSelectList(quoteArray) {
+  return `
+    <label>Quote Sources</label>
+    <select name="quote-source-list" id="user-quote-source-select" class="search ui dropdown">
+      ${quoteArray.map(item => `${generateOption(item)}`).join("")}
+    </select>
+  `;
+}
+
+function showQuote(q) {
+  //persist for shareByEmail
+  currentQuote = q;
+  let quote = q.quote;
+
+  if (!q.quote) {
+    q.citation = "Make Your Own Quotes";
+    q.url = "/acq/quotes";
+    quote = "No quotes have been defined yet. Did you know you can define your own? See documentation at the link below.";
+    /*
+    cancelLoading();
+    return;
+    */
+  }
+
+  if (!quote.includes("<p>")) {
+    quote = `<p>${quote}</p>`;
+  }
+
+  let html = `
+    <blockquote>
+      ${quote}
+      <footer>
+        <a href="${q.url}" title="${Object(_language_lang__WEBPACK_IMPORTED_MODULE_5__["getString"])("quote:g2s")}" target="_blank">
+          ~ ${q.citation}
+        </a>
+      </footer>
+    </blockquote>
+    `;
+  $("#quote-modal-content").html(html).attr("class", `content ${Object(_styles__WEBPACK_IMPORTED_MODULE_4__["getRandomStyle"])()}`);
+  cancelLoading();
+}
+
+function initSelect(qm) {
+  let select = buildSelectList(qm.getInternalQuoteArray());
+  $("#user-quote-select").html(select);
+  $("#user-quote-source-select").on("change", function (e) {
+    qm.use($(this).val());
+  });
+}
+
+function loadQuotes(qm, constants, userInfo) {
+  let systemQuoteIds = Object(_ajax_quotes__WEBPACK_IMPORTED_MODULE_3__["getQuoteIds"])(constants.quoteManagerId, constants.sourceId);
+
+  if (userInfo && userInfo.userId !== constants.quoteManagerId) {
+    let userQuoteIds = Object(_ajax_quotes__WEBPACK_IMPORTED_MODULE_3__["getQuoteIds"])(userInfo.userId, constants.sourceId);
+    Promise.all([systemQuoteIds, userQuoteIds]).then(responses => {
+      let q0 = new _randomQuote__WEBPACK_IMPORTED_MODULE_1__["RandomQuotes"](constants.quoteManagerName, constants.quoteManagerId, constants.sourceId);
+      q0.qIds = responses[0];
+      qm.addQuotes(q0);
+
+      if (responses[1].length > 0) {
+        //let q1 = new RandomQuotes(userInfo.name, userInfo.userId, constants.sourceId); 
+        let q1 = new _randomQuote__WEBPACK_IMPORTED_MODULE_1__["RandomQuotes"]("My Quotes", userInfo.userId, constants.sourceId);
+        q1.qIds = responses[1];
+        qm.addQuotes(q1); //use system quotes to start
+
+        qm.use(constants.quoteManagerId); //build quote select list
+
+        initSelect(qm);
+      }
+    });
+  } else {
+    systemQuoteIds.then(ids => {
+      let q = new _randomQuote__WEBPACK_IMPORTED_MODULE_1__["RandomQuotes"](constants.quoteManagerName, constants.quoteManagerId, constants.sourceId);
+      q.qIds = ids;
+      qm.addQuotes(q);
+    });
+  }
+
+  return qm;
+}
+
+function initQuoteDisplay(selector, constants) {
+  let qm = new _randomQuote__WEBPACK_IMPORTED_MODULE_1__["QuoteManager"](); //must be signed in to share
+
+  let userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_0__["getUserInfo"])(); //quote modal settings
+
+  $("#quote-modal").modal({
+    allowMultiple: true,
+    dimmerSettings: {
+      opacity: 0.3
+    },
+    blurring: true,
+    autofocus: false,
+    centered: true,
+    duration: 400,
+    closable: false,
+    observeChanges: true,
+    transition: "fade up",
+    // Share by email
+    onApprove: function () {
+      return false;
+    },
+    //More button
+    onDeny: function () {
+      return true;
+    }
+  }); //if we're not in development add share to facebook button
+
+  if (location.origin.includes("christmind")) {
+    $("#quote-modal-facebook").removeClass("hidden");
+  } //share available only to signed in users
+
+
+  if (userInfo) {
+    //initialize quote share
+    Object(_share__WEBPACK_IMPORTED_MODULE_2__["initShareByEmail"])(constants); //share modal settings
+
+    $("#share-modal").modal({
+      allowMultiple: true,
+      dimmerSettings: {
+        opacity: 0.3
+      },
+      blurring: true,
+      centered: true,
+      duration: 400,
+      closable: false,
+      transition: "fade up",
+      onApprove: function () {
+        console.log("send email");
+        return Object(_share__WEBPACK_IMPORTED_MODULE_2__["submitEmail"])(currentQuote);
+      },
+      onDeny: function () {
+        console.log("cancel send email");
+        return true;
+      }
+    });
+    $("#share-modal").modal("attach events", "#quote-modal-share"); //show email share button
+
+    $("#quote-modal-share").removeClass("hidden");
+  }
+
+  qm = loadQuotes(qm, constants, userInfo); //get another quote
+
+  $("#quote-modal-more").on("click", function (e) {
+    showLoading();
+    qm.getRandomQuote().then(quote => {
+      showQuote(quote);
+    });
+  }); //share quote to FB
+
+  $("#quote-modal-facebook").on("click", function (e) {
+    let q = currentQuote;
+    let options = {
+      method: "share",
+      hashtag: "#christmind",
+      quote: `${q.quote}\n${q.citation}`,
+      href: `${location.origin.includes("localhost") ? "https://www.christmind.info" : location.origin}${q.url}`
+    };
+    FB.ui(options, function () {});
+  }); //quote button click handler
+
+  $(selector).on("click", function (e) {
+    qm.getRandomQuote().then(quote => {
+      showQuote(quote);
+    });
+    $("#quote-modal").modal("show");
+    showLoading();
+  });
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_topics/message.js":
+/*!****************************************************!*\
+  !*** ../cmi-www/src/js/modules/_topics/message.js ***!
+  \****************************************************/
+/*! exports provided: displayWarning, displaySuccess */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "displayWarning", function() { return displayWarning; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "displaySuccess", function() { return displaySuccess; });
+/*
+ * Display a message in a modal. The modal must have a 
+ * <div class="ui message"></div>
+ */
+
+/*
+ * Display a warning message for duration seconds
+ */
+function displayWarning(selector, message, duration = 0) {
+  $(selector).removeClass("positive").addClass("warning").text(message);
+
+  if (duration > 0) {
+    setTimeout(() => {
+      $(selector).addClass("hidden").removeClass("warning");
+    }, duration * 1000);
+  }
+}
+/*
+ * Display a success message for duration seconds
+ */
+
+function displaySuccess(selector, message, duration = 5) {
+  $(selector).removeClass("hidden").addClass("positive").text(message);
+
+  if (duration > 0) {
+    setTimeout(() => {
+      $(selector).addClass("hidden").removeClass("positive");
+    }, duration * 1000);
+  }
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_topics/randomQuote.js":
+/*!********************************************************!*\
+  !*** ../cmi-www/src/js/modules/_topics/randomQuote.js ***!
+  \********************************************************/
+/*! exports provided: QuoteManager, RandomQuotes */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "QuoteManager", function() { return QuoteManager; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RandomQuotes", function() { return RandomQuotes; });
+/* harmony import */ var _ajax_quotes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_ajax/quotes */ "../cmi-www/src/js/modules/_ajax/quotes.js");
+
+
+function _getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+/*
+ * Manages quotes from more than one user
+ *  - Quotes of type RandomQuotes are managed
+ */
+
+
+class QuoteManager {
+  constructor() {
+    this.quotes = [];
+    this.ptr = -1;
+  }
+
+  getRandomQuote() {
+    //this can happen when quote dialog is shown on page load
+    if (this.ptr === -1) {
+      return Promise.resolve({
+        citation: "It should be okay now",
+        quote: "Waiting for Quotes to download. Please click the 'Display Another Quote' button to continue.",
+        url: ""
+      });
+    }
+
+    return this.quotes[this.ptr].getRandomQuote();
+  }
+
+  getInternalQuoteArray() {
+    return this.quotes;
+  }
+
+  addQuotes(userQuotes) {
+    let length = this.quotes.push(userQuotes);
+    this.ptr = length - 1;
+  } //use quotes from userId
+
+
+  use(userId) {
+    let index = this.quotes.findIndex(q => {
+      return q.user === userId;
+    });
+
+    if (index > -1) {
+      this.ptr = index;
+    } else {
+      throw new Error(`User: ${userId} not found.`);
+    }
+  }
+
+}
+class RandomQuotes {
+  constructor(userName, userId, sourceId) {
+    this.quoteIds = [];
+    this.usedIds = [];
+    this.quotes = {};
+    this.userName = userName;
+    this.userId = userId;
+    this.sourceId = sourceId;
+  }
+
+  set qIds(idArray) {
+    this.quoteIds = idArray;
+  }
+
+  get user() {
+    return this.userId;
+  }
+
+  get userInfo() {
+    return {
+      userName: this.userName,
+      userId: this.userId
+    };
+  }
+
+  _resetUsed() {
+    this.quoteIds = this.usedIds;
+    this.usedIds = [];
+  }
+
+  markAsUsed(idx) {
+    this.usedIds.push(this.quoteIds[idx]);
+    this.quoteIds.splice(idx, 1);
+  }
+
+  getRandomQuote() {
+    return new Promise((resolve, reject) => {
+      if (this.quoteIds.length === 0) {
+        if (this.usedIds.length === 0) {
+          resolve({}); //no quotes
+
+          return;
+        }
+
+        this._resetUsed();
+      }
+
+      let idx = _getRandomInt(this.quoteIds.length);
+
+      let key = this.quoteIds[idx];
+
+      if (this.quotes[key]) {
+        this.markAsUsed(idx);
+        resolve(this.quotes[key]);
+        return;
+      }
+
+      Object(_ajax_quotes__WEBPACK_IMPORTED_MODULE_0__["getQuote"])(this.userId, key).then(quote => {
+        this.quotes[key] = quote;
+        this.markAsUsed(idx);
+        resolve(quote);
+      });
+    });
+  }
+
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_topics/share.js":
+/*!**************************************************!*\
+  !*** ../cmi-www/src/js/modules/_topics/share.js ***!
+  \**************************************************/
+/*! exports provided: initShareByEmail, submitEmail */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "initShareByEmail", function() { return initShareByEmail; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "submitEmail", function() { return submitEmail; });
+/* harmony import */ var _ajax_share__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_ajax/share */ "../cmi-www/src/js/modules/_ajax/share.js");
+/* harmony import */ var _user_netlify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var _language_lang__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var _message__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./message */ "../cmi-www/src/js/modules/_topics/message.js");
+/* harmony import */ var _util_sanitize__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../_util/sanitize */ "../cmi-www/src/js/modules/_util/sanitize.js");
+//import axios from "axios";
+//import globals from "../../globals";
+
+
+
+
+
+const quoteMessageSelector = "#quote-modal-message";
+const shareMessageSelector = "#share-modal .message";
+let shareInfo = {};
+let sid;
+function initShareByEmail(constants) {
+  sid = constants.sid;
+  loadEmailList();
+}
+
+function resetSendIndicator() {
+  $("#quote-modal-share").addClass("loading blue").removeClass("red");
+}
+
+function setSendSuccess() {
+  $("#quote-modal-share > i").removeClass("paper plane");
+  $("#quote-modal-share > i").addClass("thumbs up");
+  $("#quote-modal-share").removeClass("loading");
+  setTimeout(() => {
+    $("#quote-modal-share > i").removeClass("thumbs up");
+    $("#quote-modal-share > i").addClass("paper plane");
+  }, 2 * 1000);
+}
+
+function setSendFailure() {
+  $("#quote-modal-share > i").removeClass("paper plane");
+  $("#quote-modal-share > i").addClass("thumbs down");
+  $("#quote-modal-share").removeClass("loading blue").addClass("red");
+  setTimeout(() => {
+    $("#quote-modal-share > i").removeClass("thumbs down");
+    $("#quote-modal-share > i").addClass("paper plane");
+  }, 2 * 1000);
+}
+/*
+ * format message to wrap pargraphs in <p> tags
+ */
+
+
+function formatMessage(message) {
+  message = message.replace(/\n/g, "@@");
+  message = message.replace(/@@*/g, "@@");
+  let mArray = message.split("@@");
+  message = mArray.reduce((current, p) => {
+    return `${current}<p>${Object(_util_sanitize__WEBPACK_IMPORTED_MODULE_4__["purify"])(p)}</p>`;
+  }, "");
+  return message;
+}
+/*
+ * Format recipientArray into a string of email addresses and
+ * a structure of recipient variables per Mailgun
+ */
+
+
+function formatRecipientInfo(recipientArray) {
+  let addresses = [];
+  let info = {};
+  recipientArray.forEach(i => {
+    let [email, first, last] = i.split(":");
+    addresses.push(email);
+    info[email] = {
+      first: first === "" ? "No First Name" : first,
+      last: last === "" ? "No Last Name" : last
+    };
+  });
+  return {
+    to: addresses.join(","),
+    variables: JSON.stringify(info)
+  };
+}
+
+function submitEmail(q) {
+  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_1__["getUserInfo"])();
+  let formData = $("#email-modal-share-form").form("get values");
+
+  if (formData.mailList.length === 0 && formData.emailAddresses.length === 0) {
+    Object(_message__WEBPACK_IMPORTED_MODULE_3__["displayWarning"])(shareMessageSelector, Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("error:e9")); //don't close email address window
+
+    return false;
+  }
+
+  shareInfo.to = "";
+
+  if (formData.mailList.length > 0) {
+    let info = formatRecipientInfo(formData.mailList);
+    shareInfo.to = info.to;
+    shareInfo.variables = info.variables;
+  }
+
+  if (formData.emailAddresses.length > 0) {
+    if (shareInfo.to.length > 0) {
+      shareInfo.to = `${shareInfo.to}, ${formData.emailAddresses}`;
+    } else {
+      shareInfo.to = formData.emailAddresses;
+    }
+  }
+
+  shareInfo.senderName = userInfo.name;
+  shareInfo.senderEmail = userInfo.email;
+  shareInfo.sid = sid;
+  shareInfo.citation = `~ ${q.citation}`;
+  shareInfo.quote = q.quote;
+  shareInfo.url = `${location.origin}${q.url}`;
+
+  if (formData.emailMessage) {
+    shareInfo.message = formatMessage(formData.emailMessage);
+  } // start loading indicator
+
+
+  resetSendIndicator();
+  Object(_ajax_share__WEBPACK_IMPORTED_MODULE_0__["sendMail"])(shareInfo).then(response => {
+    if (response === "success") {
+      setSendSuccess();
+    } else {
+      setSendFailure();
+      console.log("post message; %s", response);
+    }
+  }).catch(error => {
+    setSendFailure();
+    console.error("share error: %s", error);
+  });
+  return true;
+} //generate the option element of a select statement
+
+function generateOption(item) {
+  return `<option value="${item.address}:${item.first}:${item.last}">${item.first} ${item.last}</option>`;
+}
+
+function makeMaillistSelect(maillist) {
+  return new Promise((resolve, reject) => {
+    let listnames = Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("label:listnames", true);
+    let selectaddress = Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("label:selectaddress", true);
+    Promise.all([listnames, selectaddress]).then(resp => {
+      resolve(`
+        <label>${resp[0]}</label>
+        <select name="mailList" id="maillist-modal-address-list" multiple="" class="search ui dropdown">
+          <option value="">${resp[1]}</option>
+          ${maillist.map(item => `${generateOption(item)}`).join("")}
+        </select>
+      `);
+    });
+  });
+}
+/*
+  Called by initShareByEmail()
+  - load only when user signed in, fail silently, it's not an error
+*/
+
+
+async function loadEmailList() {
+  const userInfo = Object(_user_netlify__WEBPACK_IMPORTED_MODULE_1__["getUserInfo"])();
+  if (!userInfo) return;
+  let api = `${userInfo.userId}/maillist`;
+
+  try {
+    let maillist = await Object(_ajax_share__WEBPACK_IMPORTED_MODULE_0__["getMailList"])(userInfo.userId);
+    let selectHtml = await makeMaillistSelect(maillist);
+    $("#maillist-modal-select").html(selectHtml);
+    $("#maillist-modal-address-list.dropdown").dropdown();
+  } catch (err) {
+    notify.error(`${Object(_language_lang__WEBPACK_IMPORTED_MODULE_2__["getString"])("error:e10")}: ${err}`);
+  }
+
+  ;
+}
+
+/***/ }),
+
+/***/ "../cmi-www/src/js/modules/_topics/styles.js":
+/*!***************************************************!*\
+  !*** ../cmi-www/src/js/modules/_topics/styles.js ***!
+  \***************************************************/
+/*! exports provided: getRandomStyle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getRandomStyle", function() { return getRandomStyle; });
+function _getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+/*
+  "carbon-fibre",
+  "dark-paths",
+  "folk-pattern",
+*/
+
+
+const styles = ["silver-diagonal", "wax-diagonal", "violet-diagonal", "double-bubble", "diamond", "full-bloom", "leaves", "terrazzo", "pow-star", "repeated-square", "triangle-mosaic"];
+function getRandomStyle() {
+  return styles[_getRandomInt(styles.length)];
+}
+
+/***/ }),
+
+/***/ "./src/js/page.js":
+/*!************************!*\
+  !*** ./src/js/page.js ***!
+  \************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var www_modules_util_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! www/modules/_util/store */ "../cmi-www/src/js/modules/_util/store.js");
+/* harmony import */ var www_modules_user_netlify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! www/modules/_user/netlify */ "../cmi-www/src/js/modules/_user/netlify.js");
+/* harmony import */ var www_modules_page_startup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! www/modules/_page/startup */ "../cmi-www/src/js/modules/_page/startup.js");
+/* harmony import */ var www_modules_page_notes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! www/modules/_page/notes */ "../cmi-www/src/js/modules/_page/notes.js");
+/* harmony import */ var www_modules_util_url__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! www/modules/_util/url */ "../cmi-www/src/js/modules/_util/url.js");
+/* harmony import */ var www_modules_language_lang__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! www/modules/_language/lang */ "../cmi-www/src/js/modules/_language/lang.js");
+/* harmony import */ var www_modules_util_facebook__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! www/modules/_util/facebook */ "../cmi-www/src/js/modules/_util/facebook.js");
+/* harmony import */ var www_modules_topics_events__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! www/modules/_topics/events */ "../cmi-www/src/js/modules/_topics/events.js");
+/* harmony import */ var _modules_bookmark_start__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/_bookmark/start */ "./src/js/modules/_bookmark/start.js");
+/* harmony import */ var _modules_search_search__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/_search/search */ "./src/js/modules/_search/search.js");
+/* harmony import */ var _modules_contents_toc__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/_contents/toc */ "./src/js/modules/_contents/toc.js");
+/* harmony import */ var _modules_about_about__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./modules/_about/about */ "./src/js/modules/_about/about.js");
+/* harmony import */ var _notes__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./notes */ "./src/js/notes.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./constants */ "./src/js/constants.js");
+/* harmony import */ var _setEnv__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./setEnv */ "./src/js/setEnv.js");
+/* eslint no-console: off */
+ //common modules
+
+
+
+
+
+
+
+ //teaching specific modules
+
+
+
+
+
+
+
+
+$(document).ready(() => {
+  Object(www_modules_util_store__WEBPACK_IMPORTED_MODULE_0__["storeInit"])(_constants__WEBPACK_IMPORTED_MODULE_13__["default"]);
+  Object(www_modules_page_startup__WEBPACK_IMPORTED_MODULE_2__["initStickyMenu"])();
+  Object(www_modules_language_lang__WEBPACK_IMPORTED_MODULE_5__["setLanguage"])(_constants__WEBPACK_IMPORTED_MODULE_13__["default"]);
+  Object(_setEnv__WEBPACK_IMPORTED_MODULE_14__["setRuntimeEnv"])();
+  Object(_modules_bookmark_start__WEBPACK_IMPORTED_MODULE_8__["bookmarkStart"])("page");
+  _modules_search_search__WEBPACK_IMPORTED_MODULE_9__["default"].initialize();
+  www_modules_user_netlify__WEBPACK_IMPORTED_MODULE_1__["default"].initialize();
+  _modules_contents_toc__WEBPACK_IMPORTED_MODULE_10__["default"].initialize("page");
+  Object(www_modules_page_notes__WEBPACK_IMPORTED_MODULE_3__["initialize"])(_notes__WEBPACK_IMPORTED_MODULE_12__["noteInfo"]);
+  _modules_about_about__WEBPACK_IMPORTED_MODULE_11__["default"].initialize(); //support for quote display and sharing
+
+  www_modules_util_facebook__WEBPACK_IMPORTED_MODULE_6__["default"].initialize();
+  Object(www_modules_topics_events__WEBPACK_IMPORTED_MODULE_7__["initQuoteDisplay"])("#show-quote-button", _constants__WEBPACK_IMPORTED_MODULE_13__["default"]);
+  Object(www_modules_page_startup__WEBPACK_IMPORTED_MODULE_2__["initAnimation"])();
+  Object(www_modules_util_url__WEBPACK_IMPORTED_MODULE_4__["showTOC"])();
+});
+
+/***/ }),
+
+/***/ 1:
+/*!******************************!*\
+  !*** multi ./src/js/page.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./src/js/page.js */"./src/js/page.js");
+
+
+/***/ })
+
+/******/ });
 //# sourceMappingURL=page.js.map
