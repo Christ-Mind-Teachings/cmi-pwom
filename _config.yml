@@ -164,6 +164,20 @@ defaults:
       bid: "EARLY"
       audio: false
 
+  - scope:
+      path: ""
+      type: early2
+    values:
+      layout: transcript
+      book: "Wczesne lata Drogi2"
+      publisher: "Droga Mistrzostwa"
+      image: "/public/img/wom/early-big.jpg"
+      big-separator: "/public/img/wom/big.jpg"
+      image-width: 612
+      image-height: 877
+      bid: "EARLY2"
+      audio: false
+
 exclude: [
   bin, moved.html, deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
 ]
