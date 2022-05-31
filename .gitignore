@@ -10,3 +10,7 @@ node_modules/
 project/
 *.map
 *.old
+public/js/page.js
+public/js/transcript.js
+public/js/vendors~page~transcript.js
+public/js/vendors~transcript.js
