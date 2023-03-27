@@ -1,156 +1,73 @@
-import {searchSource} from "www/modules/_ajax/search";
-import { showSavedQuery, showSearchResults } from "./show";
-import {showSearchMatch} from "www/modules/_util/url";
-import { initNavigator } from "./navigator";
-import notify from "toastr";
 import {getString} from "../_language/lang";
-import constants from "../../constants";
 
-//search modal
-const uiSearchModal = ".search.ui.modal";
-const uiOpenSearchModal = ".search-modal-open";
-const uiSearchForm = "#search";
-const uiSearchSource = "#search .source";
-const uiSearchString = "#search input";
-const uiSearchInputIcon = "#search .ui.icon.input";
-const uiModalOpacity = 0.5;
+//global vars
+let g_sourceInfo;
 
-//search modal message box
-const uiSearchMessage = ".ui.search.message";
-const uiSearchMessageHeader = ".search-message.header";
-const uiSearchMessageBody = ".search-message-body";
-
-//search message id's
-const SEARCHING = Symbol("searching");
-const SEARCH_RESULT = Symbol("search_result");
-const SEARCH_ERROR = Symbol("search_error");
-const SAVED_SEARCH = Symbol("saved_search");
-
-function displaySearchMessage(msgId, arg1, arg2, arg3) {
-  switch(msgId) {
-    case SEARCHING:
-      $(uiSearchInputIcon).addClass("loading");
-      $(uiSearchString).attr("disabled", true);
-      $(uiSearchMessage).addClass("purple");
-      $(uiSearchMessageHeader).text(getString("search:s1"));
-      $(uiSearchMessageBody).html(`<p>${getString("search:s2")} <em>${arg2}</em></p>`);
-      break;
-    case SAVED_SEARCH:
-      //arg1: source, arg2: query string, arg3: count
-      $(uiSearchMessageHeader).text(getString("label:l6"));
-      $(uiSearchMessageBody).html(`<p>${getString("search:s3")} <em>${arg2}</em> ${getString("search:s4")} <em>${arg1}</em> ${getString("search:s5")} ${arg3} ${getString("search:s6")}</p>`);
-      break;
-    case SEARCH_RESULT:
-      $(uiSearchInputIcon).removeClass("loading");
-      $(uiSearchString).attr("disabled", false);
-      $(uiSearchMessage).removeClass("purple").removeClass("negative");
-
-      //clear input only if matches were found
-      if (arg3 > 0) {
-        $(uiSearchString).val("");
-      }
-
-      $(uiSearchMessageHeader).text(getString("search:s7"));
-      $(uiSearchMessageBody).html(`<p>${getString("search:s3")} <em>${arg2}</em> ${getString("search:s5")} ${arg3} ${getString("search:s7")}</p>`);
-      break;
-    case SEARCH_ERROR:
-      $(uiSearchInputIcon).removeClass("loading");
-      $(uiSearchString).attr("disabled", false);
-      $(uiSearchMessage).removeClass("purple").addClass("negative");
-
-      $(uiSearchMessageHeader).text(getString("search:s8"));
-      $(uiSearchMessageBody).html(`<p>${arg1}</p>`);
-      break;
-    default:
-      break;
-  }
+function getUnitName(pageInfo, unitInfo) {
+  return pageInfo[unitInfo.pageKey].title;
 }
 
-//run query
-async function search(query) {
-  let searchBody = {
-    source: "pwom",
-    query: query,
-    width: 30
-  };
-
-  try {
-    let result = await searchSource(searchBody);
-    displaySearchMessage(SEARCH_RESULT, "", `"${result.queryTransformed}"`, result.count);
-    if (result.count > 0) {
-      showSearchResults(result, result.queryTransformed);
-    }
-    else {
-      notify.info(`${getString("search:s3")} "${result.queryTransformed}" ${getString("search:s9")}`);
-    }
-    document.getElementById("search-input-field").focus();
-  }
-  catch(error) {
-    console.error("search error: %o", error);
-    displaySearchMessage(SEARCH_ERROR, error.message);
-  }
+function makeList(bid, title, pageInfo, matchArray) {
+  return `
+    <h3>${title[bid]} (${matchArray.length})</h3>
+    <div class="ui list">
+      ${matchArray.map((m, hidx) => `
+        <div class="item">
+          <i class="book icon"></i>
+          <div class="content">
+            <div class="header">
+              ${getUnitName(pageInfo, m)} (${m.m.length})
+            </div>
+            <div class="list">
+              ${m.m.map((h, midx) => `
+                <div class="item">
+                  <i class="search icon"></i>
+                  <div class="content">
+                    <div class="header">
+                      <i data-bid="${bid}" data-m="${midx}" data-h="${hidx}" class="edit-match trash green icon"></i>
+                      <a href="${pageInfo[m.pageKey].url}?srch=${h.location}">${getString("search:s10")} ${h.location.substr(1)}</a>
+                    </div>
+                    <div class="description">
+                      ${h.context}
+                    </div>
+                  </div>
+                  </div> <!-- item -->
+              `).join("")}
+            </div> <!-- list -->
+          </div>
+        </div>
+      `).join("")}
+    </div> <!-- ui list -->
+  `;
 }
 
-function initTranscriptPage() {
-  let displayPid = showSearchMatch();
-  if (displayPid) {
-    initNavigator(displayPid);
+//show saved query result in modal
+export function generateHTML(queryResult) {
+
+  const books = g_sourceInfo.keyInfo.getBooks();
+  let html = "";
+
+  //generate html for search hits
+  for (let bid of books) {
+    if (queryResult.data[bid]) {
+      html += makeList(bid, queryResult.titleArray, queryResult.pageInfo, queryResult.data[bid]);
+    }
   }
+
+  return html;
 }
 
-/*
-  Initialize support for search modal window available
-  on all pages
-*/
-function initSearchModal() {
+export function searchInit(si) {
+  g_sourceInfo = si;
+  g_sourceInfo.generateHTML = generateHTML;
 
-  $(uiSearchModal).modal({
-    dimmerSettings: {opacity: uiModalOpacity},
-    observeChanges: true,
-    onShow: function() {
-      //load modal with prior query results
-
-      //check if modal already has query results loaded
-      if ($(".cmi-search-list > h3").length === 0) {
-        showSavedQuery();
-      }
-    }
-  });
-
-  $(uiOpenSearchModal).on("click", (e) => {
-    e.preventDefault();
-    $(uiSearchModal).modal("show");
-  });
-
-  //Search Submit
-  $(uiSearchForm).submit(function(e) {
-    e.preventDefault();
-    var searchSource = $(uiSearchSource).text();
-    var searchString = $(uiSearchString).val();
-
-    //ignore and return if search string is empty
-    if (searchString.length === 0) {
-      return;
-    }
-
-    //console.log("Search requested: source: %s, string: %s", searchSource, searchString);
-    displaySearchMessage(SEARCHING, searchSource, searchString);
-
-    //run search
-    search(searchString);
-  });
-
+  return g_sourceInfo;
 }
 
-export default {
-  initialize: function() {
+  /*
+  $(".search-message.header").text(getString("search:s11"));
+  $(".search-message-body").html(`<p>${getString("search:s3")} <em>${queryResult.query}</em> ${getString("search:s5")} ${queryResult.count} ${getString("search:s6")}</p>`);
+  $("#search-results-header").html(`: <em>${queryResult.query}</em>`);
+ */
 
-    if ($(".transcript").length) {
-      //this is a transcript page
-      initTranscriptPage();
-    }
-
-    initSearchModal();
-  }
-};
 
