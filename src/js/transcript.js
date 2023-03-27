@@ -1,5 +1,6 @@
 /* eslint no-console: off */
-import {storeInit} from "www/modules/_util/store";
+import {SourceStore, storeInit} from "www/modules/_util/store";
+import search from "www/modules/_search/search";
 
 //common modules
 import {showParagraph} from "www/modules/_util/url";
@@ -13,7 +14,8 @@ import {initialize as initVideo} from "www/modules/_video/acq";
 import {setRuntimeEnv} from "./setEnv";
 import {loadConfig} from "./modules/_config/config";
 import {bookmarkStart} from "./modules/_bookmark/start";
-import search from "./modules/_search/search";
+import {searchInit} from "./modules/_search/search";
+
 import toc, {getBookId} from "./modules/_contents/toc";
 import audio from "./modules/_audio/audio";
 import about from "./modules/_about/about";
@@ -24,6 +26,7 @@ import {setLanguage} from "www/modules/_language/lang";
 import constants from "./constants";
 
 $(document).ready(() => {
+  const store = new SourceStore(constants);
   storeInit(constants);
   setLanguage(constants);
   initTranscriptPage("pnDisplay");
@@ -36,7 +39,7 @@ $(document).ready(() => {
   initVideo();
 
   loadConfig(getBookId()).then((result) => {
-    search.initialize();
+    search.initialize(searchInit(store));
     toc.initialize("transcript");
     audio.initialize();
     showParagraph();

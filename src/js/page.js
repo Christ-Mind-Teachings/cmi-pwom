@@ -1,5 +1,6 @@
 /* eslint no-console: off */
-import {storeInit} from "www/modules/_util/store";
+import {SourceStore, storeInit} from "www/modules/_util/store";
+import search from "www/modules/_search/search";
 
 //common modules
 import auth from "www/modules/_user/netlify";
@@ -13,7 +14,7 @@ import {initQuoteDisplay} from "www/modules/_topics/events";
 
 //teaching specific modules
 import {bookmarkStart} from "./modules/_bookmark/start";
-import search from "./modules/_search/search";
+import {searchInit} from "./modules/_search/search";
 import toc from "./modules/_contents/toc";
 import about from "./modules/_about/about";
 import { noteInfo } from "./notes";
@@ -22,14 +23,16 @@ import constants from "./constants";
 import {setRuntimeEnv} from "./setEnv";
 
 $(document).ready(() => {
+  const store = new SourceStore(constants);
   storeInit(constants);
   initStickyMenu();
   setLanguage(constants);
   setRuntimeEnv();
 
-  bookmarkStart("page");
-  search.initialize();
   auth.initialize();
+
+  bookmarkStart("page");
+  search.initialize(searchInit(store));
   toc.initialize("page");
   initNotes(noteInfo);
   about.initialize();
