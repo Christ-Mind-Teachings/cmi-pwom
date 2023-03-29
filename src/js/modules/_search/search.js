@@ -1,5 +1,8 @@
 import {getString} from "../_language/lang";
 
+//support for non-english language
+import {gs} from "www/modules/_language/lang";
+
 //global vars
 let g_sourceInfo;
 
@@ -60,6 +63,7 @@ export function generateHTML(queryResult) {
 export function searchInit(si) {
   g_sourceInfo = si;
   g_sourceInfo.generateHTML = generateHTML;
+  g_sourceInfo.gs = gs;
 
   return g_sourceInfo;
 }

@@ -2,9 +2,9 @@
 <div class="search ui modal">
   <i class="close icon"></i>
   <div class="ui large header">
-    Search {{site.title}}<br/>
+    Szukaj w Droga Mistrzostwa<br/>
     <small>
-      <a href="/acq/search/">See Documentation</a>
+      <a href="/acq/search/">Zobacz dokumentację</a>
     </small>
   </div>
   <div class="image content">
@@ -15,51 +15,51 @@
       <div class="ui search positive message">
         <div class="content">
           <div class="search-message header">
-            Welcome to {{site.title}} Search&hellip;
+            Witamy w Droga Mistrzostwa Szukaj w…&hellip;
           </div>
           <div class="search-message-body">
-            <p>Enter your search and press enter to begin.</p>
+            <p>Wprowadź, co chcesz wyszukać i naciśnij Enter.</p>
           </div>
         </div>
       </div>
       <form id="search" class="ui form">
         <div class="field">
           <!-- <div class="ui right labeled left icon input"> -->
-          <label>Enter Search</label>
+          <label>Wpisz Szukaj</label>
           <div class="ui icon fluid input">
-            <input id="search-input-field" name="query" type="search" placeholder="Enter search">
+            <input id="search-input-field" name="query" type="search" placeholder="Wpisz wyszukiwanie">
             <i class="inverted circular search link icon"></i>
           </div>
         </div>
         <div class="two fields">
           <div class="twelve wide field">
-            <label>Or Select Saved Search</label>
+            <label>Lub Wybierz Zapisane wyszukiwanie</label>
             <div id="saved-search-select" class="ui clearable disabled selection dropdown">
               <input type="hidden" name="savedSearch" value="">
               <i class="dropdown icon"></i>
-              <div class="default text">Select Saved Search</div>
+              <div class="default text">Wybierz Zapisane wyszukiwanie</div>
               <div class="menu"></div>
             </div>
           </div>
           <div class="four wide field">
-            <button class="show-desc ui mini primary disabled button">Show Description</button>
+            <button class="show-desc ui mini primary disabled button">Pokaż opis</button>
           </div>
         </div>
         <div class="inline fields">
           <div class="field">
-            <button class="ui button" type="submit">Search</button>
+            <button class="ui button" type="submit">Szukaj</button>
           </div>
           <div class="field">
             <div class="ui checkbox exact">
               <input type="checkbox" name="exact" tabindex="0" class="hidden">
-              <label>Find Exact Matches Only</label>
+              <label>Znajdź tylko dokładne dopasowania</label>
             </div>
           </div>
         </div>
       </form>
       <h4 class="ui horizontal divider header">
         <i class="search icon"></i>
-        Search Results
+         Wyniki wyszukiwania
         <span id="search-results-header"></span>
       </h4>
       <div class="cmi-search-list">
