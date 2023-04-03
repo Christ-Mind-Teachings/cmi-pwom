@@ -84,7 +84,7 @@
   },
   "search": {
     "s1": "Save Changes",
-    "s2": "Remove Selected Matches",
+    "s2": "Select Items to Remove",
     "s3": "Error displaying search results. See console for details.",
     "s4": "Saved Search Result",
     "s5": "Saved Search",
