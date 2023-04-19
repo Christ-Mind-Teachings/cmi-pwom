@@ -1,9 +1,12 @@
 # CMI
-#destination: "../cmi-www/_site/t/pwom"
+
+environment: integration
+destination: "../cmi-www/_site/t/pwom"
+homepage:
+  notes: true
 
 sourceId: 16
-environment: standalone
-
+sid: PWOM
 cmiTitle: "Nauki Umysłu Chrystusa"
 siteName: "Biblioteka Nauk Umysłu Chrystusa"
 
@@ -19,14 +22,11 @@ port:         9916
 # About/contact
 author:
   name:              Rick Mercer
-  url:               https://twitter.com/rmercer33
-  email:             rmercer33@gmail.com
+  email:             rmercer33@christmind.info
+  url:               https://rickmercer.us
 
 fb-appId:     448658485318107
 semantic:     fui292
-#semantic:     fui286
-#semantic:     sui231
-#semantic:     sui241
 src-url:      'https://www.christmind.info/t/pwom'
 
 # Permalinks
@@ -64,6 +64,9 @@ collections:
   early:
     output: true
     title: Wczesne lata Drogi,
+  early2:
+    output: true
+    title: Wczesne lata Drogi2,
 
 defaults:
 
@@ -78,7 +81,9 @@ defaults:
       image-height: 792
       bid: "acq"
       audio: false
+      notes: false
       pnumToggle: false
+
   - scope:
       path: ""
       type: lj
@@ -86,13 +91,14 @@ defaults:
       layout: transcript
       book: "Listy Jeszuy"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/tjl-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
-      little-separator: "/public/img/wom/little.jpg"
+      image: "/t/pwom/public/img/wom/tjl-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
+      little-separator: "/t/pwom/public/img/wom/little.jpg"
       image-width: 612
       image-height: 877
       bid: "LJ"
       audio: false
+      notes: false
 
   - scope:
       path: ""
@@ -101,13 +107,14 @@ defaults:
       layout: transcript
       book: "Droga Sługi"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wos-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
-      little-separator: "/public/img/wom/little.jpg"
+      image: "/t/pwom/public/img/wom/wos-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
+      little-separator: "/t/pwom/public/img/wom/little.jpg"
       image-width: 612
       image-height: 877
       bid: "WOS"
       audio: false
+      notes: false
 
   - scope:
       path: ""
@@ -116,12 +123,13 @@ defaults:
       layout: transcript
       book: "Droga Serca"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wos-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/wos-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "WOH"
       audio: true
+      notes: true
 
   - scope:
       path: ""
@@ -130,12 +138,13 @@ defaults:
       layout: transcript
       book: "Droga Przemiany"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wot-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/wot-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "WOT"
       audio: true
+      notes: true
 
   - scope:
       path: ""
@@ -144,12 +153,13 @@ defaults:
       layout: transcript
       book: "Droga Poznania"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/wok-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/wok-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "WOK"
       audio: true
+      notes: true
 
   - scope:
       path: ""
@@ -158,12 +168,13 @@ defaults:
       layout: transcript
       book: "Wczesne lata Drogi"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/early-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/early-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "EARLY"
       audio: false
+      notes: true
 
   - scope:
       path: ""
@@ -172,14 +183,15 @@ defaults:
       layout: transcript
       book: "Wczesne lata Drogi2"
       publisher: "Droga Mistrzostwa"
-      image: "/public/img/wom/early-big.jpg"
-      big-separator: "/public/img/wom/big.jpg"
+      image: "/t/pwom/public/img/wom/early2-big.jpg"
+      big-separator: "/t/pwom/public/img/wom/big.jpg"
       image-width: 612
       image-height: 877
       bid: "EARLY2"
       audio: false
+      notes: true
 
 exclude: [
-  bin, moved.html, deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
+  bin, standalone, moved.html, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
 ]
 

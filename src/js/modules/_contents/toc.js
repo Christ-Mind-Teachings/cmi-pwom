@@ -1,13 +1,13 @@
 import scroll from "scroll-into-view";
+
+import clipboard from "common/modules/_bookmark/clipboard";
+import {gs} from "common/modules/_language/lang";
+
 import {getConfig} from "../_config/config";
-import clipboard from "www/modules/_bookmark/clipboard";
-import {getString} from "../_language/lang";
 
 const uiTocModal = ".toc.ui.modal";
 const uiOpenTocModal = ".toc-modal-open";
 const uiModalOpacity = 0.5;
-
-const tocString = getString("label:l3");
 
 /*
 * If there is timing or a timer defined for a toc item
@@ -58,6 +58,7 @@ function makeContents(contents, type) {
 //called for transcript pages
 function loadTOC() {
   //console.log("transcript page: loading toc");
+  const tocString = gs("label:l3", "Table of Contents");
   let book = $("#contents-modal-open").attr("data-book").toLowerCase();
 
   getConfig(book)
@@ -70,7 +71,7 @@ function loadTOC() {
     })
     .catch((error) => {
       console.error(error);
-      $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
+      $(".toc-image").attr("src", "/public/img/site/toc_modal.png");
       $(".toc-title").html("${tocString}: <em>Error</em>");
       $(".toc-list").html(`<p>Error: ${error.message}</p>`);
       $(uiTocModal).modal("show");
@@ -189,7 +190,7 @@ export default {
             let share_url=`${location.origin}${location.pathname}?tocbook=${book}`;
 
             $(".toc-image").attr("src", `${contents.image}`);
-            $(".toc-title").html(`<i data-clipboard-text="${share_url}" title="Copy to Clipboard" class="tiny share alternate icon toc-share"></i>&nbsp;${tocString}: <em>${contents.title}</em>`);
+            $(".toc-title").html(`<i data-clipboard-text="${share_url}" title="Copy to Clipboard" class="tiny share alternate icon toc-share"></i>&nbsp;${gs("label:l3", "Table of Contents")}: <em>${contents.title}</em>`);
             $(".toc-list").html(makeContents(contents.contents, contents.toc || ""));
             $(uiTocModal).modal("show");
 
@@ -197,8 +198,8 @@ export default {
           })
           .catch((error) => {
             $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
-            $(".toc-title").html("${tocString}: <em>Error</em>");
-            $(".toc-list").html(`<p>${getString("error:e6")} ${book}.json`);
+            $(".toc-title").html(`${gs('label:l3', 'Table of Contents')}: <em>Error</em>`);
+            $(".toc-list").html(`<p>${gs("error:e6", "Failed to load configuration file")} ${book}.json`);
             $(uiTocModal).modal("show");
           });
       }

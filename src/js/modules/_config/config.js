@@ -1,39 +1,13 @@
-//import {fetchConfiguration} from "www/modules/_util/cmi";
-import {fetchConfiguration} from "www/modules/_ajax/config";
-import axios from "axios";
 import notify from "toastr";
+
+import {fetchConfiguration} from "common/modules/_ajax/config";
+import {gs} from "common/modules/_language/lang";
+
 import {status} from "./status";
-import {getString} from "../_language/lang";
 const transcript = require("./key");
 
+let g_sourceInfo;
 let config; //the current configuration, initially null, assigned by getConfig()
-
-// runtime environment; standalone or integration
-// set during initialization
-let env = {
-  SID: 0,
-  BID: 0,
-  UID: 1,
-  environment: "",
-  prefix: "",                       //prefix for non standalone url's
-  timingBase: "/public/timing",     //location of audio timing files
-  configUrl: "/standalone/config"  //location of book config files
-};
-
-/*
-  Fetch audio timing data
-*/
-export function fetchTimingData(url) {
-  return new Promise((resolve, reject) => {
-    axios.get(`${env.timingBase}${url}`)
-      .then((response) => {
-        resolve(response.data);
-      })
-      .catch((error) => {
-        reject(error);
-      });
-  });
-}
 
 /**
  * Get the configuration file for 'book'. If it's not found in
@@ -46,7 +20,7 @@ export function fetchTimingData(url) {
  */
 export function getConfig(book, assign = true) {
   let lsKey = `cfg${book}`;
-  let url = `${env.configUrl}/${book}.json`;
+  let url = `${g_sourceInfo.configUrl}/${book}.json`;
 
   return new Promise((resolve, reject) => {
     fetchConfiguration(url, lsKey, status).then((resp) => {
@@ -70,7 +44,7 @@ export function getConfig(book, assign = true) {
  */
 export function loadConfig(book) {
   let lsKey = `cfg${book}`;
-  let url = `${env.configUrl}/${book}.json`;
+  let url = `${g_sourceInfo.configUrl}/${book}.json`;
 
   //"book" is a single page, no configuration
   if (!book) {
@@ -105,7 +79,7 @@ export function getAudioInfo(url) {
   });
 
   if (!audioInfo) {
-    notify.error(getString("error:e4"));
+    notify.error(gs("error:e4", "Configuration file error, didn't find url in file."));
     return {};
   }
 
@@ -116,11 +90,11 @@ export function getAudioInfo(url) {
   }
 
   if (!audioInfo) {
-    notify.error(getString("error:e4"));
+    notify.error(gs("error:e4", "Configuration file error, didn't find url in file."));
     return {};
   }
 
-  audioInfo.audioBase = env.audioBase;
+  audioInfo.audioBase = g_sourceInfo.audioBase;
   return audioInfo;
 }
 
@@ -173,7 +147,7 @@ function pageInfo(decodedKey, contents) {
 */
 export function getPageInfo(pageKey, data = false) {
   let decodedKey = transcript.decodeKey(pageKey);
-  let info = {pageKey: pageKey, source: env.title, bookId: decodedKey.bookId};
+  let info = {pageKey: pageKey, source: g_sourceInfo.title, bookId: decodedKey.bookId};
 
   if (data) {
     info.data = data;
@@ -183,8 +157,8 @@ export function getPageInfo(pageKey, data = false) {
 
     //invalid pageKey
     if (pageKey === -1) {
-      info.bookTitle = getString("label:l1");
-      info.title = getString("label:l2");
+      info.bookTitle = gs("label:l1", "Book Title Unknown");
+      info.title = gs("label:l2", "Title Unknown");
       info.url = "";
       resolve(info);
       return;
@@ -194,8 +168,8 @@ export function getPageInfo(pageKey, data = false) {
     getConfig(decodedKey.bookId, false)
       .then((data) => {
         if (!data) {
-          info.bookTitle = getString("label:l1");
-          info.title = getString("label:l2");
+          info.bookTitle = gs("label:l1", "Book Title Unknown");
+          info.title = gs("label:l2", "Title Unknown");
           info.url = "";
         }
         else {
@@ -217,22 +191,8 @@ export function getPageInfo(pageKey, data = false) {
 /*
  * Set environment to standalone or integrated
  */
-export function setEnv(constants) {
-  env.configStore = constants.configStore;
-  env.title = constants.title;
-  env.audioBase = constants.audioBase;
-  env.environment = constants.env;
-
-  if (constants.env === "standalone") {
-    return;
-  }
-
-  env.SID += 1;
-  env.BID += 2;
-  env.UID += 2;
-  env.prefix = constants.url_prefix;
-  env.timingBase = `${constants.url_prefix}${env.timingBase}`;
-  env.configUrl = env.configUrl.replace("/standalone", `${constants.url_prefix}/public`);
+export function setEnv(si) {
+  g_sourceInfo = si;
 }
 
 

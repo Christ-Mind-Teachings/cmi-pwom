@@ -11,11 +11,12 @@
   <title>{{page.title}}</title>
 
   {% include common/load-open-graph.html %}
-  {% if site.environment == "standalone" %}
-    {% include common/page-css.html type="standalone" %}
-  {% else %}
-    {% include common/page-css.html type="integration" %}
-  {% endif %}
+
+  <link rel="stylesheet" href="/public/css/{{site.semantic}}/semantic.css">
+  <link rel="stylesheet" href="/public/css/cmi.css">
+  <link rel="stylesheet" href="/public/css/driver.min.css">
+  <link rel="stylesheet" href="/t/pwom/public/css/wom.css">
+
   {% include favicon/cmi.html %}
 
 </head>
@@ -36,18 +37,28 @@
   {% include components/search-modal.html %}
   {% include components/search-desc-modal.html %}
   {% include components/toc-modal.html %}
-  {% include components/notes-modal.html %}
+  {% if site.homepage.notes != false %}
+    {% include components/notes-modal.html %}
+  {% endif %}
   <div class="quote-sharing-modals">
     {% include components/quote-modal.html %}
     {% include components/share-modal.html %}
   </div>
   <div class="fixed" id="netlify-modal"></div>
 
-  {% if site.environment == "standalone" %}
-    {% include common/page-js.html type="standalone" %}
+  <script src="/public/vendor/jquery/jquery.min.js"></script>
+  <script src="/public/vendor/{{site.semantic}}/semantic.min.js"></script>
+  {% if jekyll.environment == "production" %}
+    <!-- PWOM page Webpack production ({{site.semantic}})  -->
+    <script src="/t/pwom/public/js/vendors~page~transcript.js"></script>
+    <script src="/t/pwom/public/js/page.js"></script>
   {% else %}
-    {% include common/page-js.html type="integration" %}
+    <!-- PWOM page Webpack development ({{site.semantic}})  -->
+    <script src="/t/pwom/public/js/vendors~page~transcript.js"></script>
+    <script src="/t/pwom/public/js/page~transcript.js"></script>
+    <script src="/t/pwom/public/js/page.js"></script>
   {% endif %}
+
 </body>
 
 </html>

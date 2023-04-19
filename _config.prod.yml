@@ -2,8 +2,11 @@
 
 environment: integration
 destination: "../cmi-www/t/pwom"
+homepage:
+  notes: true
 
 sourceId: 16
+sid: PWOM
 cmiTitle: "Nauki Umysłu Chrystusa"
 siteName: "Biblioteka Nauk Umysłu Chrystusa"
 
@@ -19,14 +22,11 @@ port:         9916
 # About/contact
 author:
   name:              Rick Mercer
-  url:               https://twitter.com/rmercer33
-  email:             rmercer33@gmail.com
+  email:             rmercer33@christmind.info
+  url:               https://rickmercer.us
 
 fb-appId:     448658485318107
 semantic:     fui292
-#semantic:     fui286
-#semantic:     sui231
-#semantic:     sui241
 src-url:      'https://www.christmind.info/t/pwom'
 
 # Permalinks
@@ -81,7 +81,9 @@ defaults:
       image-height: 792
       bid: "acq"
       audio: false
+      notes: false
       pnumToggle: false
+
   - scope:
       path: ""
       type: lj
@@ -96,6 +98,7 @@ defaults:
       image-height: 877
       bid: "LJ"
       audio: false
+      notes: false
 
   - scope:
       path: ""
@@ -111,6 +114,7 @@ defaults:
       image-height: 877
       bid: "WOS"
       audio: false
+      notes: false
 
   - scope:
       path: ""
@@ -125,6 +129,7 @@ defaults:
       image-height: 877
       bid: "WOH"
       audio: true
+      notes: true
 
   - scope:
       path: ""
@@ -139,6 +144,7 @@ defaults:
       image-height: 877
       bid: "WOT"
       audio: true
+      notes: true
 
   - scope:
       path: ""
@@ -153,6 +159,7 @@ defaults:
       image-height: 877
       bid: "WOK"
       audio: true
+      notes: true
 
   - scope:
       path: ""
@@ -167,6 +174,7 @@ defaults:
       image-height: 877
       bid: "EARLY"
       audio: false
+      notes: true
 
   - scope:
       path: ""
@@ -181,6 +189,7 @@ defaults:
       image-height: 877
       bid: "EARLY2"
       audio: false
+      notes: true
 
 exclude: [
   bin, standalone, moved.html, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project

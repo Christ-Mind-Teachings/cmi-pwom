@@ -3,27 +3,33 @@
 */
 
 const keyInfo = require("./modules/_config/key");
-import {getPageInfo} from "./modules/_config/config";
+import {getReservation, getAudioInfo, getPageInfo} from "./modules/_config/config";
 
-let env = "integration";
-let sid = "pwom";
-let lang = "pl";
-let title = "Droga Mistrzostwa";
-let bucket = "assets.christmind.info";
+const env = "integration";
+const sid = "pwom";
+const lang = "pl";
+const title = "Droga Mistrzostwa";
+const bucket = "assets.christmind.info";
+const HOME_URI = `/t/${sid}`;
 
 export default {
   env: env,
   lang: lang,
   sid: sid,
   title: title,
-  url_prefix: `/t/${sid}`,                  //navigator
-  getPageInfo: getPageInfo,              //list
-  keyInfo: keyInfo,
+  url_prefix: HOME_URI,
+  configUrl: `${HOME_URI}/public/config`,
   sourceId: 16,
   quoteManagerId: "3f7f14c0d7a13eb2e5a05f3c981f33fb",
   quoteManagerName: "CMI",
-  audioBase: `https://s3.amazonaws.com/${bucket}/${sid}/audio`,
-  searchEndpoint: `https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/latest/${sid}`,
+  getPageInfo: getPageInfo,
+  keyInfo: keyInfo,
+  audio: {
+    audioBase: `https://s3.amazonaws.com/${bucket}/${sid}/audio`,
+    timingBase: `${HOME_URI}/public/timing`,
+    getReservation: getReservation,
+    getAudioInfo: getAudioInfo
+  },
   store: {
     bmList: "bm.list",
     bmCreation: "bm.creation",

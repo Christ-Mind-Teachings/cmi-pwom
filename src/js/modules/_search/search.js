@@ -1,7 +1,5 @@
-import {getString} from "../_language/lang";
-
 //support for non-english language
-import {gs} from "www/modules/_language/lang";
+import {gs} from "common/modules/_language/lang";
 
 //global vars
 let g_sourceInfo;
@@ -28,7 +26,7 @@ function makeList(bid, title, pageInfo, matchArray) {
                   <div class="content">
                     <div class="header">
                       <i data-bid="${bid}" data-m="${midx}" data-h="${hidx}" class="edit-match trash green icon"></i>
-                      <a href="${pageInfo[m.pageKey].url}?srch=${h.location}">${getString("search:s10")} ${h.location.substr(1)}</a>
+                      <a href="${pageInfo[m.pageKey].url}?srch=${h.location}">${gs("search:s10", "Parapraph")} ${h.location.substr(1)}</a>
                     </div>
                     <div class="description">
                       ${h.context}
@@ -63,15 +61,7 @@ export function generateHTML(queryResult) {
 export function searchInit(si) {
   g_sourceInfo = si;
   g_sourceInfo.generateHTML = generateHTML;
-  g_sourceInfo.gs = gs;
 
   return g_sourceInfo;
 }
-
-  /*
-  $(".search-message.header").text(getString("search:s11"));
-  $(".search-message-body").html(`<p>${getString("search:s3")} <em>${queryResult.query}</em> ${getString("search:s5")} ${queryResult.count} ${getString("search:s6")}</p>`);
-  $("#search-results-header").html(`: <em>${queryResult.query}</em>`);
- */
-
 

@@ -65,6 +65,10 @@
       <div id="help-menu" class="menu">
         <div id="transcript-page-info" class="header"></div>
         <div class="divider"></div>
+        {% if page.notes != false %}
+          <div id="help-study-suggestions" data-note="studyguide" class="notes-modal-open item">{{site.data.lang.menu.m3}}</div>
+          <div class="divider"></div>
+        {% endif %}
         <div class="transcript-tour item">{{site.data.lang.menu.m5}}</div>
         <div class="read-documentation item">{{site.data.lang.menu.m6}}</div>
         <div class="view-documentation item">{{site.data.lang.menu.m7}}</div>

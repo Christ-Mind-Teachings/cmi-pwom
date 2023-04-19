@@ -1,5 +1,5 @@
 import Driver from "driver.js";
-import {runFeatureIntro} from "www/modules/_util/driver";
+import {runFeatureIntro} from "common/modules/_util/driver";
 
 export function pageDriver() {
   const driver = new Driver({

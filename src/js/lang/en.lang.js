@@ -7,12 +7,27 @@ export default {
     l3: "Table of Contents",
     l4: "Search for",
     l5: "of",
-    l6: "Last Search Result"
+    l6: "Last Search Result",
+    end: "End",
+    range: "Range",
+    comment: "Comment",
+    newtopic: "New topics? Comma delimited list",
+    notes: "Additional Notes",
+    links: "Links",
+    linkref: "Reference",
+    link: "Link",
+    linknote: "Link note",
+    selecttopic: "Select Topic(s)",
+    selectaddress: "Select Email Address(es)",
+    listnames: "Mail List Names",
+    para: "Paragraph",
+    clearfilter: "Clear Filter",
+    topicfilter: "Topic Filter"
   },
   notify: {
     n1: "Click is ignored when audio is not playing.",
     n2: "Warning, your timing data will be lost if you close the window without submitting the data.",
-    n3:  "Your Data Will Be Lost",
+    n3: "Your Data Will Be Lost",
     n4: "Thank you! The data was submitted successfully.",
     n5: "Sorry, submit failed.",
     n6: "Partial audio capture data restored. You can continue timing where you left off.",
@@ -36,6 +51,48 @@ export default {
     s10: "Paragraph",
     s11: "Last Search Result"
   },
+  srch: {
+    s1: "Save Changes",
+    s2: "Select Items to Remove",
+    s3: "Error displaying search results. See console for details.",
+    s4: "Saved Search Result",
+    s5: "Saved Search",
+    s6: "has",
+    s7: "found",
+    s8: "matches",
+    s9: "Search for",
+    s10: "Last Search Result",
+    s11: "Search Started",
+    s12: "Searching for",
+    s13: "Please wait",
+    s14: "Waiting for saved search",
+    s15: "from",
+    s16: "Search Result",
+    s17: "Search Error",
+    s18: "Saved Search Error",
+    s19: "Search for",
+    s20: "didn't find any matches.",
+    s21: "You Have",
+    s22: "Saved Searches",
+    s23: "You Have No Saved Searches",
+    s24: "Sign In to Save Searches",
+    s25: "You have unsaved changes to the search list. Save the changes by starting a new search.",
+    s26: "doesn't have any matches. This should not happen.",
+    s27: "You have unsaved changes to the search list. Save the changes before leaving the page.",
+    s28: "match marked",
+    s29: "matches marked",
+    s30: "Save changes before closing Navigator",
+    s31: "Save changes before leaving page",
+    s32: "Matches Removed",
+    s33: "Match Removed",
+    s34: "There is no search results to show.",
+    s35: "There is no search result at",
+    s36: "Failed to highlight",
+    s37: "search results",
+    s38: "Remove",
+    s39: "Restore",
+    s40: "matches"
+  },
   html: {
     h1: "Drat! Your submit failed.",
     h2: "To re-submit, try to refresh the page or return at a later time. The data will not be lost. This form will be displayed the next time you visit the page."
@@ -52,5 +109,74 @@ export default {
     e9: "Please enter a message",
     e10: "Thank you!",
     e11: "Sorry, there was a failure to communicate!"
+  },
+  annotate: {
+    m1: "Cancel, Sign In, and create a new bookmark.",
+    m2: "You are not signed in. Bookmarks created when you are not signed in cannot be shared.",
+    m3: "Invalid link; invalid format, get link from bookmark popup.",
+    m4: "Invalid link; invalid format, get link from bookmark popup.",
+    m5: "Invalid link; it references itself.",
+    m6: "Annotation has no topics",
+    m7: "No comment",
+    m8: "A bookmark is already being added at paragraph",
+    m9: "Please complete that first.",
+    m10: "Annotation is disabled when the bookmark navigator is active.",
+    m11: "Sign into your account to share this bookmark to FB by email or to copy a link.",
+    m12: "Unable to fetch bookmark topic list",
+    m13: "No Topics",
+    m14: "You must be signed in to share bookmarks.",
+    m15: "Page has no topics"
+  },
+  bmlist: {
+    header: "You Don't Have Any Bookmarks Yet",
+    intro: "Bookmarks are expressive and powerful and you can assign them to categories to easily view only the categories you want. There are two ways to create bookmarks.",
+    item1: "Selecting text of interest or",
+    item2: "Clicking on the paragraph number, eg: (p21)",
+    link: "See <a href='/acq/bookmark/'>the Bookmark documentation</a> for more information."
+  },
+  quote: {
+    g2s: "Go to the source"
+  },
+  action: {
+    submit: "Submit",
+    cancel: "Cancel",
+    share: "Share",
+    delete: "Delete",
+    edit: "Edit",
+    follow: "Follow",
+    prev: "Previous",
+    next: "Next",
+    closewin : "Close Window",
+    close: "Close Window",
+    signout: "Sign Out",
+    signin: "Sign In",
+    cp2clip: "Copy Url to Clipboard",
+    fbshare: "Share to Facebook",
+    emailshare: "Share via email",
+    emailsent: "Email Sent!"
+  },
+  fragment: {
+    f1: "A bookmark at",
+    f2: "was not found."
+  },
+  clip: {
+    url: "Url copied to clipboard",
+    link: "Link Copied to Clipboard"
+  },
+  menu: {
+    m1: "Disable Bookmark Creation",
+    m2: "Enable Bookmark Creation"
+  },
+  error1: {
+    e1: "Error saving annotation, please try again",
+    e2: "Unable to load bookmarks",
+    e3: "Error copying to Clipboard",
+    e4: "Failed to get bookmarks",
+    e5: "Sorry, there was a problem, refresh the page and try again.",
+    e6: "Don't include the paragraph number in your selection, please try again.",
+    e7: "Your selection is overlapping with another; overlapping is not supported.",
+    e8: "Please limit selected text to a single paragraph",
+    e9: "Please enter at least one email address.",
+    e10: "Error getting email list:"
   }
 }
