@@ -68,7 +68,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
   </div>
   <div class="ui three cards">
     <div class="card">
-      <a id="book-lj" href="#" data-book="lj" class="toc-modal-open image">
+      <a id="book-lj" href="#" data-book="lj" animate class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/lj-big.jpg">
         {% else %}
@@ -82,7 +82,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
       </div>
     </div>
     <div class="card">
-      <a id="book-wos" href="#" data-book="wos" class="toc-modal-open image">
+      <a id="book-wos" href="#" data-book="wos" animate class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/wos-big.jpg">
         {% else %}
@@ -98,7 +98,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
   </div>
   <div class="ui three cards">
     <div class="card">
-      <a id="book-early" href="#" data-book="early" class="toc-modal-open image">
+      <a id="book-early" href="#" data-book="early" animate class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/early-big.jpg">
         {% else %}
@@ -112,7 +112,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
       </div>
     </div>
     <div class="card">
-      <a id="book-early2" href="#" data-book="early2" class="toc-modal-open image">
+      <a id="book-early2" href="#" data-book="early2" animate class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/early2-big.jpg">
         {% else %}
@@ -128,7 +128,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
   </div>
   <div class="ui three cards">
     <div class="card">
-      <a id="book-woh" href="#" data-book="woh" class="toc-modal-open image">
+      <a id="book-woh" href="#" data-book="woh" animate class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/woh-big.jpg">
         {% else %}
@@ -142,7 +142,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
       </div>
     </div>
     <div class="card">
-      <a id="book-wot" href="#" data-book="wot" class="toc-modal-open image">
+      <a id="book-wot" href="#" data-book="wot" animate class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/wot-big.jpg">
         {% else %}
@@ -156,7 +156,7 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
       </div>
     </div>
     <div class="card">
-      <a id="book-wok" href="#" data-book="wok" class="toc-modal-open image">
+      <a id="book-wok" href="#" data-book="wok" animate class="toc-modal-open image">
         {% if site.environment == "standalone" %}
           <img src="/public/img/wom/wok-big.jpg">
         {% else %}
