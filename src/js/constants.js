@@ -4,6 +4,7 @@
 
 const keyInfo = require("./modules/_config/key");
 import {getReservation, getAudioInfo, getPageInfo} from "./modules/_config/config";
+import {pwomHelp} from "./modules/_extension/help";
 
 const env = "integration";
 const sid = "pwom";
@@ -29,6 +30,9 @@ export default {
     timingBase: `${HOME_URI}/public/timing`,
     getReservation: getReservation,
     getAudioInfo: getAudioInfo
+  },
+  extension: {
+    help: pwomHelp
   },
   store: {
     bmList: "bm.list",
