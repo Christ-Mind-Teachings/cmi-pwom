@@ -145,8 +145,21 @@ function pageInfo(decodedKey, contents) {
     pageKey: a key uniquely identifying a transcript page
     data: optional, data that will be added to the result, used for convenience
 */
-export function getPageInfo(pageKey, data = false) {
-  let decodedKey = transcript.decodeKey(pageKey);
+export function getPageInfo(page, data = false) {
+  let decodedKey;
+  let pageKey;
+
+  /*
+   * Convert arg: page to pageKey if it is passed in as a url
+   */
+  if (typeof page === "string" && page.startsWith("/t/")) {
+    pageKey = transcript.genPageKey(page);
+  }
+  else {
+    pageKey = page;
+  }
+
+  decodedKey = transcript.decodeKey(pageKey);
   let info = {pageKey: pageKey, source: g_sourceInfo.title, bookId: decodedKey.bookId};
 
   if (data) {
@@ -178,6 +191,11 @@ export function getPageInfo(pageKey, data = false) {
           info.bookTitle = data.title;
           info.title = pi.title;
           info.url = pi.url;
+
+          //Rick added Feb 24, 2025
+          info.audio = pi.audio;
+          info.timing = pi.timing;
+          info.audioBase = g_sourceInfo.audioBase;
 
           resolve(info);
         }
