@@ -31,6 +31,7 @@
 .transcript.woh .chHead,
 .transcript.early .chHead,
 .transcript.early2 .chHead,
+.transcript.early3 .chHead,
 .transcript.wos .chHead,
 .transcript.lj .chHead {
   text-align: center;
@@ -39,14 +40,14 @@
   margin-bottom: 1.5em;
  }
 
-.transcript.lj .capital { 
+.transcript.lj .capital {
   font-weight: bold;
   font-style: italic;
   font-size: 3.33em;
   line-height: 0.42em;
  }
 
-.transcript.lj .quote { 
+.transcript.lj .quote {
   margin-left: 20px;
  }
 
@@ -60,6 +61,7 @@
 }
 
 .transcript.early div.indent,
+.transcript.early3 div.indent,
 .transcript.early2 div.indent {
   margin-left: 3%;
   margin-bottom: 1em;

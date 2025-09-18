@@ -125,6 +125,20 @@ sklepie <a href="https://pokojchrystusa.pl" target="_blank">Wydawnictwa Pokoju C
         </div>
       </div>
     </div>
+    <div class="card">
+      <a id="book-early3" href="#" data-book="early3" animate class="toc-modal-open image">
+        {% if site.environment == "standalone" %}
+          <img src="/public/img/wom/early3-big.png">
+        {% else %}
+          <img src="/t/pwom/public/img/wom/early3-big.png">
+        {% endif %}
+      </a>
+      <div class="content">
+        <div class="description">
+          Wczesne lata, Tom 3
+        </div>
+      </div>
+    </div>
   </div>
   <div class="ui three cards">
     <div class="card">

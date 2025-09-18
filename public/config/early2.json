@@ -3,8 +3,12 @@
   "title": "Wczesne lata Drogi Mistrzostwa, Tom 2",
   "image": "/t/pwom/public/img/wom/early2-toc.jpg",
   "toc": "relaxed ordered",
-  "totalPages": 10,
+  "totalPages": 11,
   "contents": [
+    {
+      "title": "Wstęp",
+      "url": "/t/pwom/early2/intr/"
+    },
     {
       "title": "Postanów widzieć",
       "url": "/t/pwom/early2/chap01/",

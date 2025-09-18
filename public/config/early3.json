@@ -1,0 +1,66 @@
+{
+  "bid": "early3",
+  "title": "Wczesne lata Drogi Mistrzostwa, Tom 3",
+  "image": "/t/pwom/public/img/wom/early3-toc.png",
+  "toc": "relaxed ordered",
+  "totalPages": 14,
+  "contents": [
+    {
+      "title": "Wstęp",
+      "url": "/t/pwom/early3/intr/"
+    },
+    {
+      "title": "Uzdrawianie iluzji zranienia",
+      "url": "/t/pwom/early3/chap01/"
+    },
+    {
+      "title": "Wielkanoc",
+      "url": "/t/pwom/early3/chap02/"
+    },
+    {
+      "title": "Wolność i przebaczenie",
+      "url": "/t/pwom/early3/chap03/"
+    },
+    {
+      "title": "Oto teraz cel mego życia jest przede mną",
+      "url": "/t/pwom/early3/chap04/"
+    },
+    {
+      "title": "Cel istnienia świata",
+      "url": "/t/pwom/early3/chap05/"
+    },
+    {
+      "title": "Czas świętowania",
+      "url": "/t/pwom/early3/chap06/"
+    },
+    {
+      "title": "Światło, którym jesteś",
+      "url": "/t/pwom/early3/chap07/"
+    },
+    {
+      "title": "Pokój",
+      "url": "/t/pwom/early3/chap08/"
+    },
+    {
+      "title": "Postrzeganie",
+      "url": "/t/pwom/early3/chap09/"
+    },
+    {
+      "title": "Bliski jest kres poszukiwań",
+      "url": "/t/pwom/early3/chap10/"
+    },
+    {
+      "title": "Uzdrawianie miłością siebie samego",
+      "url": "/t/pwom/early3/chap11/"
+    },
+    {
+      "title": "Święty związek",
+      "url": "/t/pwom/early3/chap12/"
+    },
+    {
+      "title": "Nauczaj jedynie Miłości",
+      "url": "/t/pwom/early3/chap13/"
+    }
+  ]
+}
+
