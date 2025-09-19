@@ -403,7 +403,7 @@ Pozwól więc, że przypomnę ci, że to, co się teraz w tobie dzieje, jest jed
 
 Gdy więc medytujesz nad tym, nie tyle proś o odpowiedzi czy ich szukaj, ale wykorzystaj ten czas, by pamiętać, że odpowiedź jest już w tobie teraz. To pozwoli umysłowi uspokoić się i zejść głębiej w stan pokoju—i tam odpowiedzi zaczną się ukazywać. Ostatecznie to doświadczenie poprowadzi cię do głębszego poziomu zaufania do Głosu, który nie jest twój własny.
 
-*[Tak, zdecydowanie to odczuwasz. A co sądzisz o wydawnictwie Simon & Schuster?*
+*Tak, zdecydowanie to odczuwasz. A co sądzisz o wydawnictwie Simon & Schuster?*
 
 To, o czym mówisz w odniesieniu do tej firmy, rzeczywiście na tym etapie ma prawdopodobieństwo przejawienia się. Jednak będzie to wymagało od was obojga, zaangażowanych w ten projekt, świadomego korzystania z czasu, aby czuwać nad umysłem i nie pozwolić, by dopadły was wątpliwości. W nadchodzących dniach i tygodniach pojawią się myśli zrodzone ze świata, a nie z Królestwa, które mogą was skłaniać do przekonania, że tak wielka firma jest nieosiągalna i znajduje się zbyt wysoko ponad projektem, który chcecie jej przedstawić. Byłoby to równoznaczne z wiarą w trudność lub, jeśli wolisz, w hierarchię trudności cudów.
 

@@ -12,307 +12,915 @@ title: "Uzdrawianie iluzji zranienia"
 
 Teraz zaczynamy.
 
-Pozdrawiam was, umiłowane i święte Dzieci Boskiego Światła. Tak, pozdrawiam was, umiłowany i święty, jednorodzony Synu Boży. Wiedzcie, proszę, że przychodzę z wielką radością, by trwać z wami w ten szczególny i nieco osobliwy sposób, i zawsze przychodzę w radości, by być z wami. Gdy bowiem na was spoglądam, widzę jedynie blask Światła tak promiennego, tak ogromnego, że już teraz przewyższa ono wszystkie światy. Spoglądam na was i widzę jedynie siebie — tak, świętego i jednorodzonego Syna Bożego.
+Pozdrawiam was, umiłowane i święte Dzieci Boskiego Światła. Tak,
+pozdrawiam was, umiłowany i święty, jednorodzony Synu Boży. Wiedzcie,
+proszę, że przychodzę z wielką radością, by trwać z wami w ten
+szczególny i nieco osobliwy sposób, i zawsze przychodzę w radości, by
+być z wami. Gdy bowiem na was spoglądam, widzę jedynie blask Światła tak
+promiennego, tak ogromnego, że już teraz przewyższa ono wszystkie
+światy. Spoglądam na was i widzę jedynie siebie — tak, świętego i
+jednorodzonego Syna Bożego.
 
-A w Prawdzie Syn nie jest ani mężczyzną, ani kobietą, lecz jest potomstwem Boskiego Światła. Stworzeni jesteście na obraz Boga; dlatego odzwierciedlacie to, czym jest Ojciec. A jeśli Bóg jest Miłością — zapewniam was, że tak jest — to Miłość jest również fundamentem waszej rzeczywistości. Miłość jest także waszym celem i waszą funkcją, tak samo jak jest moją.
+A w Prawdzie Syn nie jest ani mężczyzną, ani kobietą, lecz jest
+potomstwem Boskiego Światła. Stworzeni jesteście na obraz Boga; dlatego
+odzwierciedlacie to, czym jest Ojciec. A jeśli Bóg jest Miłością —
+zapewniam was, że tak jest — to Miłość jest również fundamentem waszej
+rzeczywistości. Miłość jest także waszym celem i waszą funkcją, tak samo
+jak jest moją.
 
-A jeśli fundamentem waszej rzeczywistości jest Miłość, która daleko przewyższa wszelkie pozory, jeśli jest to Światło i Miłość, która nie zna ani początku, ani końca, jeśli jest to Miłość będąca także fundamentem mojego istnienia, to wówczas jesteśmy jednością. Ponad wszelkimi pozorami. Ponad narodzinami i śmiercią. Ponad przychodzeniem i odchodzeniem. Ponad wszelkim lękiem, wszelkimi wątpliwościami, pragnieniami i żalami. Pozostajemy tacy, jakimi zostaliśmy stworzeni: świętym i jednorodzonym Synem Bożym.
+A jeśli fundamentem waszej rzeczywistości jest Miłość, która daleko
+przewyższa wszelkie pozory, jeśli jest to Światło i Miłość, która nie
+zna ani początku, ani końca, jeśli jest to Miłość będąca także
+fundamentem mojego istnienia, to wówczas jesteśmy jednością. Ponad
+wszelkimi pozorami. Ponad narodzinami i śmiercią. Ponad przychodzeniem i
+odchodzeniem. Ponad wszelkim lękiem, wszelkimi wątpliwościami,
+pragnieniami i żalami. Pozostajemy tacy, jakimi zostaliśmy stworzeni:
+świętym i jednorodzonym Synem Bożym.
 
-Zrozumcie więc dobrze, że nie przychodzę do was jako ktoś, kto stoi ponad wami, lecz przychodzę, aby w ten sposób być z wami i ukazać Prawdę, której nikt nam nie może odebrać. Bowiem tam, gdzie jesteście wy, jestem i ja. Tam, gdzie jesteś ty, jestem i ja. A jedyną odległością, jaka kiedykolwiek istniała między nami, jest szerokość myśli — i nic więcej. Czym zatem jest szerokość myśli? Czy można ją zmierzyć? Nie, lecz można ją wybrać.
+Zrozumcie więc dobrze, że nie przychodzę do was jako ktoś, kto stoi
+ponad wami, lecz przychodzę, aby w ten sposób być z wami i ukazać
+Prawdę, której nikt nam nie może odebrać. Bowiem tam, gdzie jesteście
+wy, jestem i ja. Tam, gdzie jesteś ty, jestem i ja. A jedyną
+odległością, jaka kiedykolwiek istniała między nami, jest szerokość
+myśli — i nic więcej. Czym zatem jest szerokość myśli? Czy można ją
+zmierzyć? Nie, lecz można ją wybrać.
 
-Dlatego, gdy dokonujesz wyboru, by trwać w Miłości i jako Miłość, wybierasz, by trwać ze mną. Gdy wybierasz lęk, wybierasz myśl, która oddziela cię ode mnie. A jednak to oddzielenie nie zachodzi w rzeczywistości, choć wydaje się, że tak jest w ramach konstrukcji, którą nazwałbym waszą iluzją.
+Dlatego, gdy dokonujesz wyboru, by trwać w Miłości i jako Miłość,
+wybierasz, by trwać ze mną. Gdy wybierasz lęk, wybierasz myśl, która
+oddziela cię ode mnie. A jednak to oddzielenie nie zachodzi w
+rzeczywistości, choć wydaje się, że tak jest w ramach konstrukcji, którą
+nazwałbym waszą iluzją.
 
-Za każdym razem, gdy doświadczyłeś lęku, za każdym razem, gdy poczułeś gniew, za każdym razem, gdy spoglądałeś na świat i widziałeś świat jako niebezpieczny, zapominałeś o domu, w którym trwasz wiecznie, bez końca. Gdy patrzysz i widzisz siebie oddzielonego od swojego brata lub siostry, gdy spoglądasz na mnie przez pryzmat dziwnych idei, których cię nauczono na mój temat, i wierzysz, że muszę być kimś lub czymś dalekim od ciebie, nie wybierasz patrzenia oczami Miłości.
+Za każdym razem, gdy doświadczyłeś lęku, za każdym razem, gdy poczułeś
+gniew, za każdym razem, gdy spoglądałeś na świat i widziałeś świat jako
+niebezpieczny, zapominałeś o domu, w którym trwasz wiecznie, bez końca.
+Gdy patrzysz i widzisz siebie oddzielonego od swojego brata lub siostry,
+gdy spoglądasz na mnie przez pryzmat dziwnych idei, których cię nauczono
+na mój temat, i wierzysz, że muszę być kimś lub czymś dalekim od ciebie,
+nie wybierasz patrzenia oczami Miłości.
 
-W tych chwilach, gdy umysł zakosztował ciszy, serce jest otwarte, a ty ofiarowałeś sobie i światu pełnię przebaczenia, gdy byłeś gotów objąć i zaufać wszystkiemu, gdy dotknąłeś ciszy wypływającej z głębi serca, z miejsca Najświętszego, ze świątyni, w której Syn i Ojciec trwają jako Jedność — wówczas rzeczywiście wybrałeś Miłość. Spojrzałeś oczami Miłości, a wraz ze mną spojrzałeś na świat jako bezpieczny. Spojrzałeś na swoich braci i siostry i ujrzałeś ich takimi, jakimi jesteśmy — takimi jak my sami. I wiesz, że w Prawdzie kroczymy razem ku Bogu.
+W tych chwilach, gdy umysł zakosztował ciszy, serce jest otwarte, a ty
+ofiarowałeś sobie i światu pełnię przebaczenia, gdy byłeś gotów objąć i
+zaufać wszystkiemu, gdy dotknąłeś ciszy wypływającej z głębi serca, z
+miejsca Najświętszego, ze świątyni, w której Syn i Ojciec trwają jako
+Jedność — wówczas rzeczywiście wybrałeś Miłość. Spojrzałeś oczami
+Miłości, a wraz ze mną spojrzałeś na świat jako bezpieczny. Spojrzałeś
+na swoich braci i siostry i ujrzałeś ich takimi, jakimi jesteśmy —
+takimi jak my sami. I wiesz, że w Prawdzie kroczymy razem ku Bogu.
 
-Jeśli Bóg jest Miłością, podróż ta nie musi być naznaczona lękiem. Bowiem na końcu wszelkiej wędrówki Syn budzi się z tego, co wówczas jawi się jedynie jako sen. Widzi swój blask i widzi, jak promieniuje on, obejmując całość stworzenia. Widzi go w uśmiechu i oczach każdego, kogo spotyka.
+Jeśli Bóg jest Miłością, podróż ta nie musi być naznaczona lękiem.
+Bowiem na końcu wszelkiej wędrówki Syn budzi się z tego, co wówczas jawi
+się jedynie jako sen. Widzi swój blask i widzi, jak promieniuje on,
+obejmując całość stworzenia. Widzi go w uśmiechu i oczach każdego, kogo
+spotyka.
 
-Syn wypełnia swoją funkcję, ponieważ porzucił życie jako ego, jako oddzielne ja. Staje się punktem, przez który Światło i promienność Miłości jaśnieją w każdej myśli i w każdym czynie. To, co on lub ona tworzą, odzwierciedla wszystko, czym jest Ojciec: Miłością ofiarowującą samą siebie, by dotykać, obejmować, podnosić i uzdrawiać stworzenie.
+Syn wypełnia swoją funkcję, ponieważ porzucił życie jako ego, jako
+oddzielne ja. Staje się punktem, przez który Światło i promienność
+Miłości jaśnieją w każdej myśli i w każdym czynie. To, co on lub ona
+tworzą, odzwierciedla wszystko, czym jest Ojciec: Miłością ofiarowującą
+samą siebie, by dotykać, obejmować, podnosić i uzdrawiać stworzenie.
 
-A jednak rozdawana Miłość nigdy nie opuszcza Syna, ponieważ wszystko powstaje w umyśle Syna Bożego. A jeśli tak jest — a zapewniam was, że tak właśnie jest — oznacza to, że gdy dajesz Miłość, gdy spoglądasz poza wszystkie pojęcia i wyobrażenia, w które świat nauczył cię wierzyć, gdy spoglądasz nawet poza zasłonę ciała, zasłonę historii, i dostrzegasz blask Światła Chrystusa w swoim bracie i siostrze, wówczas ujrzałeś siebie. I objąłeś całego siebie. Odrzuciłeś rzeczy snów, ponieważ powróciło Światło dnia.
+A jednak rozdawana Miłość nigdy nie opuszcza Syna, ponieważ wszystko
+powstaje w umyśle Syna Bożego. A jeśli tak jest — a zapewniam was, że
+tak właśnie jest — oznacza to, że gdy dajesz Miłość, gdy spoglądasz poza
+wszystkie pojęcia i wyobrażenia, w które świat nauczył cię wierzyć, gdy
+spoglądasz nawet poza zasłonę ciała, zasłonę historii, i dostrzegasz
+blask Światła Chrystusa w swoim bracie i siostrze, wówczas ujrzałeś
+siebie. I objąłeś całego siebie. Odrzuciłeś rzeczy snów, ponieważ
+powróciło Światło dnia.
 
-Jak więc mógłbym być gdziekolwiek indziej, niż z tobą, tam, gdzie jesteś, w każdej chwili i z każdym oddechem? Cóż zatem stworzyło świat oddzielenia? Myśl. Twoja myśl. Co uzdrawia świat oddzielenia? Myśl. Twoja święta myśl.
+Jak więc mógłbym być gdziekolwiek indziej, niż z tobą, tam, gdzie
+jesteś, w każdej chwili i z każdym oddechem? Cóż zatem stworzyło świat
+oddzielenia? Myśl. Twoja myśl. Co uzdrawia świat oddzielenia? Myśl.
+Twoja święta myśl.
 
-Istnieje jedynie prosty wybór do dokonania, który nie wymaga wielkiego wysiłku. Przygotowanie zostało już ukończone, a wybór jest następujący: „W tej chwili, bez względu na okoliczności, czy jestem gotów wybrać Miłość, czy wybiorę lęk?” Bowiem lęk rodzi oddzielenie, a oddzielenie zawsze niesie ze sobą cień winy. 
+Istnieje jedynie prosty wybór do dokonania, który nie wymaga wielkiego
+wysiłku. Przygotowanie zostało już ukończone, a wybór jest następujący:
+„W tej chwili, bez względu na okoliczności, czy jestem gotów wybrać
+Miłość, czy wybiorę lęk?” Bowiem lęk rodzi oddzielenie, a oddzielenie
+zawsze niesie ze sobą cień winy. 
 
-Z winy zaś ten mały fragment umysłu zwany ego, który nauczył cię wierzyć, że jesteś oddzielony od Boga, ten mały fragment umysłu, który jest jak komar wołający w bezmiar przestrzeni: „Zwróć na mnie uwagę”, ten mały fragment umysłu, aby uchronić się przed spojrzeniem w oblicze własnej winy, zaczyna projektować na zewnątrz swoje lęki i wątpliwości. Znajduje innego, znajduje świat poza sobą, który musi być odpowiedzialny za jego brak pokoju.
+Z winy zaś ten mały fragment umysłu zwany ego, który nauczył cię
+wierzyć, że jesteś oddzielony od Boga, ten mały fragment umysłu, który
+jest jak komar wołający w bezmiar przestrzeni: „Zwróć na mnie uwagę”,
+ten mały fragment umysłu, aby uchronić się przed spojrzeniem w oblicze
+własnej winy, zaczyna projektować na zewnątrz swoje lęki i wątpliwości.
+Znajduje innego, znajduje świat poza sobą, który musi być odpowiedzialny
+za jego brak pokoju.
 
-Mówiłem już wcześniej, że istnieje tak naprawdę tylko jedna lekcja, którą musisz opanować, i jest ona niezwykle prosta: „Nie ma nic poza tobą.” Nic. Wszelkie nieba i wszelkie piekła powstają w tobie, a tobie zostało dane — wraz z całą mocą pod Niebem i na Ziemi — byś wybrał, w którym obszarze będziesz trwać: w Niebie czy, jeśli zechcesz, w piekle.
+Mówiłem już wcześniej, że istnieje tak naprawdę tylko jedna lekcja,
+którą musisz opanować, i jest ona niezwykle prosta: „Nie ma nic poza
+tobą.” Nic. Wszelkie nieba i wszelkie piekła powstają w tobie, a tobie
+zostało dane — wraz z całą mocą pod Niebem i na Ziemi — byś wybrał, w
+którym obszarze będziesz trwać: w Niebie czy, jeśli zechcesz, w piekle.
 
-Każdy tutaj, w tym pomieszczeniu wie, jak smakuje piekło. Każdy, absolutnie każdy, kogo mijasz na ulicy, dzieli wspólne doświadczenie, które i ty sam poznałeś na swój sposób. Każdy z twoich braci i sióstr poznał ból trwania w piekle. A piekło to jedynie koleina utworzona w umyśle, w której zdaje się nie być wyjścia — brak nadziei, brak wiary — a Miłość wydaje się być nieobecna.
+Każdy tutaj, w tym pomieszczeniu wie, jak smakuje piekło. Każdy,
+absolutnie każdy, kogo mijasz na ulicy, dzieli wspólne doświadczenie,
+które i ty sam poznałeś na swój sposób. Każdy z twoich braci i sióstr
+poznał ból trwania w piekle. A piekło to jedynie koleina utworzona w
+umyśle, w której zdaje się nie być wyjścia — brak nadziei, brak wiary —
+a Miłość wydaje się być nieobecna.
 
-A jednak, a jednak Miłość pozostaje z tobą, czekając, aż wybierzesz ją na nowo. Czekając, aż znów ją dostrzeżesz. Czekając, aż znów ją będziesz rozdawał. Nie można ci jej odebrać, a przede wszystkim na Miłość nie można zasłużyć.
+A jednak, a jednak Miłość pozostaje z tobą, czekając, aż wybierzesz ją
+na nowo. Czekając, aż znów ją dostrzeżesz. Czekając, aż znów ją będziesz
+rozdawał. Nie można ci jej odebrać, a przede wszystkim na Miłość nie
+można zasłużyć.
 
-Nie istnieje nic, co kiedykolwiek mógłbyś zrobić, aby zasłużyć na Miłość Boga. Nie ma techniki, którą mógłbyś opanować, aby osiągnąć stan bycia stworzeniem Boga. Istnieje jedynie twoja gotowość, by uważnie przyjrzeć się wszystkim aspektom swojego doświadczenia, bez wyjątku, i dostrzec te rzeczy, które odzwierciedlają wybór lęku, być może osąd. (NLJ)
+Nie istnieje nic, co kiedykolwiek mógłbyś zrobić, aby zasłużyć na Miłość
+Boga. Nie ma techniki, którą mógłbyś opanować, aby osiągnąć stan bycia
+stworzeniem Boga. Istnieje jedynie twoja gotowość, by uważnie przyjrzeć
+się wszystkim aspektom swojego doświadczenia, bez wyjątku, i dostrzec te
+rzeczy, które odzwierciedlają wybór lęku, być może osąd. (NLJ)
 
-Droga, która prowadzi cię tam, gdzie jestem ja, droga, która mogłaby zastąpić świat pełen lęku światem pełnym pokoju, to droga, na której zaczynasz prostą praktykę wybierania pokoju. To może wydawać się nieco niezwykłe. Bez względu na to, co się dzieje, w tobie leży moc, by powiedzieć: „Zamiast tego mogę wybrać pokój.”
+Droga, która prowadzi cię tam, gdzie jestem ja, droga, która mogłaby
+zastąpić świat pełen lęku światem pełnym pokoju, to droga, na której
+zaczynasz prostą praktykę wybierania pokoju. To może wydawać się nieco
+niezwykłe. Bez względu na to, co się dzieje, w tobie leży moc, by
+powiedzieć: „Zamiast tego mogę wybrać pokój.”
 
-Skąd wiem, że to prawda? Jako człowiek, który kiedyś chodził po tej ziemi, ja również musiałem nauczyć się tego, czego i wy się uczycie, a niektórzy z was już się nauczyli: „Ja i Ojciec jedno jesteśmy”. I że pozory tego świata nie mają nad wami żadnej władzy, tak jak nie miały władzy nade mną.
+Skąd wiem, że to prawda? Jako człowiek, który kiedyś chodził po tej
+ziemi, ja również musiałem nauczyć się tego, czego i wy się uczycie, a
+niektórzy z was już się nauczyli: „Ja i Ojciec jedno jesteśmy”. I że
+pozory tego świata nie mają nad wami żadnej władzy, tak jak nie miały
+władzy nade mną.
 
-Moje świadectwo złożone światu było, według niektórych standardów, dość ekstremalne, a jednak ostatecznie nauczyło mnie prostej Prawdy: śmierć nie jest rzeczywista, ciało nie jest moim domem, a moje Królestwo w Rzeczywistości nie jest z tego świata. Nie jest z lęku, nie jest z wątpliwości, nie jest z ograniczenia ani ze słabości. Moje Królestwo to królestwo doskonałego pokoju, nieograniczonej mądrości i nieskończonej siły.
+Moje świadectwo złożone światu było, według niektórych standardów, dość
+ekstremalne, a jednak ostatecznie nauczyło mnie prostej Prawdy: śmierć
+nie jest rzeczywista, ciało nie jest moim domem, a moje Królestwo w
+Rzeczywistości nie jest z tego świata. Nie jest z lęku, nie jest z
+wątpliwości, nie jest z ograniczenia ani ze słabości. Moje Królestwo to
+królestwo doskonałego pokoju, nieograniczonej mądrości i nieskończonej
+siły.
 
-Paradoksalnie jednak, gdy trwasz w Królestwie, pojmujesz znaczenie słów: „Sam z siebie nic nie czynię. Ojciec czyni wszystko przeze mnie.” Ja jedynie usuwam się na bok i pozwalam Miłości płynąć przez każdą komórkę mojego istnienia.
+Paradoksalnie jednak, gdy trwasz w Królestwie, pojmujesz znaczenie słów:
+„Sam z siebie nic nie czynię. Ojciec czyni wszystko przeze mnie.” Ja
+jedynie usuwam się na bok i pozwalam Miłości płynąć przez każdą komórkę
+mojego istnienia.
 
-Nauczyłem się, że nie mogę niczego zyskać od świata, i nauczyłem się, że świat nie może niczego mi odebrać. Moim celem i funkcją jest być promienną Obecnością, która pozwala Miłości rozświetlać się i dotykać świętego miejsca, które mieszka i trwa w każdym umyśle, aby ono również mogło się przebudzić, spojrzeć na mnie i poznać siebie.
+Nauczyłem się, że nie mogę niczego zyskać od świata, i nauczyłem się, że
+świat nie może niczego mi odebrać. Moim celem i funkcją jest być
+promienną Obecnością, która pozwala Miłości rozświetlać się i dotykać
+świętego miejsca, które mieszka i trwa w każdym umyśle, aby ono również
+mogło się przebudzić, spojrzeć na mnie i poznać siebie.
 
-A gdy to się dzieje — i wszyscy tego doświadczyliście w przelotnych chwilach — gdy dwa umysły spotykają się i odkładają świat na bok, w ich spojrzeniach rozbłyska Światło i powstaje Święta Chwila. Wtedy rzeczy przeszłości zostają zapomniane, sprawy przyszłości nie mają znaczenia, a pojawia się Światło, moc, Prawda, Miłość i wspomnienie, które zdaje się obejmować tych dwoje, czyniąc ich jednością.
+A gdy to się dzieje — i wszyscy tego doświadczyliście w przelotnych
+chwilach — gdy dwa umysły spotykają się i odkładają świat na bok, w ich
+spojrzeniach rozbłyska Światło i powstaje Święta Chwila. Wtedy rzeczy
+przeszłości zostają zapomniane, sprawy przyszłości nie mają znaczenia, a
+pojawia się Światło, moc, Prawda, Miłość i wspomnienie, które zdaje się
+obejmować tych dwoje, czyniąc ich jednością.
 
-Rzeczywiście, drodzy przyjaciele, nigdy was nie opuściłem. Można by powiedzieć, że nigdy nie opuściłem tej płaszczyzny, tego świata, tego wymiaru. I nie opuszczę go, dopóki nie pójdziecie ze mną.
+Rzeczywiście, drodzy przyjaciele, nigdy was nie opuściłem. Można by
+powiedzieć, że nigdy nie opuściłem tej płaszczyzny, tego świata, tego
+wymiaru. I nie opuszczę go, dopóki nie pójdziecie ze mną.
 
-Jaka jest zatem droga? Wymaga wielkiej powagi. Wymaga przebiegłej praktyki. Musicie zawsze trzymać mięśnie napięte. Musicie mieć zaciśniętą szczękę.
+Jaka jest zatem droga? Wymaga wielkiej powagi. Wymaga przebiegłej
+praktyki. Musicie zawsze trzymać mięśnie napięte. Musicie mieć
+zaciśniętą szczękę.
 
 {Śmiech}
 
-Nie zapominajcie nigdy, przenigdy, że nie wolno wam jeść czekolady. Szczerze mówiąc, chciałbym, żeby mieli coś takiego w tamtych czasach. Musicie opanować wszystkie starożytne teksty — najlepiej w języku aramejskim. Musicie zgłębić wszystkie techniki magiczne. I nie zapomnijcie spędzić życia lub dwóch zamknięci w samotnej celi w klasztorze, gdzie oczywiście musicie się biczować, by wypędzić z siebie diabła, tego niegodziwca, którym jest.
+Nie zapominajcie nigdy, przenigdy, że nie wolno wam jeść czekolady.
+Szczerze mówiąc, chciałbym, żeby mieli coś takiego w tamtych czasach.
+Musicie opanować wszystkie starożytne teksty — najlepiej w języku
+aramejskim. Musicie zgłębić wszystkie techniki magiczne. I nie
+zapomnijcie spędzić życia lub dwóch zamknięci w samotnej celi w
+klasztorze, gdzie oczywiście musicie się biczować, by wypędzić z siebie
+diabła, tego niegodziwca, którym jest.
 
-Albo możesz zrobić to, czego ja się nauczyłem i czego nauczałem jako tajemnej sztuki przekazywanej tym, których wasz świat nazywał moimi uczniami, choć ja patrzyłem na nich jak na przyjaciół.
+Albo możesz zrobić to, czego ja się nauczyłem i czego nauczałem jako
+tajemnej sztuki przekazywanej tym, których wasz świat nazywał moimi
+uczniami, choć ja patrzyłem na nich jak na przyjaciół.
 
-Możesz śmiać się ze świata. Możesz śmiać się z ego. Nie pozwól, by minął choć jeden dzień, w którym nie zaśpiewasz, nie zaśmiejesz się, nie zatańczysz, nie będziesz się bawił i nie zrobisz czegoś choć odrobinę szalonego. Możesz obudzić się rano i przypomnieć sobie, że tu i teraz pozory ciała i świata nie ograniczają twojej jedności z Bogiem ani na chwilę.
+Możesz śmiać się ze świata. Możesz śmiać się z ego. Nie pozwól, by minął
+choć jeden dzień, w którym nie zaśpiewasz, nie zaśmiejesz się, nie
+zatańczysz, nie będziesz się bawił i nie zrobisz czegoś choć odrobinę
+szalonego. Możesz obudzić się rano i przypomnieć sobie, że tu i teraz
+pozory ciała i świata nie ograniczają twojej jedności z Bogiem ani na
+chwilę.
 
-Możesz pamiętać, że nie przyszedłeś na świat, by cierpieć. Nie przyszedłeś, by „przerabiać swoją karmę”, jeśli dobrze rozumiem to słowo. Przyszedłeś z tego samego powodu, w tej właśnie chwili, dla którego zostałeś posłany na początku czasu: aby uczcić Prawdę, że „Ja i Ojciec Jedno jesteśmy” i że Miłość jest jedyną istniejącą rzeczywistością.
+Możesz pamiętać, że nie przyszedłeś na świat, by cierpieć. Nie
+przyszedłeś, by „przerabiać swoją karmę”, jeśli dobrze rozumiem to
+słowo. Przyszedłeś z tego samego powodu, w tej właśnie chwili, dla
+którego zostałeś posłany na początku czasu: aby uczcić Prawdę, że „Ja i
+Ojciec Jedno jesteśmy” i że Miłość jest jedyną istniejącą
+rzeczywistością.
 
-A jeśli ktoś inny w to nie wierzy, pokaż mu to swoim przykładem — patrząc poza jego osądy, patrząc poza wszelkie sprytne sposoby, w jakie próbuje wyprowadzić cię z równowagi. Po prostu przegoń diabła miłością.
+A jeśli ktoś inny w to nie wierzy, pokaż mu to swoim przykładem —
+patrząc poza jego osądy, patrząc poza wszelkie sprytne sposoby, w jakie
+próbuje wyprowadzić cię z równowagi. Po prostu przegoń diabła miłością.
 
-Widzicie więc, że kiedy chodziłem po tej ziemi, nie byłem zbyt lubiany przez tych poważnych teologów — rabinów, jak ich wtedy nazywano — którzy stworzyli dość skomplikowaną strukturę pozwalającą ich ego wierzyć, że są o szczebel lub dwa wyżej na drabinie od wszystkich zwykłych ludzi. To oni sami, i tylko oni, mieli klucze do Królestwa.
+Widzicie więc, że kiedy chodziłem po tej ziemi, nie byłem zbyt lubiany
+przez tych poważnych teologów — rabinów, jak ich wtedy nazywano — którzy
+stworzyli dość skomplikowaną strukturę pozwalającą ich ego wierzyć, że
+są o szczebel lub dwa wyżej na drabinie od wszystkich zwykłych ludzi. To
+oni sami, i tylko oni, mieli klucze do Królestwa.
 
-Oczywiście ci zwykli ludzie, biedne, nieszczęsne dusze, musieli oddawać im sporą część swojego „dobytku” — jak to, zdaje się, nazywacie. Musieli także oddawać część swojej duszy rabinom, całemu systemowi religijnemu tamtych czasów i tamtego miejsca, by mieć choć odrobinę nadziei, że Bóg spojrzy na nich łaskawym okiem. A jeśli mieli szczęście, być może nawet przebaczy im wszystkie ich straszne grzechy.
+Oczywiście ci zwykli ludzie, biedne, nieszczęsne dusze, musieli oddawać
+im sporą część swojego „dobytku” — jak to, zdaje się, nazywacie. Musieli
+także oddawać część swojej duszy rabinom, całemu systemowi religijnemu
+tamtych czasów i tamtego miejsca, by mieć choć odrobinę nadziei, że Bóg
+spojrzy na nich łaskawym okiem. A jeśli mieli szczęście, być może nawet
+przebaczy im wszystkie ich straszne grzechy.
 
-I wtedy przyszedłem i powiedziałem: „To kompletna bzdura. Jak mój Ojciec mógłby komukolwiek przebaczyć, skoro nigdy nikogo nie potępił?” Jak Światłość i Tajemnica, z której wyłoniły się wszystkie rzeczy piękne i promienne, i która patrzy na swoje jedyne stworzenie, świętego Syna Bożego, i nawet nie dostrzega lękliwych snów, które przeżywaliście, widząc jedynie blask Światła i Miłości, którymi jesteście, cierpliwie czekając, aż uznacie Prawdę swojej rzeczywistości?
+I wtedy przyszedłem i powiedziałem: „To kompletna bzdura. Jak mój Ojciec
+mógłby komukolwiek przebaczyć, skoro nigdy nikogo nie potępił?” Jak
+Światłość i Tajemnica, z której wyłoniły się wszystkie rzeczy piękne i
+promienne, i która patrzy na swoje jedyne stworzenie, świętego Syna
+Bożego, i nawet nie dostrzega lękliwych snów, które przeżywaliście,
+widząc jedynie blask Światła i Miłości, którymi jesteście, cierpliwie
+czekając, aż uznacie Prawdę swojej rzeczywistości?
 
 Czy w tym może być jakikolwiek osąd? Oczywiście, że nie.
 
-Czy zatem jest w Bogu miejsce na przebaczenie? Mówię wam: nie ma. Bo przebaczenie może istnieć tylko tam, gdzie najpierw pojawiło się potępienie. A dokładnie tam, gdzie jesteś, tutaj i teraz, żadna myśl o winie, którą kiedykolwiek żywiłeś wobec siebie, nigdy nie została uznana przez Boga. On po prostu cię kocha.
+Czy zatem jest w Bogu miejsce na przebaczenie? Mówię wam: nie ma. Bo
+przebaczenie może istnieć tylko tam, gdzie najpierw pojawiło się
+potępienie. A dokładnie tam, gdzie jesteś, tutaj i teraz, żadna myśl o
+winie, którą kiedykolwiek żywiłeś wobec siebie, nigdy nie została uznana
+przez Boga. On po prostu cię kocha.
 
-Czeka, aż odłożysz na bok poczucie winy, które zrodziło się z twojego przekonania, że w jakiś sposób wymknąłeś się tylnymi drzwiami Królestwa i oddzieliłeś się od Niego — bo właśnie stąd pochodzi wina. Czeka, aż odłożysz to postrzeganie na bok, otworzysz okiennice swojego serca, pozwolisz umysłowi spocząć w pokoju i powiesz Mu:
+Czeka, aż odłożysz na bok poczucie winy, które zrodziło się z twojego
+przekonania, że w jakiś sposób wymknąłeś się tylnymi drzwiami Królestwa
+i oddzieliłeś się od Niego — bo właśnie stąd pochodzi wina. Czeka, aż
+odłożysz to postrzeganie na bok, otworzysz okiennice swojego serca,
+pozwolisz umysłowi spocząć w pokoju i powiesz Mu:
 
-„Dobrze, skończyłem już śnić. Obdarz mnie Prawdą rzeczywistości, bo jestem gotów przyjąć to, co już mi dałeś.”
+„Dobrze, skończyłem już śnić. Obdarz mnie Prawdą rzeczywistości, bo
+jestem gotów przyjąć to, co już mi dałeś.”
 
-Dzięki Bogu, że w Bogu nie ma potępienia. A jeśli to prawda — a zapewniam was, że tak jest — i jeśli zostaliście stworzeni na obraz Boga, żyjecie w swoim prawym umyśle, gdy myślicie jak Bóg. Patrzycie na swoich braci i siostry i, bez względu na to, co się wydarza, nawet jeśli na chwilę zaciskacie zęby, kochacie ich.
+Dzięki Bogu, że w Bogu nie ma potępienia. A jeśli to prawda — a
+zapewniam was, że tak jest — i jeśli zostaliście stworzeni na obraz
+Boga, żyjecie w swoim prawym umyśle, gdy myślicie jak Bóg. Patrzycie na
+swoich braci i siostry i, bez względu na to, co się wydarza, nawet jeśli
+na chwilę zaciskacie zęby, kochacie ich.
 
-Rozumiecie, że każdy krzywdzący czyn i każda krzywdząca myśl w rzeczywistości wypływa z lęku, a więc jest wołaniem o pomoc, zrozumienie, wsparcie i uzdrowienie.
+Rozumiecie, że każdy krzywdzący czyn i każda krzywdząca myśl w
+rzeczywistości wypływa z lęku, a więc jest wołaniem o pomoc,
+zrozumienie, wsparcie i uzdrowienie.
 
-Ale jest coś jeszcze, coś ponad tym, czym chcę się z wami podzielić właśnie teraz. Na każdego z was wywarło wpływ postrzeganie, które zrodziło się z doświadczeń, jakie poznaliście w tym świecie — i bez względu na to, czy wierzycie w jedno życie, czy w miliony, to naprawdę nie ma znaczenia. Świat wpaja wam przekonanie, a co za tym idzie wiarę, że możecie zostać zranieni.
+Ale jest coś jeszcze, coś ponad tym, czym chcę się z wami podzielić
+właśnie teraz. Na każdego z was wywarło wpływ postrzeganie, które
+zrodziło się z doświadczeń, jakie poznaliście w tym świecie — i bez
+względu na to, czy wierzycie w jedno życie, czy w miliony, to naprawdę
+nie ma znaczenia. Świat wpaja wam przekonanie, a co za tym idzie wiarę,
+że możecie zostać zranieni.
 
-Ciało może zostać zranione, ale wy nie jesteście ciałem. Ego, ach, ego może zostać zranione na milion sposobów — i zapewne coś o tym wiecie. Ale wy nie jesteście ego.
+Ciało może zostać zranione, ale wy nie jesteście ciałem. Ego, ach, ego
+może zostać zranione na milion sposobów — i zapewne coś o tym wiecie.
+Ale wy nie jesteście ego.
 
-Identyfikowanie się z tym małym, nieszkodliwym komarem, który miota się, jakby chciał łajać bezkres przestrzeni, próbując nakłonić wszystkie planety i gwiazdy, by podporządkowały się jego rozkazom — które oczywiście nawet go nie zauważają — to utożsamienie się z iluzją.
+Identyfikowanie się z tym małym, nieszkodliwym komarem, który miota się,
+jakby chciał łajać bezkres przestrzeni, próbując nakłonić wszystkie
+planety i gwiazdy, by podporządkowały się jego rozkazom — które
+oczywiście nawet go nie zauważają — to utożsamienie się z iluzją.
 
-A jeśli nie jesteś ciałem i nie jesteś ego, bądź pewien, że żadne zranienie nigdy nie pozostawiło piętna na promiennym sercu Syna Bożego — a tym właśnie jesteś. Sposobem, by udowodnić to sobie, jest praktykowanie pokoju i szerzenie Miłości. Gdy dokonujesz wyboru, by szerzyć i nauczać jedynie Miłości, musisz się jej uczyć. A gdy zobaczysz cuda, które wynikają z szerzenia twojej Miłości, zrozumiesz, że cud już się wydarzył w tobie. Bo cuda nie płyną z umysłu i serca, które nie zostały jeszcze uzdrowione.
+A jeśli nie jesteś ciałem i nie jesteś ego, bądź pewien, że żadne
+zranienie nigdy nie pozostawiło piętna na promiennym sercu Syna Bożego —
+a tym właśnie jesteś. Sposobem, by udowodnić to sobie, jest
+praktykowanie pokoju i szerzenie Miłości. Gdy dokonujesz wyboru, by
+szerzyć i nauczać jedynie Miłości, musisz się jej uczyć. A gdy zobaczysz
+cuda, które wynikają z szerzenia twojej Miłości, zrozumiesz, że cud już
+się wydarzył w tobie. Bo cuda nie płyną z umysłu i serca, które nie
+zostały jeszcze uzdrowione.
 
-To dość ważne, by to zrozumieć. Jeśli dostrzeżesz, że Duch w jakiś sposób działał przez ciebie i dokonał cudu w umyśle innej osoby, nawet w pozornie najdrobniejszy sposób, bądź pewien, że odzwierciedla to przed tobą rzeczywistość łaski, która już zstąpiła na twoje serce i umysł, zabierając z nich ciężar iluzji: wiarę w postrzeganie dawnych ran, które, jak ci się wydaje, nosisz i próbujesz przepracować w ciele, przechodząc przez tysiące ciał. Dopóki wierzysz, że musisz nad nimi pracować, będą one powracać, bo to ty je tworzysz.
+To dość ważne, by to zrozumieć. Jeśli dostrzeżesz, że Duch w jakiś
+sposób działał przez ciebie i dokonał cudu w umyśle innej osoby, nawet w
+pozornie najdrobniejszy sposób, bądź pewien, że odzwierciedla to przed
+tobą rzeczywistość łaski, która już zstąpiła na twoje serce i umysł,
+zabierając z nich ciężar iluzji: wiarę w postrzeganie dawnych ran,
+które, jak ci się wydaje, nosisz i próbujesz przepracować w ciele,
+przechodząc przez tysiące ciał. Dopóki wierzysz, że musisz nad nimi
+pracować, będą one powracać, bo to ty je tworzysz.
 
-Ale poprzez praktykę pokoju i szerzenie Miłości każdy ciężar i każdy cień zostanie przekształcony w samą moc Światła. Jesteście cudotwórcami, zwyczajnie i po prostu. Nie ma żadnych podręczników do opanowania. Żadnych zaawansowanych kursów do ukończenia. Jesteście cudotwórcami za każdym razem, gdy myślicie razem z Bogiem i szerzycie oraz nauczacie wyłącznie Miłości.
+Ale poprzez praktykę pokoju i szerzenie Miłości każdy ciężar i każdy
+cień zostanie przekształcony w samą moc Światła. Jesteście cudotwórcami,
+zwyczajnie i po prostu. Nie ma żadnych podręczników do opanowania.
+Żadnych zaawansowanych kursów do ukończenia. Jesteście cudotwórcami za
+każdym razem, gdy myślicie razem z Bogiem i szerzycie oraz nauczacie
+wyłącznie Miłości.
 
-Nic innego nie uzdrawia. Nic innego nie otwiera umysłu na cuda. A jeśli potraficie to zrobić — a zapewniam was, że potraficie — to właśnie dlatego, słuchajcie uważnie, właśnie dlatego przez mnie objawiały się cuda: ponieważ patrzyłem na was i widziałem, że cud już się wydarzył.
+Nic innego nie uzdrawia. Nic innego nie otwiera umysłu na cuda. A jeśli
+potraficie to zrobić — a zapewniam was, że potraficie — to właśnie
+dlatego, słuchajcie uważnie, właśnie dlatego przez mnie objawiały się
+cuda: ponieważ patrzyłem na was i widziałem, że cud już się wydarzył.
 
-W chwili, gdy Syn po raz pierwszy pomyślał o oddzieleniu i zdawał się wyrzucić siebie z Rajskiego Ogrodu — posługując się tą prastarą opowieścią — dokładnie w owym momencie Ojciec już to naprawił, i zaczął budować most w umyśle Syna, most, który nazywam Duchem Świętym. Duch Święty to po prostu ta część twojego umysłu, która jest prawdziwa, otwarta na cuda i nie może być od ciebie oddzielona.
+W chwili, gdy Syn po raz pierwszy pomyślał o oddzieleniu i zdawał się
+wyrzucić siebie z Rajskiego Ogrodu — posługując się tą prastarą
+opowieścią — dokładnie w owym momencie Ojciec już to naprawił, i zaczął
+budować most w umyśle Syna, most, który nazywam Duchem Świętym. Duch
+Święty to po prostu ta część twojego umysłu, która jest prawdziwa,
+otwarta na cuda i nie może być od ciebie oddzielona.
 
-I w tej chwili oddzielenie zostało uzdrowione, a droga, którą przemierzyłeś, jest drogą, którą wybrałeś i wciąż wybierasz — nie po to, by zdobyć Niebo, lecz by przypomnieć sobie, że nigdy nie mogłeś go opuścić. To, co nazywane jest duchową przygodą, jest grą w chowanego. Znasz tę grę?
+I w tej chwili oddzielenie zostało uzdrowione, a droga, którą
+przemierzyłeś, jest drogą, którą wybrałeś i wciąż wybierasz — nie po to,
+by zdobyć Niebo, lecz by przypomnieć sobie, że nigdy nie mogłeś go
+opuścić. To, co nazywane jest duchową przygodą, jest grą w chowanego.
+Znasz tę grę?
 
-Ile razy grałeś w tę grę dzisiaj? „Bóg musi być daleko ode mnie. Ach, zapomniałem pomedytować dziś rano. To jest to. Gdybym tylko siedział dziesięć minut dłużej każdego dnia, na pewno bym to pojął.”
+Ile razy grałeś w tę grę dzisiaj? „Bóg musi być daleko ode mnie. Ach,
+zapomniałem pomedytować dziś rano. To jest to. Gdybym tylko siedział
+dziesięć minut dłużej każdego dnia, na pewno bym to pojął.”
 
-Poszukiwanie może być zabawną grą, ale istnieje lepsza: gra w uznanie, że już znalazłeś. Gra, w której odkładasz na bok wszystkie myśli o bolesnej przeszłości, które zostały ci odebrane, bo byłeś gotów przebaczyć sobie za to, że kiedykolwiek wyobraziłeś sobie, że świat może cię zranić. Nowa gra, w której rezygnujesz z prób kontrolowania rzeczywistości i po prostu uznajesz:
+Poszukiwanie może być zabawną grą, ale istnieje lepsza: gra w uznanie,
+że już znalazłeś. Gra, w której odkładasz na bok wszystkie myśli o
+bolesnej przeszłości, które zostały ci odebrane, bo byłeś gotów
+przebaczyć sobie za to, że kiedykolwiek wyobraziłeś sobie, że świat może
+cię zranić. Nowa gra, w której rezygnujesz z prób kontrolowania
+rzeczywistości i po prostu uznajesz:
 
-Jestem tutaj jako kanał Miłości. A jeśli to prawda i jeśli mój Święty Ojciec poprzez Ducha Świętego wie, jak wziąć wszystko, co ludzkość kiedykolwiek stworzyła, i przekształcić to w kamień milowy, który przywróci Niebo całemu stworzeniu, to jeśli chcę poznać wolę Ojca wobec mnie, nie muszę opanowywać żadnych tekstów. Nie muszę stać na głowie w kącie przez siedem godzin, recytując tysiąc imion Boga. Wystarczy, że otworzę oczy i zapytam: Gdzie jestem?
+Jestem tutaj jako kanał Miłości. A jeśli to prawda i jeśli mój Święty
+Ojciec poprzez Ducha Świętego wie, jak wziąć wszystko, co ludzkość
+kiedykolwiek stworzyła, i przekształcić to w kamień milowy, który
+przywróci Niebo całemu stworzeniu, to jeśli chcę poznać wolę Ojca wobec
+mnie, nie muszę opanowywać żadnych tekstów. Nie muszę stać na głowie w
+kącie przez siedem godzin, recytując tysiąc imion Boga. Wystarczy, że
+otworzę oczy i zapytam: Gdzie jestem?
 
-Jeśli jesteś w Ashland i jeśli tej dziś wieczorem jesteś w tym pomieszczeniu, możesz być pewien, że jesteś dokładnie tam, gdzie Miłość, która jest Bogiem, pragnie, abyś był — z żadnego innego powodu niż ten, by pozwolić Miłości promieniować przez ciebie, aż obejmie braci i siostry, których ta sama Miłość posłała, by trwali z tobą w tej chwili.
+Jeśli jesteś w Ashland i jeśli tej dziś wieczorem jesteś w tym
+pomieszczeniu, możesz być pewien, że jesteś dokładnie tam, gdzie Miłość,
+która jest Bogiem, pragnie, abyś był — z żadnego innego powodu niż ten,
+by pozwolić Miłości promieniować przez ciebie, aż obejmie braci i
+siostry, których ta sama Miłość posłała, by trwali z tobą w tej chwili.
 
-Poczuj to więc i przyzwól na to. A w tej chwili poświęć chwilę. Rozejrzyj się. Spójrz na osobę siedzącą obok ciebie. Spójrz na kogoś po drugiej stronie pokoju. Czy potrafisz pozwolić Miłości, by ich objęła? Czy potrafisz spojrzeć poza ciało? Czy potrafisz spojrzeć poza osobowość?
+Poczuj to więc i przyzwól na to. A w tej chwili poświęć chwilę.
+Rozejrzyj się. Spójrz na osobę siedzącą obok ciebie. Spójrz na kogoś po
+drugiej stronie pokoju. Czy potrafisz pozwolić Miłości, by ich objęła?
+Czy potrafisz spojrzeć poza ciało? Czy potrafisz spojrzeć poza
+osobowość?
 
-Czy możesz dotknąć miejsca, w którym rodzi się współczucie, bo być może na moment dostrzegasz cień lęku lub zranienia, odrobinę winy, wątpliwość? Czy potrafisz rozświetlić nawet to i przeniknąć do istoty ich istnienia, by zobaczyć siebie?
+Czy możesz dotknąć miejsca, w którym rodzi się współczucie, bo być może
+na moment dostrzegasz cień lęku lub zranienia, odrobinę winy,
+wątpliwość? Czy potrafisz rozświetlić nawet to i przeniknąć do istoty
+ich istnienia, by zobaczyć siebie?
 
-Ah, zaprawdę nigdy nie rozmawiałem ani nie komunikowałem się z nikim. Rozmawiam tylko ze sobą, i tylko ja sam mogę siebie usłyszeć. Ty jesteś taki, jak ja, a ja jestem taki, jak ty.
+Ah, zaprawdę nigdy nie rozmawiałem ani nie komunikowałem się z nikim.
+Rozmawiam tylko ze sobą, i tylko ja sam mogę siebie usłyszeć. Ty jesteś
+taki, jak ja, a ja jestem taki, jak ty.
 
-I rzeczywiście, w tej chwili, gdy postanawiamy odłożyć na bok hałas i zgiełk szalonego świata, który zdaje się wypełniać umysł, i trwamy w pokoju, gdy pozwalamy, by prostota Miłości płynęła przez nas i obejmowała wszystkich w tym pomieszczeniu, powracamy, a podróż się kończy. Pokój powraca do Umysłu Chrystusa, który już nigdy nie opuści świętego miejsca Ojca.
+I rzeczywiście, w tej chwili, gdy postanawiamy odłożyć na bok hałas i
+zgiełk szalonego świata, który zdaje się wypełniać umysł, i trwamy w
+pokoju, gdy pozwalamy, by prostota Miłości płynęła przez nas i
+obejmowała wszystkich w tym pomieszczeniu, powracamy, a podróż się
+kończy. Pokój powraca do Umysłu Chrystusa, który już nigdy nie opuści
+świętego miejsca Ojca.
 
-Obejmij palcami klejnot spoczywający w twojej dłoni. Weź go głęboko do swojego serca i uznaj, że nie jesteś już poszukującym, ponieważ odnalazłeś. A odnalazłeś, bo w głębi siebie — jeśli tylko zechcesz to przyjąć — stworzyłeś tę chwilę, aby otrzymać możliwość uznania w każdej komórce i w każdej cząstce swojego istnienia — które, nawiasem mówiąc, nie ma początku ani końca — że jesteś po prostu Myślą doskonałej Miłości wyrażonej w formie.
+Obejmij palcami klejnot spoczywający w twojej dłoni. Weź go głęboko do
+swojego serca i uznaj, że nie jesteś już poszukującym, ponieważ
+odnalazłeś. A odnalazłeś, bo w głębi siebie — jeśli tylko zechcesz to
+przyjąć — stworzyłeś tę chwilę, aby otrzymać możliwość uznania w każdej
+komórce i w każdej cząstce swojego istnienia — które, nawiasem mówiąc,
+nie ma początku ani końca — że jesteś po prostu Myślą doskonałej Miłości
+wyrażonej w formie.
 
-Nigdy nie jesteś ciałem. Nie jesteś nagromadzeniem emocji. Jesteś ideą zachowaną w doskonałej, nieskazitelnej formie w Umyśle Boga, a wiedz, że Bóg ma tylko kochające myśli. Czy potrafisz to poczuć?
+Nigdy nie jesteś ciałem. Nie jesteś nagromadzeniem emocji. Jesteś ideą
+zachowaną w doskonałej, nieskazitelnej formie w Umyśle Boga, a wiedz, że
+Bóg ma tylko kochające myśli. Czy potrafisz to poczuć?
 
-Tam, gdzie jesteś, poczuj stopy ciała na podłodze. Poczuj, dokładnie tam, gdzie jesteś; spójrz poprzez samo ciało. Jeśli istniejesz w tej chwili, jesteś Synem Bożym i nie musisz niczego robić, by zasłużyć na Królestwo. Wystarczy, że puścisz jeden szalony pomysł: myśl o oddzieleniu, wraz z winą i lękiem, które z niej wynikły i stworzyły światy na światach, złożoność na złożoności.
+Tam, gdzie jesteś, poczuj stopy ciała na podłodze. Poczuj, dokładnie
+tam, gdzie jesteś; spójrz poprzez samo ciało. Jeśli istniejesz w tej
+chwili, jesteś Synem Bożym i nie musisz niczego robić, by zasłużyć na
+Królestwo. Wystarczy, że puścisz jeden szalony pomysł: myśl o
+oddzieleniu, wraz z winą i lękiem, które z niej wynikły i stworzyły
+światy na światach, złożoność na złożoności.
 
-I za każdym razem, gdy tkałeś gobelin oddzielenia, pracowałeś pilnie, by spróbować go rozplątać. Ale każda myśl pełna lęku wydaje się dodawać kolejny splot, więc próbujesz ją uwolnić, i przez chwilę rozbłyska Światło Nieba, a potem pojawia się myśl: „Ach, nie zasługuję na aż tyle Światła. Kto, ja? Całkowicie radosny? Nie, nie, nie. Gdybym to zrobił, co by ludzie powiedzieli? Mogliby krzywo na mnie spojrzeć, gdybym zaczął tańczyć w deszczu.” Mogliby krzywo na mnie spojrzeć za to, że mam gęsią skórkę, gdy ktoś pojawia się zza rogu, a ja już nie mogę się doczekać, by go przytulić. W rzeczy samej.
+I za każdym razem, gdy tkałeś gobelin oddzielenia, pracowałeś pilnie, by
+spróbować go rozplątać. Ale każda myśl pełna lęku wydaje się dodawać
+kolejny splot, więc próbujesz ją uwolnić, i przez chwilę rozbłyska
+Światło Nieba, a potem pojawia się myśl: „Ach, nie zasługuję na aż tyle
+Światła. Kto, ja? Całkowicie radosny? Nie, nie, nie. Gdybym to zrobił,
+co by ludzie powiedzieli? Mogliby krzywo na mnie spojrzeć, gdybym zaczął
+tańczyć w deszczu.” Mogliby krzywo na mnie spojrzeć za to, że mam gęsią
+skórkę, gdy ktoś pojawia się zza rogu, a ja już nie mogę się doczekać,
+by go przytulić. W rzeczy samej.
 
-Ciemność spogląda z niechęcią na Światło, bo się go lęka. Ty zaś nie naśladuj dróg tego świata, ale raduj się z każdym oddechem, bo łaska już przyszła, a światło dnia powróciło. Wypełnia twoją duszę od góry do dołu, a poprzez twoją obecność, właśnie twoją obecność — nie moją, bo zbyt wielu naprawdę sądzi, że skoro nie mam ciała, to nie mogą mnie zobaczyć ani usłyszeć, ale mogą zobaczyć ciebie i usłyszeć ciebie — i dzięki tobie mogą nauczyć się, że mogą spojrzeć poza własne ciało i własny umysł, by dotknąć miejsca Prawdy.
+Ciemność spogląda z niechęcią na Światło, bo się go lęka. Ty zaś nie
+naśladuj dróg tego świata, ale raduj się z każdym oddechem, bo łaska już
+przyszła, a światło dnia powróciło. Wypełnia twoją duszę od góry do
+dołu, a poprzez twoją obecność, właśnie twoją obecność — nie moją, bo
+zbyt wielu naprawdę sądzi, że skoro nie mam ciała, to nie mogą mnie
+zobaczyć ani usłyszeć, ale mogą zobaczyć ciebie i usłyszeć ciebie — i
+dzięki tobie mogą nauczyć się, że mogą spojrzeć poza własne ciało i
+własny umysł, by dotknąć miejsca Prawdy.
 
-To ty zostałeś posłany na ten świat, tak jak ja zostałem posłany na inny. To ty jesteś Słowem, które stało się ciałem, które przyszło i zamieszkało wśród ludzi. I jeśli tylko zechcesz to przyjąć — proszę, dobrze to usłysz — to ty, ty jesteś tym, który z nieskończonego współczucia dokonał wyboru, by kroczyć w świecie fizyczności, aż każdy z naszych braci i sióstr rozpozna Prawdę o sobie.
+To ty zostałeś posłany na ten świat, tak jak ja zostałem posłany na
+inny. To ty jesteś Słowem, które stało się ciałem, które przyszło i
+zamieszkało wśród ludzi. I jeśli tylko zechcesz to przyjąć — proszę,
+dobrze to usłysz — to ty, ty jesteś tym, który z nieskończonego
+współczucia dokonał wyboru, by kroczyć w świecie fizyczności, aż każdy z
+naszych braci i sióstr rozpozna Prawdę o sobie.
 
-To ty przychodziłeś raz za razem, aby być Światłem świata. A jeśli kiedykolwiek była to moja funkcja, pozostaje ona na wieki także twoją. I jeśli kiedykolwiek była to moja zdolność, pozostaje ona na wieki także twoją zdolnością.
+To ty przychodziłeś raz za razem, aby być Światłem świata. A jeśli
+kiedykolwiek była to moja funkcja, pozostaje ona na wieki także twoją. I
+jeśli kiedykolwiek była to moja zdolność, pozostaje ona na wieki także
+twoją zdolnością.
 
-Cała moc pod Niebem i na Ziemi trwa w tobie. To w tobie mój Ojciec znajduje swoje wieczne upodobanie. On cię kocha i daje ci całe swoje Królestwo: pokój, mądrość, moc, współczucie, łagodność, siłę celu oraz pewność boskiej woli.
+Cała moc pod Niebem i na Ziemi trwa w tobie. To w tobie mój Ojciec
+znajduje swoje wieczne upodobanie. On cię kocha i daje ci całe swoje
+Królestwo: pokój, mądrość, moc, współczucie, łagodność, siłę celu oraz
+pewność boskiej woli.
 
-Och, umiłowani przyjaciele, dary są już w was. Za każdym razem, gdy myślicie pełną miłości myśl, za każdym razem, gdy pamiętacie, by wybrać Miłość zamiast lęku, bądźcie pewni, że całe stworzenie tańczy. Każdy mistrz trwający na wielu płaszczyznach poza tym światem jest poruszony waszą gotowością, by pamiętać i żyć Prawdą. Bo naprawdę poznacie Prawdę, a Prawda już was wyzwoliła.
+Och, umiłowani przyjaciele, dary są już w was. Za każdym razem, gdy
+myślicie pełną miłości myśl, za każdym razem, gdy pamiętacie, by wybrać
+Miłość zamiast lęku, bądźcie pewni, że całe stworzenie tańczy. Każdy
+mistrz trwający na wielu płaszczyznach poza tym światem jest poruszony
+waszą gotowością, by pamiętać i żyć Prawdą. Bo naprawdę poznacie Prawdę,
+a Prawda już was wyzwoliła.
 
-Wielka chwała ukrzyżowania, widzicie, polega na tym, że było ono iluzją, a śmierć nie jest rzeczywista. Zdejmijcie więc z murów swojego umysłu wszelkie obrazy, które wciąż możecie nosić w sobie — mnie wiszącego na krzyżu, z wystającymi żebrami, krwią spływającą po czole ciała, który woła: „Boże mój, Boże mój, czemuś mnie opuścił?” I dołączcie do mnie w zmartwychwstaniu, bo zapewniam was, że żyję.
+Wielka chwała ukrzyżowania, widzicie, polega na tym, że było ono iluzją,
+a śmierć nie jest rzeczywista. Zdejmijcie więc z murów swojego umysłu
+wszelkie obrazy, które wciąż możecie nosić w sobie — mnie wiszącego na
+krzyżu, z wystającymi żebrami, krwią spływającą po czole ciała, który
+woła: „Boże mój, Boże mój, czemuś mnie opuścił?” I dołączcie do mnie w
+zmartwychwstaniu, bo zapewniam was, że żyję.
 
-Jest jednak jedna moja cecha, której nie mogę się pozbyć. Mam do niej swego rodzaju słabość. Jestem uzależniony od posiadania wielu przyjaciół. Przyjaciół, którzy zdecydują się tańczyć ze mną. Przyjaciół, którzy zdecydują się śpiewać ze mną. Przyjaciół, którzy zdecydują się odłożyć na bok to, co dyktuje im świat i powiedzą: „A niech to, wolę być obecnością Miłości.”
+Jest jednak jedna moja cecha, której nie mogę się pozbyć. Mam do niej
+swego rodzaju słabość. Jestem uzależniony od posiadania wielu
+przyjaciół. Przyjaciół, którzy zdecydują się tańczyć ze mną. Przyjaciół,
+którzy zdecydują się śpiewać ze mną. Przyjaciół, którzy zdecydują się
+odłożyć na bok to, co dyktuje im świat i powiedzą: „A niech to, wolę być
+obecnością Miłości.”
 
-I za każdym razem, gdy dokonujesz tego wyboru, Światło w tobie świeci coraz jaśniej. Coraz jaśniej i jaśniej, i coraz jaśniej, a każdy krąg lęku, który myślisz, że wciąż cię otacza, przenikniesz z doskonałą lekkością, bo owo szerzenie twojej Miłości świeci tak jasno, że topi ten krąg lęku. I na twojej drodze nie pojawi się żadna przeszkoda, bo zostanie usunięta, zanim do niej dotrzesz — jeśli wybierzesz szeroką, otwartą i łagodną ścieżkę Miłości.
+I za każdym razem, gdy dokonujesz tego wyboru, Światło w tobie świeci
+coraz jaśniej. Coraz jaśniej i jaśniej, i coraz jaśniej, a każdy krąg
+lęku, który myślisz, że wciąż cię otacza, przenikniesz z doskonałą
+lekkością, bo owo szerzenie twojej Miłości świeci tak jasno, że topi ten
+krąg lęku. I na twojej drodze nie pojawi się żadna przeszkoda, bo
+zostanie usunięta, zanim do niej dotrzesz — jeśli wybierzesz szeroką,
+otwartą i łagodną ścieżkę Miłości.
 
-Słyszeliście, że mówi się, iż stoję u drzwi i pukam. Możecie pomyśleć, że z niektórymi z was zdarłem sobie kostki do krwi. I że u niektórych z was to wywołało poczucie winy, które potwierdziło wasze przekonanie: „Widzisz? Nawet mojego starego przyjaciela Jeszuy nie potrafię wpuścić. Człowieku, ja już nawet nie wiem, gdzie jest klamka.”
+Słyszeliście, że mówi się, iż stoję u drzwi i pukam. Możecie pomyśleć,
+że z niektórymi z was zdarłem sobie kostki do krwi. I że u niektórych z
+was to wywołało poczucie winy, które potwierdziło wasze przekonanie:
+„Widzisz? Nawet mojego starego przyjaciela Jeszuy nie potrafię wpuścić.
+Człowieku, ja już nawet nie wiem, gdzie jest klamka.”
 
-Czas to ciekawa rzecz. Jeśli wierzysz, że istniejesz w jego ramach i w jakiś sposób nie udało ci się otworzyć drzwi, bądź spokojny — ponieważ ja żyję poza czasem, mogę cię przeczekać. Nie spieszy mi się.
+Czas to ciekawa rzecz. Jeśli wierzysz, że istniejesz w jego ramach i w
+jakiś sposób nie udało ci się otworzyć drzwi, bądź spokojny — ponieważ
+ja żyję poza czasem, mogę cię przeczekać. Nie spieszy mi się.
 
-Niektórzy przyszli do mnie i powiedzieli: „Jeszua, dziękuję ci za twoją cierpliwość.” Cierpliwość to cecha umysłu, który wciąż jest zanurzony w czasie. I rzeczywiście jest to cenna cecha. Muszę jednak wyznać, że nie mam cierpliwości, ponieważ dla mnie czas nie istnieje. Mam całą wieczność, i czekam w tym bezpieczeństwie oraz w tym Świetle.
+Niektórzy przyszli do mnie i powiedzieli: „Jeszua, dziękuję ci za twoją
+cierpliwość.” Cierpliwość to cecha umysłu, który wciąż jest zanurzony w
+czasie. I rzeczywiście jest to cenna cecha. Muszę jednak wyznać, że nie
+mam cierpliwości, ponieważ dla mnie czas nie istnieje. Mam całą
+wieczność, i czekam w tym bezpieczeństwie oraz w tym Świetle.
 
-Czekałem długo na tę chwilę na Ziemi, która nadeszła właśnie teraz. Bo choć może tego nie widzisz, tuż pod hałasem i zgiełkiem świata miliony umysłów wołają. Są niemal gotowe, by sobie przypomnieć Słowo — jeśli można to tak ująć. Są tak blisko. Zasłona rozdziera się od środka na zewnątrz.
+Czekałem długo na tę chwilę na Ziemi, która nadeszła właśnie teraz. Bo
+choć może tego nie widzisz, tuż pod hałasem i zgiełkiem świata miliony
+umysłów wołają. Są niemal gotowe, by sobie przypomnieć Słowo — jeśli
+można to tak ująć. Są tak blisko. Zasłona rozdziera się od środka na
+zewnątrz.
 
-Przyszedłem zresztą do waszego Ashland — skąd w ogóle wzięła się ta nazwa? Ash Land (Kraina Popiołu) — Przyszedłem, bo prowadzę misję rekrutacyjną. Widzicie, potrzebuję was tak samo, jak wy kiedykolwiek myśleliście, że mnie potrzebujecie. Bo wasi bracia i siostry, a także moi bracia i siostry, nawet kiedy idę z nimi ulicą, krzyczę im prosto do ucha, a oni widzą przebłysk kogoś, kogo nauczyli się utożsamiać z Chrystusem, to chwilę później mówią: „Uf. Człowieku, co za wyobraźnia! Naprawdę myślałem, że Chrystus szedł tuż obok mnie. Możesz w to uwierzyć?” Mogę, bo tam byłem.
+Przyszedłem zresztą do waszego Ashland — skąd w ogóle wzięła się ta
+nazwa? Ash Land (Kraina Popiołu) — Przyszedłem, bo prowadzę misję
+rekrutacyjną. Widzicie, potrzebuję was tak samo, jak wy kiedykolwiek
+myśleliście, że mnie potrzebujecie. Bo wasi bracia i siostry, a także
+moi bracia i siostry, nawet kiedy idę z nimi ulicą, krzyczę im prosto do
+ucha, a oni widzą przebłysk kogoś, kogo nauczyli się utożsamiać z
+Chrystusem, to chwilę później mówią: „Uf. Człowieku, co za wyobraźnia!
+Naprawdę myślałem, że Chrystus szedł tuż obok mnie. Możesz w to
+uwierzyć?” Mogę, bo tam byłem.
 
-Ale oni mnie nie widzą i nie słyszą, bo nauczyli się słuchać głosu świata i zapomnieli, jak brzmi mój głos. Dlatego potrzebuję was. Potrzebuję, byście byli moim ciałem, moimi emocjami i moim głosem.
+Ale oni mnie nie widzą i nie słyszą, bo nauczyli się słuchać głosu
+świata i zapomnieli, jak brzmi mój głos. Dlatego potrzebuję was.
+Potrzebuję, byście byli moim ciałem, moimi emocjami i moim głosem.
 
-Nie jako ktoś, kto nosi pod pachą coś, co nazywa się Biblią i atakuje nią każdego, kogo spotka. Ale jako głos przebaczenia. Głos współczucia. Głos prawego umysłu. Głos Prawdy, która nie musi niczego udowadniać, bo blask tego głosu jest dowodem samym w sobie.
+Nie jako ktoś, kto nosi pod pachą coś, co nazywa się Biblią i atakuje
+nią każdego, kogo spotka. Ale jako głos przebaczenia. Głos współczucia.
+Głos prawego umysłu. Głos Prawdy, która nie musi niczego udowadniać, bo
+blask tego głosu jest dowodem samym w sobie.
 
-Potrzebuję, byś był tym, kogo twój brat i siostra mogą zobaczyć. Dlatego właśnie relacje w tym świecie, relacje w tym świecie, są największym z błogosławieństw.
+Potrzebuję, byś był tym, kogo twój brat i siostra mogą zobaczyć. Dlatego
+właśnie relacje w tym świecie, relacje w tym świecie, są największym z
+błogosławieństw.
 
-Minęły czasy, gdy próbowano odnaleźć Boga, znikając na górskich szczytach. Minęły czasy, gdy szukano go, wycofując się w jakiś maleńki punkt Światła czy coś podobnego. Jak możesz wycofać się do czegoś, czego nigdy nie opuściłeś? Już teraz jesteś Światłem, którego szukałeś.
+Minęły czasy, gdy próbowano odnaleźć Boga, znikając na górskich
+szczytach. Minęły czasy, gdy szukano go, wycofując się w jakiś maleńki
+punkt Światła czy coś podobnego. Jak możesz wycofać się do czegoś, czego
+nigdy nie opuściłeś? Już teraz jesteś Światłem, którego szukałeś.
 
-Teraz jest czas Świętych Relacji, w którym dokonujesz wyboru, by chodzić po tym świecie, ale nie być z tego świata, i naprawdę praktykować coś zdumiewającego: obserwować stopy ciała, które wcześniej nazywałeś swoimi, kroczące ulicą, podczas gdy umysł jest całkowicie zdumiony, że nie ma w nim nikogo oprócz Miłości Chrystusa.
+Teraz jest czas Świętych Relacji, w którym dokonujesz wyboru, by chodzić
+po tym świecie, ale nie być z tego świata, i naprawdę praktykować coś
+zdumiewającego: obserwować stopy ciała, które wcześniej nazywałeś
+swoimi, kroczące ulicą, podczas gdy umysł jest całkowicie zdumiony, że
+nie ma w nim nikogo oprócz Miłości Chrystusa.
 
-Więc gdy wchodzisz do sklepu spożywczego, kupujesz warzywa i czekoladę, a potem kładziesz je na ladzie, pamiętaj, że jeśli chcesz poznać wolę swojego Ojca wobec ciebie, wystarczy, że otworzysz oczy. Kogo masz przed sobą? Kasjerkę, która potrzebuje Miłości. Która potrzebuje Miłości Chrystusa. Która nie potrzebuje zbawienia, bo tak naprawdę nigdy się nie zgubiła, jedynie myśli, że tak. Ona potrzebuje poczuć blask i ciepło Miłości.
+Więc gdy wchodzisz do sklepu spożywczego, kupujesz warzywa i czekoladę,
+a potem kładziesz je na ladzie, pamiętaj, że jeśli chcesz poznać wolę
+swojego Ojca wobec ciebie, wystarczy, że otworzysz oczy. Kogo masz przed
+sobą? Kasjerkę, która potrzebuje Miłości. Która potrzebuje Miłości
+Chrystusa. Która nie potrzebuje zbawienia, bo tak naprawdę nigdy się nie
+zgubiła, jedynie myśli, że tak. Ona potrzebuje poczuć blask i ciepło
+Miłości.
 
-Niektórzy z was w tym pomieszczeniu wiedzą, jak to jest przebywać w towarzystwie kogoś, kogo nazywa się mistrzem, osobą wysoko oświeconą lub po prostu kimś, kogo nie sposób nie kochać z całego serca. Za każdym razem, gdy jesteście blisko nich, czujecie ciepło w środku, a niezależnie od tego, co do nich powiecie lub co zrobicie w ich obecności, oni tylko się uśmiechają i kochają was.
+Niektórzy z was w tym pomieszczeniu wiedzą, jak to jest przebywać w
+towarzystwie kogoś, kogo nazywa się mistrzem, osobą wysoko oświeconą lub
+po prostu kimś, kogo nie sposób nie kochać z całego serca. Za każdym
+razem, gdy jesteście blisko nich, czujecie ciepło w środku, a
+niezależnie od tego, co do nich powiecie lub co zrobicie w ich
+obecności, oni tylko się uśmiechają i kochają was.
 
-I coś w was otwiera się w ich obecności, czujecie się bezpiecznie. Oni po prostu pokazują wam was samych. I wam zostało dane, byście to samo ofiarowali kasjerce w sklepie spożywczym albo nawet, jak to nazywacie, policjantom, którzy nie przepadają za tym, że przekraczacie prędkość w tym ziemskim Królestwie.
+I coś w was otwiera się w ich obecności, czujecie się bezpiecznie. Oni
+po prostu pokazują wam was samych. I wam zostało dane, byście to samo
+ofiarowali kasjerce w sklepie spożywczym albo nawet, jak to nazywacie,
+policjantom, którzy nie przepadają za tym, że przekraczacie prędkość w
+tym ziemskim Królestwie.
 
 {Śmiech}
 
-W rzeczy samej. Jesteście Światłem, a Światło wznosi się z tego świata, gdy każda nuta powagi zostaje uwolniona — z umysłu i z serca. Gdy spojrzycie na swój umysł i powiecie: „Mój Boże, nigdy niczego nie zrozumiałem. Chyba przestanę próbować myśleć,” i gdy w końcu zechcecie spocząć w niewinnej wrażliwości, którą wszyscy widzieliście u nowo narodzonego dziecka.
+W rzeczy samej. Jesteście Światłem, a Światło wznosi się z tego świata,
+gdy każda nuta powagi zostaje uwolniona — z umysłu i z serca. Gdy
+spojrzycie na swój umysł i powiecie: „Mój Boże, nigdy niczego nie
+zrozumiałem. Chyba przestanę próbować myśleć,” i gdy w końcu zechcecie
+spocząć w niewinnej wrażliwości, którą wszyscy widzieliście u nowo
+narodzonego dziecka.
 
-Co was do nich przyciąga? Czy nie jest to prostota tej niewinnej wrażliwości, która sprawia, że bierzecie je w ramiona? Kołyszecie? Patrzycie na nie, a one na was. I w nich nie widzicie ani śladu osądu wobec was. Nie interesuje ich, jak macie na imię. Nie liczą się dla nich biologiczne szczegóły waszej płci; dla nich istnieje tylko blask Światła.
+Co was do nich przyciąga? Czy nie jest to prostota tej niewinnej
+wrażliwości, która sprawia, że bierzecie je w ramiona? Kołyszecie?
+Patrzycie na nie, a one na was. I w nich nie widzicie ani śladu osądu
+wobec was. Nie interesuje ich, jak macie na imię. Nie liczą się dla nich
+biologiczne szczegóły waszej płci; dla nich istnieje tylko blask
+Światła.
 
-I zaczynasz chichotać i trochę z nimi gaworzyć. Skąd bierze się ta radość? Z Świętej Chwili, bo trzymasz w ramionach mistrza.
+I zaczynasz chichotać i trochę z nimi gaworzyć. Skąd bierze się ta
+radość? Z Świętej Chwili, bo trzymasz w ramionach mistrza.
 
-W rzeczy samej, stańcie się znów jak małe dzieci, a wejdziecie do Królestwa. To nie oznacza, że musisz zapomnieć, jaki masz numer PESEL. Oznacza to, że patrzysz i widzisz całkowicie bezpieczny świat — świat bezpieczny, ponieważ nic nie dzieje się przypadkiem i nie ma rozdzielenia między umysłami.
+W rzeczy samej, stańcie się znów jak małe dzieci, a wejdziecie do
+Królestwa. To nie oznacza, że musisz zapomnieć, jaki masz numer PESEL.
+Oznacza to, że patrzysz i widzisz całkowicie bezpieczny świat — świat
+bezpieczny, ponieważ nic nie dzieje się przypadkiem i nie ma
+rozdzielenia między umysłami.
 
-Ciała, oczywiście, to co innego. Byłoby nierozsądne, gdybym powiedział, że ciała nie mogą być oddzielone. Wszyscy wiemy, że mogą. Niesamowite jest to, że niektórzy myślą, iż ciała mogą się połączyć — więc próbują zbliżyć je do siebie tak blisko jak to jest możliwe. Ciała jednak nigdy nie mogą się połączyć. Mogą to zrobić jedynie umysły. A umysły łączą się, gdy obydwa trwają w Miłości. Wtedy powstaje Święta Relacja. I dopóki wydaje ci się, że jesteś w tym świecie, ciało staje się narzędziem komunikacji, odzwierciedlającym rzeczywistość, która istnieje tylko w umysłach Dzieci Bożych. W rzeczy samej.
+Ciała, oczywiście, to co innego. Byłoby nierozsądne, gdybym powiedział,
+że ciała nie mogą być oddzielone. Wszyscy wiemy, że mogą. Niesamowite
+jest to, że niektórzy myślą, iż ciała mogą się połączyć — więc próbują
+zbliżyć je do siebie tak blisko jak to jest możliwe. Ciała jednak nigdy
+nie mogą się połączyć. Mogą to zrobić jedynie umysły. A umysły łączą
+się, gdy obydwa trwają w Miłości. Wtedy powstaje Święta Relacja. I
+dopóki wydaje ci się, że jesteś w tym świecie, ciało staje się
+narzędziem komunikacji, odzwierciedlającym rzeczywistość, która istnieje
+tylko w umysłach Dzieci Bożych. W rzeczy samej.
 
-A więc wyciągnij rękę do kasjerki w sklepie, zachichocz i zrób — jak to nazywacie — „maślane” oczy. Zobacz w niej Dziecko zwane Chrystusem. Zobacz w niej swoje Dzieci. Zobacz Chrystusa w swoich rodzicach. Zobacz Chrystusa w swoich przyjaciołach i w tych, których wcześniej postrzegałeś jako swoich wrogów.
+A więc wyciągnij rękę do kasjerki w sklepie, zachichocz i zrób — jak to
+nazywacie — „maślane” oczy. Zobacz w niej Dziecko zwane Chrystusem.
+Zobacz w niej swoje Dzieci. Zobacz Chrystusa w swoich rodzicach. Zobacz
+Chrystusa w swoich przyjaciołach i w tych, których wcześniej
+postrzegałeś jako swoich wrogów.
 
-Bo dopóki nie będziesz gotów, naprawdę gotów, by odłożyć na bok powagę świata, gotów uznać, że wszystko zrozumiałeś na opak, gotów, by spojrzeć w twarz komuś, kogo uważałeś za osobę, która cię zraniła, osądziła, potępiła — nawet jeśli oznacza to sięgnięcie do wspomnień, ponieważ fizycznie tych osób już tu nie ma - i gdy zobaczysz, że Światło Chrystusa nawet rozprasza cienie obrazu ich ego, wtedy zrozumiesz dokładnie to, czego ja nauczyłem się poprzez to, co nazywacie ukrzyżowaniem.
+Bo dopóki nie będziesz gotów, naprawdę gotów, by odłożyć na bok powagę
+świata, gotów uznać, że wszystko zrozumiałeś na opak, gotów, by spojrzeć
+w twarz komuś, kogo uważałeś za osobę, która cię zraniła, osądziła,
+potępiła — nawet jeśli oznacza to sięgnięcie do wspomnień, ponieważ
+fizycznie tych osób już tu nie ma - i gdy zobaczysz, że Światło
+Chrystusa nawet rozprasza cienie obrazu ich ego, wtedy zrozumiesz
+dokładnie to, czego ja nauczyłem się poprzez to, co nazywacie
+ukrzyżowaniem.
 
-A teraz sobie wyobraźcie, że niektórzy z was myślą, że mieliście kiepskie dni.
+A teraz sobie wyobraźcie, że niektórzy z was myślą, że mieliście
+kiepskie dni.
 
 {Śmiech}
 
-A jak byście się czuli, gdyby ktoś zapomniał was nakarmić, a potem wręczył wam ciężki drewniany krzyż, mówiąc, że musicie go gdzieś zanieść? A kiedy już byście tam dotarli, z małą pomocą starego przyjaciela, położyliby was na tym krzyżu i powiedzieli: „Nie bierz tego do siebie. Ale musimy wbić kilka gwoździ w twoje ręce i stopy, bo nie chcemy, żebyś zbyt szybko spadł z tego krzyża.”
+A jak byście się czuli, gdyby ktoś zapomniał was nakarmić, a potem
+wręczył wam ciężki drewniany krzyż, mówiąc, że musicie go gdzieś
+zanieść? A kiedy już byście tam dotarli, z małą pomocą starego
+przyjaciela, położyliby was na tym krzyżu i powiedzieli: „Nie bierz tego
+do siebie. Ale musimy wbić kilka gwoździ w twoje ręce i stopy, bo nie
+chcemy, żebyś zbyt szybko spadł z tego krzyża.”
 
-A jednak nawet wtedy dotknąłeś miejsca mocy i Prawdy w sobie, spojrzałeś poza to, co widzialne, i ujrzałeś twarz Chrystusa uśmiechającą się do ciebie — tak bardzo, że ten, kto wbijał gwoździe, zaniemówił i przez chwilę dostrzegł w twoich oczach Światło, które przypomniało mu pradawną pieśń, którą, jak myślał, dawno już zapomniał.
+A jednak nawet wtedy dotknąłeś miejsca mocy i Prawdy w sobie, spojrzałeś
+poza to, co widzialne, i ujrzałeś twarz Chrystusa uśmiechającą się do
+ciebie — tak bardzo, że ten, kto wbijał gwoździe, zaniemówił i przez
+chwilę dostrzegł w twoich oczach Światło, które przypomniało mu pradawną
+pieśń, którą, jak myślał, dawno już zapomniał.
 
-Na twoich ustach pojawił się uśmiech. Przez jedną Świętą Chwilę zapanowała doskonała jasność między tymi, którzy krzyżują, a ukrzyżowanym. Zapadła cisza, przypomniano sobie pokój, a jeden z nich — tę część, nawiasem mówiąc, zapomnieli zamieścić w Biblii — jeden z nich upuścił narzędzia, opuścił głowę i odszedł.
+Na twoich ustach pojawił się uśmiech. Przez jedną Świętą Chwilę
+zapanowała doskonała jasność między tymi, którzy krzyżują, a
+ukrzyżowanym. Zapadła cisza, przypomniano sobie pokój, a jeden z nich —
+tę część, nawiasem mówiąc, zapomnieli zamieścić w Biblii — jeden z nich
+upuścił narzędzia, opuścił głowę i odszedł.
 
-Prawda przebudziła się w tamtym człowieku, który stał się bardzo drogim bratem, choć historia już dawno o nim zapomniała. Ten człowiek stał się cudotwórcą / czynicielem cudów.
+Prawda przebudziła się w tamtym człowieku, który stał się bardzo drogim
+bratem, choć historia już dawno o nim zapomniała. Ten człowiek stał się
+cudotwórcą / czynicielem cudów.
 
-Powiedzmy, że inkarnował się, tak jak wy to postrzegacie, w wielu kolejnych wcieleniach, w których służył jako mój głos i moje ciało. Był znany jako mistrz w wielu krainach, choć w większości wcieleń nie zyskał wielkiej sławy. Po prostu czynił cuda.
+Powiedzmy, że inkarnował się, tak jak wy to postrzegacie, w wielu
+kolejnych wcieleniach, w których służył jako mój głos i moje ciało. Był
+znany jako mistrz w wielu krainach, choć w większości wcieleń nie zyskał
+wielkiej sławy. Po prostu czynił cuda.
 
-A co stało się z pozostałymi? Lęk i poczucie winy sprawiły, że zamknęli oczy serca i kontynuowali to, co kazano im zrobić. A jednak mogę wam powiedzieć, że od tamtego momentu w duszy każdego z nich rozpoczęła się nowa podróż.
+A co stało się z pozostałymi? Lęk i poczucie winy sprawiły, że zamknęli
+oczy serca i kontynuowali to, co kazano im zrobić. A jednak mogę wam
+powiedzieć, że od tamtego momentu w duszy każdego z nich rozpoczęła się
+nowa podróż.
 
-Zasiano ziarno, tak jak jest ono zasiewane za każdym razem, gdy kochasz Chrystusa w swoim bracie i siostrze. Duch Święty przychodzi i podlewa je swoimi cudownymi wodami, a nawet ten, którego możesz nazwać lub postrzegać jako najciemniejszą z dusz, najbardziej zagubiony z umysłów, rozpoczyna podróż przypomnienia, uzdrowienia oraz uwolnienia od bólu i winy.
+Zasiano ziarno, tak jak jest ono zasiewane za każdym razem, gdy kochasz
+Chrystusa w swoim bracie i siostrze. Duch Święty przychodzi i podlewa je
+swoimi cudownymi wodami, a nawet ten, którego możesz nazwać lub
+postrzegać jako najciemniejszą z dusz, najbardziej zagubiony z umysłów,
+rozpoczyna podróż przypomnienia, uzdrowienia oraz uwolnienia od bólu i
+winy.
 
-Być może nigdy nie zobaczysz fizycznymi oczami, jak cuda przynoszą owoce, ale za każdym razem, gdy pamiętasz: „Ja i Ojciec Jedno jesteśmy; zostałem posłany w tę właśnie chwilę — jakakolwiek by nie była — aby przynieść Światło i Miłość Królestwa Niebieskiego i dać je mojemu bratu lub siostrze z wielką radością, a nie z powagą,” wówczas zasiewasz ziarno, które nieuchronnie zakwitnie. I w owej chwili łączysz się ze mną, przynosząc dar łaski z powrotem do umysłu kogoś, kto uważał, że na nią nie zasługuje.
+Być może nigdy nie zobaczysz fizycznymi oczami, jak cuda przynoszą
+owoce, ale za każdym razem, gdy pamiętasz: „Ja i Ojciec Jedno jesteśmy;
+zostałem posłany w tę właśnie chwilę — jakakolwiek by nie była — aby
+przynieść Światło i Miłość Królestwa Niebieskiego i dać je mojemu bratu
+lub siostrze z wielką radością, a nie z powagą,” wówczas zasiewasz
+ziarno, które nieuchronnie zakwitnie. I w owej chwili łączysz się ze
+mną, przynosząc dar łaski z powrotem do umysłu kogoś, kto uważał, że na
+nią nie zasługuje.
 
-I bądź pewien, że jeśli zasiejesz to ziarno, ja dopilnuję, aby zostało podlane. Bo podczas gdy tobie dano być w ciele przez krótki czas, ja ciała nie posiadam. Mogę więc poruszać się bardzo szybko, a mój ogrodowy wąż rozciąga się od jednego krańca stworzenia po drugi, a dostawa wody nigdy nie została przerwana. W rzeczy samej. W rzeczy samej.
+I bądź pewien, że jeśli zasiejesz to ziarno, ja dopilnuję, aby zostało
+podlane. Bo podczas gdy tobie dano być w ciele przez krótki czas, ja
+ciała nie posiadam. Mogę więc poruszać się bardzo szybko, a mój ogrodowy
+wąż rozciąga się od jednego krańca stworzenia po drugi, a dostawa wody
+nigdy nie została przerwana. W rzeczy samej. W rzeczy samej.
 
-Jakby to było, gdybyś jutro poświęcił jeden dzień, tylko jeden dzień, na eksperyment? Jeden dzień, w którym od momentu, gdy wstaniesz, aż do chwili, gdy pójdziesz spać, nie będziesz już tolerować błędu niewłaściwego myślenia w sobie? To tylko gra, widzisz. Po prostu przełączasz kanał na właściwe myślenie.
+Jakby to było, gdybyś jutro poświęcił jeden dzień, tylko jeden dzień, na
+eksperyment? Jeden dzień, w którym od momentu, gdy wstaniesz, aż do
+chwili, gdy pójdziesz spać, nie będziesz już tolerować błędu
+niewłaściwego myślenia w sobie? To tylko gra, widzisz. Po prostu
+przełączasz kanał na właściwe myślenie.
 
-A gdybyś jutro, tak dla zabawy, udawał, że to ty jesteś tym, kogo sam Bóg posłał na świat? Że jesteś doskonały i wolny od grzechu? Że nie ma w tobie już nic, co wymaga uzdrowienia? Że jesteś Myślą doskonałej Miłości w formie? Jeśli chcesz udawać, że jesteś zbawcą świata, śmiało, baw się tym.
+A gdybyś jutro, tak dla zabawy, udawał, że to ty jesteś tym, kogo sam
+Bóg posłał na świat? Że jesteś doskonały i wolny od grzechu? Że nie ma w
+tobie już nic, co wymaga uzdrowienia? Że jesteś Myślą doskonałej Miłości
+w formie? Jeśli chcesz udawać, że jesteś zbawcą świata, śmiało, baw się
+tym.
 
-A gdybyś przez jeden dzień po prostu spróbował przyjąć tę rolę, by zobaczyć, jak to jest? Pamiętając oczywiście, że w „Księdze Mistrzostwa”, rozdział 1, akapit 1, werset „a”, jest napisane:
+A gdybyś przez jeden dzień po prostu spróbował przyjąć tę rolę, by
+zobaczyć, jak to jest? Pamiętając oczywiście, że w „Księdze
+Mistrzostwa”, rozdział 1, akapit 1, werset „a”, jest napisane:
 
-„Słowo Boże, które stało się ciałem, nie przyjmie na siebie ani śladu powagi i nie zapomni śpiewać, śmiać się, tańczyć i bawić. I będzie po prostu przepełnione radością bycia obecnością Miłości.”
+„Słowo Boże, które stało się ciałem, nie przyjmie na siebie ani śladu
+powagi i nie zapomni śpiewać, śmiać się, tańczyć i bawić. I będzie po
+prostu przepełnione radością bycia obecnością Miłości.”
 
 Tylko na jeden dzień.
 
-Zaprawdę powiadam wam: gdy uda wam się to osiągnąć całkowicie przez jedną minutę, tylko przez jedną pełną i całą minutę, rozpoczniecie ruch, lawinę, falę przypływu, która jest zaprawdę przeznaczona, by przetoczyć się przez oblicze tej Ziemi.
+Zaprawdę powiadam wam: gdy uda wam się to osiągnąć całkowicie przez
+jedną minutę, tylko przez jedną pełną i całą minutę, rozpoczniecie ruch,
+lawinę, falę przypływu, która jest zaprawdę przeznaczona, by przetoczyć
+się przez oblicze tej Ziemi.
 
-Bo nieszczęśliwy sen, który zrodził się z umysłów wypełnionych lękiem i winą, wierzących w oddzielenie, zostaje przekształcany w doskonale szczęśliwy sen, w którym ten świat stanie się najjaśniejszym odbiciem, jakie tylko może być, Królestwa Niebieskiego na Ziemi. Możecie to znać jako tysiąc lat doskonałego pokoju — to jedno z określeń, jakich można użyć.
+Bo nieszczęśliwy sen, który zrodził się z umysłów wypełnionych lękiem i
+winą, wierzących w oddzielenie, zostaje przekształcany w doskonale
+szczęśliwy sen, w którym ten świat stanie się najjaśniejszym odbiciem,
+jakie tylko może być, Królestwa Niebieskiego na Ziemi. Możecie to znać
+jako tysiąc lat doskonałego pokoju — to jedno z określeń, jakich można
+użyć.
 
-A gdy ta chwila zostanie wypełniona, cel czasu również zostanie wypełniony. I rzeczy tego świata przestaną mieć jakąkolwiek wartość, znaczenie i cel. Bo dano wam zrozumienie, że choć ten świat być może został stworzony w błędzie — nie mówię o drzewach, nie mówię o chmurach, nie mówię o błogosławionym deszczu i cennej glebie waszej Świętej Matki. Mówię o świecie, o ideach, które zostały skonstruowane w umysłach ludzkości, o ideach, które ludzkość stworzyła w wyniku swojego oddzielenia i rozdrobnienia — ten świat zostanie naprawiony.
+A gdy ta chwila zostanie wypełniona, cel czasu również zostanie
+wypełniony. I rzeczy tego świata przestaną mieć jakąkolwiek wartość,
+znaczenie i cel. Bo dano wam zrozumienie, że choć ten świat być może
+został stworzony w błędzie — nie mówię o drzewach, nie mówię o chmurach,
+nie mówię o błogosławionym deszczu i cennej glebie waszej Świętej Matki.
+Mówię o świecie, o ideach, które zostały skonstruowane w umysłach
+ludzkości, o ideach, które ludzkość stworzyła w wyniku swojego
+oddzielenia i rozdrobnienia — ten świat zostanie naprawiony.
 
-Czas powstał wraz z myślą o oddzieleniu, a teraz jesteście tutaj, ponieważ każdy z was wie, że czas, aby doprowadzić czas do końca, nadchodzi szybko.
+Czas powstał wraz z myślą o oddzieleniu, a teraz jesteście tutaj,
+ponieważ każdy z was wie, że czas, aby doprowadzić czas do końca,
+nadchodzi szybko.
 
-Chcę, abyście przede wszystkim zrozumieli dziś wieczorem, że nie przyszliście na ten świat z powodu kary, braku, ani czegoś, co nazywa się karmą, którą musicie naprawić. Jesteście tutaj, ponieważ już zostaliście naprawieni.
+Chcę, abyście przede wszystkim zrozumieli dziś wieczorem, że nie
+przyszliście na ten świat z powodu kary, braku, ani czegoś, co nazywa
+się karmą, którą musicie naprawić. Jesteście tutaj, ponieważ już
+zostaliście naprawieni.
 
-Świece zapłonowe zostały wymienione. Olej wymieniony. Opony mają odpowiednie ciśnienie, a „Rolls Royce” ciała niesie w sobie jedynie przebudzonego Syna Bożego.
+Świece zapłonowe zostały wymienione. Olej wymieniony. Opony mają
+odpowiednie ciśnienie, a „Rolls Royce” ciała niesie w sobie jedynie
+przebudzonego Syna Bożego.
 
-Przebudzenie nie jest trudne. Wymaga jedynie twojej gotowości, by uznać, że jesteś przebudzony. Nie musisz w to wierzyć. Wystarczy, że to uznasz.
+Przebudzenie nie jest trudne. Wymaga jedynie twojej gotowości, by uznać,
+że jesteś przebudzony. Nie musisz w to wierzyć. Wystarczy, że to uznasz.
 
-I za każdym razem, gdy to robisz, za każdym razem, przestrzeń twojego serca się powiększa. Gotowość, by być całkowicie otwartym wobec siebie nawzajem, zaczyna rozkwitać. A Światło Miłości, które było skrywane pod korcem zbudowanym jedynie z błędnej myśli, zacznie promieniować w całym swoim blasku i chwale.
+I za każdym razem, gdy to robisz, za każdym razem, przestrzeń twojego
+serca się powiększa. Gotowość, by być całkowicie otwartym wobec siebie
+nawzajem, zaczyna rozkwitać. A Światło Miłości, które było skrywane pod
+korcem zbudowanym jedynie z błędnej myśli, zacznie promieniować w całym
+swoim blasku i chwale.
 
-Zrozum więc, że kiedy twoim wyborem jest być tym, który jest przebudzony, dajesz światu największy dar, jaki kiedykolwiek możesz ofiarować, bo ukazujesz świętą jedność Ojca i Syna. I bądź pewien, że zostanie to dostrzeżone.
+Zrozum więc, że kiedy twoim wyborem jest być tym, który jest
+przebudzony, dajesz światu największy dar, jaki kiedykolwiek możesz
+ofiarować, bo ukazujesz świętą jedność Ojca i Syna. I bądź pewien, że
+zostanie to dostrzeżone.
 
-Oczywiście, kiedy to zostanie dostrzeżone, niektóre umysły powiedzą: „Boże, dziękuję Ci,” a inne na chwilę zakryją oczy.
+Oczywiście, kiedy to zostanie dostrzeżone, niektóre umysły powiedzą:
+„Boże, dziękuję Ci,” a inne na chwilę zakryją oczy.
 
-Nie zostałeś posłany na ten świat, by naprawiać kogokolwiek — bo nie możesz. Nie zostałeś posłany, by uzdrawiać kogokolwiek — bo nie możesz. Zostałeś posłany, aby być przykładem kogoś, kto przyjął uzdrowienie, aby twój brat mógł zobaczyć w tobie swoje odbicie. Swoje prawdziwe odbicie.
+Nie zostałeś posłany na ten świat, by naprawiać kogokolwiek — bo nie
+możesz. Nie zostałeś posłany, by uzdrawiać kogokolwiek — bo nie możesz.
+Zostałeś posłany, aby być przykładem kogoś, kto przyjął uzdrowienie, aby
+twój brat mógł zobaczyć w tobie swoje odbicie. Swoje prawdziwe odbicie.
 
-A dopóki ciało cię niesie, tańcz. Każdego ranka i wieczora daj się ponieść małemu pląsowi. Jeśli chcesz, nazwij to swoją duchową praktyką.
+A dopóki ciało cię niesie, tańcz. Każdego ranka i wieczora daj się
+ponieść małemu pląsowi. Jeśli chcesz, nazwij to swoją duchową praktyką.
 
-A kiedy polerujesz swoje kryształy, niezależnie od tego, jak bardzo są cenne, pamiętaj, że najwspanialszym z kryształów jest przebudzone serce, w którym mieszka Chrystus — Serce, które jest w tobie, umieszczone tam przez samego Boga. W rzeczy samej.
+A kiedy polerujesz swoje kryształy, niezależnie od tego, jak bardzo są
+cenne, pamiętaj, że najwspanialszym z kryształów jest przebudzone serce,
+w którym mieszka Chrystus — Serce, które jest w tobie, umieszczone tam
+przez samego Boga. W rzeczy samej.
 
-„Uzdrawianie iluzji zranienia.” Gdybym przyszedł do ciebie i dał ci skomplikowane techniki, jedynie umocniłoby to iluzję, że zranienia nie zostały jeszcze od ciebie zabrane. A jeśli wydaje ci się, że wciąż są obecne, to dlatego, że jakaś mała część ciebie w pewnym sensie pobiegła za nimi, mówiąc: „Nie, nie, Ojcze, jeszcze nie. Nie jestem pewien, czy potrafię się już z nimi rozstać.”
+„Uzdrawianie iluzji zranienia.” Gdybym przyszedł do ciebie i dał ci
+skomplikowane techniki, jedynie umocniłoby to iluzję, że zranienia nie
+zostały jeszcze od ciebie zabrane. A jeśli wydaje ci się, że wciąż są
+obecne, to dlatego, że jakaś mała część ciebie w pewnym sensie pobiegła
+za nimi, mówiąc: „Nie, nie, Ojcze, jeszcze nie. Nie jestem pewien, czy
+potrafię się już z nimi rozstać.”
 
-A uzdrowienie czeka na twoje zaproszenie. Uzdrowienie czeka na twoje zaproszenie Prawdy, że już teraz jesteś całością.
+A uzdrowienie czeka na twoje zaproszenie. Uzdrowienie czeka na twoje
+zaproszenie Prawdy, że już teraz jesteś całością.
 
-Wszystko, co musisz zrobić, to być gotowym pozwolić Duchowi Świętemu — prawemu umysłowi w twoim wnętrzu — nauczyć cię na nowo, czym naprawdę jest relacja i jaki jest prawdziwy cel oraz funkcja tego świata.
+Wszystko, co musisz zrobić, to być gotowym pozwolić Duchowi Świętemu —
+prawemu umysłowi w twoim wnętrzu — nauczyć cię na nowo, czym naprawdę
+jest relacja i jaki jest prawdziwy cel oraz funkcja tego świata.
 
-To właśnie oznacza być skruszonym w sercu, ubogim w duchu. Już nie jesteś przytłoczony wszystkimi „bogactwami”, które sam stworzyłeś — bogactwami fałszywych myśli, osądów i lęków, które ego w tobie zgromadziło, mówiąc: „Oto teraz jesteś bardzo bogaty.”
+To właśnie oznacza być skruszonym w sercu, ubogim w duchu. Już nie
+jesteś przytłoczony wszystkimi „bogactwami”, które sam stworzyłeś —
+bogactwami fałszywych myśli, osądów i lęków, które ego w tobie
+zgromadziło, mówiąc: „Oto teraz jesteś bardzo bogaty.”
 
-Gdy stajesz się ubogim w duchu, stajesz się otwarty, wrażliwy i bezbronny, i uświadamiasz sobie, że każda chwila istnieje tylko po to, abyś mógł pogłębić swoje zrozumienie tego, jak na nowo być obecnością Miłości wyrażoną w formie.
+Gdy stajesz się ubogim w duchu, stajesz się otwarty, wrażliwy i
+bezbronny, i uświadamiasz sobie, że każda chwila istnieje tylko po to,
+abyś mógł pogłębić swoje zrozumienie tego, jak na nowo być obecnością
+Miłości wyrażoną w formie.
 
-Czy musisz się martwić o to, co powiedzieć i co zrobić? Nie, to ego martwi się o to, co powiedzieć i co zrobić, bo wierzy, że musi jakoś wywrzeć wrażenie. Musi kogoś naprawić. Musi zdobyć czyjeś uznanie. Ale gdy umysł jest spokojny, a serce puste, wystarczy, że zapytasz Ducha Świętego: „Co chciałbyś, żebym powiedział?” i „Co chciałbyś, żebym zrobił?”
+Czy musisz się martwić o to, co powiedzieć i co zrobić? Nie, to ego
+martwi się o to, co powiedzieć i co zrobić, bo wierzy, że musi jakoś
+wywrzeć wrażenie. Musi kogoś naprawić. Musi zdobyć czyjeś uznanie. Ale
+gdy umysł jest spokojny, a serce puste, wystarczy, że zapytasz Ducha
+Świętego: „Co chciałbyś, żebym powiedział?” i „Co chciałbyś, żebym
+zrobił?”
 
-Ci z was, którzy zajmują się tym, co nazywa się pracą uzdrawiania, wiedzą, o czym mówię, bo to działa, gdy odsuwasz się na bok. Odkrywasz, że położyłeś rękę w jakieś miejsce, nawet o tym nie myśląc. To po prostu się stało. I mówisz: „O rany, zapomniałem zrobić to, tamto i jeszcze coś innego, a mimo to wydarzył się niesamowity cud.”
+Ci z was, którzy zajmują się tym, co nazywa się pracą uzdrawiania,
+wiedzą, o czym mówię, bo to działa, gdy odsuwasz się na bok. Odkrywasz,
+że położyłeś rękę w jakieś miejsce, nawet o tym nie myśląc. To po prostu
+się stało. I mówisz: „O rany, zapomniałem zrobić to, tamto i jeszcze coś
+innego, a mimo to wydarzył się niesamowity cud.”
 
-Duch Święty jest tą częścią ciebie, która zawsze wie, co powiedzieć i co zrobić. Zawsze, bez wyjątku. Bądź więc gotowy, by słuchać. W rzeczy samej.
+Duch Święty jest tą częścią ciebie, która zawsze wie, co powiedzieć i co
+zrobić. Zawsze, bez wyjątku. Bądź więc gotowy, by słuchać. W rzeczy
+samej.
 
-Czy czujesz tę ciszę? To nie tylko dlatego, że nikt poza mną nie mówi. To nie dlatego, że ciała nie poruszają się na krzesłach. Czy czujesz tę ciszę? Czy to nie jest wspólna cisza, która pojawia się, gdy rzeczy iluzji zostały odłożone na bok, a Prawda na moment została przypomniana? Poczuj to. Trwaj ze mną teraz. Dotknij tego miejsca — Miejsca Najświętszego, w którym doskonały pokój trwa bez ograniczeń, istniejąc w tobie jako fundament twojej rzeczywistości.
+Czy czujesz tę ciszę? To nie tylko dlatego, że nikt poza mną nie mówi.
+To nie dlatego, że ciała nie poruszają się na krzesłach. Czy czujesz tę
+ciszę? Czy to nie jest wspólna cisza, która pojawia się, gdy rzeczy
+iluzji zostały odłożone na bok, a Prawda na moment została przypomniana?
+Poczuj to. Trwaj ze mną teraz. Dotknij tego miejsca — Miejsca
+Najświętszego, w którym doskonały pokój trwa bez ograniczeń, istniejąc w
+tobie jako fundament twojej rzeczywistości.
 
-Poczuj jakość pokoju, który na zawsze przekracza wszelkie zrozumienie, i raduj się, bo koniec podróży jest blisko, a święty Syn Boży powrócił. Dar został przyjęty.
+Poczuj jakość pokoju, który na zawsze przekracza wszelkie zrozumienie, i
+raduj się, bo koniec podróży jest blisko, a święty Syn Boży powrócił.
+Dar został przyjęty.
 
-I w każdej chwili, gdy zostaniesz poproszony, by jeszcze przez chwilę pozostać w tym świecie, w każdej chwili staraj się najpierw o Królestwo Niebieskie i spocznij w miejscu pokoju, a poznasz, co trzeba powiedzieć, co trzeba zrobić, dokąd pójść i z kim kroczyć. I będziesz wiedział, że nigdy nie jesteś sam.
+I w każdej chwili, gdy zostaniesz poproszony, by jeszcze przez chwilę
+pozostać w tym świecie, w każdej chwili staraj się najpierw o Królestwo
+Niebieskie i spocznij w miejscu pokoju, a poznasz, co trzeba powiedzieć,
+co trzeba zrobić, dokąd pójść i z kim kroczyć. I będziesz wiedział, że
+nigdy nie jesteś sam.
 
-Bo obietnica, którą wam dałem, pozostaje prawdziwa: „Jestem zawsze z wami.” A jeśli kiedykolwiek poczujesz, że twoja siła słabnie, że pojawia się chwila zwątpienia, pamiętaj o tym, bo moje słowo jest prawdziwe: dam ci pełnię mojej siły, dopóki twoja nie stanie się równie pewna jak moja — w każdej chwili, gdy o nią poprosisz. Nie musisz na nią zasługiwać, bo daję ją z miłością i za darmo.
+Bo obietnica, którą wam dałem, pozostaje prawdziwa: „Jestem zawsze z
+wami.” A jeśli kiedykolwiek poczujesz, że twoja siła słabnie, że pojawia
+się chwila zwątpienia, pamiętaj o tym, bo moje słowo jest prawdziwe: dam
+ci pełnię mojej siły, dopóki twoja nie stanie się równie pewna jak moja
+— w każdej chwili, gdy o nią poprosisz. Nie musisz na nią zasługiwać, bo
+daję ją z miłością i za darmo.
 
-A kiedy nadejdzie czas, by odłożyć ciało i oddać je z powrotem swojej Świętej Matce, zrób to z lekkością i pokojem. Pamiętaj, że nigdy nie byłeś ciałem. To tylko narzędzie do komunikacji. Skieruj wówczas swoją świadomość na wielką promień Światła, który wyda się pojawiać tak, jakby świecił nad tobą, i zapamiętaj to, co mówię w tej chwili: widzisz wielki promień Światła, którym jesteś, którym zawsze byłeś i którym pozostaniesz przez całą wieczność.
+A kiedy nadejdzie czas, by odłożyć ciało i oddać je z powrotem swojej
+Świętej Matce, zrób to z lekkością i pokojem. Pamiętaj, że nigdy nie
+byłeś ciałem. To tylko narzędzie do komunikacji. Skieruj wówczas swoją
+świadomość na wielką promień Światła, który wyda się pojawiać tak, jakby
+świecił nad tobą, i zapamiętaj to, co mówię w tej chwili: widzisz wielki
+promień Światła, którym jesteś, którym zawsze byłeś i którym
+pozostaniesz przez całą wieczność.
 
-Nic dziwnego, że ci, którzy doświadczyli stanów bliskich śmierci, wspominają to z pewną radością — tunel Światła, stanięcie twarzą w twarz z prawdziwym Sobą, uświadomienie sobie ponad wszelką wątpliwość, że jesteś wielkim promieniem Światła emanującym z samego Umysłu Boga. I właśnie tym zawsze byłeś. Zawsze.
+Nic dziwnego, że ci, którzy doświadczyli stanów bliskich śmierci,
+wspominają to z pewną radością — tunel Światła, stanięcie twarzą w twarz
+z prawdziwym Sobą, uświadomienie sobie ponad wszelką wątpliwość, że
+jesteś wielkim promieniem Światła emanującym z samego Umysłu Boga. I
+właśnie tym zawsze byłeś. Zawsze.
 
-A jeśli chcesz przypomnieć sobie, kim jesteś w danej chwili, zobacz ten wielki promień Światła, który zdaje się zstępować niczym gołębica i być może przenika cię przez czubek głowy. Utożsam się ze Światłem, a będziesz Światłem świata. W rzeczy samej.
+A jeśli chcesz przypomnieć sobie, kim jesteś w danej chwili, zobacz ten
+wielki promień Światła, który zdaje się zstępować niczym gołębica i być
+może przenika cię przez czubek głowy. Utożsam się ze Światłem, a
+będziesz Światłem świata. W rzeczy samej.
 
-Kocham was, a ponieważ was kocham, przychodzę i pukam bez ustanku. Nigdy nie zdarłem sobie kostek do krwi — stałem się mądrzejszy i zrezygnowałem z używania fizycznego ciała.
+Kocham was, a ponieważ was kocham, przychodzę i pukam bez ustanku. Nigdy
+nie zdarłem sobie kostek do krwi — stałem się mądrzejszy i zrezygnowałem
+z używania fizycznego ciała.
 
-I każdemu, kto choćby odrobinę uchyli drzwi, zapewniam, że natychmiast wejdę i usiądę przy twoim stole, a wtedy, ojej, ile będziemy mieli opowieści — ile będzie tych „A pamiętasz, jak…”, i mnóstwo śmiechu przy najsłodszym winie, jakie kiedykolwiek kosztowałeś: winie doskonałego przypomnienia. Jesteś w pełni miłowany. Nigdy nie zgrzeszyłeś i nigdy nie spoczął na tobie nawet cień osądu ze strony Umysłu Tego, Kto naprawdę się liczy.
+I każdemu, kto choćby odrobinę uchyli drzwi, zapewniam, że natychmiast
+wejdę i usiądę przy twoim stole, a wtedy, ojej, ile będziemy mieli
+opowieści — ile będzie tych „A pamiętasz, jak…”, i mnóstwo śmiechu przy
+najsłodszym winie, jakie kiedykolwiek kosztowałeś: winie doskonałego
+przypomnienia. Jesteś w pełni miłowany. Nigdy nie zgrzeszyłeś i nigdy
+nie spoczął na tobie nawet cień osądu ze strony Umysłu Tego, Kto
+naprawdę się liczy.
 
-Bądź więc w pokoju i zrozum, że jedyne, na co zasługujesz, to pełnia Światła, którym jesteś, a stół został już dla ciebie zastawiony. Twój Ojciec nie prosi, byś wybierał okruchy. W rzeczy samej.
+Bądź więc w pokoju i zrozum, że jedyne, na co zasługujesz, to pełnia
+Światła, którym jesteś, a stół został już dla ciebie zastawiony. Twój
+Ojciec nie prosi, byś wybierał okruchy. W rzeczy samej.
 
-To pyszna cisza, czyż nie? Pozwól wspomnieniom powrócić. Są w tym pomieszczeniu tacy, którzy wiedzą, że mówię teraz właśnie do nich. Pozwól wspomnieniom powrócić. Światu nigdy nie udało się oddzielić mnie od ciebie. Zwyczajnie pozwolił mi być bliżej was. I bądź pewien, że jeśli udało mi się znaleźć sposób, by przebić się przez zasłony oporu w umyśle tego mojego pradawnego i ukochanego brata, z pewnością mogę przyjść do ciebie w mgnieniu oka. W rzeczy samej.
+To pyszna cisza, czyż nie? Pozwól wspomnieniom powrócić. Są w tym
+pomieszczeniu tacy, którzy wiedzą, że mówię teraz właśnie do nich.
+Pozwól wspomnieniom powrócić. Światu nigdy nie udało się oddzielić mnie
+od ciebie. Zwyczajnie pozwolił mi być bliżej was. I bądź pewien, że
+jeśli udało mi się znaleźć sposób, by przebić się przez zasłony oporu w
+umyśle tego mojego pradawnego i ukochanego brata, z pewnością mogę
+przyjść do ciebie w mgnieniu oka. W rzeczy samej.
 
-To ty jesteś tym. Ty jesteś tym, i nadszedł czas. Wiele pradawnych członków pewnej rodziny jest teraz gromadzonych razem. Niektórzy w jednym miejscu, inni gdzie indziej. To naprawdę nie ma znaczenia. Nie ma przecież oddzielenia.
+To ty jesteś tym. Ty jesteś tym, i nadszedł czas. Wiele pradawnych
+członków pewnej rodziny jest teraz gromadzonych razem. Niektórzy w
+jednym miejscu, inni gdzie indziej. To naprawdę nie ma znaczenia. Nie ma
+przecież oddzielenia.
 
-To, co zaczyna się ustanawiać w miejscu, które nazywacie swoją „Ziemią Popiołów” (Ash Land), jest, powiedzmy, punktem Światła. W rzeczy samej. Niektórzy z was już to wiedzą. Inni dopiero się tego dowiedzą. A wielu waszych pradawnych braci i sióstr usłyszało już wezwanie i rozważa, że tak to ujmę, zostanie pionierami i wyruszenie na zachód do miejsca zwanego Oregon, do małego miasteczka o nazwie Ashland. W rzeczy samej.
+To, co zaczyna się ustanawiać w miejscu, które nazywacie swoją „Ziemią
+Popiołów” (Ash Land), jest, powiedzmy, punktem Światła. W rzeczy samej.
+Niektórzy z was już to wiedzą. Inni dopiero się tego dowiedzą. A wielu
+waszych pradawnych braci i sióstr usłyszało już wezwanie i rozważa, że
+tak to ujmę, zostanie pionierami i wyruszenie na zachód do miejsca
+zwanego Oregon, do małego miasteczka o nazwie Ashland. W rzeczy samej.
 
-Miejsce uzdrawiania, opieki, tańca i śpiewu. Miejsce wspólnoty. Miejsce otoczone wzniosłym i bezcennym pięknem waszej Świętej Matki. W rzeczy samej, miejsce, które należy traktować jako święte, aż każdy kawałek betonu stanie się niczym stopnie do największej z katedr. A wy wzniesiecie jej mury, będąc tymi, którzy zakotwiczają to Światło, tak jak inni, znani wam z pradawnych czasów, obecnie angażują się w podobne dzieła w wielu miejscach na całej tej planecie.
+Miejsce uzdrawiania, opieki, tańca i śpiewu. Miejsce wspólnoty. Miejsce
+otoczone wzniosłym i bezcennym pięknem waszej Świętej Matki. W rzeczy
+samej, miejsce, które należy traktować jako święte, aż każdy kawałek
+betonu stanie się niczym stopnie do największej z katedr. A wy
+wzniesiecie jej mury, będąc tymi, którzy zakotwiczają to Światło, tak
+jak inni, znani wam z pradawnych czasów, obecnie angażują się w podobne
+dzieła w wielu miejscach na całej tej planecie.
 
-Gobelin jest tkany, a Światło powraca na Ziemię. To, na co czekaliście, co sobie wyobrażaliście, co dotykało was w snach i podczas snu, a niektórych z was w medytacjach, a jeszcze inni doświadczyli tego w całej intensywności, podczas spaceru ulicą — to nie jest wytwór wyobraźni.
+Gobelin jest tkany, a Światło powraca na Ziemię. To, na co czekaliście,
+co sobie wyobrażaliście, co dotykało was w snach i podczas snu, a
+niektórych z was w medytacjach, a jeszcze inni doświadczyli tego w całej
+intensywności, podczas spaceru ulicą — to nie jest wytwór wyobraźni.
 
-Czy masz do odegrania jakąś rolę? Oczywiście, że tak. Jaką? Być obecnością Miłości dokładnie tam, gdzie jesteś w tej chwili, bo kiedy to robisz, twoje prowadzenie nieomylnie zaprowadzi cię do następnej chwili. Pozwól Tkaczowi tkać gobelin przez ciebie, podczas gdy ty świętujesz odrodzenie tego, co zawsze znałeś w głębi swojego serca. Wielu z was przytakuje w swoim wnętrzu: „Tak, to prawda. Wiem. Zawsze to wiedziałem.” Czas jest bliski. Czas jest bliski. Oto telegram został dostarczony, i wiesz, czy go otrzymałeś.
+Czy masz do odegrania jakąś rolę? Oczywiście, że tak. Jaką? Być
+obecnością Miłości dokładnie tam, gdzie jesteś w tej chwili, bo kiedy to
+robisz, twoje prowadzenie nieomylnie zaprowadzi cię do następnej chwili.
+Pozwól Tkaczowi tkać gobelin przez ciebie, podczas gdy ty świętujesz
+odrodzenie tego, co zawsze znałeś w głębi swojego serca. Wielu z was
+przytakuje w swoim wnętrzu: „Tak, to prawda. Wiem. Zawsze to
+wiedziałem.” Czas jest bliski. Czas jest bliski. Oto telegram został
+dostarczony, i wiesz, czy go otrzymałeś.
 
-Proszę was więc, abyście zabrali to, co zostało dziś przekazane, głęboko do swojego serca, nawet jeśli umysł wertuje „strony”, zastanawiając się, czy to jest książka, którą chcecie zabrać do domu, czy nie. Pozwólcie sercu to poczuć, zamiast pozwalać umysłowi to analizować. A część waszego prawego umysłu sama potwierdzi, czy cokolwiek, czym się z wami podzieliłem, jest Prawdą.
+Proszę was więc, abyście zabrali to, co zostało dziś przekazane, głęboko
+do swojego serca, nawet jeśli umysł wertuje „strony”, zastanawiając się,
+czy to jest książka, którą chcecie zabrać do domu, czy nie. Pozwólcie
+sercu to poczuć, zamiast pozwalać umysłowi to analizować. A część
+waszego prawego umysłu sama potwierdzi, czy cokolwiek, czym się z wami
+podzieliłem, jest Prawdą.
 
-Przychodzę nie po to, by coś udowadniać. Nie po to, by przekonywać. Przychodzę, by dzielić się dobrą nowiną o wielkiej radości: Syn budzi się na nowo.
+Przychodzę nie po to, by coś udowadniać. Nie po to, by przekonywać.
+Przychodzę, by dzielić się dobrą nowiną o wielkiej radości: Syn budzi
+się na nowo.
 
-Chcę jedynie zaproponować, byście pozwolili sobie teraz na coś, co nazywacie przerwą. Tylko ciała mogą mieć przerwy. A jeśli czujesz się pełen, kompletny lub zdezorientowany, to w porządku. Jeśli chcesz wyjść, jak najbardziej masz do tego prawo. W rzeczy samej, proszę jedynie, byś zajrzał w swoje serce i zrozumiał, że tam jesteś prowadzony. Zapytaj po prostu, czy wolisz zostać, czy wyjść. To nie ma znaczenia, widzisz, bo wszystkie umysły są połączone. Muszę się jednak przyznać do czegoś, czego dotąd nie mówiłem: za każdym razem, gdy ktoś pojawia się na jednym z tych małych spotkań, nie dzieje się to przez przypadek. A gdy już się pojawi, można powiedzieć, że linia telefoniczna została podłączona. Niektórzy opuścili spotkanie nieco zdezorientowani, ale szybko odkryli, że wciąż że wciąż nawiedzam ich sny, a oni nie mogą się mnie pozbyć. Jeszcze nie uświadomili sobie, że to oni sami wyrazili pragnienie, by ta linia została podłączona do ich umysłu. To wszystko. Nikt nigdy nie wkroczył na tę ścieżkę przez przypadek. Nikt. To niemożliwe.
+Chcę jedynie zaproponować, byście pozwolili sobie teraz na coś, co
+nazywacie przerwą. Tylko ciała mogą mieć przerwy. A jeśli czujesz się
+pełen, kompletny lub zdezorientowany, to w porządku. Jeśli chcesz wyjść,
+jak najbardziej masz do tego prawo. W rzeczy samej, proszę jedynie, byś
+zajrzał w swoje serce i zrozumiał, że tam jesteś prowadzony. Zapytaj po
+prostu, czy wolisz zostać, czy wyjść. To nie ma znaczenia, widzisz, bo
+wszystkie umysły są połączone. Muszę się jednak przyznać do czegoś,
+czego dotąd nie mówiłem: za każdym razem, gdy ktoś pojawia się na jednym
+z tych małych spotkań, nie dzieje się to przez przypadek. A gdy już się
+pojawi, można powiedzieć, że linia telefoniczna została podłączona.
+Niektórzy opuścili spotkanie nieco zdezorientowani, ale szybko odkryli,
+że wciąż że wciąż nawiedzam ich sny, a oni nie mogą się mnie pozbyć.
+Jeszcze nie uświadomili sobie, że to oni sami wyrazili pragnienie, by ta
+linia została podłączona do ich umysłu. To wszystko. Nikt nigdy nie
+wkroczył na tę ścieżkę przez przypadek. Nikt. To niemożliwe.
 
-Więc ciesz się przerwą, a będziesz wiedział, kiedy nadejdzie odpowiedni moment. I jeśli chcesz zostać i, powiedzmy, porozmawiać teraz, gdy telegram został dostarczony, jak najbardziej, usiądziemy — choć ja właściwie nie siadam — i porozmawiamy o czymkolwiek, o czym będziesz chciał porozmawiać. Albo po prostu będziemy razem, przytulimy się i pośmiejemy. To będzie zależało od was.
+Więc ciesz się przerwą, a będziesz wiedział, kiedy nadejdzie odpowiedni
+moment. I jeśli chcesz zostać i, powiedzmy, porozmawiać teraz, gdy
+telegram został dostarczony, jak najbardziej, usiądziemy — choć ja
+właściwie nie siadam — i porozmawiamy o czymkolwiek, o czym będziesz
+chciał porozmawiać. Albo po prostu będziemy razem, przytulimy się i
+pośmiejemy. To będzie zależało od was.
 
-Przekazuję wam moją wdzięczność za waszą obecność. Nie tylko w tej godzinie, ale we wszystkich godzinach. Przekazuję wam szacunek, który żywię w stosunku do was, ponieważ postanowiliście podjąć ostateczną podróż do Boga i przebudzić się z trwającego od dawna snu. Postanowiliście odziać się w szaty tych, którzy stoją przebudzeni, aby inni mogli dokonać tego samego wyboru.
+Przekazuję wam moją wdzięczność za waszą obecność. Nie tylko w tej
+godzinie, ale we wszystkich godzinach. Przekazuję wam szacunek, który
+żywię w stosunku do was, ponieważ postanowiliście podjąć ostateczną
+podróż do Boga i przebudzić się z trwającego od dawna snu.
+Postanowiliście odziać się w szaty tych, którzy stoją przebudzeni, aby
+inni mogli dokonać tego samego wyboru.
 
-Gdybym miał ciało, ukląkłbym przed tobą — przed twoim blaskiem i promiennością, przed twoją doskonałością, miłością, darami i pięknem. Gdybyś tylko spojrzał oczami swojego serca, z pewnością zrozumiałbyś, że ten przyjaciel i brat, którego świat uczynił zbyt wielkim, klękał przed tobą od chwili, gdy zostałeś stworzony w Umyśle mojego Ojca. Rozkoszuję się Miłością i Światłem, którym jesteś, i darami, które mi przynosisz. Po prostu dlatego, że jesteś. Kocham cię, a to, co ukazuje się w tym świecie, w żaden sposób, w żadnej formie ani postaci nie odłączy cię ode mnie. Na to nie pozwolę.
+Gdybym miał ciało, ukląkłbym przed tobą — przed twoim blaskiem i
+promiennością, przed twoją doskonałością, miłością, darami i pięknem.
+Gdybyś tylko spojrzał oczami swojego serca, z pewnością zrozumiałbyś, że
+ten przyjaciel i brat, którego świat uczynił zbyt wielkim, klękał przed
+tobą od chwili, gdy zostałeś stworzony w Umyśle mojego Ojca. Rozkoszuję
+się Miłością i Światłem, którym jesteś, i darami, które mi przynosisz.
+Po prostu dlatego, że jesteś. Kocham cię, a to, co ukazuje się w tym
+świecie, w żaden sposób, w żadnej formie ani postaci nie odłączy cię ode
+mnie. Na to nie pozwolę.
 
-Trwajcie w pokoju we wszystkim, co robicie, i pamiętajcie, że z pokoju rodzi się wolność do bycia całkowicie nieprzewidywalnym. W rzeczy samej.
+Trwajcie w pokoju we wszystkim, co robicie, i pamiętajcie, że z pokoju
+rodzi się wolność do bycia całkowicie nieprzewidywalnym. W rzeczy samej.
 
-I następnym razem, gdy będziesz jadł czekoladę i ktoś powie: „Fuj, to niezdrowe,” spójrz mu w oczy, odrzuć głowę do tyłu i powiedz: „Mój Ojciec mi ją dał.”
+I następnym razem, gdy będziesz jadł czekoladę i ktoś powie: „Fuj, to
+niezdrowe,” spójrz mu w oczy, odrzuć głowę do tyłu i powiedz: „Mój
+Ojciec mi ją dał.”
 
 {Śmiech}
 
@@ -320,15 +928,31 @@ W rzeczy samej. „I, o rany, jaka jest pyszna.”
 
 *Jeszua, taśma zaraz się skończy.*
 
-Ona nie lubi, gdy przepadnie choć jedno słowo. Widzicie, musi zabrać te taśmy do innego dobrego przyjaciela, który obecnie nazywa się Tom i uwielbia przepisywać te wszystkie słowa. A on też nie lubi, gdy jakieś słowo przepadnie. Ale kiedy tak się zdarza, wymyśla je i zwykle wychodzi mu to całkiem nieźle.
+Ona nie lubi, gdy przepadnie choć jedno słowo. Widzicie, musi zabrać te
+taśmy do innego dobrego przyjaciela, który obecnie nazywa się Tom i
+uwielbia przepisywać te wszystkie słowa. A on też nie lubi, gdy jakieś
+słowo przepadnie. Ale kiedy tak się zdarza, wymyśla je i zwykle wychodzi
+mu to całkiem nieźle.
 
 {Śmiech}
 
-Czasem udaje mu się usłyszeć, jak szepczę, i wpisuje to, co trzeba. Czasem jednak woli swoje własne wybory. W rzeczy samej. To wszystko jest całkiem zabawne, prawda?
+Czasem udaje mu się usłyszeć, jak szepczę, i wpisuje to, co trzeba.
+Czasem jednak woli swoje własne wybory. W rzeczy samej. To wszystko jest
+całkiem zabawne, prawda?
 
-Czy widzisz, co pochodzi z pokoju? Radość. Radość przepełniająca wszystko. Bądź więc zawsze radosny. Śmiej się, śpiewaj, tańcz i baw się. Zresztą, po zjedzeniu czekolady może to być konieczne. I po prostu pamiętaj o tym: nigdy nie opuściłeś Królestwa Niebieskiego. To niemożliwe. Kiedy rzeczy tego świata zostaną odłożone na bok po raz ostatni, uśmiechniesz się, rozradujesz i będziesz już wiedział: „Ja i mój Ojciec Jedno jesteśmy.”
+Czy widzisz, co pochodzi z pokoju? Radość. Radość przepełniająca
+wszystko. Bądź więc zawsze radosny. Śmiej się, śpiewaj, tańcz i baw się.
+Zresztą, po zjedzeniu czekolady może to być konieczne. I po prostu
+pamiętaj o tym: nigdy nie opuściłeś Królestwa Niebieskiego. To
+niemożliwe. Kiedy rzeczy tego świata zostaną odłożone na bok po raz
+ostatni, uśmiechniesz się, rozradujesz i będziesz już wiedział: „Ja i
+mój Ojciec Jedno jesteśmy.”
 
-Pokój niech będzie z wami. Pokój niech będzie z wami, aż zaprawdę stanie się widoczne na tym planie święte zjednoczenie rzeczy Niebieskich z rzeczami Ziemskimi, aby Światło Chrystusa mogło rozprzestrzenić się od Wschodu aż po Zachód. To właśnie jest znaczenie krzyża i zmartwychwstania.
+Pokój niech będzie z wami. Pokój niech będzie z wami, aż zaprawdę stanie
+się widoczne na tym planie święte zjednoczenie rzeczy Niebieskich z
+rzeczami Ziemskimi, aby Światło Chrystusa mogło rozprzestrzenić się od
+Wschodu aż po Zachód. To właśnie jest znaczenie krzyża i
+zmartwychwstania.
 
 Może warto by poinformować o tym Papieża.
 
@@ -342,7 +966,9 @@ Amen.
 
 Zaprawdę, raz jeszcze zaczynamy.
 
-I zaprawdę, ponownie pozdrawiam was, ukochani i drogocenni przyjaciele, a teraz, gdy wszyscy wiemy, kim jesteśmy, nie ma w Rzeczywistości potrzeby długich powitań.
+I zaprawdę, ponownie pozdrawiam was, ukochani i drogocenni przyjaciele,
+a teraz, gdy wszyscy wiemy, kim jesteśmy, nie ma w Rzeczywistości
+potrzeby długich powitań.
 
 Nie opuściłem was podczas waszej przerwy, jak to nazywacie. To całkiem interesujące określenie, przez was używane. Niektórzy z was wiedzą, co to znaczy zrobić sobie przerwę, która trwa jedno lub dwa wcielenia.
 
@@ -857,20 +1483,28 @@ Najdroższy przyjacielu, drogocenne Dziecko Boskiego Światła, na zawsze nieska
 Ciesz się więc, że zechciałeś utworzyć to miejsce i otworzyłeś drzwi. To nie ja je otworzyłem dla ciebie — ja jedynie wszedłem, ponieważ mnie zaprosiłeś. To właśnie twoja gotowość przyniosła uzdrowienie. Dla mnie to była radość i zaszczyt móc w tym uczestniczyć. Moja obietnica wobec ciebie pozostaje prawdziwa. Jest to ta sama obietnica, którą dałem mojej dawnej przyjaciółce, którą nazywasz Cathy. Powiedziałem: „Cokolwiek poprosisz, uczynię”. Tę samą obietnicę składam teraz tobie. Jestem do twojej dyspozycji. Wezwij mnie, a będę z tobą, a moja obecność przywróci ci pokój, ponieważ to właśnie wybierasz. Moja siła stanie się twoją siłą, a nadejdzie dzień, kiedy zaskoczysz samego siebie, bo spojrzysz i nie będziesz w stanie odróżnić, gdzie ty się kończysz, a ja zaczynam.
 
 Intymność, w rzeczy samej. Co myślisz o trzeciej nad ranem?
- — *Hmm, no cóż, może być w porządku.*
- — Być może zabierzemy się za to powoli.
- — *Dziękuję*.
- — Czy pudełko czekoladek by pomogło?
- — *Może*.
- — W rzeczy samej.
+
+— *Hmm, no cóż, może być w porządku.*
+
+— Być może zabierzemy się za to powoli.
+
+— *Dziękuję*.
+
+— Czy pudełko czekoladek by pomogło?
+
+— *Może*.
+
+— W rzeczy samej.
 
 Teraz zdradzę ci mały sekret. Jestem gościem, który nigdy nie wychodzi.
 
 {Głośny i długi śmiech}
 
 Zaprosiłeś mnie. Kocham cię.
- — *Dziękuję*.
- — W rzeczy samej.
+
+— *Dziękuję*.
+
+— W rzeczy samej.
 
 *Jeszua, jak można porzucić opór?*
 

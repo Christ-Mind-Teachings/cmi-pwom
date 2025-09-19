@@ -210,7 +210,7 @@ A teraz, oczywiście, po tym wszystkim będziesz musiała ogolić głowę i chod
 
 Załóż na szyję neonowy znak: „Dziś zmartwychwstałam.”
 
-To całkiem przyjemne, gdy mogę wtrącać takie rzeczy, gdy mnie proszą i pozwalają na to.]
+To całkiem przyjemne, gdy mogę wtrącać takie rzeczy, gdy mnie proszą i pozwalają na to.
 
 A więc, jak się wszyscy czujemy?
 

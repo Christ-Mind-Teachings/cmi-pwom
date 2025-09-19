@@ -55,15 +55,17 @@ Niektórzy z was zaczynają dostrzegać w tym cichym miejscu pokoju, że rzeczyw
 
 A razem jesteśmy Światłem, które rozświetla ten świat.
 
-
-
 [Chwila ciszy]
 
 Zacznij teraz pozwalać, by oddech poruszał się nieco głębiej w twoim ciele, jakbyś wdychał samo życie, po prostu mówiąc mu „tak”. Nigdy nie jest przed tobą ukryte, ani przez chwilę. To tak, jakby cała Miłość Boga była miękkim, delikatnym, złotym Światłem, które wlewa się w same komórki twojego istnienia, a ty nie robisz nic poza przyjmowaniem tego, co słusznie należy do ciebie.
 
 [Chwila ciszy]
 
-Jeśli chcesz, po prostu pozwól oczom się otworzyć. Jednak równie dobrze możesz je pozostawić zamknięte, ponieważ to nie fizycznymi oczami można dostrzec istotę tego, co jest jedynie prawdziwe. Naucz się patrzeć oczami serca, a twoja wizja nigdy nie będzie zamglona i nigdy cię nie zwiedzie. 
+Jeśli chcesz, po prostu pozwól oczom się otworzyć. Jednak równie dobrze
+możesz je pozostawić zamknięte, ponieważ to nie oczami fizycznymi można
+dostrzec istotę tego, co jest jedynie prawdziwe. Naucz się patrzeć
+oczami serca, a twoja wizja nigdy nie będzie zamglona i nigdy cię nie
+zwiedzie.
 
 Jak się macie?
 

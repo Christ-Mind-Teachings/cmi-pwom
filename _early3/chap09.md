@@ -117,7 +117,7 @@ A teraz, wielkim paradoksem jest to, że im jaśniej świeci twoje Światło, ty
 
 Właśnie tak. A może to być bardziej bolesne jedynie dlatego, że dostrzegasz to głębiej i widzisz szaleństwo tego wyboru. Dlatego właśnie ten ból po prostu popchnie cię do tego, by szybciej dokonać wyboru i pozwolić swojemu Światłu jaśnieć jeszcze pełniej.
 
-*Już to robię. Więc dziękuję. Dziękuję wszystkim tutaj i dziękuję sobie. *
+*Już to robię. Więc dziękuję. Dziękuję wszystkim tutaj i dziękuję sobie.*
 
 Przebudzenie to bardzo interesująca rzecz, ponieważ gdy przychodzi, najczęściej zdaje się przychodzić w subtelny sposób — drobne zmiany, tydzień po tygodniu.
 
@@ -161,7 +161,7 @@ To oznacza, że dokonujesz wyboru, by patrzeć oczami ego, a nie oczami Boga. Al
 
 Ach, dostałem dziś wieczorem Celujący.
 
-*Celujący z plusem. *
+*Celujący z plusem.*
 
 Widzisz więc, że możesz podjąć działanie, aby naprawić nierówności, które mogą się pojawić, ponieważ umysł przepełniony lękiem zawsze będzie działał w sposób niepoczytalny. Ale możesz to uczynić w duchu służby – nie z osądu, nie ze strachu i nie z poczucia winy, lecz dlatego, że dokonujesz wyboru, by w tej sytuacji stać się narzędziem, które przywraca ład w miejsce chaosu. A gdy opadnie kurz, wtedy możesz pomóc w uzdrowieniu, ponieważ najświętszym miejscem na Ziemi jest to, gdzie pradawna nienawiść stała się obecną Miłością.
 
@@ -565,7 +565,7 @@ A zatem: wyraź to, czego pragniesz a powróci do ciebie dziesięciokrotnie. Nie
 
 – O nie, nie możemy do tego dopuścić. Dramat by się skończył!
 
-*– Bardzo dziękuję. *
+*– Bardzo dziękuję.*
 
 Drogocenne Światło Boga, nie jestem w stanie wyrazić słowami wszystkiego, czym jesteś i co zawiera w sobie Królestwo naszego Ojca. A jednak On złożył to na ołtarzu twojego serca i powiedział do ciebie: 
 
